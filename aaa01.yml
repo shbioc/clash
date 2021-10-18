@@ -5,164 +5,156 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '馃弫ZZ_1356', server: 134.195.196.163, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'mattkaydiary.com|美国USUSA/San Jose_2', server: us3.futi.online, port: 443, type: vmess, uuid: ab1f1860-eb87-4385-a543-9f408adb8b32, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /}
-  - {name: '加拿大欢迎订阅Youtube破解资源君_3', server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚭馃嚫US_1270', server: 38.107.226.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_318', server: rxzgzq.moox.icu, port: 34025, type: vmess, uuid: c7d0329b-18b4-49ae-8c7c-f362d03e6bd7, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '加拿大Youtube频道：工具大师！_6', server: 198.57.27.233, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Pool_馃嚪馃嚧RO_721', server: 89.37.95.23, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 'Pool_馃嚠馃嚬IT_596', server: 217.138.219.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '美国欢迎订阅Youtube破解资源君_9', server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国欢迎订阅Youtube破解资源君_10', server: 172.99.190.230, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国欢迎订阅Youtube破解资源君_11', server: 172.99.190.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国欢迎订阅Youtube破解资源君_12', server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国Youtube频道：工具大师！_13', server: 172.99.190.230, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国欢迎订阅Youtube破解资源君_14', server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国欢迎订阅Youtube破解资源君_15', server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_1', server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '香港欢迎订阅Youtube破解资源君_2', server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: hkt01.hk.ld.xxxxx.x-t-fuckword.link}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_3', server: 51.77.53.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国欢迎订阅Youtube破解资源君_4', server: 38.39.192.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_5', server: 51.77.52.206, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_6', server: 51.89.99.52, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '印度欢迎订阅Youtube破解资源君_7', server: 45.79.122.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'mattkaydiary.com|加拿大CACanada/Toronto_8', server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_9', server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '美国欢迎订阅Youtube破解资源君_10', server: 38.107.226.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '英国欢迎订阅Youtube破解资源君_11', server: 193.118.60.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_12', server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '罗马欢迎订阅Youtube破解资源君_13', server: 193.29.107.125, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 'mattkaydiary.com|加拿大CACanada/Toronto_14', server: 134.195.196.133, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 馃弫ZZ_1356
-      - mattkaydiary.com|美国USUSA/San Jose_2
-      - 加拿大欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_1270
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_318
-      - 加拿大Youtube频道：工具大师！_6
-      - Pool_馃嚪馃嚧RO_721
-      - Pool_馃嚠馃嚬IT_596
-      - 美国欢迎订阅Youtube破解资源君_9
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 香港欢迎订阅Youtube破解资源君_2
+      - 欧洲欢迎订阅Youtube破解资源君_3
+      - 美国欢迎订阅Youtube破解资源君_4
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - 印度欢迎订阅Youtube破解资源君_7
+      - mattkaydiary.com|加拿大CACanada/Toronto_8
+      - 欧洲欢迎订阅Youtube破解资源君_9
       - 美国欢迎订阅Youtube破解资源君_10
-      - 美国欢迎订阅Youtube破解资源君_11
-      - 美国欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 美国欢迎订阅Youtube破解资源君_14
-      - 美国欢迎订阅Youtube破解资源君_15
+      - 英国欢迎订阅Youtube破解资源君_11
+      - 欧洲欢迎订阅Youtube破解资源君_12
+      - 罗马欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|加拿大CACanada/Toronto_14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 馃弫ZZ_1356
-      - mattkaydiary.com|美国USUSA/San Jose_2
-      - 加拿大欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_1270
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_318
-      - 加拿大Youtube频道：工具大师！_6
-      - Pool_馃嚪馃嚧RO_721
-      - Pool_馃嚠馃嚬IT_596
-      - 美国欢迎订阅Youtube破解资源君_9
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 香港欢迎订阅Youtube破解资源君_2
+      - 欧洲欢迎订阅Youtube破解资源君_3
+      - 美国欢迎订阅Youtube破解资源君_4
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - 印度欢迎订阅Youtube破解资源君_7
+      - mattkaydiary.com|加拿大CACanada/Toronto_8
+      - 欧洲欢迎订阅Youtube破解资源君_9
       - 美国欢迎订阅Youtube破解资源君_10
-      - 美国欢迎订阅Youtube破解资源君_11
-      - 美国欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 美国欢迎订阅Youtube破解资源君_14
-      - 美国欢迎订阅Youtube破解资源君_15
+      - 英国欢迎订阅Youtube破解资源君_11
+      - 欧洲欢迎订阅Youtube破解资源君_12
+      - 罗马欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|加拿大CACanada/Toronto_14
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 馃弫ZZ_1356
-      - mattkaydiary.com|美国USUSA/San Jose_2
-      - 加拿大欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_1270
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_318
-      - 加拿大Youtube频道：工具大师！_6
-      - Pool_馃嚪馃嚧RO_721
-      - Pool_馃嚠馃嚬IT_596
-      - 美国欢迎订阅Youtube破解资源君_9
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 香港欢迎订阅Youtube破解资源君_2
+      - 欧洲欢迎订阅Youtube破解资源君_3
+      - 美国欢迎订阅Youtube破解资源君_4
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - 印度欢迎订阅Youtube破解资源君_7
+      - mattkaydiary.com|加拿大CACanada/Toronto_8
+      - 欧洲欢迎订阅Youtube破解资源君_9
       - 美国欢迎订阅Youtube破解资源君_10
-      - 美国欢迎订阅Youtube破解资源君_11
-      - 美国欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 美国欢迎订阅Youtube破解资源君_14
-      - 美国欢迎订阅Youtube破解资源君_15
+      - 英国欢迎订阅Youtube破解资源君_11
+      - 欧洲欢迎订阅Youtube破解资源君_12
+      - 罗马欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|加拿大CACanada/Toronto_14
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 馃弫ZZ_1356
-      - mattkaydiary.com|美国USUSA/San Jose_2
-      - 加拿大欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_1270
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_318
-      - 加拿大Youtube频道：工具大师！_6
-      - Pool_馃嚪馃嚧RO_721
-      - Pool_馃嚠馃嚬IT_596
-      - 美国欢迎订阅Youtube破解资源君_9
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 香港欢迎订阅Youtube破解资源君_2
+      - 欧洲欢迎订阅Youtube破解资源君_3
+      - 美国欢迎订阅Youtube破解资源君_4
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - 印度欢迎订阅Youtube破解资源君_7
+      - mattkaydiary.com|加拿大CACanada/Toronto_8
+      - 欧洲欢迎订阅Youtube破解资源君_9
       - 美国欢迎订阅Youtube破解资源君_10
-      - 美国欢迎订阅Youtube破解资源君_11
-      - 美国欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 美国欢迎订阅Youtube破解资源君_14
-      - 美国欢迎订阅Youtube破解资源君_15
+      - 英国欢迎订阅Youtube破解资源君_11
+      - 欧洲欢迎订阅Youtube破解资源君_12
+      - 罗马欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|加拿大CACanada/Toronto_14
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 馃弫ZZ_1356
-      - mattkaydiary.com|美国USUSA/San Jose_2
-      - 加拿大欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_1270
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_318
-      - 加拿大Youtube频道：工具大师！_6
-      - Pool_馃嚪馃嚧RO_721
-      - Pool_馃嚠馃嚬IT_596
-      - 美国欢迎订阅Youtube破解资源君_9
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 香港欢迎订阅Youtube破解资源君_2
+      - 欧洲欢迎订阅Youtube破解资源君_3
+      - 美国欢迎订阅Youtube破解资源君_4
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - 印度欢迎订阅Youtube破解资源君_7
+      - mattkaydiary.com|加拿大CACanada/Toronto_8
+      - 欧洲欢迎订阅Youtube破解资源君_9
       - 美国欢迎订阅Youtube破解资源君_10
-      - 美国欢迎订阅Youtube破解资源君_11
-      - 美国欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 美国欢迎订阅Youtube破解资源君_14
-      - 美国欢迎订阅Youtube破解资源君_15
+      - 英国欢迎订阅Youtube破解资源君_11
+      - 欧洲欢迎订阅Youtube破解资源君_12
+      - 罗马欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|加拿大CACanada/Toronto_14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 馃弫ZZ_1356
-      - mattkaydiary.com|美国USUSA/San Jose_2
-      - 加拿大欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_1270
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_318
-      - 加拿大Youtube频道：工具大师！_6
-      - Pool_馃嚪馃嚧RO_721
-      - Pool_馃嚠馃嚬IT_596
-      - 美国欢迎订阅Youtube破解资源君_9
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 香港欢迎订阅Youtube破解资源君_2
+      - 欧洲欢迎订阅Youtube破解资源君_3
+      - 美国欢迎订阅Youtube破解资源君_4
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - 印度欢迎订阅Youtube破解资源君_7
+      - mattkaydiary.com|加拿大CACanada/Toronto_8
+      - 欧洲欢迎订阅Youtube破解资源君_9
       - 美国欢迎订阅Youtube破解资源君_10
-      - 美国欢迎订阅Youtube破解资源君_11
-      - 美国欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 美国欢迎订阅Youtube破解资源君_14
-      - 美国欢迎订阅Youtube破解资源君_15
+      - 英国欢迎订阅Youtube破解资源君_11
+      - 欧洲欢迎订阅Youtube破解资源君_12
+      - 罗马欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|加拿大CACanada/Toronto_14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 馃弫ZZ_1356
-      - mattkaydiary.com|美国USUSA/San Jose_2
-      - 加拿大欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_1270
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_318
-      - 加拿大Youtube频道：工具大师！_6
-      - Pool_馃嚪馃嚧RO_721
-      - Pool_馃嚠馃嚬IT_596
-      - 美国欢迎订阅Youtube破解资源君_9
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 香港欢迎订阅Youtube破解资源君_2
+      - 欧洲欢迎订阅Youtube破解资源君_3
+      - 美国欢迎订阅Youtube破解资源君_4
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - 印度欢迎订阅Youtube破解资源君_7
+      - mattkaydiary.com|加拿大CACanada/Toronto_8
+      - 欧洲欢迎订阅Youtube破解资源君_9
       - 美国欢迎订阅Youtube破解资源君_10
-      - 美国欢迎订阅Youtube破解资源君_11
-      - 美国欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 美国欢迎订阅Youtube破解资源君_14
-      - 美国欢迎订阅Youtube破解资源君_15
+      - 英国欢迎订阅Youtube破解资源君_11
+      - 欧洲欢迎订阅Youtube破解资源君_12
+      - 罗马欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|加拿大CACanada/Toronto_14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -178,21 +170,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 馃弫ZZ_1356
-      - mattkaydiary.com|美国USUSA/San Jose_2
-      - 加拿大欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_1270
-      - Relay_馃嚚馃嚦CN-馃嚟馃嚢HK_318
-      - 加拿大Youtube频道：工具大师！_6
-      - Pool_馃嚪馃嚧RO_721
-      - Pool_馃嚠馃嚬IT_596
-      - 美国欢迎订阅Youtube破解资源君_9
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 香港欢迎订阅Youtube破解资源君_2
+      - 欧洲欢迎订阅Youtube破解资源君_3
+      - 美国欢迎订阅Youtube破解资源君_4
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - 印度欢迎订阅Youtube破解资源君_7
+      - mattkaydiary.com|加拿大CACanada/Toronto_8
+      - 欧洲欢迎订阅Youtube破解资源君_9
       - 美国欢迎订阅Youtube破解资源君_10
-      - 美国欢迎订阅Youtube破解资源君_11
-      - 美国欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 美国欢迎订阅Youtube破解资源君_14
-      - 美国欢迎订阅Youtube破解资源君_15
+      - 英国欢迎订阅Youtube破解资源君_11
+      - 欧洲欢迎订阅Youtube破解资源君_12
+      - 罗马欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|加拿大CACanada/Toronto_14
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
