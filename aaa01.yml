@@ -5,180 +5,228 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '加拿大Youtube频道：工具大师！_1', server: 198.57.27.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国Youtube频道：工具大师！_2', server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国Youtube频道：工具大师！_3', server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '法国Youtube频道：工具大师！_4', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '法国Youtube频道：工具大师！_5', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_6', server: 167.88.63.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲Youtube频道：工具大师！_7', server: 172.105.172.37, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'mattkaydiary.com|新加坡SGSingapore/Singapore_8', server: 165.232.167.127, port: 80, type: vmess, uuid: d96115c5-ec25-45a3-bc94-2b813db31e09, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: 'mattkaydiary.com|美国USUSA/Atlanta_9', server: 167.88.63.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国Youtube频道：工具大师！_10', server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '馃嚭馃嚫US_1112', server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳洲欢迎订阅Youtube破解资源君_12', server: 172.105.167.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国Youtube频道：工具大师！_13', server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '欧洲Youtube频道：工具大师！_14', server: 172.105.172.41, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚘馃嚭AU_18', server: 172.105.172.41, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国欢迎订阅Youtube破解资源君_16', server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国Youtube频道：工具大师！_17', server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '馃弫ZZ_1350', server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加拿大欢迎订阅Youtube破解资源君_2', server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'mattkaydiary.com|英国GBUnited Kiongdom/London_3', server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '馃嚭馃嚫US_1120', server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国欢迎订阅Youtube破解资源君_5', server: 3.141.37.87, port: 21831, type: vmess, uuid: 96c93fd5-e64f-4fc8-bb9c-113f7d4d809e, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '馃弫ZZ_1363', server: 134.195.196.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_7', server: 167.88.63.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '馃嚭馃嚫US_1275', server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大欢迎订阅Youtube破解资源君_9', server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大欢迎订阅Youtube破解资源君_10', server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大欢迎订阅Youtube破解资源君_11', server: 134.195.196.231, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '加拿大欢迎订阅Youtube破解资源君_12', server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_13', server: 156.251.130.159, port: 443, type: vmess, uuid: 4ab4a477-72db-4b88-a17a-a165a1ade668, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /2532e16141e/, ws-headers: {Host: fache.click}}
+  - {name: '加拿大欢迎订阅Youtube破解资源君_14', server: 134.195.196.199, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '美国欢迎订阅Youtube破解资源君_15', server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '馃弫ZZ_1361', server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国Youtube频道：工具大师！_17', server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国Youtube频道：工具大师！_18', server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国欢迎订阅Youtube破解资源君_19', server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'mattkaydiary.com|美国USUSA/Atlanta_20', server: 167.88.63.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '馃弫ZZ_1349', server: 134.195.196.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '新加坡 2倍速节点_22', server: vip345.xyz, port: 59477, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: '新加坡 2倍速节点02_23', server: vip345.xyz, port: 34725, type: vmess, uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 加拿大Youtube频道：工具大师！_1
-      - 美国Youtube频道：工具大师！_2
-      - 美国Youtube频道：工具大师！_3
-      - 法国Youtube频道：工具大师！_4
-      - 法国Youtube频道：工具大师！_5
-      - 欧洲欢迎订阅Youtube破解资源君_6
-      - 欧洲Youtube频道：工具大师！_7
-      - mattkaydiary.com|新加坡SGSingapore/Singapore_8
-      - mattkaydiary.com|美国USUSA/Atlanta_9
-      - 美国Youtube频道：工具大师！_10
-      - 馃嚭馃嚫US_1112
-      - 澳洲欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 欧洲Youtube频道：工具大师！_14
-      - 馃嚘馃嚭AU_18
-      - 美国欢迎订阅Youtube破解资源君_16
+      - 馃弫ZZ_1350
+      - 加拿大欢迎订阅Youtube破解资源君_2
+      - mattkaydiary.com|英国GBUnited Kiongdom/London_3
+      - 馃嚭馃嚫US_1120
+      - 美国欢迎订阅Youtube破解资源君_5
+      - 馃弫ZZ_1363
+      - 欧洲欢迎订阅Youtube破解资源君_7
+      - 馃嚭馃嚫US_1275
+      - 加拿大欢迎订阅Youtube破解资源君_9
+      - 加拿大欢迎订阅Youtube破解资源君_10
+      - 加拿大欢迎订阅Youtube破解资源君_11
+      - 加拿大欢迎订阅Youtube破解资源君_12
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 加拿大欢迎订阅Youtube破解资源君_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 馃弫ZZ_1361
       - 美国Youtube频道：工具大师！_17
+      - 美国Youtube频道：工具大师！_18
+      - 美国欢迎订阅Youtube破解资源君_19
+      - mattkaydiary.com|美国USUSA/Atlanta_20
+      - 馃弫ZZ_1349
+      - 新加坡 2倍速节点_22
+      - 新加坡 2倍速节点02_23
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 加拿大Youtube频道：工具大师！_1
-      - 美国Youtube频道：工具大师！_2
-      - 美国Youtube频道：工具大师！_3
-      - 法国Youtube频道：工具大师！_4
-      - 法国Youtube频道：工具大师！_5
-      - 欧洲欢迎订阅Youtube破解资源君_6
-      - 欧洲Youtube频道：工具大师！_7
-      - mattkaydiary.com|新加坡SGSingapore/Singapore_8
-      - mattkaydiary.com|美国USUSA/Atlanta_9
-      - 美国Youtube频道：工具大师！_10
-      - 馃嚭馃嚫US_1112
-      - 澳洲欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 欧洲Youtube频道：工具大师！_14
-      - 馃嚘馃嚭AU_18
-      - 美国欢迎订阅Youtube破解资源君_16
+      - 馃弫ZZ_1350
+      - 加拿大欢迎订阅Youtube破解资源君_2
+      - mattkaydiary.com|英国GBUnited Kiongdom/London_3
+      - 馃嚭馃嚫US_1120
+      - 美国欢迎订阅Youtube破解资源君_5
+      - 馃弫ZZ_1363
+      - 欧洲欢迎订阅Youtube破解资源君_7
+      - 馃嚭馃嚫US_1275
+      - 加拿大欢迎订阅Youtube破解资源君_9
+      - 加拿大欢迎订阅Youtube破解资源君_10
+      - 加拿大欢迎订阅Youtube破解资源君_11
+      - 加拿大欢迎订阅Youtube破解资源君_12
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 加拿大欢迎订阅Youtube破解资源君_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 馃弫ZZ_1361
       - 美国Youtube频道：工具大师！_17
+      - 美国Youtube频道：工具大师！_18
+      - 美国欢迎订阅Youtube破解资源君_19
+      - mattkaydiary.com|美国USUSA/Atlanta_20
+      - 馃弫ZZ_1349
+      - 新加坡 2倍速节点_22
+      - 新加坡 2倍速节点02_23
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 加拿大Youtube频道：工具大师！_1
-      - 美国Youtube频道：工具大师！_2
-      - 美国Youtube频道：工具大师！_3
-      - 法国Youtube频道：工具大师！_4
-      - 法国Youtube频道：工具大师！_5
-      - 欧洲欢迎订阅Youtube破解资源君_6
-      - 欧洲Youtube频道：工具大师！_7
-      - mattkaydiary.com|新加坡SGSingapore/Singapore_8
-      - mattkaydiary.com|美国USUSA/Atlanta_9
-      - 美国Youtube频道：工具大师！_10
-      - 馃嚭馃嚫US_1112
-      - 澳洲欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 欧洲Youtube频道：工具大师！_14
-      - 馃嚘馃嚭AU_18
-      - 美国欢迎订阅Youtube破解资源君_16
+      - 馃弫ZZ_1350
+      - 加拿大欢迎订阅Youtube破解资源君_2
+      - mattkaydiary.com|英国GBUnited Kiongdom/London_3
+      - 馃嚭馃嚫US_1120
+      - 美国欢迎订阅Youtube破解资源君_5
+      - 馃弫ZZ_1363
+      - 欧洲欢迎订阅Youtube破解资源君_7
+      - 馃嚭馃嚫US_1275
+      - 加拿大欢迎订阅Youtube破解资源君_9
+      - 加拿大欢迎订阅Youtube破解资源君_10
+      - 加拿大欢迎订阅Youtube破解资源君_11
+      - 加拿大欢迎订阅Youtube破解资源君_12
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 加拿大欢迎订阅Youtube破解资源君_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 馃弫ZZ_1361
       - 美国Youtube频道：工具大师！_17
+      - 美国Youtube频道：工具大师！_18
+      - 美国欢迎订阅Youtube破解资源君_19
+      - mattkaydiary.com|美国USUSA/Atlanta_20
+      - 馃弫ZZ_1349
+      - 新加坡 2倍速节点_22
+      - 新加坡 2倍速节点02_23
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 加拿大Youtube频道：工具大师！_1
-      - 美国Youtube频道：工具大师！_2
-      - 美国Youtube频道：工具大师！_3
-      - 法国Youtube频道：工具大师！_4
-      - 法国Youtube频道：工具大师！_5
-      - 欧洲欢迎订阅Youtube破解资源君_6
-      - 欧洲Youtube频道：工具大师！_7
-      - mattkaydiary.com|新加坡SGSingapore/Singapore_8
-      - mattkaydiary.com|美国USUSA/Atlanta_9
-      - 美国Youtube频道：工具大师！_10
-      - 馃嚭馃嚫US_1112
-      - 澳洲欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 欧洲Youtube频道：工具大师！_14
-      - 馃嚘馃嚭AU_18
-      - 美国欢迎订阅Youtube破解资源君_16
+      - 馃弫ZZ_1350
+      - 加拿大欢迎订阅Youtube破解资源君_2
+      - mattkaydiary.com|英国GBUnited Kiongdom/London_3
+      - 馃嚭馃嚫US_1120
+      - 美国欢迎订阅Youtube破解资源君_5
+      - 馃弫ZZ_1363
+      - 欧洲欢迎订阅Youtube破解资源君_7
+      - 馃嚭馃嚫US_1275
+      - 加拿大欢迎订阅Youtube破解资源君_9
+      - 加拿大欢迎订阅Youtube破解资源君_10
+      - 加拿大欢迎订阅Youtube破解资源君_11
+      - 加拿大欢迎订阅Youtube破解资源君_12
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 加拿大欢迎订阅Youtube破解资源君_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 馃弫ZZ_1361
       - 美国Youtube频道：工具大师！_17
+      - 美国Youtube频道：工具大师！_18
+      - 美国欢迎订阅Youtube破解资源君_19
+      - mattkaydiary.com|美国USUSA/Atlanta_20
+      - 馃弫ZZ_1349
+      - 新加坡 2倍速节点_22
+      - 新加坡 2倍速节点02_23
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 加拿大Youtube频道：工具大师！_1
-      - 美国Youtube频道：工具大师！_2
-      - 美国Youtube频道：工具大师！_3
-      - 法国Youtube频道：工具大师！_4
-      - 法国Youtube频道：工具大师！_5
-      - 欧洲欢迎订阅Youtube破解资源君_6
-      - 欧洲Youtube频道：工具大师！_7
-      - mattkaydiary.com|新加坡SGSingapore/Singapore_8
-      - mattkaydiary.com|美国USUSA/Atlanta_9
-      - 美国Youtube频道：工具大师！_10
-      - 馃嚭馃嚫US_1112
-      - 澳洲欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 欧洲Youtube频道：工具大师！_14
-      - 馃嚘馃嚭AU_18
-      - 美国欢迎订阅Youtube破解资源君_16
+      - 馃弫ZZ_1350
+      - 加拿大欢迎订阅Youtube破解资源君_2
+      - mattkaydiary.com|英国GBUnited Kiongdom/London_3
+      - 馃嚭馃嚫US_1120
+      - 美国欢迎订阅Youtube破解资源君_5
+      - 馃弫ZZ_1363
+      - 欧洲欢迎订阅Youtube破解资源君_7
+      - 馃嚭馃嚫US_1275
+      - 加拿大欢迎订阅Youtube破解资源君_9
+      - 加拿大欢迎订阅Youtube破解资源君_10
+      - 加拿大欢迎订阅Youtube破解资源君_11
+      - 加拿大欢迎订阅Youtube破解资源君_12
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 加拿大欢迎订阅Youtube破解资源君_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 馃弫ZZ_1361
       - 美国Youtube频道：工具大师！_17
+      - 美国Youtube频道：工具大师！_18
+      - 美国欢迎订阅Youtube破解资源君_19
+      - mattkaydiary.com|美国USUSA/Atlanta_20
+      - 馃弫ZZ_1349
+      - 新加坡 2倍速节点_22
+      - 新加坡 2倍速节点02_23
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 加拿大Youtube频道：工具大师！_1
-      - 美国Youtube频道：工具大师！_2
-      - 美国Youtube频道：工具大师！_3
-      - 法国Youtube频道：工具大师！_4
-      - 法国Youtube频道：工具大师！_5
-      - 欧洲欢迎订阅Youtube破解资源君_6
-      - 欧洲Youtube频道：工具大师！_7
-      - mattkaydiary.com|新加坡SGSingapore/Singapore_8
-      - mattkaydiary.com|美国USUSA/Atlanta_9
-      - 美国Youtube频道：工具大师！_10
-      - 馃嚭馃嚫US_1112
-      - 澳洲欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 欧洲Youtube频道：工具大师！_14
-      - 馃嚘馃嚭AU_18
-      - 美国欢迎订阅Youtube破解资源君_16
+      - 馃弫ZZ_1350
+      - 加拿大欢迎订阅Youtube破解资源君_2
+      - mattkaydiary.com|英国GBUnited Kiongdom/London_3
+      - 馃嚭馃嚫US_1120
+      - 美国欢迎订阅Youtube破解资源君_5
+      - 馃弫ZZ_1363
+      - 欧洲欢迎订阅Youtube破解资源君_7
+      - 馃嚭馃嚫US_1275
+      - 加拿大欢迎订阅Youtube破解资源君_9
+      - 加拿大欢迎订阅Youtube破解资源君_10
+      - 加拿大欢迎订阅Youtube破解资源君_11
+      - 加拿大欢迎订阅Youtube破解资源君_12
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 加拿大欢迎订阅Youtube破解资源君_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 馃弫ZZ_1361
       - 美国Youtube频道：工具大师！_17
+      - 美国Youtube频道：工具大师！_18
+      - 美国欢迎订阅Youtube破解资源君_19
+      - mattkaydiary.com|美国USUSA/Atlanta_20
+      - 馃弫ZZ_1349
+      - 新加坡 2倍速节点_22
+      - 新加坡 2倍速节点02_23
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 加拿大Youtube频道：工具大师！_1
-      - 美国Youtube频道：工具大师！_2
-      - 美国Youtube频道：工具大师！_3
-      - 法国Youtube频道：工具大师！_4
-      - 法国Youtube频道：工具大师！_5
-      - 欧洲欢迎订阅Youtube破解资源君_6
-      - 欧洲Youtube频道：工具大师！_7
-      - mattkaydiary.com|新加坡SGSingapore/Singapore_8
-      - mattkaydiary.com|美国USUSA/Atlanta_9
-      - 美国Youtube频道：工具大师！_10
-      - 馃嚭馃嚫US_1112
-      - 澳洲欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 欧洲Youtube频道：工具大师！_14
-      - 馃嚘馃嚭AU_18
-      - 美国欢迎订阅Youtube破解资源君_16
+      - 馃弫ZZ_1350
+      - 加拿大欢迎订阅Youtube破解资源君_2
+      - mattkaydiary.com|英国GBUnited Kiongdom/London_3
+      - 馃嚭馃嚫US_1120
+      - 美国欢迎订阅Youtube破解资源君_5
+      - 馃弫ZZ_1363
+      - 欧洲欢迎订阅Youtube破解资源君_7
+      - 馃嚭馃嚫US_1275
+      - 加拿大欢迎订阅Youtube破解资源君_9
+      - 加拿大欢迎订阅Youtube破解资源君_10
+      - 加拿大欢迎订阅Youtube破解资源君_11
+      - 加拿大欢迎订阅Youtube破解资源君_12
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 加拿大欢迎订阅Youtube破解资源君_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 馃弫ZZ_1361
       - 美国Youtube频道：工具大师！_17
+      - 美国Youtube频道：工具大师！_18
+      - 美国欢迎订阅Youtube破解资源君_19
+      - mattkaydiary.com|美国USUSA/Atlanta_20
+      - 馃弫ZZ_1349
+      - 新加坡 2倍速节点_22
+      - 新加坡 2倍速节点02_23
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -194,23 +242,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 加拿大Youtube频道：工具大师！_1
-      - 美国Youtube频道：工具大师！_2
-      - 美国Youtube频道：工具大师！_3
-      - 法国Youtube频道：工具大师！_4
-      - 法国Youtube频道：工具大师！_5
-      - 欧洲欢迎订阅Youtube破解资源君_6
-      - 欧洲Youtube频道：工具大师！_7
-      - mattkaydiary.com|新加坡SGSingapore/Singapore_8
-      - mattkaydiary.com|美国USUSA/Atlanta_9
-      - 美国Youtube频道：工具大师！_10
-      - 馃嚭馃嚫US_1112
-      - 澳洲欢迎订阅Youtube破解资源君_12
-      - 美国Youtube频道：工具大师！_13
-      - 欧洲Youtube频道：工具大师！_14
-      - 馃嚘馃嚭AU_18
-      - 美国欢迎订阅Youtube破解资源君_16
+      - 馃弫ZZ_1350
+      - 加拿大欢迎订阅Youtube破解资源君_2
+      - mattkaydiary.com|英国GBUnited Kiongdom/London_3
+      - 馃嚭馃嚫US_1120
+      - 美国欢迎订阅Youtube破解资源君_5
+      - 馃弫ZZ_1363
+      - 欧洲欢迎订阅Youtube破解资源君_7
+      - 馃嚭馃嚫US_1275
+      - 加拿大欢迎订阅Youtube破解资源君_9
+      - 加拿大欢迎订阅Youtube破解资源君_10
+      - 加拿大欢迎订阅Youtube破解资源君_11
+      - 加拿大欢迎订阅Youtube破解资源君_12
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 加拿大欢迎订阅Youtube破解资源君_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 馃弫ZZ_1361
       - 美国Youtube频道：工具大师！_17
+      - 美国Youtube频道：工具大师！_18
+      - 美国欢迎订阅Youtube破解资源君_19
+      - mattkaydiary.com|美国USUSA/Atlanta_20
+      - 馃弫ZZ_1349
+      - 新加坡 2倍速节点_22
+      - 新加坡 2倍速节点02_23
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
