@@ -5,19 +5,23 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '美国欢迎订阅Youtube破解资源君_1', server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '美国Youtube频道：工具大师！_2', server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_3', server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '馃嚭馃嚫US_11129+|49.89Mb', server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大欢迎订阅Youtube破解资源君_5', server: 134.195.196.202, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '美国欢迎订阅Youtube破解资源君_6', server: 38.39.192.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '馃嚭馃嚫US_10219+|68.17Mb', server: 38.107.226.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国欢迎订阅Youtube破解资源君_8', server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国欢迎订阅Youtube破解资源君_9', server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '馃嚭馃嚫US_10207+|16.54Mb', server: 38.107.226.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '加拿大欢迎订阅Youtube破解资源君_11', server: 134.195.196.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'mattkaydiary.com|英国GBUnited+Kiongdom/London_12', server: 172.99.190.158, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国欢迎订阅Youtube破解资源君_13', server: 156.146.33.74, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: '美国欢迎订阅Youtube破解资源君_1', server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'mattkaydiary.com|美国USUSA/Fremont_2', server: us2.futi.online, port: 443, type: vmess, uuid: b35d6f70-8b73-4b25-b9b7-a7e4967fcab2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
+  - {name: '馃嚭馃嚫US_9774+|+7.59Mb', server: 156.146.33.74, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '+|+2.20Mb_4', server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '馃嚭馃嚫US_9961+|48.08Mb', server: 156.146.33.74, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: '馃嚭馃嚫US_9900', server: 156.146.62.37, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: '馃嚭馃嚫US_9904', server: 156.146.62.37, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: 'n_ 3.18M_8', server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '馃嚭馃嚫US_9916', server: 156.146.62.37, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: '+|+1.80Mb_10', server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Relay_ | 2.49Mb_11', server: sg.03.ddnss.vip, port: 10086, type: vmess, uuid: 1ce26853-ee96-3881-807c-d322c896c954, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '馃嚭馃嚫US_9879', server: 156.146.62.37, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: '馃嚭馃嚫US_10144', server: 156.146.62.37, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: '馃嚭馃嚫 US_9680 | 2.42Mb', server: sg.01.ddnss.vip, port: 10086, type: vmess, uuid: 1ce26853-ee96-3881-807c-d322c896c954, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '馃嚭馃嚫US_10165', server: 156.146.33.74, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: '馃嚭馃嚫US_10241+|+3.73Mb', server: 156.146.62.37, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '美国Youtube频道：工具大师！_17', server: 156.146.33.74, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -25,36 +29,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国欢迎订阅Youtube破解资源君_1
-      - 美国Youtube频道：工具大师！_2
-      - 欧洲欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_11129+|49.89Mb
-      - 加拿大欢迎订阅Youtube破解资源君_5
-      - 美国欢迎订阅Youtube破解资源君_6
-      - 馃嚭馃嚫US_10219+|68.17Mb
-      - 美国欢迎订阅Youtube破解资源君_8
-      - 美国欢迎订阅Youtube破解资源君_9
-      - 馃嚭馃嚫US_10207+|16.54Mb
-      - 加拿大欢迎订阅Youtube破解资源君_11
-      - mattkaydiary.com|英国GBUnited+Kiongdom/London_12
-      - 美国欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|美国USUSA/Fremont_2
+      - 馃嚭馃嚫US_9774+|+7.59Mb
+      - +|+2.20Mb_4
+      - 馃嚭馃嚫US_9961+|48.08Mb
+      - 馃嚭馃嚫US_9900
+      - 馃嚭馃嚫US_9904
+      - n_ 3.18M_8
+      - 馃嚭馃嚫US_9916
+      - +|+1.80Mb_10
+      - Relay_ | 2.49Mb_11
+      - 馃嚭馃嚫US_9879
+      - 馃嚭馃嚫US_10144
+      - 馃嚭馃嚫 US_9680 | 2.42Mb
+      - 馃嚭馃嚫US_10165
+      - 馃嚭馃嚫US_10241+|+3.73Mb
+      - 美国Youtube频道：工具大师！_17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 美国欢迎订阅Youtube破解资源君_1
-      - 美国Youtube频道：工具大师！_2
-      - 欧洲欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_11129+|49.89Mb
-      - 加拿大欢迎订阅Youtube破解资源君_5
-      - 美国欢迎订阅Youtube破解资源君_6
-      - 馃嚭馃嚫US_10219+|68.17Mb
-      - 美国欢迎订阅Youtube破解资源君_8
-      - 美国欢迎订阅Youtube破解资源君_9
-      - 馃嚭馃嚫US_10207+|16.54Mb
-      - 加拿大欢迎订阅Youtube破解资源君_11
-      - mattkaydiary.com|英国GBUnited+Kiongdom/London_12
-      - 美国欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|美国USUSA/Fremont_2
+      - 馃嚭馃嚫US_9774+|+7.59Mb
+      - +|+2.20Mb_4
+      - 馃嚭馃嚫US_9961+|48.08Mb
+      - 馃嚭馃嚫US_9900
+      - 馃嚭馃嚫US_9904
+      - n_ 3.18M_8
+      - 馃嚭馃嚫US_9916
+      - +|+1.80Mb_10
+      - Relay_ | 2.49Mb_11
+      - 馃嚭馃嚫US_9879
+      - 馃嚭馃嚫US_10144
+      - 馃嚭馃嚫 US_9680 | 2.42Mb
+      - 馃嚭馃嚫US_10165
+      - 馃嚭馃嚫US_10241+|+3.73Mb
+      - 美国Youtube频道：工具大师！_17
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -62,72 +74,88 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国欢迎订阅Youtube破解资源君_1
-      - 美国Youtube频道：工具大师！_2
-      - 欧洲欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_11129+|49.89Mb
-      - 加拿大欢迎订阅Youtube破解资源君_5
-      - 美国欢迎订阅Youtube破解资源君_6
-      - 馃嚭馃嚫US_10219+|68.17Mb
-      - 美国欢迎订阅Youtube破解资源君_8
-      - 美国欢迎订阅Youtube破解资源君_9
-      - 馃嚭馃嚫US_10207+|16.54Mb
-      - 加拿大欢迎订阅Youtube破解资源君_11
-      - mattkaydiary.com|英国GBUnited+Kiongdom/London_12
-      - 美国欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|美国USUSA/Fremont_2
+      - 馃嚭馃嚫US_9774+|+7.59Mb
+      - +|+2.20Mb_4
+      - 馃嚭馃嚫US_9961+|48.08Mb
+      - 馃嚭馃嚫US_9900
+      - 馃嚭馃嚫US_9904
+      - n_ 3.18M_8
+      - 馃嚭馃嚫US_9916
+      - +|+1.80Mb_10
+      - Relay_ | 2.49Mb_11
+      - 馃嚭馃嚫US_9879
+      - 馃嚭馃嚫US_10144
+      - 馃嚭馃嚫 US_9680 | 2.42Mb
+      - 馃嚭馃嚫US_10165
+      - 馃嚭馃嚫US_10241+|+3.73Mb
+      - 美国Youtube频道：工具大师！_17
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - 美国欢迎订阅Youtube破解资源君_1
-      - 美国Youtube频道：工具大师！_2
-      - 欧洲欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_11129+|49.89Mb
-      - 加拿大欢迎订阅Youtube破解资源君_5
-      - 美国欢迎订阅Youtube破解资源君_6
-      - 馃嚭馃嚫US_10219+|68.17Mb
-      - 美国欢迎订阅Youtube破解资源君_8
-      - 美国欢迎订阅Youtube破解资源君_9
-      - 馃嚭馃嚫US_10207+|16.54Mb
-      - 加拿大欢迎订阅Youtube破解资源君_11
-      - mattkaydiary.com|英国GBUnited+Kiongdom/London_12
-      - 美国欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|美国USUSA/Fremont_2
+      - 馃嚭馃嚫US_9774+|+7.59Mb
+      - +|+2.20Mb_4
+      - 馃嚭馃嚫US_9961+|48.08Mb
+      - 馃嚭馃嚫US_9900
+      - 馃嚭馃嚫US_9904
+      - n_ 3.18M_8
+      - 馃嚭馃嚫US_9916
+      - +|+1.80Mb_10
+      - Relay_ | 2.49Mb_11
+      - 馃嚭馃嚫US_9879
+      - 馃嚭馃嚫US_10144
+      - 馃嚭馃嚫 US_9680 | 2.42Mb
+      - 馃嚭馃嚫US_10165
+      - 馃嚭馃嚫US_10241+|+3.73Mb
+      - 美国Youtube频道：工具大师！_17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - 美国欢迎订阅Youtube破解资源君_1
-      - 美国Youtube频道：工具大师！_2
-      - 欧洲欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_11129+|49.89Mb
-      - 加拿大欢迎订阅Youtube破解资源君_5
-      - 美国欢迎订阅Youtube破解资源君_6
-      - 馃嚭馃嚫US_10219+|68.17Mb
-      - 美国欢迎订阅Youtube破解资源君_8
-      - 美国欢迎订阅Youtube破解资源君_9
-      - 馃嚭馃嚫US_10207+|16.54Mb
-      - 加拿大欢迎订阅Youtube破解资源君_11
-      - mattkaydiary.com|英国GBUnited+Kiongdom/London_12
-      - 美国欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|美国USUSA/Fremont_2
+      - 馃嚭馃嚫US_9774+|+7.59Mb
+      - +|+2.20Mb_4
+      - 馃嚭馃嚫US_9961+|48.08Mb
+      - 馃嚭馃嚫US_9900
+      - 馃嚭馃嚫US_9904
+      - n_ 3.18M_8
+      - 馃嚭馃嚫US_9916
+      - +|+1.80Mb_10
+      - Relay_ | 2.49Mb_11
+      - 馃嚭馃嚫US_9879
+      - 馃嚭馃嚫US_10144
+      - 馃嚭馃嚫 US_9680 | 2.42Mb
+      - 馃嚭馃嚫US_10165
+      - 馃嚭馃嚫US_10241+|+3.73Mb
+      - 美国Youtube频道：工具大师！_17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 美国欢迎订阅Youtube破解资源君_1
-      - 美国Youtube频道：工具大师！_2
-      - 欧洲欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_11129+|49.89Mb
-      - 加拿大欢迎订阅Youtube破解资源君_5
-      - 美国欢迎订阅Youtube破解资源君_6
-      - 馃嚭馃嚫US_10219+|68.17Mb
-      - 美国欢迎订阅Youtube破解资源君_8
-      - 美国欢迎订阅Youtube破解资源君_9
-      - 馃嚭馃嚫US_10207+|16.54Mb
-      - 加拿大欢迎订阅Youtube破解资源君_11
-      - mattkaydiary.com|英国GBUnited+Kiongdom/London_12
-      - 美国欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|美国USUSA/Fremont_2
+      - 馃嚭馃嚫US_9774+|+7.59Mb
+      - +|+2.20Mb_4
+      - 馃嚭馃嚫US_9961+|48.08Mb
+      - 馃嚭馃嚫US_9900
+      - 馃嚭馃嚫US_9904
+      - n_ 3.18M_8
+      - 馃嚭馃嚫US_9916
+      - +|+1.80Mb_10
+      - Relay_ | 2.49Mb_11
+      - 馃嚭馃嚫US_9879
+      - 馃嚭馃嚫US_10144
+      - 馃嚭馃嚫 US_9680 | 2.42Mb
+      - 馃嚭馃嚫US_10165
+      - 馃嚭馃嚫US_10241+|+3.73Mb
+      - 美国Youtube频道：工具大师！_17
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -135,18 +163,22 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国欢迎订阅Youtube破解资源君_1
-      - 美国Youtube频道：工具大师！_2
-      - 欧洲欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_11129+|49.89Mb
-      - 加拿大欢迎订阅Youtube破解资源君_5
-      - 美国欢迎订阅Youtube破解资源君_6
-      - 馃嚭馃嚫US_10219+|68.17Mb
-      - 美国欢迎订阅Youtube破解资源君_8
-      - 美国欢迎订阅Youtube破解资源君_9
-      - 馃嚭馃嚫US_10207+|16.54Mb
-      - 加拿大欢迎订阅Youtube破解资源君_11
-      - mattkaydiary.com|英国GBUnited+Kiongdom/London_12
-      - 美国欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|美国USUSA/Fremont_2
+      - 馃嚭馃嚫US_9774+|+7.59Mb
+      - +|+2.20Mb_4
+      - 馃嚭馃嚫US_9961+|48.08Mb
+      - 馃嚭馃嚫US_9900
+      - 馃嚭馃嚫US_9904
+      - n_ 3.18M_8
+      - 馃嚭馃嚫US_9916
+      - +|+1.80Mb_10
+      - Relay_ | 2.49Mb_11
+      - 馃嚭馃嚫US_9879
+      - 馃嚭馃嚫US_10144
+      - 馃嚭馃嚫 US_9680 | 2.42Mb
+      - 馃嚭馃嚫US_10165
+      - 馃嚭馃嚫US_10241+|+3.73Mb
+      - 美国Youtube频道：工具大师！_17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -163,18 +195,22 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国欢迎订阅Youtube破解资源君_1
-      - 美国Youtube频道：工具大师！_2
-      - 欧洲欢迎订阅Youtube破解资源君_3
-      - 馃嚭馃嚫US_11129+|49.89Mb
-      - 加拿大欢迎订阅Youtube破解资源君_5
-      - 美国欢迎订阅Youtube破解资源君_6
-      - 馃嚭馃嚫US_10219+|68.17Mb
-      - 美国欢迎订阅Youtube破解资源君_8
-      - 美国欢迎订阅Youtube破解资源君_9
-      - 馃嚭馃嚫US_10207+|16.54Mb
-      - 加拿大欢迎订阅Youtube破解资源君_11
-      - mattkaydiary.com|英国GBUnited+Kiongdom/London_12
-      - 美国欢迎订阅Youtube破解资源君_13
+      - mattkaydiary.com|美国USUSA/Fremont_2
+      - 馃嚭馃嚫US_9774+|+7.59Mb
+      - +|+2.20Mb_4
+      - 馃嚭馃嚫US_9961+|48.08Mb
+      - 馃嚭馃嚫US_9900
+      - 馃嚭馃嚫US_9904
+      - n_ 3.18M_8
+      - 馃嚭馃嚫US_9916
+      - +|+1.80Mb_10
+      - Relay_ | 2.49Mb_11
+      - 馃嚭馃嚫US_9879
+      - 馃嚭馃嚫US_10144
+      - 馃嚭馃嚫 US_9680 | 2.42Mb
+      - 馃嚭馃嚫US_10165
+      - 馃嚭馃嚫US_10241+|+3.73Mb
+      - 美国Youtube频道：工具大师！_17
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
