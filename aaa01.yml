@@ -5,284 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸Youtube频道：工具大师！_1', server: 172.252.99.27, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: '🇺🇸Youtube频道：工具大师！_2', server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: '澳大利亚+🇦🇺Youtube频道：工具大师！_3', server: 172.252.64.56, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: '+|+1.66Mb_4', server: 156.146.33.74, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1302', server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '美国欢迎订阅Youtube破解资源君_6', server: 156.146.33.74, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: '+|+1.87Mb_7', server: 156.146.33.74, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: '馃嚭馃嚫US_10174', server: 156.146.33.74, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: 'mattkaydiary.com|荷兰NLNetherlands/Amsterdam_9', server: 104.245.96.123, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '馃嚭馃嚫US_10171', server: 156.146.33.74, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
-  - {name: '+|+2.08Mb_11', server: 156.146.33.74, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 'n__14363+|+1.95Mb', server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '馃嚭馃嚫US_10168', server: 156.146.33.74, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '美国Youtube频道：工具大师！_14', server: 156.146.33.74, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
-  - {name: '+|+1.79Mb_15', server: 156.146.33.74, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: '馃嚭馃嚫US_9961+|48.08Mb', server: 156.146.33.74, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: '馃嚭馃嚫US_10141', server: 156.146.62.37, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: '馃嚭馃嚫US_14443', server: 156.146.33.74, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: '美国欢迎订阅Youtube破解资源君_19', server: 156.146.33.74, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: '+|+2.10Mb_20', server: 156.146.33.74, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: '+|+1.98Mb_21', server: 156.146.62.37, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: '+|+1.76Mb_22', server: 156.146.62.37, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 'n__14362+|+1.93Mb', server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚭馃嚫US_12312', server: 156.146.62.37, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: '+|+1.74Mb_25', server: 156.146.62.37, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
-  - {name: '美国欢迎订阅Youtube破解资源君_26', server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '馃嚭馃嚫US_12317', server: 156.146.62.37, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
-  - {name: '馃嚭馃嚫US_12318', server: 156.146.62.37, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: '+|+2.04Mb_29', server: 156.146.62.37, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
-  - {name: 'n__14331+|+1.94Mb', server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '美国Youtube频道：工具大师！_1', server: 138.199.42.170, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 'mattkaydiary.com_2', server: 1.transit.t.qjnodeip.xyz, port: 60649, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /HGzsmqibHG02Z, ws-headers: {Host: dddwda.xyz}}
+  - {name: '美国Youtube频道：工具大师！_3', server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '+|+1.81Mb_4', server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: '🇺🇸_US美国Youtube频道：工具大师！_5', server: 185.124.240.146, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: '美国Youtube频道：工具大师！_6', server: 138.199.42.170, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '德国+🇩🇪Youtube频道：工具大师！_7', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇷🇴ROYoutube频道：工具大师！_8', server: 185.124.240.152, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '🇷🇴ROYoutube频道：工具大师！_9', server: 185.124.240.146, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '🇷🇴ROYoutube频道：工具大师！_10', server: 185.124.240.146, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸Youtube频道：工具大师！_1
-      - 🇺🇸Youtube频道：工具大师！_2
-      - 澳大利亚+🇦🇺Youtube频道：工具大师！_3
-      - +|+1.66Mb_4
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1302
-      - 美国欢迎订阅Youtube破解资源君_6
-      - +|+1.87Mb_7
-      - 馃嚭馃嚫US_10174
-      - mattkaydiary.com|荷兰NLNetherlands/Amsterdam_9
-      - 馃嚭馃嚫US_10171
-      - +|+2.08Mb_11
-      - n__14363+|+1.95Mb
-      - 馃嚭馃嚫US_10168
-      - 美国Youtube频道：工具大师！_14
-      - +|+1.79Mb_15
-      - 馃嚭馃嚫US_9961+|48.08Mb
-      - 馃嚭馃嚫US_10141
-      - 馃嚭馃嚫US_14443
-      - 美国欢迎订阅Youtube破解资源君_19
-      - +|+2.10Mb_20
-      - +|+1.98Mb_21
-      - +|+1.76Mb_22
-      - n__14362+|+1.93Mb
-      - 馃嚭馃嚫US_12312
-      - +|+1.74Mb_25
-      - 美国欢迎订阅Youtube破解资源君_26
-      - 馃嚭馃嚫US_12317
-      - 馃嚭馃嚫US_12318
-      - +|+2.04Mb_29
-      - n__14331+|+1.94Mb
+      - 美国Youtube频道：工具大师！_1
+      - mattkaydiary.com_2
+      - 美国Youtube频道：工具大师！_3
+      - +|+1.81Mb_4
+      - 🇺🇸_US美国Youtube频道：工具大师！_5
+      - 美国Youtube频道：工具大师！_6
+      - 德国+🇩🇪Youtube频道：工具大师！_7
+      - 🇷🇴ROYoutube频道：工具大师！_8
+      - 🇷🇴ROYoutube频道：工具大师！_9
+      - 🇷🇴ROYoutube频道：工具大师！_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸Youtube频道：工具大师！_1
-      - 🇺🇸Youtube频道：工具大师！_2
-      - 澳大利亚+🇦🇺Youtube频道：工具大师！_3
-      - +|+1.66Mb_4
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1302
-      - 美国欢迎订阅Youtube破解资源君_6
-      - +|+1.87Mb_7
-      - 馃嚭馃嚫US_10174
-      - mattkaydiary.com|荷兰NLNetherlands/Amsterdam_9
-      - 馃嚭馃嚫US_10171
-      - +|+2.08Mb_11
-      - n__14363+|+1.95Mb
-      - 馃嚭馃嚫US_10168
-      - 美国Youtube频道：工具大师！_14
-      - +|+1.79Mb_15
-      - 馃嚭馃嚫US_9961+|48.08Mb
-      - 馃嚭馃嚫US_10141
-      - 馃嚭馃嚫US_14443
-      - 美国欢迎订阅Youtube破解资源君_19
-      - +|+2.10Mb_20
-      - +|+1.98Mb_21
-      - +|+1.76Mb_22
-      - n__14362+|+1.93Mb
-      - 馃嚭馃嚫US_12312
-      - +|+1.74Mb_25
-      - 美国欢迎订阅Youtube破解资源君_26
-      - 馃嚭馃嚫US_12317
-      - 馃嚭馃嚫US_12318
-      - +|+2.04Mb_29
-      - n__14331+|+1.94Mb
+      - 美国Youtube频道：工具大师！_1
+      - mattkaydiary.com_2
+      - 美国Youtube频道：工具大师！_3
+      - +|+1.81Mb_4
+      - 🇺🇸_US美国Youtube频道：工具大师！_5
+      - 美国Youtube频道：工具大师！_6
+      - 德国+🇩🇪Youtube频道：工具大师！_7
+      - 🇷🇴ROYoutube频道：工具大师！_8
+      - 🇷🇴ROYoutube频道：工具大师！_9
+      - 🇷🇴ROYoutube频道：工具大师！_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸Youtube频道：工具大师！_1
-      - 🇺🇸Youtube频道：工具大师！_2
-      - 澳大利亚+🇦🇺Youtube频道：工具大师！_3
-      - +|+1.66Mb_4
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1302
-      - 美国欢迎订阅Youtube破解资源君_6
-      - +|+1.87Mb_7
-      - 馃嚭馃嚫US_10174
-      - mattkaydiary.com|荷兰NLNetherlands/Amsterdam_9
-      - 馃嚭馃嚫US_10171
-      - +|+2.08Mb_11
-      - n__14363+|+1.95Mb
-      - 馃嚭馃嚫US_10168
-      - 美国Youtube频道：工具大师！_14
-      - +|+1.79Mb_15
-      - 馃嚭馃嚫US_9961+|48.08Mb
-      - 馃嚭馃嚫US_10141
-      - 馃嚭馃嚫US_14443
-      - 美国欢迎订阅Youtube破解资源君_19
-      - +|+2.10Mb_20
-      - +|+1.98Mb_21
-      - +|+1.76Mb_22
-      - n__14362+|+1.93Mb
-      - 馃嚭馃嚫US_12312
-      - +|+1.74Mb_25
-      - 美国欢迎订阅Youtube破解资源君_26
-      - 馃嚭馃嚫US_12317
-      - 馃嚭馃嚫US_12318
-      - +|+2.04Mb_29
-      - n__14331+|+1.94Mb
+      - 美国Youtube频道：工具大师！_1
+      - mattkaydiary.com_2
+      - 美国Youtube频道：工具大师！_3
+      - +|+1.81Mb_4
+      - 🇺🇸_US美国Youtube频道：工具大师！_5
+      - 美国Youtube频道：工具大师！_6
+      - 德国+🇩🇪Youtube频道：工具大师！_7
+      - 🇷🇴ROYoutube频道：工具大师！_8
+      - 🇷🇴ROYoutube频道：工具大师！_9
+      - 🇷🇴ROYoutube频道：工具大师！_10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸Youtube频道：工具大师！_1
-      - 🇺🇸Youtube频道：工具大师！_2
-      - 澳大利亚+🇦🇺Youtube频道：工具大师！_3
-      - +|+1.66Mb_4
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1302
-      - 美国欢迎订阅Youtube破解资源君_6
-      - +|+1.87Mb_7
-      - 馃嚭馃嚫US_10174
-      - mattkaydiary.com|荷兰NLNetherlands/Amsterdam_9
-      - 馃嚭馃嚫US_10171
-      - +|+2.08Mb_11
-      - n__14363+|+1.95Mb
-      - 馃嚭馃嚫US_10168
-      - 美国Youtube频道：工具大师！_14
-      - +|+1.79Mb_15
-      - 馃嚭馃嚫US_9961+|48.08Mb
-      - 馃嚭馃嚫US_10141
-      - 馃嚭馃嚫US_14443
-      - 美国欢迎订阅Youtube破解资源君_19
-      - +|+2.10Mb_20
-      - +|+1.98Mb_21
-      - +|+1.76Mb_22
-      - n__14362+|+1.93Mb
-      - 馃嚭馃嚫US_12312
-      - +|+1.74Mb_25
-      - 美国欢迎订阅Youtube破解资源君_26
-      - 馃嚭馃嚫US_12317
-      - 馃嚭馃嚫US_12318
-      - +|+2.04Mb_29
-      - n__14331+|+1.94Mb
+      - 美国Youtube频道：工具大师！_1
+      - mattkaydiary.com_2
+      - 美国Youtube频道：工具大师！_3
+      - +|+1.81Mb_4
+      - 🇺🇸_US美国Youtube频道：工具大师！_5
+      - 美国Youtube频道：工具大师！_6
+      - 德国+🇩🇪Youtube频道：工具大师！_7
+      - 🇷🇴ROYoutube频道：工具大师！_8
+      - 🇷🇴ROYoutube频道：工具大师！_9
+      - 🇷🇴ROYoutube频道：工具大师！_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸Youtube频道：工具大师！_1
-      - 🇺🇸Youtube频道：工具大师！_2
-      - 澳大利亚+🇦🇺Youtube频道：工具大师！_3
-      - +|+1.66Mb_4
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1302
-      - 美国欢迎订阅Youtube破解资源君_6
-      - +|+1.87Mb_7
-      - 馃嚭馃嚫US_10174
-      - mattkaydiary.com|荷兰NLNetherlands/Amsterdam_9
-      - 馃嚭馃嚫US_10171
-      - +|+2.08Mb_11
-      - n__14363+|+1.95Mb
-      - 馃嚭馃嚫US_10168
-      - 美国Youtube频道：工具大师！_14
-      - +|+1.79Mb_15
-      - 馃嚭馃嚫US_9961+|48.08Mb
-      - 馃嚭馃嚫US_10141
-      - 馃嚭馃嚫US_14443
-      - 美国欢迎订阅Youtube破解资源君_19
-      - +|+2.10Mb_20
-      - +|+1.98Mb_21
-      - +|+1.76Mb_22
-      - n__14362+|+1.93Mb
-      - 馃嚭馃嚫US_12312
-      - +|+1.74Mb_25
-      - 美国欢迎订阅Youtube破解资源君_26
-      - 馃嚭馃嚫US_12317
-      - 馃嚭馃嚫US_12318
-      - +|+2.04Mb_29
-      - n__14331+|+1.94Mb
+      - 美国Youtube频道：工具大师！_1
+      - mattkaydiary.com_2
+      - 美国Youtube频道：工具大师！_3
+      - +|+1.81Mb_4
+      - 🇺🇸_US美国Youtube频道：工具大师！_5
+      - 美国Youtube频道：工具大师！_6
+      - 德国+🇩🇪Youtube频道：工具大师！_7
+      - 🇷🇴ROYoutube频道：工具大师！_8
+      - 🇷🇴ROYoutube频道：工具大师！_9
+      - 🇷🇴ROYoutube频道：工具大师！_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸Youtube频道：工具大师！_1
-      - 🇺🇸Youtube频道：工具大师！_2
-      - 澳大利亚+🇦🇺Youtube频道：工具大师！_3
-      - +|+1.66Mb_4
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1302
-      - 美国欢迎订阅Youtube破解资源君_6
-      - +|+1.87Mb_7
-      - 馃嚭馃嚫US_10174
-      - mattkaydiary.com|荷兰NLNetherlands/Amsterdam_9
-      - 馃嚭馃嚫US_10171
-      - +|+2.08Mb_11
-      - n__14363+|+1.95Mb
-      - 馃嚭馃嚫US_10168
-      - 美国Youtube频道：工具大师！_14
-      - +|+1.79Mb_15
-      - 馃嚭馃嚫US_9961+|48.08Mb
-      - 馃嚭馃嚫US_10141
-      - 馃嚭馃嚫US_14443
-      - 美国欢迎订阅Youtube破解资源君_19
-      - +|+2.10Mb_20
-      - +|+1.98Mb_21
-      - +|+1.76Mb_22
-      - n__14362+|+1.93Mb
-      - 馃嚭馃嚫US_12312
-      - +|+1.74Mb_25
-      - 美国欢迎订阅Youtube破解资源君_26
-      - 馃嚭馃嚫US_12317
-      - 馃嚭馃嚫US_12318
-      - +|+2.04Mb_29
-      - n__14331+|+1.94Mb
+      - 美国Youtube频道：工具大师！_1
+      - mattkaydiary.com_2
+      - 美国Youtube频道：工具大师！_3
+      - +|+1.81Mb_4
+      - 🇺🇸_US美国Youtube频道：工具大师！_5
+      - 美国Youtube频道：工具大师！_6
+      - 德国+🇩🇪Youtube频道：工具大师！_7
+      - 🇷🇴ROYoutube频道：工具大师！_8
+      - 🇷🇴ROYoutube频道：工具大师！_9
+      - 🇷🇴ROYoutube频道：工具大师！_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸Youtube频道：工具大师！_1
-      - 🇺🇸Youtube频道：工具大师！_2
-      - 澳大利亚+🇦🇺Youtube频道：工具大师！_3
-      - +|+1.66Mb_4
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1302
-      - 美国欢迎订阅Youtube破解资源君_6
-      - +|+1.87Mb_7
-      - 馃嚭馃嚫US_10174
-      - mattkaydiary.com|荷兰NLNetherlands/Amsterdam_9
-      - 馃嚭馃嚫US_10171
-      - +|+2.08Mb_11
-      - n__14363+|+1.95Mb
-      - 馃嚭馃嚫US_10168
-      - 美国Youtube频道：工具大师！_14
-      - +|+1.79Mb_15
-      - 馃嚭馃嚫US_9961+|48.08Mb
-      - 馃嚭馃嚫US_10141
-      - 馃嚭馃嚫US_14443
-      - 美国欢迎订阅Youtube破解资源君_19
-      - +|+2.10Mb_20
-      - +|+1.98Mb_21
-      - +|+1.76Mb_22
-      - n__14362+|+1.93Mb
-      - 馃嚭馃嚫US_12312
-      - +|+1.74Mb_25
-      - 美国欢迎订阅Youtube破解资源君_26
-      - 馃嚭馃嚫US_12317
-      - 馃嚭馃嚫US_12318
-      - +|+2.04Mb_29
-      - n__14331+|+1.94Mb
+      - 美国Youtube频道：工具大师！_1
+      - mattkaydiary.com_2
+      - 美国Youtube频道：工具大师！_3
+      - +|+1.81Mb_4
+      - 🇺🇸_US美国Youtube频道：工具大师！_5
+      - 美国Youtube频道：工具大师！_6
+      - 德国+🇩🇪Youtube频道：工具大师！_7
+      - 🇷🇴ROYoutube频道：工具大师！_8
+      - 🇷🇴ROYoutube频道：工具大师！_9
+      - 🇷🇴ROYoutube频道：工具大师！_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -298,36 +138,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸Youtube频道：工具大师！_1
-      - 🇺🇸Youtube频道：工具大师！_2
-      - 澳大利亚+🇦🇺Youtube频道：工具大师！_3
-      - +|+1.66Mb_4
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1302
-      - 美国欢迎订阅Youtube破解资源君_6
-      - +|+1.87Mb_7
-      - 馃嚭馃嚫US_10174
-      - mattkaydiary.com|荷兰NLNetherlands/Amsterdam_9
-      - 馃嚭馃嚫US_10171
-      - +|+2.08Mb_11
-      - n__14363+|+1.95Mb
-      - 馃嚭馃嚫US_10168
-      - 美国Youtube频道：工具大师！_14
-      - +|+1.79Mb_15
-      - 馃嚭馃嚫US_9961+|48.08Mb
-      - 馃嚭馃嚫US_10141
-      - 馃嚭馃嚫US_14443
-      - 美国欢迎订阅Youtube破解资源君_19
-      - +|+2.10Mb_20
-      - +|+1.98Mb_21
-      - +|+1.76Mb_22
-      - n__14362+|+1.93Mb
-      - 馃嚭馃嚫US_12312
-      - +|+1.74Mb_25
-      - 美国欢迎订阅Youtube破解资源君_26
-      - 馃嚭馃嚫US_12317
-      - 馃嚭馃嚫US_12318
-      - +|+2.04Mb_29
-      - n__14331+|+1.94Mb
+      - 美国Youtube频道：工具大师！_1
+      - mattkaydiary.com_2
+      - 美国Youtube频道：工具大师！_3
+      - +|+1.81Mb_4
+      - 🇺🇸_US美国Youtube频道：工具大师！_5
+      - 美国Youtube频道：工具大师！_6
+      - 德国+🇩🇪Youtube频道：工具大师！_7
+      - 🇷🇴ROYoutube频道：工具大师！_8
+      - 🇷🇴ROYoutube频道：工具大师！_9
+      - 🇷🇴ROYoutube频道：工具大师！_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10352,4 +10172,3 @@ rules:
   - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-
