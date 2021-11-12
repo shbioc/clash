@@ -5,268 +5,140 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1207', server: zoomlogin.hostmeetingnow.tk, port: 8880, type: vmess, uuid: 8cf979a4-7d96-4915-abf9-167f295b3fa7, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /45ufd6, ws-headers: {Host: zoomlogin.hostmeetingnow.tk}}
-  - {name: '🇺🇸_US美国Youtube频道：工具大师！_2', server: 185.124.240.146, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: '🇷🇴ROYoutube频道：工具大师！_3', server: 185.124.240.146, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
   - {name: 'Pool_馃嚭馃嚫US_946', server: 198.8.92.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '+|+1.81Mb_5', server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
-  - {name: '🇺🇸美国Youtube频道：工具大师！_6', server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Pool_馃嚭馃嚫US_971', server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 'Pool_馃嚭馃嚫US_1073', server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 'mattkaydiary.com|俄罗斯RURussia/Moscow_9', server: ruml.jjyun.ren, port: 88, type: vmess, uuid: f46a2724-ec1f-465f-ab6d-566a963ad0a2, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
-  - {name: '🇺🇸_US美国Youtube频道：工具大师！_10', server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Pool_馃嚭馃嚫US_1040', server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 'USYoutube频道：工具大师！_12', server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: '🇺🇸美国Youtube频道：工具大师！_13', server: 167.88.61.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Pool_馃嚭馃嚫US_1249', server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: '美国Youtube频道：工具大师！_15', server: 138.199.42.170, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: '瑞士+🇨🇭Youtube频道：工具大师！_16', server: 156.146.62.37, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 'Pool_馃嚭馃嚫US_968', server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 'mattkaydiary.com|英国GBUnited Kiongdom/London_18', server: ukdll.52jjyun.top, port: 80, type: vmess, uuid: 1b374791-4b40-4784-8e48-77903371b520, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
-  - {name: 'mattkaydiary.com|英国GBUnited Kiongdom/London_19', server: ukdll.52jjyun.top, port: 80, type: vmess, uuid: f46a2724-ec1f-465f-ab6d-566a963ad0a2, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
-  - {name: 'Pool_馃嚭馃嚫US_973', server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 'Pool_馃嚭馃嚫US_974', server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 'mattkaydiary.com|美国USUSA/Dallas_22', server: usdsl.52jjyun.top, port: 80, type: vmess, uuid: 9d8349dd-027c-41d1-9d24-f428995c926b, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
-  - {name: '瑞士+🇨🇭Youtube频道：工具大师！_23', server: 156.146.62.37, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: '美国Youtube频道：工具大师！_24', server: 138.199.42.170, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
-  - {name: '美国Youtube频道：工具大师！_25', server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
-  - {name: '美国Youtube频道：工具大师！_26', server: 138.199.42.170, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: '美国Youtube频道：工具大师！_27', server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: '🇺🇸_US美国Youtube频道：工具大师！_28', server: 185.124.240.146, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: 'Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_54', server: ss2.ssrsub.com, port: 6443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: 'USYoutube频道：工具大师！_3', server: 138.199.42.134, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 'Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_44', server: ss4.ssrsub.com, port: 6443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: '🇷🇴ROYoutube频道：工具大师！_5', server: 185.124.240.146, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: 'USYoutube频道：工具大师！_6', server: 138.199.42.134, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: '+|+1.81Mb_7', server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: '美国Youtube频道：工具大师！_8', server: 138.199.42.170, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: 'mattkaydiary.com|日本JPJapan/Tokyo_9', server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
+  - {name: 'Pool_馃嚭馃嚫US_975', server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: '美国Youtube频道：工具大师！_11', server: 138.199.42.170, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: 'Pool_馃嚭馃嚫US_1022', server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1207
-      - 🇺🇸_US美国Youtube频道：工具大师！_2
-      - 🇷🇴ROYoutube频道：工具大师！_3
       - Pool_馃嚭馃嚫US_946
-      - +|+1.81Mb_5
-      - 🇺🇸美国Youtube频道：工具大师！_6
-      - Pool_馃嚭馃嚫US_971
-      - Pool_馃嚭馃嚫US_1073
-      - mattkaydiary.com|俄罗斯RURussia/Moscow_9
-      - 🇺🇸_US美国Youtube频道：工具大师！_10
-      - Pool_馃嚭馃嚫US_1040
-      - USYoutube频道：工具大师！_12
-      - 🇺🇸美国Youtube频道：工具大师！_13
-      - Pool_馃嚭馃嚫US_1249
-      - 美国Youtube频道：工具大师！_15
-      - 瑞士+🇨🇭Youtube频道：工具大师！_16
-      - Pool_馃嚭馃嚫US_968
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_18
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_19
-      - Pool_馃嚭馃嚫US_973
-      - Pool_馃嚭馃嚫US_974
-      - mattkaydiary.com|美国USUSA/Dallas_22
-      - 瑞士+🇨🇭Youtube频道：工具大师！_23
-      - 美国Youtube频道：工具大师！_24
-      - 美国Youtube频道：工具大师！_25
-      - 美国Youtube频道：工具大师！_26
-      - 美国Youtube频道：工具大师！_27
-      - 🇺🇸_US美国Youtube频道：工具大师！_28
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_54
+      - USYoutube频道：工具大师！_3
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_44
+      - 🇷🇴ROYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - +|+1.81Mb_7
+      - 美国Youtube频道：工具大师！_8
+      - mattkaydiary.com|日本JPJapan/Tokyo_9
+      - Pool_馃嚭馃嚫US_975
+      - 美国Youtube频道：工具大师！_11
+      - Pool_馃嚭馃嚫US_1022
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1207
-      - 🇺🇸_US美国Youtube频道：工具大师！_2
-      - 🇷🇴ROYoutube频道：工具大师！_3
       - Pool_馃嚭馃嚫US_946
-      - +|+1.81Mb_5
-      - 🇺🇸美国Youtube频道：工具大师！_6
-      - Pool_馃嚭馃嚫US_971
-      - Pool_馃嚭馃嚫US_1073
-      - mattkaydiary.com|俄罗斯RURussia/Moscow_9
-      - 🇺🇸_US美国Youtube频道：工具大师！_10
-      - Pool_馃嚭馃嚫US_1040
-      - USYoutube频道：工具大师！_12
-      - 🇺🇸美国Youtube频道：工具大师！_13
-      - Pool_馃嚭馃嚫US_1249
-      - 美国Youtube频道：工具大师！_15
-      - 瑞士+🇨🇭Youtube频道：工具大师！_16
-      - Pool_馃嚭馃嚫US_968
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_18
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_19
-      - Pool_馃嚭馃嚫US_973
-      - Pool_馃嚭馃嚫US_974
-      - mattkaydiary.com|美国USUSA/Dallas_22
-      - 瑞士+🇨🇭Youtube频道：工具大师！_23
-      - 美国Youtube频道：工具大师！_24
-      - 美国Youtube频道：工具大师！_25
-      - 美国Youtube频道：工具大师！_26
-      - 美国Youtube频道：工具大师！_27
-      - 🇺🇸_US美国Youtube频道：工具大师！_28
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_54
+      - USYoutube频道：工具大师！_3
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_44
+      - 🇷🇴ROYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - +|+1.81Mb_7
+      - 美国Youtube频道：工具大师！_8
+      - mattkaydiary.com|日本JPJapan/Tokyo_9
+      - Pool_馃嚭馃嚫US_975
+      - 美国Youtube频道：工具大师！_11
+      - Pool_馃嚭馃嚫US_1022
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1207
-      - 🇺🇸_US美国Youtube频道：工具大师！_2
-      - 🇷🇴ROYoutube频道：工具大师！_3
       - Pool_馃嚭馃嚫US_946
-      - +|+1.81Mb_5
-      - 🇺🇸美国Youtube频道：工具大师！_6
-      - Pool_馃嚭馃嚫US_971
-      - Pool_馃嚭馃嚫US_1073
-      - mattkaydiary.com|俄罗斯RURussia/Moscow_9
-      - 🇺🇸_US美国Youtube频道：工具大师！_10
-      - Pool_馃嚭馃嚫US_1040
-      - USYoutube频道：工具大师！_12
-      - 🇺🇸美国Youtube频道：工具大师！_13
-      - Pool_馃嚭馃嚫US_1249
-      - 美国Youtube频道：工具大师！_15
-      - 瑞士+🇨🇭Youtube频道：工具大师！_16
-      - Pool_馃嚭馃嚫US_968
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_18
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_19
-      - Pool_馃嚭馃嚫US_973
-      - Pool_馃嚭馃嚫US_974
-      - mattkaydiary.com|美国USUSA/Dallas_22
-      - 瑞士+🇨🇭Youtube频道：工具大师！_23
-      - 美国Youtube频道：工具大师！_24
-      - 美国Youtube频道：工具大师！_25
-      - 美国Youtube频道：工具大师！_26
-      - 美国Youtube频道：工具大师！_27
-      - 🇺🇸_US美国Youtube频道：工具大师！_28
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_54
+      - USYoutube频道：工具大师！_3
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_44
+      - 🇷🇴ROYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - +|+1.81Mb_7
+      - 美国Youtube频道：工具大师！_8
+      - mattkaydiary.com|日本JPJapan/Tokyo_9
+      - Pool_馃嚭馃嚫US_975
+      - 美国Youtube频道：工具大师！_11
+      - Pool_馃嚭馃嚫US_1022
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1207
-      - 🇺🇸_US美国Youtube频道：工具大师！_2
-      - 🇷🇴ROYoutube频道：工具大师！_3
       - Pool_馃嚭馃嚫US_946
-      - +|+1.81Mb_5
-      - 🇺🇸美国Youtube频道：工具大师！_6
-      - Pool_馃嚭馃嚫US_971
-      - Pool_馃嚭馃嚫US_1073
-      - mattkaydiary.com|俄罗斯RURussia/Moscow_9
-      - 🇺🇸_US美国Youtube频道：工具大师！_10
-      - Pool_馃嚭馃嚫US_1040
-      - USYoutube频道：工具大师！_12
-      - 🇺🇸美国Youtube频道：工具大师！_13
-      - Pool_馃嚭馃嚫US_1249
-      - 美国Youtube频道：工具大师！_15
-      - 瑞士+🇨🇭Youtube频道：工具大师！_16
-      - Pool_馃嚭馃嚫US_968
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_18
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_19
-      - Pool_馃嚭馃嚫US_973
-      - Pool_馃嚭馃嚫US_974
-      - mattkaydiary.com|美国USUSA/Dallas_22
-      - 瑞士+🇨🇭Youtube频道：工具大师！_23
-      - 美国Youtube频道：工具大师！_24
-      - 美国Youtube频道：工具大师！_25
-      - 美国Youtube频道：工具大师！_26
-      - 美国Youtube频道：工具大师！_27
-      - 🇺🇸_US美国Youtube频道：工具大师！_28
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_54
+      - USYoutube频道：工具大师！_3
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_44
+      - 🇷🇴ROYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - +|+1.81Mb_7
+      - 美国Youtube频道：工具大师！_8
+      - mattkaydiary.com|日本JPJapan/Tokyo_9
+      - Pool_馃嚭馃嚫US_975
+      - 美国Youtube频道：工具大师！_11
+      - Pool_馃嚭馃嚫US_1022
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1207
-      - 🇺🇸_US美国Youtube频道：工具大师！_2
-      - 🇷🇴ROYoutube频道：工具大师！_3
       - Pool_馃嚭馃嚫US_946
-      - +|+1.81Mb_5
-      - 🇺🇸美国Youtube频道：工具大师！_6
-      - Pool_馃嚭馃嚫US_971
-      - Pool_馃嚭馃嚫US_1073
-      - mattkaydiary.com|俄罗斯RURussia/Moscow_9
-      - 🇺🇸_US美国Youtube频道：工具大师！_10
-      - Pool_馃嚭馃嚫US_1040
-      - USYoutube频道：工具大师！_12
-      - 🇺🇸美国Youtube频道：工具大师！_13
-      - Pool_馃嚭馃嚫US_1249
-      - 美国Youtube频道：工具大师！_15
-      - 瑞士+🇨🇭Youtube频道：工具大师！_16
-      - Pool_馃嚭馃嚫US_968
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_18
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_19
-      - Pool_馃嚭馃嚫US_973
-      - Pool_馃嚭馃嚫US_974
-      - mattkaydiary.com|美国USUSA/Dallas_22
-      - 瑞士+🇨🇭Youtube频道：工具大师！_23
-      - 美国Youtube频道：工具大师！_24
-      - 美国Youtube频道：工具大师！_25
-      - 美国Youtube频道：工具大师！_26
-      - 美国Youtube频道：工具大师！_27
-      - 🇺🇸_US美国Youtube频道：工具大师！_28
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_54
+      - USYoutube频道：工具大师！_3
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_44
+      - 🇷🇴ROYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - +|+1.81Mb_7
+      - 美国Youtube频道：工具大师！_8
+      - mattkaydiary.com|日本JPJapan/Tokyo_9
+      - Pool_馃嚭馃嚫US_975
+      - 美国Youtube频道：工具大师！_11
+      - Pool_馃嚭馃嚫US_1022
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1207
-      - 🇺🇸_US美国Youtube频道：工具大师！_2
-      - 🇷🇴ROYoutube频道：工具大师！_3
       - Pool_馃嚭馃嚫US_946
-      - +|+1.81Mb_5
-      - 🇺🇸美国Youtube频道：工具大师！_6
-      - Pool_馃嚭馃嚫US_971
-      - Pool_馃嚭馃嚫US_1073
-      - mattkaydiary.com|俄罗斯RURussia/Moscow_9
-      - 🇺🇸_US美国Youtube频道：工具大师！_10
-      - Pool_馃嚭馃嚫US_1040
-      - USYoutube频道：工具大师！_12
-      - 🇺🇸美国Youtube频道：工具大师！_13
-      - Pool_馃嚭馃嚫US_1249
-      - 美国Youtube频道：工具大师！_15
-      - 瑞士+🇨🇭Youtube频道：工具大师！_16
-      - Pool_馃嚭馃嚫US_968
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_18
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_19
-      - Pool_馃嚭馃嚫US_973
-      - Pool_馃嚭馃嚫US_974
-      - mattkaydiary.com|美国USUSA/Dallas_22
-      - 瑞士+🇨🇭Youtube频道：工具大师！_23
-      - 美国Youtube频道：工具大师！_24
-      - 美国Youtube频道：工具大师！_25
-      - 美国Youtube频道：工具大师！_26
-      - 美国Youtube频道：工具大师！_27
-      - 🇺🇸_US美国Youtube频道：工具大师！_28
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_54
+      - USYoutube频道：工具大师！_3
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_44
+      - 🇷🇴ROYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - +|+1.81Mb_7
+      - 美国Youtube频道：工具大师！_8
+      - mattkaydiary.com|日本JPJapan/Tokyo_9
+      - Pool_馃嚭馃嚫US_975
+      - 美国Youtube频道：工具大师！_11
+      - Pool_馃嚭馃嚫US_1022
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1207
-      - 🇺🇸_US美国Youtube频道：工具大师！_2
-      - 🇷🇴ROYoutube频道：工具大师！_3
       - Pool_馃嚭馃嚫US_946
-      - +|+1.81Mb_5
-      - 🇺🇸美国Youtube频道：工具大师！_6
-      - Pool_馃嚭馃嚫US_971
-      - Pool_馃嚭馃嚫US_1073
-      - mattkaydiary.com|俄罗斯RURussia/Moscow_9
-      - 🇺🇸_US美国Youtube频道：工具大师！_10
-      - Pool_馃嚭馃嚫US_1040
-      - USYoutube频道：工具大师！_12
-      - 🇺🇸美国Youtube频道：工具大师！_13
-      - Pool_馃嚭馃嚫US_1249
-      - 美国Youtube频道：工具大师！_15
-      - 瑞士+🇨🇭Youtube频道：工具大师！_16
-      - Pool_馃嚭馃嚫US_968
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_18
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_19
-      - Pool_馃嚭馃嚫US_973
-      - Pool_馃嚭馃嚫US_974
-      - mattkaydiary.com|美国USUSA/Dallas_22
-      - 瑞士+🇨🇭Youtube频道：工具大师！_23
-      - 美国Youtube频道：工具大师！_24
-      - 美国Youtube频道：工具大师！_25
-      - 美国Youtube频道：工具大师！_26
-      - 美国Youtube频道：工具大师！_27
-      - 🇺🇸_US美国Youtube频道：工具大师！_28
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_54
+      - USYoutube频道：工具大师！_3
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_44
+      - 🇷🇴ROYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - +|+1.81Mb_7
+      - 美国Youtube频道：工具大师！_8
+      - mattkaydiary.com|日本JPJapan/Tokyo_9
+      - Pool_馃嚭馃嚫US_975
+      - 美国Youtube频道：工具大师！_11
+      - Pool_馃嚭馃嚫US_1022
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -282,34 +154,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1207
-      - 🇺🇸_US美国Youtube频道：工具大师！_2
-      - 🇷🇴ROYoutube频道：工具大师！_3
       - Pool_馃嚭馃嚫US_946
-      - +|+1.81Mb_5
-      - 🇺🇸美国Youtube频道：工具大师！_6
-      - Pool_馃嚭馃嚫US_971
-      - Pool_馃嚭馃嚫US_1073
-      - mattkaydiary.com|俄罗斯RURussia/Moscow_9
-      - 🇺🇸_US美国Youtube频道：工具大师！_10
-      - Pool_馃嚭馃嚫US_1040
-      - USYoutube频道：工具大师！_12
-      - 🇺🇸美国Youtube频道：工具大师！_13
-      - Pool_馃嚭馃嚫US_1249
-      - 美国Youtube频道：工具大师！_15
-      - 瑞士+🇨🇭Youtube频道：工具大师！_16
-      - Pool_馃嚭馃嚫US_968
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_18
-      - mattkaydiary.com|英国GBUnited Kiongdom/London_19
-      - Pool_馃嚭馃嚫US_973
-      - Pool_馃嚭馃嚫US_974
-      - mattkaydiary.com|美国USUSA/Dallas_22
-      - 瑞士+🇨🇭Youtube频道：工具大师！_23
-      - 美国Youtube频道：工具大师！_24
-      - 美国Youtube频道：工具大师！_25
-      - 美国Youtube频道：工具大师！_26
-      - 美国Youtube频道：工具大师！_27
-      - 🇺🇸_US美国Youtube频道：工具大师！_28
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_54
+      - USYoutube频道：工具大师！_3
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_44
+      - 🇷🇴ROYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - +|+1.81Mb_7
+      - 美国Youtube频道：工具大师！_8
+      - mattkaydiary.com|日本JPJapan/Tokyo_9
+      - Pool_馃嚭馃嚫US_975
+      - 美国Youtube频道：工具大师！_11
+      - Pool_馃嚭馃嚫US_1022
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
