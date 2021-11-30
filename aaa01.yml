@@ -5,220 +5,148 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_97', server: global-transit-02-sg.pucdn.me, port: 63008, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-08.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_75', server: global-transit-02-sg.pucdn.me, port: 63001, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-01.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_60', server: global-transit-02-sg.pucdn.me, port: 61006, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-07.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_258', server: global-transit-hk-v2.pucdn.me, port: 32302, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300', server: global-transit-hk-v2.pucdn.me, port: 31125, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-do-sg-02.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_260', server: global-transit-hk-v2.pucdn.me, port: 31125, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-do-sg-02.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_248', server: global-transit-hk-v2.pucdn.me, port: 32302, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_252', server: global-transit-hk-v2.pucdn.me, port: 10013, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-09.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263', server: global-transit-hk-v2.pucdn.me, port: 10012, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-08.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_265', server: global-transit-hk-v2.pucdn.me, port: 10011, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-07.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253', server: global-transit-hk-v2.pucdn.me, port: 10013, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-09.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264', server: global-transit-hk-v2.pucdn.me, port: 10012, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-08.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254', server: global-transit-hk-v2.pucdn.me, port: 10012, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-08.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_251', server: global-transit-hk-v2.pucdn.me, port: 10013, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-09.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_259', server: global-transit-hk-v2.pucdn.me, port: 32302, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-aws-jp-02.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267', server: global-transit-hk-v2.pucdn.me, port: 10011, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-07.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_357', server: global-transit-hk-v2.pucdn.me, port: 10006, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-sakura-jp-02.pucdn.me}}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_18', server: 38.114.114.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_332', server: global-transit-02-sg.pucdn.me, port: 61007, type: vmess, uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-08.pucdn.me}}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_20', server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_296', server: global-transit-hk-v2.pucdn.me, port: 31125, type: vmess, uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-do-sg-02.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_98', server: global-transit-02-sg.pucdn.me, port: 63008, type: vmess, uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-kr-08.pucdn.me}}
+  - {name: '馃嚡馃嚨JP_76', server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '馃弫ZZ_454', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '馃弫ZZ_453', server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '馃嚭馃嚫US_393', server: 172.99.190.186, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '馃嚭馃嚫US_383', server: 172.99.190.186, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '馃嚭馃嚫US_341', server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '馃嚭馃嚫US_385', server: 172.99.190.186, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '馃嚭馃嚫US_391', server: 172.99.190.186, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '馃弫ZZ_530', server: 134.195.198.178, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '馃嚭馃嚫US_317', server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '馃弫ZZ_447', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '馃嚭馃嚫US_340', server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '馃弫ZZ_451', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_97
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_75
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_60
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_258
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_260
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_248
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_252
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_265
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_251
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_259
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_357
-      - 欧洲欢迎订阅Youtube破解资源君_18
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_332
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_296
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_98
+      - 馃嚡馃嚨JP_76
+      - 馃弫ZZ_454
+      - 馃弫ZZ_453
+      - 馃嚭馃嚫US_393
+      - 馃嚭馃嚫US_383
+      - 馃嚭馃嚫US_341
+      - 馃嚭馃嚫US_385
+      - 馃嚭馃嚫US_391
+      - 馃弫ZZ_530
+      - 馃嚭馃嚫US_317
+      - 馃弫ZZ_447
+      - 馃嚭馃嚫US_340
+      - 馃弫ZZ_451
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_97
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_75
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_60
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_258
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_260
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_248
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_252
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_265
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_251
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_259
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_357
-      - 欧洲欢迎订阅Youtube破解资源君_18
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_332
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_296
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_98
+      - 馃嚡馃嚨JP_76
+      - 馃弫ZZ_454
+      - 馃弫ZZ_453
+      - 馃嚭馃嚫US_393
+      - 馃嚭馃嚫US_383
+      - 馃嚭馃嚫US_341
+      - 馃嚭馃嚫US_385
+      - 馃嚭馃嚫US_391
+      - 馃弫ZZ_530
+      - 馃嚭馃嚫US_317
+      - 馃弫ZZ_447
+      - 馃嚭馃嚫US_340
+      - 馃弫ZZ_451
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_97
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_75
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_60
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_258
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_260
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_248
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_252
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_265
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_251
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_259
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_357
-      - 欧洲欢迎订阅Youtube破解资源君_18
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_332
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_296
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_98
+      - 馃嚡馃嚨JP_76
+      - 馃弫ZZ_454
+      - 馃弫ZZ_453
+      - 馃嚭馃嚫US_393
+      - 馃嚭馃嚫US_383
+      - 馃嚭馃嚫US_341
+      - 馃嚭馃嚫US_385
+      - 馃嚭馃嚫US_391
+      - 馃弫ZZ_530
+      - 馃嚭馃嚫US_317
+      - 馃弫ZZ_447
+      - 馃嚭馃嚫US_340
+      - 馃弫ZZ_451
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_97
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_75
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_60
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_258
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_260
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_248
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_252
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_265
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_251
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_259
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_357
-      - 欧洲欢迎订阅Youtube破解资源君_18
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_332
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_296
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_98
+      - 馃嚡馃嚨JP_76
+      - 馃弫ZZ_454
+      - 馃弫ZZ_453
+      - 馃嚭馃嚫US_393
+      - 馃嚭馃嚫US_383
+      - 馃嚭馃嚫US_341
+      - 馃嚭馃嚫US_385
+      - 馃嚭馃嚫US_391
+      - 馃弫ZZ_530
+      - 馃嚭馃嚫US_317
+      - 馃弫ZZ_447
+      - 馃嚭馃嚫US_340
+      - 馃弫ZZ_451
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_97
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_75
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_60
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_258
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_260
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_248
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_252
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_265
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_251
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_259
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_357
-      - 欧洲欢迎订阅Youtube破解资源君_18
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_332
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_296
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_98
+      - 馃嚡馃嚨JP_76
+      - 馃弫ZZ_454
+      - 馃弫ZZ_453
+      - 馃嚭馃嚫US_393
+      - 馃嚭馃嚫US_383
+      - 馃嚭馃嚫US_341
+      - 馃嚭馃嚫US_385
+      - 馃嚭馃嚫US_391
+      - 馃弫ZZ_530
+      - 馃嚭馃嚫US_317
+      - 馃弫ZZ_447
+      - 馃嚭馃嚫US_340
+      - 馃弫ZZ_451
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_97
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_75
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_60
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_258
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_260
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_248
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_252
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_265
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_251
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_259
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_357
-      - 欧洲欢迎订阅Youtube破解资源君_18
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_332
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_296
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_98
+      - 馃嚡馃嚨JP_76
+      - 馃弫ZZ_454
+      - 馃弫ZZ_453
+      - 馃嚭馃嚫US_393
+      - 馃嚭馃嚫US_383
+      - 馃嚭馃嚫US_341
+      - 馃嚭馃嚫US_385
+      - 馃嚭馃嚫US_391
+      - 馃弫ZZ_530
+      - 馃嚭馃嚫US_317
+      - 馃弫ZZ_447
+      - 馃嚭馃嚫US_340
+      - 馃弫ZZ_451
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_97
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_75
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_60
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_258
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_260
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_248
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_252
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_265
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_251
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_259
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_357
-      - 欧洲欢迎订阅Youtube破解资源君_18
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_332
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_296
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_98
+      - 馃嚡馃嚨JP_76
+      - 馃弫ZZ_454
+      - 馃弫ZZ_453
+      - 馃嚭馃嚫US_393
+      - 馃嚭馃嚫US_383
+      - 馃嚭馃嚫US_341
+      - 馃嚭馃嚫US_385
+      - 馃嚭馃嚫US_391
+      - 馃弫ZZ_530
+      - 馃嚭馃嚫US_317
+      - 馃弫ZZ_447
+      - 馃嚭馃嚫US_340
+      - 馃弫ZZ_451
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -234,28 +162,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_97
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_75
-      - Relay_馃嚚馃嚦CN-馃嚫馃嚞SG_60
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_258
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_300
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_260
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_248
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_252
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_265
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_251
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_259
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_357
-      - 欧洲欢迎订阅Youtube破解资源君_18
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_332
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_296
-      - Relay_馃嚚馃嚦CN-馃嚢馃嚪KR_98
+      - 馃嚡馃嚨JP_76
+      - 馃弫ZZ_454
+      - 馃弫ZZ_453
+      - 馃嚭馃嚫US_393
+      - 馃嚭馃嚫US_383
+      - 馃嚭馃嚫US_341
+      - 馃嚭馃嚫US_385
+      - 馃嚭馃嚫US_391
+      - 馃弫ZZ_530
+      - 馃嚭馃嚫US_317
+      - 馃弫ZZ_447
+      - 馃嚭馃嚫US_340
+      - 馃弫ZZ_451
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
