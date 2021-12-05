@@ -5,204 +5,188 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '美国欢迎订阅Youtube破解资源君_1', server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_699', server: 20.205.63.211, port: 14718, type: vmess, uuid: 8b94b74b-ce5d-3777-88f6-25aa7c7d05dd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚘馃嚭AU_700', server: 20.205.63.211, port: 14083, type: vmess, uuid: 8b94b74b-ce5d-3777-88f6-25aa7c7d05dd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '美国欢迎订阅Youtube破解资源君_4', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_61', server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚛馃嚜DE_698', server: 20.205.63.211, port: 46101, type: vmess, uuid: 8b94b74b-ce5d-3777-88f6-25aa7c7d05dd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37', server: 1030us.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚞馃嚙GB_697', server: 20.205.63.211, port: 62274, type: vmess, uuid: 8b94b74b-ce5d-3777-88f6-25aa7c7d05dd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: 20.205.63.211}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_680', server: 20.205.63.211, port: 22164, type: vmess, uuid: 8b94b74b-ce5d-3777-88f6-25aa7c7d05dd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'mattkaydiary.com|中国香港特别行政区HKHongkong SAR China/Hong Kong_11', server: 20.205.63.211, port: 15724, type: vmess, uuid: 8b94b74b-ce5d-3777-88f6-25aa7c7d05dd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '台湾欢迎订阅Youtube破解资源君_12', server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
   - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_60', server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_259 |51.76Mb', server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_64', server: 139.227.161.129, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '美国欢迎订阅Youtube破解资源君_16', server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚢馃嚪KR_689', server: 20.205.63.211, port: 13125, type: vmess, uuid: 8b94b74b-ce5d-3777-88f6-25aa7c7d05dd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚢馃嚪KR_701', server: 20.205.63.211, port: 33893, type: vmess, uuid: 8b94b74b-ce5d-3777-88f6-25aa7c7d05dd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'mattkaydiary.com|韩国01_19', server: zz.vip341.xyz, port: 40224, type: vmess, uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
-  - {name: '新加坡欢迎订阅Youtube破解资源君_20', server: 139.162.51.223, port: 51939, type: vmess, uuid: 4db2a027-17fb-4d27-b8ca-93b548e487a2, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '台湾欢迎订阅Youtube破解资源君_2', server: 139.227.161.129, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_馃弫ZZ-馃嚭馃嚫US_2101 |11.87Mb', server: 198.41.212.234, port: 2082, type: vmess, uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /media/, ws-headers: {Host: download.jianguoyun.com}}
+  - {name: 'Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37', server: 1030us.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'mattkaydiary.com|美国USUSA/Dallas_5', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: '美国欢迎订阅Youtube破解资源君_6', server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: 'mattkaydiary.com|美国USUSA/Dallas_7', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 'mattkaydiary.com|丹麦 三网优化 外贸 推特_8', server: zz.vip341.xyz, port: 33320, type: vmess, uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
+  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_711', server: zhuzhu12.com, port: 10156, type: vmess, uuid: b66d502c-5d3a-381f-9e49-fe8afdac9968, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_10', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_11', server: 930tg.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'mattkaydiary.com|美国USUSA/Washington_12', server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}}
+  - {name: '美国欢迎订阅Youtube破解资源君_13', server: 172.107.233.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '挪威+🇳🇴Youtube频道：工具大师！_14', server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: '美国欢迎订阅Youtube破解资源君_15', server: 38.91.101.221, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '加拿大+🇨🇦Youtube频道：工具大师！_16', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65', server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'mattkaydiary.com|韩国01_18', server: zz.vip341.xyz, port: 40224, type: vmess, uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国欢迎订阅Youtube破解资源君_1
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_699
-      - Relay_馃嚭馃嚫US-馃嚘馃嚭AU_700
-      - 美国欢迎订阅Youtube破解资源君_4
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_61
-      - Relay_馃嚭馃嚫US-馃嚛馃嚜DE_698
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
-      - Relay_馃嚭馃嚫US-馃嚞馃嚙GB_697
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_680
-      - mattkaydiary.com|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
-      - 台湾欢迎订阅Youtube破解资源君_12
       - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_60
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_259 |51.76Mb
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_64
-      - 美国欢迎订阅Youtube破解资源君_16
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_689
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_701
-      - mattkaydiary.com|韩国01_19
-      - 新加坡欢迎订阅Youtube破解资源君_20
+      - 台湾欢迎订阅Youtube破解资源君_2
+      - Relay_馃弫ZZ-馃嚭馃嚫US_2101 |11.87Mb
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
+      - mattkaydiary.com|美国USUSA/Dallas_5
+      - 美国欢迎订阅Youtube破解资源君_6
+      - mattkaydiary.com|美国USUSA/Dallas_7
+      - mattkaydiary.com|丹麦 三网优化 外贸 推特_8
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_711
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - 欧洲欢迎订阅Youtube破解资源君_11
+      - mattkaydiary.com|美国USUSA/Washington_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 挪威+🇳🇴Youtube频道：工具大师！_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 加拿大+🇨🇦Youtube频道：工具大师！_16
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
+      - mattkaydiary.com|韩国01_18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国欢迎订阅Youtube破解资源君_1
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_699
-      - Relay_馃嚭馃嚫US-馃嚘馃嚭AU_700
-      - 美国欢迎订阅Youtube破解资源君_4
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_61
-      - Relay_馃嚭馃嚫US-馃嚛馃嚜DE_698
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
-      - Relay_馃嚭馃嚫US-馃嚞馃嚙GB_697
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_680
-      - mattkaydiary.com|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
-      - 台湾欢迎订阅Youtube破解资源君_12
       - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_60
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_259 |51.76Mb
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_64
-      - 美国欢迎订阅Youtube破解资源君_16
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_689
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_701
-      - mattkaydiary.com|韩国01_19
-      - 新加坡欢迎订阅Youtube破解资源君_20
+      - 台湾欢迎订阅Youtube破解资源君_2
+      - Relay_馃弫ZZ-馃嚭馃嚫US_2101 |11.87Mb
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
+      - mattkaydiary.com|美国USUSA/Dallas_5
+      - 美国欢迎订阅Youtube破解资源君_6
+      - mattkaydiary.com|美国USUSA/Dallas_7
+      - mattkaydiary.com|丹麦 三网优化 外贸 推特_8
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_711
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - 欧洲欢迎订阅Youtube破解资源君_11
+      - mattkaydiary.com|美国USUSA/Washington_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 挪威+🇳🇴Youtube频道：工具大师！_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 加拿大+🇨🇦Youtube频道：工具大师！_16
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
+      - mattkaydiary.com|韩国01_18
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国欢迎订阅Youtube破解资源君_1
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_699
-      - Relay_馃嚭馃嚫US-馃嚘馃嚭AU_700
-      - 美国欢迎订阅Youtube破解资源君_4
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_61
-      - Relay_馃嚭馃嚫US-馃嚛馃嚜DE_698
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
-      - Relay_馃嚭馃嚫US-馃嚞馃嚙GB_697
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_680
-      - mattkaydiary.com|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
-      - 台湾欢迎订阅Youtube破解资源君_12
       - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_60
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_259 |51.76Mb
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_64
-      - 美国欢迎订阅Youtube破解资源君_16
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_689
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_701
-      - mattkaydiary.com|韩国01_19
-      - 新加坡欢迎订阅Youtube破解资源君_20
+      - 台湾欢迎订阅Youtube破解资源君_2
+      - Relay_馃弫ZZ-馃嚭馃嚫US_2101 |11.87Mb
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
+      - mattkaydiary.com|美国USUSA/Dallas_5
+      - 美国欢迎订阅Youtube破解资源君_6
+      - mattkaydiary.com|美国USUSA/Dallas_7
+      - mattkaydiary.com|丹麦 三网优化 外贸 推特_8
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_711
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - 欧洲欢迎订阅Youtube破解资源君_11
+      - mattkaydiary.com|美国USUSA/Washington_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 挪威+🇳🇴Youtube频道：工具大师！_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 加拿大+🇨🇦Youtube频道：工具大师！_16
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
+      - mattkaydiary.com|韩国01_18
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国欢迎订阅Youtube破解资源君_1
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_699
-      - Relay_馃嚭馃嚫US-馃嚘馃嚭AU_700
-      - 美国欢迎订阅Youtube破解资源君_4
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_61
-      - Relay_馃嚭馃嚫US-馃嚛馃嚜DE_698
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
-      - Relay_馃嚭馃嚫US-馃嚞馃嚙GB_697
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_680
-      - mattkaydiary.com|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
-      - 台湾欢迎订阅Youtube破解资源君_12
       - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_60
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_259 |51.76Mb
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_64
-      - 美国欢迎订阅Youtube破解资源君_16
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_689
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_701
-      - mattkaydiary.com|韩国01_19
-      - 新加坡欢迎订阅Youtube破解资源君_20
+      - 台湾欢迎订阅Youtube破解资源君_2
+      - Relay_馃弫ZZ-馃嚭馃嚫US_2101 |11.87Mb
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
+      - mattkaydiary.com|美国USUSA/Dallas_5
+      - 美国欢迎订阅Youtube破解资源君_6
+      - mattkaydiary.com|美国USUSA/Dallas_7
+      - mattkaydiary.com|丹麦 三网优化 外贸 推特_8
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_711
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - 欧洲欢迎订阅Youtube破解资源君_11
+      - mattkaydiary.com|美国USUSA/Washington_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 挪威+🇳🇴Youtube频道：工具大师！_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 加拿大+🇨🇦Youtube频道：工具大师！_16
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
+      - mattkaydiary.com|韩国01_18
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国欢迎订阅Youtube破解资源君_1
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_699
-      - Relay_馃嚭馃嚫US-馃嚘馃嚭AU_700
-      - 美国欢迎订阅Youtube破解资源君_4
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_61
-      - Relay_馃嚭馃嚫US-馃嚛馃嚜DE_698
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
-      - Relay_馃嚭馃嚫US-馃嚞馃嚙GB_697
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_680
-      - mattkaydiary.com|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
-      - 台湾欢迎订阅Youtube破解资源君_12
       - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_60
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_259 |51.76Mb
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_64
-      - 美国欢迎订阅Youtube破解资源君_16
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_689
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_701
-      - mattkaydiary.com|韩国01_19
-      - 新加坡欢迎订阅Youtube破解资源君_20
+      - 台湾欢迎订阅Youtube破解资源君_2
+      - Relay_馃弫ZZ-馃嚭馃嚫US_2101 |11.87Mb
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
+      - mattkaydiary.com|美国USUSA/Dallas_5
+      - 美国欢迎订阅Youtube破解资源君_6
+      - mattkaydiary.com|美国USUSA/Dallas_7
+      - mattkaydiary.com|丹麦 三网优化 外贸 推特_8
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_711
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - 欧洲欢迎订阅Youtube破解资源君_11
+      - mattkaydiary.com|美国USUSA/Washington_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 挪威+🇳🇴Youtube频道：工具大师！_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 加拿大+🇨🇦Youtube频道：工具大师！_16
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
+      - mattkaydiary.com|韩国01_18
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国欢迎订阅Youtube破解资源君_1
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_699
-      - Relay_馃嚭馃嚫US-馃嚘馃嚭AU_700
-      - 美国欢迎订阅Youtube破解资源君_4
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_61
-      - Relay_馃嚭馃嚫US-馃嚛馃嚜DE_698
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
-      - Relay_馃嚭馃嚫US-馃嚞馃嚙GB_697
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_680
-      - mattkaydiary.com|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
-      - 台湾欢迎订阅Youtube破解资源君_12
       - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_60
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_259 |51.76Mb
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_64
-      - 美国欢迎订阅Youtube破解资源君_16
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_689
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_701
-      - mattkaydiary.com|韩国01_19
-      - 新加坡欢迎订阅Youtube破解资源君_20
+      - 台湾欢迎订阅Youtube破解资源君_2
+      - Relay_馃弫ZZ-馃嚭馃嚫US_2101 |11.87Mb
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
+      - mattkaydiary.com|美国USUSA/Dallas_5
+      - 美国欢迎订阅Youtube破解资源君_6
+      - mattkaydiary.com|美国USUSA/Dallas_7
+      - mattkaydiary.com|丹麦 三网优化 外贸 推特_8
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_711
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - 欧洲欢迎订阅Youtube破解资源君_11
+      - mattkaydiary.com|美国USUSA/Washington_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 挪威+🇳🇴Youtube频道：工具大师！_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 加拿大+🇨🇦Youtube频道：工具大师！_16
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
+      - mattkaydiary.com|韩国01_18
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国欢迎订阅Youtube破解资源君_1
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_699
-      - Relay_馃嚭馃嚫US-馃嚘馃嚭AU_700
-      - 美国欢迎订阅Youtube破解资源君_4
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_61
-      - Relay_馃嚭馃嚫US-馃嚛馃嚜DE_698
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
-      - Relay_馃嚭馃嚫US-馃嚞馃嚙GB_697
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_680
-      - mattkaydiary.com|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
-      - 台湾欢迎订阅Youtube破解资源君_12
       - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_60
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_259 |51.76Mb
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_64
-      - 美国欢迎订阅Youtube破解资源君_16
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_689
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_701
-      - mattkaydiary.com|韩国01_19
-      - 新加坡欢迎订阅Youtube破解资源君_20
+      - 台湾欢迎订阅Youtube破解资源君_2
+      - Relay_馃弫ZZ-馃嚭馃嚫US_2101 |11.87Mb
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
+      - mattkaydiary.com|美国USUSA/Dallas_5
+      - 美国欢迎订阅Youtube破解资源君_6
+      - mattkaydiary.com|美国USUSA/Dallas_7
+      - mattkaydiary.com|丹麦 三网优化 外贸 推特_8
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_711
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - 欧洲欢迎订阅Youtube破解资源君_11
+      - mattkaydiary.com|美国USUSA/Washington_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 挪威+🇳🇴Youtube频道：工具大师！_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 加拿大+🇨🇦Youtube频道：工具大师！_16
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
+      - mattkaydiary.com|韩国01_18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -218,26 +202,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国欢迎订阅Youtube破解资源君_1
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_699
-      - Relay_馃嚭馃嚫US-馃嚘馃嚭AU_700
-      - 美国欢迎订阅Youtube破解资源君_4
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_61
-      - Relay_馃嚭馃嚫US-馃嚛馃嚜DE_698
-      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
-      - Relay_馃嚭馃嚫US-馃嚞馃嚙GB_697
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_680
-      - mattkaydiary.com|中国香港特别行政区HKHongkong SAR China/Hong Kong_11
-      - 台湾欢迎订阅Youtube破解资源君_12
       - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_60
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_259 |51.76Mb
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_64
-      - 美国欢迎订阅Youtube破解资源君_16
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_689
-      - Relay_馃嚭馃嚫US-馃嚢馃嚪KR_701
-      - mattkaydiary.com|韩国01_19
-      - 新加坡欢迎订阅Youtube破解资源君_20
+      - 台湾欢迎订阅Youtube破解资源君_2
+      - Relay_馃弫ZZ-馃嚭馃嚫US_2101 |11.87Mb
+      - Relay_馃嚚馃嚘CA-馃嚚馃嚘CA_37
+      - mattkaydiary.com|美国USUSA/Dallas_5
+      - 美国欢迎订阅Youtube破解资源君_6
+      - mattkaydiary.com|美国USUSA/Dallas_7
+      - mattkaydiary.com|丹麦 三网优化 外贸 推特_8
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_711
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - 欧洲欢迎订阅Youtube破解资源君_11
+      - mattkaydiary.com|美国USUSA/Washington_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 挪威+🇳🇴Youtube频道：工具大师！_14
+      - 美国欢迎订阅Youtube破解资源君_15
+      - 加拿大+🇨🇦Youtube频道：工具大师！_16
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_65
+      - mattkaydiary.com|韩国01_18
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
