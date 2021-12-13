@@ -5,388 +5,132 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280', server: jmcm.rokishi.cyou, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267', server: gzcm.rokishi.cyou, port: 20026, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270', server: gzcm.rokishi.cyou, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_235', server: jmcm.rokishi.cyou, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_277', server: gzcm.rokishi.cyou, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238', server: jmcm.rokishi.cyou, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_240', server: jmcm.rokishi.cyou, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_246', server: jmcm.rokishi.cyou, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276', server: gzcm.rokishi.cyou, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_290', server: jmcm.rokishi.cyou, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_220', server: jmcm.rokishi.cyou, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_221', server: gzcm.rokishi.cyou, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_247', server: gzcm.rokishi.cyou, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'mattkaydiary.com|美国USUSA/Dallas_14', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_236', server: gzcm.rokishi.cyou, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_955+|16.39Mb', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_17', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_214', server: jmcm.rokishi.cyou, port: 10083, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_222', server: hzcm.rokishi.cyou, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_20', server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_21', server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_249', server: jmcm.rokishi.cyou, port: 10085, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_255', server: gzcm.rokishi.cyou, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_239', server: gzcm.rokishi.cyou, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚭馃嚘UA-馃嚭馃嚘UA_836', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_26', server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_272', server: jmcm.rokishi.cyou, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273', server: gzcm.rokishi.cyou, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_29', server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: '欧洲欢迎订阅Youtube破解资源君_30', server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1718', server: hk.azure.elaina.link, port: 56688, type: vmess, uuid: d360a89a-3618-4573-91c9-3c3d7cd5df68, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hhhaaa114514}
-  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1695', server: hk.azure.elaina.link, port: 443, type: vmess, uuid: d360a89a-3618-4573-91c9-3c3d7cd5df68, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /JJkuv3}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_274', server: jmcm.rokishi.cyou, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_224', server: jmcm.rokishi.cyou, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275', server: jmcm.rokishi.cyou, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289', server: gz.cm.data2china.com, port: 30044, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_219', server: jmcm.rokishi.cyou, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253', server: jmcm.rokishi.cyou, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264', server: jmcm.rokishi.cyou, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254', server: jmcm.rokishi.cyou, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263', server: jmcm.rokishi.cyou, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256', server: gzcm.rokishi.cyou, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226', server: gzcm.rokishi.cyou, port: 20020, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_1', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /, ws-headers: {Host: shcn2-06b.iplc188.com}}
+  - {name: 'default_ssr_name_2', server: hinet.rdns.link, port: 50028, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
+  - {name: 'Relay_-馃嚭馃嚫US_1731+|20.90Mb', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: 'Relay_-馃嚭馃嚘UA_1048+|10.03Mb', server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_5', server: 86.106.136.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: h6WG7sxsLTBGn7uyvMG8}
+  - {name: 'default_ssr_name_6', server: hinet.rdns.link, port: 50026, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
+  - {name: 'mattkaydiary.com_7', server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_8', server: 192.46.209.215, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Relay_馃嚘馃嚭AU-馃嚘馃嚭AU_10', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: 'default_ssr_name_10', server: hinet.rdns.link, port: 50027, type: ssr, password: "Getfree.Cloud", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 18290:9WA1gd, obfs-param: e3cf218290.software-download.microsoft.com}
+  - {name: 'mattkaydiary.com|美国USUSA/Dallas_11', server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_235
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_277
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_240
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_246
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_290
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_220
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_221
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_247
-      - mattkaydiary.com|美国USUSA/Dallas_14
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_236
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_955+|16.39Mb
-      - 欧洲欢迎订阅Youtube破解资源君_17
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_214
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_222
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - 欧洲欢迎订阅Youtube破解资源君_21
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_249
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_255
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_239
-      - Relay_馃嚭馃嚘UA-馃嚭馃嚘UA_836
-      - 欧洲欢迎订阅Youtube破解资源君_26
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_272
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273
-      - 欧洲欢迎订阅Youtube破解资源君_29
-      - 欧洲欢迎订阅Youtube破解资源君_30
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1718
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1695
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_274
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_224
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_219
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - default_ssr_name_2
+      - Relay_-馃嚭馃嚫US_1731+|20.90Mb
+      - Relay_-馃嚭馃嚘UA_1048+|10.03Mb
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - default_ssr_name_6
+      - mattkaydiary.com_7
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_馃嚘馃嚭AU-馃嚘馃嚭AU_10
+      - default_ssr_name_10
+      - mattkaydiary.com|美国USUSA/Dallas_11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_235
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_277
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_240
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_246
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_290
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_220
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_221
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_247
-      - mattkaydiary.com|美国USUSA/Dallas_14
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_236
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_955+|16.39Mb
-      - 欧洲欢迎订阅Youtube破解资源君_17
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_214
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_222
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - 欧洲欢迎订阅Youtube破解资源君_21
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_249
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_255
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_239
-      - Relay_馃嚭馃嚘UA-馃嚭馃嚘UA_836
-      - 欧洲欢迎订阅Youtube破解资源君_26
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_272
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273
-      - 欧洲欢迎订阅Youtube破解资源君_29
-      - 欧洲欢迎订阅Youtube破解资源君_30
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1718
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1695
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_274
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_224
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_219
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - default_ssr_name_2
+      - Relay_-馃嚭馃嚫US_1731+|20.90Mb
+      - Relay_-馃嚭馃嚘UA_1048+|10.03Mb
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - default_ssr_name_6
+      - mattkaydiary.com_7
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_馃嚘馃嚭AU-馃嚘馃嚭AU_10
+      - default_ssr_name_10
+      - mattkaydiary.com|美国USUSA/Dallas_11
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_235
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_277
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_240
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_246
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_290
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_220
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_221
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_247
-      - mattkaydiary.com|美国USUSA/Dallas_14
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_236
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_955+|16.39Mb
-      - 欧洲欢迎订阅Youtube破解资源君_17
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_214
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_222
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - 欧洲欢迎订阅Youtube破解资源君_21
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_249
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_255
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_239
-      - Relay_馃嚭馃嚘UA-馃嚭馃嚘UA_836
-      - 欧洲欢迎订阅Youtube破解资源君_26
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_272
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273
-      - 欧洲欢迎订阅Youtube破解资源君_29
-      - 欧洲欢迎订阅Youtube破解资源君_30
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1718
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1695
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_274
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_224
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_219
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - default_ssr_name_2
+      - Relay_-馃嚭馃嚫US_1731+|20.90Mb
+      - Relay_-馃嚭馃嚘UA_1048+|10.03Mb
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - default_ssr_name_6
+      - mattkaydiary.com_7
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_馃嚘馃嚭AU-馃嚘馃嚭AU_10
+      - default_ssr_name_10
+      - mattkaydiary.com|美国USUSA/Dallas_11
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_235
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_277
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_240
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_246
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_290
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_220
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_221
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_247
-      - mattkaydiary.com|美国USUSA/Dallas_14
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_236
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_955+|16.39Mb
-      - 欧洲欢迎订阅Youtube破解资源君_17
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_214
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_222
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - 欧洲欢迎订阅Youtube破解资源君_21
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_249
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_255
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_239
-      - Relay_馃嚭馃嚘UA-馃嚭馃嚘UA_836
-      - 欧洲欢迎订阅Youtube破解资源君_26
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_272
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273
-      - 欧洲欢迎订阅Youtube破解资源君_29
-      - 欧洲欢迎订阅Youtube破解资源君_30
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1718
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1695
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_274
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_224
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_219
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - default_ssr_name_2
+      - Relay_-馃嚭馃嚫US_1731+|20.90Mb
+      - Relay_-馃嚭馃嚘UA_1048+|10.03Mb
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - default_ssr_name_6
+      - mattkaydiary.com_7
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_馃嚘馃嚭AU-馃嚘馃嚭AU_10
+      - default_ssr_name_10
+      - mattkaydiary.com|美国USUSA/Dallas_11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_235
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_277
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_240
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_246
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_290
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_220
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_221
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_247
-      - mattkaydiary.com|美国USUSA/Dallas_14
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_236
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_955+|16.39Mb
-      - 欧洲欢迎订阅Youtube破解资源君_17
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_214
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_222
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - 欧洲欢迎订阅Youtube破解资源君_21
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_249
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_255
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_239
-      - Relay_馃嚭馃嚘UA-馃嚭馃嚘UA_836
-      - 欧洲欢迎订阅Youtube破解资源君_26
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_272
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273
-      - 欧洲欢迎订阅Youtube破解资源君_29
-      - 欧洲欢迎订阅Youtube破解资源君_30
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1718
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1695
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_274
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_224
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_219
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - default_ssr_name_2
+      - Relay_-馃嚭馃嚫US_1731+|20.90Mb
+      - Relay_-馃嚭馃嚘UA_1048+|10.03Mb
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - default_ssr_name_6
+      - mattkaydiary.com_7
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_馃嚘馃嚭AU-馃嚘馃嚭AU_10
+      - default_ssr_name_10
+      - mattkaydiary.com|美国USUSA/Dallas_11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_235
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_277
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_240
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_246
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_290
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_220
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_221
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_247
-      - mattkaydiary.com|美国USUSA/Dallas_14
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_236
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_955+|16.39Mb
-      - 欧洲欢迎订阅Youtube破解资源君_17
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_214
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_222
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - 欧洲欢迎订阅Youtube破解资源君_21
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_249
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_255
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_239
-      - Relay_馃嚭馃嚘UA-馃嚭馃嚘UA_836
-      - 欧洲欢迎订阅Youtube破解资源君_26
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_272
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273
-      - 欧洲欢迎订阅Youtube破解资源君_29
-      - 欧洲欢迎订阅Youtube破解资源君_30
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1718
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1695
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_274
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_224
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_219
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - default_ssr_name_2
+      - Relay_-馃嚭馃嚫US_1731+|20.90Mb
+      - Relay_-馃嚭馃嚘UA_1048+|10.03Mb
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - default_ssr_name_6
+      - mattkaydiary.com_7
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_馃嚘馃嚭AU-馃嚘馃嚭AU_10
+      - default_ssr_name_10
+      - mattkaydiary.com|美国USUSA/Dallas_11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_235
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_277
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_240
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_246
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_290
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_220
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_221
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_247
-      - mattkaydiary.com|美国USUSA/Dallas_14
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_236
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_955+|16.39Mb
-      - 欧洲欢迎订阅Youtube破解资源君_17
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_214
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_222
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - 欧洲欢迎订阅Youtube破解资源君_21
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_249
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_255
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_239
-      - Relay_馃嚭馃嚘UA-馃嚭馃嚘UA_836
-      - 欧洲欢迎订阅Youtube破解资源君_26
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_272
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273
-      - 欧洲欢迎订阅Youtube破解资源君_29
-      - 欧洲欢迎订阅Youtube破解资源君_30
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1718
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1695
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_274
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_224
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_219
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - default_ssr_name_2
+      - Relay_-馃嚭馃嚫US_1731+|20.90Mb
+      - Relay_-馃嚭馃嚘UA_1048+|10.03Mb
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - default_ssr_name_6
+      - mattkaydiary.com_7
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_馃嚘馃嚭AU-馃嚘馃嚭AU_10
+      - default_ssr_name_10
+      - mattkaydiary.com|美国USUSA/Dallas_11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -402,49 +146,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_280
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_267
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_270
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_235
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_277
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_238
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_240
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_246
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_276
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_290
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_220
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_221
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_247
-      - mattkaydiary.com|美国USUSA/Dallas_14
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_236
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_955+|16.39Mb
-      - 欧洲欢迎订阅Youtube破解资源君_17
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_214
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_222
-      - 欧洲欢迎订阅Youtube破解资源君_20
-      - 欧洲欢迎订阅Youtube破解资源君_21
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_249
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_255
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_239
-      - Relay_馃嚭馃嚘UA-馃嚭馃嚘UA_836
-      - 欧洲欢迎订阅Youtube破解资源君_26
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_272
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_273
-      - 欧洲欢迎订阅Youtube破解资源君_29
-      - 欧洲欢迎订阅Youtube破解资源君_30
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1718
-      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1695
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_274
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_224
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_275
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_219
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_253
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_264
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_254
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_263
-      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_256
-      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - default_ssr_name_2
+      - Relay_-馃嚭馃嚫US_1731+|20.90Mb
+      - Relay_-馃嚭馃嚘UA_1048+|10.03Mb
+      - 欧洲欢迎订阅Youtube破解资源君_5
+      - default_ssr_name_6
+      - mattkaydiary.com_7
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_馃嚘馃嚭AU-馃嚘馃嚭AU_10
+      - default_ssr_name_10
+      - mattkaydiary.com|美国USUSA/Dallas_11
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
