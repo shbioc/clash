@@ -5,108 +5,332 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_233', server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279 | 6.31Mb', server: 00.cn2.rocketdns.xyz, port: 65013, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: '美国欢迎订阅Youtube破解资源君_3', server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '美国欢迎订阅Youtube破解资源君_4', server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '美国欢迎订阅Youtube破解资源君_5', server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_228', server: 00.cn3.rocketdns.xyz, port: 65014, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
-  - {name: 'mattkaydiary.com|日本JPJapan/Tokyo_7', server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
-  - {name: '美国欢迎订阅Youtube破解资源君_8', server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_1', server: v34.88host.buzz, port: 18080, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_2', server: 120.241.72.116, port: 18027, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_368', server: v11.88host.buzz, port: 18005, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_4', server: 116.163.14.52, port: 18075, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_295', server: 120.241.72.84, port: 18009, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_6', server: 120.240.86.26, port: 18074, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v27.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_364', server: 120.241.72.84, port: 18008, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_271', server: 00.cn3.rocketdns.xyz, port: 65007, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /rocket}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_9', server: v34.88host.buzz, port: 18056, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v34.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_320', server: 120.197.88.216, port: 20015, type: vmess, uuid: 2383d811-a0af-4c51-b9cf-450f42bb7c85, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_252', server: v28.88host.buzz, port: 18073, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_325', server: 120.197.88.216, port: 20015, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_13', server: 116.163.14.52, port: 18073, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_14', server: 120.240.86.26, port: 18072, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v27.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_373', server: v22.88host.buzz, port: 18137, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_16', server: 116.163.14.29, port: 18140, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_321', server: 120.197.88.216, port: 20015, type: vmess, uuid: 973f8975-e494-4c77-921f-212ca83fff8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_377', server: 120.197.130.73, port: 18138, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226', server: v27.88host.buzz, port: 18072, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v27.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_357', server: v23.88host.buzz, port: 18139, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_21', server: 120.197.130.73, port: 18026, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_361', server: 120.241.72.116, port: 18139, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_23', server: 120.240.86.51, port: 18077, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v26.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_362', server: 120.241.72.84, port: 18005, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_338', server: 120.241.72.84, port: 18117, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_26', server: 120.240.86.41, port: 18029, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v25.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_333', server: v12.88host.buzz, port: 18117, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_28', server: 116.163.14.29, port: 18028, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292', server: v11.88host.buzz, port: 18008, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_30', server: 120.241.72.97, port: 18010, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_332', server: v11.88host.buzz, port: 18120, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_334', server: 120.241.72.84, port: 18120, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_315', server: v23.88host.buzz, port: 18023, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_335', server: 120.241.72.84, port: 18118, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_344', server: v12.88host.buzz, port: 18118, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_36', server: 120.241.72.97, port: 18007, type: vmess, uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_233
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279 | 6.31Mb
-      - 美国欢迎订阅Youtube破解资源君_3
-      - 美国欢迎订阅Youtube破解资源君_4
-      - 美国欢迎订阅Youtube破解资源君_5
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_228
-      - mattkaydiary.com|日本JPJapan/Tokyo_7
-      - 美国欢迎订阅Youtube破解资源君_8
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 欧洲欢迎订阅Youtube破解资源君_2
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_368
+      - 欧洲欢迎订阅Youtube破解资源君_4
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_295
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_364
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_271
+      - 欧洲欢迎订阅Youtube破解资源君_9
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_320
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_252
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_325
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 欧洲欢迎订阅Youtube破解资源君_14
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_373
+      - 欧洲欢迎订阅Youtube破解资源君_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_321
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_377
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_357
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_361
+      - 欧洲欢迎订阅Youtube破解资源君_23
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_362
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_338
+      - 欧洲欢迎订阅Youtube破解资源君_26
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_333
+      - 欧洲欢迎订阅Youtube破解资源君_28
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292
+      - 欧洲欢迎订阅Youtube破解资源君_30
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_332
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_334
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_315
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_335
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_344
+      - 欧洲欢迎订阅Youtube破解资源君_36
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_233
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279 | 6.31Mb
-      - 美国欢迎订阅Youtube破解资源君_3
-      - 美国欢迎订阅Youtube破解资源君_4
-      - 美国欢迎订阅Youtube破解资源君_5
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_228
-      - mattkaydiary.com|日本JPJapan/Tokyo_7
-      - 美国欢迎订阅Youtube破解资源君_8
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 欧洲欢迎订阅Youtube破解资源君_2
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_368
+      - 欧洲欢迎订阅Youtube破解资源君_4
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_295
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_364
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_271
+      - 欧洲欢迎订阅Youtube破解资源君_9
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_320
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_252
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_325
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 欧洲欢迎订阅Youtube破解资源君_14
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_373
+      - 欧洲欢迎订阅Youtube破解资源君_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_321
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_377
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_357
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_361
+      - 欧洲欢迎订阅Youtube破解资源君_23
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_362
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_338
+      - 欧洲欢迎订阅Youtube破解资源君_26
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_333
+      - 欧洲欢迎订阅Youtube破解资源君_28
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292
+      - 欧洲欢迎订阅Youtube破解资源君_30
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_332
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_334
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_315
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_335
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_344
+      - 欧洲欢迎订阅Youtube破解资源君_36
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_233
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279 | 6.31Mb
-      - 美国欢迎订阅Youtube破解资源君_3
-      - 美国欢迎订阅Youtube破解资源君_4
-      - 美国欢迎订阅Youtube破解资源君_5
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_228
-      - mattkaydiary.com|日本JPJapan/Tokyo_7
-      - 美国欢迎订阅Youtube破解资源君_8
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 欧洲欢迎订阅Youtube破解资源君_2
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_368
+      - 欧洲欢迎订阅Youtube破解资源君_4
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_295
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_364
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_271
+      - 欧洲欢迎订阅Youtube破解资源君_9
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_320
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_252
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_325
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 欧洲欢迎订阅Youtube破解资源君_14
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_373
+      - 欧洲欢迎订阅Youtube破解资源君_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_321
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_377
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_357
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_361
+      - 欧洲欢迎订阅Youtube破解资源君_23
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_362
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_338
+      - 欧洲欢迎订阅Youtube破解资源君_26
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_333
+      - 欧洲欢迎订阅Youtube破解资源君_28
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292
+      - 欧洲欢迎订阅Youtube破解资源君_30
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_332
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_334
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_315
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_335
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_344
+      - 欧洲欢迎订阅Youtube破解资源君_36
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_233
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279 | 6.31Mb
-      - 美国欢迎订阅Youtube破解资源君_3
-      - 美国欢迎订阅Youtube破解资源君_4
-      - 美国欢迎订阅Youtube破解资源君_5
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_228
-      - mattkaydiary.com|日本JPJapan/Tokyo_7
-      - 美国欢迎订阅Youtube破解资源君_8
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 欧洲欢迎订阅Youtube破解资源君_2
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_368
+      - 欧洲欢迎订阅Youtube破解资源君_4
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_295
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_364
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_271
+      - 欧洲欢迎订阅Youtube破解资源君_9
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_320
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_252
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_325
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 欧洲欢迎订阅Youtube破解资源君_14
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_373
+      - 欧洲欢迎订阅Youtube破解资源君_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_321
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_377
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_357
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_361
+      - 欧洲欢迎订阅Youtube破解资源君_23
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_362
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_338
+      - 欧洲欢迎订阅Youtube破解资源君_26
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_333
+      - 欧洲欢迎订阅Youtube破解资源君_28
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292
+      - 欧洲欢迎订阅Youtube破解资源君_30
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_332
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_334
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_315
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_335
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_344
+      - 欧洲欢迎订阅Youtube破解资源君_36
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_233
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279 | 6.31Mb
-      - 美国欢迎订阅Youtube破解资源君_3
-      - 美国欢迎订阅Youtube破解资源君_4
-      - 美国欢迎订阅Youtube破解资源君_5
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_228
-      - mattkaydiary.com|日本JPJapan/Tokyo_7
-      - 美国欢迎订阅Youtube破解资源君_8
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 欧洲欢迎订阅Youtube破解资源君_2
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_368
+      - 欧洲欢迎订阅Youtube破解资源君_4
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_295
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_364
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_271
+      - 欧洲欢迎订阅Youtube破解资源君_9
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_320
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_252
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_325
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 欧洲欢迎订阅Youtube破解资源君_14
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_373
+      - 欧洲欢迎订阅Youtube破解资源君_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_321
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_377
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_357
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_361
+      - 欧洲欢迎订阅Youtube破解资源君_23
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_362
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_338
+      - 欧洲欢迎订阅Youtube破解资源君_26
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_333
+      - 欧洲欢迎订阅Youtube破解资源君_28
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292
+      - 欧洲欢迎订阅Youtube破解资源君_30
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_332
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_334
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_315
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_335
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_344
+      - 欧洲欢迎订阅Youtube破解资源君_36
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_233
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279 | 6.31Mb
-      - 美国欢迎订阅Youtube破解资源君_3
-      - 美国欢迎订阅Youtube破解资源君_4
-      - 美国欢迎订阅Youtube破解资源君_5
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_228
-      - mattkaydiary.com|日本JPJapan/Tokyo_7
-      - 美国欢迎订阅Youtube破解资源君_8
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 欧洲欢迎订阅Youtube破解资源君_2
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_368
+      - 欧洲欢迎订阅Youtube破解资源君_4
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_295
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_364
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_271
+      - 欧洲欢迎订阅Youtube破解资源君_9
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_320
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_252
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_325
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 欧洲欢迎订阅Youtube破解资源君_14
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_373
+      - 欧洲欢迎订阅Youtube破解资源君_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_321
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_377
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_357
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_361
+      - 欧洲欢迎订阅Youtube破解资源君_23
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_362
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_338
+      - 欧洲欢迎订阅Youtube破解资源君_26
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_333
+      - 欧洲欢迎订阅Youtube破解资源君_28
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292
+      - 欧洲欢迎订阅Youtube破解资源君_30
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_332
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_334
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_315
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_335
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_344
+      - 欧洲欢迎订阅Youtube破解资源君_36
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_233
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279 | 6.31Mb
-      - 美国欢迎订阅Youtube破解资源君_3
-      - 美国欢迎订阅Youtube破解资源君_4
-      - 美国欢迎订阅Youtube破解资源君_5
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_228
-      - mattkaydiary.com|日本JPJapan/Tokyo_7
-      - 美国欢迎订阅Youtube破解资源君_8
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 欧洲欢迎订阅Youtube破解资源君_2
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_368
+      - 欧洲欢迎订阅Youtube破解资源君_4
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_295
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_364
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_271
+      - 欧洲欢迎订阅Youtube破解资源君_9
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_320
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_252
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_325
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 欧洲欢迎订阅Youtube破解资源君_14
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_373
+      - 欧洲欢迎订阅Youtube破解资源君_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_321
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_377
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_357
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_361
+      - 欧洲欢迎订阅Youtube破解资源君_23
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_362
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_338
+      - 欧洲欢迎订阅Youtube破解资源君_26
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_333
+      - 欧洲欢迎订阅Youtube破解资源君_28
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292
+      - 欧洲欢迎订阅Youtube破解资源君_30
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_332
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_334
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_315
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_335
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_344
+      - 欧洲欢迎订阅Youtube破解资源君_36
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -122,14 +346,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_233
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_279 | 6.31Mb
-      - 美国欢迎订阅Youtube破解资源君_3
-      - 美国欢迎订阅Youtube破解资源君_4
-      - 美国欢迎订阅Youtube破解资源君_5
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_228
-      - mattkaydiary.com|日本JPJapan/Tokyo_7
-      - 美国欢迎订阅Youtube破解资源君_8
+      - 欧洲欢迎订阅Youtube破解资源君_1
+      - 欧洲欢迎订阅Youtube破解资源君_2
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_368
+      - 欧洲欢迎订阅Youtube破解资源君_4
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_295
+      - 欧洲欢迎订阅Youtube破解资源君_6
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_364
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_271
+      - 欧洲欢迎订阅Youtube破解资源君_9
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_320
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_252
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_325
+      - 欧洲欢迎订阅Youtube破解资源君_13
+      - 欧洲欢迎订阅Youtube破解资源君_14
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_373
+      - 欧洲欢迎订阅Youtube破解资源君_16
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_321
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_377
+      - Relay_馃嚚馃嚦CN-馃嚚馃嚘CA_226
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_357
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_361
+      - 欧洲欢迎订阅Youtube破解资源君_23
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_362
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_338
+      - 欧洲欢迎订阅Youtube破解资源君_26
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_333
+      - 欧洲欢迎订阅Youtube破解资源君_28
+      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_292
+      - 欧洲欢迎订阅Youtube破解资源君_30
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_332
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_334
+      - Relay_馃嚚馃嚦CN-馃嚡馃嚨JP_315
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_335
+      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_344
+      - 欧洲欢迎订阅Youtube破解资源君_36
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
