@@ -5,68 +5,244 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'mattkaydiary.com|美国USUSA/Santa+Clara_1', server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Relay_🇨🇳CN-🇺🇸US_249', server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 'Relay_🇨🇳CN-🇺🇸US_256', server: 183.232.56.110, port: 574, type: ssr, password: "mtbv8n", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat}
+  - {name: 'Relay_🇺🇸US-🇺🇸US_1855', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/84c3f/", host: c23s3.jamjams.net }}
+  - {name: 'Relay_🇺🇸US-🇺🇸US_1831', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ssrsub", host: c23s3.jamjams.net }}
+  - {name: 'USYoutube频道：工具大师！_3', server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'USYoutube频道：工具大师！_4', server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'USYoutube频道：工具大师！_5', server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'USYoutube频道：工具大师！_6', server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'mattkaydiary.com|美国USUSA/Santa+Clara_7', server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'USYoutube频道：工具大师！_8', server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'USYoutube频道：工具大师！_9', server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '欧洲_10', server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'USYoutube频道：工具大师！_11', server: 38.91.102.86, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'USYoutube频道：工具大师！_12', server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '美国欢迎订阅Youtube破解资源君_13', server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '欧洲_14', server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 'USYoutube频道：工具大师！_15', server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'USYoutube频道：工具大师！_16', server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'Relay_🇺🇸US-🇺🇸US_893', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
+  - {name: 'USYoutube频道：工具大师！_18', server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'USYoutube频道：工具大师！_19', server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_20', server: 38.91.102.86, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_21', server: 38.143.66.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'USYoutube频道：工具大师！_22', server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '美国欢迎订阅Youtube破解资源君_23', server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '美国欢迎订阅Youtube破解资源君_24', server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_25', server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mattkaydiary.com|美国USUSA/Santa+Clara_1
-      - Relay_🇨🇳CN-🇺🇸US_249
-      - Relay_🇨🇳CN-🇺🇸US_256
+      - Relay_🇺🇸US-🇺🇸US_1855
+      - Relay_🇺🇸US-🇺🇸US_1831
+      - USYoutube频道：工具大师！_3
+      - USYoutube频道：工具大师！_4
+      - USYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - mattkaydiary.com|美国USUSA/Santa+Clara_7
+      - USYoutube频道：工具大师！_8
+      - USYoutube频道：工具大师！_9
+      - 欧洲_10
+      - USYoutube频道：工具大师！_11
+      - USYoutube频道：工具大师！_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 欧洲_14
+      - USYoutube频道：工具大师！_15
+      - USYoutube频道：工具大师！_16
+      - Relay_🇺🇸US-🇺🇸US_893
+      - USYoutube频道：工具大师！_18
+      - USYoutube频道：工具大师！_19
+      - 欧洲欢迎订阅Youtube破解资源君_20
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - USYoutube频道：工具大师！_22
+      - 美国欢迎订阅Youtube破解资源君_23
+      - 美国欢迎订阅Youtube破解资源君_24
+      - 欧洲欢迎订阅Youtube破解资源君_25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - mattkaydiary.com|美国USUSA/Santa+Clara_1
-      - Relay_🇨🇳CN-🇺🇸US_249
-      - Relay_🇨🇳CN-🇺🇸US_256
+      - Relay_🇺🇸US-🇺🇸US_1855
+      - Relay_🇺🇸US-🇺🇸US_1831
+      - USYoutube频道：工具大师！_3
+      - USYoutube频道：工具大师！_4
+      - USYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - mattkaydiary.com|美国USUSA/Santa+Clara_7
+      - USYoutube频道：工具大师！_8
+      - USYoutube频道：工具大师！_9
+      - 欧洲_10
+      - USYoutube频道：工具大师！_11
+      - USYoutube频道：工具大师！_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 欧洲_14
+      - USYoutube频道：工具大师！_15
+      - USYoutube频道：工具大师！_16
+      - Relay_🇺🇸US-🇺🇸US_893
+      - USYoutube频道：工具大师！_18
+      - USYoutube频道：工具大师！_19
+      - 欧洲欢迎订阅Youtube破解资源君_20
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - USYoutube频道：工具大师！_22
+      - 美国欢迎订阅Youtube破解资源君_23
+      - 美国欢迎订阅Youtube破解资源君_24
+      - 欧洲欢迎订阅Youtube破解资源君_25
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mattkaydiary.com|美国USUSA/Santa+Clara_1
-      - Relay_🇨🇳CN-🇺🇸US_249
-      - Relay_🇨🇳CN-🇺🇸US_256
+      - Relay_🇺🇸US-🇺🇸US_1855
+      - Relay_🇺🇸US-🇺🇸US_1831
+      - USYoutube频道：工具大师！_3
+      - USYoutube频道：工具大师！_4
+      - USYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - mattkaydiary.com|美国USUSA/Santa+Clara_7
+      - USYoutube频道：工具大师！_8
+      - USYoutube频道：工具大师！_9
+      - 欧洲_10
+      - USYoutube频道：工具大师！_11
+      - USYoutube频道：工具大师！_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 欧洲_14
+      - USYoutube频道：工具大师！_15
+      - USYoutube频道：工具大师！_16
+      - Relay_🇺🇸US-🇺🇸US_893
+      - USYoutube频道：工具大师！_18
+      - USYoutube频道：工具大师！_19
+      - 欧洲欢迎订阅Youtube破解资源君_20
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - USYoutube频道：工具大师！_22
+      - 美国欢迎订阅Youtube破解资源君_23
+      - 美国欢迎订阅Youtube破解资源君_24
+      - 欧洲欢迎订阅Youtube破解资源君_25
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - mattkaydiary.com|美国USUSA/Santa+Clara_1
-      - Relay_🇨🇳CN-🇺🇸US_249
-      - Relay_🇨🇳CN-🇺🇸US_256
+      - Relay_🇺🇸US-🇺🇸US_1855
+      - Relay_🇺🇸US-🇺🇸US_1831
+      - USYoutube频道：工具大师！_3
+      - USYoutube频道：工具大师！_4
+      - USYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - mattkaydiary.com|美国USUSA/Santa+Clara_7
+      - USYoutube频道：工具大师！_8
+      - USYoutube频道：工具大师！_9
+      - 欧洲_10
+      - USYoutube频道：工具大师！_11
+      - USYoutube频道：工具大师！_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 欧洲_14
+      - USYoutube频道：工具大师！_15
+      - USYoutube频道：工具大师！_16
+      - Relay_🇺🇸US-🇺🇸US_893
+      - USYoutube频道：工具大师！_18
+      - USYoutube频道：工具大师！_19
+      - 欧洲欢迎订阅Youtube破解资源君_20
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - USYoutube频道：工具大师！_22
+      - 美国欢迎订阅Youtube破解资源君_23
+      - 美国欢迎订阅Youtube破解资源君_24
+      - 欧洲欢迎订阅Youtube破解资源君_25
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - mattkaydiary.com|美国USUSA/Santa+Clara_1
-      - Relay_🇨🇳CN-🇺🇸US_249
-      - Relay_🇨🇳CN-🇺🇸US_256
+      - Relay_🇺🇸US-🇺🇸US_1855
+      - Relay_🇺🇸US-🇺🇸US_1831
+      - USYoutube频道：工具大师！_3
+      - USYoutube频道：工具大师！_4
+      - USYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - mattkaydiary.com|美国USUSA/Santa+Clara_7
+      - USYoutube频道：工具大师！_8
+      - USYoutube频道：工具大师！_9
+      - 欧洲_10
+      - USYoutube频道：工具大师！_11
+      - USYoutube频道：工具大师！_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 欧洲_14
+      - USYoutube频道：工具大师！_15
+      - USYoutube频道：工具大师！_16
+      - Relay_🇺🇸US-🇺🇸US_893
+      - USYoutube频道：工具大师！_18
+      - USYoutube频道：工具大师！_19
+      - 欧洲欢迎订阅Youtube破解资源君_20
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - USYoutube频道：工具大师！_22
+      - 美国欢迎订阅Youtube破解资源君_23
+      - 美国欢迎订阅Youtube破解资源君_24
+      - 欧洲欢迎订阅Youtube破解资源君_25
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - mattkaydiary.com|美国USUSA/Santa+Clara_1
-      - Relay_🇨🇳CN-🇺🇸US_249
-      - Relay_🇨🇳CN-🇺🇸US_256
+      - Relay_🇺🇸US-🇺🇸US_1855
+      - Relay_🇺🇸US-🇺🇸US_1831
+      - USYoutube频道：工具大师！_3
+      - USYoutube频道：工具大师！_4
+      - USYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - mattkaydiary.com|美国USUSA/Santa+Clara_7
+      - USYoutube频道：工具大师！_8
+      - USYoutube频道：工具大师！_9
+      - 欧洲_10
+      - USYoutube频道：工具大师！_11
+      - USYoutube频道：工具大师！_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 欧洲_14
+      - USYoutube频道：工具大师！_15
+      - USYoutube频道：工具大师！_16
+      - Relay_🇺🇸US-🇺🇸US_893
+      - USYoutube频道：工具大师！_18
+      - USYoutube频道：工具大师！_19
+      - 欧洲欢迎订阅Youtube破解资源君_20
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - USYoutube频道：工具大师！_22
+      - 美国欢迎订阅Youtube破解资源君_23
+      - 美国欢迎订阅Youtube破解资源君_24
+      - 欧洲欢迎订阅Youtube破解资源君_25
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mattkaydiary.com|美国USUSA/Santa+Clara_1
-      - Relay_🇨🇳CN-🇺🇸US_249
-      - Relay_🇨🇳CN-🇺🇸US_256
+      - Relay_🇺🇸US-🇺🇸US_1855
+      - Relay_🇺🇸US-🇺🇸US_1831
+      - USYoutube频道：工具大师！_3
+      - USYoutube频道：工具大师！_4
+      - USYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - mattkaydiary.com|美国USUSA/Santa+Clara_7
+      - USYoutube频道：工具大师！_8
+      - USYoutube频道：工具大师！_9
+      - 欧洲_10
+      - USYoutube频道：工具大师！_11
+      - USYoutube频道：工具大师！_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 欧洲_14
+      - USYoutube频道：工具大师！_15
+      - USYoutube频道：工具大师！_16
+      - Relay_🇺🇸US-🇺🇸US_893
+      - USYoutube频道：工具大师！_18
+      - USYoutube频道：工具大师！_19
+      - 欧洲欢迎订阅Youtube破解资源君_20
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - USYoutube频道：工具大师！_22
+      - 美国欢迎订阅Youtube破解资源君_23
+      - 美国欢迎订阅Youtube破解资源君_24
+      - 欧洲欢迎订阅Youtube破解资源君_25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,9 +258,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mattkaydiary.com|美国USUSA/Santa+Clara_1
-      - Relay_🇨🇳CN-🇺🇸US_249
-      - Relay_🇨🇳CN-🇺🇸US_256
+      - Relay_🇺🇸US-🇺🇸US_1855
+      - Relay_🇺🇸US-🇺🇸US_1831
+      - USYoutube频道：工具大师！_3
+      - USYoutube频道：工具大师！_4
+      - USYoutube频道：工具大师！_5
+      - USYoutube频道：工具大师！_6
+      - mattkaydiary.com|美国USUSA/Santa+Clara_7
+      - USYoutube频道：工具大师！_8
+      - USYoutube频道：工具大师！_9
+      - 欧洲_10
+      - USYoutube频道：工具大师！_11
+      - USYoutube频道：工具大师！_12
+      - 美国欢迎订阅Youtube破解资源君_13
+      - 欧洲_14
+      - USYoutube频道：工具大师！_15
+      - USYoutube频道：工具大师！_16
+      - Relay_🇺🇸US-🇺🇸US_893
+      - USYoutube频道：工具大师！_18
+      - USYoutube频道：工具大师！_19
+      - 欧洲欢迎订阅Youtube破解资源君_20
+      - 欧洲欢迎订阅Youtube破解资源君_21
+      - USYoutube频道：工具大师！_22
+      - 美国欢迎订阅Youtube破解资源君_23
+      - 美国欢迎订阅Youtube破解资源君_24
+      - 欧洲欢迎订阅Youtube破解资源君_25
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
