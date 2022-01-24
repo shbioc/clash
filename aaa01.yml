@@ -5,140 +5,188 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Relay_🇨🇳CN-🇺🇸US_274', server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: '🇺🇸_US_美国_2', server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇺🇸_US_美国_3', server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_美国_4', server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_美国_5', server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_6', server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇺🇸_US_美国_7', server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_美国_8', server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_美国_9', server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇺🇸_US_美国_10', server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇺🇸_US_美国_11', server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇺🇸_US_美国_12', server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'Relay_🇨🇳CN-🇯🇵JP_268', server: 112.33.32.136, port: 10005, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/v2ray", host: 112.33.32.136 }}
+  - {name: 'Relay_🇨🇳CN-🇯🇵JP_267', server: 112.33.32.136, port: 10005, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/niaoyun", host: 112.33.32.136 }}
+  - {name: 'Relay_🇨🇳CN-🇯🇵JP_290', server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/s/d0a8692.fm.apple.com:32667", host: 112.33.32.136 }}
+  - {name: 'Relay_🇺🇸US-🇺🇸US_1901', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v1.ssrsub.com }}
+  - {name: 'Relay_🇨🇳CN-🇺🇸US_264', server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/niaoyun", host: 112.64.69.187 }}
+  - {name: 'Relay_🇨🇳CN-🇺🇸US_271+|10.65Mb', server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: 'Relay_🇹🇼TW-🇹🇼TW_882', server: tw.4kxray.xyz, port: 20216, type: vmess, uuid: efef2a3a-ce10-328b-b65c-eeae36eb9345, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/v2ray", host: tw.4kxray.xyz }}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_8', server: 120.232.40.42, port: 19079, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/dahjwuh", host: cdn-cn.nekocloud.cn }}
+  - {name: 'Relay_🇺🇸US-🇺🇸US_1897', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v8.ssrsub.com }}
+  - {name: '欧洲欢迎订阅Youtube破解资源君_10', server: 120.232.182.190, port: 19057, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/catnet", host: cdn-cn.nekocloud.cn }}
+  - {name: 'USYoutube频道：工具大师！_11', server: 104.16.181.197, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws/?ed=2048", host: download.china666.ml }}
+  - {name: 'Relay_🇺🇸US-🇺🇸US_1895', server: v8.ssrsub.com, port: 443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v8.ssrsub.com }}
+  - {name: 'HKYoutube频道：工具大师！_13', server: www.digitalocean.com, port: 443, type: vmess, uuid: 7be43971-52f1-48af-9036-454a94b4723a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws/?ed=2048", host: download.china666.ml }}
+  - {name: 'Relay_🇺🇸US-🇺🇸US_1933', server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ssrsub", host: v1.ssrsub.com }}
+  - {name: 'Relay_🇨🇳CN-🇹🇼TW_272', server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/niaoyun", host: fa6.uuv2.co.uk }}
+  - {name: 'USYoutube频道：工具大师！_16', server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Relay_🇹🇼TW-🇹🇼TW_883', server: tw.4kxray.xyz, port: 20026, type: vmess, uuid: efef2a3a-ce10-328b-b65c-eeae36eb9345, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: "/v2ray", host: tw.4kxray.xyz }}
+  - {name: 'Relay_🇺🇸US-🇺🇸US_1631+|11.17Mb', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
+      - Relay_🇨🇳CN-🇯🇵JP_268
+      - Relay_🇨🇳CN-🇯🇵JP_267
+      - Relay_🇨🇳CN-🇯🇵JP_290
+      - Relay_🇺🇸US-🇺🇸US_1901
+      - Relay_🇨🇳CN-🇺🇸US_264
+      - Relay_🇨🇳CN-🇺🇸US_271+|10.65Mb
+      - Relay_🇹🇼TW-🇹🇼TW_882
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_🇺🇸US-🇺🇸US_1897
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - USYoutube频道：工具大师！_11
+      - Relay_🇺🇸US-🇺🇸US_1895
+      - HKYoutube频道：工具大师！_13
+      - Relay_🇺🇸US-🇺🇸US_1933
+      - Relay_🇨🇳CN-🇹🇼TW_272
+      - USYoutube频道：工具大师！_16
+      - Relay_🇹🇼TW-🇹🇼TW_883
+      - Relay_🇺🇸US-🇺🇸US_1631+|11.17Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
+      - Relay_🇨🇳CN-🇯🇵JP_268
+      - Relay_🇨🇳CN-🇯🇵JP_267
+      - Relay_🇨🇳CN-🇯🇵JP_290
+      - Relay_🇺🇸US-🇺🇸US_1901
+      - Relay_🇨🇳CN-🇺🇸US_264
+      - Relay_🇨🇳CN-🇺🇸US_271+|10.65Mb
+      - Relay_🇹🇼TW-🇹🇼TW_882
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_🇺🇸US-🇺🇸US_1897
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - USYoutube频道：工具大师！_11
+      - Relay_🇺🇸US-🇺🇸US_1895
+      - HKYoutube频道：工具大师！_13
+      - Relay_🇺🇸US-🇺🇸US_1933
+      - Relay_🇨🇳CN-🇹🇼TW_272
+      - USYoutube频道：工具大师！_16
+      - Relay_🇹🇼TW-🇹🇼TW_883
+      - Relay_🇺🇸US-🇺🇸US_1631+|11.17Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
+      - Relay_🇨🇳CN-🇯🇵JP_268
+      - Relay_🇨🇳CN-🇯🇵JP_267
+      - Relay_🇨🇳CN-🇯🇵JP_290
+      - Relay_🇺🇸US-🇺🇸US_1901
+      - Relay_🇨🇳CN-🇺🇸US_264
+      - Relay_🇨🇳CN-🇺🇸US_271+|10.65Mb
+      - Relay_🇹🇼TW-🇹🇼TW_882
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_🇺🇸US-🇺🇸US_1897
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - USYoutube频道：工具大师！_11
+      - Relay_🇺🇸US-🇺🇸US_1895
+      - HKYoutube频道：工具大师！_13
+      - Relay_🇺🇸US-🇺🇸US_1933
+      - Relay_🇨🇳CN-🇹🇼TW_272
+      - USYoutube频道：工具大师！_16
+      - Relay_🇹🇼TW-🇹🇼TW_883
+      - Relay_🇺🇸US-🇺🇸US_1631+|11.17Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
+      - Relay_🇨🇳CN-🇯🇵JP_268
+      - Relay_🇨🇳CN-🇯🇵JP_267
+      - Relay_🇨🇳CN-🇯🇵JP_290
+      - Relay_🇺🇸US-🇺🇸US_1901
+      - Relay_🇨🇳CN-🇺🇸US_264
+      - Relay_🇨🇳CN-🇺🇸US_271+|10.65Mb
+      - Relay_🇹🇼TW-🇹🇼TW_882
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_🇺🇸US-🇺🇸US_1897
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - USYoutube频道：工具大师！_11
+      - Relay_🇺🇸US-🇺🇸US_1895
+      - HKYoutube频道：工具大师！_13
+      - Relay_🇺🇸US-🇺🇸US_1933
+      - Relay_🇨🇳CN-🇹🇼TW_272
+      - USYoutube频道：工具大师！_16
+      - Relay_🇹🇼TW-🇹🇼TW_883
+      - Relay_🇺🇸US-🇺🇸US_1631+|11.17Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
+      - Relay_🇨🇳CN-🇯🇵JP_268
+      - Relay_🇨🇳CN-🇯🇵JP_267
+      - Relay_🇨🇳CN-🇯🇵JP_290
+      - Relay_🇺🇸US-🇺🇸US_1901
+      - Relay_🇨🇳CN-🇺🇸US_264
+      - Relay_🇨🇳CN-🇺🇸US_271+|10.65Mb
+      - Relay_🇹🇼TW-🇹🇼TW_882
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_🇺🇸US-🇺🇸US_1897
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - USYoutube频道：工具大师！_11
+      - Relay_🇺🇸US-🇺🇸US_1895
+      - HKYoutube频道：工具大师！_13
+      - Relay_🇺🇸US-🇺🇸US_1933
+      - Relay_🇨🇳CN-🇹🇼TW_272
+      - USYoutube频道：工具大师！_16
+      - Relay_🇹🇼TW-🇹🇼TW_883
+      - Relay_🇺🇸US-🇺🇸US_1631+|11.17Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
+      - Relay_🇨🇳CN-🇯🇵JP_268
+      - Relay_🇨🇳CN-🇯🇵JP_267
+      - Relay_🇨🇳CN-🇯🇵JP_290
+      - Relay_🇺🇸US-🇺🇸US_1901
+      - Relay_🇨🇳CN-🇺🇸US_264
+      - Relay_🇨🇳CN-🇺🇸US_271+|10.65Mb
+      - Relay_🇹🇼TW-🇹🇼TW_882
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_🇺🇸US-🇺🇸US_1897
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - USYoutube频道：工具大师！_11
+      - Relay_🇺🇸US-🇺🇸US_1895
+      - HKYoutube频道：工具大师！_13
+      - Relay_🇺🇸US-🇺🇸US_1933
+      - Relay_🇨🇳CN-🇹🇼TW_272
+      - USYoutube频道：工具大师！_16
+      - Relay_🇹🇼TW-🇹🇼TW_883
+      - Relay_🇺🇸US-🇺🇸US_1631+|11.17Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
+      - Relay_🇨🇳CN-🇯🇵JP_268
+      - Relay_🇨🇳CN-🇯🇵JP_267
+      - Relay_🇨🇳CN-🇯🇵JP_290
+      - Relay_🇺🇸US-🇺🇸US_1901
+      - Relay_🇨🇳CN-🇺🇸US_264
+      - Relay_🇨🇳CN-🇺🇸US_271+|10.65Mb
+      - Relay_🇹🇼TW-🇹🇼TW_882
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_🇺🇸US-🇺🇸US_1897
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - USYoutube频道：工具大师！_11
+      - Relay_🇺🇸US-🇺🇸US_1895
+      - HKYoutube频道：工具大师！_13
+      - Relay_🇺🇸US-🇺🇸US_1933
+      - Relay_🇨🇳CN-🇹🇼TW_272
+      - USYoutube频道：工具大师！_16
+      - Relay_🇹🇼TW-🇹🇼TW_883
+      - Relay_🇺🇸US-🇺🇸US_1631+|11.17Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,18 +202,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇺🇸US_274
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
+      - Relay_🇨🇳CN-🇯🇵JP_268
+      - Relay_🇨🇳CN-🇯🇵JP_267
+      - Relay_🇨🇳CN-🇯🇵JP_290
+      - Relay_🇺🇸US-🇺🇸US_1901
+      - Relay_🇨🇳CN-🇺🇸US_264
+      - Relay_🇨🇳CN-🇺🇸US_271+|10.65Mb
+      - Relay_🇹🇼TW-🇹🇼TW_882
+      - 欧洲欢迎订阅Youtube破解资源君_8
+      - Relay_🇺🇸US-🇺🇸US_1897
+      - 欧洲欢迎订阅Youtube破解资源君_10
+      - USYoutube频道：工具大师！_11
+      - Relay_🇺🇸US-🇺🇸US_1895
+      - HKYoutube频道：工具大师！_13
+      - Relay_🇺🇸US-🇺🇸US_1933
+      - Relay_🇨🇳CN-🇹🇼TW_272
+      - USYoutube频道：工具大师！_16
+      - Relay_🇹🇼TW-🇹🇼TW_883
+      - Relay_🇺🇸US-🇺🇸US_1631+|11.17Mb
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
