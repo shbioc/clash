@@ -5,28 +5,20 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies: 
-  - { name: 'Relay_🇨🇳CN-🇺🇸US_266
-_1', server: '117.28.243.173', port: 4173,  type: ss, cipher: 'rc4-md5', password: 'passinfo123' }
+  - { name: 'Relay_🇨🇳CN-🇺🇸US_266_1', server: '117.28.243.173', port: 4173,  type: ss, cipher: 'rc4-md5', password: 'passinfo123' }
   - {name: 'Relay_🇨🇳CN-🇺🇸US_280_2', server: '112.64.69.187', port: 10002, type: vmess, uuid: 'b82814c6-2b6a-4c15-ae33-a0cc681ee5fb', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/niaoyun', host: '112.64.69.187'} }
   - {name: 'Relay_🇺🇸US-🇺🇸US_1949_3', server: 'v1.ssrsub.com', port: 8443, type: vmess, uuid: '51273235-0995-455e-96e4-83b1811b4cab', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub', host: 'v1.ssrsub.com'} }
-  - { name: '美国(欢迎订阅Youtube破解资源君)
-_4', server: '154.3.8.151', port: 30067,  type: ss, cipher: 'aes-256-gcm', password: 'iUB0923RBA' }
+  - { name: '美国(欢迎订阅Youtube破解资源君)_4', server: '154.3.8.151', port: 30067,  type: ss, cipher: 'aes-256-gcm', password: 'iUB0923RBA' }
   - {name: 'Relay_🇺🇸US | 4.57Mb_5', server: 'v8.ssrsub.com', port: 443, type: vmess, uuid: '51273235-0995-455e-96e4-83b1811b4cab', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub', host: 'v8.ssrsub.com'} }
   - {name: 'US(Youtube频道：工具大师！)_6', server: '104.16.181.150', port: 443, type: vmess, uuid: '7be43971-52f1-48af-9036-454a94b4723a', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws/?ed=2048', host: 'download.china666.ml'} }
   - {name: 'Relay_🇺🇸US | 5.42Mb_7', server: 'v8.ssrsub.com', port: 443, type: vmess, uuid: '974aeac3-c27c-4e20-86e4-03f526faaccd', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ssrsub', host: 'v8.ssrsub.com'} }
   - {name: 'US(Youtube频道：工具大师！)_8', server: '104.16.181.197', port: 443, type: vmess, uuid: '7be43971-52f1-48af-9036-454a94b4723a', alterId: 0, cipher: auto, tls: true, network: 'ws', ws-opts: { path: '/ws/?ed=2048', host: 'download.china666.ml'} }
-  - { name: 'US_2421+|+7.45Mb
-', server: '72.167.45.6', port: 443?allowInsecure=0, type: trojan, password: 28d98f761aca9d636f44db62544628eb }
-  - { name: '美国(欢迎订阅Youtube破解资源君)
-_10', server: '38.114.114.49', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
-  - { name: '欧洲(欢迎订阅Youtube破解资源君)
-_11', server: '38.75.136.93', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
-  - { name: 'US_2420+|11.65Mb
-', server: '72.167.45.6', port: 443?allowInsecure=0, type: trojan, password: a3fa58b581353bb375d2ddad0f327938 }
-  - { name: '欧洲(欢迎订阅Youtube破解资源君)
-_13', server: '38.114.114.49', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
-  - { name: 'US_2419+|+8.32Mb
-', server: '72.167.45.6', port: 443?allowInsecure=0, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674 }
+  - { name: 'US_2421+|+7.45Mb', server: '72.167.45.6', port: 443?allowInsecure=0, type: trojan, password: 28d98f761aca9d636f44db62544628eb }
+  - { name: '美国(欢迎订阅Youtube破解资源君)_10', server: '38.114.114.49', port: 8080,  type: ss, cipher: 'aes-256-gcm', password: 'KixLvKzwjekG00rm' }
+  - { name: '欧洲(欢迎订阅Youtube破解资源君)_11', server: '38.75.136.93', port: 5004,  type: ss, cipher: 'aes-256-gcm', password: 'g5MeD6Ft3CWlJId' }
+  - { name: 'US_2420+|11.65Mb', server: '72.167.45.6', port: 443?allowInsecure=0, type: trojan, password: a3fa58b581353bb375d2ddad0f327938 }
+  - { name: '欧洲(欢迎订阅Youtube破解资源君)_13', server: '38.114.114.49', port: 8090,  type: ss, cipher: 'aes-256-gcm', password: 'PCnnH6SQSnfoS27' }
+  - { name: 'US_2419+|+8.32Mb', server: '72.167.45.6', port: 443?allowInsecure=0, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674 }
   - {name: 'Relay_🇨🇳CN-🇺🇸US_284_15', server: '112.64.69.187', port: 10002, type: vmess, uuid: 'b82814c6-2b6a-4c15-ae33-a0cc681ee5fb', alterId: 0, cipher: auto, tls: false, network: 'tcp', ws-opts: { path: '/s/d0a8692.fm.apple.com:32667', host: '112.64.69.187'} }
 proxy-groups:
   - name: 🚀 节点选择
@@ -34,28 +26,20 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇨🇳CN-🇺🇸US_266
-_1
+      - Relay_🇨🇳CN-🇺🇸US_266_1
       - Relay_🇨🇳CN-🇺🇸US_280_2
       - Relay_🇺🇸US-🇺🇸US_1949_3
-      - 美国(欢迎订阅Youtube破解资源君)
-_4
+      - 美国(欢迎订阅Youtube破解资源君)_4
       - Relay_🇺🇸US | 4.57Mb_5
       - US(Youtube频道：工具大师！)_6
       - Relay_🇺🇸US | 5.42Mb_7
       - US(Youtube频道：工具大师！)_8
-      - US_2421+|+7.45Mb
-_9
-      - 美国(欢迎订阅Youtube破解资源君)
-_10
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_11
-      - US_2420+|11.65Mb
-_12
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_13
-      - US_2419+|+8.32Mb
-_14
+      - US_2421+|+7.45Mb_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - US_2420+|11.65Mb_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - US_2419+|+8.32Mb_14
       - Relay_🇨🇳CN-🇺🇸US_284_15
   - name: ♻️ 自动选择
     type: url-test
@@ -63,28 +47,20 @@ _14
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇨🇳CN-🇺🇸US_266
-_1
+      - Relay_🇨🇳CN-🇺🇸US_266_1
       - Relay_🇨🇳CN-🇺🇸US_280_2
       - Relay_🇺🇸US-🇺🇸US_1949_3
-      - 美国(欢迎订阅Youtube破解资源君)
-_4
+      - 美国(欢迎订阅Youtube破解资源君)_4
       - Relay_🇺🇸US | 4.57Mb_5
       - US(Youtube频道：工具大师！)_6
       - Relay_🇺🇸US | 5.42Mb_7
       - US(Youtube频道：工具大师！)_8
-      - US_2421+|+7.45Mb
-_9
-      - 美国(欢迎订阅Youtube破解资源君)
-_10
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_11
-      - US_2420+|11.65Mb
-_12
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_13
-      - US_2419+|+8.32Mb
-_14
+      - US_2421+|+7.45Mb_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - US_2420+|11.65Mb_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - US_2419+|+8.32Mb_14
       - Relay_🇨🇳CN-🇺🇸US_284_15
   - name: 🌍 国外媒体
     type: select
@@ -92,112 +68,80 @@ _14
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_266
-_1
+      - Relay_🇨🇳CN-🇺🇸US_266_1
       - Relay_🇨🇳CN-🇺🇸US_280_2
       - Relay_🇺🇸US-🇺🇸US_1949_3
-      - 美国(欢迎订阅Youtube破解资源君)
-_4
+      - 美国(欢迎订阅Youtube破解资源君)_4
       - Relay_🇺🇸US | 4.57Mb_5
       - US(Youtube频道：工具大师！)_6
       - Relay_🇺🇸US | 5.42Mb_7
       - US(Youtube频道：工具大师！)_8
-      - US_2421+|+7.45Mb
-_9
-      - 美国(欢迎订阅Youtube破解资源君)
-_10
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_11
-      - US_2420+|11.65Mb
-_12
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_13
-      - US_2419+|+8.32Mb
-_14
+      - US_2421+|+7.45Mb_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - US_2420+|11.65Mb_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - US_2419+|+8.32Mb_14
       - Relay_🇨🇳CN-🇺🇸US_284_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_266
-_1
+      - Relay_🇨🇳CN-🇺🇸US_266_1
       - Relay_🇨🇳CN-🇺🇸US_280_2
       - Relay_🇺🇸US-🇺🇸US_1949_3
-      - 美国(欢迎订阅Youtube破解资源君)
-_4
+      - 美国(欢迎订阅Youtube破解资源君)_4
       - Relay_🇺🇸US | 4.57Mb_5
       - US(Youtube频道：工具大师！)_6
       - Relay_🇺🇸US | 5.42Mb_7
       - US(Youtube频道：工具大师！)_8
-      - US_2421+|+7.45Mb
-_9
-      - 美国(欢迎订阅Youtube破解资源君)
-_10
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_11
-      - US_2420+|11.65Mb
-_12
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_13
-      - US_2419+|+8.32Mb
-_14
+      - US_2421+|+7.45Mb_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - US_2420+|11.65Mb_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - US_2419+|+8.32Mb_14
       - Relay_🇨🇳CN-🇺🇸US_284_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇨🇳CN-🇺🇸US_266
-_1
+      - Relay_🇨🇳CN-🇺🇸US_266_1
       - Relay_🇨🇳CN-🇺🇸US_280_2
       - Relay_🇺🇸US-🇺🇸US_1949_3
-      - 美国(欢迎订阅Youtube破解资源君)
-_4
+      - 美国(欢迎订阅Youtube破解资源君)_4
       - Relay_🇺🇸US | 4.57Mb_5
       - US(Youtube频道：工具大师！)_6
       - Relay_🇺🇸US | 5.42Mb_7
       - US(Youtube频道：工具大师！)_8
-      - US_2421+|+7.45Mb
-_9
-      - 美国(欢迎订阅Youtube破解资源君)
-_10
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_11
-      - US_2420+|11.65Mb
-_12
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_13
-      - US_2419+|+8.32Mb
-_14
+      - US_2421+|+7.45Mb_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - US_2420+|11.65Mb_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - US_2419+|+8.32Mb_14
       - Relay_🇨🇳CN-🇺🇸US_284_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_266
-_1
+      - Relay_🇨🇳CN-🇺🇸US_266_1
       - Relay_🇨🇳CN-🇺🇸US_280_2
       - Relay_🇺🇸US-🇺🇸US_1949_3
-      - 美国(欢迎订阅Youtube破解资源君)
-_4
+      - 美国(欢迎订阅Youtube破解资源君)_4
       - Relay_🇺🇸US | 4.57Mb_5
       - US(Youtube频道：工具大师！)_6
       - Relay_🇺🇸US | 5.42Mb_7
       - US(Youtube频道：工具大师！)_8
-      - US_2421+|+7.45Mb
-_9
-      - 美国(欢迎订阅Youtube破解资源君)
-_10
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_11
-      - US_2420+|11.65Mb
-_12
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_13
-      - US_2419+|+8.32Mb
-_14
+      - US_2421+|+7.45Mb_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - US_2420+|11.65Mb_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - US_2419+|+8.32Mb_14
       - Relay_🇨🇳CN-🇺🇸US_284_15
   - name: 🎯 全球直连
     type: select
@@ -221,28 +165,20 @@ _14
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇺🇸US_266
-_1
+      - Relay_🇨🇳CN-🇺🇸US_266_1
       - Relay_🇨🇳CN-🇺🇸US_280_2
       - Relay_🇺🇸US-🇺🇸US_1949_3
-      - 美国(欢迎订阅Youtube破解资源君)
-_4
+      - 美国(欢迎订阅Youtube破解资源君)_4
       - Relay_🇺🇸US | 4.57Mb_5
       - US(Youtube频道：工具大师！)_6
       - Relay_🇺🇸US | 5.42Mb_7
       - US(Youtube频道：工具大师！)_8
-      - US_2421+|+7.45Mb
-_9
-      - 美国(欢迎订阅Youtube破解资源君)
-_10
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_11
-      - US_2420+|11.65Mb
-_12
-      - 欧洲(欢迎订阅Youtube破解资源君)
-_13
-      - US_2419+|+8.32Mb
-_14
+      - US_2421+|+7.45Mb_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 欧洲(欢迎订阅Youtube破解资源君)_11
+      - US_2420+|11.65Mb_12
+      - 欧洲(欢迎订阅Youtube破解资源君)_13
+      - US_2419+|+8.32Mb_14
       - Relay_🇨🇳CN-🇺🇸US_284_15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
