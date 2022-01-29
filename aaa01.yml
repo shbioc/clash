@@ -5,63 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇨🇳
-    CN_292_1","server":"112.64.69.187","port":10002,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵
-    JP_643_2","server":"1031kr.fans8.xyz","port":80,"type":"vmess","uuid":"c1de45d9-87eb-3af5-84fc-db92dc104e16","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"youtube-aweikeji"}}
-  - {"name":"🇨🇳
-    CN_291_3","server":"101.89.109.30","port":10011,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/"}}
+  - {"name":"Relay_🇨🇳CN-🇺🇸US_268_1","server":"117.28.243.173","port":4173,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"US(Youtube频道：工具大师！)_2","server":"38.114.114.49","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_1904_3","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"a56903b7-e983-4cd5-99a6-94d62c79b128","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v8.ssrsub.com"}}
+  - {"name":"US(Youtube频道：工具大师！)_4","server":"104.16.181.197","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws/?ed=2048","host":"download.china666.ml"}}
+  - {"name":"美国(Youtube频道：工具大师！)_5","server":"www.ltzs.buzz","port":443,"type":"vmess","uuid":"d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/bb2b34a1","host":"www.ltzs.buzz"}}
+  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_6","server":"120.233.150.200","port":50202,"type":"ss","cipher":"aes-128-gcm","password":"0f7fe3da-c8eb-48f8-a983-b10ed5edcab9"}
+  - {"name":"US美国(Youtube频道：工具大师！)_7","server":"154.17.2.64","port":18335,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"ZEAC0K2Iulex3XajSe8pCy3YaDCSDpz9Z67OwDnT8ANRalRSYcqFF54yBx3Og3"}
+  - {"name":"US(Youtube频道：工具大师！)_8","server":"38.114.114.49","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"US(Youtube频道：工具大师！)_9","server":"38.114.114.49","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"US(Youtube频道：工具大师！)_10","server":"38.75.136.45","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"US(Youtube频道：工具大师！)_11","server":"38.75.136.49","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"US(Youtube频道：工具大师！)_12","server":"167.88.61.50","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"US(Youtube频道：工具大师！)_13","server":"104.16.181.150","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws/?ed=2048","host":"download.china666.ml"}}
+  - {"name":"US(Youtube频道：工具大师！)_14","server":"38.75.136.45","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_1903_15","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"50a90339-8afa-4579-832d-f5d608a6f569","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v8.ssrsub.com"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 CN_292_1
-      - 🇯🇵 JP_643_2
-      - 🇨🇳 CN_291_3
+      - Relay_🇨🇳CN-🇺🇸US_268_1
+      - US(Youtube频道：工具大师！)_2
+      - Relay_🇺🇸US-🇺🇸US_1904_3
+      - US(Youtube频道：工具大师！)_4
+      - 美国(Youtube频道：工具大师！)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - US美国(Youtube频道：工具大师！)_7
+      - US(Youtube频道：工具大师！)_8
+      - US(Youtube频道：工具大师！)_9
+      - US(Youtube频道：工具大师！)_10
+      - US(Youtube频道：工具大师！)_11
+      - US(Youtube频道：工具大师！)_12
+      - US(Youtube频道：工具大师！)_13
+      - US(Youtube频道：工具大师！)_14
+      - Relay_🇺🇸US-🇺🇸US_1903_15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN_292_1
-      - 🇯🇵 JP_643_2
-      - 🇨🇳 CN_291_3
+      - Relay_🇨🇳CN-🇺🇸US_268_1
+      - US(Youtube频道：工具大师！)_2
+      - Relay_🇺🇸US-🇺🇸US_1904_3
+      - US(Youtube频道：工具大师！)_4
+      - 美国(Youtube频道：工具大师！)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - US美国(Youtube频道：工具大师！)_7
+      - US(Youtube频道：工具大师！)_8
+      - US(Youtube频道：工具大师！)_9
+      - US(Youtube频道：工具大师！)_10
+      - US(Youtube频道：工具大师！)_11
+      - US(Youtube频道：工具大师！)_12
+      - US(Youtube频道：工具大师！)_13
+      - US(Youtube频道：工具大师！)_14
+      - Relay_🇺🇸US-🇺🇸US_1903_15
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN_292_1
-      - 🇯🇵 JP_643_2
-      - 🇨🇳 CN_291_3
+      - Relay_🇨🇳CN-🇺🇸US_268_1
+      - US(Youtube频道：工具大师！)_2
+      - Relay_🇺🇸US-🇺🇸US_1904_3
+      - US(Youtube频道：工具大师！)_4
+      - 美国(Youtube频道：工具大师！)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - US美国(Youtube频道：工具大师！)_7
+      - US(Youtube频道：工具大师！)_8
+      - US(Youtube频道：工具大师！)_9
+      - US(Youtube频道：工具大师！)_10
+      - US(Youtube频道：工具大师！)_11
+      - US(Youtube频道：工具大师！)_12
+      - US(Youtube频道：工具大师！)_13
+      - US(Youtube频道：工具大师！)_14
+      - Relay_🇺🇸US-🇺🇸US_1903_15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_292_1
-      - 🇯🇵 JP_643_2
-      - 🇨🇳 CN_291_3
+      - Relay_🇨🇳CN-🇺🇸US_268_1
+      - US(Youtube频道：工具大师！)_2
+      - Relay_🇺🇸US-🇺🇸US_1904_3
+      - US(Youtube频道：工具大师！)_4
+      - 美国(Youtube频道：工具大师！)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - US美国(Youtube频道：工具大师！)_7
+      - US(Youtube频道：工具大师！)_8
+      - US(Youtube频道：工具大师！)_9
+      - US(Youtube频道：工具大师！)_10
+      - US(Youtube频道：工具大师！)_11
+      - US(Youtube频道：工具大师！)_12
+      - US(Youtube频道：工具大师！)_13
+      - US(Youtube频道：工具大师！)_14
+      - Relay_🇺🇸US-🇺🇸US_1903_15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 CN_292_1
-      - 🇯🇵 JP_643_2
-      - 🇨🇳 CN_291_3
+      - Relay_🇨🇳CN-🇺🇸US_268_1
+      - US(Youtube频道：工具大师！)_2
+      - Relay_🇺🇸US-🇺🇸US_1904_3
+      - US(Youtube频道：工具大师！)_4
+      - 美国(Youtube频道：工具大师！)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - US美国(Youtube频道：工具大师！)_7
+      - US(Youtube频道：工具大师！)_8
+      - US(Youtube频道：工具大师！)_9
+      - US(Youtube频道：工具大师！)_10
+      - US(Youtube频道：工具大师！)_11
+      - US(Youtube频道：工具大师！)_12
+      - US(Youtube频道：工具大师！)_13
+      - US(Youtube频道：工具大师！)_14
+      - Relay_🇺🇸US-🇺🇸US_1903_15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_292_1
-      - 🇯🇵 JP_643_2
-      - 🇨🇳 CN_291_3
+      - Relay_🇨🇳CN-🇺🇸US_268_1
+      - US(Youtube频道：工具大师！)_2
+      - Relay_🇺🇸US-🇺🇸US_1904_3
+      - US(Youtube频道：工具大师！)_4
+      - 美国(Youtube频道：工具大师！)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - US美国(Youtube频道：工具大师！)_7
+      - US(Youtube频道：工具大师！)_8
+      - US(Youtube频道：工具大师！)_9
+      - US(Youtube频道：工具大师！)_10
+      - US(Youtube频道：工具大师！)_11
+      - US(Youtube频道：工具大师！)_12
+      - US(Youtube频道：工具大师！)_13
+      - US(Youtube频道：工具大师！)_14
+      - Relay_🇺🇸US-🇺🇸US_1903_15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,9 +165,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_292_1
-      - 🇯🇵 JP_643_2
-      - 🇨🇳 CN_291_3
+      - Relay_🇨🇳CN-🇺🇸US_268_1
+      - US(Youtube频道：工具大师！)_2
+      - Relay_🇺🇸US-🇺🇸US_1904_3
+      - US(Youtube频道：工具大师！)_4
+      - 美国(Youtube频道：工具大师！)_5
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - US美国(Youtube频道：工具大师！)_7
+      - US(Youtube频道：工具大师！)_8
+      - US(Youtube频道：工具大师！)_9
+      - US(Youtube频道：工具大师！)_10
+      - US(Youtube频道：工具大师！)_11
+      - US(Youtube频道：工具大师！)_12
+      - US(Youtube频道：工具大师！)_13
+      - US(Youtube频道：工具大师！)_14
+      - Relay_🇺🇸US-🇺🇸US_1903_15
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
