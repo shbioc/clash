@@ -7,128 +7,121 @@ external-controller: 0.0.0.0:9090
 proxies:
   - {"name":"Relay_🇨🇳CN-🇺🇸US_283","server":"112.64.69.187","port":10002,"type":"vmess","uuid":"b82814c6-2b6a-4c15-ae33-a0cc681ee5fb","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/s/d0a8692.fm.apple.com:32667","host":"112.64.69.187"}}
   - {"name":"Relay_🇨🇳CN-🇺🇸US_269","server":"117.28.243.173","port":4173,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)","server":"vipdedi.boom.ovh","port":65521,"type":"vmess","uuid":"a8d9724a-d61c-3d85-8cad-07e4d45a9441","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/mydisk","host":"vipdedi.boom.ovh"}}
   - {"name":"Relay_🇺🇸US-🇺🇸US_1902","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"a56903b7-e983-4cd5-99a6-94d62c79b128","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v8.ssrsub.com"}}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)","server":"38.114.114.49","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"Relay_🇨🇳CN-🇺🇸US_291
+    ","server":"s1.upyun.online","port":"12340?allowInsecure=1","type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
   - {"name":"Relay_🇺🇸US-🇺🇸US_1901","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"50a90339-8afa-4579-832d-f5d608a6f569","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","host":"v8.ssrsub.com"}}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)","server":"38.75.136.45","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
   - {"name":"Relay_🇨🇳CN-🇹🇼TW_282","server":"112.64.69.187","port":10004,"type":"vmess","uuid":"65cac56d-4155-43c8-bae0-f368cb21f771","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/niaoyun","host":"112.64.69.187"}}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)","server":"120.233.150.200","port":50202,"type":"ss","cipher":"aes-128-gcm","password":"0f7fe3da-c8eb-48f8-a983-b10ed5edcab9"}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)","server":"38.143.66.55","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"US_1944
+    ","server":"72.167.45.6","port":"443?allowInsecure=0","type":"trojan","password":"36ebef7d1b1d6205fd0c55f28800e674"}
+  - {"name":"US_1985
+    ","server":"72.167.45.6","port":"443?allowInsecure=0","type":"trojan","password":"a3fa58b581353bb375d2ddad0f327938"}
   - {"name":"Relay_🇺🇸US-🇺🇸US_871","server":"107.182.234.233","port":8389,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"XkH8z99cQguQ8ywK5jhV"}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)","server":"38.68.134.191","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)","server":"38.68.134.48","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - US_1944
+      - US_1985
       - Relay_🇨🇳CN-🇺🇸US_283
       - Relay_🇨🇳CN-🇺🇸US_269
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - Relay_🇺🇸US-🇺🇸US_1902
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'Relay_🇨🇳CN-🇺🇸US_291 '
       - Relay_🇺🇸US-🇺🇸US_1901
-      - 美国(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇳CN-🇹🇼TW_282
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'US_1944 '
+      - 'US_1985 '
       - Relay_🇺🇸US-🇺🇸US_871
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - US_1944
+      - US_1985
       - Relay_🇨🇳CN-🇺🇸US_283
       - Relay_🇨🇳CN-🇺🇸US_269
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - Relay_🇺🇸US-🇺🇸US_1902
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'Relay_🇨🇳CN-🇺🇸US_291 '
       - Relay_🇺🇸US-🇺🇸US_1901
-      - 美国(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇳CN-🇹🇼TW_282
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'US_1944 '
+      - 'US_1985 '
       - Relay_🇺🇸US-🇺🇸US_871
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - US_1944
+      - US_1985
       - Relay_🇨🇳CN-🇺🇸US_283
       - Relay_🇨🇳CN-🇺🇸US_269
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - Relay_🇺🇸US-🇺🇸US_1902
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'Relay_🇨🇳CN-🇺🇸US_291 '
       - Relay_🇺🇸US-🇺🇸US_1901
-      - 美国(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇳CN-🇹🇼TW_282
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'US_1944 '
+      - 'US_1985 '
       - Relay_🇺🇸US-🇺🇸US_871
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - US_1944
+      - US_1985
       - Relay_🇨🇳CN-🇺🇸US_283
       - Relay_🇨🇳CN-🇺🇸US_269
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - Relay_🇺🇸US-🇺🇸US_1902
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'Relay_🇨🇳CN-🇺🇸US_291 '
       - Relay_🇺🇸US-🇺🇸US_1901
-      - 美国(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇳CN-🇹🇼TW_282
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'US_1944 '
+      - 'US_1985 '
       - Relay_🇺🇸US-🇺🇸US_871
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - US_1944
+      - US_1985
       - Relay_🇨🇳CN-🇺🇸US_283
       - Relay_🇨🇳CN-🇺🇸US_269
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - Relay_🇺🇸US-🇺🇸US_1902
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'Relay_🇨🇳CN-🇺🇸US_291 '
       - Relay_🇺🇸US-🇺🇸US_1901
-      - 美国(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇳CN-🇹🇼TW_282
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'US_1944 '
+      - 'US_1985 '
       - Relay_🇺🇸US-🇺🇸US_871
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - US_1944
+      - US_1985
       - Relay_🇨🇳CN-🇺🇸US_283
       - Relay_🇨🇳CN-🇺🇸US_269
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - Relay_🇺🇸US-🇺🇸US_1902
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'Relay_🇨🇳CN-🇺🇸US_291 '
       - Relay_🇺🇸US-🇺🇸US_1901
-      - 美国(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇳CN-🇹🇼TW_282
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'US_1944 '
+      - 'US_1985 '
       - Relay_🇺🇸US-🇺🇸US_871
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -151,19 +144,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇨🇳CN-🇺🇸US_291
+      - US_1944
+      - US_1985
       - Relay_🇨🇳CN-🇺🇸US_283
       - Relay_🇨🇳CN-🇺🇸US_269
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - Relay_🇺🇸US-🇺🇸US_1902
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'Relay_🇨🇳CN-🇺🇸US_291 '
       - Relay_🇺🇸US-🇺🇸US_1901
-      - 美国(欢迎订阅Youtube破解资源君)
       - Relay_🇨🇳CN-🇹🇼TW_282
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 'US_1944 '
+      - 'US_1985 '
       - Relay_🇺🇸US-🇺🇸US_871
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
