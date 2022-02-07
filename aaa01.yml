@@ -5,186 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_344
-    ","server":"ty2-8.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_353
-    ","server":"os1-7.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_330
-    ","server":"ty2-5.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_4","server":"120.232.192.211","port":9584,"type":"ss","cipher":"aes-256-gcm","password":"29bbe1a0-e2d2-4e83-975b-6dcec7e2e700"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_352
-    ","server":"os1-8.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_356
-    ","server":"ty2-4.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_349
-    ","server":"os1-2.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_337
-    ","server":"os1-6.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_340
-    ","server":"ty2-1.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_1","server":"120.232.192.211","port":9584,"type":"ss","cipher":"aes-256-gcm","password":"29bbe1a0-e2d2-4e83-975b-6dcec7e2e700"}
   - {"name":"Relay_🇨🇳CN-🇺🇸US_247","server":"117.28.243.173","port":4173,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
   - {"name":"Relay_🇺🇸US-🇺🇸US_1929","server":"c23s3.jamjams.net","port":61173,"type":"vmess","uuid":"9d1043a6-e87e-4bb7-8858-c1185e9c0c3b","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/84c3f/","host":"c23s3.jamjams.net"}}
   - {"name":"Relay_🇺🇸US-🇺🇸US_1907","server":"c23s3.jamjams.net","port":61173,"type":"vmess","uuid":"9d1043a6-e87e-4bb7-8858-c1185e9c0c3b","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/ws","host":"c23s3.jamjams.net"}}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_347
-    ","server":"os1-1.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇳🇱NL-🏁ZZ_678
-    ","server":"uk1-1.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇳🇱NL-🏁ZZ_672
-    ","server":"uk1-4.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_329
-    ","server":"os1-4.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇳🇱NL-🏁ZZ_674
-    ","server":"uk1-2.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇳🇱NL-🏁ZZ_677
-    ","server":"uk1-3.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"US(Youtube频道：工具大师！)_19","server":"104.16.181.150","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws/?ed=2048","host":"download.china666.ml"}}
+  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_5","server":"38.75.137.66","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"US(Youtube频道：工具大师！)_6","server":"104.16.181.150","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws/?ed=2048","host":"download.china666.ml"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇪🇪EE-🇯🇵JP_344
-      - Relay_🇪🇪EE-🇯🇵JP_353
-      - Relay_🇪🇪EE-🇯🇵JP_330
-      - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_352
-      - Relay_🇪🇪EE-🇯🇵JP_356
-      - Relay_🇪🇪EE-🇯🇵JP_349
-      - Relay_🇪🇪EE-🇯🇵JP_337
-      - Relay_🇪🇪EE-🇯🇵JP_340
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
       - Relay_🇨🇳CN-🇺🇸US_247
       - Relay_🇺🇸US-🇺🇸US_1929
       - Relay_🇺🇸US-🇺🇸US_1907
-      - Relay_🇪🇪EE-🇯🇵JP_347
-      - Relay_🇳🇱NL-🏁ZZ_678
-      - Relay_🇳🇱NL-🏁ZZ_672
-      - Relay_🇪🇪EE-🇯🇵JP_329
-      - Relay_🇳🇱NL-🏁ZZ_674
-      - Relay_🇳🇱NL-🏁ZZ_677
-      - US(Youtube频道：工具大师！)_19
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - US(Youtube频道：工具大师！)_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇪🇪EE-🇯🇵JP_344
-      - Relay_🇪🇪EE-🇯🇵JP_353
-      - Relay_🇪🇪EE-🇯🇵JP_330
-      - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_352
-      - Relay_🇪🇪EE-🇯🇵JP_356
-      - Relay_🇪🇪EE-🇯🇵JP_349
-      - Relay_🇪🇪EE-🇯🇵JP_337
-      - Relay_🇪🇪EE-🇯🇵JP_340
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
       - Relay_🇨🇳CN-🇺🇸US_247
       - Relay_🇺🇸US-🇺🇸US_1929
       - Relay_🇺🇸US-🇺🇸US_1907
-      - Relay_🇪🇪EE-🇯🇵JP_347
-      - Relay_🇳🇱NL-🏁ZZ_678
-      - Relay_🇳🇱NL-🏁ZZ_672
-      - Relay_🇪🇪EE-🇯🇵JP_329
-      - Relay_🇳🇱NL-🏁ZZ_674
-      - Relay_🇳🇱NL-🏁ZZ_677
-      - US(Youtube频道：工具大师！)_19
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - US(Youtube频道：工具大师！)_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_344
-      - Relay_🇪🇪EE-🇯🇵JP_353
-      - Relay_🇪🇪EE-🇯🇵JP_330
-      - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_352
-      - Relay_🇪🇪EE-🇯🇵JP_356
-      - Relay_🇪🇪EE-🇯🇵JP_349
-      - Relay_🇪🇪EE-🇯🇵JP_337
-      - Relay_🇪🇪EE-🇯🇵JP_340
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
       - Relay_🇨🇳CN-🇺🇸US_247
       - Relay_🇺🇸US-🇺🇸US_1929
       - Relay_🇺🇸US-🇺🇸US_1907
-      - Relay_🇪🇪EE-🇯🇵JP_347
-      - Relay_🇳🇱NL-🏁ZZ_678
-      - Relay_🇳🇱NL-🏁ZZ_672
-      - Relay_🇪🇪EE-🇯🇵JP_329
-      - Relay_🇳🇱NL-🏁ZZ_674
-      - Relay_🇳🇱NL-🏁ZZ_677
-      - US(Youtube频道：工具大师！)_19
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - US(Youtube频道：工具大师！)_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_344
-      - Relay_🇪🇪EE-🇯🇵JP_353
-      - Relay_🇪🇪EE-🇯🇵JP_330
-      - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_352
-      - Relay_🇪🇪EE-🇯🇵JP_356
-      - Relay_🇪🇪EE-🇯🇵JP_349
-      - Relay_🇪🇪EE-🇯🇵JP_337
-      - Relay_🇪🇪EE-🇯🇵JP_340
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
       - Relay_🇨🇳CN-🇺🇸US_247
       - Relay_🇺🇸US-🇺🇸US_1929
       - Relay_🇺🇸US-🇺🇸US_1907
-      - Relay_🇪🇪EE-🇯🇵JP_347
-      - Relay_🇳🇱NL-🏁ZZ_678
-      - Relay_🇳🇱NL-🏁ZZ_672
-      - Relay_🇪🇪EE-🇯🇵JP_329
-      - Relay_🇳🇱NL-🏁ZZ_674
-      - Relay_🇳🇱NL-🏁ZZ_677
-      - US(Youtube频道：工具大师！)_19
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - US(Youtube频道：工具大师！)_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇪🇪EE-🇯🇵JP_344
-      - Relay_🇪🇪EE-🇯🇵JP_353
-      - Relay_🇪🇪EE-🇯🇵JP_330
-      - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_352
-      - Relay_🇪🇪EE-🇯🇵JP_356
-      - Relay_🇪🇪EE-🇯🇵JP_349
-      - Relay_🇪🇪EE-🇯🇵JP_337
-      - Relay_🇪🇪EE-🇯🇵JP_340
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
       - Relay_🇨🇳CN-🇺🇸US_247
       - Relay_🇺🇸US-🇺🇸US_1929
       - Relay_🇺🇸US-🇺🇸US_1907
-      - Relay_🇪🇪EE-🇯🇵JP_347
-      - Relay_🇳🇱NL-🏁ZZ_678
-      - Relay_🇳🇱NL-🏁ZZ_672
-      - Relay_🇪🇪EE-🇯🇵JP_329
-      - Relay_🇳🇱NL-🏁ZZ_674
-      - Relay_🇳🇱NL-🏁ZZ_677
-      - US(Youtube频道：工具大师！)_19
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - US(Youtube频道：工具大师！)_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_344
-      - Relay_🇪🇪EE-🇯🇵JP_353
-      - Relay_🇪🇪EE-🇯🇵JP_330
-      - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_352
-      - Relay_🇪🇪EE-🇯🇵JP_356
-      - Relay_🇪🇪EE-🇯🇵JP_349
-      - Relay_🇪🇪EE-🇯🇵JP_337
-      - Relay_🇪🇪EE-🇯🇵JP_340
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
       - Relay_🇨🇳CN-🇺🇸US_247
       - Relay_🇺🇸US-🇺🇸US_1929
       - Relay_🇺🇸US-🇺🇸US_1907
-      - Relay_🇪🇪EE-🇯🇵JP_347
-      - Relay_🇳🇱NL-🏁ZZ_678
-      - Relay_🇳🇱NL-🏁ZZ_672
-      - Relay_🇪🇪EE-🇯🇵JP_329
-      - Relay_🇳🇱NL-🏁ZZ_674
-      - Relay_🇳🇱NL-🏁ZZ_677
-      - US(Youtube频道：工具大师！)_19
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - US(Youtube频道：工具大师！)_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -207,25 +102,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇪🇪EE-🇯🇵JP_344
-      - Relay_🇪🇪EE-🇯🇵JP_353
-      - Relay_🇪🇪EE-🇯🇵JP_330
-      - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_352
-      - Relay_🇪🇪EE-🇯🇵JP_356
-      - Relay_🇪🇪EE-🇯🇵JP_349
-      - Relay_🇪🇪EE-🇯🇵JP_337
-      - Relay_🇪🇪EE-🇯🇵JP_340
+      - 欧洲(欢迎订阅Youtube破解资源君)_1
       - Relay_🇨🇳CN-🇺🇸US_247
       - Relay_🇺🇸US-🇺🇸US_1929
       - Relay_🇺🇸US-🇺🇸US_1907
-      - Relay_🇪🇪EE-🇯🇵JP_347
-      - Relay_🇳🇱NL-🏁ZZ_678
-      - Relay_🇳🇱NL-🏁ZZ_672
-      - Relay_🇪🇪EE-🇯🇵JP_329
-      - Relay_🇳🇱NL-🏁ZZ_674
-      - Relay_🇳🇱NL-🏁ZZ_677
-      - US(Youtube频道：工具大师！)_19
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
+      - US(Youtube频道：工具大师！)_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
