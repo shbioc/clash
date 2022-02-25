@@ -5,165 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"os2-5_sstr-api_xyz:443_1","server":"os2-5.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇹🇼TW-🇹🇼TW_947","server":"tw.v2ssvps.com","port":60763,"type":"vmess","uuid":"1b693eb3-3241-362a-9001-5b503789cfbe","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray","host":"tw.v2ssvps.com"}}
-  - {"name":"106_180_225_69:1443_3","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
-  - {"name":"Relay_🇨🇳CN-🇺🇸US_285","server":"117.28.243.173","port":4173,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
-  - {"name":"os2-7_sstr-api_xyz:443_5","server":"os2-7.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"os2-8_sstr-api_xyz:443_6","server":"os2-8.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"os2-1_sstr-api_xyz:443_7","server":"os2-1.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"hz_pbaplink_xyz:47769_8","server":"hz.pbaplink.xyz","port":47769,"type":"trojan","password":"ad983854-167d-478f-88eb-5d494d3b2c24"}
-  - {"name":"www_darkwater_xyz:41759_9","server":"www.darkwater.xyz","port":41759,"type":"trojan","password":"ixkIc4mCzH"}
-  - {"name":"hz_pbaplink_xyz:47772_10","server":"hz.pbaplink.xyz","port":47772,"type":"trojan","password":"ad983854-167d-478f-88eb-5d494d3b2c24"}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_2143","server":"test.0dc.cn","port":443,"type":"vmess","uuid":"ebe5703b-c18e-4664-c3a7-9fcf52453898","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","host":"test.0dc.cn"}}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)_12","server":"172.99.190.39","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)_13","server":"172.99.190.39","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"os2-4_sstr-api_xyz:443_14","server":"os2-4.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"os2-2_sstr-api_xyz:443_15","server":"os2-2.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"hk_hkt_lilyco_cc:443_16","server":"hk.hkt.lilyco.cc","port":443,"type":"trojan","password":"sharecentre"}
-  - {"name":"os2-3_sstr-api_xyz:443_17","server":"os2-3.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"os2-6_sstr-api_xyz:443_18","server":"os2-6.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_411","server":"os2-4.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_399","server":"os2-3.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_400","server":"os2-5.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"日本(欢迎订阅Youtube破解资源君)_4","server":"fq.0112391.xyz","port":12226,"type":"trojan","password":"1qaz2wsx"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_414","server":"os2-8.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"Relay_🇯🇵JP-🇯🇵JP_700","server":"jp10.holiganfan.com","port":10088,"type":"trojan","password":"8ce38f17-b2be-453a-8d25-deec1a0aabba"}
+  - {"name":"JP_702","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
+  - {"name":"Relay_🇨🇳CN-🇭🇰HK_353","server":"gzbgpss.8n4t.cn","port":20115,"type":"trojan","password":"43a29215-a4c6-3b8a-9697-5242c8f09213"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - os2-5_sstr-api_xyz:443_1
-      - Relay_🇹🇼TW-🇹🇼TW_947
-      - '106_180_225_69:1443_3'
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - os2-7_sstr-api_xyz:443_5
-      - os2-8_sstr-api_xyz:443_6
-      - os2-1_sstr-api_xyz:443_7
-      - hz_pbaplink_xyz:47769_8
-      - www_darkwater_xyz:41759_9
-      - hz_pbaplink_xyz:47772_10
-      - Relay_🇺🇸US-🇺🇸US_2143
-      - 美国(欢迎订阅Youtube破解资源君)_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - os2-4_sstr-api_xyz:443_14
-      - os2-2_sstr-api_xyz:443_15
-      - hk_hkt_lilyco_cc:443_16
-      - os2-3_sstr-api_xyz:443_17
-      - os2-6_sstr-api_xyz:443_18
+      - Relay_🇪🇪EE-🇯🇵JP_411
+      - Relay_🇪🇪EE-🇯🇵JP_399
+      - Relay_🇪🇪EE-🇯🇵JP_400
+      - 日本(欢迎订阅Youtube破解资源君)_4
+      - Relay_🇪🇪EE-🇯🇵JP_414
+      - Relay_🇯🇵JP-🇯🇵JP_700
+      - JP_702
+      - Relay_🇨🇳CN-🇭🇰HK_353
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - os2-5_sstr-api_xyz:443_1
-      - Relay_🇹🇼TW-🇹🇼TW_947
-      - '106_180_225_69:1443_3'
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - os2-7_sstr-api_xyz:443_5
-      - os2-8_sstr-api_xyz:443_6
-      - os2-1_sstr-api_xyz:443_7
-      - hz_pbaplink_xyz:47769_8
-      - www_darkwater_xyz:41759_9
-      - hz_pbaplink_xyz:47772_10
-      - Relay_🇺🇸US-🇺🇸US_2143
-      - 美国(欢迎订阅Youtube破解资源君)_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - os2-4_sstr-api_xyz:443_14
-      - os2-2_sstr-api_xyz:443_15
-      - hk_hkt_lilyco_cc:443_16
-      - os2-3_sstr-api_xyz:443_17
-      - os2-6_sstr-api_xyz:443_18
+      - Relay_🇪🇪EE-🇯🇵JP_411
+      - Relay_🇪🇪EE-🇯🇵JP_399
+      - Relay_🇪🇪EE-🇯🇵JP_400
+      - 日本(欢迎订阅Youtube破解资源君)_4
+      - Relay_🇪🇪EE-🇯🇵JP_414
+      - Relay_🇯🇵JP-🇯🇵JP_700
+      - JP_702
+      - Relay_🇨🇳CN-🇭🇰HK_353
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - os2-5_sstr-api_xyz:443_1
-      - Relay_🇹🇼TW-🇹🇼TW_947
-      - '106_180_225_69:1443_3'
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - os2-7_sstr-api_xyz:443_5
-      - os2-8_sstr-api_xyz:443_6
-      - os2-1_sstr-api_xyz:443_7
-      - hz_pbaplink_xyz:47769_8
-      - www_darkwater_xyz:41759_9
-      - hz_pbaplink_xyz:47772_10
-      - Relay_🇺🇸US-🇺🇸US_2143
-      - 美国(欢迎订阅Youtube破解资源君)_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - os2-4_sstr-api_xyz:443_14
-      - os2-2_sstr-api_xyz:443_15
-      - hk_hkt_lilyco_cc:443_16
-      - os2-3_sstr-api_xyz:443_17
-      - os2-6_sstr-api_xyz:443_18
+      - Relay_🇪🇪EE-🇯🇵JP_411
+      - Relay_🇪🇪EE-🇯🇵JP_399
+      - Relay_🇪🇪EE-🇯🇵JP_400
+      - 日本(欢迎订阅Youtube破解资源君)_4
+      - Relay_🇪🇪EE-🇯🇵JP_414
+      - Relay_🇯🇵JP-🇯🇵JP_700
+      - JP_702
+      - Relay_🇨🇳CN-🇭🇰HK_353
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - os2-5_sstr-api_xyz:443_1
-      - Relay_🇹🇼TW-🇹🇼TW_947
-      - '106_180_225_69:1443_3'
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - os2-7_sstr-api_xyz:443_5
-      - os2-8_sstr-api_xyz:443_6
-      - os2-1_sstr-api_xyz:443_7
-      - hz_pbaplink_xyz:47769_8
-      - www_darkwater_xyz:41759_9
-      - hz_pbaplink_xyz:47772_10
-      - Relay_🇺🇸US-🇺🇸US_2143
-      - 美国(欢迎订阅Youtube破解资源君)_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - os2-4_sstr-api_xyz:443_14
-      - os2-2_sstr-api_xyz:443_15
-      - hk_hkt_lilyco_cc:443_16
-      - os2-3_sstr-api_xyz:443_17
-      - os2-6_sstr-api_xyz:443_18
+      - Relay_🇪🇪EE-🇯🇵JP_411
+      - Relay_🇪🇪EE-🇯🇵JP_399
+      - Relay_🇪🇪EE-🇯🇵JP_400
+      - 日本(欢迎订阅Youtube破解资源君)_4
+      - Relay_🇪🇪EE-🇯🇵JP_414
+      - Relay_🇯🇵JP-🇯🇵JP_700
+      - JP_702
+      - Relay_🇨🇳CN-🇭🇰HK_353
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - os2-5_sstr-api_xyz:443_1
-      - Relay_🇹🇼TW-🇹🇼TW_947
-      - '106_180_225_69:1443_3'
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - os2-7_sstr-api_xyz:443_5
-      - os2-8_sstr-api_xyz:443_6
-      - os2-1_sstr-api_xyz:443_7
-      - hz_pbaplink_xyz:47769_8
-      - www_darkwater_xyz:41759_9
-      - hz_pbaplink_xyz:47772_10
-      - Relay_🇺🇸US-🇺🇸US_2143
-      - 美国(欢迎订阅Youtube破解资源君)_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - os2-4_sstr-api_xyz:443_14
-      - os2-2_sstr-api_xyz:443_15
-      - hk_hkt_lilyco_cc:443_16
-      - os2-3_sstr-api_xyz:443_17
-      - os2-6_sstr-api_xyz:443_18
+      - Relay_🇪🇪EE-🇯🇵JP_411
+      - Relay_🇪🇪EE-🇯🇵JP_399
+      - Relay_🇪🇪EE-🇯🇵JP_400
+      - 日本(欢迎订阅Youtube破解资源君)_4
+      - Relay_🇪🇪EE-🇯🇵JP_414
+      - Relay_🇯🇵JP-🇯🇵JP_700
+      - JP_702
+      - Relay_🇨🇳CN-🇭🇰HK_353
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - os2-5_sstr-api_xyz:443_1
-      - Relay_🇹🇼TW-🇹🇼TW_947
-      - '106_180_225_69:1443_3'
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - os2-7_sstr-api_xyz:443_5
-      - os2-8_sstr-api_xyz:443_6
-      - os2-1_sstr-api_xyz:443_7
-      - hz_pbaplink_xyz:47769_8
-      - www_darkwater_xyz:41759_9
-      - hz_pbaplink_xyz:47772_10
-      - Relay_🇺🇸US-🇺🇸US_2143
-      - 美国(欢迎订阅Youtube破解资源君)_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - os2-4_sstr-api_xyz:443_14
-      - os2-2_sstr-api_xyz:443_15
-      - hk_hkt_lilyco_cc:443_16
-      - os2-3_sstr-api_xyz:443_17
-      - os2-6_sstr-api_xyz:443_18
+      - Relay_🇪🇪EE-🇯🇵JP_411
+      - Relay_🇪🇪EE-🇯🇵JP_399
+      - Relay_🇪🇪EE-🇯🇵JP_400
+      - 日本(欢迎订阅Youtube破解资源君)_4
+      - Relay_🇪🇪EE-🇯🇵JP_414
+      - Relay_🇯🇵JP-🇯🇵JP_700
+      - JP_702
+      - Relay_🇨🇳CN-🇭🇰HK_353
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,24 +116,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - os2-5_sstr-api_xyz:443_1
-      - Relay_🇹🇼TW-🇹🇼TW_947
-      - '106_180_225_69:1443_3'
-      - Relay_🇨🇳CN-🇺🇸US_285
-      - os2-7_sstr-api_xyz:443_5
-      - os2-8_sstr-api_xyz:443_6
-      - os2-1_sstr-api_xyz:443_7
-      - hz_pbaplink_xyz:47769_8
-      - www_darkwater_xyz:41759_9
-      - hz_pbaplink_xyz:47772_10
-      - Relay_🇺🇸US-🇺🇸US_2143
-      - 美国(欢迎订阅Youtube破解资源君)_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - os2-4_sstr-api_xyz:443_14
-      - os2-2_sstr-api_xyz:443_15
-      - hk_hkt_lilyco_cc:443_16
-      - os2-3_sstr-api_xyz:443_17
-      - os2-6_sstr-api_xyz:443_18
+      - Relay_🇪🇪EE-🇯🇵JP_411
+      - Relay_🇪🇪EE-🇯🇵JP_399
+      - Relay_🇪🇪EE-🇯🇵JP_400
+      - 日本(欢迎订阅Youtube破解资源君)_4
+      - Relay_🇪🇪EE-🇯🇵JP_414
+      - Relay_🇯🇵JP-🇯🇵JP_700
+      - JP_702
+      - Relay_🇨🇳CN-🇭🇰HK_353
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
