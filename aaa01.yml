@@ -5,95 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_411","server":"os2-4.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_399","server":"os2-3.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_400","server":"os2-5.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"日本(欢迎订阅Youtube破解资源君)_4","server":"fq.0112391.xyz","port":12226,"type":"trojan","password":"1qaz2wsx"}
-  - {"name":"Relay_🇪🇪EE-🇯🇵JP_414","server":"os2-8.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
-  - {"name":"Relay_🇯🇵JP-🇯🇵JP_700","server":"jp10.holiganfan.com","port":10088,"type":"trojan","password":"8ce38f17-b2be-453a-8d25-deec1a0aabba"}
-  - {"name":"JP_702","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
-  - {"name":"Relay_🇨🇳CN-🇭🇰HK_353","server":"gzbgpss.8n4t.cn","port":20115,"type":"trojan","password":"43a29215-a4c6-3b8a-9697-5242c8f09213"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_410","server":"os2-1.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_413","server":"os2-4.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_418","server":"os2-3.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_412","server":"os2-7.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_406","server":"os2-8.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"US_油管+TG+8度科技_6","server":"206.119.125.70","port":8282,"type":"ss","cipher":"rc4-md5","password":"passinfo123"}
+  - {"name":"(ios软件代购_ioskaka_com)_7","server":"104.16.181.103","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws/?ed=2048","headers":{"host":"download.china666.ml"}}}
+  - {"name":"JP_油管TG8度科技_8","server":"172.105.222.98","port":80,"type":"vmess","uuid":"4e1d0b12-25f0-363f-8659-9c6a3ca1fcda","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"172.105.222.98"}}}
+  - {"name":"US_油管+TG+8度科技_9","server":"209.141.47.137","port":443,"type":"trojan","password":"b3d27d09-77fe-431d-9829-6eba7dce20b0"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_10","server":"v2.mumi.bid","port":10123,"type":"vmess","uuid":"4924189e-9739-47be-9875-fe5c87e485ea","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"v2.mumi.bid"}}}
+  - {"name":"日本(欢迎订阅Youtube破解资源君)_11","server":"fq.0112391.xyz","port":12226,"type":"trojan","password":"1qaz2wsx"}
+  - {"name":"CN_油管TG8度科技_12","server":"223.166.145.124","port":29891,"type":"vmess","uuid":"f7fae0ff-dfcf-34f8-99bd-d52a2ca19c1d","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/jike1","headers":{"host":"t.me/vpnhat"}}}
+  - {"name":"US_2101","server":"209.141.47.137","port":443,"type":"trojan","password":"03f9d1c7-40f9-475c-bf46-e3883ee7da5f"}
+  - {"name":"Relay_🇨🇳CN-🇭🇰HK_357","server":"gzbgpss.8n4t.cn","port":20115,"type":"trojan","password":"43a29215-a4c6-3b8a-9697-5242c8f09213"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_409","server":"os2-2.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
+  - {"name":"Relay_🇪🇪EE-🇯🇵JP_417","server":"os2-5.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇪🇪EE-🇯🇵JP_411
-      - Relay_🇪🇪EE-🇯🇵JP_399
-      - Relay_🇪🇪EE-🇯🇵JP_400
-      - 日本(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_414
-      - Relay_🇯🇵JP-🇯🇵JP_700
-      - JP_702
-      - Relay_🇨🇳CN-🇭🇰HK_353
+      - Relay_🇪🇪EE-🇯🇵JP_410
+      - Relay_🇪🇪EE-🇯🇵JP_413
+      - Relay_🇪🇪EE-🇯🇵JP_418
+      - Relay_🇪🇪EE-🇯🇵JP_412
+      - Relay_🇪🇪EE-🇯🇵JP_406
+      - US_油管+TG+8度科技_6
+      - (ios软件代购_ioskaka_com)_7
+      - JP_油管TG8度科技_8
+      - US_油管+TG+8度科技_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 日本(欢迎订阅Youtube破解资源君)_11
+      - CN_油管TG8度科技_12
+      - US_2101
+      - Relay_🇨🇳CN-🇭🇰HK_357
+      - Relay_🇪🇪EE-🇯🇵JP_409
+      - Relay_🇪🇪EE-🇯🇵JP_417
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇪🇪EE-🇯🇵JP_411
-      - Relay_🇪🇪EE-🇯🇵JP_399
-      - Relay_🇪🇪EE-🇯🇵JP_400
-      - 日本(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_414
-      - Relay_🇯🇵JP-🇯🇵JP_700
-      - JP_702
-      - Relay_🇨🇳CN-🇭🇰HK_353
+      - Relay_🇪🇪EE-🇯🇵JP_410
+      - Relay_🇪🇪EE-🇯🇵JP_413
+      - Relay_🇪🇪EE-🇯🇵JP_418
+      - Relay_🇪🇪EE-🇯🇵JP_412
+      - Relay_🇪🇪EE-🇯🇵JP_406
+      - US_油管+TG+8度科技_6
+      - (ios软件代购_ioskaka_com)_7
+      - JP_油管TG8度科技_8
+      - US_油管+TG+8度科技_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 日本(欢迎订阅Youtube破解资源君)_11
+      - CN_油管TG8度科技_12
+      - US_2101
+      - Relay_🇨🇳CN-🇭🇰HK_357
+      - Relay_🇪🇪EE-🇯🇵JP_409
+      - Relay_🇪🇪EE-🇯🇵JP_417
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_411
-      - Relay_🇪🇪EE-🇯🇵JP_399
-      - Relay_🇪🇪EE-🇯🇵JP_400
-      - 日本(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_414
-      - Relay_🇯🇵JP-🇯🇵JP_700
-      - JP_702
-      - Relay_🇨🇳CN-🇭🇰HK_353
+      - Relay_🇪🇪EE-🇯🇵JP_410
+      - Relay_🇪🇪EE-🇯🇵JP_413
+      - Relay_🇪🇪EE-🇯🇵JP_418
+      - Relay_🇪🇪EE-🇯🇵JP_412
+      - Relay_🇪🇪EE-🇯🇵JP_406
+      - US_油管+TG+8度科技_6
+      - (ios软件代购_ioskaka_com)_7
+      - JP_油管TG8度科技_8
+      - US_油管+TG+8度科技_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 日本(欢迎订阅Youtube破解资源君)_11
+      - CN_油管TG8度科技_12
+      - US_2101
+      - Relay_🇨🇳CN-🇭🇰HK_357
+      - Relay_🇪🇪EE-🇯🇵JP_409
+      - Relay_🇪🇪EE-🇯🇵JP_417
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_411
-      - Relay_🇪🇪EE-🇯🇵JP_399
-      - Relay_🇪🇪EE-🇯🇵JP_400
-      - 日本(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_414
-      - Relay_🇯🇵JP-🇯🇵JP_700
-      - JP_702
-      - Relay_🇨🇳CN-🇭🇰HK_353
+      - Relay_🇪🇪EE-🇯🇵JP_410
+      - Relay_🇪🇪EE-🇯🇵JP_413
+      - Relay_🇪🇪EE-🇯🇵JP_418
+      - Relay_🇪🇪EE-🇯🇵JP_412
+      - Relay_🇪🇪EE-🇯🇵JP_406
+      - US_油管+TG+8度科技_6
+      - (ios软件代购_ioskaka_com)_7
+      - JP_油管TG8度科技_8
+      - US_油管+TG+8度科技_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 日本(欢迎订阅Youtube破解资源君)_11
+      - CN_油管TG8度科技_12
+      - US_2101
+      - Relay_🇨🇳CN-🇭🇰HK_357
+      - Relay_🇪🇪EE-🇯🇵JP_409
+      - Relay_🇪🇪EE-🇯🇵JP_417
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇪🇪EE-🇯🇵JP_411
-      - Relay_🇪🇪EE-🇯🇵JP_399
-      - Relay_🇪🇪EE-🇯🇵JP_400
-      - 日本(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_414
-      - Relay_🇯🇵JP-🇯🇵JP_700
-      - JP_702
-      - Relay_🇨🇳CN-🇭🇰HK_353
+      - Relay_🇪🇪EE-🇯🇵JP_410
+      - Relay_🇪🇪EE-🇯🇵JP_413
+      - Relay_🇪🇪EE-🇯🇵JP_418
+      - Relay_🇪🇪EE-🇯🇵JP_412
+      - Relay_🇪🇪EE-🇯🇵JP_406
+      - US_油管+TG+8度科技_6
+      - (ios软件代购_ioskaka_com)_7
+      - JP_油管TG8度科技_8
+      - US_油管+TG+8度科技_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 日本(欢迎订阅Youtube破解资源君)_11
+      - CN_油管TG8度科技_12
+      - US_2101
+      - Relay_🇨🇳CN-🇭🇰HK_357
+      - Relay_🇪🇪EE-🇯🇵JP_409
+      - Relay_🇪🇪EE-🇯🇵JP_417
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_411
-      - Relay_🇪🇪EE-🇯🇵JP_399
-      - Relay_🇪🇪EE-🇯🇵JP_400
-      - 日本(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_414
-      - Relay_🇯🇵JP-🇯🇵JP_700
-      - JP_702
-      - Relay_🇨🇳CN-🇭🇰HK_353
+      - Relay_🇪🇪EE-🇯🇵JP_410
+      - Relay_🇪🇪EE-🇯🇵JP_413
+      - Relay_🇪🇪EE-🇯🇵JP_418
+      - Relay_🇪🇪EE-🇯🇵JP_412
+      - Relay_🇪🇪EE-🇯🇵JP_406
+      - US_油管+TG+8度科技_6
+      - (ios软件代购_ioskaka_com)_7
+      - JP_油管TG8度科技_8
+      - US_油管+TG+8度科技_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 日本(欢迎订阅Youtube破解资源君)_11
+      - CN_油管TG8度科技_12
+      - US_2101
+      - Relay_🇨🇳CN-🇭🇰HK_357
+      - Relay_🇪🇪EE-🇯🇵JP_409
+      - Relay_🇪🇪EE-🇯🇵JP_417
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +172,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇪🇪EE-🇯🇵JP_411
-      - Relay_🇪🇪EE-🇯🇵JP_399
-      - Relay_🇪🇪EE-🇯🇵JP_400
-      - 日本(欢迎订阅Youtube破解资源君)_4
-      - Relay_🇪🇪EE-🇯🇵JP_414
-      - Relay_🇯🇵JP-🇯🇵JP_700
-      - JP_702
-      - Relay_🇨🇳CN-🇭🇰HK_353
+      - Relay_🇪🇪EE-🇯🇵JP_410
+      - Relay_🇪🇪EE-🇯🇵JP_413
+      - Relay_🇪🇪EE-🇯🇵JP_418
+      - Relay_🇪🇪EE-🇯🇵JP_412
+      - Relay_🇪🇪EE-🇯🇵JP_406
+      - US_油管+TG+8度科技_6
+      - (ios软件代购_ioskaka_com)_7
+      - JP_油管TG8度科技_8
+      - US_油管+TG+8度科技_9
+      - 美国(欢迎订阅Youtube破解资源君)_10
+      - 日本(欢迎订阅Youtube破解资源君)_11
+      - CN_油管TG8度科技_12
+      - US_2101
+      - Relay_🇨🇳CN-🇭🇰HK_357
+      - Relay_🇪🇪EE-🇯🇵JP_409
+      - Relay_🇪🇪EE-🇯🇵JP_417
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
