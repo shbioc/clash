@@ -5,95 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"Relay_🇨🇳CN-🇱🇺LU_360","server":"s3.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
-  - {"name":"JP_717","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_3","server":"169.197.142.99","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_4","server":"169.197.142.99","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"_US_美国->🇯🇵_JP_日本_5","server":"icook.hk","port":443,"type":"vmess","uuid":"9a85a293-3eb7-4189-e17d-bfa46f9ad0ce","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/freebaipiao","headers":{"host":"xmlinodejp2.aifx.eu.org"}}}
-  - {"name":"IR_640","server":"185.148.14.58","port":53514,"type":"trojan","password":"3r90JDGBYA"}
-  - {"name":"Relay_🇨🇳CN-🇺🇸US_363","server":"s2.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_8","server":"169.197.142.99","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"JP_703","server":"106.180.225.69","port":1443,"type":"trojan","password":"7x42LetRa0"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_2","server":"usa.oracleusa.ml","port":2053,"type":"vmess","uuid":"caf379cf-30d5-4cbc-9126-49ff279f4a60","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"usa.oracleusa.ml"}}}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_3","server":"gongyius1.yigeweizhuang.com","port":2096,"type":"vmess","uuid":"a94446e3-be9c-4240-9bdf-9b88155a7eb4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gongyius1.yigeweizhuang.com"}}}
+  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_4","server":"169.197.142.99","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"Relay_🇨🇳CN-🇱🇺LU_350","server":"s2.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
+  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_6","server":"169.197.142.99","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"Relay_🇯🇵JP-🇯🇵JP_702","server":"jp10.holiganfan.com","port":10088,"type":"trojan","password":"8ce38f17-b2be-453a-8d25-deec1a0aabba"}
+  - {"name":"Relay_🇫🇷FR-🇺🇸US_523","server":"s4.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇨🇳CN-🇱🇺LU_360
-      - JP_717
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - JP_703
+      - 美国(欢迎订阅Youtube破解资源君)_2
+      - 美国(欢迎订阅Youtube破解资源君)_3
       - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - _US_美国->🇯🇵_JP_日本_5
-      - IR_640
-      - Relay_🇨🇳CN-🇺🇸US_363
-      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - Relay_🇨🇳CN-🇱🇺LU_350
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - Relay_🇯🇵JP-🇯🇵JP_702
+      - Relay_🇫🇷FR-🇺🇸US_523
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇨🇳CN-🇱🇺LU_360
-      - JP_717
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - JP_703
+      - 美国(欢迎订阅Youtube破解资源君)_2
+      - 美国(欢迎订阅Youtube破解资源君)_3
       - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - _US_美国->🇯🇵_JP_日本_5
-      - IR_640
-      - Relay_🇨🇳CN-🇺🇸US_363
-      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - Relay_🇨🇳CN-🇱🇺LU_350
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - Relay_🇯🇵JP-🇯🇵JP_702
+      - Relay_🇫🇷FR-🇺🇸US_523
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇱🇺LU_360
-      - JP_717
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - JP_703
+      - 美国(欢迎订阅Youtube破解资源君)_2
+      - 美国(欢迎订阅Youtube破解资源君)_3
       - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - _US_美国->🇯🇵_JP_日本_5
-      - IR_640
-      - Relay_🇨🇳CN-🇺🇸US_363
-      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - Relay_🇨🇳CN-🇱🇺LU_350
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - Relay_🇯🇵JP-🇯🇵JP_702
+      - Relay_🇫🇷FR-🇺🇸US_523
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇱🇺LU_360
-      - JP_717
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - JP_703
+      - 美国(欢迎订阅Youtube破解资源君)_2
+      - 美国(欢迎订阅Youtube破解资源君)_3
       - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - _US_美国->🇯🇵_JP_日本_5
-      - IR_640
-      - Relay_🇨🇳CN-🇺🇸US_363
-      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - Relay_🇨🇳CN-🇱🇺LU_350
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - Relay_🇯🇵JP-🇯🇵JP_702
+      - Relay_🇫🇷FR-🇺🇸US_523
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇨🇳CN-🇱🇺LU_360
-      - JP_717
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - JP_703
+      - 美国(欢迎订阅Youtube破解资源君)_2
+      - 美国(欢迎订阅Youtube破解资源君)_3
       - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - _US_美国->🇯🇵_JP_日本_5
-      - IR_640
-      - Relay_🇨🇳CN-🇺🇸US_363
-      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - Relay_🇨🇳CN-🇱🇺LU_350
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - Relay_🇯🇵JP-🇯🇵JP_702
+      - Relay_🇫🇷FR-🇺🇸US_523
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇱🇺LU_360
-      - JP_717
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - JP_703
+      - 美国(欢迎订阅Youtube破解资源君)_2
+      - 美国(欢迎订阅Youtube破解资源君)_3
       - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - _US_美国->🇯🇵_JP_日本_5
-      - IR_640
-      - Relay_🇨🇳CN-🇺🇸US_363
-      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - Relay_🇨🇳CN-🇱🇺LU_350
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - Relay_🇯🇵JP-🇯🇵JP_702
+      - Relay_🇫🇷FR-🇺🇸US_523
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +116,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇱🇺LU_360
-      - JP_717
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
+      - JP_703
+      - 美国(欢迎订阅Youtube破解资源君)_2
+      - 美国(欢迎订阅Youtube破解资源君)_3
       - 欧洲(欢迎订阅Youtube破解资源君)_4
-      - _US_美国->🇯🇵_JP_日本_5
-      - IR_640
-      - Relay_🇨🇳CN-🇺🇸US_363
-      - 欧洲(欢迎订阅Youtube破解资源君)_8
+      - Relay_🇨🇳CN-🇱🇺LU_350
+      - 欧洲(欢迎订阅Youtube破解资源君)_6
+      - Relay_🇯🇵JP-🇯🇵JP_702
+      - Relay_🇫🇷FR-🇺🇸US_523
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
