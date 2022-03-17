@@ -5,172 +5,158 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"mattkaydiary_com_韩国(KR)Korea/Chuncheon-si_1","server":"www.ggchk.ga","port":443,"type":"trojan","password":"4ae98d26-b209-4dd5-8e91-bf11d4f10801"}
-  - {"name":"V3-#320_粤-台_NF_x2_0_V2ray_46","server":"juzixjp-001.ddns-oink.xyz","port":40320,"type":"vmess","uuid":"4d0b3a57-a52b-3cee-8281-d73096aec993","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/jz666666","headers":{"host":"juzixjp-001.ddns-oink.xyz"}}}
-  - {"name":"Relay_🇨🇳CN-🇹🇼TW_357","server":"120.232.192.119","port":3389,"type":"trojan","password":"a3c6461972471c75"}
-  - {"name":"IR_614","server":"185.148.14.58","port":53514,"type":"trojan","password":"3r90JDGBYA"}
-  - {"name":"Relay_🇯🇵JP-🇯🇵JP_680","server":"lijp.scsevers.cf","port":443,"type":"trojan","password":"sharecentre"}
-  - {"name":"(ios软件代购_ioskaka_com)_6","server":"104.16.181.103","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws/?ed=2048","headers":{"host":"download.china666.ml"}}}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_7","server":"169.197.142.4","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"Relay_🇫🇷FR-🇱🇺LU_522","server":"s4.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
-  - {"name":"Relay_🇨🇳CN-🇱🇺LU_358","server":"s2.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
-  - {"name":"ZZ_3195","server":"169.197.142.4","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"Relay_🇨🇳CN-🇺🇸US_370","server":"s3.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
-  - {"name":"Relay_🇨🇳CN-🇱🇺LU_361","server":"s1.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
-  - {"name":"CN_欢迎使用软件库APP_13","server":"120.233.147.118","port":41435,"type":"vmess","uuid":"35ffe46b-6c50-467e-9940-832deede23ea","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"120.233.147.118"}}}
-  - {"name":"US美国(Youtube频道：工具大师！)_14","server":"169.197.142.4","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"mattkaydiary_com_加拿大(CA)Canada/Toronto_15","server":"test.0dc.cn","port":443,"type":"vmess","uuid":"ebe5703b-c18e-4664-c3a7-9fcf52453898","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"test.0dc.cn"}}}
-  - {"name":"US美国(Youtube频道：工具大师！)_16","server":"169.197.142.4","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_17","server":"169.197.142.4","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_18","server":"198.57.27.191","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"mattkaydiary_com_美国(US)USA/SanFrancisco_19","server":"104.16.181.197","port":443,"type":"vmess","uuid":"7be43971-52f1-48af-9036-454a94b4723a","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws/?ed=2048","headers":{"host":"download.china666.ml"}}}
+  - {"name":"新加坡阿伟科技atTG/油管_1","server":"nn03.nfeng6.pp.ua","port":60024,"type":"vmess","uuid":"4eda0539-5673-3999-8f8b-3590479b15a3","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"美国阿伟科技atTG/油管_2","server":"jpaz2.xmrth-node.xyz","port":10046,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"印度阿伟科技atTG/油管_3","server":"in02.holiganfan.com","port":10088,"type":"trojan","password":"b6547a09-02e0-40e2-a455-0fddee87b4da"}
+  - {"name":"台湾阿伟科技atTG/油管_4","server":"hkaz1.xmrth-node.xyz","port":10062,"type":"vmess","uuid":"a685d5ce-ba3a-3548-ae94-84933f6080b6","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"美国阿伟科技atTG/油管_5","server":"jpaz3.xmrth-node.xyz","port":10051,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"新加坡阿伟科技atTG/油管_6","server":"zfd-unicom.ddnsnode.com","port":16109,"type":"vmess","uuid":"f8a35790-1599-38a5-bed9-224befd26d38","alterId":0,"cipher":"auto","tls":false,"network":"tcp","ws-opts":{"path":"/sakura/","headers":{"host":"zfd-unicom.ddnsnode.com"}}}
+  - {"name":"美国阿伟科技atTG/油管_7","server":"jpaz2.xmrth-node.xyz","port":10067,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"日本阿伟科技atTG/油管_8","server":"nn01.nfeng6.pp.ua","port":60005,"type":"vmess","uuid":"4eda0539-5673-3999-8f8b-3590479b15a3","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"美国阿伟科技atTG/油管_9","server":"jpaz2.xmrth-node.xyz","port":10141,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"美国阿伟科技atTG/油管_10","server":"jpaz3.xmrth-node.xyz","port":10140,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"美国阿伟科技atTG/油管_11","server":"jpaz2.xmrth-node.xyz","port":10138,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"美国阿伟科技atTG/油管_12","server":"nn03.nfeng6.pp.ua","port":60027,"type":"vmess","uuid":"4eda0539-5673-3999-8f8b-3590479b15a3","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"美国阿伟科技atTG/油管_13","server":"jpaz3.xmrth-node.xyz","port":10135,"type":"vmess","uuid":"fff8caab-7472-32c1-9a70-3953002ebb35","alterId":2,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}}}
+  - {"name":"美国阿伟科技atTG/油管_14","server":"104.16.162.16","port":2053,"type":"vmess","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"host":"foxus.fovi.tk"}}}
+  - {"name":"美国阿伟科技atTG/油管_15","server":"us2.tcpbbr.net","port":443,"type":"trojan","password":"2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d"}
+  - {"name":"德国阿伟科技atTG/油管_16","server":"de1.qingyun123.xyz","port":10050,"type":"trojan","password":"3712e1c9-52ab-4c80-a270-7e89f67f0645"}
+  - {"name":"日本阿伟科技atTG/油管_17","server":"jp1.azure.infininode.xyz","port":34635,"type":"vmess","uuid":"dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65","alterId":0,"cipher":"auto","tls":true,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"jp1.azure.infininode.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - mattkaydiary_com_韩国(KR)Korea/Chuncheon-si_1
-      - V3-#320_粤-台_NF_x2_0_V2ray_46
-      - Relay_🇨🇳CN-🇹🇼TW_357
-      - IR_614
-      - Relay_🇯🇵JP-🇯🇵JP_680
-      - (ios软件代购_ioskaka_com)_6
-      - 欧洲(欢迎订阅Youtube破解资源君)_7
-      - Relay_🇫🇷FR-🇱🇺LU_522
-      - Relay_🇨🇳CN-🇱🇺LU_358
-      - ZZ_3195
-      - Relay_🇨🇳CN-🇺🇸US_370
-      - Relay_🇨🇳CN-🇱🇺LU_361
-      - CN_欢迎使用软件库APP_13
-      - US美国(Youtube频道：工具大师！)_14
-      - mattkaydiary_com_加拿大(CA)Canada/Toronto_15
-      - US美国(Youtube频道：工具大师！)_16
-      - 欧洲(欢迎订阅Youtube破解资源君)_17
-      - 欧洲(欢迎订阅Youtube破解资源君)_18
-      - mattkaydiary_com_美国(US)USA/SanFrancisco_19
+      - 新加坡阿伟科技atTG/油管_1
+      - 美国阿伟科技atTG/油管_2
+      - 印度阿伟科技atTG/油管_3
+      - 台湾阿伟科技atTG/油管_4
+      - 美国阿伟科技atTG/油管_5
+      - 新加坡阿伟科技atTG/油管_6
+      - 美国阿伟科技atTG/油管_7
+      - 日本阿伟科技atTG/油管_8
+      - 美国阿伟科技atTG/油管_9
+      - 美国阿伟科技atTG/油管_10
+      - 美国阿伟科技atTG/油管_11
+      - 美国阿伟科技atTG/油管_12
+      - 美国阿伟科技atTG/油管_13
+      - 美国阿伟科技atTG/油管_14
+      - 美国阿伟科技atTG/油管_15
+      - 德国阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - mattkaydiary_com_韩国(KR)Korea/Chuncheon-si_1
-      - V3-#320_粤-台_NF_x2_0_V2ray_46
-      - Relay_🇨🇳CN-🇹🇼TW_357
-      - IR_614
-      - Relay_🇯🇵JP-🇯🇵JP_680
-      - (ios软件代购_ioskaka_com)_6
-      - 欧洲(欢迎订阅Youtube破解资源君)_7
-      - Relay_🇫🇷FR-🇱🇺LU_522
-      - Relay_🇨🇳CN-🇱🇺LU_358
-      - ZZ_3195
-      - Relay_🇨🇳CN-🇺🇸US_370
-      - Relay_🇨🇳CN-🇱🇺LU_361
-      - CN_欢迎使用软件库APP_13
-      - US美国(Youtube频道：工具大师！)_14
-      - mattkaydiary_com_加拿大(CA)Canada/Toronto_15
-      - US美国(Youtube频道：工具大师！)_16
-      - 欧洲(欢迎订阅Youtube破解资源君)_17
-      - 欧洲(欢迎订阅Youtube破解资源君)_18
-      - mattkaydiary_com_美国(US)USA/SanFrancisco_19
+      - 新加坡阿伟科技atTG/油管_1
+      - 美国阿伟科技atTG/油管_2
+      - 印度阿伟科技atTG/油管_3
+      - 台湾阿伟科技atTG/油管_4
+      - 美国阿伟科技atTG/油管_5
+      - 新加坡阿伟科技atTG/油管_6
+      - 美国阿伟科技atTG/油管_7
+      - 日本阿伟科技atTG/油管_8
+      - 美国阿伟科技atTG/油管_9
+      - 美国阿伟科技atTG/油管_10
+      - 美国阿伟科技atTG/油管_11
+      - 美国阿伟科技atTG/油管_12
+      - 美国阿伟科技atTG/油管_13
+      - 美国阿伟科技atTG/油管_14
+      - 美国阿伟科技atTG/油管_15
+      - 德国阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mattkaydiary_com_韩国(KR)Korea/Chuncheon-si_1
-      - V3-#320_粤-台_NF_x2_0_V2ray_46
-      - Relay_🇨🇳CN-🇹🇼TW_357
-      - IR_614
-      - Relay_🇯🇵JP-🇯🇵JP_680
-      - (ios软件代购_ioskaka_com)_6
-      - 欧洲(欢迎订阅Youtube破解资源君)_7
-      - Relay_🇫🇷FR-🇱🇺LU_522
-      - Relay_🇨🇳CN-🇱🇺LU_358
-      - ZZ_3195
-      - Relay_🇨🇳CN-🇺🇸US_370
-      - Relay_🇨🇳CN-🇱🇺LU_361
-      - CN_欢迎使用软件库APP_13
-      - US美国(Youtube频道：工具大师！)_14
-      - mattkaydiary_com_加拿大(CA)Canada/Toronto_15
-      - US美国(Youtube频道：工具大师！)_16
-      - 欧洲(欢迎订阅Youtube破解资源君)_17
-      - 欧洲(欢迎订阅Youtube破解资源君)_18
-      - mattkaydiary_com_美国(US)USA/SanFrancisco_19
+      - 新加坡阿伟科技atTG/油管_1
+      - 美国阿伟科技atTG/油管_2
+      - 印度阿伟科技atTG/油管_3
+      - 台湾阿伟科技atTG/油管_4
+      - 美国阿伟科技atTG/油管_5
+      - 新加坡阿伟科技atTG/油管_6
+      - 美国阿伟科技atTG/油管_7
+      - 日本阿伟科技atTG/油管_8
+      - 美国阿伟科技atTG/油管_9
+      - 美国阿伟科技atTG/油管_10
+      - 美国阿伟科技atTG/油管_11
+      - 美国阿伟科技atTG/油管_12
+      - 美国阿伟科技atTG/油管_13
+      - 美国阿伟科技atTG/油管_14
+      - 美国阿伟科技atTG/油管_15
+      - 德国阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - mattkaydiary_com_韩国(KR)Korea/Chuncheon-si_1
-      - V3-#320_粤-台_NF_x2_0_V2ray_46
-      - Relay_🇨🇳CN-🇹🇼TW_357
-      - IR_614
-      - Relay_🇯🇵JP-🇯🇵JP_680
-      - (ios软件代购_ioskaka_com)_6
-      - 欧洲(欢迎订阅Youtube破解资源君)_7
-      - Relay_🇫🇷FR-🇱🇺LU_522
-      - Relay_🇨🇳CN-🇱🇺LU_358
-      - ZZ_3195
-      - Relay_🇨🇳CN-🇺🇸US_370
-      - Relay_🇨🇳CN-🇱🇺LU_361
-      - CN_欢迎使用软件库APP_13
-      - US美国(Youtube频道：工具大师！)_14
-      - mattkaydiary_com_加拿大(CA)Canada/Toronto_15
-      - US美国(Youtube频道：工具大师！)_16
-      - 欧洲(欢迎订阅Youtube破解资源君)_17
-      - 欧洲(欢迎订阅Youtube破解资源君)_18
-      - mattkaydiary_com_美国(US)USA/SanFrancisco_19
+      - 新加坡阿伟科技atTG/油管_1
+      - 美国阿伟科技atTG/油管_2
+      - 印度阿伟科技atTG/油管_3
+      - 台湾阿伟科技atTG/油管_4
+      - 美国阿伟科技atTG/油管_5
+      - 新加坡阿伟科技atTG/油管_6
+      - 美国阿伟科技atTG/油管_7
+      - 日本阿伟科技atTG/油管_8
+      - 美国阿伟科技atTG/油管_9
+      - 美国阿伟科技atTG/油管_10
+      - 美国阿伟科技atTG/油管_11
+      - 美国阿伟科技atTG/油管_12
+      - 美国阿伟科技atTG/油管_13
+      - 美国阿伟科技atTG/油管_14
+      - 美国阿伟科技atTG/油管_15
+      - 德国阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - mattkaydiary_com_韩国(KR)Korea/Chuncheon-si_1
-      - V3-#320_粤-台_NF_x2_0_V2ray_46
-      - Relay_🇨🇳CN-🇹🇼TW_357
-      - IR_614
-      - Relay_🇯🇵JP-🇯🇵JP_680
-      - (ios软件代购_ioskaka_com)_6
-      - 欧洲(欢迎订阅Youtube破解资源君)_7
-      - Relay_🇫🇷FR-🇱🇺LU_522
-      - Relay_🇨🇳CN-🇱🇺LU_358
-      - ZZ_3195
-      - Relay_🇨🇳CN-🇺🇸US_370
-      - Relay_🇨🇳CN-🇱🇺LU_361
-      - CN_欢迎使用软件库APP_13
-      - US美国(Youtube频道：工具大师！)_14
-      - mattkaydiary_com_加拿大(CA)Canada/Toronto_15
-      - US美国(Youtube频道：工具大师！)_16
-      - 欧洲(欢迎订阅Youtube破解资源君)_17
-      - 欧洲(欢迎订阅Youtube破解资源君)_18
-      - mattkaydiary_com_美国(US)USA/SanFrancisco_19
+      - 新加坡阿伟科技atTG/油管_1
+      - 美国阿伟科技atTG/油管_2
+      - 印度阿伟科技atTG/油管_3
+      - 台湾阿伟科技atTG/油管_4
+      - 美国阿伟科技atTG/油管_5
+      - 新加坡阿伟科技atTG/油管_6
+      - 美国阿伟科技atTG/油管_7
+      - 日本阿伟科技atTG/油管_8
+      - 美国阿伟科技atTG/油管_9
+      - 美国阿伟科技atTG/油管_10
+      - 美国阿伟科技atTG/油管_11
+      - 美国阿伟科技atTG/油管_12
+      - 美国阿伟科技atTG/油管_13
+      - 美国阿伟科技atTG/油管_14
+      - 美国阿伟科技atTG/油管_15
+      - 德国阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - mattkaydiary_com_韩国(KR)Korea/Chuncheon-si_1
-      - V3-#320_粤-台_NF_x2_0_V2ray_46
-      - Relay_🇨🇳CN-🇹🇼TW_357
-      - IR_614
-      - Relay_🇯🇵JP-🇯🇵JP_680
-      - (ios软件代购_ioskaka_com)_6
-      - 欧洲(欢迎订阅Youtube破解资源君)_7
-      - Relay_🇫🇷FR-🇱🇺LU_522
-      - Relay_🇨🇳CN-🇱🇺LU_358
-      - ZZ_3195
-      - Relay_🇨🇳CN-🇺🇸US_370
-      - Relay_🇨🇳CN-🇱🇺LU_361
-      - CN_欢迎使用软件库APP_13
-      - US美国(Youtube频道：工具大师！)_14
-      - mattkaydiary_com_加拿大(CA)Canada/Toronto_15
-      - US美国(Youtube频道：工具大师！)_16
-      - 欧洲(欢迎订阅Youtube破解资源君)_17
-      - 欧洲(欢迎订阅Youtube破解资源君)_18
-      - mattkaydiary_com_美国(US)USA/SanFrancisco_19
+      - 新加坡阿伟科技atTG/油管_1
+      - 美国阿伟科技atTG/油管_2
+      - 印度阿伟科技atTG/油管_3
+      - 台湾阿伟科技atTG/油管_4
+      - 美国阿伟科技atTG/油管_5
+      - 新加坡阿伟科技atTG/油管_6
+      - 美国阿伟科技atTG/油管_7
+      - 日本阿伟科技atTG/油管_8
+      - 美国阿伟科技atTG/油管_9
+      - 美国阿伟科技atTG/油管_10
+      - 美国阿伟科技atTG/油管_11
+      - 美国阿伟科技atTG/油管_12
+      - 美国阿伟科技atTG/油管_13
+      - 美国阿伟科技atTG/油管_14
+      - 美国阿伟科技atTG/油管_15
+      - 德国阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,25 +179,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mattkaydiary_com_韩国(KR)Korea/Chuncheon-si_1
-      - V3-#320_粤-台_NF_x2_0_V2ray_46
-      - Relay_🇨🇳CN-🇹🇼TW_357
-      - IR_614
-      - Relay_🇯🇵JP-🇯🇵JP_680
-      - (ios软件代购_ioskaka_com)_6
-      - 欧洲(欢迎订阅Youtube破解资源君)_7
-      - Relay_🇫🇷FR-🇱🇺LU_522
-      - Relay_🇨🇳CN-🇱🇺LU_358
-      - ZZ_3195
-      - Relay_🇨🇳CN-🇺🇸US_370
-      - Relay_🇨🇳CN-🇱🇺LU_361
-      - CN_欢迎使用软件库APP_13
-      - US美国(Youtube频道：工具大师！)_14
-      - mattkaydiary_com_加拿大(CA)Canada/Toronto_15
-      - US美国(Youtube频道：工具大师！)_16
-      - 欧洲(欢迎订阅Youtube破解资源君)_17
-      - 欧洲(欢迎订阅Youtube破解资源君)_18
-      - mattkaydiary_com_美国(US)USA/SanFrancisco_19
+      - 新加坡阿伟科技atTG/油管_1
+      - 美国阿伟科技atTG/油管_2
+      - 印度阿伟科技atTG/油管_3
+      - 台湾阿伟科技atTG/油管_4
+      - 美国阿伟科技atTG/油管_5
+      - 新加坡阿伟科技atTG/油管_6
+      - 美国阿伟科技atTG/油管_7
+      - 日本阿伟科技atTG/油管_8
+      - 美国阿伟科技atTG/油管_9
+      - 美国阿伟科技atTG/油管_10
+      - 美国阿伟科技atTG/油管_11
+      - 美国阿伟科技atTG/油管_12
+      - 美国阿伟科技atTG/油管_13
+      - 美国阿伟科技atTG/油管_14
+      - 美国阿伟科技atTG/油管_15
+      - 德国阿伟科技atTG/油管_16
+      - 日本阿伟科技atTG/油管_17
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
