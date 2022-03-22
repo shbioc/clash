@@ -5,137 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"新加坡阿伟科技atTG/油管*NF_1","server":"gkdcm1.gkdcn.top","port":21810,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"82b60549-103b-31f0-b6fb-a303177522ae"}
-  - {"name":"新加坡阿伟科技atTG/油管*NF_2","server":"gkdcm.gkdcn.top","port":21811,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"82b60549-103b-31f0-b6fb-a303177522ae"}
-  - {"name":"台湾阿伟科技atTG/油管_3","server":"activity.huawei.daanyht.com","port":12419,"type":"ss","cipher":"aes-128-gcm","password":"258eb871-963b-409f-a197-b605e0e171d3"}
-  - {"name":"印度阿伟科技atTG/油管*NF_4","server":"gkdcm.gkdcn.top","port":21809,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"82b60549-103b-31f0-b6fb-a303177522ae"}
-  - {"name":"台湾阿伟科技atTG/油管*NF_5","server":"gkdcm.gkdcn.top","port":21812,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"82b60549-103b-31f0-b6fb-a303177522ae"}
-  - {"name":"日本阿伟科技atTG/油管*原生_6","server":"jgwdj1.gaox.ml","port":443,"type":"trojan","password":"e8553fc5-f3a0-409c-ac06-1cd93b026cf4"}
-  - {"name":"香港阿伟科技atTG/油管*NF_7","server":"gkdcm.gkdcn.top","port":21806,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"82b60549-103b-31f0-b6fb-a303177522ae"}
-  - {"name":"jgwcc3_gaox_ml:443_8","server":"jgwcc3.gaox.ml","port":443,"type":"trojan","password":"b291d129-ee55-4801-a9b8-b5316e5c37b7"}
-  - {"name":"新加坡阿伟科技atTG/油管_9","server":"sp1.peakerselling.com","port":443,"type":"vmess","uuid":"d3435521-3d1f-37f7-ab48-f5302bc6a4fb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/helloman","headers":{"host":"sp1.peakerselling.com"}}}
-  - {"name":"185_148_14_58:53514_10","server":"185.148.14.58","port":53514,"type":"trojan","password":"3r90JDGBYA"}
-  - {"name":"jgw3_gaox_ml:443_11","server":"jgw3.gaox.ml","port":443,"type":"trojan","password":"a1718180-d616-4b71-9bb6-3e96ba20f921"}
-  - {"name":"台湾阿伟科技atTG/油管_12","server":"popopo.store","port":443,"type":"vmess","uuid":"8795da46-2362-4e1a-befa-8d3c37de4ca2","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/10fecac475b8/","headers":{"host":"popopo.store"}}}
-  - {"name":"美国阿伟科技atTG/油管*NF_13","server":"gkdcm.gkdcn.top","port":21822,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"82b60549-103b-31f0-b6fb-a303177522ae"}
-  - {"name":"日本阿伟科技atTG/油管_14","server":"nfjp1.qingyun123.xyz","port":10000,"type":"trojan","password":"9b7eacaf-64ed-4b69-9494-63dde479a6b8"}
+  - {"name":"中国_TGatnodesharing_79","server":"in04.dns2333.xyz","port":64078,"type":"vmess","uuid":"a34d6fe7-7ab0-3071-81f7-e24c8edd2acb","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk-balancer.airport-v2.com"}}}
+  - {"name":"jgw3_gaox_ml:443_2","server":"jgw3.gaox.ml","port":443,"type":"trojan","password":"a1718180-d616-4b71-9bb6-3e96ba20f921"}
+  - {"name":"IR_615","server":"185.148.14.58","port":53514,"type":"trojan","password":"3r90JDGBYA"}
+  - {"name":"韩国_TGatnodesharing_135","server":"vs.mumi.bid","port":10124,"type":"vmess","uuid":"0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vs.mumi.bid"}}}
+  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_5","server":"122.100.177.47","port":30303,"type":"vmess","uuid":"0dbb0d98-32ca-3004-b282-9951fe88dc57","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"122.100.177.47"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 新加坡阿伟科技atTG/油管*NF_1
-      - 新加坡阿伟科技atTG/油管*NF_2
-      - 台湾阿伟科技atTG/油管_3
-      - 印度阿伟科技atTG/油管*NF_4
-      - 台湾阿伟科技atTG/油管*NF_5
-      - 日本阿伟科技atTG/油管*原生_6
-      - 香港阿伟科技atTG/油管*NF_7
-      - jgwcc3_gaox_ml:443_8
-      - 新加坡阿伟科技atTG/油管_9
-      - '185_148_14_58:53514_10'
-      - jgw3_gaox_ml:443_11
-      - 台湾阿伟科技atTG/油管_12
-      - 美国阿伟科技atTG/油管*NF_13
-      - 日本阿伟科技atTG/油管_14
+      - 中国_TGatnodesharing_79
+      - jgw3_gaox_ml:443_2
+      - IR_615
+      - 韩国_TGatnodesharing_135
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡阿伟科技atTG/油管*NF_1
-      - 新加坡阿伟科技atTG/油管*NF_2
-      - 台湾阿伟科技atTG/油管_3
-      - 印度阿伟科技atTG/油管*NF_4
-      - 台湾阿伟科技atTG/油管*NF_5
-      - 日本阿伟科技atTG/油管*原生_6
-      - 香港阿伟科技atTG/油管*NF_7
-      - jgwcc3_gaox_ml:443_8
-      - 新加坡阿伟科技atTG/油管_9
-      - '185_148_14_58:53514_10'
-      - jgw3_gaox_ml:443_11
-      - 台湾阿伟科技atTG/油管_12
-      - 美国阿伟科技atTG/油管*NF_13
-      - 日本阿伟科技atTG/油管_14
+      - 中国_TGatnodesharing_79
+      - jgw3_gaox_ml:443_2
+      - IR_615
+      - 韩国_TGatnodesharing_135
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡阿伟科技atTG/油管*NF_1
-      - 新加坡阿伟科技atTG/油管*NF_2
-      - 台湾阿伟科技atTG/油管_3
-      - 印度阿伟科技atTG/油管*NF_4
-      - 台湾阿伟科技atTG/油管*NF_5
-      - 日本阿伟科技atTG/油管*原生_6
-      - 香港阿伟科技atTG/油管*NF_7
-      - jgwcc3_gaox_ml:443_8
-      - 新加坡阿伟科技atTG/油管_9
-      - '185_148_14_58:53514_10'
-      - jgw3_gaox_ml:443_11
-      - 台湾阿伟科技atTG/油管_12
-      - 美国阿伟科技atTG/油管*NF_13
-      - 日本阿伟科技atTG/油管_14
+      - 中国_TGatnodesharing_79
+      - jgw3_gaox_ml:443_2
+      - IR_615
+      - 韩国_TGatnodesharing_135
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡阿伟科技atTG/油管*NF_1
-      - 新加坡阿伟科技atTG/油管*NF_2
-      - 台湾阿伟科技atTG/油管_3
-      - 印度阿伟科技atTG/油管*NF_4
-      - 台湾阿伟科技atTG/油管*NF_5
-      - 日本阿伟科技atTG/油管*原生_6
-      - 香港阿伟科技atTG/油管*NF_7
-      - jgwcc3_gaox_ml:443_8
-      - 新加坡阿伟科技atTG/油管_9
-      - '185_148_14_58:53514_10'
-      - jgw3_gaox_ml:443_11
-      - 台湾阿伟科技atTG/油管_12
-      - 美国阿伟科技atTG/油管*NF_13
-      - 日本阿伟科技atTG/油管_14
+      - 中国_TGatnodesharing_79
+      - jgw3_gaox_ml:443_2
+      - IR_615
+      - 韩国_TGatnodesharing_135
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 新加坡阿伟科技atTG/油管*NF_1
-      - 新加坡阿伟科技atTG/油管*NF_2
-      - 台湾阿伟科技atTG/油管_3
-      - 印度阿伟科技atTG/油管*NF_4
-      - 台湾阿伟科技atTG/油管*NF_5
-      - 日本阿伟科技atTG/油管*原生_6
-      - 香港阿伟科技atTG/油管*NF_7
-      - jgwcc3_gaox_ml:443_8
-      - 新加坡阿伟科技atTG/油管_9
-      - '185_148_14_58:53514_10'
-      - jgw3_gaox_ml:443_11
-      - 台湾阿伟科技atTG/油管_12
-      - 美国阿伟科技atTG/油管*NF_13
-      - 日本阿伟科技atTG/油管_14
+      - 中国_TGatnodesharing_79
+      - jgw3_gaox_ml:443_2
+      - IR_615
+      - 韩国_TGatnodesharing_135
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡阿伟科技atTG/油管*NF_1
-      - 新加坡阿伟科技atTG/油管*NF_2
-      - 台湾阿伟科技atTG/油管_3
-      - 印度阿伟科技atTG/油管*NF_4
-      - 台湾阿伟科技atTG/油管*NF_5
-      - 日本阿伟科技atTG/油管*原生_6
-      - 香港阿伟科技atTG/油管*NF_7
-      - jgwcc3_gaox_ml:443_8
-      - 新加坡阿伟科技atTG/油管_9
-      - '185_148_14_58:53514_10'
-      - jgw3_gaox_ml:443_11
-      - 台湾阿伟科技atTG/油管_12
-      - 美国阿伟科技atTG/油管*NF_13
-      - 日本阿伟科技atTG/油管_14
+      - 中国_TGatnodesharing_79
+      - jgw3_gaox_ml:443_2
+      - IR_615
+      - 韩国_TGatnodesharing_135
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,20 +95,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡阿伟科技atTG/油管*NF_1
-      - 新加坡阿伟科技atTG/油管*NF_2
-      - 台湾阿伟科技atTG/油管_3
-      - 印度阿伟科技atTG/油管*NF_4
-      - 台湾阿伟科技atTG/油管*NF_5
-      - 日本阿伟科技atTG/油管*原生_6
-      - 香港阿伟科技atTG/油管*NF_7
-      - jgwcc3_gaox_ml:443_8
-      - 新加坡阿伟科技atTG/油管_9
-      - '185_148_14_58:53514_10'
-      - jgw3_gaox_ml:443_11
-      - 台湾阿伟科技atTG/油管_12
-      - 美国阿伟科技atTG/油管*NF_13
-      - 日本阿伟科技atTG/油管_14
+      - 中国_TGatnodesharing_79
+      - jgw3_gaox_ml:443_2
+      - IR_615
+      - 韩国_TGatnodesharing_135
+      - 欧洲(欢迎订阅Youtube破解资源君)_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
