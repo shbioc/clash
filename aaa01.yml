@@ -5,221 +5,130 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"Relay_🇨🇳CN-🇺🇸US_73+_10_34Mb_1","server":"gy.sharecentrepro.tk","port":34148,"type":"trojan","country":"Relay_🇨🇳CN-🇺🇸US_73+_10_34Mb_1","skip-cert-verify":true,"udp":true,"password":"sharecentrepro"}
-  - {"name":"美国（TGat阿伟科技/油管）_2","server":"139.162.24.50","port":8882,"type":"ss","country":"美国（TGat阿伟科技/油管）_2","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_3","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","country":"欧洲(欢迎订阅Youtube破解资源君)_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"v4.xrenblog.com"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_4","server":"node.zxcairport.xyz","port":443,"type":"vmess","uuid":"7b198651-f526-44b5-a156-6badfe346dbf","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_4","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us2.zxcairport.xyz"}}}
-  - {"name":"德国TGat阿伟科技/油管）_5","server":"hex.eeeqq.tk","port":443,"type":"vmess","uuid":"ce36b301-63d8-40b3-f701-aae480998267","alterId":0,"cipher":"auto","country":"德国TGat阿伟科技/油管）_5","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hex.eeeqq.tk"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_6","server":"38.75.137.71","port":2376,"type":"ss","country":"美国（TGat阿伟科技/油管）_6","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"美国（TGat阿伟科技/油管）_7","server":"38.68.134.69","port":2375,"type":"ss","country":"美国（TGat阿伟科技/油管）_7","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"美国（TGat阿伟科技/油管）_8","server":"38.68.134.190","port":9101,"type":"ss","country":"美国（TGat阿伟科技/油管）_8","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"美国（TGat阿伟科技/油管）_9","server":"38.75.137.71","port":8000,"type":"ss","country":"美国（TGat阿伟科技/油管）_9","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"Relay_🇨🇳CN-🇸🇬SG_72","server":"gy.sharecentrepro.tk","port":54939,"type":"trojan","country":"Relay_🇨🇳CN-🇸🇬SG_72","skip-cert-verify":true,"udp":true,"password":"sharecentre"}
-  - {"name":"美国（TGat阿伟科技/油管）_11","server":"167.88.61.50","port":5004,"type":"ss","country":"美国（TGat阿伟科技/油管）_11","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"Relay_Relay_Relay_🇯🇵JP🇯🇵JP🇯🇵JP-🇺🇸US-🇺🇸US-🇺🇸US_611_587_642","server":"jgwcc1.gaox.ml","port":443,"type":"trojan","country":"Relay_Relay_Relay_🇯🇵JP🇯🇵JP🇯🇵JP-🇺🇸US-🇺🇸US-🇺🇸US_611_587_642","skip-cert-verify":true,"udp":true,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a"}
-  - {"name":"美国（TGat阿伟科技/油管）_13","server":"48us.fans8.xyz","port":443,"type":"vmess","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":2,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_13","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"48us.fans8.xyz"}}}
-  - {"name":"Relay_🇸🇬SG-🇺🇸US_338+_+4_19Mb_14","server":"eu.licom.ga","port":60001,"type":"trojan","country":"Relay_🇸🇬SG-🇺🇸US_338+_+4_19Mb_14","skip-cert-verify":true,"udp":true,"password":"f81e990e-1283-48f9-9eff-acacad6fb661"}
-  - {"name":"美国（TGat阿伟科技/油管）_15","server":"38.75.137.71","port":7306,"type":"ss","country":"美国（TGat阿伟科技/油管）_15","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)_16","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"6c175d1a-a57f-4881-a471-173eb139694b","alterId":0,"cipher":"auto","country":"美国(欢迎订阅Youtube破解资源君)_16","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog/","headers":{"host":"ipv6.xrenblog.com"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_17","server":"38.75.137.71","port":8008,"type":"ss","country":"美国（TGat阿伟科技/油管）_17","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"美国（TGat阿伟科技/油管）_18","server":"139.162.24.50","port":5003,"type":"ss","country":"美国（TGat阿伟科技/油管）_18","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"德国（TGat阿伟科技/油管）_19","server":"v6d1.moonfree.top","port":443,"type":"vmess","uuid":"8fb115e3-4870-4396-b276-7fee9964298e","alterId":0,"cipher":"auto","country":"德国（TGat阿伟科技/油管）_19","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"v6d1.moonfree.top"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_20","server":"sjc.xrenblog.com","port":18888,"type":"vmess","uuid":"0febc8e5-8463-440f-961a-6ea09d429d1c","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog","headers":{"host":"sjc.xrenblog.com"}}}
-  - {"name":"新加坡（TGat阿伟科技/油管）2_21","server":"sg1.31vpn.com","port":80,"type":"vmess","uuid":"a9481600-ef36-402a-a0e5-5547bfd7b87c","alterId":0,"cipher":"auto","country":"新加坡（TGat阿伟科技/油管）2_21","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/fastssh/ppdt/624dde181c76e/","headers":{"host":"sg1.31vpn.com"}}}
-  - {"name":"新加坡（TGat阿伟科技/油管）_22","server":"sg1.31vpn.com","port":80,"type":"vmess","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":0,"cipher":"auto","country":"新加坡（TGat阿伟科技/油管）_22","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/fastssh/bddasdf/624e71635ed8e/","headers":{"host":"sg1.31vpn.com"}}}
-  - {"name":"Relay_🇸🇬SG-🇩🇪DE_337+_+3_60Mb_23","server":"eu.licom.ga","port":60000,"type":"trojan","country":"Relay_🇸🇬SG-🇩🇪DE_337+_+3_60Mb_23","skip-cert-verify":true,"udp":true,"password":"f81e990e-1283-48f9-9eff-acacad6fb661"}
-  - {"name":"美国（TGat阿伟科技/油管）_24","server":"167.88.61.50","port":7306,"type":"ss","country":"美国（TGat阿伟科技/油管）_24","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"新加坡(欢迎订阅Youtube破解资源君)_25","server":"sg1.31vpn.com","port":443,"type":"vmess","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":0,"cipher":"auto","country":"新加坡(欢迎订阅Youtube破解资源君)_25","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/fastssh/bddasdf/624e71635ed8e/","headers":{"host":"sg1.31vpn.com"}}}
-  - {"name":"德国（TGat阿伟科技/油管）_26","server":"eu.licom.ga","port":62013,"type":"vmess","uuid":"f81e990e-1283-48f9-9eff-acacad6fb661","alterId":0,"cipher":"auto","country":"德国（TGat阿伟科技/油管）_26","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"eu.licom.ga"}}}
+  - {"name":"台湾02丨原生IP丨_1","server":"fs.keaiyun.xyz","port":55155,"type":"vmess","uuid":"8d2afe1b-0b96-3390-9258-36ff22e0d023","alterId":0,"cipher":"auto","country":"台湾02丨原生IP丨_1","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}}}
+  - {"name":"CN_2","server":"cn1.iepl.starlink.st","port":50400,"type":"ss","country":"CN_2","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"HK(TG/atyzcloud)_1","server":"gy.sharecentrepro.tk","port":13397,"type":"trojan","country":"HK(TG/atyzcloud)_1","skip-cert-verify":true,"udp":true,"password":"d3b04e55-f2ae-4500-b317-e23946dde463"}
+  - {"name":"Relay_🇨🇳CN-🇹🇼TW_366","server":"117.50.106.86","port":3389,"type":"trojan","country":"Relay_🇨🇳CN-🇹🇼TW_366","skip-cert-verify":true,"udp":true,"password":"edf497f40f71aeeb"}
+  - {"name":"CN_5","server":"cn1.iepl.starlink.st","port":50600,"type":"ss","country":"CN_5","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"Relay_🇰🇷KR-🇰🇷KR_620","server":"jgw2.gaox.ml","port":443,"type":"trojan","country":"Relay_🇰🇷KR-🇰🇷KR_620","skip-cert-verify":true,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998"}
+  - {"name":"俄罗斯原生1-负载均衡-解锁流媒体_7","server":"ru1.lolvps.xyz","port":40040,"type":"vmess","uuid":"2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99","alterId":0,"cipher":"auto","country":"俄罗斯原生1-负载均衡-解锁流媒体_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/6129CFHR","headers":{"host":"ru1.lolvps.xyz"}}}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_8","server":"gy.sharecentrepro.tk","port":10001,"type":"vmess","uuid":"6731a7a4-cac0-4218-d3e7-a4fe8c933b5a","alterId":0,"cipher":"auto","country":"美国(欢迎订阅Youtube破解资源君)_8","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/xrenblog","headers":{"host":"sgp.xrenblog.com"}}}
+  - {"name":"US_9","server":"cloudflare.xrenblog.com","port":443,"type":"vmess","uuid":"a8910831-f56b-4ac4-c68f-e4dd83f71e60","alterId":0,"cipher":"auto","country":"US_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/sakura/","headers":{"host":"v4.xrenblog.com"}}}
+  - {"name":"CN_10","server":"fs.keaiyun.xyz","port":48552,"type":"vmess","uuid":"8d2afe1b-0b96-3390-9258-36ff22e0d023","alterId":0,"cipher":"auto","country":"CN_10","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"www.baidu.com"}}}
+  - {"name":"CN_11","server":"cn1.iepl.starlink.st","port":50500,"type":"ss","country":"CN_11","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"台湾(欢迎订阅Youtube破解资源君)_12","server":"cn1.iepl.starlink.st","port":50200,"type":"ss","country":"台湾(欢迎订阅Youtube破解资源君)_12","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
+  - {"name":"CN_13","server":"cn1.iepl.starlink.st","port":50300,"type":"ss","country":"CN_13","cipher":"aes-128-gcm","password":"ced52354-bec2-4209-9121-b57d3dfb59e9"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇨🇳CN-🇺🇸US_73+_10_34Mb_1
-      - 美国（TGat阿伟科技/油管）_2
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
-      - 美国（TGat阿伟科技/油管）_4
-      - 德国TGat阿伟科技/油管）_5
-      - 美国（TGat阿伟科技/油管）_6
-      - 美国（TGat阿伟科技/油管）_7
-      - 美国（TGat阿伟科技/油管）_8
-      - 美国（TGat阿伟科技/油管）_9
-      - Relay_🇨🇳CN-🇸🇬SG_72
-      - 美国（TGat阿伟科技/油管）_11
-      - Relay_Relay_Relay_🇯🇵JP🇯🇵JP🇯🇵JP-🇺🇸US-🇺🇸US-🇺🇸US_611_587_642
-      - 美国（TGat阿伟科技/油管）_13
-      - Relay_🇸🇬SG-🇺🇸US_338+_+4_19Mb_14
-      - 美国（TGat阿伟科技/油管）_15
-      - 美国(欢迎订阅Youtube破解资源君)_16
-      - 美国（TGat阿伟科技/油管）_17
-      - 美国（TGat阿伟科技/油管）_18
-      - 德国（TGat阿伟科技/油管）_19
-      - 美国（TGat阿伟科技/油管）_20
-      - 新加坡（TGat阿伟科技/油管）2_21
-      - 新加坡（TGat阿伟科技/油管）_22
-      - Relay_🇸🇬SG-🇩🇪DE_337+_+3_60Mb_23
-      - 美国（TGat阿伟科技/油管）_24
-      - 新加坡(欢迎订阅Youtube破解资源君)_25
-      - 德国（TGat阿伟科技/油管）_26
+      - 台湾02丨原生IP丨_1
+      - CN_2
+      - HK(TG/atyzcloud)_1
+      - Relay_🇨🇳CN-🇹🇼TW_366
+      - CN_5
+      - Relay_🇰🇷KR-🇰🇷KR_620
+      - 俄罗斯原生1-负载均衡-解锁流媒体_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - US_9
+      - CN_10
+      - CN_11
+      - 台湾(欢迎订阅Youtube破解资源君)_12
+      - CN_13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇨🇳CN-🇺🇸US_73+_10_34Mb_1
-      - 美国（TGat阿伟科技/油管）_2
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
-      - 美国（TGat阿伟科技/油管）_4
-      - 德国TGat阿伟科技/油管）_5
-      - 美国（TGat阿伟科技/油管）_6
-      - 美国（TGat阿伟科技/油管）_7
-      - 美国（TGat阿伟科技/油管）_8
-      - 美国（TGat阿伟科技/油管）_9
-      - Relay_🇨🇳CN-🇸🇬SG_72
-      - 美国（TGat阿伟科技/油管）_11
-      - Relay_Relay_Relay_🇯🇵JP🇯🇵JP🇯🇵JP-🇺🇸US-🇺🇸US-🇺🇸US_611_587_642
-      - 美国（TGat阿伟科技/油管）_13
-      - Relay_🇸🇬SG-🇺🇸US_338+_+4_19Mb_14
-      - 美国（TGat阿伟科技/油管）_15
-      - 美国(欢迎订阅Youtube破解资源君)_16
-      - 美国（TGat阿伟科技/油管）_17
-      - 美国（TGat阿伟科技/油管）_18
-      - 德国（TGat阿伟科技/油管）_19
-      - 美国（TGat阿伟科技/油管）_20
-      - 新加坡（TGat阿伟科技/油管）2_21
-      - 新加坡（TGat阿伟科技/油管）_22
-      - Relay_🇸🇬SG-🇩🇪DE_337+_+3_60Mb_23
-      - 美国（TGat阿伟科技/油管）_24
-      - 新加坡(欢迎订阅Youtube破解资源君)_25
-      - 德国（TGat阿伟科技/油管）_26
+      - 台湾02丨原生IP丨_1
+      - CN_2
+      - HK(TG/atyzcloud)_1
+      - Relay_🇨🇳CN-🇹🇼TW_366
+      - CN_5
+      - Relay_🇰🇷KR-🇰🇷KR_620
+      - 俄罗斯原生1-负载均衡-解锁流媒体_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - US_9
+      - CN_10
+      - CN_11
+      - 台湾(欢迎订阅Youtube破解资源君)_12
+      - CN_13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_73+_10_34Mb_1
-      - 美国（TGat阿伟科技/油管）_2
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
-      - 美国（TGat阿伟科技/油管）_4
-      - 德国TGat阿伟科技/油管）_5
-      - 美国（TGat阿伟科技/油管）_6
-      - 美国（TGat阿伟科技/油管）_7
-      - 美国（TGat阿伟科技/油管）_8
-      - 美国（TGat阿伟科技/油管）_9
-      - Relay_🇨🇳CN-🇸🇬SG_72
-      - 美国（TGat阿伟科技/油管）_11
-      - Relay_Relay_Relay_🇯🇵JP🇯🇵JP🇯🇵JP-🇺🇸US-🇺🇸US-🇺🇸US_611_587_642
-      - 美国（TGat阿伟科技/油管）_13
-      - Relay_🇸🇬SG-🇺🇸US_338+_+4_19Mb_14
-      - 美国（TGat阿伟科技/油管）_15
-      - 美国(欢迎订阅Youtube破解资源君)_16
-      - 美国（TGat阿伟科技/油管）_17
-      - 美国（TGat阿伟科技/油管）_18
-      - 德国（TGat阿伟科技/油管）_19
-      - 美国（TGat阿伟科技/油管）_20
-      - 新加坡（TGat阿伟科技/油管）2_21
-      - 新加坡（TGat阿伟科技/油管）_22
-      - Relay_🇸🇬SG-🇩🇪DE_337+_+3_60Mb_23
-      - 美国（TGat阿伟科技/油管）_24
-      - 新加坡(欢迎订阅Youtube破解资源君)_25
-      - 德国（TGat阿伟科技/油管）_26
+      - 台湾02丨原生IP丨_1
+      - CN_2
+      - HK(TG/atyzcloud)_1
+      - Relay_🇨🇳CN-🇹🇼TW_366
+      - CN_5
+      - Relay_🇰🇷KR-🇰🇷KR_620
+      - 俄罗斯原生1-负载均衡-解锁流媒体_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - US_9
+      - CN_10
+      - CN_11
+      - 台湾(欢迎订阅Youtube破解资源君)_12
+      - CN_13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_73+_10_34Mb_1
-      - 美国（TGat阿伟科技/油管）_2
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
-      - 美国（TGat阿伟科技/油管）_4
-      - 德国TGat阿伟科技/油管）_5
-      - 美国（TGat阿伟科技/油管）_6
-      - 美国（TGat阿伟科技/油管）_7
-      - 美国（TGat阿伟科技/油管）_8
-      - 美国（TGat阿伟科技/油管）_9
-      - Relay_🇨🇳CN-🇸🇬SG_72
-      - 美国（TGat阿伟科技/油管）_11
-      - Relay_Relay_Relay_🇯🇵JP🇯🇵JP🇯🇵JP-🇺🇸US-🇺🇸US-🇺🇸US_611_587_642
-      - 美国（TGat阿伟科技/油管）_13
-      - Relay_🇸🇬SG-🇺🇸US_338+_+4_19Mb_14
-      - 美国（TGat阿伟科技/油管）_15
-      - 美国(欢迎订阅Youtube破解资源君)_16
-      - 美国（TGat阿伟科技/油管）_17
-      - 美国（TGat阿伟科技/油管）_18
-      - 德国（TGat阿伟科技/油管）_19
-      - 美国（TGat阿伟科技/油管）_20
-      - 新加坡（TGat阿伟科技/油管）2_21
-      - 新加坡（TGat阿伟科技/油管）_22
-      - Relay_🇸🇬SG-🇩🇪DE_337+_+3_60Mb_23
-      - 美国（TGat阿伟科技/油管）_24
-      - 新加坡(欢迎订阅Youtube破解资源君)_25
-      - 德国（TGat阿伟科技/油管）_26
+      - 台湾02丨原生IP丨_1
+      - CN_2
+      - HK(TG/atyzcloud)_1
+      - Relay_🇨🇳CN-🇹🇼TW_366
+      - CN_5
+      - Relay_🇰🇷KR-🇰🇷KR_620
+      - 俄罗斯原生1-负载均衡-解锁流媒体_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - US_9
+      - CN_10
+      - CN_11
+      - 台湾(欢迎订阅Youtube破解资源君)_12
+      - CN_13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇨🇳CN-🇺🇸US_73+_10_34Mb_1
-      - 美国（TGat阿伟科技/油管）_2
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
-      - 美国（TGat阿伟科技/油管）_4
-      - 德国TGat阿伟科技/油管）_5
-      - 美国（TGat阿伟科技/油管）_6
-      - 美国（TGat阿伟科技/油管）_7
-      - 美国（TGat阿伟科技/油管）_8
-      - 美国（TGat阿伟科技/油管）_9
-      - Relay_🇨🇳CN-🇸🇬SG_72
-      - 美国（TGat阿伟科技/油管）_11
-      - Relay_Relay_Relay_🇯🇵JP🇯🇵JP🇯🇵JP-🇺🇸US-🇺🇸US-🇺🇸US_611_587_642
-      - 美国（TGat阿伟科技/油管）_13
-      - Relay_🇸🇬SG-🇺🇸US_338+_+4_19Mb_14
-      - 美国（TGat阿伟科技/油管）_15
-      - 美国(欢迎订阅Youtube破解资源君)_16
-      - 美国（TGat阿伟科技/油管）_17
-      - 美国（TGat阿伟科技/油管）_18
-      - 德国（TGat阿伟科技/油管）_19
-      - 美国（TGat阿伟科技/油管）_20
-      - 新加坡（TGat阿伟科技/油管）2_21
-      - 新加坡（TGat阿伟科技/油管）_22
-      - Relay_🇸🇬SG-🇩🇪DE_337+_+3_60Mb_23
-      - 美国（TGat阿伟科技/油管）_24
-      - 新加坡(欢迎订阅Youtube破解资源君)_25
-      - 德国（TGat阿伟科技/油管）_26
+      - 台湾02丨原生IP丨_1
+      - CN_2
+      - HK(TG/atyzcloud)_1
+      - Relay_🇨🇳CN-🇹🇼TW_366
+      - CN_5
+      - Relay_🇰🇷KR-🇰🇷KR_620
+      - 俄罗斯原生1-负载均衡-解锁流媒体_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - US_9
+      - CN_10
+      - CN_11
+      - 台湾(欢迎订阅Youtube破解资源君)_12
+      - CN_13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_73+_10_34Mb_1
-      - 美国（TGat阿伟科技/油管）_2
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
-      - 美国（TGat阿伟科技/油管）_4
-      - 德国TGat阿伟科技/油管）_5
-      - 美国（TGat阿伟科技/油管）_6
-      - 美国（TGat阿伟科技/油管）_7
-      - 美国（TGat阿伟科技/油管）_8
-      - 美国（TGat阿伟科技/油管）_9
-      - Relay_🇨🇳CN-🇸🇬SG_72
-      - 美国（TGat阿伟科技/油管）_11
-      - Relay_Relay_Relay_🇯🇵JP🇯🇵JP🇯🇵JP-🇺🇸US-🇺🇸US-🇺🇸US_611_587_642
-      - 美国（TGat阿伟科技/油管）_13
-      - Relay_🇸🇬SG-🇺🇸US_338+_+4_19Mb_14
-      - 美国（TGat阿伟科技/油管）_15
-      - 美国(欢迎订阅Youtube破解资源君)_16
-      - 美国（TGat阿伟科技/油管）_17
-      - 美国（TGat阿伟科技/油管）_18
-      - 德国（TGat阿伟科技/油管）_19
-      - 美国（TGat阿伟科技/油管）_20
-      - 新加坡（TGat阿伟科技/油管）2_21
-      - 新加坡（TGat阿伟科技/油管）_22
-      - Relay_🇸🇬SG-🇩🇪DE_337+_+3_60Mb_23
-      - 美国（TGat阿伟科技/油管）_24
-      - 新加坡(欢迎订阅Youtube破解资源君)_25
-      - 德国（TGat阿伟科技/油管）_26
+      - 台湾02丨原生IP丨_1
+      - CN_2
+      - HK(TG/atyzcloud)_1
+      - Relay_🇨🇳CN-🇹🇼TW_366
+      - CN_5
+      - Relay_🇰🇷KR-🇰🇷KR_620
+      - 俄罗斯原生1-负载均衡-解锁流媒体_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - US_9
+      - CN_10
+      - CN_11
+      - 台湾(欢迎订阅Youtube破解资源君)_12
+      - CN_13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -242,32 +151,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇺🇸US_73+_10_34Mb_1
-      - 美国（TGat阿伟科技/油管）_2
-      - 欧洲(欢迎订阅Youtube破解资源君)_3
-      - 美国（TGat阿伟科技/油管）_4
-      - 德国TGat阿伟科技/油管）_5
-      - 美国（TGat阿伟科技/油管）_6
-      - 美国（TGat阿伟科技/油管）_7
-      - 美国（TGat阿伟科技/油管）_8
-      - 美国（TGat阿伟科技/油管）_9
-      - Relay_🇨🇳CN-🇸🇬SG_72
-      - 美国（TGat阿伟科技/油管）_11
-      - Relay_Relay_Relay_🇯🇵JP🇯🇵JP🇯🇵JP-🇺🇸US-🇺🇸US-🇺🇸US_611_587_642
-      - 美国（TGat阿伟科技/油管）_13
-      - Relay_🇸🇬SG-🇺🇸US_338+_+4_19Mb_14
-      - 美国（TGat阿伟科技/油管）_15
-      - 美国(欢迎订阅Youtube破解资源君)_16
-      - 美国（TGat阿伟科技/油管）_17
-      - 美国（TGat阿伟科技/油管）_18
-      - 德国（TGat阿伟科技/油管）_19
-      - 美国（TGat阿伟科技/油管）_20
-      - 新加坡（TGat阿伟科技/油管）2_21
-      - 新加坡（TGat阿伟科技/油管）_22
-      - Relay_🇸🇬SG-🇩🇪DE_337+_+3_60Mb_23
-      - 美国（TGat阿伟科技/油管）_24
-      - 新加坡(欢迎订阅Youtube破解资源君)_25
-      - 德国（TGat阿伟科技/油管）_26
+      - 台湾02丨原生IP丨_1
+      - CN_2
+      - HK(TG/atyzcloud)_1
+      - Relay_🇨🇳CN-🇹🇼TW_366
+      - CN_5
+      - Relay_🇰🇷KR-🇰🇷KR_620
+      - 俄罗斯原生1-负载均衡-解锁流媒体_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - US_9
+      - CN_10
+      - CN_11
+      - 台湾(欢迎订阅Youtube破解资源君)_12
+      - CN_13
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
