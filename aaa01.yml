@@ -5,172 +5,172 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"defaultName_1","server":"shonlinesandcu03.proconcn.xyz","port":560,"type":"ssr","country":"defaultName_1","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_2","server":"cusouthcmhk.procncon.xyz","port":561,"type":"ssr","country":"defaultName_2","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_3","server":"shonlinesandcu03.proconcn.xyz","port":561,"type":"ssr","country":"defaultName_3","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_4","server":"usastandard2.proconcn.xyz","port":562,"type":"ssr","country":"defaultName_4","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_5","server":"usastandard2.proconcn.xyz","port":561,"type":"ssr","country":"defaultName_5","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_6","server":"usastandard2.proconcn.xyz","port":563,"type":"ssr","country":"defaultName_6","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_7","server":"shonlinesandcu02.proconcn.xyz","port":562,"type":"ssr","country":"defaultName_7","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_8","server":"cncusouth.procncon.xyz","port":562,"type":"ssr","country":"defaultName_8","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_9","server":"shallaz2.proconcn.xyz","port":561,"type":"ssr","country":"defaultName_9","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_10","server":"usastandard2.proconcn.xyz","port":560,"type":"ssr","country":"defaultName_10","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_11","server":"shallaz2.proconcn.xyz","port":567,"type":"ssr","country":"defaultName_11","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_12","server":"usastandard.proconcn.xyz","port":561,"type":"ssr","country":"defaultName_12","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_13","server":"usastandard.proconcn.xyz","port":560,"type":"ssr","country":"defaultName_13","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_14","server":"shallaz2.proconcn.xyz","port":563,"type":"ssr","country":"defaultName_14","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_15","server":"shallaz2.proconcn.xyz","port":562,"type":"ssr","country":"defaultName_15","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_16","server":"cstwrelay.onlineto.xyz","port":566,"type":"ssr","country":"defaultName_16","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_17","server":"shallaz2.proconcn.xyz","port":564,"type":"ssr","country":"defaultName_17","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
-  - {"name":"defaultName_18","server":"45.142.157.69","port":40002,"type":"ssr","country":"defaultName_18","password":"sealplus001","cipher":"dummy","protocol":"auth_chain_a","obfs":"plain","obfs-param":"ajax.microsoft.com"}
-  - {"name":"defaultName_19","server":"usastandard.proconcn.xyz","port":563,"type":"ssr","country":"defaultName_19","password":"mblank1port","cipher":"chacha20-ietf","protocol":"auth_aes128_md5","obfs":"plain","protocol-param":"58185:tyson.cool"}
+  - {"name":"CN_8du_shop_1","server":"116.129.254.29","port":3389,"type":"trojan","country":"CN_8du_shop_1","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"CN_8du_shop_2","server":"116.129.254.47","port":3389,"type":"trojan","country":"CN_8du_shop_2","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"CN_8du_shop_3","server":"116.129.253.187","port":3389,"type":"trojan","country":"CN_8du_shop_3","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_4","server":"jgwdj2.gaox.ml","port":443,"type":"trojan","country":"美国(欢迎订阅Youtube破解资源君)_4","skip-cert-verify":true,"udp":true,"password":"86231db5-96d0-4271-9977-cae3a0cba614"}
+  - {"name":"CN_8du_shop_5","server":"116.129.253.130","port":3389,"type":"trojan","country":"CN_8du_shop_5","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"CN_8du_shop_6","server":"120.232.192.250","port":3385,"type":"trojan","country":"CN_8du_shop_6","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"CN_8du_shop_7","server":"116.129.253.134","port":3389,"type":"trojan","country":"CN_8du_shop_7","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_8","server":"jgwdb2.gaox.ml","port":443,"type":"trojan","country":"美国(欢迎订阅Youtube破解资源君)_8","skip-cert-verify":true,"udp":true,"password":"c19d1432-8b3e-4818-8837-3d160cf65908"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_9","server":"fhcarm2.gaox.ml","port":443,"type":"trojan","country":"美国(欢迎订阅Youtube破解资源君)_9","skip-cert-verify":true,"udp":true,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178"}
+  - {"name":"亚洲(欢迎订阅Youtube破解资源君)_10","server":"45.32.74.255","port":11514,"type":"vmess","uuid":"0f83d532-bf76-11ec-ada7-560003f41aa7","alterId":0,"cipher":"auto","country":"亚洲(欢迎订阅Youtube破解资源君)_10","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/XrwK6Y0x/","headers":{"host":"45.32.74.255"}}}
+  - {"name":"亚洲(欢迎订阅Youtube破解资源君)_11","server":"ai1.susenl.com","port":10031,"type":"trojan","country":"亚洲(欢迎订阅Youtube破解资源君)_11","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
+  - {"name":"亚洲(欢迎订阅Youtube破解资源君)_12","server":"ai1.susenl.com","port":10030,"type":"trojan","country":"亚洲(欢迎订阅Youtube破解资源君)_12","skip-cert-verify":true,"udp":true,"password":"c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0"}
+  - {"name":"US_8du_shop_13","server":"misaka1433.tk","port":443,"type":"trojan","country":"US_8du_shop_13","skip-cert-verify":true,"udp":true,"password":"YcQgIbGZNNd1PwsF"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_14","server":"104.16.47.181","port":443,"type":"vmess","uuid":"1e9be421-4135-4edb-9655-804042753442","alterId":0,"cipher":"auto","country":"美国(欢迎订阅Youtube破解资源君)_14","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/yorknodes-de1","headers":{"host":"eu19.144050.cf"}}}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_15","server":"jgwxn4.gaox.ml","port":443,"type":"trojan","country":"美国(欢迎订阅Youtube破解资源君)_15","skip-cert-verify":true,"udp":true,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819"}
+  - {"name":"CN_8du_shop_16","server":"116.129.253.177","port":3389,"type":"trojan","country":"CN_8du_shop_16","skip-cert-verify":true,"udp":true,"password":"a170b44c2dfac9e6"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_17","server":"jgwld1.gaox.ml","port":443,"type":"trojan","country":"美国(欢迎订阅Youtube破解资源君)_17","skip-cert-verify":true,"udp":true,"password":"02e653c9-7c93-46a9-999d-11834bd0c577"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_18","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"美国(欢迎订阅Youtube破解资源君)_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","headers":{"host":"v5.ssrsub.com"}}}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_19","server":"hax.hax01.tk","port":443,"type":"vmess","uuid":"e2e073ce-c1d4-43ed-89f5-ca978507548a","alterId":0,"cipher":"auto","country":"美国(欢迎订阅Youtube破解资源君)_19","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hax.hax01.tk"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
+      - CN_8du_shop_1
+      - CN_8du_shop_2
+      - CN_8du_shop_3
+      - 美国(欢迎订阅Youtube破解资源君)_4
+      - CN_8du_shop_5
+      - CN_8du_shop_6
+      - CN_8du_shop_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - 美国(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - US_8du_shop_13
+      - 美国(欢迎订阅Youtube破解资源君)_14
+      - 美国(欢迎订阅Youtube破解资源君)_15
+      - CN_8du_shop_16
+      - 美国(欢迎订阅Youtube破解资源君)_17
+      - 美国(欢迎订阅Youtube破解资源君)_18
+      - 美国(欢迎订阅Youtube破解资源君)_19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
+      - CN_8du_shop_1
+      - CN_8du_shop_2
+      - CN_8du_shop_3
+      - 美国(欢迎订阅Youtube破解资源君)_4
+      - CN_8du_shop_5
+      - CN_8du_shop_6
+      - CN_8du_shop_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - 美国(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - US_8du_shop_13
+      - 美国(欢迎订阅Youtube破解资源君)_14
+      - 美国(欢迎订阅Youtube破解资源君)_15
+      - CN_8du_shop_16
+      - 美国(欢迎订阅Youtube破解资源君)_17
+      - 美国(欢迎订阅Youtube破解资源君)_18
+      - 美国(欢迎订阅Youtube破解资源君)_19
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
+      - CN_8du_shop_1
+      - CN_8du_shop_2
+      - CN_8du_shop_3
+      - 美国(欢迎订阅Youtube破解资源君)_4
+      - CN_8du_shop_5
+      - CN_8du_shop_6
+      - CN_8du_shop_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - 美国(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - US_8du_shop_13
+      - 美国(欢迎订阅Youtube破解资源君)_14
+      - 美国(欢迎订阅Youtube破解资源君)_15
+      - CN_8du_shop_16
+      - 美国(欢迎订阅Youtube破解资源君)_17
+      - 美国(欢迎订阅Youtube破解资源君)_18
+      - 美国(欢迎订阅Youtube破解资源君)_19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
+      - CN_8du_shop_1
+      - CN_8du_shop_2
+      - CN_8du_shop_3
+      - 美国(欢迎订阅Youtube破解资源君)_4
+      - CN_8du_shop_5
+      - CN_8du_shop_6
+      - CN_8du_shop_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - 美国(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - US_8du_shop_13
+      - 美国(欢迎订阅Youtube破解资源君)_14
+      - 美国(欢迎订阅Youtube破解资源君)_15
+      - CN_8du_shop_16
+      - 美国(欢迎订阅Youtube破解资源君)_17
+      - 美国(欢迎订阅Youtube破解资源君)_18
+      - 美国(欢迎订阅Youtube破解资源君)_19
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
+      - CN_8du_shop_1
+      - CN_8du_shop_2
+      - CN_8du_shop_3
+      - 美国(欢迎订阅Youtube破解资源君)_4
+      - CN_8du_shop_5
+      - CN_8du_shop_6
+      - CN_8du_shop_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - 美国(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - US_8du_shop_13
+      - 美国(欢迎订阅Youtube破解资源君)_14
+      - 美国(欢迎订阅Youtube破解资源君)_15
+      - CN_8du_shop_16
+      - 美国(欢迎订阅Youtube破解资源君)_17
+      - 美国(欢迎订阅Youtube破解资源君)_18
+      - 美国(欢迎订阅Youtube破解资源君)_19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
+      - CN_8du_shop_1
+      - CN_8du_shop_2
+      - CN_8du_shop_3
+      - 美国(欢迎订阅Youtube破解资源君)_4
+      - CN_8du_shop_5
+      - CN_8du_shop_6
+      - CN_8du_shop_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - 美国(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - US_8du_shop_13
+      - 美国(欢迎订阅Youtube破解资源君)_14
+      - 美国(欢迎订阅Youtube破解资源君)_15
+      - CN_8du_shop_16
+      - 美国(欢迎订阅Youtube破解资源君)_17
+      - 美国(欢迎订阅Youtube破解资源君)_18
+      - 美国(欢迎订阅Youtube破解资源君)_19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,25 +193,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
+      - CN_8du_shop_1
+      - CN_8du_shop_2
+      - CN_8du_shop_3
+      - 美国(欢迎订阅Youtube破解资源君)_4
+      - CN_8du_shop_5
+      - CN_8du_shop_6
+      - CN_8du_shop_7
+      - 美国(欢迎订阅Youtube破解资源君)_8
+      - 美国(欢迎订阅Youtube破解资源君)_9
+      - 亚洲(欢迎订阅Youtube破解资源君)_10
+      - 亚洲(欢迎订阅Youtube破解资源君)_11
+      - 亚洲(欢迎订阅Youtube破解资源君)_12
+      - US_8du_shop_13
+      - 美国(欢迎订阅Youtube破解资源君)_14
+      - 美国(欢迎订阅Youtube破解资源君)_15
+      - CN_8du_shop_16
+      - 美国(欢迎订阅Youtube破解资源君)_17
+      - 美国(欢迎订阅Youtube破解资源君)_18
+      - 美国(欢迎订阅Youtube破解资源君)_19
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
