@@ -5,466 +5,235 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"YouTube阿伟科技_1","server":"cn1.relay.iepl.pw","port":50400,"type":"ss","country":"YouTube阿伟科技_1","cipher":"aes-128-gcm","password":"6a2fb1df-9a79-4640-ab04-5335a8e32cc7"}
-  - {"name":"YouTube阿伟科技_2","server":"ublubeu.fly.dev","port":443,"type":"vmess","uuid":"18656003-e8b6-49e4-90f7-85fe53fcf7c7","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_2","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/18656003-e8b6-49e4-90f7-85fe53fcf7c7-vmess","headers":{"host":"ublubeu.fly.dev"}}}
-  - {"name":"YouTube阿伟科技_3","server":"gz-1.jiasugou.one","port":15002,"type":"vmess","uuid":"985eb001-56be-3bb9-927a-f3b9c6376a49","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_3","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/zh-cn/news","headers":{"host":"gz-1.jiasugou.one"}}}
-  - {"name":"尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5","server":"hk3cm.msservicezx.pw","port":6323,"type":"ss","country":"尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5","cipher":"aes-256-cfb","password":"37703908"}
-  - {"name":"台湾（TGat阿伟科技/油管）_5","server":"fs.keaiyun.top","port":55154,"type":"vmess","uuid":"048da825-d468-3a29-b015-2d60886f830d","alterId":0,"cipher":"auto","country":"台湾（TGat阿伟科技/油管）_5","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
-  - {"name":"VIP-中國臺灣-1线/專線_23","server":"tw01.msservicevip.pw","port":6323,"type":"ss","country":"VIP-中國臺灣-1线/專線_23","cipher":"aes-256-cfb","password":"37703908"}
-  - {"name":"YouTube阿伟科技_7","server":"gz-1.jiasugou.one","port":15000,"type":"vmess","uuid":"985eb001-56be-3bb9-927a-f3b9c6376a49","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_7","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/zh-cn/news","headers":{"host":"gz-1.jiasugou.one"}}}
-  - {"name":"YouTube阿伟科技_8","server":"shop-one.defun.us","port":443,"type":"trojan","country":"YouTube阿伟科技_8","skip-cert-verify":true,"udp":true,"password":"OEfntmUGHmwQnNGr"}
-  - {"name":"美国（TGat阿伟科技/油管）_9","server":"meet-one.defun.us","port":443,"type":"trojan","country":"美国（TGat阿伟科技/油管）_9","skip-cert-verify":true,"udp":true,"password":"INvx7sPho8PyTLS6"}
-  - {"name":"尊-中國香港-2线/IPLC_4","server":"hkt2dyn.msservicezx.pw","port":6323,"type":"ss","country":"尊-中國香港-2线/IPLC_4","cipher":"aes-256-cfb","password":"37703908"}
-  - {"name":"尊-中國台湾1线/專線_6","server":"tw1vipnf.msservicezx.pw","port":6323,"type":"ss","country":"尊-中國台湾1线/專線_6","cipher":"aes-256-cfb","password":"37703908"}
-  - {"name":"YouTube阿伟科技_12","server":"uscera.moonfree.top","port":443,"type":"vmess","uuid":"63f97910-6b3f-4abc-a92e-b9acaba4f467","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"uscera.moonfree.top"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_13","server":"vfly5.xyz","port":443,"type":"vmess","uuid":"825136bb-fc0a-4f43-8307-dc2e36f27e2d","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_13","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/myblog","headers":{"host":"vfly5.xyz"}}}
-  - {"name":"欧洲(欢迎订阅Youtube破解资源君)_14","server":"881118.ml","port":25222,"type":"trojan","country":"欧洲(欢迎订阅Youtube破解资源君)_14","skip-cert-verify":true,"udp":true,"password":"Lpz8k0ydSa"}
-  - {"name":"YouTube阿伟科技_15","server":"104.17.67.190","port":443,"type":"vmess","uuid":"1293e022-6347-4d7e-8425-e65576b6ae0e","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_15","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"jp.567568.ml"}}}
-  - {"name":"日本(欢迎订阅Youtube破解资源君)_16","server":"jgwdb3.gaox.ml","port":443,"type":"trojan","country":"日本(欢迎订阅Youtube破解资源君)_16","skip-cert-verify":true,"udp":true,"password":"8d2d5953-d649-4034-94f2-72f2df2623da"}
-  - {"name":"YouTube阿伟科技_17","server":"gz-1.jiasugou.one","port":15004,"type":"vmess","uuid":"985eb001-56be-3bb9-927a-f3b9c6376a49","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_17","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/zh-cn/news","headers":{"host":"gz-1.jiasugou.one"}}}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)_18","server":"jgwdj3.gaox.ml","port":443,"type":"trojan","country":"美国(欢迎订阅Youtube破解资源君)_18","skip-cert-verify":true,"udp":true,"password":"da777aae-defb-41d0-a183-2c27da2b4677"}
-  - {"name":"YouTube阿伟科技_19","server":"20.214.159.88","port":1021,"type":"trojan","country":"YouTube阿伟科技_19","skip-cert-verify":true,"udp":true,"password":"da581cfe-683f-3169-9933-f221a5c0426c"}
-  - {"name":"YouTube阿伟科技_20","server":"104.25.234.170","port":443,"type":"vmess","uuid":"1293e022-6347-4d7e-8425-e65576b6ae0e","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"jp.567568.ml"}}}
-  - {"name":"尊-韩国首爾-1线/專線_8","server":"mmkr1ss.msservicezx.pw","port":6323,"type":"ss","country":"尊-韩国首爾-1线/專線_8","cipher":"aes-256-cfb","password":"37703908"}
-  - {"name":"VIP-韩国首爾-1线/專線_24","server":"vipsk1.msservicevip.pw","port":6323,"type":"ss","country":"VIP-韩国首爾-1线/專線_24","cipher":"aes-256-cfb","password":"37703908"}
-  - {"name":"YouTube阿伟科技_23","server":"usa-sr-106.mitoption.com","port":443,"type":"trojan","country":"YouTube阿伟科技_23","skip-cert-verify":true,"udp":true,"password":"e5d46365e25e31d94279c2bcf93390a2"}
-  - {"name":"YouTube阿伟科技_24","server":"fr1t.moonfree.top","port":8443,"type":"vmess","uuid":"63f97910-6b3f-4abc-a92e-b9acaba4f467","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_24","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fr1t.moonfree.top"}}}
-  - {"name":"YouTube阿伟科技_25","server":"129.146.250.54","port":58899,"type":"vmess","uuid":"bcd4ac9d-8414-4468-c099-e1df78861917","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_25","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"129.146.250.54"}}}
-  - {"name":"YouTube阿伟科技_26","server":"oz.moonfree.top","port":443,"type":"vmess","uuid":"63f97910-6b3f-4abc-a92e-b9acaba4f467","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_26","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oz.moonfree.top"}}}
-  - {"name":"YouTube阿伟科技_27","server":"v2ray.wefuckgfw.ga","port":8443,"type":"vmess","uuid":"104ce500-b353-11ec-a378-52ac00ea1411","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_27","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/E94olUFf/","headers":{"host":"v2ray.wefuckgfw.ga"}}}
-  - {"name":"YouTube阿伟科技_28","server":"v2ray.wefuckgfw.ga","port":8443,"type":"vmess","uuid":"135284c6-b353-11ec-a378-52ac00ea1411","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_28","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/E94olUFf/","headers":{"host":"v2ray.wefuckgfw.ga"}}}
-  - {"name":"YouTube阿伟科技_29","server":"fs.keaiyun.top","port":48519,"type":"vmess","uuid":"048da825-d468-3a29-b015-2d60886f830d","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_29","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/fastssh/ntmdq/6267584ee4988/","headers":{"host":"fs.keaiyun.top"}}}
-  - {"name":"YouTube阿伟科技_30","server":"v2-1.godlight.xyz","port":12236,"type":"vmess","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_30","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}}}
-  - {"name":"尊-韩国首爾-3线/專線_10","server":"kr3-zx.msservicezx.pw","port":6323,"type":"ss","country":"尊-韩国首爾-3线/專線_10","cipher":"aes-256-cfb","password":"37703908"}
-  - {"name":"YouTube阿伟科技_32","server":"v2.godlight.xyz","port":26936,"type":"vmess","uuid":"1a059eff-ad8a-42ad-921c-465c5b31f183","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_32","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/f34f3-f32f364","headers":{"host":"v2.godlight.xyz"}}}
-  - {"name":"尊-中國香港-1线/IPLC_3","server":"hkbali.msservicezx.pw","port":6323,"type":"ss","country":"尊-中國香港-1线/IPLC_3","cipher":"aes-256-cfb","password":"37703908"}
-  - {"name":"尊-日本東京-1线/專線/abema_7","server":"startjpnian.msservicezx.pw","port":6323,"type":"ss","country":"尊-日本東京-1线/專線/abema_7","cipher":"aes-256-cfb","password":"37703908"}
-  - {"name":"台湾（TGat阿伟科技/油管）_35","server":"fs.keaiyun.top","port":55155,"type":"vmess","uuid":"048da825-d468-3a29-b015-2d60886f830d","alterId":0,"cipher":"auto","country":"台湾（TGat阿伟科技/油管）_35","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
-  - {"name":"YouTube阿伟科技_36","server":"gz-1.jiasugou.one","port":15002,"type":"vmess","uuid":"985eb001-56be-3bb9-927a-f3b9c6376a49","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_36","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/zh-cn/news","headers":{"host":"www.msn.cn"}}}
-  - {"name":"YouTube阿伟科技_37","server":"cn1.relay.iepl.pw","port":50200,"type":"ss","country":"YouTube阿伟科技_37","cipher":"aes-128-gcm","password":"6a2fb1df-9a79-4640-ab04-5335a8e32cc7"}
-  - {"name":"Relay_🇨🇳CN-🇹🇼TW_482","server":"fs.keaiyun.top","port":55154,"type":"vmess","uuid":"048da825-d468-3a29-b015-2d60886f830d","alterId":0,"cipher":"auto","country":"Relay_🇨🇳CN-🇹🇼TW_482","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"hk3.fdns.cloudlink123.com"}}}
-  - {"name":"YouTube阿伟科技_39","server":"gz-1.jiasugou.one","port":15004,"type":"vmess","uuid":"985eb001-56be-3bb9-927a-f3b9c6376a49","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_39","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/zh-cn/news","headers":{"host":"www.msn.cn"}}}
-  - {"name":"YouTube阿伟科技_40","server":"40.81.24.182","port":80,"type":"vmess","uuid":"5bb3188a-cea1-4733-a541-d918896a51df","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_40","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"40.81.24.182"}}}
-  - {"name":"YouTube阿伟科技_41","server":"jgwdj2.gaox.ml","port":443,"type":"trojan","country":"YouTube阿伟科技_41","skip-cert-verify":true,"udp":true,"password":"86231db5-96d0-4271-9977-cae3a0cba614"}
-  - {"name":"YouTube阿伟科技_42","server":"3.ezydfdd.com","port":443,"type":"vmess","uuid":"93cd6785-e57c-4ed9-ebbc-fbbf4528c3cc","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_42","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/nmsl","headers":{"host":"3.ezydfdd.com"}}}
-  - {"name":"YouTube阿伟科技_43","server":"sg3.31vpn.com","port":80,"type":"vmess","uuid":"ff382d09-becd-41cb-8e4f-3e256b27de47","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_43","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/fastssh/ntmdq/6267584ee4988/","headers":{"host":"sg3.31vpn.com"}}}
-  - {"name":"YouTube阿伟科技_44","server":"jgwdb4.gaox.ml","port":443,"type":"trojan","country":"YouTube阿伟科技_44","skip-cert-verify":true,"udp":true,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"}
-  - {"name":"YouTube阿伟科技_45","server":"jgwxn4.gaox.ml","port":443,"type":"trojan","country":"YouTube阿伟科技_45","skip-cert-verify":true,"udp":true,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819"}
-  - {"name":"新加坡（TGat阿伟科技/油管）_46","server":"sg-sr-116.mitoption.com","port":443,"type":"trojan","country":"新加坡（TGat阿伟科技/油管）_46","skip-cert-verify":true,"udp":true,"password":"e5d46365e25e31d94279c2bcf93390a2"}
-  - {"name":"YouTube阿伟科技_47","server":"fs.keaiyun.top","port":48518,"type":"vmess","uuid":"048da825-d468-3a29-b015-2d60886f830d","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_47","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/nmsl","headers":{"host":"fs.keaiyun.top"}}}
-  - {"name":"YouTube阿伟科技_48","server":"v6d1.moonfree.top","port":443,"type":"vmess","uuid":"63f97910-6b3f-4abc-a92e-b9acaba4f467","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_48","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"v6d1.moonfree.top"}}}
-  - {"name":"YouTube阿伟科技_49","server":"152.67.72.152","port":2053,"type":"trojan","country":"YouTube阿伟科技_49","skip-cert-verify":true,"udp":true,"password":"da581cfe-683f-3169-9933-f221a5c0426c"}
-  - {"name":"YouTube阿伟科技_50","server":"o7cx6bd6t4yjiqsm.xiongsonglin.com","port":443,"type":"trojan","country":"YouTube阿伟科技_50","skip-cert-verify":true,"udp":true,"password":"e5d46365e25e31d94279c2bcf93390a2"}
-  - {"name":"YouTube阿伟科技_51","server":"129.146.250.54","port":58899,"type":"vmess","uuid":"bcd4ac9d-8414-4468-c099-e1df78861917","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_51","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/path/120208301422","headers":{"host":"129.146.250.54"}}}
-  - {"name":"YouTube阿伟科技_52","server":"129.146.250.54","port":58899,"type":"vmess","uuid":"bcd4ac9d-8414-4468-c099-e1df78861917","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_52","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/getweather","headers":{"host":"129.146.250.54"}}}
-  - {"name":"YouTube阿伟科技_53","server":"85.209.159.107","port":20403,"type":"vmess","uuid":"b3b08b1c-c0a4-11ec-8151-00163c3fe0cd","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_53","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/Asq7j5Mb/","headers":{"host":"85.209.159.107"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_54","server":"zones.defun.us","port":443,"type":"trojan","country":"美国（TGat阿伟科技/油管）_54","skip-cert-verify":true,"udp":true,"password":"lpmMwDKeBbKKPq8K"}
-  - {"name":"YouTube阿伟科技_55","server":"cn1.relay.iepl.pw","port":50700,"type":"ss","country":"YouTube阿伟科技_55","cipher":"aes-128-gcm","password":"6a2fb1df-9a79-4640-ab04-5335a8e32cc7"}
-  - {"name":"香港（TGat阿伟科技/油管）trojan://OEfntmUGHmwQnNGratshop-one_defun_us:443?allowInsecure=1&sni=shop-one_defun_us#Relay_🇺🇸US-🇺🇸US_3824","server":"138.19.28.2","port":33996,"type":"ss","country":"香港（TGat阿伟科技/油管）trojan://OEfntmUGHmwQnNGratshop-one_defun_us:443?allowInsecure=1&sni=shop-one_defun_us#Relay_🇺🇸US-🇺🇸US_3824","cipher":"chacha20-ietf-poly1305","password":"9d7a2a69-e97b-4779-8fa9-3014c9ee31fb"}
-  - {"name":"YouTube阿伟科技_57","server":"cn1.relay.iepl.pw","port":50600,"type":"ss","country":"YouTube阿伟科技_57","cipher":"aes-128-gcm","password":"6a2fb1df-9a79-4640-ab04-5335a8e32cc7"}
-  - {"name":"日本（TGat阿伟科技/油管）_58","server":"cn1.relay.iepl.pw","port":50300,"type":"ss","country":"日本（TGat阿伟科技/油管）_58","cipher":"aes-128-gcm","password":"6a2fb1df-9a79-4640-ab04-5335a8e32cc7"}
-  - {"name":"YouTube阿伟科技_59","server":"cn1.relay.iepl.pw","port":50500,"type":"ss","country":"YouTube阿伟科技_59","cipher":"aes-128-gcm","password":"6a2fb1df-9a79-4640-ab04-5335a8e32cc7"}
-  - {"name":"YouTube阿伟科技_60","server":"sg3.31vpn.com","port":443,"type":"vmess","uuid":"ff382d09-becd-41cb-8e4f-3e256b27de47","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_60","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/fastssh/ntmdq/6267584ee4988/","headers":{"host":"sg3.31vpn.com"}}}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)_61","server":"jgwhdlb3.gaox.ml","port":443,"type":"trojan","country":"美国(欢迎订阅Youtube破解资源君)_61","skip-cert-verify":true,"udp":true,"password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11"}
+  - {"name":"香港（TGat阿伟科技/油管）_1","server":"cm1-hk.hutaod.me","port":12438,"type":"vmess","uuid":"6954c760-6c9c-3f2a-bec0-1348296177e5","alterId":0,"cipher":"auto","country":"香港（TGat阿伟科技/油管）_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"cm1-hk.hutaod.me"}}}
+  - {"name":"台湾（TGat阿伟科技/油管）_2","server":"cn1.relay.iepl.pw","port":50200,"type":"ss","country":"台湾（TGat阿伟科技/油管）_2","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"新加坡（TGat阿伟科技/油管）_3","server":"sg1.qingyun123.xyz","port":10001,"type":"trojan","country":"新加坡（TGat阿伟科技/油管）_3","skip-cert-verify":true,"udp":true,"password":"4337dfb9-bc77-4c08-8672-1f12f4d6f7fb"}
+  - {"name":"韩国（TGat阿伟科技/油管）_4","server":"cn1.relay.iepl.pw","port":50400,"type":"ss","country":"韩国（TGat阿伟科技/油管）_4","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"日本（TGat阿伟科技/油管）_5","server":"192.243.123.185","port":51601,"type":"vmess","uuid":"008e3ce7-8e27-4520-8917-b89c6d53b906","alterId":0,"cipher":"auto","country":"日本（TGat阿伟科技/油管）_5","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"YouTube阿伟科技_6","server":"104.17.67.190","port":443,"type":"vmess","uuid":"1293e022-6347-4d7e-8425-e65576b6ae0e","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"jp.567568.ml"}}}
+  - {"name":"YouTube阿伟科技_7","server":"us1.lolvps.xyz","port":60060,"type":"vmess","uuid":"95886c76-9207-48bd-9e64-d1422e75ad89","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/AY920UMR","headers":{"host":"us1.lolvps.xyz"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_8","server":"104.194.77.123","port":57998,"type":"ss","country":"美国（TGat阿伟科技/油管）_8","cipher":"aes-256-gcm","password":"5AsJpT36WpdWbv5r"}
+  - {"name":"美国（TGat阿伟科技/油管）_9","server":"80.251.209.228","port":57998,"type":"vmess","uuid":"5e468ac8-016e-416f-861b-2d34707c1c3f","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_9","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_10","server":"80.251.209.228","port":57998,"type":"vmess","uuid":"5e468ac8-016e-416f-861b-2d34707c1c3f","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_10","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"80.251.209.228"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_11","server":"45.78.8.236","port":29369,"type":"ss","country":"美国（TGat阿伟科技/油管）_11","cipher":"aes-256-gcm","password":"XB9Xj5EXtsn5ZwbA"}
+  - {"name":"YouTube阿伟科技_12","server":"v2-1.godlight.xyz","port":12236,"type":"vmess","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}}}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_13","server":"45.76.175.3","port":39723,"type":"vmess","uuid":"edf11a4e-3d4d-456e-87a1-c657f05bff5e","alterId":0,"cipher":"auto","country":"美国(欢迎订阅Youtube破解资源君)_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/aTthb8Zx/","headers":{"host":"45.76.175.3"}}}
+  - {"name":"YouTube阿伟科技_14","server":"104.25.234.170","port":443,"type":"vmess","uuid":"1293e022-6347-4d7e-8425-e65576b6ae0e","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_14","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"jp.567568.ml"}}}
+  - {"name":"荷兰（TGat阿伟科技/油管）_15","server":"104.255.67.145","port":29369,"type":"vmess","uuid":"cf76e0f0-1d90-41d8-81bb-76e447daa623","alterId":0,"cipher":"auto","country":"荷兰（TGat阿伟科技/油管）_15","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_16","server":"usa-sr-106.mitoption.com","port":443,"type":"trojan","country":"美国（TGat阿伟科技/油管）_16","skip-cert-verify":true,"udp":true,"password":"e5d46365e25e31d94279c2bcf93390a2"}
+  - {"name":"+DE_38607+atWangCai_1+19_17","server":"huaweibgp.hntgxxjc.com","port":38607,"type":"ss","country":"+DE_38607+atWangCai_1+19_17","cipher":"chacha20-ietf-poly1305","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
+  - {"name":"日本（TGat阿伟科技/油管）_18","server":"v2.godlight.xyz","port":26936,"type":"vmess","uuid":"1a059eff-ad8a-42ad-921c-465c5b31f183","alterId":0,"cipher":"auto","country":"日本（TGat阿伟科技/油管）_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/f34f3-f32f364","headers":{"host":"v2.godlight.xyz"}}}
+  - {"name":"英国（TGat阿伟科技/油管）_19","server":"120.240.168.126","port":38615,"type":"ss","country":"英国（TGat阿伟科技/油管）_19","cipher":"aes-128-gcm","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
+  - {"name":"荷兰（TGat阿伟科技/油管）_20","server":"104.16.23.3","port":443,"type":"vmess","uuid":"248f4f6f-270c-47f7-bea8-ed9d89440054","alterId":0,"cipher":"auto","country":"荷兰（TGat阿伟科技/油管）_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"yzkoyeb-7595333.koyeb.app"}}}
+  - {"name":"+DE_38607+atWangCai_1+17_21","server":"gzjpiplc.hntgxxjc.com","port":38607,"type":"ss","country":"+DE_38607+atWangCai_1+17_21","cipher":"chacha20-ietf-poly1305","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
+  - {"name":"SG_22","server":"v2-2.godlight.xyz","port":30526,"type":"vmess","uuid":"43308d27-94ec-408e-a8f6-d682cfb99ca9","alterId":0,"cipher":"auto","country":"SG_22","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/54f634fs","headers":{"host":"v2-2.godlight.xyz"}}}
+  - {"name":"+DE_38607+atWangCai_1","server":"120.232.82.202","port":38607,"type":"ss","country":"+DE_38607+atWangCai_1","cipher":"chacha20-ietf-poly1305","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
+  - {"name":"美国（TGat阿伟科技/油管）_24","server":"cn1.relay.iepl.pw","port":50600,"type":"ss","country":"美国（TGat阿伟科技/油管）_24","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"俄罗斯(欢迎订阅Youtube破解资源君)_25","server":"v4.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"俄罗斯(欢迎订阅Youtube破解资源君)_25","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","headers":{"host":"v4.ssrsub.com"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_2153","server":"jgwdj4.gaox.ml","port":443,"type":"trojan","country":"Relay_🇺🇸US-🇺🇸US_2153","skip-cert-verify":true,"udp":true,"password":"c09eb137-bf68-4658-84e0-102d94b74168"}
+  - {"name":"新加坡（TGat阿伟科技/油管）_27","server":"cn1.relay.iepl.pw","port":50500,"type":"ss","country":"新加坡（TGat阿伟科技/油管）_27","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"日本（TGat阿伟科技/油管_28","server":"cn1.relay.iepl.pw","port":50300,"type":"ss","country":"日本（TGat阿伟科技/油管_28","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - YouTube阿伟科技_1
-      - YouTube阿伟科技_2
-      - YouTube阿伟科技_3
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
-      - 台湾（TGat阿伟科技/油管）_5
-      - VIP-中國臺灣-1线/專線_23
+      - 香港（TGat阿伟科技/油管）_1
+      - 台湾（TGat阿伟科技/油管）_2
+      - 新加坡（TGat阿伟科技/油管）_3
+      - 韩国（TGat阿伟科技/油管）_4
+      - 日本（TGat阿伟科技/油管）_5
+      - YouTube阿伟科技_6
       - YouTube阿伟科技_7
-      - YouTube阿伟科技_8
+      - 美国（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 尊-中國香港-2线/IPLC_4
-      - 尊-中國台湾1线/專線_6
+      - 美国（TGat阿伟科技/油管）_10
+      - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国（TGat阿伟科技/油管）_13
-      - 欧洲(欢迎订阅Youtube破解资源君)_14
-      - YouTube阿伟科技_15
-      - 日本(欢迎订阅Youtube破解资源君)_16
-      - YouTube阿伟科技_17
-      - 美国(欢迎订阅Youtube破解资源君)_18
-      - YouTube阿伟科技_19
-      - YouTube阿伟科技_20
-      - 尊-韩国首爾-1线/專線_8
-      - VIP-韩国首爾-1线/專線_24
-      - YouTube阿伟科技_23
-      - YouTube阿伟科技_24
-      - YouTube阿伟科技_25
-      - YouTube阿伟科技_26
-      - YouTube阿伟科技_27
-      - YouTube阿伟科技_28
-      - YouTube阿伟科技_29
-      - YouTube阿伟科技_30
-      - 尊-韩国首爾-3线/專線_10
-      - YouTube阿伟科技_32
-      - 尊-中國香港-1线/IPLC_3
-      - 尊-日本東京-1线/專線/abema_7
-      - 台湾（TGat阿伟科技/油管）_35
-      - YouTube阿伟科技_36
-      - YouTube阿伟科技_37
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - YouTube阿伟科技_39
-      - YouTube阿伟科技_40
-      - YouTube阿伟科技_41
-      - YouTube阿伟科技_42
-      - YouTube阿伟科技_43
-      - YouTube阿伟科技_44
-      - YouTube阿伟科技_45
-      - 新加坡（TGat阿伟科技/油管）_46
-      - YouTube阿伟科技_47
-      - YouTube阿伟科技_48
-      - YouTube阿伟科技_49
-      - YouTube阿伟科技_50
-      - YouTube阿伟科技_51
-      - YouTube阿伟科技_52
-      - YouTube阿伟科技_53
-      - 美国（TGat阿伟科技/油管）_54
-      - YouTube阿伟科技_55
-      -     香港（TGat阿伟科技/油管）trojan://OEfntmUGHmwQnNGratshop-one_defun_us:443?allowInsecure=1&sni=shop-one_defun_us#Relay_🇺🇸US-🇺🇸US_3824
-      - YouTube阿伟科技_57
-      - 日本（TGat阿伟科技/油管）_58
-      - YouTube阿伟科技_59
-      - YouTube阿伟科技_60
-      - 美国(欢迎订阅Youtube破解资源君)_61
+      - 美国(欢迎订阅Youtube破解资源君)_13
+      - YouTube阿伟科技_14
+      - 荷兰（TGat阿伟科技/油管）_15
+      - 美国（TGat阿伟科技/油管）_16
+      - +DE_38607+atWangCai_1+19_17
+      - 日本（TGat阿伟科技/油管）_18
+      - 英国（TGat阿伟科技/油管）_19
+      - 荷兰（TGat阿伟科技/油管）_20
+      - +DE_38607+atWangCai_1+17_21
+      - SG_22
+      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_24
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
+      - Relay_🇺🇸US-🇺🇸US_2153
+      - 新加坡（TGat阿伟科技/油管）_27
+      - 日本（TGat阿伟科技/油管_28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - YouTube阿伟科技_1
-      - YouTube阿伟科技_2
-      - YouTube阿伟科技_3
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
-      - 台湾（TGat阿伟科技/油管）_5
-      - VIP-中國臺灣-1线/專線_23
+      - 香港（TGat阿伟科技/油管）_1
+      - 台湾（TGat阿伟科技/油管）_2
+      - 新加坡（TGat阿伟科技/油管）_3
+      - 韩国（TGat阿伟科技/油管）_4
+      - 日本（TGat阿伟科技/油管）_5
+      - YouTube阿伟科技_6
       - YouTube阿伟科技_7
-      - YouTube阿伟科技_8
+      - 美国（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 尊-中國香港-2线/IPLC_4
-      - 尊-中國台湾1线/專線_6
+      - 美国（TGat阿伟科技/油管）_10
+      - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国（TGat阿伟科技/油管）_13
-      - 欧洲(欢迎订阅Youtube破解资源君)_14
-      - YouTube阿伟科技_15
-      - 日本(欢迎订阅Youtube破解资源君)_16
-      - YouTube阿伟科技_17
-      - 美国(欢迎订阅Youtube破解资源君)_18
-      - YouTube阿伟科技_19
-      - YouTube阿伟科技_20
-      - 尊-韩国首爾-1线/專線_8
-      - VIP-韩国首爾-1线/專線_24
-      - YouTube阿伟科技_23
-      - YouTube阿伟科技_24
-      - YouTube阿伟科技_25
-      - YouTube阿伟科技_26
-      - YouTube阿伟科技_27
-      - YouTube阿伟科技_28
-      - YouTube阿伟科技_29
-      - YouTube阿伟科技_30
-      - 尊-韩国首爾-3线/專線_10
-      - YouTube阿伟科技_32
-      - 尊-中國香港-1线/IPLC_3
-      - 尊-日本東京-1线/專線/abema_7
-      - 台湾（TGat阿伟科技/油管）_35
-      - YouTube阿伟科技_36
-      - YouTube阿伟科技_37
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - YouTube阿伟科技_39
-      - YouTube阿伟科技_40
-      - YouTube阿伟科技_41
-      - YouTube阿伟科技_42
-      - YouTube阿伟科技_43
-      - YouTube阿伟科技_44
-      - YouTube阿伟科技_45
-      - 新加坡（TGat阿伟科技/油管）_46
-      - YouTube阿伟科技_47
-      - YouTube阿伟科技_48
-      - YouTube阿伟科技_49
-      - YouTube阿伟科技_50
-      - YouTube阿伟科技_51
-      - YouTube阿伟科技_52
-      - YouTube阿伟科技_53
-      - 美国（TGat阿伟科技/油管）_54
-      - YouTube阿伟科技_55
-      -     香港（TGat阿伟科技/油管）trojan://OEfntmUGHmwQnNGratshop-one_defun_us:443?allowInsecure=1&sni=shop-one_defun_us#Relay_🇺🇸US-🇺🇸US_3824
-      - YouTube阿伟科技_57
-      - 日本（TGat阿伟科技/油管）_58
-      - YouTube阿伟科技_59
-      - YouTube阿伟科技_60
-      - 美国(欢迎订阅Youtube破解资源君)_61
+      - 美国(欢迎订阅Youtube破解资源君)_13
+      - YouTube阿伟科技_14
+      - 荷兰（TGat阿伟科技/油管）_15
+      - 美国（TGat阿伟科技/油管）_16
+      - +DE_38607+atWangCai_1+19_17
+      - 日本（TGat阿伟科技/油管）_18
+      - 英国（TGat阿伟科技/油管）_19
+      - 荷兰（TGat阿伟科技/油管）_20
+      - +DE_38607+atWangCai_1+17_21
+      - SG_22
+      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_24
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
+      - Relay_🇺🇸US-🇺🇸US_2153
+      - 新加坡（TGat阿伟科技/油管）_27
+      - 日本（TGat阿伟科技/油管_28
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube阿伟科技_1
-      - YouTube阿伟科技_2
-      - YouTube阿伟科技_3
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
-      - 台湾（TGat阿伟科技/油管）_5
-      - VIP-中國臺灣-1线/專線_23
+      - 香港（TGat阿伟科技/油管）_1
+      - 台湾（TGat阿伟科技/油管）_2
+      - 新加坡（TGat阿伟科技/油管）_3
+      - 韩国（TGat阿伟科技/油管）_4
+      - 日本（TGat阿伟科技/油管）_5
+      - YouTube阿伟科技_6
       - YouTube阿伟科技_7
-      - YouTube阿伟科技_8
+      - 美国（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 尊-中國香港-2线/IPLC_4
-      - 尊-中國台湾1线/專線_6
+      - 美国（TGat阿伟科技/油管）_10
+      - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国（TGat阿伟科技/油管）_13
-      - 欧洲(欢迎订阅Youtube破解资源君)_14
-      - YouTube阿伟科技_15
-      - 日本(欢迎订阅Youtube破解资源君)_16
-      - YouTube阿伟科技_17
-      - 美国(欢迎订阅Youtube破解资源君)_18
-      - YouTube阿伟科技_19
-      - YouTube阿伟科技_20
-      - 尊-韩国首爾-1线/專線_8
-      - VIP-韩国首爾-1线/專線_24
-      - YouTube阿伟科技_23
-      - YouTube阿伟科技_24
-      - YouTube阿伟科技_25
-      - YouTube阿伟科技_26
-      - YouTube阿伟科技_27
-      - YouTube阿伟科技_28
-      - YouTube阿伟科技_29
-      - YouTube阿伟科技_30
-      - 尊-韩国首爾-3线/專線_10
-      - YouTube阿伟科技_32
-      - 尊-中國香港-1线/IPLC_3
-      - 尊-日本東京-1线/專線/abema_7
-      - 台湾（TGat阿伟科技/油管）_35
-      - YouTube阿伟科技_36
-      - YouTube阿伟科技_37
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - YouTube阿伟科技_39
-      - YouTube阿伟科技_40
-      - YouTube阿伟科技_41
-      - YouTube阿伟科技_42
-      - YouTube阿伟科技_43
-      - YouTube阿伟科技_44
-      - YouTube阿伟科技_45
-      - 新加坡（TGat阿伟科技/油管）_46
-      - YouTube阿伟科技_47
-      - YouTube阿伟科技_48
-      - YouTube阿伟科技_49
-      - YouTube阿伟科技_50
-      - YouTube阿伟科技_51
-      - YouTube阿伟科技_52
-      - YouTube阿伟科技_53
-      - 美国（TGat阿伟科技/油管）_54
-      - YouTube阿伟科技_55
-      -     香港（TGat阿伟科技/油管）trojan://OEfntmUGHmwQnNGratshop-one_defun_us:443?allowInsecure=1&sni=shop-one_defun_us#Relay_🇺🇸US-🇺🇸US_3824
-      - YouTube阿伟科技_57
-      - 日本（TGat阿伟科技/油管）_58
-      - YouTube阿伟科技_59
-      - YouTube阿伟科技_60
-      - 美国(欢迎订阅Youtube破解资源君)_61
+      - 美国(欢迎订阅Youtube破解资源君)_13
+      - YouTube阿伟科技_14
+      - 荷兰（TGat阿伟科技/油管）_15
+      - 美国（TGat阿伟科技/油管）_16
+      - +DE_38607+atWangCai_1+19_17
+      - 日本（TGat阿伟科技/油管）_18
+      - 英国（TGat阿伟科技/油管）_19
+      - 荷兰（TGat阿伟科技/油管）_20
+      - +DE_38607+atWangCai_1+17_21
+      - SG_22
+      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_24
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
+      - Relay_🇺🇸US-🇺🇸US_2153
+      - 新加坡（TGat阿伟科技/油管）_27
+      - 日本（TGat阿伟科技/油管_28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube阿伟科技_1
-      - YouTube阿伟科技_2
-      - YouTube阿伟科技_3
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
-      - 台湾（TGat阿伟科技/油管）_5
-      - VIP-中國臺灣-1线/專線_23
+      - 香港（TGat阿伟科技/油管）_1
+      - 台湾（TGat阿伟科技/油管）_2
+      - 新加坡（TGat阿伟科技/油管）_3
+      - 韩国（TGat阿伟科技/油管）_4
+      - 日本（TGat阿伟科技/油管）_5
+      - YouTube阿伟科技_6
       - YouTube阿伟科技_7
-      - YouTube阿伟科技_8
+      - 美国（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 尊-中國香港-2线/IPLC_4
-      - 尊-中國台湾1线/專線_6
+      - 美国（TGat阿伟科技/油管）_10
+      - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国（TGat阿伟科技/油管）_13
-      - 欧洲(欢迎订阅Youtube破解资源君)_14
-      - YouTube阿伟科技_15
-      - 日本(欢迎订阅Youtube破解资源君)_16
-      - YouTube阿伟科技_17
-      - 美国(欢迎订阅Youtube破解资源君)_18
-      - YouTube阿伟科技_19
-      - YouTube阿伟科技_20
-      - 尊-韩国首爾-1线/專線_8
-      - VIP-韩国首爾-1线/專線_24
-      - YouTube阿伟科技_23
-      - YouTube阿伟科技_24
-      - YouTube阿伟科技_25
-      - YouTube阿伟科技_26
-      - YouTube阿伟科技_27
-      - YouTube阿伟科技_28
-      - YouTube阿伟科技_29
-      - YouTube阿伟科技_30
-      - 尊-韩国首爾-3线/專線_10
-      - YouTube阿伟科技_32
-      - 尊-中國香港-1线/IPLC_3
-      - 尊-日本東京-1线/專線/abema_7
-      - 台湾（TGat阿伟科技/油管）_35
-      - YouTube阿伟科技_36
-      - YouTube阿伟科技_37
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - YouTube阿伟科技_39
-      - YouTube阿伟科技_40
-      - YouTube阿伟科技_41
-      - YouTube阿伟科技_42
-      - YouTube阿伟科技_43
-      - YouTube阿伟科技_44
-      - YouTube阿伟科技_45
-      - 新加坡（TGat阿伟科技/油管）_46
-      - YouTube阿伟科技_47
-      - YouTube阿伟科技_48
-      - YouTube阿伟科技_49
-      - YouTube阿伟科技_50
-      - YouTube阿伟科技_51
-      - YouTube阿伟科技_52
-      - YouTube阿伟科技_53
-      - 美国（TGat阿伟科技/油管）_54
-      - YouTube阿伟科技_55
-      -     香港（TGat阿伟科技/油管）trojan://OEfntmUGHmwQnNGratshop-one_defun_us:443?allowInsecure=1&sni=shop-one_defun_us#Relay_🇺🇸US-🇺🇸US_3824
-      - YouTube阿伟科技_57
-      - 日本（TGat阿伟科技/油管）_58
-      - YouTube阿伟科技_59
-      - YouTube阿伟科技_60
-      - 美国(欢迎订阅Youtube破解资源君)_61
+      - 美国(欢迎订阅Youtube破解资源君)_13
+      - YouTube阿伟科技_14
+      - 荷兰（TGat阿伟科技/油管）_15
+      - 美国（TGat阿伟科技/油管）_16
+      - +DE_38607+atWangCai_1+19_17
+      - 日本（TGat阿伟科技/油管）_18
+      - 英国（TGat阿伟科技/油管）_19
+      - 荷兰（TGat阿伟科技/油管）_20
+      - +DE_38607+atWangCai_1+17_21
+      - SG_22
+      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_24
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
+      - Relay_🇺🇸US-🇺🇸US_2153
+      - 新加坡（TGat阿伟科技/油管）_27
+      - 日本（TGat阿伟科技/油管_28
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - YouTube阿伟科技_1
-      - YouTube阿伟科技_2
-      - YouTube阿伟科技_3
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
-      - 台湾（TGat阿伟科技/油管）_5
-      - VIP-中國臺灣-1线/專線_23
+      - 香港（TGat阿伟科技/油管）_1
+      - 台湾（TGat阿伟科技/油管）_2
+      - 新加坡（TGat阿伟科技/油管）_3
+      - 韩国（TGat阿伟科技/油管）_4
+      - 日本（TGat阿伟科技/油管）_5
+      - YouTube阿伟科技_6
       - YouTube阿伟科技_7
-      - YouTube阿伟科技_8
+      - 美国（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 尊-中國香港-2线/IPLC_4
-      - 尊-中國台湾1线/專線_6
+      - 美国（TGat阿伟科技/油管）_10
+      - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国（TGat阿伟科技/油管）_13
-      - 欧洲(欢迎订阅Youtube破解资源君)_14
-      - YouTube阿伟科技_15
-      - 日本(欢迎订阅Youtube破解资源君)_16
-      - YouTube阿伟科技_17
-      - 美国(欢迎订阅Youtube破解资源君)_18
-      - YouTube阿伟科技_19
-      - YouTube阿伟科技_20
-      - 尊-韩国首爾-1线/專線_8
-      - VIP-韩国首爾-1线/專線_24
-      - YouTube阿伟科技_23
-      - YouTube阿伟科技_24
-      - YouTube阿伟科技_25
-      - YouTube阿伟科技_26
-      - YouTube阿伟科技_27
-      - YouTube阿伟科技_28
-      - YouTube阿伟科技_29
-      - YouTube阿伟科技_30
-      - 尊-韩国首爾-3线/專線_10
-      - YouTube阿伟科技_32
-      - 尊-中國香港-1线/IPLC_3
-      - 尊-日本東京-1线/專線/abema_7
-      - 台湾（TGat阿伟科技/油管）_35
-      - YouTube阿伟科技_36
-      - YouTube阿伟科技_37
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - YouTube阿伟科技_39
-      - YouTube阿伟科技_40
-      - YouTube阿伟科技_41
-      - YouTube阿伟科技_42
-      - YouTube阿伟科技_43
-      - YouTube阿伟科技_44
-      - YouTube阿伟科技_45
-      - 新加坡（TGat阿伟科技/油管）_46
-      - YouTube阿伟科技_47
-      - YouTube阿伟科技_48
-      - YouTube阿伟科技_49
-      - YouTube阿伟科技_50
-      - YouTube阿伟科技_51
-      - YouTube阿伟科技_52
-      - YouTube阿伟科技_53
-      - 美国（TGat阿伟科技/油管）_54
-      - YouTube阿伟科技_55
-      -     香港（TGat阿伟科技/油管）trojan://OEfntmUGHmwQnNGratshop-one_defun_us:443?allowInsecure=1&sni=shop-one_defun_us#Relay_🇺🇸US-🇺🇸US_3824
-      - YouTube阿伟科技_57
-      - 日本（TGat阿伟科技/油管）_58
-      - YouTube阿伟科技_59
-      - YouTube阿伟科技_60
-      - 美国(欢迎订阅Youtube破解资源君)_61
+      - 美国(欢迎订阅Youtube破解资源君)_13
+      - YouTube阿伟科技_14
+      - 荷兰（TGat阿伟科技/油管）_15
+      - 美国（TGat阿伟科技/油管）_16
+      - +DE_38607+atWangCai_1+19_17
+      - 日本（TGat阿伟科技/油管）_18
+      - 英国（TGat阿伟科技/油管）_19
+      - 荷兰（TGat阿伟科技/油管）_20
+      - +DE_38607+atWangCai_1+17_21
+      - SG_22
+      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_24
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
+      - Relay_🇺🇸US-🇺🇸US_2153
+      - 新加坡（TGat阿伟科技/油管）_27
+      - 日本（TGat阿伟科技/油管_28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube阿伟科技_1
-      - YouTube阿伟科技_2
-      - YouTube阿伟科技_3
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
-      - 台湾（TGat阿伟科技/油管）_5
-      - VIP-中國臺灣-1线/專線_23
+      - 香港（TGat阿伟科技/油管）_1
+      - 台湾（TGat阿伟科技/油管）_2
+      - 新加坡（TGat阿伟科技/油管）_3
+      - 韩国（TGat阿伟科技/油管）_4
+      - 日本（TGat阿伟科技/油管）_5
+      - YouTube阿伟科技_6
       - YouTube阿伟科技_7
-      - YouTube阿伟科技_8
+      - 美国（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 尊-中國香港-2线/IPLC_4
-      - 尊-中國台湾1线/專線_6
+      - 美国（TGat阿伟科技/油管）_10
+      - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国（TGat阿伟科技/油管）_13
-      - 欧洲(欢迎订阅Youtube破解资源君)_14
-      - YouTube阿伟科技_15
-      - 日本(欢迎订阅Youtube破解资源君)_16
-      - YouTube阿伟科技_17
-      - 美国(欢迎订阅Youtube破解资源君)_18
-      - YouTube阿伟科技_19
-      - YouTube阿伟科技_20
-      - 尊-韩国首爾-1线/專線_8
-      - VIP-韩国首爾-1线/專線_24
-      - YouTube阿伟科技_23
-      - YouTube阿伟科技_24
-      - YouTube阿伟科技_25
-      - YouTube阿伟科技_26
-      - YouTube阿伟科技_27
-      - YouTube阿伟科技_28
-      - YouTube阿伟科技_29
-      - YouTube阿伟科技_30
-      - 尊-韩国首爾-3线/專線_10
-      - YouTube阿伟科技_32
-      - 尊-中國香港-1线/IPLC_3
-      - 尊-日本東京-1线/專線/abema_7
-      - 台湾（TGat阿伟科技/油管）_35
-      - YouTube阿伟科技_36
-      - YouTube阿伟科技_37
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - YouTube阿伟科技_39
-      - YouTube阿伟科技_40
-      - YouTube阿伟科技_41
-      - YouTube阿伟科技_42
-      - YouTube阿伟科技_43
-      - YouTube阿伟科技_44
-      - YouTube阿伟科技_45
-      - 新加坡（TGat阿伟科技/油管）_46
-      - YouTube阿伟科技_47
-      - YouTube阿伟科技_48
-      - YouTube阿伟科技_49
-      - YouTube阿伟科技_50
-      - YouTube阿伟科技_51
-      - YouTube阿伟科技_52
-      - YouTube阿伟科技_53
-      - 美国（TGat阿伟科技/油管）_54
-      - YouTube阿伟科技_55
-      -     香港（TGat阿伟科技/油管）trojan://OEfntmUGHmwQnNGratshop-one_defun_us:443?allowInsecure=1&sni=shop-one_defun_us#Relay_🇺🇸US-🇺🇸US_3824
-      - YouTube阿伟科技_57
-      - 日本（TGat阿伟科技/油管）_58
-      - YouTube阿伟科技_59
-      - YouTube阿伟科技_60
-      - 美国(欢迎订阅Youtube破解资源君)_61
+      - 美国(欢迎订阅Youtube破解资源君)_13
+      - YouTube阿伟科技_14
+      - 荷兰（TGat阿伟科技/油管）_15
+      - 美国（TGat阿伟科技/油管）_16
+      - +DE_38607+atWangCai_1+19_17
+      - 日本（TGat阿伟科技/油管）_18
+      - 英国（TGat阿伟科技/油管）_19
+      - 荷兰（TGat阿伟科技/油管）_20
+      - +DE_38607+atWangCai_1+17_21
+      - SG_22
+      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_24
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
+      - Relay_🇺🇸US-🇺🇸US_2153
+      - 新加坡（TGat阿伟科技/油管）_27
+      - 日本（TGat阿伟科技/油管_28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -487,67 +256,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube阿伟科技_1
-      - YouTube阿伟科技_2
-      - YouTube阿伟科技_3
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
-      - 台湾（TGat阿伟科技/油管）_5
-      - VIP-中國臺灣-1线/專線_23
+      - 香港（TGat阿伟科技/油管）_1
+      - 台湾（TGat阿伟科技/油管）_2
+      - 新加坡（TGat阿伟科技/油管）_3
+      - 韩国（TGat阿伟科技/油管）_4
+      - 日本（TGat阿伟科技/油管）_5
+      - YouTube阿伟科技_6
       - YouTube阿伟科技_7
-      - YouTube阿伟科技_8
+      - 美国（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 尊-中國香港-2线/IPLC_4
-      - 尊-中國台湾1线/專線_6
+      - 美国（TGat阿伟科技/油管）_10
+      - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国（TGat阿伟科技/油管）_13
-      - 欧洲(欢迎订阅Youtube破解资源君)_14
-      - YouTube阿伟科技_15
-      - 日本(欢迎订阅Youtube破解资源君)_16
-      - YouTube阿伟科技_17
-      - 美国(欢迎订阅Youtube破解资源君)_18
-      - YouTube阿伟科技_19
-      - YouTube阿伟科技_20
-      - 尊-韩国首爾-1线/專線_8
-      - VIP-韩国首爾-1线/專線_24
-      - YouTube阿伟科技_23
-      - YouTube阿伟科技_24
-      - YouTube阿伟科技_25
-      - YouTube阿伟科技_26
-      - YouTube阿伟科技_27
-      - YouTube阿伟科技_28
-      - YouTube阿伟科技_29
-      - YouTube阿伟科技_30
-      - 尊-韩国首爾-3线/專線_10
-      - YouTube阿伟科技_32
-      - 尊-中國香港-1线/IPLC_3
-      - 尊-日本東京-1线/專線/abema_7
-      - 台湾（TGat阿伟科技/油管）_35
-      - YouTube阿伟科技_36
-      - YouTube阿伟科技_37
-      - Relay_🇨🇳CN-🇹🇼TW_482
-      - YouTube阿伟科技_39
-      - YouTube阿伟科技_40
-      - YouTube阿伟科技_41
-      - YouTube阿伟科技_42
-      - YouTube阿伟科技_43
-      - YouTube阿伟科技_44
-      - YouTube阿伟科技_45
-      - 新加坡（TGat阿伟科技/油管）_46
-      - YouTube阿伟科技_47
-      - YouTube阿伟科技_48
-      - YouTube阿伟科技_49
-      - YouTube阿伟科技_50
-      - YouTube阿伟科技_51
-      - YouTube阿伟科技_52
-      - YouTube阿伟科技_53
-      - 美国（TGat阿伟科技/油管）_54
-      - YouTube阿伟科技_55
-      -     香港（TGat阿伟科技/油管）trojan://OEfntmUGHmwQnNGratshop-one_defun_us:443?allowInsecure=1&sni=shop-one_defun_us#Relay_🇺🇸US-🇺🇸US_3824
-      - YouTube阿伟科技_57
-      - 日本（TGat阿伟科技/油管）_58
-      - YouTube阿伟科技_59
-      - YouTube阿伟科技_60
-      - 美国(欢迎订阅Youtube破解资源君)_61
+      - 美国(欢迎订阅Youtube破解资源君)_13
+      - YouTube阿伟科技_14
+      - 荷兰（TGat阿伟科技/油管）_15
+      - 美国（TGat阿伟科技/油管）_16
+      - +DE_38607+atWangCai_1+19_17
+      - 日本（TGat阿伟科技/油管）_18
+      - 英国（TGat阿伟科技/油管）_19
+      - 荷兰（TGat阿伟科技/油管）_20
+      - +DE_38607+atWangCai_1+17_21
+      - SG_22
+      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_24
+      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
+      - Relay_🇺🇸US-🇺🇸US_2153
+      - 新加坡（TGat阿伟科技/油管）_27
+      - 日本（TGat阿伟科技/油管_28
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
