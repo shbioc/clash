@@ -5,235 +5,480 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"香港（TGat阿伟科技/油管）_1","server":"cm1-hk.hutaod.me","port":12438,"type":"vmess","uuid":"6954c760-6c9c-3f2a-bec0-1348296177e5","alterId":0,"cipher":"auto","country":"香港（TGat阿伟科技/油管）_1","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"cm1-hk.hutaod.me"}}}
-  - {"name":"台湾（TGat阿伟科技/油管）_2","server":"cn1.relay.iepl.pw","port":50200,"type":"ss","country":"台湾（TGat阿伟科技/油管）_2","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
-  - {"name":"新加坡（TGat阿伟科技/油管）_3","server":"sg1.qingyun123.xyz","port":10001,"type":"trojan","country":"新加坡（TGat阿伟科技/油管）_3","skip-cert-verify":true,"udp":true,"password":"4337dfb9-bc77-4c08-8672-1f12f4d6f7fb"}
-  - {"name":"韩国（TGat阿伟科技/油管）_4","server":"cn1.relay.iepl.pw","port":50400,"type":"ss","country":"韩国（TGat阿伟科技/油管）_4","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
-  - {"name":"日本（TGat阿伟科技/油管）_5","server":"192.243.123.185","port":51601,"type":"vmess","uuid":"008e3ce7-8e27-4520-8917-b89c6d53b906","alterId":0,"cipher":"auto","country":"日本（TGat阿伟科技/油管）_5","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
-  - {"name":"YouTube阿伟科技_6","server":"104.17.67.190","port":443,"type":"vmess","uuid":"1293e022-6347-4d7e-8425-e65576b6ae0e","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_6","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"jp.567568.ml"}}}
-  - {"name":"YouTube阿伟科技_7","server":"us1.lolvps.xyz","port":60060,"type":"vmess","uuid":"95886c76-9207-48bd-9e64-d1422e75ad89","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_7","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/AY920UMR","headers":{"host":"us1.lolvps.xyz"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_8","server":"104.194.77.123","port":57998,"type":"ss","country":"美国（TGat阿伟科技/油管）_8","cipher":"aes-256-gcm","password":"5AsJpT36WpdWbv5r"}
-  - {"name":"美国（TGat阿伟科技/油管）_9","server":"80.251.209.228","port":57998,"type":"vmess","uuid":"5e468ac8-016e-416f-861b-2d34707c1c3f","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_9","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_10","server":"80.251.209.228","port":57998,"type":"vmess","uuid":"5e468ac8-016e-416f-861b-2d34707c1c3f","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_10","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"80.251.209.228"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_11","server":"45.78.8.236","port":29369,"type":"ss","country":"美国（TGat阿伟科技/油管）_11","cipher":"aes-256-gcm","password":"XB9Xj5EXtsn5ZwbA"}
-  - {"name":"YouTube阿伟科技_12","server":"v2-1.godlight.xyz","port":12236,"type":"vmess","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}}}
-  - {"name":"美国(欢迎订阅Youtube破解资源君)_13","server":"45.76.175.3","port":39723,"type":"vmess","uuid":"edf11a4e-3d4d-456e-87a1-c657f05bff5e","alterId":0,"cipher":"auto","country":"美国(欢迎订阅Youtube破解资源君)_13","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/aTthb8Zx/","headers":{"host":"45.76.175.3"}}}
-  - {"name":"YouTube阿伟科技_14","server":"104.25.234.170","port":443,"type":"vmess","uuid":"1293e022-6347-4d7e-8425-e65576b6ae0e","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_14","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"jp.567568.ml"}}}
-  - {"name":"荷兰（TGat阿伟科技/油管）_15","server":"104.255.67.145","port":29369,"type":"vmess","uuid":"cf76e0f0-1d90-41d8-81bb-76e447daa623","alterId":0,"cipher":"auto","country":"荷兰（TGat阿伟科技/油管）_15","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
-  - {"name":"美国（TGat阿伟科技/油管）_16","server":"usa-sr-106.mitoption.com","port":443,"type":"trojan","country":"美国（TGat阿伟科技/油管）_16","skip-cert-verify":true,"udp":true,"password":"e5d46365e25e31d94279c2bcf93390a2"}
-  - {"name":"+DE_38607+atWangCai_1+19_17","server":"huaweibgp.hntgxxjc.com","port":38607,"type":"ss","country":"+DE_38607+atWangCai_1+19_17","cipher":"chacha20-ietf-poly1305","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
-  - {"name":"日本（TGat阿伟科技/油管）_18","server":"v2.godlight.xyz","port":26936,"type":"vmess","uuid":"1a059eff-ad8a-42ad-921c-465c5b31f183","alterId":0,"cipher":"auto","country":"日本（TGat阿伟科技/油管）_18","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/f34f3-f32f364","headers":{"host":"v2.godlight.xyz"}}}
-  - {"name":"英国（TGat阿伟科技/油管）_19","server":"120.240.168.126","port":38615,"type":"ss","country":"英国（TGat阿伟科技/油管）_19","cipher":"aes-128-gcm","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
-  - {"name":"荷兰（TGat阿伟科技/油管）_20","server":"104.16.23.3","port":443,"type":"vmess","uuid":"248f4f6f-270c-47f7-bea8-ed9d89440054","alterId":0,"cipher":"auto","country":"荷兰（TGat阿伟科技/油管）_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"yzkoyeb-7595333.koyeb.app"}}}
-  - {"name":"+DE_38607+atWangCai_1+17_21","server":"gzjpiplc.hntgxxjc.com","port":38607,"type":"ss","country":"+DE_38607+atWangCai_1+17_21","cipher":"chacha20-ietf-poly1305","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
-  - {"name":"SG_22","server":"v2-2.godlight.xyz","port":30526,"type":"vmess","uuid":"43308d27-94ec-408e-a8f6-d682cfb99ca9","alterId":0,"cipher":"auto","country":"SG_22","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/54f634fs","headers":{"host":"v2-2.godlight.xyz"}}}
-  - {"name":"+DE_38607+atWangCai_1","server":"120.232.82.202","port":38607,"type":"ss","country":"+DE_38607+atWangCai_1","cipher":"chacha20-ietf-poly1305","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
-  - {"name":"美国（TGat阿伟科技/油管）_24","server":"cn1.relay.iepl.pw","port":50600,"type":"ss","country":"美国（TGat阿伟科技/油管）_24","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
-  - {"name":"俄罗斯(欢迎订阅Youtube破解资源君)_25","server":"v4.ssrsub.com","port":8443,"type":"vmess","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":0,"cipher":"auto","country":"俄罗斯(欢迎订阅Youtube破解资源君)_25","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ssrsub","headers":{"host":"v4.ssrsub.com"}}}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_2153","server":"jgwdj4.gaox.ml","port":443,"type":"trojan","country":"Relay_🇺🇸US-🇺🇸US_2153","skip-cert-verify":true,"udp":true,"password":"c09eb137-bf68-4658-84e0-102d94b74168"}
-  - {"name":"新加坡（TGat阿伟科技/油管）_27","server":"cn1.relay.iepl.pw","port":50500,"type":"ss","country":"新加坡（TGat阿伟科技/油管）_27","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
-  - {"name":"日本（TGat阿伟科技/油管_28","server":"cn1.relay.iepl.pw","port":50300,"type":"ss","country":"日本（TGat阿伟科技/油管_28","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"韩国（TGat阿伟科技/油管）_1","server":"cn1.relay.iepl.pw","port":50400,"type":"ss","country":"韩国（TGat阿伟科技/油管）_1","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"台湾（TGat阿伟科技/油管）_2","server":"x.gotout.work","port":30021,"type":"ss","country":"台湾（TGat阿伟科技/油管）_2","cipher":"aes-256-gcm","password":"e0uyakendg7"}
+  - {"name":"新加坡（TGat阿伟科技/油管）_3","server":"v2-3.godlight.xyz","port":39276,"type":"vmess","uuid":"6a52f259-4367-468c-a828-7b8283c2f059","alterId":0,"cipher":"auto","country":"新加坡（TGat阿伟科技/油管）_3","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/f45361465j175","headers":{"host":"v2-3.godlight.xyz"}}}
+  - {"name":"香港（TGat阿伟科技/油管）_4","server":"hknf1.qingyun123.xyz","port":10050,"type":"trojan","country":"香港（TGat阿伟科技/油管）_4","skip-cert-verify":true,"udp":true,"password":"50e23a9c-d2b0-4e36-b2d9-85fe3646ca05"}
+  - {"name":"俄罗斯（TGat阿伟科技/油管）_5","server":"cn1.relay.iepl.pw","port":50700,"type":"ss","country":"俄罗斯（TGat阿伟科技/油管）_5","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"美国（TGat阿伟科技/油管）_6","server":"cm.xrayport.one","port":33559,"type":"vmess","uuid":"b79055de-c1f7-4e9b-8c04-54b4299b78c4","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_6","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"英国（TGat阿伟科技/油管）_7","server":"120.240.168.126","port":38615,"type":"ss","country":"英国（TGat阿伟科技/油管）_7","cipher":"aes-128-gcm","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
+  - {"name":"香港（TGat阿伟科技/油管）_8","server":"api.tcpbbr.net","port":443,"type":"trojan","country":"香港（TGat阿伟科技/油管）_8","skip-cert-verify":true,"udp":true,"password":"08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9"}
+  - {"name":"美国（TGat阿伟科技/油管）_9","server":"node.774.gs","port":8443,"type":"vmess","uuid":"28f6159e-ed46-4bfe-b893-0e7531c28143","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_9","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"node.774.gs"}}}
+  - {"name":"英国（TGat阿伟科技/油管）_10","server":"gzjpiplc.hntgxxjc.com","port":38615,"type":"ss","country":"英国（TGat阿伟科技/油管）_10","cipher":"aes-128-gcm","password":"71e5c050-aea8-42ab-b6d4-8255172dd3be"}
+  - {"name":"美国（TGat阿伟科技/油管）_11","server":"169.197.142.99","port":9102,"type":"ss","country":"美国（TGat阿伟科技/油管）_11","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"YouTube阿伟科技_12","server":"104.25.234.170","port":443,"type":"vmess","uuid":"1293e022-6347-4d7e-8425-e65576b6ae0e","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_12","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"jp.567568.ml"}}}
+  - {"name":"CN_油管频道全网最强白嫖_13","server":"shcu.forgebukkit.com","port":47389,"type":"vmess","uuid":"f680dfd8-3b59-48af-aea8-1d4bc09a1705","alterId":0,"cipher":"auto","country":"CN_油管频道全网最强白嫖_13","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/71h4b3s1f53","headers":{"host":"v2-5.godlight.xyz"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_14","server":"38.68.135.19","port":8119,"type":"ss","country":"美国（TGat阿伟科技/油管）_14","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"美国（TGat阿伟科技/油管）_15","server":"cn1.relay.iepl.pw","port":50600,"type":"ss","country":"美国（TGat阿伟科技/油管）_15","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"美国（TGat阿伟科技/油管）_16","server":"fhcarm2.gaox.ml","port":443,"type":"trojan","country":"美国（TGat阿伟科技/油管）_16","skip-cert-verify":true,"udp":true,"password":"f39bd244-f5fe-415c-8b98-a1e5250bf178"}
+  - {"name":"美国（TGat阿伟科技/油管）_17","server":"fhcarm1.gaox.ml","port":443,"type":"trojan","country":"美国（TGat阿伟科技/油管）_17","skip-cert-verify":true,"udp":true,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4"}
+  - {"name":"美国（TGat阿伟科技/油管）_18","server":"38.68.135.19","port":9102,"type":"ss","country":"美国（TGat阿伟科技/油管）_18","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"美国（TGat阿伟科技/油管）_19","server":"38.68.135.19","port":6379,"type":"ss","country":"美国（TGat阿伟科技/油管）_19","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"YouTube阿伟科技_20","server":"104.17.67.190","port":443,"type":"vmess","uuid":"1293e022-6347-4d7e-8425-e65576b6ae0e","alterId":0,"cipher":"auto","country":"YouTube阿伟科技_20","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"jp.567568.ml"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_21","server":"169.197.142.99","port":8119,"type":"ss","country":"美国（TGat阿伟科技/油管）_21","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"日本（TGat阿伟科技/油管）_22","server":"v2-1.godlight.xyz","port":12236,"type":"vmess","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":0,"cipher":"auto","country":"日本（TGat阿伟科技/油管）_22","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_23","server":"38.68.135.19","port":7306,"type":"ss","country":"美国（TGat阿伟科技/油管）_23","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"美国（TGat阿伟科技/油管）_24","server":"38.68.135.19","port":5601,"type":"ss","country":"美国（TGat阿伟科技/油管）_24","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国（TGat阿伟科技/油管）_25","server":"38.68.135.19","port":3389,"type":"ss","country":"美国（TGat阿伟科技/油管）_25","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国（TGat阿伟科技/油管）_26","server":"38.68.135.19","port":2376,"type":"ss","country":"美国（TGat阿伟科技/油管）_26","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"日本（TGat阿伟科技/油管）_27","server":"v2.godlight.xyz","port":26936,"type":"vmess","uuid":"1a059eff-ad8a-42ad-921c-465c5b31f183","alterId":0,"cipher":"auto","country":"日本（TGat阿伟科技/油管）_27","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/f34f3-f32f364","headers":{"host":"v2.godlight.xyz"}}}
+  - {"name":"印度（Meteor）2_28","server":"www.digitalocean.com","port":443,"type":"vmess","uuid":"c675b1c1-b668-46fc-97eb-6bdcc57fd3a3","alterId":0,"cipher":"auto","country":"印度（Meteor）2_28","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/Support-Putin-Kill-all-Ukrainians_vws","headers":{"host":"in.884899.cf"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_29","server":"38.68.135.19","port":5500,"type":"ss","country":"美国（TGat阿伟科技/油管）_29","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"美国（TGat阿伟科技/油管）_30","server":"169.197.142.99","port":5003,"type":"ss","country":"美国（TGat阿伟科技/油管）_30","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国（TGat阿伟科技/油管）_31","server":"38.68.135.19","port":5004,"type":"ss","country":"美国（TGat阿伟科技/油管）_31","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"美国(欢迎订阅Youtube破解资源君)_32","server":"169.197.142.99","port":9101,"type":"ss","country":"美国(欢迎订阅Youtube破解资源君)_32","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"香港（TGat阿伟科技/油管）_33","server":"hk01.bosaidong.buzz","port":80,"type":"vmess","uuid":"2adef817-ff89-4d0c-8782-694ba4e8d899","alterId":0,"cipher":"auto","country":"香港（TGat阿伟科技/油管）_33","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"香港（TGat阿伟科技/油管）_34","server":"120.233.10.230","port":50100,"type":"ss","country":"香港（TGat阿伟科技/油管）_34","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"日本（TGat阿伟科技/油管）_35","server":"x.gotout.work","port":30031,"type":"ss","country":"日本（TGat阿伟科技/油管）_35","cipher":"aes-256-gcm","password":"e0uyakendg7"}
+  - {"name":"日本（TGat阿伟科技/油管）_36","server":"cn1.relay.iepl.pw","port":50300,"type":"ss","country":"日本（TGat阿伟科技/油管）_36","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"新加坡（TGat阿伟科技/油管）_37","server":"x.gotout.work","port":30041,"type":"ss","country":"新加坡（TGat阿伟科技/油管）_37","cipher":"aes-256-gcm","password":"e0uyakendg7"}
+  - {"name":"台湾（TGat阿伟科技/油管）_38","server":"cn1.relay.iepl.pw","port":50200,"type":"ss","country":"台湾（TGat阿伟科技/油管）_38","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"美国（TGat阿伟科技/油管）_39","server":"o7cx6bd6t4yjiqsm.xiongsonglin.com","port":443,"type":"trojan","country":"美国（TGat阿伟科技/油管）_39","skip-cert-verify":true,"udp":true,"password":"e5d46365e25e31d94279c2bcf93390a2"}
+  - {"name":"_GB_英国_40","server":"152.89.210.84","port":9060,"type":"ss","country":"_GB_英国_40","cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
+  - {"name":"新加坡（TGat阿伟科技/油管）_41","server":"120.233.10.230","port":50500,"type":"ss","country":"新加坡（TGat阿伟科技/油管）_41","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"新加坡（TGat阿伟科技/油管）_42","server":"cn1.relay.iepl.pw","port":50500,"type":"ss","country":"新加坡（TGat阿伟科技/油管）_42","cipher":"aes-128-gcm","password":"df87f3f2-f2a7-4fae-ae7d-507cea790c95"}
+  - {"name":"_GB_英国_43","server":"152.89.210.84","port":9043,"type":"ss","country":"_GB_英国_43","cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
+  - {"name":"_US_美国_44","server":"169.197.142.99","port":5001,"type":"ss","country":"_US_美国_44","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"美国（TGat阿伟科技/油管）_45","server":"169.197.142.99","port":8009,"type":"ss","country":"美国（TGat阿伟科技/油管）_45","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"亚洲(欢迎订阅Youtube破解资源君)_46","server":"s2.upyun.online","port":12340,"type":"trojan","country":"亚洲(欢迎订阅Youtube破解资源君)_46","skip-cert-verify":true,"udp":true,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2"}
+  - {"name":"美国（TGat阿伟科技/油管）_47","server":"169.197.142.99","port":6679,"type":"ss","country":"美国（TGat阿伟科技/油管）_47","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"新加坡（TGat阿伟科技/油管）_48","server":"sg3.31vpn.com","port":80,"type":"vmess","uuid":"ff382d09-becd-41cb-8e4f-3e256b27de47","alterId":0,"cipher":"auto","country":"新加坡（TGat阿伟科技/油管）_48","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/fastssh/ntmdq/6267584ee4988/","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"荷兰（TGat阿伟科技/油管）_49","server":"152.70.49.174","port":55988,"type":"vmess","uuid":"2c644a6a-5817-40b2-b149-2f3ac7eb2447","alterId":0,"cipher":"auto","country":"荷兰（TGat阿伟科技/油管）_49","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/AY920UMR","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"台湾（TGat阿伟科技/油管）_50","server":"iplc01.2333dns.com","port":3071,"type":"vmess","uuid":"8cc8320f-f880-31c8-bb6a-1ecfc503a2ce","alterId":0,"cipher":"auto","country":"台湾（TGat阿伟科技/油管）_50","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"美国（TGat阿伟科技/油管）_51","server":"169.197.142.99","port":3389,"type":"ss","country":"美国（TGat阿伟科技/油管）_51","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"澳大利亚（TGat阿伟科技/油管）_52","server":"jgwxn3.gaox.ml","port":443,"type":"trojan","country":"澳大利亚（TGat阿伟科技/油管）_52","skip-cert-verify":true,"udp":true,"password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf"}
+  - {"name":"美国（TGat阿伟科技/油管）_53","server":"e-gzcm.linkdns.xyz","port":40242,"type":"vmess","uuid":"9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_53","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/test","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"US_欢迎下载软件库app_54","server":"trojan2.free4444.xyz","port":443,"type":"trojan","country":"US_欢迎下载软件库app_54","skip-cert-verify":true,"udp":true,"password":"dongtaiwang.com"}
+  - {"name":"US_油管频道全网最强白嫖_55","server":"ssrfree10.free4444.xyz","port":443,"type":"ssr","country":"US_油管频道全网最强白嫖_55","password":"dongtaiwang.com","cipher":"dummy","protocol":"auth_chain_a","obfs":"tls1.2_ticket_auth"}
+  - {"name":"英国（TGat阿伟科技/油管）_56","server":"jgwld4.gaox.ml","port":443,"type":"trojan","country":"英国（TGat阿伟科技/油管）_56","skip-cert-verify":true,"udp":true,"password":"58d32c66-43b1-4561-9951-d87c9123774e"}
+  - {"name":"美国（TGat阿伟科技/油管）_57","server":"169.197.142.99","port":3306,"type":"ss","country":"美国（TGat阿伟科技/油管）_57","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"_GB_英国_58","server":"152.89.210.84","port":9046,"type":"ss","country":"_GB_英国_58","cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"name":"美国（TGat阿伟科技/油管）_59","server":"155.248.202.203","port":14564,"type":"vmess","uuid":"4a0da379-a7cc-4389-88d7-45514b896883","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_59","skip-cert-verify":true,"tls":false,"network":"tcp","ws-opts":{"path":"/","headers":{"host":"155.248.202.203"}}}
+  - {"name":"印度（TGat阿伟科技/油管）_60","server":"jgwhdlb2.gaox.ml","port":443,"type":"trojan","country":"印度（TGat阿伟科技/油管）_60","skip-cert-verify":true,"udp":true,"password":"54080134-2cba-4535-8599-95650bd9aa54"}
+  - {"name":"香港（TGat阿伟科技/油管）_61","server":"x.gotout.work","port":30012,"type":"ss","country":"香港（TGat阿伟科技/油管）_61","cipher":"aes-256-gcm","password":"e0uyakendg7"}
+  - {"name":"美国（TGat阿伟科技/油管）_62","server":"e-gzcm.linkdns.xyz","port":40247,"type":"vmess","uuid":"9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c","alterId":0,"cipher":"auto","country":"美国（TGat阿伟科技/油管）_62","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/test","headers":{"host":"aweikeji-YouTube-TG"}}}
+  - {"name":"亚洲(欢迎订阅Youtube破解资源君)_63","server":"85.209.159.107","port":20403,"type":"vmess","uuid":"b3b08b1c-c0a4-11ec-8151-00163c3fe0cd","alterId":0,"cipher":"auto","country":"亚洲(欢迎订阅Youtube破解资源君)_63","skip-cert-verify":true,"tls":false,"network":"ws","ws-opts":{"path":"/Asq7j5Mb/","headers":{"host":"85.209.159.107"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港（TGat阿伟科技/油管）_1
+      - 韩国（TGat阿伟科技/油管）_1
       - 台湾（TGat阿伟科技/油管）_2
       - 新加坡（TGat阿伟科技/油管）_3
-      - 韩国（TGat阿伟科技/油管）_4
-      - 日本（TGat阿伟科技/油管）_5
-      - YouTube阿伟科技_6
-      - YouTube阿伟科技_7
-      - 美国（TGat阿伟科技/油管）_8
+      - 香港（TGat阿伟科技/油管）_4
+      - 俄罗斯（TGat阿伟科技/油管）_5
+      - 美国（TGat阿伟科技/油管）_6
+      - 英国（TGat阿伟科技/油管）_7
+      - 香港（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 美国（TGat阿伟科技/油管）_10
+      - 英国（TGat阿伟科技/油管）_10
       - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - YouTube阿伟科技_14
-      - 荷兰（TGat阿伟科技/油管）_15
+      - CN_油管频道全网最强白嫖_13
+      - 美国（TGat阿伟科技/油管）_14
+      - 美国（TGat阿伟科技/油管）_15
       - 美国（TGat阿伟科技/油管）_16
-      - +DE_38607+atWangCai_1+19_17
-      - 日本（TGat阿伟科技/油管）_18
-      - 英国（TGat阿伟科技/油管）_19
-      - 荷兰（TGat阿伟科技/油管）_20
-      - +DE_38607+atWangCai_1+17_21
-      - SG_22
-      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_17
+      - 美国（TGat阿伟科技/油管）_18
+      - 美国（TGat阿伟科技/油管）_19
+      - YouTube阿伟科技_20
+      - 美国（TGat阿伟科技/油管）_21
+      - 日本（TGat阿伟科技/油管）_22
+      - 美国（TGat阿伟科技/油管）_23
       - 美国（TGat阿伟科技/油管）_24
-      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
-      - Relay_🇺🇸US-🇺🇸US_2153
-      - 新加坡（TGat阿伟科技/油管）_27
-      - 日本（TGat阿伟科技/油管_28
+      - 美国（TGat阿伟科技/油管）_25
+      - 美国（TGat阿伟科技/油管）_26
+      - 日本（TGat阿伟科技/油管）_27
+      - 印度（Meteor）2_28
+      - 美国（TGat阿伟科技/油管）_29
+      - 美国（TGat阿伟科技/油管）_30
+      - 美国（TGat阿伟科技/油管）_31
+      - 美国(欢迎订阅Youtube破解资源君)_32
+      - 香港（TGat阿伟科技/油管）_33
+      - 香港（TGat阿伟科技/油管）_34
+      - 日本（TGat阿伟科技/油管）_35
+      - 日本（TGat阿伟科技/油管）_36
+      - 新加坡（TGat阿伟科技/油管）_37
+      - 台湾（TGat阿伟科技/油管）_38
+      - 美国（TGat阿伟科技/油管）_39
+      - _GB_英国_40
+      - 新加坡（TGat阿伟科技/油管）_41
+      - 新加坡（TGat阿伟科技/油管）_42
+      - _GB_英国_43
+      - _US_美国_44
+      - 美国（TGat阿伟科技/油管）_45
+      - 亚洲(欢迎订阅Youtube破解资源君)_46
+      - 美国（TGat阿伟科技/油管）_47
+      - 新加坡（TGat阿伟科技/油管）_48
+      - 荷兰（TGat阿伟科技/油管）_49
+      - 台湾（TGat阿伟科技/油管）_50
+      - 美国（TGat阿伟科技/油管）_51
+      - 澳大利亚（TGat阿伟科技/油管）_52
+      - 美国（TGat阿伟科技/油管）_53
+      - US_欢迎下载软件库app_54
+      - US_油管频道全网最强白嫖_55
+      - 英国（TGat阿伟科技/油管）_56
+      - 美国（TGat阿伟科技/油管）_57
+      - _GB_英国_58
+      - 美国（TGat阿伟科技/油管）_59
+      - 印度（TGat阿伟科技/油管）_60
+      - 香港（TGat阿伟科技/油管）_61
+      - 美国（TGat阿伟科技/油管）_62
+      - 亚洲(欢迎订阅Youtube破解资源君)_63
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港（TGat阿伟科技/油管）_1
+      - 韩国（TGat阿伟科技/油管）_1
       - 台湾（TGat阿伟科技/油管）_2
       - 新加坡（TGat阿伟科技/油管）_3
-      - 韩国（TGat阿伟科技/油管）_4
-      - 日本（TGat阿伟科技/油管）_5
-      - YouTube阿伟科技_6
-      - YouTube阿伟科技_7
-      - 美国（TGat阿伟科技/油管）_8
+      - 香港（TGat阿伟科技/油管）_4
+      - 俄罗斯（TGat阿伟科技/油管）_5
+      - 美国（TGat阿伟科技/油管）_6
+      - 英国（TGat阿伟科技/油管）_7
+      - 香港（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 美国（TGat阿伟科技/油管）_10
+      - 英国（TGat阿伟科技/油管）_10
       - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - YouTube阿伟科技_14
-      - 荷兰（TGat阿伟科技/油管）_15
+      - CN_油管频道全网最强白嫖_13
+      - 美国（TGat阿伟科技/油管）_14
+      - 美国（TGat阿伟科技/油管）_15
       - 美国（TGat阿伟科技/油管）_16
-      - +DE_38607+atWangCai_1+19_17
-      - 日本（TGat阿伟科技/油管）_18
-      - 英国（TGat阿伟科技/油管）_19
-      - 荷兰（TGat阿伟科技/油管）_20
-      - +DE_38607+atWangCai_1+17_21
-      - SG_22
-      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_17
+      - 美国（TGat阿伟科技/油管）_18
+      - 美国（TGat阿伟科技/油管）_19
+      - YouTube阿伟科技_20
+      - 美国（TGat阿伟科技/油管）_21
+      - 日本（TGat阿伟科技/油管）_22
+      - 美国（TGat阿伟科技/油管）_23
       - 美国（TGat阿伟科技/油管）_24
-      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
-      - Relay_🇺🇸US-🇺🇸US_2153
-      - 新加坡（TGat阿伟科技/油管）_27
-      - 日本（TGat阿伟科技/油管_28
+      - 美国（TGat阿伟科技/油管）_25
+      - 美国（TGat阿伟科技/油管）_26
+      - 日本（TGat阿伟科技/油管）_27
+      - 印度（Meteor）2_28
+      - 美国（TGat阿伟科技/油管）_29
+      - 美国（TGat阿伟科技/油管）_30
+      - 美国（TGat阿伟科技/油管）_31
+      - 美国(欢迎订阅Youtube破解资源君)_32
+      - 香港（TGat阿伟科技/油管）_33
+      - 香港（TGat阿伟科技/油管）_34
+      - 日本（TGat阿伟科技/油管）_35
+      - 日本（TGat阿伟科技/油管）_36
+      - 新加坡（TGat阿伟科技/油管）_37
+      - 台湾（TGat阿伟科技/油管）_38
+      - 美国（TGat阿伟科技/油管）_39
+      - _GB_英国_40
+      - 新加坡（TGat阿伟科技/油管）_41
+      - 新加坡（TGat阿伟科技/油管）_42
+      - _GB_英国_43
+      - _US_美国_44
+      - 美国（TGat阿伟科技/油管）_45
+      - 亚洲(欢迎订阅Youtube破解资源君)_46
+      - 美国（TGat阿伟科技/油管）_47
+      - 新加坡（TGat阿伟科技/油管）_48
+      - 荷兰（TGat阿伟科技/油管）_49
+      - 台湾（TGat阿伟科技/油管）_50
+      - 美国（TGat阿伟科技/油管）_51
+      - 澳大利亚（TGat阿伟科技/油管）_52
+      - 美国（TGat阿伟科技/油管）_53
+      - US_欢迎下载软件库app_54
+      - US_油管频道全网最强白嫖_55
+      - 英国（TGat阿伟科技/油管）_56
+      - 美国（TGat阿伟科技/油管）_57
+      - _GB_英国_58
+      - 美国（TGat阿伟科技/油管）_59
+      - 印度（TGat阿伟科技/油管）_60
+      - 香港（TGat阿伟科技/油管）_61
+      - 美国（TGat阿伟科技/油管）_62
+      - 亚洲(欢迎订阅Youtube破解资源君)_63
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港（TGat阿伟科技/油管）_1
+      - 韩国（TGat阿伟科技/油管）_1
       - 台湾（TGat阿伟科技/油管）_2
       - 新加坡（TGat阿伟科技/油管）_3
-      - 韩国（TGat阿伟科技/油管）_4
-      - 日本（TGat阿伟科技/油管）_5
-      - YouTube阿伟科技_6
-      - YouTube阿伟科技_7
-      - 美国（TGat阿伟科技/油管）_8
+      - 香港（TGat阿伟科技/油管）_4
+      - 俄罗斯（TGat阿伟科技/油管）_5
+      - 美国（TGat阿伟科技/油管）_6
+      - 英国（TGat阿伟科技/油管）_7
+      - 香港（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 美国（TGat阿伟科技/油管）_10
+      - 英国（TGat阿伟科技/油管）_10
       - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - YouTube阿伟科技_14
-      - 荷兰（TGat阿伟科技/油管）_15
+      - CN_油管频道全网最强白嫖_13
+      - 美国（TGat阿伟科技/油管）_14
+      - 美国（TGat阿伟科技/油管）_15
       - 美国（TGat阿伟科技/油管）_16
-      - +DE_38607+atWangCai_1+19_17
-      - 日本（TGat阿伟科技/油管）_18
-      - 英国（TGat阿伟科技/油管）_19
-      - 荷兰（TGat阿伟科技/油管）_20
-      - +DE_38607+atWangCai_1+17_21
-      - SG_22
-      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_17
+      - 美国（TGat阿伟科技/油管）_18
+      - 美国（TGat阿伟科技/油管）_19
+      - YouTube阿伟科技_20
+      - 美国（TGat阿伟科技/油管）_21
+      - 日本（TGat阿伟科技/油管）_22
+      - 美国（TGat阿伟科技/油管）_23
       - 美国（TGat阿伟科技/油管）_24
-      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
-      - Relay_🇺🇸US-🇺🇸US_2153
-      - 新加坡（TGat阿伟科技/油管）_27
-      - 日本（TGat阿伟科技/油管_28
+      - 美国（TGat阿伟科技/油管）_25
+      - 美国（TGat阿伟科技/油管）_26
+      - 日本（TGat阿伟科技/油管）_27
+      - 印度（Meteor）2_28
+      - 美国（TGat阿伟科技/油管）_29
+      - 美国（TGat阿伟科技/油管）_30
+      - 美国（TGat阿伟科技/油管）_31
+      - 美国(欢迎订阅Youtube破解资源君)_32
+      - 香港（TGat阿伟科技/油管）_33
+      - 香港（TGat阿伟科技/油管）_34
+      - 日本（TGat阿伟科技/油管）_35
+      - 日本（TGat阿伟科技/油管）_36
+      - 新加坡（TGat阿伟科技/油管）_37
+      - 台湾（TGat阿伟科技/油管）_38
+      - 美国（TGat阿伟科技/油管）_39
+      - _GB_英国_40
+      - 新加坡（TGat阿伟科技/油管）_41
+      - 新加坡（TGat阿伟科技/油管）_42
+      - _GB_英国_43
+      - _US_美国_44
+      - 美国（TGat阿伟科技/油管）_45
+      - 亚洲(欢迎订阅Youtube破解资源君)_46
+      - 美国（TGat阿伟科技/油管）_47
+      - 新加坡（TGat阿伟科技/油管）_48
+      - 荷兰（TGat阿伟科技/油管）_49
+      - 台湾（TGat阿伟科技/油管）_50
+      - 美国（TGat阿伟科技/油管）_51
+      - 澳大利亚（TGat阿伟科技/油管）_52
+      - 美国（TGat阿伟科技/油管）_53
+      - US_欢迎下载软件库app_54
+      - US_油管频道全网最强白嫖_55
+      - 英国（TGat阿伟科技/油管）_56
+      - 美国（TGat阿伟科技/油管）_57
+      - _GB_英国_58
+      - 美国（TGat阿伟科技/油管）_59
+      - 印度（TGat阿伟科技/油管）_60
+      - 香港（TGat阿伟科技/油管）_61
+      - 美国（TGat阿伟科技/油管）_62
+      - 亚洲(欢迎订阅Youtube破解资源君)_63
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港（TGat阿伟科技/油管）_1
+      - 韩国（TGat阿伟科技/油管）_1
       - 台湾（TGat阿伟科技/油管）_2
       - 新加坡（TGat阿伟科技/油管）_3
-      - 韩国（TGat阿伟科技/油管）_4
-      - 日本（TGat阿伟科技/油管）_5
-      - YouTube阿伟科技_6
-      - YouTube阿伟科技_7
-      - 美国（TGat阿伟科技/油管）_8
+      - 香港（TGat阿伟科技/油管）_4
+      - 俄罗斯（TGat阿伟科技/油管）_5
+      - 美国（TGat阿伟科技/油管）_6
+      - 英国（TGat阿伟科技/油管）_7
+      - 香港（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 美国（TGat阿伟科技/油管）_10
+      - 英国（TGat阿伟科技/油管）_10
       - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - YouTube阿伟科技_14
-      - 荷兰（TGat阿伟科技/油管）_15
+      - CN_油管频道全网最强白嫖_13
+      - 美国（TGat阿伟科技/油管）_14
+      - 美国（TGat阿伟科技/油管）_15
       - 美国（TGat阿伟科技/油管）_16
-      - +DE_38607+atWangCai_1+19_17
-      - 日本（TGat阿伟科技/油管）_18
-      - 英国（TGat阿伟科技/油管）_19
-      - 荷兰（TGat阿伟科技/油管）_20
-      - +DE_38607+atWangCai_1+17_21
-      - SG_22
-      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_17
+      - 美国（TGat阿伟科技/油管）_18
+      - 美国（TGat阿伟科技/油管）_19
+      - YouTube阿伟科技_20
+      - 美国（TGat阿伟科技/油管）_21
+      - 日本（TGat阿伟科技/油管）_22
+      - 美国（TGat阿伟科技/油管）_23
       - 美国（TGat阿伟科技/油管）_24
-      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
-      - Relay_🇺🇸US-🇺🇸US_2153
-      - 新加坡（TGat阿伟科技/油管）_27
-      - 日本（TGat阿伟科技/油管_28
+      - 美国（TGat阿伟科技/油管）_25
+      - 美国（TGat阿伟科技/油管）_26
+      - 日本（TGat阿伟科技/油管）_27
+      - 印度（Meteor）2_28
+      - 美国（TGat阿伟科技/油管）_29
+      - 美国（TGat阿伟科技/油管）_30
+      - 美国（TGat阿伟科技/油管）_31
+      - 美国(欢迎订阅Youtube破解资源君)_32
+      - 香港（TGat阿伟科技/油管）_33
+      - 香港（TGat阿伟科技/油管）_34
+      - 日本（TGat阿伟科技/油管）_35
+      - 日本（TGat阿伟科技/油管）_36
+      - 新加坡（TGat阿伟科技/油管）_37
+      - 台湾（TGat阿伟科技/油管）_38
+      - 美国（TGat阿伟科技/油管）_39
+      - _GB_英国_40
+      - 新加坡（TGat阿伟科技/油管）_41
+      - 新加坡（TGat阿伟科技/油管）_42
+      - _GB_英国_43
+      - _US_美国_44
+      - 美国（TGat阿伟科技/油管）_45
+      - 亚洲(欢迎订阅Youtube破解资源君)_46
+      - 美国（TGat阿伟科技/油管）_47
+      - 新加坡（TGat阿伟科技/油管）_48
+      - 荷兰（TGat阿伟科技/油管）_49
+      - 台湾（TGat阿伟科技/油管）_50
+      - 美国（TGat阿伟科技/油管）_51
+      - 澳大利亚（TGat阿伟科技/油管）_52
+      - 美国（TGat阿伟科技/油管）_53
+      - US_欢迎下载软件库app_54
+      - US_油管频道全网最强白嫖_55
+      - 英国（TGat阿伟科技/油管）_56
+      - 美国（TGat阿伟科技/油管）_57
+      - _GB_英国_58
+      - 美国（TGat阿伟科技/油管）_59
+      - 印度（TGat阿伟科技/油管）_60
+      - 香港（TGat阿伟科技/油管）_61
+      - 美国（TGat阿伟科技/油管）_62
+      - 亚洲(欢迎订阅Youtube破解资源君)_63
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港（TGat阿伟科技/油管）_1
+      - 韩国（TGat阿伟科技/油管）_1
       - 台湾（TGat阿伟科技/油管）_2
       - 新加坡（TGat阿伟科技/油管）_3
-      - 韩国（TGat阿伟科技/油管）_4
-      - 日本（TGat阿伟科技/油管）_5
-      - YouTube阿伟科技_6
-      - YouTube阿伟科技_7
-      - 美国（TGat阿伟科技/油管）_8
+      - 香港（TGat阿伟科技/油管）_4
+      - 俄罗斯（TGat阿伟科技/油管）_5
+      - 美国（TGat阿伟科技/油管）_6
+      - 英国（TGat阿伟科技/油管）_7
+      - 香港（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 美国（TGat阿伟科技/油管）_10
+      - 英国（TGat阿伟科技/油管）_10
       - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - YouTube阿伟科技_14
-      - 荷兰（TGat阿伟科技/油管）_15
+      - CN_油管频道全网最强白嫖_13
+      - 美国（TGat阿伟科技/油管）_14
+      - 美国（TGat阿伟科技/油管）_15
       - 美国（TGat阿伟科技/油管）_16
-      - +DE_38607+atWangCai_1+19_17
-      - 日本（TGat阿伟科技/油管）_18
-      - 英国（TGat阿伟科技/油管）_19
-      - 荷兰（TGat阿伟科技/油管）_20
-      - +DE_38607+atWangCai_1+17_21
-      - SG_22
-      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_17
+      - 美国（TGat阿伟科技/油管）_18
+      - 美国（TGat阿伟科技/油管）_19
+      - YouTube阿伟科技_20
+      - 美国（TGat阿伟科技/油管）_21
+      - 日本（TGat阿伟科技/油管）_22
+      - 美国（TGat阿伟科技/油管）_23
       - 美国（TGat阿伟科技/油管）_24
-      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
-      - Relay_🇺🇸US-🇺🇸US_2153
-      - 新加坡（TGat阿伟科技/油管）_27
-      - 日本（TGat阿伟科技/油管_28
+      - 美国（TGat阿伟科技/油管）_25
+      - 美国（TGat阿伟科技/油管）_26
+      - 日本（TGat阿伟科技/油管）_27
+      - 印度（Meteor）2_28
+      - 美国（TGat阿伟科技/油管）_29
+      - 美国（TGat阿伟科技/油管）_30
+      - 美国（TGat阿伟科技/油管）_31
+      - 美国(欢迎订阅Youtube破解资源君)_32
+      - 香港（TGat阿伟科技/油管）_33
+      - 香港（TGat阿伟科技/油管）_34
+      - 日本（TGat阿伟科技/油管）_35
+      - 日本（TGat阿伟科技/油管）_36
+      - 新加坡（TGat阿伟科技/油管）_37
+      - 台湾（TGat阿伟科技/油管）_38
+      - 美国（TGat阿伟科技/油管）_39
+      - _GB_英国_40
+      - 新加坡（TGat阿伟科技/油管）_41
+      - 新加坡（TGat阿伟科技/油管）_42
+      - _GB_英国_43
+      - _US_美国_44
+      - 美国（TGat阿伟科技/油管）_45
+      - 亚洲(欢迎订阅Youtube破解资源君)_46
+      - 美国（TGat阿伟科技/油管）_47
+      - 新加坡（TGat阿伟科技/油管）_48
+      - 荷兰（TGat阿伟科技/油管）_49
+      - 台湾（TGat阿伟科技/油管）_50
+      - 美国（TGat阿伟科技/油管）_51
+      - 澳大利亚（TGat阿伟科技/油管）_52
+      - 美国（TGat阿伟科技/油管）_53
+      - US_欢迎下载软件库app_54
+      - US_油管频道全网最强白嫖_55
+      - 英国（TGat阿伟科技/油管）_56
+      - 美国（TGat阿伟科技/油管）_57
+      - _GB_英国_58
+      - 美国（TGat阿伟科技/油管）_59
+      - 印度（TGat阿伟科技/油管）_60
+      - 香港（TGat阿伟科技/油管）_61
+      - 美国（TGat阿伟科技/油管）_62
+      - 亚洲(欢迎订阅Youtube破解资源君)_63
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港（TGat阿伟科技/油管）_1
+      - 韩国（TGat阿伟科技/油管）_1
       - 台湾（TGat阿伟科技/油管）_2
       - 新加坡（TGat阿伟科技/油管）_3
-      - 韩国（TGat阿伟科技/油管）_4
-      - 日本（TGat阿伟科技/油管）_5
-      - YouTube阿伟科技_6
-      - YouTube阿伟科技_7
-      - 美国（TGat阿伟科技/油管）_8
+      - 香港（TGat阿伟科技/油管）_4
+      - 俄罗斯（TGat阿伟科技/油管）_5
+      - 美国（TGat阿伟科技/油管）_6
+      - 英国（TGat阿伟科技/油管）_7
+      - 香港（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 美国（TGat阿伟科技/油管）_10
+      - 英国（TGat阿伟科技/油管）_10
       - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - YouTube阿伟科技_14
-      - 荷兰（TGat阿伟科技/油管）_15
+      - CN_油管频道全网最强白嫖_13
+      - 美国（TGat阿伟科技/油管）_14
+      - 美国（TGat阿伟科技/油管）_15
       - 美国（TGat阿伟科技/油管）_16
-      - +DE_38607+atWangCai_1+19_17
-      - 日本（TGat阿伟科技/油管）_18
-      - 英国（TGat阿伟科技/油管）_19
-      - 荷兰（TGat阿伟科技/油管）_20
-      - +DE_38607+atWangCai_1+17_21
-      - SG_22
-      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_17
+      - 美国（TGat阿伟科技/油管）_18
+      - 美国（TGat阿伟科技/油管）_19
+      - YouTube阿伟科技_20
+      - 美国（TGat阿伟科技/油管）_21
+      - 日本（TGat阿伟科技/油管）_22
+      - 美国（TGat阿伟科技/油管）_23
       - 美国（TGat阿伟科技/油管）_24
-      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
-      - Relay_🇺🇸US-🇺🇸US_2153
-      - 新加坡（TGat阿伟科技/油管）_27
-      - 日本（TGat阿伟科技/油管_28
+      - 美国（TGat阿伟科技/油管）_25
+      - 美国（TGat阿伟科技/油管）_26
+      - 日本（TGat阿伟科技/油管）_27
+      - 印度（Meteor）2_28
+      - 美国（TGat阿伟科技/油管）_29
+      - 美国（TGat阿伟科技/油管）_30
+      - 美国（TGat阿伟科技/油管）_31
+      - 美国(欢迎订阅Youtube破解资源君)_32
+      - 香港（TGat阿伟科技/油管）_33
+      - 香港（TGat阿伟科技/油管）_34
+      - 日本（TGat阿伟科技/油管）_35
+      - 日本（TGat阿伟科技/油管）_36
+      - 新加坡（TGat阿伟科技/油管）_37
+      - 台湾（TGat阿伟科技/油管）_38
+      - 美国（TGat阿伟科技/油管）_39
+      - _GB_英国_40
+      - 新加坡（TGat阿伟科技/油管）_41
+      - 新加坡（TGat阿伟科技/油管）_42
+      - _GB_英国_43
+      - _US_美国_44
+      - 美国（TGat阿伟科技/油管）_45
+      - 亚洲(欢迎订阅Youtube破解资源君)_46
+      - 美国（TGat阿伟科技/油管）_47
+      - 新加坡（TGat阿伟科技/油管）_48
+      - 荷兰（TGat阿伟科技/油管）_49
+      - 台湾（TGat阿伟科技/油管）_50
+      - 美国（TGat阿伟科技/油管）_51
+      - 澳大利亚（TGat阿伟科技/油管）_52
+      - 美国（TGat阿伟科技/油管）_53
+      - US_欢迎下载软件库app_54
+      - US_油管频道全网最强白嫖_55
+      - 英国（TGat阿伟科技/油管）_56
+      - 美国（TGat阿伟科技/油管）_57
+      - _GB_英国_58
+      - 美国（TGat阿伟科技/油管）_59
+      - 印度（TGat阿伟科技/油管）_60
+      - 香港（TGat阿伟科技/油管）_61
+      - 美国（TGat阿伟科技/油管）_62
+      - 亚洲(欢迎订阅Youtube破解资源君)_63
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -256,34 +501,69 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港（TGat阿伟科技/油管）_1
+      - 韩国（TGat阿伟科技/油管）_1
       - 台湾（TGat阿伟科技/油管）_2
       - 新加坡（TGat阿伟科技/油管）_3
-      - 韩国（TGat阿伟科技/油管）_4
-      - 日本（TGat阿伟科技/油管）_5
-      - YouTube阿伟科技_6
-      - YouTube阿伟科技_7
-      - 美国（TGat阿伟科技/油管）_8
+      - 香港（TGat阿伟科技/油管）_4
+      - 俄罗斯（TGat阿伟科技/油管）_5
+      - 美国（TGat阿伟科技/油管）_6
+      - 英国（TGat阿伟科技/油管）_7
+      - 香港（TGat阿伟科技/油管）_8
       - 美国（TGat阿伟科技/油管）_9
-      - 美国（TGat阿伟科技/油管）_10
+      - 英国（TGat阿伟科技/油管）_10
       - 美国（TGat阿伟科技/油管）_11
       - YouTube阿伟科技_12
-      - 美国(欢迎订阅Youtube破解资源君)_13
-      - YouTube阿伟科技_14
-      - 荷兰（TGat阿伟科技/油管）_15
+      - CN_油管频道全网最强白嫖_13
+      - 美国（TGat阿伟科技/油管）_14
+      - 美国（TGat阿伟科技/油管）_15
       - 美国（TGat阿伟科技/油管）_16
-      - +DE_38607+atWangCai_1+19_17
-      - 日本（TGat阿伟科技/油管）_18
-      - 英国（TGat阿伟科技/油管）_19
-      - 荷兰（TGat阿伟科技/油管）_20
-      - +DE_38607+atWangCai_1+17_21
-      - SG_22
-      - +DE_38607+atWangCai_1
+      - 美国（TGat阿伟科技/油管）_17
+      - 美国（TGat阿伟科技/油管）_18
+      - 美国（TGat阿伟科技/油管）_19
+      - YouTube阿伟科技_20
+      - 美国（TGat阿伟科技/油管）_21
+      - 日本（TGat阿伟科技/油管）_22
+      - 美国（TGat阿伟科技/油管）_23
       - 美国（TGat阿伟科技/油管）_24
-      - 俄罗斯(欢迎订阅Youtube破解资源君)_25
-      - Relay_🇺🇸US-🇺🇸US_2153
-      - 新加坡（TGat阿伟科技/油管）_27
-      - 日本（TGat阿伟科技/油管_28
+      - 美国（TGat阿伟科技/油管）_25
+      - 美国（TGat阿伟科技/油管）_26
+      - 日本（TGat阿伟科技/油管）_27
+      - 印度（Meteor）2_28
+      - 美国（TGat阿伟科技/油管）_29
+      - 美国（TGat阿伟科技/油管）_30
+      - 美国（TGat阿伟科技/油管）_31
+      - 美国(欢迎订阅Youtube破解资源君)_32
+      - 香港（TGat阿伟科技/油管）_33
+      - 香港（TGat阿伟科技/油管）_34
+      - 日本（TGat阿伟科技/油管）_35
+      - 日本（TGat阿伟科技/油管）_36
+      - 新加坡（TGat阿伟科技/油管）_37
+      - 台湾（TGat阿伟科技/油管）_38
+      - 美国（TGat阿伟科技/油管）_39
+      - _GB_英国_40
+      - 新加坡（TGat阿伟科技/油管）_41
+      - 新加坡（TGat阿伟科技/油管）_42
+      - _GB_英国_43
+      - _US_美国_44
+      - 美国（TGat阿伟科技/油管）_45
+      - 亚洲(欢迎订阅Youtube破解资源君)_46
+      - 美国（TGat阿伟科技/油管）_47
+      - 新加坡（TGat阿伟科技/油管）_48
+      - 荷兰（TGat阿伟科技/油管）_49
+      - 台湾（TGat阿伟科技/油管）_50
+      - 美国（TGat阿伟科技/油管）_51
+      - 澳大利亚（TGat阿伟科技/油管）_52
+      - 美国（TGat阿伟科技/油管）_53
+      - US_欢迎下载软件库app_54
+      - US_油管频道全网最强白嫖_55
+      - 英国（TGat阿伟科技/油管）_56
+      - 美国（TGat阿伟科技/油管）_57
+      - _GB_英国_58
+      - 美国（TGat阿伟科技/油管）_59
+      - 印度（TGat阿伟科技/油管）_60
+      - 香港（TGat阿伟科技/油管）_61
+      - 美国（TGat阿伟科技/油管）_62
+      - 亚洲(欢迎订阅Youtube破解资源君)_63
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
