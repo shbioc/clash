@@ -5,277 +5,194 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","ws-opts":{"path":"/upload","headers":{"host":"1.v2tk.tk"}},"server":"1.v2tk.tk","name":"8度商店：8du.shop_1","port":"443","uuid":"f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"223.166.129.29","name":"8度商店：8du.shop_2","port":"63086","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"120.240.168.118","name":"8度商店：8du.shop_3","port":"63087","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"112.64.53.217","name":"8度商店：8du.shop_4","port":"63087","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"116.129.254.65","name":"8度商店：8du.shop_5","port":"63087","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"韩国（TG@阿伟科技/油管）\r","server":"152.67.218.30","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44600","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"116.129.254.33","name":"8度商店：8du.shop_6","port":"63087","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"116.129.254.33","name":"8度商店：8du.shop_7","port":"63086","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"120.240.168.118","name":"8度商店：8du.shop_8","port":"63086","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"223.166.129.29","name":"8度商店：8du.shop_9","port":"63087","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"183.232.56.108","name":"8度商店：8du.shop_10","port":"63086","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"159.27.115.21","name":"8度商店：8du.shop_11","port":"63086","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mugua","headers":{"host":"t.me/vpnhat"}},"server":"159.27.115.21","name":"8度商店：8du.shop_12","port":"63087","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/hls","headers":{"host":"t.me/vpnhat"}},"server":"116.129.254.33","name":"8度商店：8du.shop_13","port":"63051","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/hls","headers":{"host":"t.me/vpnhat"}},"server":"116.129.254.65","name":"8度商店：8du.shop_14","port":"63051","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"183.232.56.108"}},"server":"183.232.56.108","name":"8度商店：8du.shop_15","port":"63004","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"120.240.168.118"}},"server":"120.240.168.118","name":"8度商店：8du.shop_16","port":"63004","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"112.64.53.217"}},"server":"112.64.53.217","name":"8度商店：8du.shop_17","port":"63078","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"120.240.168.118"}},"server":"120.240.168.118","name":"8度商店：8du.shop_18","port":"63078","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/tls","headers":{"host":"tls2.xxac.cc"}},"server":"tls2.xxac.cc","name":"（TG@阿伟科技/油管）","port":"443","uuid":"d4955e7f-ad04-4d80-b469-a7c77f1ad5bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/hls","headers":{"host":"t.me/vpnhat"}},"server":"159.27.115.21","name":"8度商店：8du.shop_19","port":"63051","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"159.27.115.21"}},"server":"159.27.115.21","name":"8度商店：8du.shop_20","port":"63078","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"116.129.254.33"}},"server":"116.129.254.33","name":"8度商店：8du.shop_21","port":"63078","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"116.129.254.65"}},"server":"116.129.254.65","name":"8度商店：8du.shop_22","port":"63078","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"183.232.56.108"}},"server":"183.232.56.108","name":"8度商店：8du.shop_23","port":"63078","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"t.me/vpnhat"}},"server":"112.64.53.217","name":"8度商店：8du.shop_24","port":"63014","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"t.me/vpnhat"}},"server":"116.129.254.65","name":"8度商店：8du.shop_25","port":"63014","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/","headers":{"host":"159.27.115.21"}},"server":"159.27.115.21","name":"8度商店：8du.shop_26","port":"63069","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"158.247.224.121","port":2376,"name":"美国(欢迎订阅Youtube破解资源君)\r_1"}
-  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"/t.me/mengge88888888"}},"server":"fr-direct-cdn.node001.xyz","name":"美国（TG@阿伟科技/油管）","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/ssrsub","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","name":"欧洲(欢迎订阅Youtube破解资源君)","port":"8443","uuid":"b7c70df3-f92f-4800-a8e1-67e6dc833256","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"巴西（TG@阿伟科技/油管）\r","server":"fr.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44612","udp":true,"skip-cert-verify":true,"sni":"fr.node.qchwnd.moe"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"172.99.190.35","port":6697,"name":"美国(欢迎订阅Youtube破解资源君)\r_2"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5600,"name":"8度商店：8du.shop\r"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"72b8aca3-ddcc-4c84-980a-98e853b3b10c","server":"139.219.9.138","port":19811,"name":"香港（TG@阿伟科技/油管）\r"}
+  - {"type":"vmess","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}},"server":"v2-1.godlight.xyz","name":"日本（TG@阿伟科技/油管）_1","port":"12240","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"379a0a11-3468-4eb5-b0d3-490e06459d9a","server":"cn1.relay.iepl.pw","port":50400,"name":"韩国（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsgz1.ggbbba.xyz","port":45786,"name":"韩国（TG@阿伟科技/油管）\r_2"}
+  - {"type":"trojan","name":"s3.upyun.online:12340\r","server":"s3.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":"12340","udp":true,"skip-cert-verify":true,"sni":"s3.upyun.online"}
+  - {"type":"vmess","ws-opts":{"path":"/chcar","headers":{"host":"v2fly.samrt.website"}},"server":"104.19.3.16","name":"YT
+    (ios小火箭软件|ioskaka.com)","port":"443","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsjs1.ggbbba.xyz","port":45780,"name":"加拿大（TG@阿伟科技/油管）\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"gDQ8kr1HdHEK5DGU","server":"mplsgz1.ggbbba.xyz","port":45787,"name":"美国（TG@阿伟科技/油管）\r_1"}
+  - {"type":"vmess","server":"c69s5.jamjams.net","name":"荷兰（TG@阿伟科技/油管）","port":"8288","uuid":"614ee3a3-90ad-4239-8eb0-1661daba6c2a","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"hncu.relay.qchwnd.moe:44611\r","server":"hncu.relay.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44611","udp":true,"skip-cert-verify":true,"sni":"hncu.relay.qchwnd.moe"}
+  - {"type":"trojan","name":"tw.node.qchwnd.moe:44608\r","server":"tw.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44608","udp":true,"skip-cert-verify":true,"sni":"tw.node.qchwnd.moe"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"379a0a11-3468-4eb5-b0d3-490e06459d9a","server":"cn1.relay.iepl.pw","port":50700,"name":"俄罗斯（TG@阿伟科技/油管）\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"169.197.141.109","port":8888,"name":"美国（TG@阿伟科技/油管）\r_2"}
+  - {"type":"trojan","name":"美国（TG@阿伟科技/油管）\r_3","server":"ocikr.node.qchwnd.moe","password":"cfaa1d87-16c9-45f2-8ca1-833badb6b790","port":"44600","udp":true,"skip-cert-verify":true,"sni":"ocikr.node.qchwnd.moe"}
+  - {"type":"trojan","name":"s2.upyun.online:12340\r","server":"s2.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":"12340","udp":true,"skip-cert-verify":true,"sni":"s2.upyun.online"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"169.197.141.109","port":5001,"name":"美国（TG@阿伟科技/油管）\r_4"}
+  - {"type":"trojan","name":"jgwdb2.gaox.ml:443\r","server":"jgwdb2.gaox.ml","password":"c19d1432-8b3e-4818-8837-3d160cf65908","port":"443","udp":true,"skip-cert-verify":true,"sni":"jgwdb2.gaox.ml"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":8888,"name":"英国（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"172.99.190.35","port":5600,"name":"英国（TG@阿伟科技/油管）\r_2"}
+  - {"type":"trojan","name":"hkbn.okvpn.xyz:12000\r","server":"hkbn.okvpn.xyz","password":"0ce2ee7d-4889-4c64-8a75-4a86e6bbb1c4","port":"12000","udp":true,"skip-cert-verify":true,"sni":"hkbn.okvpn.xyz"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"379a0a11-3468-4eb5-b0d3-490e06459d9a","server":"cn1.relay.iepl.pw","port":50200,"name":"台湾（TG@阿伟科技/油管）\r"}
+  - {"type":"vmess","ws-opts":{"path":"/dajdklw231f","headers":{"host":"v2.godlight.xyz"}},"server":"v2.godlight.xyz","name":"日本（TG@阿伟科技/油管）_2","port":"26940","uuid":"1a059eff-ad8a-42ad-921c-465c5b31f183","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 8度商店：8du.shop_1
-      - 8度商店：8du.shop_2
-      - 8度商店：8du.shop_3
-      - 8度商店：8du.shop_4
-      - 8度商店：8du.shop_5
-      - "韩国（TG@阿伟科技/油管）\r"
-      - 8度商店：8du.shop_6
-      - 8度商店：8du.shop_7
-      - 8度商店：8du.shop_8
-      - 8度商店：8du.shop_9
-      - 8度商店：8du.shop_10
-      - 8度商店：8du.shop_11
-      - 8度商店：8du.shop_12
-      - 8度商店：8du.shop_13
-      - 8度商店：8du.shop_14
-      - 8度商店：8du.shop_15
-      - 8度商店：8du.shop_16
-      - 8度商店：8du.shop_17
-      - 8度商店：8du.shop_18
-      - （TG@阿伟科技/油管）
-      - 8度商店：8du.shop_19
-      - 8度商店：8du.shop_20
-      - 8度商店：8du.shop_21
-      - 8度商店：8du.shop_22
-      - 8度商店：8du.shop_23
-      - 8度商店：8du.shop_24
-      - 8度商店：8du.shop_25
-      - 8度商店：8du.shop_26
-      - "美国(欢迎订阅Youtube破解资源君)\r_1"
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "巴西（TG@阿伟科技/油管）\r"
-      - "美国(欢迎订阅Youtube破解资源君)\r_2"
-      - "8度商店：8du.shop\r"
+      - "香港（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_1
+      - "韩国（TG@阿伟科技/油管）\r_1"
+      - "韩国（TG@阿伟科技/油管）\r_2"
+      - "s3.upyun.online:12340\r"
+      - YT (ios小火箭软件|ioskaka.com)
+      - "加拿大（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_1"
+      - 荷兰（TG@阿伟科技/油管）
+      - "hncu.relay.qchwnd.moe:44611\r"
+      - "tw.node.qchwnd.moe:44608\r"
+      - "俄罗斯（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_2"
+      - "美国（TG@阿伟科技/油管）\r_3"
+      - "s2.upyun.online:12340\r"
+      - "美国（TG@阿伟科技/油管）\r_4"
+      - "jgwdb2.gaox.ml:443\r"
+      - "英国（TG@阿伟科技/油管）\r_1"
+      - "英国（TG@阿伟科技/油管）\r_2"
+      - "hkbn.okvpn.xyz:12000\r"
+      - "台湾（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 8度商店：8du.shop_1
-      - 8度商店：8du.shop_2
-      - 8度商店：8du.shop_3
-      - 8度商店：8du.shop_4
-      - 8度商店：8du.shop_5
-      - "韩国（TG@阿伟科技/油管）\r"
-      - 8度商店：8du.shop_6
-      - 8度商店：8du.shop_7
-      - 8度商店：8du.shop_8
-      - 8度商店：8du.shop_9
-      - 8度商店：8du.shop_10
-      - 8度商店：8du.shop_11
-      - 8度商店：8du.shop_12
-      - 8度商店：8du.shop_13
-      - 8度商店：8du.shop_14
-      - 8度商店：8du.shop_15
-      - 8度商店：8du.shop_16
-      - 8度商店：8du.shop_17
-      - 8度商店：8du.shop_18
-      - （TG@阿伟科技/油管）
-      - 8度商店：8du.shop_19
-      - 8度商店：8du.shop_20
-      - 8度商店：8du.shop_21
-      - 8度商店：8du.shop_22
-      - 8度商店：8du.shop_23
-      - 8度商店：8du.shop_24
-      - 8度商店：8du.shop_25
-      - 8度商店：8du.shop_26
-      - "美国(欢迎订阅Youtube破解资源君)\r_1"
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "巴西（TG@阿伟科技/油管）\r"
-      - "美国(欢迎订阅Youtube破解资源君)\r_2"
-      - "8度商店：8du.shop\r"
+      - "香港（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_1
+      - "韩国（TG@阿伟科技/油管）\r_1"
+      - "韩国（TG@阿伟科技/油管）\r_2"
+      - "s3.upyun.online:12340\r"
+      - YT (ios小火箭软件|ioskaka.com)
+      - "加拿大（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_1"
+      - 荷兰（TG@阿伟科技/油管）
+      - "hncu.relay.qchwnd.moe:44611\r"
+      - "tw.node.qchwnd.moe:44608\r"
+      - "俄罗斯（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_2"
+      - "美国（TG@阿伟科技/油管）\r_3"
+      - "s2.upyun.online:12340\r"
+      - "美国（TG@阿伟科技/油管）\r_4"
+      - "jgwdb2.gaox.ml:443\r"
+      - "英国（TG@阿伟科技/油管）\r_1"
+      - "英国（TG@阿伟科技/油管）\r_2"
+      - "hkbn.okvpn.xyz:12000\r"
+      - "台湾（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 8度商店：8du.shop_1
-      - 8度商店：8du.shop_2
-      - 8度商店：8du.shop_3
-      - 8度商店：8du.shop_4
-      - 8度商店：8du.shop_5
-      - "韩国（TG@阿伟科技/油管）\r"
-      - 8度商店：8du.shop_6
-      - 8度商店：8du.shop_7
-      - 8度商店：8du.shop_8
-      - 8度商店：8du.shop_9
-      - 8度商店：8du.shop_10
-      - 8度商店：8du.shop_11
-      - 8度商店：8du.shop_12
-      - 8度商店：8du.shop_13
-      - 8度商店：8du.shop_14
-      - 8度商店：8du.shop_15
-      - 8度商店：8du.shop_16
-      - 8度商店：8du.shop_17
-      - 8度商店：8du.shop_18
-      - （TG@阿伟科技/油管）
-      - 8度商店：8du.shop_19
-      - 8度商店：8du.shop_20
-      - 8度商店：8du.shop_21
-      - 8度商店：8du.shop_22
-      - 8度商店：8du.shop_23
-      - 8度商店：8du.shop_24
-      - 8度商店：8du.shop_25
-      - 8度商店：8du.shop_26
-      - "美国(欢迎订阅Youtube破解资源君)\r_1"
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "巴西（TG@阿伟科技/油管）\r"
-      - "美国(欢迎订阅Youtube破解资源君)\r_2"
-      - "8度商店：8du.shop\r"
+      - "香港（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_1
+      - "韩国（TG@阿伟科技/油管）\r_1"
+      - "韩国（TG@阿伟科技/油管）\r_2"
+      - "s3.upyun.online:12340\r"
+      - YT (ios小火箭软件|ioskaka.com)
+      - "加拿大（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_1"
+      - 荷兰（TG@阿伟科技/油管）
+      - "hncu.relay.qchwnd.moe:44611\r"
+      - "tw.node.qchwnd.moe:44608\r"
+      - "俄罗斯（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_2"
+      - "美国（TG@阿伟科技/油管）\r_3"
+      - "s2.upyun.online:12340\r"
+      - "美国（TG@阿伟科技/油管）\r_4"
+      - "jgwdb2.gaox.ml:443\r"
+      - "英国（TG@阿伟科技/油管）\r_1"
+      - "英国（TG@阿伟科技/油管）\r_2"
+      - "hkbn.okvpn.xyz:12000\r"
+      - "台湾（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 8度商店：8du.shop_1
-      - 8度商店：8du.shop_2
-      - 8度商店：8du.shop_3
-      - 8度商店：8du.shop_4
-      - 8度商店：8du.shop_5
-      - "韩国（TG@阿伟科技/油管）\r"
-      - 8度商店：8du.shop_6
-      - 8度商店：8du.shop_7
-      - 8度商店：8du.shop_8
-      - 8度商店：8du.shop_9
-      - 8度商店：8du.shop_10
-      - 8度商店：8du.shop_11
-      - 8度商店：8du.shop_12
-      - 8度商店：8du.shop_13
-      - 8度商店：8du.shop_14
-      - 8度商店：8du.shop_15
-      - 8度商店：8du.shop_16
-      - 8度商店：8du.shop_17
-      - 8度商店：8du.shop_18
-      - （TG@阿伟科技/油管）
-      - 8度商店：8du.shop_19
-      - 8度商店：8du.shop_20
-      - 8度商店：8du.shop_21
-      - 8度商店：8du.shop_22
-      - 8度商店：8du.shop_23
-      - 8度商店：8du.shop_24
-      - 8度商店：8du.shop_25
-      - 8度商店：8du.shop_26
-      - "美国(欢迎订阅Youtube破解资源君)\r_1"
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "巴西（TG@阿伟科技/油管）\r"
-      - "美国(欢迎订阅Youtube破解资源君)\r_2"
-      - "8度商店：8du.shop\r"
+      - "香港（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_1
+      - "韩国（TG@阿伟科技/油管）\r_1"
+      - "韩国（TG@阿伟科技/油管）\r_2"
+      - "s3.upyun.online:12340\r"
+      - YT (ios小火箭软件|ioskaka.com)
+      - "加拿大（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_1"
+      - 荷兰（TG@阿伟科技/油管）
+      - "hncu.relay.qchwnd.moe:44611\r"
+      - "tw.node.qchwnd.moe:44608\r"
+      - "俄罗斯（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_2"
+      - "美国（TG@阿伟科技/油管）\r_3"
+      - "s2.upyun.online:12340\r"
+      - "美国（TG@阿伟科技/油管）\r_4"
+      - "jgwdb2.gaox.ml:443\r"
+      - "英国（TG@阿伟科技/油管）\r_1"
+      - "英国（TG@阿伟科技/油管）\r_2"
+      - "hkbn.okvpn.xyz:12000\r"
+      - "台湾（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 8度商店：8du.shop_1
-      - 8度商店：8du.shop_2
-      - 8度商店：8du.shop_3
-      - 8度商店：8du.shop_4
-      - 8度商店：8du.shop_5
-      - "韩国（TG@阿伟科技/油管）\r"
-      - 8度商店：8du.shop_6
-      - 8度商店：8du.shop_7
-      - 8度商店：8du.shop_8
-      - 8度商店：8du.shop_9
-      - 8度商店：8du.shop_10
-      - 8度商店：8du.shop_11
-      - 8度商店：8du.shop_12
-      - 8度商店：8du.shop_13
-      - 8度商店：8du.shop_14
-      - 8度商店：8du.shop_15
-      - 8度商店：8du.shop_16
-      - 8度商店：8du.shop_17
-      - 8度商店：8du.shop_18
-      - （TG@阿伟科技/油管）
-      - 8度商店：8du.shop_19
-      - 8度商店：8du.shop_20
-      - 8度商店：8du.shop_21
-      - 8度商店：8du.shop_22
-      - 8度商店：8du.shop_23
-      - 8度商店：8du.shop_24
-      - 8度商店：8du.shop_25
-      - 8度商店：8du.shop_26
-      - "美国(欢迎订阅Youtube破解资源君)\r_1"
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "巴西（TG@阿伟科技/油管）\r"
-      - "美国(欢迎订阅Youtube破解资源君)\r_2"
-      - "8度商店：8du.shop\r"
+      - "香港（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_1
+      - "韩国（TG@阿伟科技/油管）\r_1"
+      - "韩国（TG@阿伟科技/油管）\r_2"
+      - "s3.upyun.online:12340\r"
+      - YT (ios小火箭软件|ioskaka.com)
+      - "加拿大（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_1"
+      - 荷兰（TG@阿伟科技/油管）
+      - "hncu.relay.qchwnd.moe:44611\r"
+      - "tw.node.qchwnd.moe:44608\r"
+      - "俄罗斯（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_2"
+      - "美国（TG@阿伟科技/油管）\r_3"
+      - "s2.upyun.online:12340\r"
+      - "美国（TG@阿伟科技/油管）\r_4"
+      - "jgwdb2.gaox.ml:443\r"
+      - "英国（TG@阿伟科技/油管）\r_1"
+      - "英国（TG@阿伟科技/油管）\r_2"
+      - "hkbn.okvpn.xyz:12000\r"
+      - "台湾（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 8度商店：8du.shop_1
-      - 8度商店：8du.shop_2
-      - 8度商店：8du.shop_3
-      - 8度商店：8du.shop_4
-      - 8度商店：8du.shop_5
-      - "韩国（TG@阿伟科技/油管）\r"
-      - 8度商店：8du.shop_6
-      - 8度商店：8du.shop_7
-      - 8度商店：8du.shop_8
-      - 8度商店：8du.shop_9
-      - 8度商店：8du.shop_10
-      - 8度商店：8du.shop_11
-      - 8度商店：8du.shop_12
-      - 8度商店：8du.shop_13
-      - 8度商店：8du.shop_14
-      - 8度商店：8du.shop_15
-      - 8度商店：8du.shop_16
-      - 8度商店：8du.shop_17
-      - 8度商店：8du.shop_18
-      - （TG@阿伟科技/油管）
-      - 8度商店：8du.shop_19
-      - 8度商店：8du.shop_20
-      - 8度商店：8du.shop_21
-      - 8度商店：8du.shop_22
-      - 8度商店：8du.shop_23
-      - 8度商店：8du.shop_24
-      - 8度商店：8du.shop_25
-      - 8度商店：8du.shop_26
-      - "美国(欢迎订阅Youtube破解资源君)\r_1"
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "巴西（TG@阿伟科技/油管）\r"
-      - "美国(欢迎订阅Youtube破解资源君)\r_2"
-      - "8度商店：8du.shop\r"
+      - "香港（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_1
+      - "韩国（TG@阿伟科技/油管）\r_1"
+      - "韩国（TG@阿伟科技/油管）\r_2"
+      - "s3.upyun.online:12340\r"
+      - YT (ios小火箭软件|ioskaka.com)
+      - "加拿大（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_1"
+      - 荷兰（TG@阿伟科技/油管）
+      - "hncu.relay.qchwnd.moe:44611\r"
+      - "tw.node.qchwnd.moe:44608\r"
+      - "俄罗斯（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_2"
+      - "美国（TG@阿伟科技/油管）\r_3"
+      - "s2.upyun.online:12340\r"
+      - "美国（TG@阿伟科技/油管）\r_4"
+      - "jgwdb2.gaox.ml:443\r"
+      - "英国（TG@阿伟科技/油管）\r_1"
+      - "英国（TG@阿伟科技/油管）\r_2"
+      - "hkbn.okvpn.xyz:12000\r"
+      - "台湾（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -298,40 +215,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 8度商店：8du.shop_1
-      - 8度商店：8du.shop_2
-      - 8度商店：8du.shop_3
-      - 8度商店：8du.shop_4
-      - 8度商店：8du.shop_5
-      - "韩国（TG@阿伟科技/油管）\r"
-      - 8度商店：8du.shop_6
-      - 8度商店：8du.shop_7
-      - 8度商店：8du.shop_8
-      - 8度商店：8du.shop_9
-      - 8度商店：8du.shop_10
-      - 8度商店：8du.shop_11
-      - 8度商店：8du.shop_12
-      - 8度商店：8du.shop_13
-      - 8度商店：8du.shop_14
-      - 8度商店：8du.shop_15
-      - 8度商店：8du.shop_16
-      - 8度商店：8du.shop_17
-      - 8度商店：8du.shop_18
-      - （TG@阿伟科技/油管）
-      - 8度商店：8du.shop_19
-      - 8度商店：8du.shop_20
-      - 8度商店：8du.shop_21
-      - 8度商店：8du.shop_22
-      - 8度商店：8du.shop_23
-      - 8度商店：8du.shop_24
-      - 8度商店：8du.shop_25
-      - 8度商店：8du.shop_26
-      - "美国(欢迎订阅Youtube破解资源君)\r_1"
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "巴西（TG@阿伟科技/油管）\r"
-      - "美国(欢迎订阅Youtube破解资源君)\r_2"
-      - "8度商店：8du.shop\r"
+      - "香港（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_1
+      - "韩国（TG@阿伟科技/油管）\r_1"
+      - "韩国（TG@阿伟科技/油管）\r_2"
+      - "s3.upyun.online:12340\r"
+      - YT (ios小火箭软件|ioskaka.com)
+      - "加拿大（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_1"
+      - 荷兰（TG@阿伟科技/油管）
+      - "hncu.relay.qchwnd.moe:44611\r"
+      - "tw.node.qchwnd.moe:44608\r"
+      - "俄罗斯（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r_2"
+      - "美国（TG@阿伟科技/油管）\r_3"
+      - "s2.upyun.online:12340\r"
+      - "美国（TG@阿伟科技/油管）\r_4"
+      - "jgwdb2.gaox.ml:443\r"
+      - "英国（TG@阿伟科技/油管）\r_1"
+      - "英国（TG@阿伟科技/油管）\r_2"
+      - "hkbn.okvpn.xyz:12000\r"
+      - "台湾（TG@阿伟科技/油管）\r"
+      - 日本（TG@阿伟科技/油管）_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
