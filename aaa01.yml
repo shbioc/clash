@@ -5,207 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"亚洲(欢迎订阅Youtube破解资源君)\r_1","server":"ygzyd.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35001","udp":true,"skip-cert-verify":true,"sni":"ygzyd.sub-nthu.com"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm08.bdate.xyz","name":"香港（TG@阿伟科技/油管）_1","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"香港（TG@阿伟科技/油管）\r","server":"hkbn.okvpn.xyz","password":"508c98e6-aa9b-4afc-b97a-3151fe5860dd","port":"12000","udp":true,"skip-cert-verify":true,"sni":"hkbn.okvpn.xyz"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm08.bdate.xyz","name":"香港（TG@阿伟科技/油管）_2","port":"2570","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","server":"20.89.98.239","name":"日本（TG@阿伟科技/油管）","port":"80","uuid":"ff02bc2f-dcc5-4be1-f7ed-886345c89ab2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","ws-opts":{"path":"/54f634fs","headers":{"host":"v2-2.godlight.xyz"}},"server":"v2-2.godlight.xyz","name":"YouTube梦歌|Netflix_41","port":"30541","uuid":"43308d27-94ec-408e-a8f6-d682cfb99ca9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","server":"172.104.35.84","name":"新加坡(欢迎订阅Youtube破解资源君)","port":"2771","uuid":"f06560c3-e6e8-4ed5-fb6c-67068dfa9c78","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","ws-opts":{"path":"/f45361465j175","headers":{"host":"v2-3.godlight.xyz"}},"server":"v2-3.godlight.xyz","name":"YouTube梦歌|Netflix_39","port":"39241","uuid":"6a52f259-4367-468c-a828-7b8283c2f059","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}},"server":"v2-1.godlight.xyz","name":"YouTube梦歌|Netflix_22","port":"12241","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"Relay_🇦🇺AU-🇦🇺AU_31\r","server":"jgwdb1.gaox.ml","password":"a580d839-ee41-4df1-bf03-6789dca32e30","port":"443","udp":true,"skip-cert-verify":true,"sni":"jgwdb1.gaox.ml"}
-  - {"type":"vmess","ws-opts":{"path":"/free","headers":{"host":"jp.sayuri.cf"}},"server":"43.154.5.144","name":"YouTube梦歌|Netflix_63","port":"443","uuid":"1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"亚洲(欢迎订阅Youtube破解资源君)\r_2","server":"hnlt.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35001","udp":true,"skip-cert-verify":true,"sni":"hnlt.sub-nthu.com"}
-  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"/t.me/mengge88888888"}},"server":"kr-direct-cdn.node001.xyz","name":"_商店：8du.shop","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"fr-direct-cdn.node001.xyz"}},"server":"fr-direct-cdn.node001.xyz","name":"YouTube梦歌|Netflix_78","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/E94olUFf/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"v2ray.wefuckgfw.ga","name":"美国（TG@阿伟科技/油管）","port":"8443","uuid":"f4a1167a-ca89-11ec-9385-52ac00ea1411","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"kr-direct-cdn.node001.xyz"}},"server":"kr-direct-cdn.node001.xyz","name":"YouTube梦歌|Netflix_77","port":"2086","uuid":"49a0585b-6abe-3e62-ae2e-aacf364d88c0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"欧洲(欢迎订阅Youtube破解资源君)\r","server":"shlt.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35002","udp":true,"skip-cert-verify":true,"sni":"shlt.sub-nthu.com"}
-  - {"type":"trojan","name":"亚洲(欢迎订阅Youtube破解资源君)\r_3","server":"ygzyd.sub-nthu.com","password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","port":"35002","udp":true,"skip-cert-verify":true,"sni":"ygzyd.sub-nthu.com"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm04.bdate.xyz","name":"香港（TG@阿伟科技/油管）_3","port":"1020","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/mengge88888888"}},"server":"zzcm08.bdate.xyz","name":"YouTube梦歌|Netflix_3","port":"2570","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm08.bdate.xyz"}},"server":"zzcm08.bdate.xyz","name":"YouTube梦歌|Netflix_99","port":"2840","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/mengge88888888"}},"server":"zzcm04.bdate.xyz","name":"YouTube梦歌|Netflix_2","port":"1020","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me/mengge88888888"}},"server":"zzcm08.bdate.xyz","name":"YouTube梦歌|Netflix_101","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","server":"20.89.98.239","name":"YouTube梦歌|Netflix_53","port":"80","uuid":"ff02bc2f-dcc5-4be1-f7ed-886345c89ab2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","server":"20.89.98.239","name":"日本（TG@阿伟科技/油管）","port":"80","uuid":"ff02bc2f-dcc5-4be1-f7ed-886345c89ab2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44822,"name":"香港（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50300,"name":"日本（TG@阿伟科技/油管）\r_1"}
+  - {"type":"trojan","name":"日本（TG@阿伟科技/油管）\r_2","server":"s1.upyun.online","password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","port":"12340","udp":true,"skip-cert-verify":true,"sni":"s1.upyun.online"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44821,"name":"香港（TG@阿伟科技/油管）\r_2"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44818,"name":"匈牙利（TG@阿伟科技/油管）\r"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50600,"name":"美国（TG@阿伟科技/油管）\r"}
+  - {"type":"vmess","ws-opts":{"path":"/5Ci3h6YB/","headers":{"host":"45.76.173.250"}},"server":"45.76.173.250","name":"美国（TG@阿伟科技/油管）","port":"65340","uuid":"b620d78a-d3a7-496f-af32-565185473eb8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"/t.me/mengge88888888"}},"server":"fr-direct-cdn.node001.xyz","name":"法国（TG@阿伟科技/油管）_1","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"fr-direct-cdn.node001.xyz"}},"server":"fr-direct-cdn.node001.xyz","name":"法国（TG@阿伟科技/油管）_2","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50500,"name":"新加坡（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44812,"name":"香港（TG@阿伟科技/油管）\r_3"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"40825843-2e84-4433-a4c0-829948eb620b","server":"cn1.relay.iepl.pw","port":50200,"name":"台湾（TG@阿伟科技/油管）\r_1"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44817,"name":"新加坡（TG@阿伟科技/油管）\r_2"}
+  - {"type":"ss","cipher":"aes-128-gcm","password":"fcae85b5-baf0-4c5a-ba80-5f513e70512a","server":"183.240.124.200","port":44811,"name":"台湾（TG@阿伟科技/油管）\r_2"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_1"
-      - 香港（TG@阿伟科技/油管）_1
-      - "香港（TG@阿伟科技/油管）\r"
-      - 香港（TG@阿伟科技/油管）_2
-      - 日本（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_41
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - YouTube梦歌|Netflix_39
-      - YouTube梦歌|Netflix_22
-      - "Relay_🇦🇺AU-🇦🇺AU_31\r"
-      - YouTube梦歌|Netflix_63
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_2"
-      - _商店：8du.shop
-      - YouTube梦歌|Netflix_78
-      - 美国（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_77
-      - "欧洲(欢迎订阅Youtube破解资源君)\r"
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_3"
-      - 香港（TG@阿伟科技/油管）_3
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_99
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_101
       - YouTube梦歌|Netflix_53
+      - 日本（TG@阿伟科技/油管）
+      - "香港（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_2"
+      - "香港（TG@阿伟科技/油管）\r_2"
+      - "匈牙利（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r"
+      - 美国（TG@阿伟科技/油管）
+      - 法国（TG@阿伟科技/油管）_1
+      - 法国（TG@阿伟科技/油管）_2
+      - "新加坡（TG@阿伟科技/油管）\r_1"
+      - "香港（TG@阿伟科技/油管）\r_3"
+      - "台湾（TG@阿伟科技/油管）\r_1"
+      - "新加坡（TG@阿伟科技/油管）\r_2"
+      - "台湾（TG@阿伟科技/油管）\r_2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_1"
-      - 香港（TG@阿伟科技/油管）_1
-      - "香港（TG@阿伟科技/油管）\r"
-      - 香港（TG@阿伟科技/油管）_2
-      - 日本（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_41
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - YouTube梦歌|Netflix_39
-      - YouTube梦歌|Netflix_22
-      - "Relay_🇦🇺AU-🇦🇺AU_31\r"
-      - YouTube梦歌|Netflix_63
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_2"
-      - _商店：8du.shop
-      - YouTube梦歌|Netflix_78
-      - 美国（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_77
-      - "欧洲(欢迎订阅Youtube破解资源君)\r"
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_3"
-      - 香港（TG@阿伟科技/油管）_3
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_99
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_101
       - YouTube梦歌|Netflix_53
+      - 日本（TG@阿伟科技/油管）
+      - "香港（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_2"
+      - "香港（TG@阿伟科技/油管）\r_2"
+      - "匈牙利（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r"
+      - 美国（TG@阿伟科技/油管）
+      - 法国（TG@阿伟科技/油管）_1
+      - 法国（TG@阿伟科技/油管）_2
+      - "新加坡（TG@阿伟科技/油管）\r_1"
+      - "香港（TG@阿伟科技/油管）\r_3"
+      - "台湾（TG@阿伟科技/油管）\r_1"
+      - "新加坡（TG@阿伟科技/油管）\r_2"
+      - "台湾（TG@阿伟科技/油管）\r_2"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_1"
-      - 香港（TG@阿伟科技/油管）_1
-      - "香港（TG@阿伟科技/油管）\r"
-      - 香港（TG@阿伟科技/油管）_2
-      - 日本（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_41
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - YouTube梦歌|Netflix_39
-      - YouTube梦歌|Netflix_22
-      - "Relay_🇦🇺AU-🇦🇺AU_31\r"
-      - YouTube梦歌|Netflix_63
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_2"
-      - _商店：8du.shop
-      - YouTube梦歌|Netflix_78
-      - 美国（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_77
-      - "欧洲(欢迎订阅Youtube破解资源君)\r"
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_3"
-      - 香港（TG@阿伟科技/油管）_3
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_99
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_101
       - YouTube梦歌|Netflix_53
+      - 日本（TG@阿伟科技/油管）
+      - "香港（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_2"
+      - "香港（TG@阿伟科技/油管）\r_2"
+      - "匈牙利（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r"
+      - 美国（TG@阿伟科技/油管）
+      - 法国（TG@阿伟科技/油管）_1
+      - 法国（TG@阿伟科技/油管）_2
+      - "新加坡（TG@阿伟科技/油管）\r_1"
+      - "香港（TG@阿伟科技/油管）\r_3"
+      - "台湾（TG@阿伟科技/油管）\r_1"
+      - "新加坡（TG@阿伟科技/油管）\r_2"
+      - "台湾（TG@阿伟科技/油管）\r_2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_1"
-      - 香港（TG@阿伟科技/油管）_1
-      - "香港（TG@阿伟科技/油管）\r"
-      - 香港（TG@阿伟科技/油管）_2
-      - 日本（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_41
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - YouTube梦歌|Netflix_39
-      - YouTube梦歌|Netflix_22
-      - "Relay_🇦🇺AU-🇦🇺AU_31\r"
-      - YouTube梦歌|Netflix_63
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_2"
-      - _商店：8du.shop
-      - YouTube梦歌|Netflix_78
-      - 美国（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_77
-      - "欧洲(欢迎订阅Youtube破解资源君)\r"
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_3"
-      - 香港（TG@阿伟科技/油管）_3
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_99
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_101
       - YouTube梦歌|Netflix_53
+      - 日本（TG@阿伟科技/油管）
+      - "香港（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_2"
+      - "香港（TG@阿伟科技/油管）\r_2"
+      - "匈牙利（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r"
+      - 美国（TG@阿伟科技/油管）
+      - 法国（TG@阿伟科技/油管）_1
+      - 法国（TG@阿伟科技/油管）_2
+      - "新加坡（TG@阿伟科技/油管）\r_1"
+      - "香港（TG@阿伟科技/油管）\r_3"
+      - "台湾（TG@阿伟科技/油管）\r_1"
+      - "新加坡（TG@阿伟科技/油管）\r_2"
+      - "台湾（TG@阿伟科技/油管）\r_2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_1"
-      - 香港（TG@阿伟科技/油管）_1
-      - "香港（TG@阿伟科技/油管）\r"
-      - 香港（TG@阿伟科技/油管）_2
-      - 日本（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_41
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - YouTube梦歌|Netflix_39
-      - YouTube梦歌|Netflix_22
-      - "Relay_🇦🇺AU-🇦🇺AU_31\r"
-      - YouTube梦歌|Netflix_63
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_2"
-      - _商店：8du.shop
-      - YouTube梦歌|Netflix_78
-      - 美国（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_77
-      - "欧洲(欢迎订阅Youtube破解资源君)\r"
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_3"
-      - 香港（TG@阿伟科技/油管）_3
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_99
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_101
       - YouTube梦歌|Netflix_53
+      - 日本（TG@阿伟科技/油管）
+      - "香港（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_2"
+      - "香港（TG@阿伟科技/油管）\r_2"
+      - "匈牙利（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r"
+      - 美国（TG@阿伟科技/油管）
+      - 法国（TG@阿伟科技/油管）_1
+      - 法国（TG@阿伟科技/油管）_2
+      - "新加坡（TG@阿伟科技/油管）\r_1"
+      - "香港（TG@阿伟科技/油管）\r_3"
+      - "台湾（TG@阿伟科技/油管）\r_1"
+      - "新加坡（TG@阿伟科技/油管）\r_2"
+      - "台湾（TG@阿伟科技/油管）\r_2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_1"
-      - 香港（TG@阿伟科技/油管）_1
-      - "香港（TG@阿伟科技/油管）\r"
-      - 香港（TG@阿伟科技/油管）_2
-      - 日本（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_41
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - YouTube梦歌|Netflix_39
-      - YouTube梦歌|Netflix_22
-      - "Relay_🇦🇺AU-🇦🇺AU_31\r"
-      - YouTube梦歌|Netflix_63
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_2"
-      - _商店：8du.shop
-      - YouTube梦歌|Netflix_78
-      - 美国（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_77
-      - "欧洲(欢迎订阅Youtube破解资源君)\r"
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_3"
-      - 香港（TG@阿伟科技/油管）_3
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_99
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_101
       - YouTube梦歌|Netflix_53
+      - 日本（TG@阿伟科技/油管）
+      - "香港（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_2"
+      - "香港（TG@阿伟科技/油管）\r_2"
+      - "匈牙利（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r"
+      - 美国（TG@阿伟科技/油管）
+      - 法国（TG@阿伟科技/油管）_1
+      - 法国（TG@阿伟科技/油管）_2
+      - "新加坡（TG@阿伟科技/油管）\r_1"
+      - "香港（TG@阿伟科技/油管）\r_3"
+      - "台湾（TG@阿伟科技/油管）\r_1"
+      - "新加坡（TG@阿伟科技/油管）\r_2"
+      - "台湾（TG@阿伟科技/油管）\r_2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,30 +172,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_1"
-      - 香港（TG@阿伟科技/油管）_1
-      - "香港（TG@阿伟科技/油管）\r"
-      - 香港（TG@阿伟科技/油管）_2
-      - 日本（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_41
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - YouTube梦歌|Netflix_39
-      - YouTube梦歌|Netflix_22
-      - "Relay_🇦🇺AU-🇦🇺AU_31\r"
-      - YouTube梦歌|Netflix_63
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_2"
-      - _商店：8du.shop
-      - YouTube梦歌|Netflix_78
-      - 美国（TG@阿伟科技/油管）
-      - YouTube梦歌|Netflix_77
-      - "欧洲(欢迎订阅Youtube破解资源君)\r"
-      - "亚洲(欢迎订阅Youtube破解资源君)\r_3"
-      - 香港（TG@阿伟科技/油管）_3
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_99
-      - YouTube梦歌|Netflix_2
-      - YouTube梦歌|Netflix_101
       - YouTube梦歌|Netflix_53
+      - 日本（TG@阿伟科技/油管）
+      - "香港（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_1"
+      - "日本（TG@阿伟科技/油管）\r_2"
+      - "香港（TG@阿伟科技/油管）\r_2"
+      - "匈牙利（TG@阿伟科技/油管）\r"
+      - "美国（TG@阿伟科技/油管）\r"
+      - 美国（TG@阿伟科技/油管）
+      - 法国（TG@阿伟科技/油管）_1
+      - 法国（TG@阿伟科技/油管）_2
+      - "新加坡（TG@阿伟科技/油管）\r_1"
+      - "香港（TG@阿伟科技/油管）\r_3"
+      - "台湾（TG@阿伟科技/油管）\r_1"
+      - "新加坡（TG@阿伟科技/油管）\r_2"
+      - "台湾（TG@阿伟科技/油管）\r_2"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
