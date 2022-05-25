@@ -5,95 +5,200 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇨🇳_CN_n523_403","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳_CN_n523_275","ws-opts":{"path":"/ws"},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳_CN_n523_404","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"117.28.242.156","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"US_2041+|+7.58Mb\r","server":"s1.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true,"sni":"s1.upyun.online"}
-  - {"type":"trojan","name":"CN_384+|+1.86Mb\r","server":"s1.upyun.online","port":12340,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","udp":true,"skip-cert-verify":true,"sni":"s1.upyun.online"}
-  - {"type":"vmess","name":"台湾(youtube阿伟科技)","ws-opts":{"path":"/","headers":{"host":"download.cn.connecat.com"}},"server":"download.cn.connecat.com","port":"60004","uuid":"cb3cef47-cb7d-386f-af3b-452345d17816","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸美国(yudou66.com玉豆分享)","ws-opts":{"path":"/"},"server":"oz.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"香港(youtube阿伟科技)","ws-opts":{"path":"/0567e1d44aa0969/","headers":{"host":"hk.funan.space"}},"server":"hk.funan.space","port":"443","uuid":"071a2d80-1f59-4ad1-8eaa-50d335e8a0e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇯🇵日本(youtube阿伟科技)_1","server":"20.210.202.64","port":8313,"cipher":"chacha20-ietf-poly1305","password":"ljqdalu13.."}
+  - {"type":"trojan","name":"🇯🇵日本(youtube阿伟科技)_2","server":"120.233.187.199","port":20014,"password":"59845c5b-bf53-3fcf-acbd-f0c16986df73","udp":true,"skip-cert-verify":true,"sni":"node.franxx.codes"}
+  - {"type":"vmess","name":"US-高速节点推荐：v1.mk/vip_1","ws-opts":{"path":"/myblog","headers":{"host":"vfly9.win"}},"server":"vfly9.win","port":"443","uuid":"825136bb-fc0a-4f43-8307-dc2e36f27e2d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇯🇵日本(youtube阿伟科技)_3","server":"20.249.6.84","port":8313,"cipher":"chacha20-ietf-poly1305","password":"ljqdalu13.."}
+  - {"type":"vmess","name":"🇭🇰_youtube：全网最强白嫖_1","ws-opts":{"path":"/ray","headers":{"host":"511hk.fans8.xyz"}},"server":"511hk.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰_youtube：全网最强白嫖_2","ws-opts":{"path":"/ray","headers":{"host":"426hk.fans8.xyz"}},"server":"426hk.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸美国(youtube阿伟科技)_1","server":"65.49.210.47","port":"10895","uuid":"51a66487-e65e-47cb-8c6d-6054bb29a5f7","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"US-高速节点推荐：v1.mk/vip_2","ws-opts":{"path":"/vmess-share/?ed=2048","headers":{"host":"ruvds.testx.eu.org"}},"server":"ruvds.testx.eu.org","port":"443","uuid":"0e7036c1-6de1-4a83-ef4f-e0d56c67fa10","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇬🇧_youtube：全网最强白嫖_1","server":"s3.upyun.online","port":12340,"password":"c0276440-f163-4f40-a08c-78b158ce6c4f","udp":true,"skip-cert-verify":true,"sni":"free.upyun.online"}
+  - {"type":"trojan","name":"🇬🇧_youtube：全网最强白嫖_2","server":"s3.upyun.online","port":12340,"password":"316b40c0-0dab-4ea1-9666-ac1658b033b2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"GB-高速节点推荐：v1.mk/vip_1","server":"jgwld4.gaox.ml","port":443,"password":"58d32c66-43b1-4561-9951-d87c9123774e","udp":true,"skip-cert-verify":true,"sni":"jgwld4.gaox.ml"}
+  - {"type":"trojan","name":"🇩🇪德国(youtube阿伟科技)","server":"jgwld3.gaox.ml","port":443,"password":"71b55a84-3fac-4458-abff-eaad79219c91","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸美国(youtube阿伟科技)_2","ws-opts":{"path":"/ws","headers":{"host":"aweikeji-YouTube"}},"server":"us1.kxwfy.com","port":"20006","uuid":"c73a3e37-1ce6-3c92-a36c-7dfa220c4f4f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇬🇧英国(yudou66.com+玉豆分享)","server":"jgwld2.gaox.ml","port":443,"password":"d7fd8aaa-4581-4281-80aa-4b63e5e1f157","udp":true,"skip-cert-verify":true,"sni":"jgwld2.gaox.ml"}
+  - {"type":"vmess","name":"🇺🇸美国(youtube阿伟科技)_3","ws-opts":{"path":"/ws","headers":{"host":"aweikeji-YouTube"}},"server":"us2.kxwfy.com","port":"20008","uuid":"c73a3e37-1ce6-3c92-a36c-7dfa220c4f4f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇦_youtube：全网最强白嫖","ws-opts":{"path":"/ray","headers":{"host":"422wkl.fans8.xyz"}},"server":"422wkl.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇰🇷韩国(youtube阿伟科技)","server":"jgwcc3.gaox.ml","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Pool_🇺🇸US_2959","ws-opts":{"path":"/ws","headers":{"host":"iesei1ei.com"}},"server":"208.98.48.2","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇷🇺_youtube：全网最强白嫖","ws-opts":{"path":"/ray","headers":{"host":"331tw.fans8.xyz"}},"server":"331tw.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"youtube：全网最强白嫖","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v3.ssrsub.com"}},"server":"v3.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇹🇼_youtube：全网最强白嫖","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}},"server":"330tw.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"GB-高速节点推荐：v1.mk/vip_2","server":"jgwld1.gaox.ml","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true,"sni":"jgwld1.gaox.ml"}
+  - {"type":"vmess","name":"🇯🇵_youtube：全网最强白嫖","ws-opts":{"path":"/ray","headers":{"host":"51jp1.fans8.xyz"}},"server":"51jp1.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_n523_403
-      - 🇨🇳_CN_n523_275
-      - 🇨🇳_CN_n523_404
-      - "US_2041+|+7.58Mb\r"
-      - "CN_384+|+1.86Mb\r"
-      - 台湾(youtube阿伟科技)
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 香港(youtube阿伟科技)
+      - 🇯🇵日本(youtube阿伟科技)_1
+      - 🇯🇵日本(youtube阿伟科技)_2
+      - US-高速节点推荐：v1.mk/vip_1
+      - 🇯🇵日本(youtube阿伟科技)_3
+      - 🇭🇰_youtube：全网最强白嫖_1
+      - 🇭🇰_youtube：全网最强白嫖_2
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - US-高速节点推荐：v1.mk/vip_2
+      - 🇬🇧_youtube：全网最强白嫖_1
+      - 🇬🇧_youtube：全网最强白嫖_2
+      - GB-高速节点推荐：v1.mk/vip_1
+      - 🇩🇪德国(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - 🇬🇧英国(yudou66.com+玉豆分享)
+      - 🇺🇸美国(youtube阿伟科技)_3
+      - 🇺🇦_youtube：全网最强白嫖
+      - 🇰🇷韩国(youtube阿伟科技)
+      - Pool_🇺🇸US_2959
+      - 🇷🇺_youtube：全网最强白嫖
+      - youtube：全网最强白嫖
+      - 🇹🇼_youtube：全网最强白嫖
+      - GB-高速节点推荐：v1.mk/vip_2
+      - 🇯🇵_youtube：全网最强白嫖
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_n523_403
-      - 🇨🇳_CN_n523_275
-      - 🇨🇳_CN_n523_404
-      - "US_2041+|+7.58Mb\r"
-      - "CN_384+|+1.86Mb\r"
-      - 台湾(youtube阿伟科技)
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 香港(youtube阿伟科技)
+      - 🇯🇵日本(youtube阿伟科技)_1
+      - 🇯🇵日本(youtube阿伟科技)_2
+      - US-高速节点推荐：v1.mk/vip_1
+      - 🇯🇵日本(youtube阿伟科技)_3
+      - 🇭🇰_youtube：全网最强白嫖_1
+      - 🇭🇰_youtube：全网最强白嫖_2
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - US-高速节点推荐：v1.mk/vip_2
+      - 🇬🇧_youtube：全网最强白嫖_1
+      - 🇬🇧_youtube：全网最强白嫖_2
+      - GB-高速节点推荐：v1.mk/vip_1
+      - 🇩🇪德国(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - 🇬🇧英国(yudou66.com+玉豆分享)
+      - 🇺🇸美国(youtube阿伟科技)_3
+      - 🇺🇦_youtube：全网最强白嫖
+      - 🇰🇷韩国(youtube阿伟科技)
+      - Pool_🇺🇸US_2959
+      - 🇷🇺_youtube：全网最强白嫖
+      - youtube：全网最强白嫖
+      - 🇹🇼_youtube：全网最强白嫖
+      - GB-高速节点推荐：v1.mk/vip_2
+      - 🇯🇵_youtube：全网最强白嫖
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_n523_403
-      - 🇨🇳_CN_n523_275
-      - 🇨🇳_CN_n523_404
-      - "US_2041+|+7.58Mb\r"
-      - "CN_384+|+1.86Mb\r"
-      - 台湾(youtube阿伟科技)
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 香港(youtube阿伟科技)
+      - 🇯🇵日本(youtube阿伟科技)_1
+      - 🇯🇵日本(youtube阿伟科技)_2
+      - US-高速节点推荐：v1.mk/vip_1
+      - 🇯🇵日本(youtube阿伟科技)_3
+      - 🇭🇰_youtube：全网最强白嫖_1
+      - 🇭🇰_youtube：全网最强白嫖_2
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - US-高速节点推荐：v1.mk/vip_2
+      - 🇬🇧_youtube：全网最强白嫖_1
+      - 🇬🇧_youtube：全网最强白嫖_2
+      - GB-高速节点推荐：v1.mk/vip_1
+      - 🇩🇪德国(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - 🇬🇧英国(yudou66.com+玉豆分享)
+      - 🇺🇸美国(youtube阿伟科技)_3
+      - 🇺🇦_youtube：全网最强白嫖
+      - 🇰🇷韩国(youtube阿伟科技)
+      - Pool_🇺🇸US_2959
+      - 🇷🇺_youtube：全网最强白嫖
+      - youtube：全网最强白嫖
+      - 🇹🇼_youtube：全网最强白嫖
+      - GB-高速节点推荐：v1.mk/vip_2
+      - 🇯🇵_youtube：全网最强白嫖
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_n523_403
-      - 🇨🇳_CN_n523_275
-      - 🇨🇳_CN_n523_404
-      - "US_2041+|+7.58Mb\r"
-      - "CN_384+|+1.86Mb\r"
-      - 台湾(youtube阿伟科技)
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 香港(youtube阿伟科技)
+      - 🇯🇵日本(youtube阿伟科技)_1
+      - 🇯🇵日本(youtube阿伟科技)_2
+      - US-高速节点推荐：v1.mk/vip_1
+      - 🇯🇵日本(youtube阿伟科技)_3
+      - 🇭🇰_youtube：全网最强白嫖_1
+      - 🇭🇰_youtube：全网最强白嫖_2
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - US-高速节点推荐：v1.mk/vip_2
+      - 🇬🇧_youtube：全网最强白嫖_1
+      - 🇬🇧_youtube：全网最强白嫖_2
+      - GB-高速节点推荐：v1.mk/vip_1
+      - 🇩🇪德国(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - 🇬🇧英国(yudou66.com+玉豆分享)
+      - 🇺🇸美国(youtube阿伟科技)_3
+      - 🇺🇦_youtube：全网最强白嫖
+      - 🇰🇷韩国(youtube阿伟科技)
+      - Pool_🇺🇸US_2959
+      - 🇷🇺_youtube：全网最强白嫖
+      - youtube：全网最强白嫖
+      - 🇹🇼_youtube：全网最强白嫖
+      - GB-高速节点推荐：v1.mk/vip_2
+      - 🇯🇵_youtube：全网最强白嫖
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_n523_403
-      - 🇨🇳_CN_n523_275
-      - 🇨🇳_CN_n523_404
-      - "US_2041+|+7.58Mb\r"
-      - "CN_384+|+1.86Mb\r"
-      - 台湾(youtube阿伟科技)
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 香港(youtube阿伟科技)
+      - 🇯🇵日本(youtube阿伟科技)_1
+      - 🇯🇵日本(youtube阿伟科技)_2
+      - US-高速节点推荐：v1.mk/vip_1
+      - 🇯🇵日本(youtube阿伟科技)_3
+      - 🇭🇰_youtube：全网最强白嫖_1
+      - 🇭🇰_youtube：全网最强白嫖_2
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - US-高速节点推荐：v1.mk/vip_2
+      - 🇬🇧_youtube：全网最强白嫖_1
+      - 🇬🇧_youtube：全网最强白嫖_2
+      - GB-高速节点推荐：v1.mk/vip_1
+      - 🇩🇪德国(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - 🇬🇧英国(yudou66.com+玉豆分享)
+      - 🇺🇸美国(youtube阿伟科技)_3
+      - 🇺🇦_youtube：全网最强白嫖
+      - 🇰🇷韩国(youtube阿伟科技)
+      - Pool_🇺🇸US_2959
+      - 🇷🇺_youtube：全网最强白嫖
+      - youtube：全网最强白嫖
+      - 🇹🇼_youtube：全网最强白嫖
+      - GB-高速节点推荐：v1.mk/vip_2
+      - 🇯🇵_youtube：全网最强白嫖
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_n523_403
-      - 🇨🇳_CN_n523_275
-      - 🇨🇳_CN_n523_404
-      - "US_2041+|+7.58Mb\r"
-      - "CN_384+|+1.86Mb\r"
-      - 台湾(youtube阿伟科技)
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 香港(youtube阿伟科技)
+      - 🇯🇵日本(youtube阿伟科技)_1
+      - 🇯🇵日本(youtube阿伟科技)_2
+      - US-高速节点推荐：v1.mk/vip_1
+      - 🇯🇵日本(youtube阿伟科技)_3
+      - 🇭🇰_youtube：全网最强白嫖_1
+      - 🇭🇰_youtube：全网最强白嫖_2
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - US-高速节点推荐：v1.mk/vip_2
+      - 🇬🇧_youtube：全网最强白嫖_1
+      - 🇬🇧_youtube：全网最强白嫖_2
+      - GB-高速节点推荐：v1.mk/vip_1
+      - 🇩🇪德国(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - 🇬🇧英国(yudou66.com+玉豆分享)
+      - 🇺🇸美国(youtube阿伟科技)_3
+      - 🇺🇦_youtube：全网最强白嫖
+      - 🇰🇷韩国(youtube阿伟科技)
+      - Pool_🇺🇸US_2959
+      - 🇷🇺_youtube：全网最强白嫖
+      - youtube：全网最强白嫖
+      - 🇹🇼_youtube：全网最强白嫖
+      - GB-高速节点推荐：v1.mk/vip_2
+      - 🇯🇵_youtube：全网最强白嫖
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +221,29 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_n523_403
-      - 🇨🇳_CN_n523_275
-      - 🇨🇳_CN_n523_404
-      - "US_2041+|+7.58Mb\r"
-      - "CN_384+|+1.86Mb\r"
-      - 台湾(youtube阿伟科技)
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 香港(youtube阿伟科技)
+      - 🇯🇵日本(youtube阿伟科技)_1
+      - 🇯🇵日本(youtube阿伟科技)_2
+      - US-高速节点推荐：v1.mk/vip_1
+      - 🇯🇵日本(youtube阿伟科技)_3
+      - 🇭🇰_youtube：全网最强白嫖_1
+      - 🇭🇰_youtube：全网最强白嫖_2
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - US-高速节点推荐：v1.mk/vip_2
+      - 🇬🇧_youtube：全网最强白嫖_1
+      - 🇬🇧_youtube：全网最强白嫖_2
+      - GB-高速节点推荐：v1.mk/vip_1
+      - 🇩🇪德国(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - 🇬🇧英国(yudou66.com+玉豆分享)
+      - 🇺🇸美国(youtube阿伟科技)_3
+      - 🇺🇦_youtube：全网最强白嫖
+      - 🇰🇷韩国(youtube阿伟科技)
+      - Pool_🇺🇸US_2959
+      - 🇷🇺_youtube：全网最强白嫖
+      - youtube：全网最强白嫖
+      - 🇹🇼_youtube：全网最强白嫖
+      - GB-高速节点推荐：v1.mk/vip_2
+      - 🇯🇵_youtube：全网最强白嫖
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
