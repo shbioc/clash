@@ -5,172 +5,263 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇯🇵日本(youtube阿伟科技)_1","ws-opts":{"path":"/free","headers":{"host":"jp.sayuri.cf"}},"server":"8.210.51.190","port":"443","uuid":"1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇯🇵日本(youtube阿伟科技)_2","server":"jp1.v2yyds.cc","port":32111,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true,"sni":"jp1.v2yyds.cc"}
-  - {"type":"trojan","name":"🇹🇼台湾(youtube阿伟科技)_1","server":"bgp01.v2yyds.cc","port":32133,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true,"sni":"bgp01.v2yyds.cc"}
-  - {"type":"vmess","name":"🇸🇬新加坡(youtube阿伟科技)_1","ws-opts":{"path":"/myblog"},"server":"vfly5.xyz","port":"443","uuid":"825136bb-fc0a-4f43-8307-dc2e36f27e2d","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_1","ws-opts":{"path":"/ws"},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_2","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"117.28.242.156","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_3","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇺🇸美国(youtube阿伟科技)","server":"fhcarm1.gaox.ml","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"US-高速节点推荐：v1.mk/vip","ws-opts":{"path":"/myblog","headers":{"host":"vfly5.xyz"}},"server":"vfly5.xyz","port":"443","uuid":"825136bb-fc0a-4f43-8307-dc2e36f27e2d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇹🇼台湾(youtube阿伟科技)_2","server":"bgp01.v2yyds.cc","port":32134,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true,"sni":"bgp01.v2yyds.cc"}
-  - {"type":"ss","name":"🇷🇺_油管频道：全网最强白嫖","server":"185.4.65.6","port":21247,"cipher":"aes-256-cfb","password":"vDS9G2p"}
-  - {"type":"vmess","name":"新加坡(yudou66.com玉豆分享)","ws-opts":{"path":"/ray","headers":{"host":"523hk1.fans8.xyz"}},"server":"523hk1.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇬🇧英国(youtube阿伟科技)","server":"jgwld2.gaox.ml","port":443,"password":"d7fd8aaa-4581-4281-80aa-4b63e5e1f157","udp":true,"skip-cert-verify":true,"sni":"jgwld2.gaox.ml"}
-  - {"type":"vmess","name":"🇨🇴_油管频道：全网最强白嫖","ws-opts":{"path":"/chcar","headers":{"host":"v2fly.samrt.website"}},"server":"v2fly.sab.quest","port":"443","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":"1","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"高速节点推荐：v1.mk/vip","ws-opts":{"path":"/","headers":{"host":"oz.moonfree.top"}},"server":"oz.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇸🇬新加坡(youtube阿伟科技)_2","server":"sg3.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true,"sni":"sg3.v2yyds.cc"}
-  - {"type":"vmess","name":"🇹🇼台湾(youtube阿伟科技)_3","ws-opts":{"path":"/ray","headers":{"host":"331tw.fans8.xyz"}},"server":"331tw.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇫🇷法国(youtube阿伟科技)","server":"oz.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇹🇼台湾(youtube阿伟科技)_4","ws-opts":{"path":"/ray","headers":{"host":"330tw.fans8.xyz"}},"server":"330tw.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_19","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30074","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_40","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"gddx2.haojiahuo.cf","port":"60038","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_25","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"sxdx2.haojiahuo.cf","port":"30056","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"YouTube梦歌|Netflix_192","server":"gy.zfnode.xyz","port":22200,"cipher":"chacha20-ietf-poly1305","password":"02e60e67-96e7-44b7-9f0f-4ea0d7009514"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_31","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"fjyd2.haojiahuo.cf","port":"60040","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_36","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30058","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_29","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30043","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_21","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"yez.haojiahuo.gq","port":"30073","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_187","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"节点狂魔投稿|Netflix_27","server":"cdn2.myuuusss.com","port":20011,"cipher":"aes-128-gcm","password":"b195963c-2631-442d-ab3a-6e78df25d904"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_146","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"gddx2.haojiahuo.cf","port":"30025","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_195","server":"u5.anmu.one","port":"16494","uuid":"b39c6188-43b1-4a8c-ca01-19a0f9ae769a","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_101","ws-opts":{"path":"/8a76fb13/","headers":{"host":"yyyy.wwwbhjy.com"}},"server":"yyyy.wwwbhjy.com","port":"2443","uuid":"dee32eb7-e190-4c6f-dd27-aa9c82cd5490","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_169","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"fjyd2.haojiahuo.cf","port":"60136","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_49","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"sxdx2.haojiahuo.cf","port":"30047","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_42","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"d1.haojiahuo.cf","port":"60048","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_47","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"d1.haojiahuo.cf","port":"60047","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_67","server":"u2.anmu.one","port":"16499","uuid":"32b306e1-d5b1-4913-d8d3-56ac23637de7","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_104","ws-opts":{"path":"/onefall","headers":{"host":"yza2.hkbgp.wiki"}},"server":"yza2.hkbgp.wiki","port":"10345","uuid":"929b1c1e-268b-4993-a83c-56782598a223","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_166","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"60046","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_12","ws-opts":{"path":"/71h4b3s1f53","headers":{"host":"v2-5.godlight.xyz"}},"server":"v2-5.godlight.xyz","port":"250","uuid":"767e55a4-43fa-4301-a9c2-ad30eaa9f61a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_184","ws-opts":{"path":"/ws"},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"YouTube梦歌|Netflix_178","server":"gy.zfnode.xyz","port":22201,"cipher":"chacha20-ietf-poly1305","password":"02e60e67-96e7-44b7-9f0f-4ea0d7009514"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_226","ws-opts":{"path":"/ray","headers":{"host":"cc.wodaming.cf"}},"server":"lll.wodaming.cf","port":"443","uuid":"48fd10df-1206-4faf-905e-3f178c7d7585","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_148","server":"cscu.01.211129.xyz","port":16991,"password":"c9db0aad-e6a9-4a7e-9285-b88302c35346","udp":true,"skip-cert-verify":true,"sni":"cscu.01.211129.xyz"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_28","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"yez.haojiahuo.gq","port":"30020","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_94","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}},"server":"v2-1.godlight.xyz","port":"250","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_6","server":"cm-jm.okvpn.xyz","port":20006,"password":"88a6138d-1449-4ff4-8203-82239723a46a","udp":true,"skip-cert-verify":true,"sni":"cm-jm.okvpn.xyz"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_60","ws-opts":{"path":"/ray","headers":{"host":"mm.wodaming.cf"}},"server":"lll.wodaming.cf","port":"443","uuid":"48fd10df-1206-4faf-905e-3f178c7d7585","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_62","ws-opts":{"path":"/","headers":{"host":"fr1t.moonfree.top"}},"server":"fr1t.moonfree.top","port":"8443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_1","server":"cm-jm.okvpn.xyz","port":20003,"password":"88a6138d-1449-4ff4-8203-82239723a46a","udp":true,"skip-cert-verify":true,"sni":"cm-jm.okvpn.xyz"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_65","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30057","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵日本(youtube阿伟科技)_1
-      - 🇯🇵日本(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_1
-      - 🇸🇬新加坡(youtube阿伟科技)_1
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇺🇸美国(youtube阿伟科技)
-      - US-高速节点推荐：v1.mk/vip
-      - 🇹🇼台湾(youtube阿伟科技)_2
-      - 🇷🇺_油管频道：全网最强白嫖
-      - 新加坡(yudou66.com玉豆分享)
-      - 🇬🇧英国(youtube阿伟科技)
-      - 🇨🇴_油管频道：全网最强白嫖
-      - 高速节点推荐：v1.mk/vip
-      - 🇸🇬新加坡(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_3
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇹🇼台湾(youtube阿伟科技)_4
+      - 节点狂魔投稿|Netflix_19
+      - 节点狂魔投稿|Netflix_40
+      - 节点狂魔投稿|Netflix_25
+      - YouTube梦歌|Netflix_192
+      - 节点狂魔投稿|Netflix_31
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_29
+      - 节点狂魔投稿|Netflix_21
+      - YouTube梦歌|Netflix_187
+      - 节点狂魔投稿|Netflix_27
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_195
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_169
+      - 节点狂魔投稿|Netflix_49
+      - 节点狂魔投稿|Netflix_42
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_166
+      - 节点狂魔投稿|Netflix_12
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_178
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_148
+      - 节点狂魔投稿|Netflix_28
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_6
+      - 节点狂魔投稿|Netflix_60
+      - 节点狂魔投稿|Netflix_62
+      - YouTube梦歌|Netflix_1
+      - 节点狂魔投稿|Netflix_65
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵日本(youtube阿伟科技)_1
-      - 🇯🇵日本(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_1
-      - 🇸🇬新加坡(youtube阿伟科技)_1
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇺🇸美国(youtube阿伟科技)
-      - US-高速节点推荐：v1.mk/vip
-      - 🇹🇼台湾(youtube阿伟科技)_2
-      - 🇷🇺_油管频道：全网最强白嫖
-      - 新加坡(yudou66.com玉豆分享)
-      - 🇬🇧英国(youtube阿伟科技)
-      - 🇨🇴_油管频道：全网最强白嫖
-      - 高速节点推荐：v1.mk/vip
-      - 🇸🇬新加坡(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_3
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇹🇼台湾(youtube阿伟科技)_4
+      - 节点狂魔投稿|Netflix_19
+      - 节点狂魔投稿|Netflix_40
+      - 节点狂魔投稿|Netflix_25
+      - YouTube梦歌|Netflix_192
+      - 节点狂魔投稿|Netflix_31
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_29
+      - 节点狂魔投稿|Netflix_21
+      - YouTube梦歌|Netflix_187
+      - 节点狂魔投稿|Netflix_27
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_195
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_169
+      - 节点狂魔投稿|Netflix_49
+      - 节点狂魔投稿|Netflix_42
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_166
+      - 节点狂魔投稿|Netflix_12
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_178
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_148
+      - 节点狂魔投稿|Netflix_28
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_6
+      - 节点狂魔投稿|Netflix_60
+      - 节点狂魔投稿|Netflix_62
+      - YouTube梦歌|Netflix_1
+      - 节点狂魔投稿|Netflix_65
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵日本(youtube阿伟科技)_1
-      - 🇯🇵日本(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_1
-      - 🇸🇬新加坡(youtube阿伟科技)_1
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇺🇸美国(youtube阿伟科技)
-      - US-高速节点推荐：v1.mk/vip
-      - 🇹🇼台湾(youtube阿伟科技)_2
-      - 🇷🇺_油管频道：全网最强白嫖
-      - 新加坡(yudou66.com玉豆分享)
-      - 🇬🇧英国(youtube阿伟科技)
-      - 🇨🇴_油管频道：全网最强白嫖
-      - 高速节点推荐：v1.mk/vip
-      - 🇸🇬新加坡(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_3
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇹🇼台湾(youtube阿伟科技)_4
+      - 节点狂魔投稿|Netflix_19
+      - 节点狂魔投稿|Netflix_40
+      - 节点狂魔投稿|Netflix_25
+      - YouTube梦歌|Netflix_192
+      - 节点狂魔投稿|Netflix_31
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_29
+      - 节点狂魔投稿|Netflix_21
+      - YouTube梦歌|Netflix_187
+      - 节点狂魔投稿|Netflix_27
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_195
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_169
+      - 节点狂魔投稿|Netflix_49
+      - 节点狂魔投稿|Netflix_42
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_166
+      - 节点狂魔投稿|Netflix_12
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_178
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_148
+      - 节点狂魔投稿|Netflix_28
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_6
+      - 节点狂魔投稿|Netflix_60
+      - 节点狂魔投稿|Netflix_62
+      - YouTube梦歌|Netflix_1
+      - 节点狂魔投稿|Netflix_65
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵日本(youtube阿伟科技)_1
-      - 🇯🇵日本(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_1
-      - 🇸🇬新加坡(youtube阿伟科技)_1
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇺🇸美国(youtube阿伟科技)
-      - US-高速节点推荐：v1.mk/vip
-      - 🇹🇼台湾(youtube阿伟科技)_2
-      - 🇷🇺_油管频道：全网最强白嫖
-      - 新加坡(yudou66.com玉豆分享)
-      - 🇬🇧英国(youtube阿伟科技)
-      - 🇨🇴_油管频道：全网最强白嫖
-      - 高速节点推荐：v1.mk/vip
-      - 🇸🇬新加坡(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_3
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇹🇼台湾(youtube阿伟科技)_4
+      - 节点狂魔投稿|Netflix_19
+      - 节点狂魔投稿|Netflix_40
+      - 节点狂魔投稿|Netflix_25
+      - YouTube梦歌|Netflix_192
+      - 节点狂魔投稿|Netflix_31
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_29
+      - 节点狂魔投稿|Netflix_21
+      - YouTube梦歌|Netflix_187
+      - 节点狂魔投稿|Netflix_27
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_195
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_169
+      - 节点狂魔投稿|Netflix_49
+      - 节点狂魔投稿|Netflix_42
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_166
+      - 节点狂魔投稿|Netflix_12
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_178
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_148
+      - 节点狂魔投稿|Netflix_28
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_6
+      - 节点狂魔投稿|Netflix_60
+      - 节点狂魔投稿|Netflix_62
+      - YouTube梦歌|Netflix_1
+      - 节点狂魔投稿|Netflix_65
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵日本(youtube阿伟科技)_1
-      - 🇯🇵日本(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_1
-      - 🇸🇬新加坡(youtube阿伟科技)_1
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇺🇸美国(youtube阿伟科技)
-      - US-高速节点推荐：v1.mk/vip
-      - 🇹🇼台湾(youtube阿伟科技)_2
-      - 🇷🇺_油管频道：全网最强白嫖
-      - 新加坡(yudou66.com玉豆分享)
-      - 🇬🇧英国(youtube阿伟科技)
-      - 🇨🇴_油管频道：全网最强白嫖
-      - 高速节点推荐：v1.mk/vip
-      - 🇸🇬新加坡(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_3
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇹🇼台湾(youtube阿伟科技)_4
+      - 节点狂魔投稿|Netflix_19
+      - 节点狂魔投稿|Netflix_40
+      - 节点狂魔投稿|Netflix_25
+      - YouTube梦歌|Netflix_192
+      - 节点狂魔投稿|Netflix_31
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_29
+      - 节点狂魔投稿|Netflix_21
+      - YouTube梦歌|Netflix_187
+      - 节点狂魔投稿|Netflix_27
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_195
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_169
+      - 节点狂魔投稿|Netflix_49
+      - 节点狂魔投稿|Netflix_42
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_166
+      - 节点狂魔投稿|Netflix_12
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_178
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_148
+      - 节点狂魔投稿|Netflix_28
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_6
+      - 节点狂魔投稿|Netflix_60
+      - 节点狂魔投稿|Netflix_62
+      - YouTube梦歌|Netflix_1
+      - 节点狂魔投稿|Netflix_65
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵日本(youtube阿伟科技)_1
-      - 🇯🇵日本(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_1
-      - 🇸🇬新加坡(youtube阿伟科技)_1
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇺🇸美国(youtube阿伟科技)
-      - US-高速节点推荐：v1.mk/vip
-      - 🇹🇼台湾(youtube阿伟科技)_2
-      - 🇷🇺_油管频道：全网最强白嫖
-      - 新加坡(yudou66.com玉豆分享)
-      - 🇬🇧英国(youtube阿伟科技)
-      - 🇨🇴_油管频道：全网最强白嫖
-      - 高速节点推荐：v1.mk/vip
-      - 🇸🇬新加坡(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_3
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇹🇼台湾(youtube阿伟科技)_4
+      - 节点狂魔投稿|Netflix_19
+      - 节点狂魔投稿|Netflix_40
+      - 节点狂魔投稿|Netflix_25
+      - YouTube梦歌|Netflix_192
+      - 节点狂魔投稿|Netflix_31
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_29
+      - 节点狂魔投稿|Netflix_21
+      - YouTube梦歌|Netflix_187
+      - 节点狂魔投稿|Netflix_27
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_195
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_169
+      - 节点狂魔投稿|Netflix_49
+      - 节点狂魔投稿|Netflix_42
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_166
+      - 节点狂魔投稿|Netflix_12
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_178
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_148
+      - 节点狂魔投稿|Netflix_28
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_6
+      - 节点狂魔投稿|Netflix_60
+      - 节点狂魔投稿|Netflix_62
+      - YouTube梦歌|Netflix_1
+      - 节点狂魔投稿|Netflix_65
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,25 +284,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵日本(youtube阿伟科技)_1
-      - 🇯🇵日本(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_1
-      - 🇸🇬新加坡(youtube阿伟科技)_1
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇺🇸美国(youtube阿伟科技)
-      - US-高速节点推荐：v1.mk/vip
-      - 🇹🇼台湾(youtube阿伟科技)_2
-      - 🇷🇺_油管频道：全网最强白嫖
-      - 新加坡(yudou66.com玉豆分享)
-      - 🇬🇧英国(youtube阿伟科技)
-      - 🇨🇴_油管频道：全网最强白嫖
-      - 高速节点推荐：v1.mk/vip
-      - 🇸🇬新加坡(youtube阿伟科技)_2
-      - 🇹🇼台湾(youtube阿伟科技)_3
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇹🇼台湾(youtube阿伟科技)_4
+      - 节点狂魔投稿|Netflix_19
+      - 节点狂魔投稿|Netflix_40
+      - 节点狂魔投稿|Netflix_25
+      - YouTube梦歌|Netflix_192
+      - 节点狂魔投稿|Netflix_31
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_29
+      - 节点狂魔投稿|Netflix_21
+      - YouTube梦歌|Netflix_187
+      - 节点狂魔投稿|Netflix_27
+      - YouTube梦歌|Netflix_146
+      - YouTube梦歌|Netflix_195
+      - YouTube梦歌|Netflix_101
+      - YouTube梦歌|Netflix_169
+      - 节点狂魔投稿|Netflix_49
+      - 节点狂魔投稿|Netflix_42
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_104
+      - YouTube梦歌|Netflix_166
+      - 节点狂魔投稿|Netflix_12
+      - YouTube梦歌|Netflix_184
+      - YouTube梦歌|Netflix_178
+      - YouTube梦歌|Netflix_226
+      - YouTube梦歌|Netflix_148
+      - 节点狂魔投稿|Netflix_28
+      - YouTube梦歌|Netflix_94
+      - YouTube梦歌|Netflix_6
+      - 节点狂魔投稿|Netflix_60
+      - 节点狂魔投稿|Netflix_62
+      - YouTube梦歌|Netflix_1
+      - 节点狂魔投稿|Netflix_65
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
