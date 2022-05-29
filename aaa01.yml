@@ -5,263 +5,319 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_65","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30057","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_25","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"sxdx2.haojiahuo.cf","port":"30056","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_36","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30058","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"节点狂魔投稿|Netflix_27","server":"cdn2.myuuusss.com","port":20011,"cipher":"aes-128-gcm","password":"b195963c-2631-442d-ab3a-6e78df25d904"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_31","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"fjyd2.haojiahuo.cf","port":"60040","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"节点狂魔投稿|Netflix_19","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30074","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"节点狂魔投稿|Netflix_40","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"gddx2.haojiahuo.cf","port":"60038","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_25","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"sxdx2.haojiahuo.cf","port":"30056","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"YouTube梦歌|Netflix_192","server":"gy.zfnode.xyz","port":22200,"cipher":"chacha20-ietf-poly1305","password":"02e60e67-96e7-44b7-9f0f-4ea0d7009514"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_31","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"fjyd2.haojiahuo.cf","port":"60040","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_36","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30058","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_29","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30043","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"节点狂魔投稿|Netflix_21","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"yez.haojiahuo.gq","port":"30073","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_187","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"节点狂魔投稿|Netflix_27","server":"cdn2.myuuusss.com","port":20011,"cipher":"aes-128-gcm","password":"b195963c-2631-442d-ab3a-6e78df25d904"}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_146","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"gddx2.haojiahuo.cf","port":"30025","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"CN_244","server":"14.29.124.168","port":25286,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"trojan","name":"欧洲(欢迎订阅Youtube破解资源君)","server":"kr04.wangxd.life","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true,"sni":"kr04.wangxd.life"}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_195","server":"u5.anmu.one","port":"16494","uuid":"b39c6188-43b1-4a8c-ca01-19a0f9ae769a","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_101","ws-opts":{"path":"/8a76fb13/","headers":{"host":"yyyy.wwwbhjy.com"}},"server":"yyyy.wwwbhjy.com","port":"2443","uuid":"dee32eb7-e190-4c6f-dd27-aa9c82cd5490","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_169","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"fjyd2.haojiahuo.cf","port":"60136","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_49","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"sxdx2.haojiahuo.cf","port":"30047","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_42","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"d1.haojiahuo.cf","port":"60048","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_47","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"d1.haojiahuo.cf","port":"60047","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_67","server":"u2.anmu.one","port":"16499","uuid":"32b306e1-d5b1-4913-d8d3-56ac23637de7","alterId":"0","cipher":"auto","network":"tcp","tls":true}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_104","ws-opts":{"path":"/onefall","headers":{"host":"yza2.hkbgp.wiki"}},"server":"yza2.hkbgp.wiki","port":"10345","uuid":"929b1c1e-268b-4993-a83c-56782598a223","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_166","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"60046","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_12","ws-opts":{"path":"/71h4b3s1f53","headers":{"host":"v2-5.godlight.xyz"}},"server":"v2-5.godlight.xyz","port":"250","uuid":"767e55a4-43fa-4301-a9c2-ad30eaa9f61a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_184","ws-opts":{"path":"/ws"},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"YouTube梦歌|Netflix_178","server":"gy.zfnode.xyz","port":22201,"cipher":"chacha20-ietf-poly1305","password":"02e60e67-96e7-44b7-9f0f-4ea0d7009514"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_226","ws-opts":{"path":"/ray","headers":{"host":"cc.wodaming.cf"}},"server":"lll.wodaming.cf","port":"443","uuid":"48fd10df-1206-4faf-905e-3f178c7d7585","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_148","server":"cscu.01.211129.xyz","port":16991,"password":"c9db0aad-e6a9-4a7e-9285-b88302c35346","udp":true,"skip-cert-verify":true,"sni":"cscu.01.211129.xyz"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_28","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"yez.haojiahuo.gq","port":"30020","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_94","ws-opts":{"path":"/j75g1461x","headers":{"host":"v2-1.godlight.xyz"}},"server":"v2-1.godlight.xyz","port":"250","uuid":"719d4cec-82a8-4a65-ad01-32cf08f2c988","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_6","server":"cm-jm.okvpn.xyz","port":20006,"password":"88a6138d-1449-4ff4-8203-82239723a46a","udp":true,"skip-cert-verify":true,"sni":"cm-jm.okvpn.xyz"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_60","ws-opts":{"path":"/ray","headers":{"host":"mm.wodaming.cf"}},"server":"lll.wodaming.cf","port":"443","uuid":"48fd10df-1206-4faf-905e-3f178c7d7585","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_136","ws-opts":{"path":"/ws"},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"117.28.242.156","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_67","server":"u2.anmu.one","port":"16499","uuid":"32b306e1-d5b1-4913-d8d3-56ac23637de7","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_169","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"fjyd2.haojiahuo.cf","port":"60136","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国(欢迎订阅Youtube破解资源君)","ws-opts":{"path":"/","headers":{"host":"34.215.130.186"}},"server":"34.215.130.186","port":"10089","uuid":"3608c9dc-1eeb-48b0-b570-43074b4a0c9e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_47","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"d1.haojiahuo.cf","port":"60047","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"节点狂魔投稿|Netflix_42","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"d1.haojiahuo.cf","port":"60048","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"节点狂魔投稿|Netflix_62","ws-opts":{"path":"/","headers":{"host":"fr1t.moonfree.top"}},"server":"fr1t.moonfree.top","port":"8443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_1","server":"cm-jm.okvpn.xyz","port":20003,"password":"88a6138d-1449-4ff4-8203-82239723a46a","udp":true,"skip-cert-verify":true,"sni":"cm-jm.okvpn.xyz"}
-  - {"type":"vmess","name":"节点狂魔投稿|Netflix_65","ws-opts":{"path":"/videos","headers":{"host":"xuexi.cn"}},"server":"zj.haojiahuo.club","port":"30057","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_118","ws-opts":{"path":"/ws","headers":{"host":"sxqxj.cn"}},"server":"sxqxj.cn","port":"2164","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰_油管频道：全网最强白嫖","ws-opts":{"path":"/ray","headers":{"host":"511hk.fans8.xyz"}},"server":"511hk.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_101","ws-opts":{"path":"/8a76fb13/","headers":{"host":"yyyy.wwwbhjy.com"}},"server":"yyyy.wwwbhjy.com","port":"2443","uuid":"dee32eb7-e190-4c6f-dd27-aa9c82cd5490","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇹🇼台湾(youtube阿伟科技)","ws-opts":{"path":"/ray","headers":{"host":"331tw.fans8.xyz"}},"server":"331tw.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇦🇺澳大利亚(youtube阿伟科技)","server":"jgwxn2.gaox.ml","port":443,"password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇯🇵_油管频道：全网最强白嫖","ws-opts":{"path":"/ray","headers":{"host":"51jp1.fans8.xyz"}},"server":"51jp1.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"CN_65+TG@peekfun","server":"14.29.124.168","port":25271,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN_75+TG@peekfun","server":"14.29.124.168","port":25283,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_1","server":"14.29.124.168","port":25268,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_2","server":"14.29.124.168","port":25230,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_3","server":"14.29.124.168","port":25231,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN_29+TG@peekfun","server":"14.29.124.168","port":25245,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN_222","server":"14.29.124.168","port":25266,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_4","server":"14.29.124.168","port":25267,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN_69+TG@peekfun","server":"14.29.124.168","port":25238,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_5","server":"14.29.124.168","port":25233,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"_油管频道：全网最强白嫖_6","server":"14.29.124.168","port":25219,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"trojan","name":"日本(欢迎订阅Youtube破解资源君)","server":"jp1.v2yyds.cc","port":32111,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true,"sni":"jp1.v2yyds.cc"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 节点狂魔投稿|Netflix_65
+      - 节点狂魔投稿|Netflix_25
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_27
+      - 节点狂魔投稿|Netflix_31
       - 节点狂魔投稿|Netflix_19
       - 节点狂魔投稿|Netflix_40
-      - 节点狂魔投稿|Netflix_25
-      - YouTube梦歌|Netflix_192
-      - 节点狂魔投稿|Netflix_31
-      - 节点狂魔投稿|Netflix_36
-      - 节点狂魔投稿|Netflix_29
       - 节点狂魔投稿|Netflix_21
-      - YouTube梦歌|Netflix_187
-      - 节点狂魔投稿|Netflix_27
       - YouTube梦歌|Netflix_146
+      - CN_244
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - YouTube梦歌|Netflix_195
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_169
-      - 节点狂魔投稿|Netflix_49
-      - 节点狂魔投稿|Netflix_42
-      - 节点狂魔投稿|Netflix_47
-      - 节点狂魔投稿|Netflix_67
       - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_166
-      - 节点狂魔投稿|Netflix_12
-      - YouTube梦歌|Netflix_184
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_226
-      - YouTube梦歌|Netflix_148
-      - 节点狂魔投稿|Netflix_28
       - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_6
-      - 节点狂魔投稿|Netflix_60
+      - YouTube梦歌|Netflix_136
+      - 🇨🇳_油管频道：全网最强白嫖
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_169
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_42
       - 节点狂魔投稿|Netflix_62
-      - YouTube梦歌|Netflix_1
-      - 节点狂魔投稿|Netflix_65
+      - YouTube梦歌|Netflix_118
+      - 🇭🇰_油管频道：全网最强白嫖
+      - YouTube梦歌|Netflix_101
+      - 🇹🇼台湾(youtube阿伟科技)
+      - 🇦🇺澳大利亚(youtube阿伟科技)
+      - 🇯🇵_油管频道：全网最强白嫖
+      - CN_65+TG@peekfun
+      - CN_75+TG@peekfun
+      - _油管频道：全网最强白嫖_1
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_3
+      - CN_29+TG@peekfun
+      - CN_222
+      - _油管频道：全网最强白嫖_4
+      - CN_69+TG@peekfun
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_6
+      - 日本(欢迎订阅Youtube破解资源君)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 节点狂魔投稿|Netflix_65
+      - 节点狂魔投稿|Netflix_25
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_27
+      - 节点狂魔投稿|Netflix_31
       - 节点狂魔投稿|Netflix_19
       - 节点狂魔投稿|Netflix_40
-      - 节点狂魔投稿|Netflix_25
-      - YouTube梦歌|Netflix_192
-      - 节点狂魔投稿|Netflix_31
-      - 节点狂魔投稿|Netflix_36
-      - 节点狂魔投稿|Netflix_29
       - 节点狂魔投稿|Netflix_21
-      - YouTube梦歌|Netflix_187
-      - 节点狂魔投稿|Netflix_27
       - YouTube梦歌|Netflix_146
+      - CN_244
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - YouTube梦歌|Netflix_195
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_169
-      - 节点狂魔投稿|Netflix_49
-      - 节点狂魔投稿|Netflix_42
-      - 节点狂魔投稿|Netflix_47
-      - 节点狂魔投稿|Netflix_67
       - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_166
-      - 节点狂魔投稿|Netflix_12
-      - YouTube梦歌|Netflix_184
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_226
-      - YouTube梦歌|Netflix_148
-      - 节点狂魔投稿|Netflix_28
       - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_6
-      - 节点狂魔投稿|Netflix_60
+      - YouTube梦歌|Netflix_136
+      - 🇨🇳_油管频道：全网最强白嫖
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_169
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_42
       - 节点狂魔投稿|Netflix_62
-      - YouTube梦歌|Netflix_1
-      - 节点狂魔投稿|Netflix_65
+      - YouTube梦歌|Netflix_118
+      - 🇭🇰_油管频道：全网最强白嫖
+      - YouTube梦歌|Netflix_101
+      - 🇹🇼台湾(youtube阿伟科技)
+      - 🇦🇺澳大利亚(youtube阿伟科技)
+      - 🇯🇵_油管频道：全网最强白嫖
+      - CN_65+TG@peekfun
+      - CN_75+TG@peekfun
+      - _油管频道：全网最强白嫖_1
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_3
+      - CN_29+TG@peekfun
+      - CN_222
+      - _油管频道：全网最强白嫖_4
+      - CN_69+TG@peekfun
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_6
+      - 日本(欢迎订阅Youtube破解资源君)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 节点狂魔投稿|Netflix_65
+      - 节点狂魔投稿|Netflix_25
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_27
+      - 节点狂魔投稿|Netflix_31
       - 节点狂魔投稿|Netflix_19
       - 节点狂魔投稿|Netflix_40
-      - 节点狂魔投稿|Netflix_25
-      - YouTube梦歌|Netflix_192
-      - 节点狂魔投稿|Netflix_31
-      - 节点狂魔投稿|Netflix_36
-      - 节点狂魔投稿|Netflix_29
       - 节点狂魔投稿|Netflix_21
-      - YouTube梦歌|Netflix_187
-      - 节点狂魔投稿|Netflix_27
       - YouTube梦歌|Netflix_146
+      - CN_244
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - YouTube梦歌|Netflix_195
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_169
-      - 节点狂魔投稿|Netflix_49
-      - 节点狂魔投稿|Netflix_42
-      - 节点狂魔投稿|Netflix_47
-      - 节点狂魔投稿|Netflix_67
       - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_166
-      - 节点狂魔投稿|Netflix_12
-      - YouTube梦歌|Netflix_184
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_226
-      - YouTube梦歌|Netflix_148
-      - 节点狂魔投稿|Netflix_28
       - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_6
-      - 节点狂魔投稿|Netflix_60
+      - YouTube梦歌|Netflix_136
+      - 🇨🇳_油管频道：全网最强白嫖
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_169
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_42
       - 节点狂魔投稿|Netflix_62
-      - YouTube梦歌|Netflix_1
-      - 节点狂魔投稿|Netflix_65
+      - YouTube梦歌|Netflix_118
+      - 🇭🇰_油管频道：全网最强白嫖
+      - YouTube梦歌|Netflix_101
+      - 🇹🇼台湾(youtube阿伟科技)
+      - 🇦🇺澳大利亚(youtube阿伟科技)
+      - 🇯🇵_油管频道：全网最强白嫖
+      - CN_65+TG@peekfun
+      - CN_75+TG@peekfun
+      - _油管频道：全网最强白嫖_1
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_3
+      - CN_29+TG@peekfun
+      - CN_222
+      - _油管频道：全网最强白嫖_4
+      - CN_69+TG@peekfun
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_6
+      - 日本(欢迎订阅Youtube破解资源君)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 节点狂魔投稿|Netflix_65
+      - 节点狂魔投稿|Netflix_25
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_27
+      - 节点狂魔投稿|Netflix_31
       - 节点狂魔投稿|Netflix_19
       - 节点狂魔投稿|Netflix_40
-      - 节点狂魔投稿|Netflix_25
-      - YouTube梦歌|Netflix_192
-      - 节点狂魔投稿|Netflix_31
-      - 节点狂魔投稿|Netflix_36
-      - 节点狂魔投稿|Netflix_29
       - 节点狂魔投稿|Netflix_21
-      - YouTube梦歌|Netflix_187
-      - 节点狂魔投稿|Netflix_27
       - YouTube梦歌|Netflix_146
+      - CN_244
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - YouTube梦歌|Netflix_195
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_169
-      - 节点狂魔投稿|Netflix_49
-      - 节点狂魔投稿|Netflix_42
-      - 节点狂魔投稿|Netflix_47
-      - 节点狂魔投稿|Netflix_67
       - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_166
-      - 节点狂魔投稿|Netflix_12
-      - YouTube梦歌|Netflix_184
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_226
-      - YouTube梦歌|Netflix_148
-      - 节点狂魔投稿|Netflix_28
       - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_6
-      - 节点狂魔投稿|Netflix_60
+      - YouTube梦歌|Netflix_136
+      - 🇨🇳_油管频道：全网最强白嫖
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_169
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_42
       - 节点狂魔投稿|Netflix_62
-      - YouTube梦歌|Netflix_1
-      - 节点狂魔投稿|Netflix_65
+      - YouTube梦歌|Netflix_118
+      - 🇭🇰_油管频道：全网最强白嫖
+      - YouTube梦歌|Netflix_101
+      - 🇹🇼台湾(youtube阿伟科技)
+      - 🇦🇺澳大利亚(youtube阿伟科技)
+      - 🇯🇵_油管频道：全网最强白嫖
+      - CN_65+TG@peekfun
+      - CN_75+TG@peekfun
+      - _油管频道：全网最强白嫖_1
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_3
+      - CN_29+TG@peekfun
+      - CN_222
+      - _油管频道：全网最强白嫖_4
+      - CN_69+TG@peekfun
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_6
+      - 日本(欢迎订阅Youtube破解资源君)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 节点狂魔投稿|Netflix_65
+      - 节点狂魔投稿|Netflix_25
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_27
+      - 节点狂魔投稿|Netflix_31
       - 节点狂魔投稿|Netflix_19
       - 节点狂魔投稿|Netflix_40
-      - 节点狂魔投稿|Netflix_25
-      - YouTube梦歌|Netflix_192
-      - 节点狂魔投稿|Netflix_31
-      - 节点狂魔投稿|Netflix_36
-      - 节点狂魔投稿|Netflix_29
       - 节点狂魔投稿|Netflix_21
-      - YouTube梦歌|Netflix_187
-      - 节点狂魔投稿|Netflix_27
       - YouTube梦歌|Netflix_146
+      - CN_244
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - YouTube梦歌|Netflix_195
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_169
-      - 节点狂魔投稿|Netflix_49
-      - 节点狂魔投稿|Netflix_42
-      - 节点狂魔投稿|Netflix_47
-      - 节点狂魔投稿|Netflix_67
       - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_166
-      - 节点狂魔投稿|Netflix_12
-      - YouTube梦歌|Netflix_184
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_226
-      - YouTube梦歌|Netflix_148
-      - 节点狂魔投稿|Netflix_28
       - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_6
-      - 节点狂魔投稿|Netflix_60
+      - YouTube梦歌|Netflix_136
+      - 🇨🇳_油管频道：全网最强白嫖
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_169
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_42
       - 节点狂魔投稿|Netflix_62
-      - YouTube梦歌|Netflix_1
-      - 节点狂魔投稿|Netflix_65
+      - YouTube梦歌|Netflix_118
+      - 🇭🇰_油管频道：全网最强白嫖
+      - YouTube梦歌|Netflix_101
+      - 🇹🇼台湾(youtube阿伟科技)
+      - 🇦🇺澳大利亚(youtube阿伟科技)
+      - 🇯🇵_油管频道：全网最强白嫖
+      - CN_65+TG@peekfun
+      - CN_75+TG@peekfun
+      - _油管频道：全网最强白嫖_1
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_3
+      - CN_29+TG@peekfun
+      - CN_222
+      - _油管频道：全网最强白嫖_4
+      - CN_69+TG@peekfun
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_6
+      - 日本(欢迎订阅Youtube破解资源君)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 节点狂魔投稿|Netflix_65
+      - 节点狂魔投稿|Netflix_25
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_27
+      - 节点狂魔投稿|Netflix_31
       - 节点狂魔投稿|Netflix_19
       - 节点狂魔投稿|Netflix_40
-      - 节点狂魔投稿|Netflix_25
-      - YouTube梦歌|Netflix_192
-      - 节点狂魔投稿|Netflix_31
-      - 节点狂魔投稿|Netflix_36
-      - 节点狂魔投稿|Netflix_29
       - 节点狂魔投稿|Netflix_21
-      - YouTube梦歌|Netflix_187
-      - 节点狂魔投稿|Netflix_27
       - YouTube梦歌|Netflix_146
+      - CN_244
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - YouTube梦歌|Netflix_195
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_169
-      - 节点狂魔投稿|Netflix_49
-      - 节点狂魔投稿|Netflix_42
-      - 节点狂魔投稿|Netflix_47
-      - 节点狂魔投稿|Netflix_67
       - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_166
-      - 节点狂魔投稿|Netflix_12
-      - YouTube梦歌|Netflix_184
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_226
-      - YouTube梦歌|Netflix_148
-      - 节点狂魔投稿|Netflix_28
       - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_6
-      - 节点狂魔投稿|Netflix_60
+      - YouTube梦歌|Netflix_136
+      - 🇨🇳_油管频道：全网最强白嫖
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_169
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_42
       - 节点狂魔投稿|Netflix_62
-      - YouTube梦歌|Netflix_1
-      - 节点狂魔投稿|Netflix_65
+      - YouTube梦歌|Netflix_118
+      - 🇭🇰_油管频道：全网最强白嫖
+      - YouTube梦歌|Netflix_101
+      - 🇹🇼台湾(youtube阿伟科技)
+      - 🇦🇺澳大利亚(youtube阿伟科技)
+      - 🇯🇵_油管频道：全网最强白嫖
+      - CN_65+TG@peekfun
+      - CN_75+TG@peekfun
+      - _油管频道：全网最强白嫖_1
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_3
+      - CN_29+TG@peekfun
+      - CN_222
+      - _油管频道：全网最强白嫖_4
+      - CN_69+TG@peekfun
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_6
+      - 日本(欢迎订阅Youtube破解资源君)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,38 +340,46 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 节点狂魔投稿|Netflix_65
+      - 节点狂魔投稿|Netflix_25
+      - 节点狂魔投稿|Netflix_36
+      - 节点狂魔投稿|Netflix_27
+      - 节点狂魔投稿|Netflix_31
       - 节点狂魔投稿|Netflix_19
       - 节点狂魔投稿|Netflix_40
-      - 节点狂魔投稿|Netflix_25
-      - YouTube梦歌|Netflix_192
-      - 节点狂魔投稿|Netflix_31
-      - 节点狂魔投稿|Netflix_36
-      - 节点狂魔投稿|Netflix_29
       - 节点狂魔投稿|Netflix_21
-      - YouTube梦歌|Netflix_187
-      - 节点狂魔投稿|Netflix_27
       - YouTube梦歌|Netflix_146
+      - CN_244
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - YouTube梦歌|Netflix_195
-      - YouTube梦歌|Netflix_101
-      - YouTube梦歌|Netflix_169
-      - 节点狂魔投稿|Netflix_49
-      - 节点狂魔投稿|Netflix_42
-      - 节点狂魔投稿|Netflix_47
-      - 节点狂魔投稿|Netflix_67
       - YouTube梦歌|Netflix_104
-      - YouTube梦歌|Netflix_166
-      - 节点狂魔投稿|Netflix_12
-      - YouTube梦歌|Netflix_184
-      - YouTube梦歌|Netflix_178
-      - YouTube梦歌|Netflix_226
-      - YouTube梦歌|Netflix_148
-      - 节点狂魔投稿|Netflix_28
       - YouTube梦歌|Netflix_94
-      - YouTube梦歌|Netflix_6
-      - 节点狂魔投稿|Netflix_60
+      - YouTube梦歌|Netflix_136
+      - 🇨🇳_油管频道：全网最强白嫖
+      - 节点狂魔投稿|Netflix_67
+      - YouTube梦歌|Netflix_169
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 节点狂魔投稿|Netflix_47
+      - 节点狂魔投稿|Netflix_42
       - 节点狂魔投稿|Netflix_62
-      - YouTube梦歌|Netflix_1
-      - 节点狂魔投稿|Netflix_65
+      - YouTube梦歌|Netflix_118
+      - 🇭🇰_油管频道：全网最强白嫖
+      - YouTube梦歌|Netflix_101
+      - 🇹🇼台湾(youtube阿伟科技)
+      - 🇦🇺澳大利亚(youtube阿伟科技)
+      - 🇯🇵_油管频道：全网最强白嫖
+      - CN_65+TG@peekfun
+      - CN_75+TG@peekfun
+      - _油管频道：全网最强白嫖_1
+      - _油管频道：全网最强白嫖_2
+      - _油管频道：全网最强白嫖_3
+      - CN_29+TG@peekfun
+      - CN_222
+      - _油管频道：全网最强白嫖_4
+      - CN_69+TG@peekfun
+      - _油管频道：全网最强白嫖_5
+      - _油管频道：全网最强白嫖_6
+      - 日本(欢迎订阅Youtube破解资源君)
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
