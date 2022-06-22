@@ -5,228 +5,200 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_117","ws-opts":{"path":"/wroot","headers":{"host":"pull.free.video.10010.com"}},"server":"hk-5.pannode.top","port":"80","uuid":"0fbae820-d7da-4404-a1ae-7c3e86cb55c3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_8","ws-opts":{"path":"/","headers":{"host":"shyd.ddnsguru.com"}},"server":"shyd.ddnsguru.com","port":"58777","uuid":"67d81d00-66de-3f68-91c6-0ac560181418","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_3","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_18","ws-opts":{"path":"/wroot","headers":{"host":"pull.free.video.10010.com"}},"server":"hk-iv.pannode.top","port":"80","uuid":"0fbae820-d7da-4404-a1ae-7c3e86cb55c3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_15","server":"bgpv2.ktyjsq.com","port":"12205","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_10","ws-opts":{"path":"/"},"server":"shyd.ddnsguru.com","port":"58777","uuid":"67d81d00-66de-3f68-91c6-0ac560181418","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_30","ws-opts":{"path":"/wroot","headers":{"host":"pull.free.video.10010.com"}},"server":"hk-iii.pannode.top","port":"80","uuid":"0fbae820-d7da-4404-a1ae-7c3e86cb55c3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_69","ws-opts":{"path":"/TG@Cliwn1i","headers":{"host":"hk.922833.xyz"}},"server":"hk.922833.xyz","port":"443","uuid":"95b69871-fdff-42dc-dc32-cf36b70ebb99","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_121","server":"azgy001.xiba1.xyz","port":6004,"password":"5558d355-a647-38ea-8b98-69d30d6bfd55","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_96","server":"azgy001.xiba1.xyz","port":6003,"password":"5558d355-a647-38ea-8b98-69d30d6bfd55","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
   - {"type":"trojan","name":"YouTube梦歌|Netflix_132","server":"azgy001.xiba1.xyz","port":6003,"password":"712c8991-9556-380b-9ab0-9d913d880318","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_148","server":"152.69.202.245","port":"27614","uuid":"a7fe18a9-8b49-43fb-ddde-b4934bf11862","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_61","ws-opts":{"path":"/wroot","headers":{"host":"pull.free.video.10010.com"}},"server":"hk-4.pannode.top","port":"80","uuid":"0fbae820-d7da-4404-a1ae-7c3e86cb55c3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_12","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"YouTube梦歌|Netflix_162","server":"azgy001.xiba1.xyz","port":6004,"password":"a4dd60ea-c23a-3533-99e1-2f58d9a95f79","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_105","server":"azgy001.xiba1.xyz","port":20711,"password":"a4dd60ea-c23a-3533-99e1-2f58d9a95f79","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_23","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_84","server":"azgy001.xiba1.xyz","port":20714,"password":"5558d355-a647-38ea-8b98-69d30d6bfd55","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_138","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw01.henet.cyou","port":"20000","uuid":"279e0915-b0ce-49c7-a4df-39f9232d2034","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_65","server":"azgy001.xiba1.xyz","port":20714,"password":"a4dd60ea-c23a-3533-99e1-2f58d9a95f79","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_137","server":"azgy001.xiba1.xyz","port":20716,"password":"a4dd60ea-c23a-3533-99e1-2f58d9a95f79","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_26","server":"bgpv2.ktyjsq.com","port":"12229","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_41","server":"azgy001.xiba1.xyz","port":20711,"password":"4dc75dae-6bde-3f60-8da8-219111c2f0d2","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_102","ws-opts":{"path":"/wroot","headers":{"host":"pull.free.video.10010.com"}},"server":"hk-3.pannode.top","port":"80","uuid":"0fbae820-d7da-4404-a1ae-7c3e86cb55c3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_157","server":"azgy001.xiba1.xyz","port":20710,"password":"5558d355-a647-38ea-8b98-69d30d6bfd55","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_66","ws-opts":{"path":"/wroot-us","headers":{"host":"pull.free.video.10010.com"}},"server":"us.pannode.top","port":"80","uuid":"0fbae820-d7da-4404-a1ae-7c3e86cb55c3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_1","server":"azhj001.xiba1.xyz","port":20727,"password":"e20f1565-2d2c-37fb-9d39-93d6861a9746","udp":true,"skip-cert-verify":true,"sni":"azhj001.xiba1.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_50","server":"azgy001.xiba1.xyz","port":6004,"password":"712c8991-9556-380b-9ab0-9d913d880318","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_8","ws-opts":{"path":"/","headers":{"host":"shyd.ddnsguru.com"}},"server":"shyd.ddnsguru.com","port":"58777","uuid":"67d81d00-66de-3f68-91c6-0ac560181418","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_10","ws-opts":{"path":"/"},"server":"shyd.ddnsguru.com","port":"58777","uuid":"67d81d00-66de-3f68-91c6-0ac560181418","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_15","server":"bgpv2.ktyjsq.com","port":"12205","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_4","server":"bgpv2.ktyjsq.com","port":"12221","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_127","server":"azgy001.xiba1.xyz","port":6003,"password":"a4dd60ea-c23a-3533-99e1-2f58d9a95f79","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_171","ws-opts":{"path":"/images","headers":{"host":"v.qq.com"}},"server":"dnsfree02.theworkpc.com","port":"39814","uuid":"3e0a6f9a-a478-4752-900d-837b39d70792","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_167","ws-opts":{"path":"/wroot","headers":{"host":"pull.free.video.10010.com"}},"server":"hk-i.pannode.top","port":"80","uuid":"0fbae820-d7da-4404-a1ae-7c3e86cb55c3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_148","server":"152.69.202.245","port":"27614","uuid":"a7fe18a9-8b49-43fb-ddde-b4934bf11862","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_12","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_92","server":"azgy001.xiba1.xyz","port":20714,"password":"712c8991-9556-380b-9ab0-9d913d880318","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_157","server":"azgy001.xiba1.xyz","port":20710,"password":"5558d355-a647-38ea-8b98-69d30d6bfd55","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_105","server":"azgy001.xiba1.xyz","port":20711,"password":"a4dd60ea-c23a-3533-99e1-2f58d9a95f79","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_65","server":"azgy001.xiba1.xyz","port":20714,"password":"a4dd60ea-c23a-3533-99e1-2f58d9a95f79","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_84","server":"azgy001.xiba1.xyz","port":20714,"password":"5558d355-a647-38ea-8b98-69d30d6bfd55","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_137","server":"azgy001.xiba1.xyz","port":20716,"password":"a4dd60ea-c23a-3533-99e1-2f58d9a95f79","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_23","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_91","server":"azgy001.xiba1.xyz","port":20711,"password":"712c8991-9556-380b-9ab0-9d913d880318","udp":true,"skip-cert-verify":true,"sni":"azgy001.xiba1.xyz"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_26","server":"bgpv2.ktyjsq.com","port":"12229","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_3","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - YouTube梦歌|Netflix_117
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_121
+      - YouTube梦歌|Netflix_96
       - YouTube梦歌|Netflix_132
-      - YouTube梦歌|Netflix_148
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_12
       - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_105
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_138
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_137
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_41
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_66
-      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_127
       - YouTube梦歌|Netflix_171
-      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_137
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - YouTube梦歌|Netflix_117
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_121
+      - YouTube梦歌|Netflix_96
       - YouTube梦歌|Netflix_132
-      - YouTube梦歌|Netflix_148
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_12
       - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_105
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_138
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_137
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_41
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_66
-      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_127
       - YouTube梦歌|Netflix_171
-      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_137
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_117
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_121
+      - YouTube梦歌|Netflix_96
       - YouTube梦歌|Netflix_132
-      - YouTube梦歌|Netflix_148
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_12
       - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_105
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_138
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_137
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_41
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_66
-      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_127
       - YouTube梦歌|Netflix_171
-      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_137
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_117
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_121
+      - YouTube梦歌|Netflix_96
       - YouTube梦歌|Netflix_132
-      - YouTube梦歌|Netflix_148
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_12
       - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_105
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_138
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_137
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_41
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_66
-      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_127
       - YouTube梦歌|Netflix_171
-      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_137
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - YouTube梦歌|Netflix_117
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_121
+      - YouTube梦歌|Netflix_96
       - YouTube梦歌|Netflix_132
-      - YouTube梦歌|Netflix_148
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_12
       - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_105
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_138
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_137
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_41
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_66
-      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_127
       - YouTube梦歌|Netflix_171
-      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_137
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_117
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_121
+      - YouTube梦歌|Netflix_96
       - YouTube梦歌|Netflix_132
-      - YouTube梦歌|Netflix_148
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_12
       - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_105
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_138
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_137
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_41
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_66
-      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_127
       - YouTube梦歌|Netflix_171
-      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_137
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -249,33 +221,29 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|Netflix_117
-      - YouTube梦歌|Netflix_8
-      - YouTube梦歌|Netflix_3
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_10
-      - YouTube梦歌|Netflix_30
-      - YouTube梦歌|Netflix_69
+      - YouTube梦歌|Netflix_121
+      - YouTube梦歌|Netflix_96
       - YouTube梦歌|Netflix_132
-      - YouTube梦歌|Netflix_148
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_12
       - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_105
-      - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_138
-      - YouTube梦歌|Netflix_65
-      - YouTube梦歌|Netflix_137
-      - YouTube梦歌|Netflix_26
-      - YouTube梦歌|Netflix_41
-      - YouTube梦歌|Netflix_102
-      - YouTube梦歌|Netflix_157
-      - YouTube梦歌|Netflix_66
-      - YouTube梦歌|Netflix_1
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_8
+      - YouTube梦歌|Netflix_10
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_127
       - YouTube梦歌|Netflix_171
-      - YouTube梦歌|Netflix_167
+      - YouTube梦歌|Netflix_148
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_157
+      - YouTube梦歌|Netflix_105
+      - YouTube梦歌|Netflix_65
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_137
+      - YouTube梦歌|Netflix_23
+      - YouTube梦歌|Netflix_91
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
