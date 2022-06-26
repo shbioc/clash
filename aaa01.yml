@@ -5,207 +5,137 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"|YouTube梦歌|Netflix_69","server":"36.139.154.162","port":45273,"cipher":"chacha20-ietf-poly1305","password":"3c636292-2bf3-4c3e-a13e-fb6ecf917b26"}
-  - {"type":"ss","name":"|YouTube梦歌|Netflix_25","server":"36.139.9.191","port":45706,"cipher":"chacha20-ietf-poly1305","password":"3c636292-2bf3-4c3e-a13e-fb6ecf917b26"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_20","server":"52.140.223.251","port":"55782","uuid":"e38a3615-e1b0-46d4-a965-5642ff066430","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_12","ws-opts":{"path":"/","headers":{"host":"t.me/mengge88888888"}},"server":"shyd.ddnsguru.com","port":"31817","uuid":"67d81d00-66de-3f68-91c6-0ac560181418","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_6","ws-opts":{"path":"/vmess","headers":{"host":"jp.vmess2.xservs.xyz"}},"server":"119.36.161.40","port":"443","uuid":"abb50f56-7451-4ab3-90a1-c847ddf57108","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_14","ws-opts":{"path":"/","headers":{"host":"t.me/mengge88888888"}},"server":"shyd.ddnsguru.com","port":"58777","uuid":"67d81d00-66de-3f68-91c6-0ac560181418","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_11","ws-opts":{"path":"/fastssh/fasffffa/62b30e2666a8e/","headers":{"host":"sg2.31vpn.com"}},"server":"119.36.161.40","port":"443","uuid":"9dc0c6aa-39a1-46be-9938-85999e3c3498","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_4","server":"gzyd1.52147.top","port":20120,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_8","server":"gzyd2.52147.top","port":20120,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
   - {"type":"trojan","name":"|YouTube梦歌|Netflix_26","server":"37.123.192.9","port":443,"password":"3fb3b8b4e9","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"|YouTube梦歌|Netflix_108","server":"us-01.licom.ml","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true,"sni":"us-01.licom.ml"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_36","ws-opts":{"path":"/vmess-ws","headers":{"host":"ca.922833.xyz"}},"server":"124.89.64.95","port":"443","uuid":"915bd968-12bf-4e8f-9835-bd66940d533a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸美国(yudou66.com玉豆分享)","ws-opts":{"path":"/v1252N93nZez6Py"},"server":"v125.v2dns.bar","port":"80","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇺🇸美国(yudou66.com+玉豆分享)","server":"ss2.2046.gq","port":4443,"password":"794871c6-022b-4498-b816-296e8a581d86","udp":true,"skip-cert-verify":true,"sni":"ss2.2046.gq"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_4","ws-opts":{"path":"/","headers":{"host":"a.189.cn"}},"server":"20.247.1.93","port":"46794","uuid":"704a1fa3-dd75-45f8-aa66-0a750e536a1f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_37","server":"43.154.40.244","port":"55715","uuid":"b2f1c27f-c24c-41d3-93de-f36063bb3f1f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"|YouTube梦歌|Netflix_34","server":"58.242.130.170","port":45164,"cipher":"chacha20-ietf-poly1305","password":"3c636292-2bf3-4c3e-a13e-fb6ecf917b26"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_54","server":"20.247.1.93","port":"1089","uuid":"704a1fa3-dd75-45f8-aa66-0a750e536a1f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_119","server":"52.175.67.109","port":"57384","uuid":"e0f72299-5561-4d65-e8af-130bc4aee3c7","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_68","server":"clown1i.eu.org","port":"10000","uuid":"c1386045-96a0-4363-e13a-00e4dca099ac","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_42","server":"203.138.98.199","port":28443,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_51","server":"164.70.68.67","port":28443,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_12","server":"hnyd.52147.top","port":20120,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_47","server":"103.173.255.234","port":28443,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_20","server":"103.173.255.21","port":28443,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_43","server":"103.173.255.228","port":28443,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_92","ws-opts":{"path":"/v1252N93nZez6Py"},"server":"v125.v2dns.bar","port":"80","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_19","server":"gzyd2.52147.top","port":20110,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_26","server":"hnyd.52147.top","port":20110,"password":"fd8bdab1-ca58-460c-94f5-8260a730e006","udp":true,"skip-cert-verify":true,"sni":"huayun.xyz"}
   - {"type":"vmess","name":"|YouTube梦歌|Netflix_1","server":"xui.zbao56.com","port":"50670","uuid":"61db0192-b016-4d17-fd54-140d9980edaa","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_3","server":"20.247.1.93","port":"1089","uuid":"704a1fa3-dd75-45f8-aa66-0a750e536a1f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_94","server":"20.247.1.93","port":"1089","uuid":"704a1fa3-dd75-45f8-aa66-0a750e536a1f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_111","server":"20.247.1.93","port":"1089","uuid":"704a1fa3-dd75-45f8-aa66-0a750e536a1f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"|YouTube梦歌|Netflix_109","ws-opts":{"path":"/fastssh/fsafsaf/62b30dfa54df6/","headers":{"host":"us2.31vpn.com"}},"server":"119.36.161.40","port":"443","uuid":"e715caca-c520-4388-bfc0-09707170867a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆分享)","ws-opts":{"path":"/v1252N93nZez6Py","headers":{"host":"v125.v2dns.bar"}},"server":"v125.v2dns.bar","port":"80","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"YouTube梦歌|Netflix_6","server":"183.232.230.214","port":49870,"cipher":"chacha20-ietf-poly1305","password":"fd8bdab1-ca58-460c-94f5-8260a730e006"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '|YouTube梦歌|Netflix_69'
-      - '|YouTube梦歌|Netflix_25'
-      - '|YouTube梦歌|Netflix_20'
-      - '|YouTube梦歌|Netflix_12'
-      - '|YouTube梦歌|Netflix_6'
-      - '|YouTube梦歌|Netflix_14'
-      - '|YouTube梦歌|Netflix_11'
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_8
       - '|YouTube梦歌|Netflix_26'
-      - '|YouTube梦歌|Netflix_108'
-      - '|YouTube梦歌|Netflix_36'
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 🇺🇸美国(yudou66.com+玉豆分享)
-      - '|YouTube梦歌|Netflix_4'
-      - '|YouTube梦歌|Netflix_37'
-      - '|YouTube梦歌|Netflix_34'
-      - '|YouTube梦歌|Netflix_54'
-      - '|YouTube梦歌|Netflix_119'
-      - '|YouTube梦歌|Netflix_68'
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_26
       - '|YouTube梦歌|Netflix_1'
-      - '|YouTube梦歌|Netflix_3'
-      - '|YouTube梦歌|Netflix_94'
-      - '|YouTube梦歌|Netflix_111'
-      - '|YouTube梦歌|Netflix_109'
-      - 美国(yudou66.com玉豆分享)
+      - YouTube梦歌|Netflix_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '|YouTube梦歌|Netflix_69'
-      - '|YouTube梦歌|Netflix_25'
-      - '|YouTube梦歌|Netflix_20'
-      - '|YouTube梦歌|Netflix_12'
-      - '|YouTube梦歌|Netflix_6'
-      - '|YouTube梦歌|Netflix_14'
-      - '|YouTube梦歌|Netflix_11'
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_8
       - '|YouTube梦歌|Netflix_26'
-      - '|YouTube梦歌|Netflix_108'
-      - '|YouTube梦歌|Netflix_36'
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 🇺🇸美国(yudou66.com+玉豆分享)
-      - '|YouTube梦歌|Netflix_4'
-      - '|YouTube梦歌|Netflix_37'
-      - '|YouTube梦歌|Netflix_34'
-      - '|YouTube梦歌|Netflix_54'
-      - '|YouTube梦歌|Netflix_119'
-      - '|YouTube梦歌|Netflix_68'
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_26
       - '|YouTube梦歌|Netflix_1'
-      - '|YouTube梦歌|Netflix_3'
-      - '|YouTube梦歌|Netflix_94'
-      - '|YouTube梦歌|Netflix_111'
-      - '|YouTube梦歌|Netflix_109'
-      - 美国(yudou66.com玉豆分享)
+      - YouTube梦歌|Netflix_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '|YouTube梦歌|Netflix_69'
-      - '|YouTube梦歌|Netflix_25'
-      - '|YouTube梦歌|Netflix_20'
-      - '|YouTube梦歌|Netflix_12'
-      - '|YouTube梦歌|Netflix_6'
-      - '|YouTube梦歌|Netflix_14'
-      - '|YouTube梦歌|Netflix_11'
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_8
       - '|YouTube梦歌|Netflix_26'
-      - '|YouTube梦歌|Netflix_108'
-      - '|YouTube梦歌|Netflix_36'
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 🇺🇸美国(yudou66.com+玉豆分享)
-      - '|YouTube梦歌|Netflix_4'
-      - '|YouTube梦歌|Netflix_37'
-      - '|YouTube梦歌|Netflix_34'
-      - '|YouTube梦歌|Netflix_54'
-      - '|YouTube梦歌|Netflix_119'
-      - '|YouTube梦歌|Netflix_68'
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_26
       - '|YouTube梦歌|Netflix_1'
-      - '|YouTube梦歌|Netflix_3'
-      - '|YouTube梦歌|Netflix_94'
-      - '|YouTube梦歌|Netflix_111'
-      - '|YouTube梦歌|Netflix_109'
-      - 美国(yudou66.com玉豆分享)
+      - YouTube梦歌|Netflix_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '|YouTube梦歌|Netflix_69'
-      - '|YouTube梦歌|Netflix_25'
-      - '|YouTube梦歌|Netflix_20'
-      - '|YouTube梦歌|Netflix_12'
-      - '|YouTube梦歌|Netflix_6'
-      - '|YouTube梦歌|Netflix_14'
-      - '|YouTube梦歌|Netflix_11'
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_8
       - '|YouTube梦歌|Netflix_26'
-      - '|YouTube梦歌|Netflix_108'
-      - '|YouTube梦歌|Netflix_36'
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 🇺🇸美国(yudou66.com+玉豆分享)
-      - '|YouTube梦歌|Netflix_4'
-      - '|YouTube梦歌|Netflix_37'
-      - '|YouTube梦歌|Netflix_34'
-      - '|YouTube梦歌|Netflix_54'
-      - '|YouTube梦歌|Netflix_119'
-      - '|YouTube梦歌|Netflix_68'
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_26
       - '|YouTube梦歌|Netflix_1'
-      - '|YouTube梦歌|Netflix_3'
-      - '|YouTube梦歌|Netflix_94'
-      - '|YouTube梦歌|Netflix_111'
-      - '|YouTube梦歌|Netflix_109'
-      - 美国(yudou66.com玉豆分享)
+      - YouTube梦歌|Netflix_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '|YouTube梦歌|Netflix_69'
-      - '|YouTube梦歌|Netflix_25'
-      - '|YouTube梦歌|Netflix_20'
-      - '|YouTube梦歌|Netflix_12'
-      - '|YouTube梦歌|Netflix_6'
-      - '|YouTube梦歌|Netflix_14'
-      - '|YouTube梦歌|Netflix_11'
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_8
       - '|YouTube梦歌|Netflix_26'
-      - '|YouTube梦歌|Netflix_108'
-      - '|YouTube梦歌|Netflix_36'
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 🇺🇸美国(yudou66.com+玉豆分享)
-      - '|YouTube梦歌|Netflix_4'
-      - '|YouTube梦歌|Netflix_37'
-      - '|YouTube梦歌|Netflix_34'
-      - '|YouTube梦歌|Netflix_54'
-      - '|YouTube梦歌|Netflix_119'
-      - '|YouTube梦歌|Netflix_68'
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_26
       - '|YouTube梦歌|Netflix_1'
-      - '|YouTube梦歌|Netflix_3'
-      - '|YouTube梦歌|Netflix_94'
-      - '|YouTube梦歌|Netflix_111'
-      - '|YouTube梦歌|Netflix_109'
-      - 美国(yudou66.com玉豆分享)
+      - YouTube梦歌|Netflix_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '|YouTube梦歌|Netflix_69'
-      - '|YouTube梦歌|Netflix_25'
-      - '|YouTube梦歌|Netflix_20'
-      - '|YouTube梦歌|Netflix_12'
-      - '|YouTube梦歌|Netflix_6'
-      - '|YouTube梦歌|Netflix_14'
-      - '|YouTube梦歌|Netflix_11'
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_8
       - '|YouTube梦歌|Netflix_26'
-      - '|YouTube梦歌|Netflix_108'
-      - '|YouTube梦歌|Netflix_36'
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 🇺🇸美国(yudou66.com+玉豆分享)
-      - '|YouTube梦歌|Netflix_4'
-      - '|YouTube梦歌|Netflix_37'
-      - '|YouTube梦歌|Netflix_34'
-      - '|YouTube梦歌|Netflix_54'
-      - '|YouTube梦歌|Netflix_119'
-      - '|YouTube梦歌|Netflix_68'
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_26
       - '|YouTube梦歌|Netflix_1'
-      - '|YouTube梦歌|Netflix_3'
-      - '|YouTube梦歌|Netflix_94'
-      - '|YouTube梦歌|Netflix_111'
-      - '|YouTube梦歌|Netflix_109'
-      - 美国(yudou66.com玉豆分享)
+      - YouTube梦歌|Netflix_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,30 +158,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '|YouTube梦歌|Netflix_69'
-      - '|YouTube梦歌|Netflix_25'
-      - '|YouTube梦歌|Netflix_20'
-      - '|YouTube梦歌|Netflix_12'
-      - '|YouTube梦歌|Netflix_6'
-      - '|YouTube梦歌|Netflix_14'
-      - '|YouTube梦歌|Netflix_11'
+      - YouTube梦歌|Netflix_4
+      - YouTube梦歌|Netflix_8
       - '|YouTube梦歌|Netflix_26'
-      - '|YouTube梦歌|Netflix_108'
-      - '|YouTube梦歌|Netflix_36'
-      - 🇺🇸美国(yudou66.com玉豆分享)
-      - 🇺🇸美国(yudou66.com+玉豆分享)
-      - '|YouTube梦歌|Netflix_4'
-      - '|YouTube梦歌|Netflix_37'
-      - '|YouTube梦歌|Netflix_34'
-      - '|YouTube梦歌|Netflix_54'
-      - '|YouTube梦歌|Netflix_119'
-      - '|YouTube梦歌|Netflix_68'
+      - YouTube梦歌|Netflix_42
+      - YouTube梦歌|Netflix_51
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|Netflix_47
+      - YouTube梦歌|Netflix_20
+      - YouTube梦歌|Netflix_43
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_19
+      - YouTube梦歌|Netflix_26
       - '|YouTube梦歌|Netflix_1'
-      - '|YouTube梦歌|Netflix_3'
-      - '|YouTube梦歌|Netflix_94'
-      - '|YouTube梦歌|Netflix_111'
-      - '|YouTube梦歌|Netflix_109'
-      - 美国(yudou66.com玉豆分享)
+      - YouTube梦歌|Netflix_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
