@@ -5,256 +5,277 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖","ws-opts":{"path":"/fanqiangvpn.com","headers":{"host":"0.vpnfanqiang.com"}},"server":"20.187.88.142","port":"80","uuid":"0b54a38a-584a-421e-9e41-35a95cf3baed","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖","server":"dx15.jicojs.com","port":443,"cipher":"aes-256-gcm","password":"46c027d028b4","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"dx15.jicojs.com"}}
+  - {"type":"ss","name":"YouTube：全网最强白嫖","server":"103.177.32.147","port":443,"cipher":"chacha20-ietf-poly1305","password":"8247a4cf6ed4","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"twd1000tw001.fengchiline.xyz"}}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_63","ws-opts":{"path":"/MDVMDGJUZI","headers":{"host":"zzydnfw-v.bp365.cf"}},"server":"zzydnfw-v.bp365.cf","port":"443","uuid":"6a522c05-7182-4540-8c1a-6b15965f64b0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇺🇸_YouTube：全网最强白嫖_1","server":"s3.hazz.win","port":12340,"password":"dfbf0d67-f03d-4184-a224-c2d64a571f99","udp":true,"skip-cert-verify":true,"sni":"static.dingtalk.com"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全网最强白嫖_2","server":"104.243.30.252","port":246,"cipher":"aes-256-cfb","password":"bwhskrskr03"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全网最强白嫖_3","server":"la.wogong.net","port":33370,"cipher":"xchacha20-ietf-poly1305","password":"9MLSpPmNt"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_13","ws-opts":{"path":"/iBiO9z3q","headers":{"host":"www.ezreal222.top"}},"server":"119.36.161.40","port":"443","uuid":"e5f73720-f5ab-44df-a4fa-d7511e0e6c55","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_38","ws-opts":{"path":"/F9rTJqewX","headers":{"host":"www.ezreal333.xyz"}},"server":"119.36.161.40","port":"443","uuid":"0af290ad-8266-4797-9625-e8b5f63c6776","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰中国香港(youtube阿伟科技)","server":"16.162.100.9","port":"6688","uuid":"703a041f-b1f5-46e2-ca57-7329a9c62844","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国(youtube阿伟科技)_1","server":"107.182.187.5","port":"35159","uuid":"c6ce7985-eb44-4a91-f5b2-f36eca2a4208","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸美国(youtube阿伟科技)_2","server":"107.182.187.5","port":"35159","uuid":"c6ce7985-eb44-4a91-f5b2-f36eca2a4208","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_21_1","server":"pf.freev2r.xyz","port":41314,"password":"e3e0595e-5cad-4b32-a4e1-3a099549102e","udp":true,"skip-cert-verify":true,"sni":"nt15.freev2r.xyz"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_13_1","ws-opts":{"path":"/iBiO9z3q","headers":{"host":"www.ezreal222.top"}},"server":"119.36.161.40","port":"443","uuid":"e5f73720-f5ab-44df-a4fa-d7511e0e6c55","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_30","ws-opts":{"path":"/LBtqBsjqS","headers":{"host":"ezreal222.xyz"}},"server":"119.36.161.40","port":"443","uuid":"7fe818f9-2a5c-4a79-904a-52a16b0de2f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_15","ws-opts":{"path":"/YI4LO","headers":{"host":"www.ezreal333.site"}},"server":"119.36.161.40","port":"443","uuid":"7cd462cd-6d20-4e57-82e5-0a9b2f03b44f","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_19","ws-opts":{"path":"/ka0oNKB8","headers":{"host":"www.ezreal222.icu"}},"server":"119.36.161.40","port":"443","uuid":"135d36cc-7238-4959-ae8b-3eb5629d4455","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_18","ws-opts":{"path":"/oSAKFYE7qmuS","headers":{"host":"ezreal111.fun"}},"server":"119.36.161.40","port":"443","uuid":"fbd5e6ef-8a60-425c-9d71-9283ce583b88","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_50","ws-opts":{"path":"/kUkFOp","headers":{"host":"ezreal222.online"}},"server":"119.36.161.40","port":"443","uuid":"4c92c9f1-0494-4b18-836b-4631fdd70f57","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_16","ws-opts":{"path":"/YvigR","headers":{"host":"www.zhenjun.xyz"}},"server":"119.36.161.40","port":"443","uuid":"e2009aa9-2595-4f1e-9be4-c2b4af01ca35","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_21","ws-opts":{"path":"/C8N5gq","headers":{"host":"ezreal333.icu"}},"server":"119.36.161.40","port":"443","uuid":"1037d420-cf69-4e89-bdaa-176d996ca877","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"YouTube梦歌|Netflix_13_2","server":"ftp.cn.debian.cdnet.in","port":8070,"cipher":"aes-128-gcm","password":"599bf7cd-cd43-4c1d-b6c6-1c732bece35d"}
+  - {"type":"vmess","name":"🇺🇸美国(youtube阿伟科技)_3","server":"107.182.187.5","port":"35159","uuid":"c6ce7985-eb44-4a91-f5b2-f36eca2a4208","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_14","ws-opts":{"path":"/cEYdT4NYs","headers":{"host":"ezreal222.site"}},"server":"119.36.161.40","port":"443","uuid":"c093becf-c78b-4d12-9f7a-e2442a9966b2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_23","ws-opts":{"path":"/pcmVYD","headers":{"host":"www.ezreal111.top"}},"server":"119.36.161.40","port":"443","uuid":"e24c7789-e49c-409e-be78-917e109739a4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_30","ws-opts":{"path":"/LBtqBsjqS","headers":{"host":"ezreal222.xyz"}},"server":"119.36.161.40","port":"443","uuid":"7fe818f9-2a5c-4a79-904a-52a16b0de2f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"YouTube梦歌|Netflix_20","ws-opts":{"path":"/fl7aXN","headers":{"host":"www.ezreal333.fun"}},"server":"119.36.161.40","port":"443","uuid":"1a23caec-d8d6-427f-8501-242cd34663dc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_25","ws-opts":{"path":"/dYydn7sr6G","headers":{"host":"www.ezreal222.fun"}},"server":"119.36.161.40","port":"443","uuid":"57b32141-a106-429f-9c31-1e2ef56c90fb","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_33","server":"107.173.83.214","port":"37541","uuid":"ef59a586-0532-4763-f353-948eb413f00d","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_15","ws-opts":{"path":"/YI4LO","headers":{"host":"www.ezreal333.site"}},"server":"119.36.161.40","port":"443","uuid":"7cd462cd-6d20-4e57-82e5-0a9b2f03b44f","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_1","server":"85.208.108.21","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"YouTube梦歌|Netflix_39","server":"85.208.108.94","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"US1(IEPL)+-+负载均衡专线","server":"ftp.cn.debian.cdnet.in","port":8070,"cipher":"aes-128-gcm","password":"599bf7cd-cd43-4c1d-b6c6-1c732bece35d"}
-  - {"type":"trojan","name":"YouTube梦歌|Netflix_26","server":"azgy001.xiba1.xyz","port":20789,"password":"b2100b79-d571-354a-b706-6b0f7b55d343","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_18_1","ws-opts":{"path":"/oSAKFYE7qmuS","headers":{"host":"ezreal111.fun"}},"server":"119.36.161.40","port":"443","uuid":"fbd5e6ef-8a60-425c-9d71-9283ce583b88","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_21_2","ws-opts":{"path":"/C8N5gq","headers":{"host":"ezreal333.icu"}},"server":"119.36.161.40","port":"443","uuid":"1037d420-cf69-4e89-bdaa-176d996ca877","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_50","ws-opts":{"path":"/kUkFOp","headers":{"host":"ezreal222.online"}},"server":"119.36.161.40","port":"443","uuid":"4c92c9f1-0494-4b18-836b-4631fdd70f57","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_16","ws-opts":{"path":"/YvigR","headers":{"host":"www.zhenjun.xyz"}},"server":"119.36.161.40","port":"443","uuid":"e2009aa9-2595-4f1e-9be4-c2b4af01ca35","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","name":"YouTube梦歌|Netflix_111","server":"167.88.61.14","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇫🇷法国(youtube阿伟科技)","server":"195.154.200.150","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"YouTube-aweikeji"}},"server":"in-us-1.onebox6.org","port":"38401","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_33","server":"107.173.83.214","port":"37541","uuid":"ef59a586-0532-4763-f353-948eb413f00d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"YouTube梦歌|Netflix_18_2","server":"ftp.cn.debian.cdnet.in","port":8050,"cipher":"aes-128-gcm","password":"599bf7cd-cd43-4c1d-b6c6-1c732bece35d"}
   - {"type":"ss","name":"YouTube梦歌|Netflix_95","server":"85.208.108.94","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"YouTube梦歌|Netflix_82","server":"85.208.108.94","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_2","server":"85.208.108.21","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_49","ws-opts":{"path":"/fanqiangvpn.com","headers":{"host":"0.vpnfanqiang.com"}},"server":"0.vpnfanqiang.com","port":"80","uuid":"0b54a38a-584a-421e-9e41-35a95cf3baed","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖","server":"dx15.jicojs.com","port":443,"cipher":"aes-256-gcm","password":"46c027d028b4","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"dx15.jicojs.com"}}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_1","server":"85.208.108.21","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"@ziyuanfenxiangshi1_🇯🇵_JP_981","server":"85.208.108.91","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_2","server":"85.208.108.21","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"YouTube梦歌|Netflix_39","server":"85.208.108.94","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🇯🇵_YouTube：全网最强白嫖_3","server":"85.208.108.21","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"🇺🇸美国(youtube阿伟科技)_4","server":"38.121.43.65","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"🇨🇳_YouTube：全网最强白嫖","server":"ftp.cn.debian.cdnet.in","port":8030,"cipher":"aes-128-gcm","password":"599bf7cd-cd43-4c1d-b6c6-1c732bece35d"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_27","server":"pf.freev2r.xyz","port":12053,"password":"e3e0595e-5cad-4b32-a4e1-3a099549102e","udp":true,"skip-cert-verify":true,"sni":"nt1.freev2r.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_25","server":"zf.freev2r.xyz","port":32053,"password":"e3e0595e-5cad-4b32-a4e1-3a099549102e","udp":true,"skip-cert-verify":true,"sni":"nt11.freev2r.xyz"}
+  - {"type":"trojan","name":"YouTube梦歌|Netflix_22","server":"zf.freev2r.xyz","port":52087,"password":"e3e0595e-5cad-4b32-a4e1-3a099549102e","udp":true,"skip-cert-verify":true,"sni":"nt13.freev2r.xyz"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰_YouTube：全网最强白嫖
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube：全网最强白嫖
       - YouTube梦歌|Netflix_63
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_38
+      - 🇭🇰中国香港(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - YouTube梦歌|Netflix_21_1
+      - YouTube梦歌|Netflix_13_1
+      - YouTube梦歌|Netflix_30
+      - YouTube梦歌|Netflix_15
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_13_2
+      - 🇺🇸美国(youtube阿伟科技)_3
       - YouTube梦歌|Netflix_14
       - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_30
       - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_15
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - YouTube梦歌|Netflix_39
-      - US1(IEPL)+-+负载均衡专线
-      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_18_1
+      - YouTube梦歌|Netflix_21_2
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_16
       - YouTube梦歌|Netflix_111
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_18_2
       - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_82
+      - 🇯🇵_YouTube：全网最强白嫖_1
+      - '@ziyuanfenxiangshi1_🇯🇵_JP_981'
       - 🇯🇵_YouTube：全网最强白嫖_2
-      - YouTube梦歌|Netflix_49
-      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_39
+      - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇺🇸美国(youtube阿伟科技)_4
+      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_25
+      - YouTube梦歌|Netflix_22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰_YouTube：全网最强白嫖
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube：全网最强白嫖
       - YouTube梦歌|Netflix_63
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_38
+      - 🇭🇰中国香港(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - YouTube梦歌|Netflix_21_1
+      - YouTube梦歌|Netflix_13_1
+      - YouTube梦歌|Netflix_30
+      - YouTube梦歌|Netflix_15
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_13_2
+      - 🇺🇸美国(youtube阿伟科技)_3
       - YouTube梦歌|Netflix_14
       - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_30
       - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_15
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - YouTube梦歌|Netflix_39
-      - US1(IEPL)+-+负载均衡专线
-      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_18_1
+      - YouTube梦歌|Netflix_21_2
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_16
       - YouTube梦歌|Netflix_111
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_18_2
       - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_82
+      - 🇯🇵_YouTube：全网最强白嫖_1
+      - '@ziyuanfenxiangshi1_🇯🇵_JP_981'
       - 🇯🇵_YouTube：全网最强白嫖_2
-      - YouTube梦歌|Netflix_49
-      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_39
+      - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇺🇸美国(youtube阿伟科技)_4
+      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_25
+      - YouTube梦歌|Netflix_22
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰_YouTube：全网最强白嫖
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube：全网最强白嫖
       - YouTube梦歌|Netflix_63
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_38
+      - 🇭🇰中国香港(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - YouTube梦歌|Netflix_21_1
+      - YouTube梦歌|Netflix_13_1
+      - YouTube梦歌|Netflix_30
+      - YouTube梦歌|Netflix_15
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_13_2
+      - 🇺🇸美国(youtube阿伟科技)_3
       - YouTube梦歌|Netflix_14
       - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_30
       - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_15
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - YouTube梦歌|Netflix_39
-      - US1(IEPL)+-+负载均衡专线
-      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_18_1
+      - YouTube梦歌|Netflix_21_2
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_16
       - YouTube梦歌|Netflix_111
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_18_2
       - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_82
+      - 🇯🇵_YouTube：全网最强白嫖_1
+      - '@ziyuanfenxiangshi1_🇯🇵_JP_981'
       - 🇯🇵_YouTube：全网最强白嫖_2
-      - YouTube梦歌|Netflix_49
-      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_39
+      - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇺🇸美国(youtube阿伟科技)_4
+      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_25
+      - YouTube梦歌|Netflix_22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_YouTube：全网最强白嫖
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube：全网最强白嫖
       - YouTube梦歌|Netflix_63
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_38
+      - 🇭🇰中国香港(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - YouTube梦歌|Netflix_21_1
+      - YouTube梦歌|Netflix_13_1
+      - YouTube梦歌|Netflix_30
+      - YouTube梦歌|Netflix_15
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_13_2
+      - 🇺🇸美国(youtube阿伟科技)_3
       - YouTube梦歌|Netflix_14
       - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_30
       - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_15
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - YouTube梦歌|Netflix_39
-      - US1(IEPL)+-+负载均衡专线
-      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_18_1
+      - YouTube梦歌|Netflix_21_2
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_16
       - YouTube梦歌|Netflix_111
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_18_2
       - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_82
+      - 🇯🇵_YouTube：全网最强白嫖_1
+      - '@ziyuanfenxiangshi1_🇯🇵_JP_981'
       - 🇯🇵_YouTube：全网最强白嫖_2
-      - YouTube梦歌|Netflix_49
-      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_39
+      - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇺🇸美国(youtube阿伟科技)_4
+      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_25
+      - YouTube梦歌|Netflix_22
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰_YouTube：全网最强白嫖
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube：全网最强白嫖
       - YouTube梦歌|Netflix_63
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_38
+      - 🇭🇰中国香港(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - YouTube梦歌|Netflix_21_1
+      - YouTube梦歌|Netflix_13_1
+      - YouTube梦歌|Netflix_30
+      - YouTube梦歌|Netflix_15
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_13_2
+      - 🇺🇸美国(youtube阿伟科技)_3
       - YouTube梦歌|Netflix_14
       - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_30
       - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_15
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - YouTube梦歌|Netflix_39
-      - US1(IEPL)+-+负载均衡专线
-      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_18_1
+      - YouTube梦歌|Netflix_21_2
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_16
       - YouTube梦歌|Netflix_111
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_18_2
       - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_82
+      - 🇯🇵_YouTube：全网最强白嫖_1
+      - '@ziyuanfenxiangshi1_🇯🇵_JP_981'
       - 🇯🇵_YouTube：全网最强白嫖_2
-      - YouTube梦歌|Netflix_49
-      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_39
+      - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇺🇸美国(youtube阿伟科技)_4
+      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_25
+      - YouTube梦歌|Netflix_22
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰_YouTube：全网最强白嫖
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube：全网最强白嫖
       - YouTube梦歌|Netflix_63
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_38
+      - 🇭🇰中国香港(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - YouTube梦歌|Netflix_21_1
+      - YouTube梦歌|Netflix_13_1
+      - YouTube梦歌|Netflix_30
+      - YouTube梦歌|Netflix_15
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_13_2
+      - 🇺🇸美国(youtube阿伟科技)_3
       - YouTube梦歌|Netflix_14
       - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_30
       - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_15
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - YouTube梦歌|Netflix_39
-      - US1(IEPL)+-+负载均衡专线
-      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_18_1
+      - YouTube梦歌|Netflix_21_2
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_16
       - YouTube梦歌|Netflix_111
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_18_2
       - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_82
+      - 🇯🇵_YouTube：全网最强白嫖_1
+      - '@ziyuanfenxiangshi1_🇯🇵_JP_981'
       - 🇯🇵_YouTube：全网最强白嫖_2
-      - YouTube梦歌|Netflix_49
-      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_39
+      - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇺🇸美国(youtube阿伟科技)_4
+      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_25
+      - YouTube梦歌|Netflix_22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -277,37 +298,40 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰_YouTube：全网最强白嫖
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube：全网最强白嫖
       - YouTube梦歌|Netflix_63
-      - 🇺🇸_YouTube：全网最强白嫖_1
-      - 🇺🇸_YouTube：全网最强白嫖_2
-      - 🇺🇸_YouTube：全网最强白嫖_3
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_38
+      - 🇭🇰中国香港(youtube阿伟科技)
+      - 🇺🇸美国(youtube阿伟科技)_1
+      - 🇺🇸美国(youtube阿伟科技)_2
+      - YouTube梦歌|Netflix_21_1
+      - YouTube梦歌|Netflix_13_1
+      - YouTube梦歌|Netflix_30
+      - YouTube梦歌|Netflix_15
       - YouTube梦歌|Netflix_19
-      - YouTube梦歌|Netflix_18
-      - YouTube梦歌|Netflix_50
-      - YouTube梦歌|Netflix_16
-      - YouTube梦歌|Netflix_21
+      - YouTube梦歌|Netflix_13_2
+      - 🇺🇸美国(youtube阿伟科技)_3
       - YouTube梦歌|Netflix_14
       - YouTube梦歌|Netflix_23
-      - YouTube梦歌|Netflix_30
       - YouTube梦歌|Netflix_20
-      - YouTube梦歌|Netflix_25
-      - YouTube梦歌|Netflix_33
-      - YouTube梦歌|Netflix_15
-      - 🇯🇵_YouTube：全网最强白嫖_1
-      - YouTube梦歌|Netflix_39
-      - US1(IEPL)+-+负载均衡专线
-      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_18_1
+      - YouTube梦歌|Netflix_21_2
+      - YouTube梦歌|Netflix_50
+      - YouTube梦歌|Netflix_16
       - YouTube梦歌|Netflix_111
-      - 🇫🇷法国(youtube阿伟科技)
-      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_33
+      - YouTube梦歌|Netflix_18_2
       - YouTube梦歌|Netflix_95
-      - YouTube梦歌|Netflix_82
+      - 🇯🇵_YouTube：全网最强白嫖_1
+      - '@ziyuanfenxiangshi1_🇯🇵_JP_981'
       - 🇯🇵_YouTube：全网最强白嫖_2
-      - YouTube梦歌|Netflix_49
-      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_39
+      - 🇯🇵_YouTube：全网最强白嫖_3
+      - 🇺🇸美国(youtube阿伟科技)_4
+      - 🇨🇳_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_27
+      - YouTube梦歌|Netflix_25
+      - YouTube梦歌|Netflix_22
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
