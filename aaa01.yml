@@ -5,144 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"Relay_🇭🇰HK-🇯🇵JP_161","server":"azhj001.xiba1.xyz","port":20800,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true,"sni":"azhj001.xiba1.xyz"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"Relay_🇭🇰HK-🇯🇵JP_158","server":"azhj001.xiba1.xyz","port":20803,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true,"sni":"azhj001.xiba1.xyz"}
-  - {"type":"trojan","name":"Relay_🇺🇸US-🇷🇺RU_238","server":"hj001.xiba1.xyz","port":20762,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true,"sni":"hj001.xiba1.xyz"}
-  - {"type":"ss","name":"YouTube：全网最强白嫖","server":"fn600mlines008.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"fc568c325d09","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines008.fnline.vip"}}
-  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_236","server":"azhj001.xiba1.xyz","port":20714,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true,"sni":"azhj001.xiba1.xyz"}
-  - {"type":"trojan","name":"_HK_香港->🇺🇸_US_美国","server":"azhj001.xiba1.xyz","port":20715,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true,"sni":"azhj001.xiba1.xyz"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_32","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_24","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_1","ws-opts":{"path":"/","headers":{"host":"yd.tbstbstbs.life"}},"server":"yd.tbstbstbs.life","port":"18820","uuid":"7d4785a1-40d5-3cd8-a6e2-e02927728250","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"_HK_香港->🇯🇵_JP_日本","server":"azhj001.xiba1.xyz","port":20804,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true,"sni":"azhj001.xiba1.xyz"}
-  - {"type":"trojan","name":"Relay_🇺🇸US-🇯🇵JP_240","server":"azhj001.xiba1.xyz","port":20802,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true,"sni":"azhj001.xiba1.xyz"}
-  - {"type":"vmess","name":"YouTube梦歌|Netflix_3","ws-opts":{"path":"/","headers":{"host":"dx.tbstbstbs.xyz"}},"server":"dx.tbstbstbs.xyz","port":"18820","uuid":"7d4785a1-40d5-3cd8-a6e2-e02927728250","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"Relay_🇭🇰HK-🇯🇵JP_159","server":"azhj001.xiba1.xyz","port":20801,"password":"3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a","udp":true,"skip-cert-verify":true,"sni":"azhj001.xiba1.xyz"}
+  - {"type":"trojan","name":"Taiwan+01","server":"tw1.infininode.cf","port":62001,"password":"8fbc1abe-7a07-462d-8381-001c308b9d54","udp":true,"skip-cert-verify":true,"sni":"tw1.infininode.cf"}
+  - {"type":"trojan","name":"Singapore+01","server":"sg1.infininode.cf","port":62003,"password":"8fbc1abe-7a07-462d-8381-001c308b9d54","udp":true,"skip-cert-verify":true,"sni":"sg1.infininode.cf"}
+  - {"type":"ss","name":"YouTube：全网最强白嫖","server":"103.177.32.147","port":443,"cipher":"chacha20-ietf-poly1305","password":"8247a4cf6ed4","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"twd1000tw001.fengchiline.xyz"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖","server":"fn600mlines020.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"5dac918f6134","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines020.fnline.info"}}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_26","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.25055502.xyz"}},"server":"119.36.161.40","port":"443","uuid":"2a23dbd5-09cf-4aa8-a835-3230728c4973","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"Hong+Kong+02+3","server":"hk2.infininode.cf","port":62008,"password":"8fbc1abe-7a07-462d-8381-001c308b9d54","udp":true,"skip-cert-verify":true,"sni":"hk2.infininode.cf"}
+  - {"type":"trojan","name":"Hong+Kong+03","server":"hk3.infininode.cf","port":62009,"password":"8fbc1abe-7a07-462d-8381-001c308b9d54","udp":true,"skip-cert-verify":true,"sni":"hk3.infininode.cf"}
+  - {"type":"trojan","name":"Taiwan+02","server":"tw2.infininode.cf","port":62002,"password":"8fbc1abe-7a07-462d-8381-001c308b9d54","udp":true,"skip-cert-verify":true,"sni":"tw2.infininode.cf"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇭🇰HK-🇯🇵JP_161
-      - 🇨🇳_YouTube：全网最强白嫖
-      - Relay_🇭🇰HK-🇯🇵JP_158
-      - Relay_🇺🇸US-🇷🇺RU_238
+      - Taiwan+01
+      - Singapore+01
       - YouTube：全网最强白嫖
-      - Relay_🇺🇸US-🇺🇸US_236
-      - _HK_香港->🇺🇸_US_美国
-      - YouTube梦歌|Netflix_32
-      - YouTube梦歌|Netflix_24
-      - Alien
-      - YouTube梦歌|Netflix_1
-      - _HK_香港->🇯🇵_JP_日本
-      - Relay_🇺🇸US-🇯🇵JP_240
-      - YouTube梦歌|Netflix_3
-      - Relay_🇭🇰HK-🇯🇵JP_159
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_26
+      - Hong+Kong+02+3
+      - Hong+Kong+03
+      - Taiwan+02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇭🇰HK-🇯🇵JP_161
-      - 🇨🇳_YouTube：全网最强白嫖
-      - Relay_🇭🇰HK-🇯🇵JP_158
-      - Relay_🇺🇸US-🇷🇺RU_238
+      - Taiwan+01
+      - Singapore+01
       - YouTube：全网最强白嫖
-      - Relay_🇺🇸US-🇺🇸US_236
-      - _HK_香港->🇺🇸_US_美国
-      - YouTube梦歌|Netflix_32
-      - YouTube梦歌|Netflix_24
-      - Alien
-      - YouTube梦歌|Netflix_1
-      - _HK_香港->🇯🇵_JP_日本
-      - Relay_🇺🇸US-🇯🇵JP_240
-      - YouTube梦歌|Netflix_3
-      - Relay_🇭🇰HK-🇯🇵JP_159
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_26
+      - Hong+Kong+02+3
+      - Hong+Kong+03
+      - Taiwan+02
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇯🇵JP_161
-      - 🇨🇳_YouTube：全网最强白嫖
-      - Relay_🇭🇰HK-🇯🇵JP_158
-      - Relay_🇺🇸US-🇷🇺RU_238
+      - Taiwan+01
+      - Singapore+01
       - YouTube：全网最强白嫖
-      - Relay_🇺🇸US-🇺🇸US_236
-      - _HK_香港->🇺🇸_US_美国
-      - YouTube梦歌|Netflix_32
-      - YouTube梦歌|Netflix_24
-      - Alien
-      - YouTube梦歌|Netflix_1
-      - _HK_香港->🇯🇵_JP_日本
-      - Relay_🇺🇸US-🇯🇵JP_240
-      - YouTube梦歌|Netflix_3
-      - Relay_🇭🇰HK-🇯🇵JP_159
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_26
+      - Hong+Kong+02+3
+      - Hong+Kong+03
+      - Taiwan+02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇯🇵JP_161
-      - 🇨🇳_YouTube：全网最强白嫖
-      - Relay_🇭🇰HK-🇯🇵JP_158
-      - Relay_🇺🇸US-🇷🇺RU_238
+      - Taiwan+01
+      - Singapore+01
       - YouTube：全网最强白嫖
-      - Relay_🇺🇸US-🇺🇸US_236
-      - _HK_香港->🇺🇸_US_美国
-      - YouTube梦歌|Netflix_32
-      - YouTube梦歌|Netflix_24
-      - Alien
-      - YouTube梦歌|Netflix_1
-      - _HK_香港->🇯🇵_JP_日本
-      - Relay_🇺🇸US-🇯🇵JP_240
-      - YouTube梦歌|Netflix_3
-      - Relay_🇭🇰HK-🇯🇵JP_159
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_26
+      - Hong+Kong+02+3
+      - Hong+Kong+03
+      - Taiwan+02
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇭🇰HK-🇯🇵JP_161
-      - 🇨🇳_YouTube：全网最强白嫖
-      - Relay_🇭🇰HK-🇯🇵JP_158
-      - Relay_🇺🇸US-🇷🇺RU_238
+      - Taiwan+01
+      - Singapore+01
       - YouTube：全网最强白嫖
-      - Relay_🇺🇸US-🇺🇸US_236
-      - _HK_香港->🇺🇸_US_美国
-      - YouTube梦歌|Netflix_32
-      - YouTube梦歌|Netflix_24
-      - Alien
-      - YouTube梦歌|Netflix_1
-      - _HK_香港->🇯🇵_JP_日本
-      - Relay_🇺🇸US-🇯🇵JP_240
-      - YouTube梦歌|Netflix_3
-      - Relay_🇭🇰HK-🇯🇵JP_159
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_26
+      - Hong+Kong+02+3
+      - Hong+Kong+03
+      - Taiwan+02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇯🇵JP_161
-      - 🇨🇳_YouTube：全网最强白嫖
-      - Relay_🇭🇰HK-🇯🇵JP_158
-      - Relay_🇺🇸US-🇷🇺RU_238
+      - Taiwan+01
+      - Singapore+01
       - YouTube：全网最强白嫖
-      - Relay_🇺🇸US-🇺🇸US_236
-      - _HK_香港->🇺🇸_US_美国
-      - YouTube梦歌|Netflix_32
-      - YouTube梦歌|Netflix_24
-      - Alien
-      - YouTube梦歌|Netflix_1
-      - _HK_香港->🇯🇵_JP_日本
-      - Relay_🇺🇸US-🇯🇵JP_240
-      - YouTube梦歌|Netflix_3
-      - Relay_🇭🇰HK-🇯🇵JP_159
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_26
+      - Hong+Kong+02+3
+      - Hong+Kong+03
+      - Taiwan+02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,21 +116,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇭🇰HK-🇯🇵JP_161
-      - 🇨🇳_YouTube：全网最强白嫖
-      - Relay_🇭🇰HK-🇯🇵JP_158
-      - Relay_🇺🇸US-🇷🇺RU_238
+      - Taiwan+01
+      - Singapore+01
       - YouTube：全网最强白嫖
-      - Relay_🇺🇸US-🇺🇸US_236
-      - _HK_香港->🇺🇸_US_美国
-      - YouTube梦歌|Netflix_32
-      - YouTube梦歌|Netflix_24
-      - Alien
-      - YouTube梦歌|Netflix_1
-      - _HK_香港->🇯🇵_JP_日本
-      - Relay_🇺🇸US-🇯🇵JP_240
-      - YouTube梦歌|Netflix_3
-      - Relay_🇭🇰HK-🇯🇵JP_159
+      - 🇹🇼_YouTube：全网最强白嫖
+      - YouTube梦歌|Netflix_26
+      - Hong+Kong+02+3
+      - Hong+Kong+03
+      - Taiwan+02
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
