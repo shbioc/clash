@@ -5,284 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"Relay_🇸🇬SG-🇯🇵JP_1413","server":"jp.iamnotagoodman.com","port":443,"password":"f8d19ba5-8684-45f2-8523-77dbea588955","udp":true,"skip-cert-verify":true,"sni":"jp.iamnotagoodman.com"}
-  - {"type":"vmess","name":"日本直连A速度随缘0.3","server":"jp-direct.node002.xyz","port":"5432","uuid":"531e6c4b-2f5f-363f-8556-3531b85422d5","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"台湾Scloud06|下载专用|0.3x","ws-opts":{"path":"/sctw6","headers":{"host":"sh.baibianxiaoying.top"}},"server":"sh.baibianxiaoying.top","port":"20630","uuid":"360dafc8-b642-3541-b6d3-35562b592c64","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"韩国直连A速度随缘0.3x","server":"kr-direct.node002.xyz","port":"5432","uuid":"531e6c4b-2f5f-363f-8556-3531b85422d5","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"台湾Scloud04|下载专用|0.3x","ws-opts":{"path":"/sctw4","headers":{"host":"sh.baibianxiaoying.top"}},"server":"sh.baibianxiaoying.top","port":"20630","uuid":"360dafc8-b642-3541-b6d3-35562b592c64","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"Relay_🇸🇬SG-🇧🇩BD_1412","server":"kh.iamnotagoodman.com","port":443,"password":"f8d19ba5-8684-45f2-8523-77dbea588955","udp":true,"skip-cert-verify":true,"sni":"kh.iamnotagoodman.com"}
-  - {"type":"vmess","name":"台湾Scloud05|下载专用|0.3x","ws-opts":{"path":"/sctw5","headers":{"host":"sh.baibianxiaoying.top"}},"server":"sh.baibianxiaoying.top","port":"20630","uuid":"360dafc8-b642-3541-b6d3-35562b592c64","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"印度Linode01|1x","ws-opts":{"path":"/linodeyd1","headers":{"host":"gz.baibianxiaoying.top"}},"server":"gz.baibianxiaoying.top","port":"20630","uuid":"360dafc8-b642-3541-b6d3-35562b592c64","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_1","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"141.101.115.121","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_59","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"172.64.154.201","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.cfcdn3.xyz"}},"server":"198.41.203.3","port":"443","uuid":"33aa57df-1c93-4318-9fce-e850437ee781","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"澳大利亚Linode01|1x","ws-opts":{"path":"/linau1","headers":{"host":"gz.baibianxiaoying.top"}},"server":"gz.baibianxiaoying.top","port":"20630","uuid":"360dafc8-b642-3541-b6d3-35562b592c64","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"SEXOO++首尔++No.3","server":"kr3.sexoo.xyz","port":60666,"password":"473def74-c926-4007-81a4-e692a051c9ab","udp":true,"skip-cert-verify":true,"sni":"kr3.sexoo.xyz"}
-  - {"type":"vmess","name":"_US_美国->🇩🇪_DE_德国3","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"138.2.122.225","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_3","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"141.101.115.20","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"SEXOO++美国++No.1","server":"us1.sexoo.xyz","port":60666,"password":"473def74-c926-4007-81a4-e692a051c9ab","udp":true,"skip-cert-verify":true,"sni":"us1.sexoo.xyz"}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.cfcdn3.xyz"}},"server":"198.41.212.100","port":"443","uuid":"33aa57df-1c93-4318-9fce-e850437ee781","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_5","ws-opts":{"path":"/VHONOFZ3","headers":{"host":"lg1.cfcdn2.xyz"}},"server":"198.41.203.1","port":"443","uuid":"267a9f38-40d8-4ed6-ab58-cafc67e9c933","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_6","ws-opts":{"path":"/"},"server":"25.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"英国Linode01|1x","ws-opts":{"path":"/linuk1","headers":{"host":"gz.baibianxiaoying.top"}},"server":"gz.baibianxiaoying.top","port":"20630","uuid":"360dafc8-b642-3541-b6d3-35562b592c64","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"德国Linode01|1x","ws-opts":{"path":"/linodedg1","headers":{"host":"gz.baibianxiaoying.top"}},"server":"gz.baibianxiaoying.top","port":"20630","uuid":"360dafc8-b642-3541-b6d3-35562b592c64","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"default_name22","ws-opts":{"path":"/","headers":{"host":"54.72img.xyz"}},"server":"54.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"USA🇺🇸","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusa.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"意大利-1.52MB/s资源分享师","ws-opts":{"path":"/","headers":{"host":"22.72img.xyz"}},"server":"22.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"default_name5","ws-opts":{"path":"/","headers":{"host":"21.72img.xyz"}},"server":"21.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇳🇱NL_2385","ws-opts":{"path":"/","headers":{"host":"55.72img.xyz"}},"server":"55.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US_3🇺🇸","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusovz3.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"POL🇵🇱","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_56","ws-opts":{"path":"/aries","headers":{"host":"kz.cloudflare.quest"}},"server":"ip125.com","port":"2086","uuid":"078b436e-de58-42d9-cfe9-ffdcf72e1ab8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_2🇺🇸","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusovz2.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"POL_2🇵🇱","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol2.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"FRA🇫🇷","ws-opts":{"path":"/eisasqa","headers":{"host":"foxfra.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇷🇺RU_2463","ws-opts":{"path":"/","headers":{"host":"6.72img.xyz"}},"server":"6.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_7","ws-opts":{"path":"/"},"server":"6.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新加坡Gcore01|1x","ws-opts":{"path":"/xjpgco1","headers":{"host":"sh.baibianxiaoying.top"}},"server":"sh.baibianxiaoying.top","port":"20630","uuid":"360dafc8-b642-3541-b6d3-35562b592c64","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"YouTube梦歌|杭港BGP|NETFLIX_98","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_40","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"128.14.162.48","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|杭港BGP|NETFLIX_52","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusovz1.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_12","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusa.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|杭港BGP|NETFLIX_71","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusovz3.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_18","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusovz2.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|杭港BGP|NETFLIX_93","ws-opts":{"path":"/22","headers":{"host":"v.v2ray2333.tk"}},"server":"172.67.246.171","port":"2087","uuid":"99ffa102-6675-42c0-89c5-2c3cebb11640","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|Netflix_17","ws-opts":{"path":"/5f1ca41c","headers":{"host":"democratic-vacation-cargo-infectious.trycloudflare.com"}},"server":"cdn.chigua.tk","port":"443","uuid":"5f1ca41c-81b5-4b90-b87d-c30b4b47eb11","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇸🇬SG-🇯🇵JP_1413
-      - 日本直连A速度随缘0.3
-      - 台湾Scloud06|下载专用|0.3x
-      - 韩国直连A速度随缘0.3x
-      - 台湾Scloud04|下载专用|0.3x
-      - Relay_🇸🇬SG-🇧🇩BD_1412
-      - 台湾Scloud05|下载专用|0.3x
-      - 印度Linode01|1x
-      - 美国(yudou66.com玉豆免费节点)_1
-      - YouTube梦歌|香港HTK|NETFLIX_59
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 澳大利亚Linode01|1x
-      - SEXOO++首尔++No.3
-      - _US_美国->🇩🇪_DE_德国3
-      - 美国(yudou66.com玉豆免费节点)_3
-      - SEXOO++美国++No.1
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 英国Linode01|1x
-      - 德国Linode01|1x
-      - default_name22
-      - USA🇺🇸
-      - 意大利-1.52MB/s资源分享师
-      - default_name5
-      - Relay_🇺🇸US-🇳🇱NL_2385
-      - US_3🇺🇸
-      - POL🇵🇱
-      - YouTube梦歌|香港HTK|NETFLIX_56
-      - US_2🇺🇸
-      - POL_2🇵🇱
-      - FRA🇫🇷
-      - Relay_🇺🇸US-🇷🇺RU_2463
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 新加坡Gcore01|1x
+      - YouTube梦歌|杭港BGP|NETFLIX_98
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|杭港BGP|NETFLIX_52
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|杭港BGP|NETFLIX_71
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|杭港BGP|NETFLIX_93
+      - YouTube梦歌|Netflix_17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇸🇬SG-🇯🇵JP_1413
-      - 日本直连A速度随缘0.3
-      - 台湾Scloud06|下载专用|0.3x
-      - 韩国直连A速度随缘0.3x
-      - 台湾Scloud04|下载专用|0.3x
-      - Relay_🇸🇬SG-🇧🇩BD_1412
-      - 台湾Scloud05|下载专用|0.3x
-      - 印度Linode01|1x
-      - 美国(yudou66.com玉豆免费节点)_1
-      - YouTube梦歌|香港HTK|NETFLIX_59
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 澳大利亚Linode01|1x
-      - SEXOO++首尔++No.3
-      - _US_美国->🇩🇪_DE_德国3
-      - 美国(yudou66.com玉豆免费节点)_3
-      - SEXOO++美国++No.1
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 英国Linode01|1x
-      - 德国Linode01|1x
-      - default_name22
-      - USA🇺🇸
-      - 意大利-1.52MB/s资源分享师
-      - default_name5
-      - Relay_🇺🇸US-🇳🇱NL_2385
-      - US_3🇺🇸
-      - POL🇵🇱
-      - YouTube梦歌|香港HTK|NETFLIX_56
-      - US_2🇺🇸
-      - POL_2🇵🇱
-      - FRA🇫🇷
-      - Relay_🇺🇸US-🇷🇺RU_2463
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 新加坡Gcore01|1x
+      - YouTube梦歌|杭港BGP|NETFLIX_98
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|杭港BGP|NETFLIX_52
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|杭港BGP|NETFLIX_71
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|杭港BGP|NETFLIX_93
+      - YouTube梦歌|Netflix_17
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇸🇬SG-🇯🇵JP_1413
-      - 日本直连A速度随缘0.3
-      - 台湾Scloud06|下载专用|0.3x
-      - 韩国直连A速度随缘0.3x
-      - 台湾Scloud04|下载专用|0.3x
-      - Relay_🇸🇬SG-🇧🇩BD_1412
-      - 台湾Scloud05|下载专用|0.3x
-      - 印度Linode01|1x
-      - 美国(yudou66.com玉豆免费节点)_1
-      - YouTube梦歌|香港HTK|NETFLIX_59
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 澳大利亚Linode01|1x
-      - SEXOO++首尔++No.3
-      - _US_美国->🇩🇪_DE_德国3
-      - 美国(yudou66.com玉豆免费节点)_3
-      - SEXOO++美国++No.1
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 英国Linode01|1x
-      - 德国Linode01|1x
-      - default_name22
-      - USA🇺🇸
-      - 意大利-1.52MB/s资源分享师
-      - default_name5
-      - Relay_🇺🇸US-🇳🇱NL_2385
-      - US_3🇺🇸
-      - POL🇵🇱
-      - YouTube梦歌|香港HTK|NETFLIX_56
-      - US_2🇺🇸
-      - POL_2🇵🇱
-      - FRA🇫🇷
-      - Relay_🇺🇸US-🇷🇺RU_2463
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 新加坡Gcore01|1x
+      - YouTube梦歌|杭港BGP|NETFLIX_98
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|杭港BGP|NETFLIX_52
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|杭港BGP|NETFLIX_71
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|杭港BGP|NETFLIX_93
+      - YouTube梦歌|Netflix_17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇸🇬SG-🇯🇵JP_1413
-      - 日本直连A速度随缘0.3
-      - 台湾Scloud06|下载专用|0.3x
-      - 韩国直连A速度随缘0.3x
-      - 台湾Scloud04|下载专用|0.3x
-      - Relay_🇸🇬SG-🇧🇩BD_1412
-      - 台湾Scloud05|下载专用|0.3x
-      - 印度Linode01|1x
-      - 美国(yudou66.com玉豆免费节点)_1
-      - YouTube梦歌|香港HTK|NETFLIX_59
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 澳大利亚Linode01|1x
-      - SEXOO++首尔++No.3
-      - _US_美国->🇩🇪_DE_德国3
-      - 美国(yudou66.com玉豆免费节点)_3
-      - SEXOO++美国++No.1
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 英国Linode01|1x
-      - 德国Linode01|1x
-      - default_name22
-      - USA🇺🇸
-      - 意大利-1.52MB/s资源分享师
-      - default_name5
-      - Relay_🇺🇸US-🇳🇱NL_2385
-      - US_3🇺🇸
-      - POL🇵🇱
-      - YouTube梦歌|香港HTK|NETFLIX_56
-      - US_2🇺🇸
-      - POL_2🇵🇱
-      - FRA🇫🇷
-      - Relay_🇺🇸US-🇷🇺RU_2463
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 新加坡Gcore01|1x
+      - YouTube梦歌|杭港BGP|NETFLIX_98
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|杭港BGP|NETFLIX_52
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|杭港BGP|NETFLIX_71
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|杭港BGP|NETFLIX_93
+      - YouTube梦歌|Netflix_17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇸🇬SG-🇯🇵JP_1413
-      - 日本直连A速度随缘0.3
-      - 台湾Scloud06|下载专用|0.3x
-      - 韩国直连A速度随缘0.3x
-      - 台湾Scloud04|下载专用|0.3x
-      - Relay_🇸🇬SG-🇧🇩BD_1412
-      - 台湾Scloud05|下载专用|0.3x
-      - 印度Linode01|1x
-      - 美国(yudou66.com玉豆免费节点)_1
-      - YouTube梦歌|香港HTK|NETFLIX_59
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 澳大利亚Linode01|1x
-      - SEXOO++首尔++No.3
-      - _US_美国->🇩🇪_DE_德国3
-      - 美国(yudou66.com玉豆免费节点)_3
-      - SEXOO++美国++No.1
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 英国Linode01|1x
-      - 德国Linode01|1x
-      - default_name22
-      - USA🇺🇸
-      - 意大利-1.52MB/s资源分享师
-      - default_name5
-      - Relay_🇺🇸US-🇳🇱NL_2385
-      - US_3🇺🇸
-      - POL🇵🇱
-      - YouTube梦歌|香港HTK|NETFLIX_56
-      - US_2🇺🇸
-      - POL_2🇵🇱
-      - FRA🇫🇷
-      - Relay_🇺🇸US-🇷🇺RU_2463
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 新加坡Gcore01|1x
+      - YouTube梦歌|杭港BGP|NETFLIX_98
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|杭港BGP|NETFLIX_52
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|杭港BGP|NETFLIX_71
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|杭港BGP|NETFLIX_93
+      - YouTube梦歌|Netflix_17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇸🇬SG-🇯🇵JP_1413
-      - 日本直连A速度随缘0.3
-      - 台湾Scloud06|下载专用|0.3x
-      - 韩国直连A速度随缘0.3x
-      - 台湾Scloud04|下载专用|0.3x
-      - Relay_🇸🇬SG-🇧🇩BD_1412
-      - 台湾Scloud05|下载专用|0.3x
-      - 印度Linode01|1x
-      - 美国(yudou66.com玉豆免费节点)_1
-      - YouTube梦歌|香港HTK|NETFLIX_59
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 澳大利亚Linode01|1x
-      - SEXOO++首尔++No.3
-      - _US_美国->🇩🇪_DE_德国3
-      - 美国(yudou66.com玉豆免费节点)_3
-      - SEXOO++美国++No.1
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 英国Linode01|1x
-      - 德国Linode01|1x
-      - default_name22
-      - USA🇺🇸
-      - 意大利-1.52MB/s资源分享师
-      - default_name5
-      - Relay_🇺🇸US-🇳🇱NL_2385
-      - US_3🇺🇸
-      - POL🇵🇱
-      - YouTube梦歌|香港HTK|NETFLIX_56
-      - US_2🇺🇸
-      - POL_2🇵🇱
-      - FRA🇫🇷
-      - Relay_🇺🇸US-🇷🇺RU_2463
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 新加坡Gcore01|1x
+      - YouTube梦歌|杭港BGP|NETFLIX_98
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|杭港BGP|NETFLIX_52
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|杭港BGP|NETFLIX_71
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|杭港BGP|NETFLIX_93
+      - YouTube梦歌|Netflix_17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -305,41 +116,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇸🇬SG-🇯🇵JP_1413
-      - 日本直连A速度随缘0.3
-      - 台湾Scloud06|下载专用|0.3x
-      - 韩国直连A速度随缘0.3x
-      - 台湾Scloud04|下载专用|0.3x
-      - Relay_🇸🇬SG-🇧🇩BD_1412
-      - 台湾Scloud05|下载专用|0.3x
-      - 印度Linode01|1x
-      - 美国(yudou66.com玉豆免费节点)_1
-      - YouTube梦歌|香港HTK|NETFLIX_59
-      - 美国(yudou66.com玉豆免费节点)_2
-      - 澳大利亚Linode01|1x
-      - SEXOO++首尔++No.3
-      - _US_美国->🇩🇪_DE_德国3
-      - 美国(yudou66.com玉豆免费节点)_3
-      - SEXOO++美国++No.1
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 英国Linode01|1x
-      - 德国Linode01|1x
-      - default_name22
-      - USA🇺🇸
-      - 意大利-1.52MB/s资源分享师
-      - default_name5
-      - Relay_🇺🇸US-🇳🇱NL_2385
-      - US_3🇺🇸
-      - POL🇵🇱
-      - YouTube梦歌|香港HTK|NETFLIX_56
-      - US_2🇺🇸
-      - POL_2🇵🇱
-      - FRA🇫🇷
-      - Relay_🇺🇸US-🇷🇺RU_2463
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 新加坡Gcore01|1x
+      - YouTube梦歌|杭港BGP|NETFLIX_98
+      - YouTube梦歌|Netflix_40
+      - YouTube梦歌|杭港BGP|NETFLIX_52
+      - YouTube梦歌|Netflix_12
+      - YouTube梦歌|杭港BGP|NETFLIX_71
+      - YouTube梦歌|Netflix_18
+      - YouTube梦歌|杭港BGP|NETFLIX_93
+      - YouTube梦歌|Netflix_17
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
