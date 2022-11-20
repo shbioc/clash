@@ -5,389 +5,599 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"香港02|实验性","ws-opts":{"path":"/adad","headers":{"host":"yyyhk2.ikuncloud.com"}},"server":"yyyhk2.ikuncloud.com","port":"8443","uuid":"668b2e7a-46e8-4bf2-bf2c-9eebd91ac2c0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"香港02|实验性2","ws-opts":{"path":"/adad","headers":{"host":"yyyhk2.ikuncloud.com"}},"server":"yyyhk2.ikuncloud.com","port":"8443","uuid":"be5c0776-c110-44b6-9b60-299e2fdbd71f","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_1","ws-opts":{"path":"/","headers":{"host":"38.72img.xyz"}},"server":"172.67.183.35","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_2","ws-opts":{"path":"/","headers":{"host":"38.72img.xyz"}},"server":"172.66.40.10","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌_3","ws-opts":{"path":"/p9Dq67Nx/","headers":{"host":"fr1.cachexy.ga"}},"server":"8.219.230.131","port":"80","uuid":"61811ce4-1b9b-47bb-9473-c6666a0a8fa4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"v1丨韩国丨微软丨直连丨韩区已解锁流媒体","server":"dhdsjcdkk1.suyun.live","port":42144,"password":"3d634a9c-f7a5-3f79-8947-074e69a2454b","udp":true,"skip-cert-verify":true,"sni":"dhdsjcdkk1.suyun.live"}
-  - {"type":"vmess","name":"美国/资源分享师/18","ws-opts":{"path":"/","headers":{"host":"30.72img.xyz"}},"server":"30.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"资源分享师12","ws-opts":{"path":"/","headers":{"host":"36.72img.xyz"}},"server":"36.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"+狮城01|中转","server":"asdmnioqw21dom.nekodafu.xyz","port":47540,"cipher":"chacha20-ietf-poly1305","password":"9b09fc29-4f6f-4750-b4b6-39fcc06014ab"}
-  - {"type":"vmess","name":"YouTube梦歌_24","ws-opts":{"path":"/eisasqa","headers":{"host":"foxdeovz1.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"欧洲(yudou66.com玉豆免费节点)","ws-opts":{"path":"/VHONOFZ3","headers":{"host":"lg1.cfcdn2.xyz"}},"server":"141.101.114.100","port":"443","uuid":"267a9f38-40d8-4ed6-ab58-cafc67e9c933","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"香港04|实验性3","ws-opts":{"path":"/adad","headers":{"host":"yyyhk4.ikuncloud.com"}},"server":"yyyhk4.ikuncloud.com","port":"443","uuid":"be5c0776-c110-44b6-9b60-299e2fdbd71f","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_1224","ws-opts":{"path":"/","headers":{"host":"29.72img.xyz"}},"server":"29.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"狮城02|中转","server":"asdmnioqw21dom.nekodafu.xyz","port":26714,"cipher":"chacha20-ietf-poly1305","password":"be5c0776-c110-44b6-9b60-299e2fdbd71f"}
-  - {"type":"vmess","name":"YouTube梦歌_49","ws-opts":{"path":"/"},"server":"36.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌_54","ws-opts":{"path":"/"},"server":"29.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌_11","ws-opts":{"path":"/aries","headers":{"host":"kz.cloudflare.quest"}},"server":"ip125.com","port":"2086","uuid":"078b436e-de58-42d9-cfe9-ffdcf72e1ab8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"default_name52","ws-opts":{"path":"/","headers":{"host":"21.72img.xyz"}},"server":"21.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"+香港01|实验性","server":"asdmnioqw21dom.nekodafu.xyz","port":16862,"cipher":"chacha20-ietf-poly1305","password":"668b2e7a-46e8-4bf2-bf2c-9eebd91ac2c0"}
-  - {"type":"vmess","name":"YouTube梦歌_13_1","ws-opts":{"path":"/"},"server":"6.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"香港01|实验性","server":"asdmnioqw21dom.nekodafu.xyz","port":16862,"cipher":"chacha20-ietf-poly1305","password":"be5c0776-c110-44b6-9b60-299e2fdbd71f"}
-  - {"type":"vmess","name":"YouTube梦歌_40","ws-opts":{"path":"/","headers":{"host":"15.72img.xyz"}},"server":"15.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"+狮城02|中转","server":"asdmnioqw21dom.nekodafu.xyz","port":26714,"cipher":"chacha20-ietf-poly1305","password":"668b2e7a-46e8-4bf2-bf2c-9eebd91ac2c0"}
-  - {"type":"vmess","name":"香港02|实验性3","ws-opts":{"path":"/adad","headers":{"host":"yyyhk2.ikuncloud.com"}},"server":"yyyhk2.ikuncloud.com","port":"8443","uuid":"9b09fc29-4f6f-4750-b4b6-39fcc06014ab","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌_23","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusovz3.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌_41","ws-opts":{"path":"/dsadsa144113s"},"server":"sl2.mayaa.eu.org","port":"443","uuid":"d5d8c6c4-d39c-4a0d-909e-bde51e8145ab","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"德国(yudou66.com+玉豆免费节点)","server":"h217022.waihuizhibiaowang.com","port":15743,"cipher":"chacha20-ietf-poly1305","password":"3dbdf038-ef96-4b51-834e-ac7e5ce94fe2"}
-  - {"type":"vmess","name":"GBR🇬🇧","ws-opts":{"path":"/eisasqa","headers":{"host":"foxuk.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"狮城01|中转","server":"asdmnioqw21dom.nekodafu.xyz","port":47540,"cipher":"chacha20-ietf-poly1305","password":"be5c0776-c110-44b6-9b60-299e2fdbd71f"}
-  - {"type":"vmess","name":"YouTube梦歌_42","ws-opts":{"path":"/","headers":{"host":"24.72img.xyz"}},"server":"24.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"+狮城01|中转+2","server":"asdmnioqw21dom.nekodafu.xyz","port":47540,"cipher":"chacha20-ietf-poly1305","password":"668b2e7a-46e8-4bf2-bf2c-9eebd91ac2c0"}
-  - {"type":"ss","name":"+狮城02|中转+2","server":"asdmnioqw21dom.nekodafu.xyz","port":26714,"cipher":"chacha20-ietf-poly1305","password":"9b09fc29-4f6f-4750-b4b6-39fcc06014ab"}
-  - {"type":"vmess","name":"YouTube梦歌_13_2","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"美国02|中转","server":"14.215.164.183","port":29516,"cipher":"chacha20-ietf-poly1305","password":"be5c0776-c110-44b6-9b60-299e2fdbd71f"}
-  - {"type":"ss","name":"香港03|实验性","server":"asdmnioqw21dom.nekodafu.xyz","port":36046,"cipher":"chacha20-ietf-poly1305","password":"be5c0776-c110-44b6-9b60-299e2fdbd71f"}
-  - {"type":"vmess","name":"资源分享师/Pawdroid-美国PacificRack机房13","ws-opts":{"path":"/3d683981","headers":{"host":"philip-did-disclaimers-bill.trycloudflare.com"}},"server":"cdn.chigua.tk","port":"443","uuid":"3d683981-c68c-43ca-a91b-ae71bfcbf365","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌_21","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusovz1.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌_60","ws-opts":{"path":"/","headers":{"host":"55.72img.xyz"}},"server":"55.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌_32","ws-opts":{"path":"/","headers":{"host":"6.72img.xyz"}},"server":"6.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌_20","ws-opts":{"path":"/eisasqa","headers":{"host":"foxfra.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"+美国02|中转","server":"14.215.164.183","port":29516,"cipher":"chacha20-ietf-poly1305","password":"668b2e7a-46e8-4bf2-bf2c-9eebd91ac2c0"}
-  - {"type":"vmess","name":"香港04|实验性2","ws-opts":{"path":"/adad","headers":{"host":"yyyhk4.ikuncloud.com"}},"server":"yyyhk4.ikuncloud.com","port":"443","uuid":"9b09fc29-4f6f-4750-b4b6-39fcc06014ab","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US_2🇺🇸","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusovz2.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_3","ws-opts":{"path":"/298026f0","headers":{"host":"buttons-lcd-fa-investment.trycloudflare.com"}},"server":"cdn.chigua.tk","port":"443","uuid":"298026f0-7574-4709-81bb-eae1298b4de1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"+美国02|中转+2","server":"14.215.164.183","port":29516,"cipher":"chacha20-ietf-poly1305","password":"9b09fc29-4f6f-4750-b4b6-39fcc06014ab"}
-  - {"type":"vmess","name":"TG@hkaa0","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}},"server":"cf.fovi.tk","port":"443","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新加坡(资源分享师)","ws-opts":{"path":"/?ed=2048","headers":{"host":"w.800876.xyz"}},"server":"8.219.204.195","port":"80","uuid":"c9fe8359-5878-4413-c80e-3ffeabc47b02","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"POL🇵🇱","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"资源分享师-美国CloudFlare节点32","ws-opts":{"path":"/","headers":{"host":"53.72img.xyz"}},"server":"53.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"未知国家-2.05MB/s资源分享师","ws-opts":{"path":"/","headers":{"host":"20.72img.xyz"}},"server":"20.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"YouTube梦歌|香港08","server":"cn02.mynode.me","port":8108,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港14","server":"cn03.mynode.me","port":8114,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港19","server":"cn04.mynode.me","port":8119,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡03","server":"cn06.mynode.me","port":8203,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港24","server":"cn05.mynode.me","port":8124,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡01","server":"cn06.mynode.me","port":8201,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本02","server":"cn11.mynode.me","port":8402,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_19","server":"zfd-moble.gatknqh.cn","port":"16108","uuid":"ee867204-3f52-3faf-8de4-6f4180939d7c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_42","server":"zfd-moble.gatknqh.cn","port":"16107","uuid":"ee867204-3f52-3faf-8de4-6f4180939d7c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡14","server":"cn09.mynode.me","port":8214,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡18","server":"cn09.mynode.me","port":8218,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_89","server":"zfd-moble.gatknqh.cn","port":"16109","uuid":"ee867204-3f52-3faf-8de4-6f4180939d7c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ssr","name":"YouTube梦歌|日本12","server":"cn14.mynode.me","port":8412,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港01","server":"cn01.mynode.me","port":8101,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡17","server":"cn09.mynode.me","port":8217,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本11","server":"cn14.mynode.me","port":8411,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本05","server":"cn12.mynode.me","port":8405,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国16","server":"cn16.mynode.me","port":8516,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国15","server":"cn16.mynode.me","port":8515,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国14","server":"cn16.mynode.me","port":8514,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本06","server":"cn12.mynode.me","port":8406,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国05","server":"cn15.mynode.me","port":8505,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港21","server":"cn05.mynode.me","port":8121,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|台湾省03","server":"cn10.mynode.me","port":8303,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国07","server":"cn16.mynode.me","port":8507,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|菲律宾01","server":"cn02.mynode.me","port":8231,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国13","server":"cn16.mynode.me","port":8513,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国09","server":"cn16.mynode.me","port":8509,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国17","server":"cn16.mynode.me","port":8517,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国19","server":"cn18.mynode.me","port":8519,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国21","server":"cn18.mynode.me","port":8521,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国18","server":"cn16.mynode.me","port":8518,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国08","server":"cn16.mynode.me","port":8508,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡11","server":"cn08.mynode.me","port":8211,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国11","server":"cn16.mynode.me","port":8511,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"加拿大","server":"cn17.mynode.me","port":8612,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国22","server":"cn18.mynode.me","port":8522,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国20","server":"cn18.mynode.me","port":8520,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国10","server":"cn16.mynode.me","port":8510,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本09","server":"cn13.mynode.me","port":8409,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡08","server":"cn07.mynode.me","port":8208,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"印度","server":"cn17.mynode.me","port":8606,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本13","server":"cn14.mynode.me","port":8413,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本08","server":"cn13.mynode.me","port":8408,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港03","server":"cn01.mynode.me","port":8103,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国02","server":"cn15.mynode.me","port":8502,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|美国01","server":"cn15.mynode.me","port":8501,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港22","server":"cn05.mynode.me","port":8122,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港26","server":"cn05.mynode.me","port":8126,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"俄罗斯","server":"cn17.mynode.me","port":8613,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡09","server":"cn08.mynode.me","port":8209,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡02","server":"cn06.mynode.me","port":8202,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港25","server":"cn05.mynode.me","port":8125,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港09","server":"cn02.mynode.me","port":8109,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"泰国","server":"cn17.mynode.me","port":8616,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港07","server":"cn02.mynode.me","port":8107,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港02","server":"cn01.mynode.me","port":8102,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡16","server":"cn09.mynode.me","port":8216,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_138","ws-opts":{"path":"/","headers":{"host":"cdn.vip6.ml"}},"server":"173.245.49.171","port":"2083","uuid":"8985723f-0b3c-44fa-ebee-a3153d57ccad","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"YouTube梦歌|美国06","server":"cn15.mynode.me","port":8506,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"德国","server":"cn17.mynode.me","port":8605,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|英国","server":"cn17.mynode.me","port":8601,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港16","server":"cn04.mynode.me","port":8116,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"巴基斯坦","server":"cn17.mynode.me","port":8614,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"法国","server":"cn17.mynode.me","port":8610,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港10","server":"cn02.mynode.me","port":8110,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本07","server":"cn12.mynode.me","port":8407,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本01","server":"cn11.mynode.me","port":8401,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡07","server":"cn07.mynode.me","port":8207,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡04","server":"cn06.mynode.me","port":8204,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|菲律宾03","server":"cn05.mynode.me","port":8233,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡06","server":"cn07.mynode.me","port":8206,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡05","server":"cn06.mynode.me","port":8205,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本04","server":"cn12.mynode.me","port":8404,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港23","server":"cn05.mynode.me","port":8123,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|日本10","server":"cn14.mynode.me","port":8410,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|香港05","server":"cn01.mynode.me","port":8105,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡12","server":"cn08.mynode.me","port":8212,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"YouTube梦歌|新加坡13","server":"cn08.mynode.me","port":8213,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
+  - {"type":"ssr","name":"韩国","server":"cn17.mynode.me","port":8602,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"passwd","obfs-param":"MTg5NTAtR3VoYWlqdW4xOTc5LmRvd25sb2FkLm1pY3Jvc29mdC5jb20"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 香港02|实验性
-      - 香港02|实验性2
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - YouTube梦歌_3
-      - v1丨韩国丨微软丨直连丨韩区已解锁流媒体
-      - 美国/资源分享师/18
-      - 资源分享师12
-      - +狮城01|中转
-      - YouTube梦歌_24
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 香港04|实验性3
-      - Relay_🇺🇸US-🇺🇸US_1224
-      - 狮城02|中转
-      - YouTube梦歌_49
-      - YouTube梦歌_54
-      - YouTube梦歌_11
-      - default_name52
-      - +香港01|实验性
-      - YouTube梦歌_13_1
-      - 香港01|实验性
-      - YouTube梦歌_40
-      - +狮城02|中转
-      - 香港02|实验性3
-      - YouTube梦歌_23
-      - YouTube梦歌_41
-      - 德国(yudou66.com+玉豆免费节点)
-      - GBR🇬🇧
-      - 狮城01|中转
-      - YouTube梦歌_42
-      - +狮城01|中转+2
-      - +狮城02|中转+2
-      - YouTube梦歌_13_2
-      - 美国02|中转
-      - 香港03|实验性
-      - 资源分享师/Pawdroid-美国PacificRack机房13
-      - YouTube梦歌_21
-      - YouTube梦歌_60
-      - YouTube梦歌_32
-      - YouTube梦歌_20
-      - +美国02|中转
-      - 香港04|实验性2
-      - US_2🇺🇸
-      - 美国(yudou66.com玉豆免费节点)_3
-      - +美国02|中转+2
-      - TG@hkaa0
-      - 新加坡(资源分享师)
-      - POL🇵🇱
-      - 资源分享师-美国CloudFlare节点32
-      - 未知国家-2.05MB/s资源分享师
+      - YouTube梦歌|香港08
+      - YouTube梦歌|香港14
+      - YouTube梦歌|香港19
+      - YouTube梦歌|新加坡03
+      - YouTube梦歌|香港24
+      - YouTube梦歌|新加坡01
+      - YouTube梦歌|日本02
+      - YouTube梦歌|香港HTK|NETFLIX_19
+      - YouTube梦歌|香港HTK|NETFLIX_42
+      - YouTube梦歌|新加坡14
+      - YouTube梦歌|新加坡18
+      - YouTube梦歌|香港HTK|NETFLIX_89
+      - YouTube梦歌|日本12
+      - YouTube梦歌|香港01
+      - YouTube梦歌|新加坡17
+      - YouTube梦歌|日本11
+      - YouTube梦歌|日本05
+      - YouTube梦歌|美国16
+      - YouTube梦歌|美国15
+      - YouTube梦歌|美国14
+      - YouTube梦歌|日本06
+      - YouTube梦歌|美国05
+      - YouTube梦歌|香港21
+      - YouTube梦歌|台湾省03
+      - YouTube梦歌|美国07
+      - YouTube梦歌|菲律宾01
+      - YouTube梦歌|美国13
+      - YouTube梦歌|美国09
+      - YouTube梦歌|美国17
+      - YouTube梦歌|美国19
+      - YouTube梦歌|美国21
+      - YouTube梦歌|美国18
+      - YouTube梦歌|美国08
+      - YouTube梦歌|新加坡11
+      - YouTube梦歌|美国11
+      - 加拿大
+      - YouTube梦歌|美国22
+      - YouTube梦歌|美国20
+      - YouTube梦歌|美国10
+      - YouTube梦歌|日本09
+      - YouTube梦歌|新加坡08
+      - 印度
+      - YouTube梦歌|日本13
+      - YouTube梦歌|日本08
+      - YouTube梦歌|香港03
+      - YouTube梦歌|美国02
+      - YouTube梦歌|美国01
+      - YouTube梦歌|香港22
+      - YouTube梦歌|香港26
+      - 俄罗斯
+      - YouTube梦歌|新加坡09
+      - YouTube梦歌|新加坡02
+      - YouTube梦歌|香港25
+      - YouTube梦歌|香港09
+      - 泰国
+      - YouTube梦歌|香港07
+      - YouTube梦歌|香港02
+      - YouTube梦歌|新加坡16
+      - YouTube梦歌|香港HTK|NETFLIX_138
+      - YouTube梦歌|美国06
+      - 德国
+      - YouTube梦歌|英国
+      - YouTube梦歌|香港16
+      - 巴基斯坦
+      - 法国
+      - YouTube梦歌|香港10
+      - YouTube梦歌|日本07
+      - YouTube梦歌|日本01
+      - YouTube梦歌|新加坡07
+      - YouTube梦歌|新加坡04
+      - YouTube梦歌|菲律宾03
+      - YouTube梦歌|新加坡06
+      - YouTube梦歌|新加坡05
+      - YouTube梦歌|日本04
+      - YouTube梦歌|香港23
+      - YouTube梦歌|日本10
+      - YouTube梦歌|香港05
+      - YouTube梦歌|新加坡12
+      - YouTube梦歌|新加坡13
+      - 韩国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港02|实验性
-      - 香港02|实验性2
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - YouTube梦歌_3
-      - v1丨韩国丨微软丨直连丨韩区已解锁流媒体
-      - 美国/资源分享师/18
-      - 资源分享师12
-      - +狮城01|中转
-      - YouTube梦歌_24
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 香港04|实验性3
-      - Relay_🇺🇸US-🇺🇸US_1224
-      - 狮城02|中转
-      - YouTube梦歌_49
-      - YouTube梦歌_54
-      - YouTube梦歌_11
-      - default_name52
-      - +香港01|实验性
-      - YouTube梦歌_13_1
-      - 香港01|实验性
-      - YouTube梦歌_40
-      - +狮城02|中转
-      - 香港02|实验性3
-      - YouTube梦歌_23
-      - YouTube梦歌_41
-      - 德国(yudou66.com+玉豆免费节点)
-      - GBR🇬🇧
-      - 狮城01|中转
-      - YouTube梦歌_42
-      - +狮城01|中转+2
-      - +狮城02|中转+2
-      - YouTube梦歌_13_2
-      - 美国02|中转
-      - 香港03|实验性
-      - 资源分享师/Pawdroid-美国PacificRack机房13
-      - YouTube梦歌_21
-      - YouTube梦歌_60
-      - YouTube梦歌_32
-      - YouTube梦歌_20
-      - +美国02|中转
-      - 香港04|实验性2
-      - US_2🇺🇸
-      - 美国(yudou66.com玉豆免费节点)_3
-      - +美国02|中转+2
-      - TG@hkaa0
-      - 新加坡(资源分享师)
-      - POL🇵🇱
-      - 资源分享师-美国CloudFlare节点32
-      - 未知国家-2.05MB/s资源分享师
+      - YouTube梦歌|香港08
+      - YouTube梦歌|香港14
+      - YouTube梦歌|香港19
+      - YouTube梦歌|新加坡03
+      - YouTube梦歌|香港24
+      - YouTube梦歌|新加坡01
+      - YouTube梦歌|日本02
+      - YouTube梦歌|香港HTK|NETFLIX_19
+      - YouTube梦歌|香港HTK|NETFLIX_42
+      - YouTube梦歌|新加坡14
+      - YouTube梦歌|新加坡18
+      - YouTube梦歌|香港HTK|NETFLIX_89
+      - YouTube梦歌|日本12
+      - YouTube梦歌|香港01
+      - YouTube梦歌|新加坡17
+      - YouTube梦歌|日本11
+      - YouTube梦歌|日本05
+      - YouTube梦歌|美国16
+      - YouTube梦歌|美国15
+      - YouTube梦歌|美国14
+      - YouTube梦歌|日本06
+      - YouTube梦歌|美国05
+      - YouTube梦歌|香港21
+      - YouTube梦歌|台湾省03
+      - YouTube梦歌|美国07
+      - YouTube梦歌|菲律宾01
+      - YouTube梦歌|美国13
+      - YouTube梦歌|美国09
+      - YouTube梦歌|美国17
+      - YouTube梦歌|美国19
+      - YouTube梦歌|美国21
+      - YouTube梦歌|美国18
+      - YouTube梦歌|美国08
+      - YouTube梦歌|新加坡11
+      - YouTube梦歌|美国11
+      - 加拿大
+      - YouTube梦歌|美国22
+      - YouTube梦歌|美国20
+      - YouTube梦歌|美国10
+      - YouTube梦歌|日本09
+      - YouTube梦歌|新加坡08
+      - 印度
+      - YouTube梦歌|日本13
+      - YouTube梦歌|日本08
+      - YouTube梦歌|香港03
+      - YouTube梦歌|美国02
+      - YouTube梦歌|美国01
+      - YouTube梦歌|香港22
+      - YouTube梦歌|香港26
+      - 俄罗斯
+      - YouTube梦歌|新加坡09
+      - YouTube梦歌|新加坡02
+      - YouTube梦歌|香港25
+      - YouTube梦歌|香港09
+      - 泰国
+      - YouTube梦歌|香港07
+      - YouTube梦歌|香港02
+      - YouTube梦歌|新加坡16
+      - YouTube梦歌|香港HTK|NETFLIX_138
+      - YouTube梦歌|美国06
+      - 德国
+      - YouTube梦歌|英国
+      - YouTube梦歌|香港16
+      - 巴基斯坦
+      - 法国
+      - YouTube梦歌|香港10
+      - YouTube梦歌|日本07
+      - YouTube梦歌|日本01
+      - YouTube梦歌|新加坡07
+      - YouTube梦歌|新加坡04
+      - YouTube梦歌|菲律宾03
+      - YouTube梦歌|新加坡06
+      - YouTube梦歌|新加坡05
+      - YouTube梦歌|日本04
+      - YouTube梦歌|香港23
+      - YouTube梦歌|日本10
+      - YouTube梦歌|香港05
+      - YouTube梦歌|新加坡12
+      - YouTube梦歌|新加坡13
+      - 韩国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港02|实验性
-      - 香港02|实验性2
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - YouTube梦歌_3
-      - v1丨韩国丨微软丨直连丨韩区已解锁流媒体
-      - 美国/资源分享师/18
-      - 资源分享师12
-      - +狮城01|中转
-      - YouTube梦歌_24
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 香港04|实验性3
-      - Relay_🇺🇸US-🇺🇸US_1224
-      - 狮城02|中转
-      - YouTube梦歌_49
-      - YouTube梦歌_54
-      - YouTube梦歌_11
-      - default_name52
-      - +香港01|实验性
-      - YouTube梦歌_13_1
-      - 香港01|实验性
-      - YouTube梦歌_40
-      - +狮城02|中转
-      - 香港02|实验性3
-      - YouTube梦歌_23
-      - YouTube梦歌_41
-      - 德国(yudou66.com+玉豆免费节点)
-      - GBR🇬🇧
-      - 狮城01|中转
-      - YouTube梦歌_42
-      - +狮城01|中转+2
-      - +狮城02|中转+2
-      - YouTube梦歌_13_2
-      - 美国02|中转
-      - 香港03|实验性
-      - 资源分享师/Pawdroid-美国PacificRack机房13
-      - YouTube梦歌_21
-      - YouTube梦歌_60
-      - YouTube梦歌_32
-      - YouTube梦歌_20
-      - +美国02|中转
-      - 香港04|实验性2
-      - US_2🇺🇸
-      - 美国(yudou66.com玉豆免费节点)_3
-      - +美国02|中转+2
-      - TG@hkaa0
-      - 新加坡(资源分享师)
-      - POL🇵🇱
-      - 资源分享师-美国CloudFlare节点32
-      - 未知国家-2.05MB/s资源分享师
+      - YouTube梦歌|香港08
+      - YouTube梦歌|香港14
+      - YouTube梦歌|香港19
+      - YouTube梦歌|新加坡03
+      - YouTube梦歌|香港24
+      - YouTube梦歌|新加坡01
+      - YouTube梦歌|日本02
+      - YouTube梦歌|香港HTK|NETFLIX_19
+      - YouTube梦歌|香港HTK|NETFLIX_42
+      - YouTube梦歌|新加坡14
+      - YouTube梦歌|新加坡18
+      - YouTube梦歌|香港HTK|NETFLIX_89
+      - YouTube梦歌|日本12
+      - YouTube梦歌|香港01
+      - YouTube梦歌|新加坡17
+      - YouTube梦歌|日本11
+      - YouTube梦歌|日本05
+      - YouTube梦歌|美国16
+      - YouTube梦歌|美国15
+      - YouTube梦歌|美国14
+      - YouTube梦歌|日本06
+      - YouTube梦歌|美国05
+      - YouTube梦歌|香港21
+      - YouTube梦歌|台湾省03
+      - YouTube梦歌|美国07
+      - YouTube梦歌|菲律宾01
+      - YouTube梦歌|美国13
+      - YouTube梦歌|美国09
+      - YouTube梦歌|美国17
+      - YouTube梦歌|美国19
+      - YouTube梦歌|美国21
+      - YouTube梦歌|美国18
+      - YouTube梦歌|美国08
+      - YouTube梦歌|新加坡11
+      - YouTube梦歌|美国11
+      - 加拿大
+      - YouTube梦歌|美国22
+      - YouTube梦歌|美国20
+      - YouTube梦歌|美国10
+      - YouTube梦歌|日本09
+      - YouTube梦歌|新加坡08
+      - 印度
+      - YouTube梦歌|日本13
+      - YouTube梦歌|日本08
+      - YouTube梦歌|香港03
+      - YouTube梦歌|美国02
+      - YouTube梦歌|美国01
+      - YouTube梦歌|香港22
+      - YouTube梦歌|香港26
+      - 俄罗斯
+      - YouTube梦歌|新加坡09
+      - YouTube梦歌|新加坡02
+      - YouTube梦歌|香港25
+      - YouTube梦歌|香港09
+      - 泰国
+      - YouTube梦歌|香港07
+      - YouTube梦歌|香港02
+      - YouTube梦歌|新加坡16
+      - YouTube梦歌|香港HTK|NETFLIX_138
+      - YouTube梦歌|美国06
+      - 德国
+      - YouTube梦歌|英国
+      - YouTube梦歌|香港16
+      - 巴基斯坦
+      - 法国
+      - YouTube梦歌|香港10
+      - YouTube梦歌|日本07
+      - YouTube梦歌|日本01
+      - YouTube梦歌|新加坡07
+      - YouTube梦歌|新加坡04
+      - YouTube梦歌|菲律宾03
+      - YouTube梦歌|新加坡06
+      - YouTube梦歌|新加坡05
+      - YouTube梦歌|日本04
+      - YouTube梦歌|香港23
+      - YouTube梦歌|日本10
+      - YouTube梦歌|香港05
+      - YouTube梦歌|新加坡12
+      - YouTube梦歌|新加坡13
+      - 韩国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港02|实验性
-      - 香港02|实验性2
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - YouTube梦歌_3
-      - v1丨韩国丨微软丨直连丨韩区已解锁流媒体
-      - 美国/资源分享师/18
-      - 资源分享师12
-      - +狮城01|中转
-      - YouTube梦歌_24
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 香港04|实验性3
-      - Relay_🇺🇸US-🇺🇸US_1224
-      - 狮城02|中转
-      - YouTube梦歌_49
-      - YouTube梦歌_54
-      - YouTube梦歌_11
-      - default_name52
-      - +香港01|实验性
-      - YouTube梦歌_13_1
-      - 香港01|实验性
-      - YouTube梦歌_40
-      - +狮城02|中转
-      - 香港02|实验性3
-      - YouTube梦歌_23
-      - YouTube梦歌_41
-      - 德国(yudou66.com+玉豆免费节点)
-      - GBR🇬🇧
-      - 狮城01|中转
-      - YouTube梦歌_42
-      - +狮城01|中转+2
-      - +狮城02|中转+2
-      - YouTube梦歌_13_2
-      - 美国02|中转
-      - 香港03|实验性
-      - 资源分享师/Pawdroid-美国PacificRack机房13
-      - YouTube梦歌_21
-      - YouTube梦歌_60
-      - YouTube梦歌_32
-      - YouTube梦歌_20
-      - +美国02|中转
-      - 香港04|实验性2
-      - US_2🇺🇸
-      - 美国(yudou66.com玉豆免费节点)_3
-      - +美国02|中转+2
-      - TG@hkaa0
-      - 新加坡(资源分享师)
-      - POL🇵🇱
-      - 资源分享师-美国CloudFlare节点32
-      - 未知国家-2.05MB/s资源分享师
+      - YouTube梦歌|香港08
+      - YouTube梦歌|香港14
+      - YouTube梦歌|香港19
+      - YouTube梦歌|新加坡03
+      - YouTube梦歌|香港24
+      - YouTube梦歌|新加坡01
+      - YouTube梦歌|日本02
+      - YouTube梦歌|香港HTK|NETFLIX_19
+      - YouTube梦歌|香港HTK|NETFLIX_42
+      - YouTube梦歌|新加坡14
+      - YouTube梦歌|新加坡18
+      - YouTube梦歌|香港HTK|NETFLIX_89
+      - YouTube梦歌|日本12
+      - YouTube梦歌|香港01
+      - YouTube梦歌|新加坡17
+      - YouTube梦歌|日本11
+      - YouTube梦歌|日本05
+      - YouTube梦歌|美国16
+      - YouTube梦歌|美国15
+      - YouTube梦歌|美国14
+      - YouTube梦歌|日本06
+      - YouTube梦歌|美国05
+      - YouTube梦歌|香港21
+      - YouTube梦歌|台湾省03
+      - YouTube梦歌|美国07
+      - YouTube梦歌|菲律宾01
+      - YouTube梦歌|美国13
+      - YouTube梦歌|美国09
+      - YouTube梦歌|美国17
+      - YouTube梦歌|美国19
+      - YouTube梦歌|美国21
+      - YouTube梦歌|美国18
+      - YouTube梦歌|美国08
+      - YouTube梦歌|新加坡11
+      - YouTube梦歌|美国11
+      - 加拿大
+      - YouTube梦歌|美国22
+      - YouTube梦歌|美国20
+      - YouTube梦歌|美国10
+      - YouTube梦歌|日本09
+      - YouTube梦歌|新加坡08
+      - 印度
+      - YouTube梦歌|日本13
+      - YouTube梦歌|日本08
+      - YouTube梦歌|香港03
+      - YouTube梦歌|美国02
+      - YouTube梦歌|美国01
+      - YouTube梦歌|香港22
+      - YouTube梦歌|香港26
+      - 俄罗斯
+      - YouTube梦歌|新加坡09
+      - YouTube梦歌|新加坡02
+      - YouTube梦歌|香港25
+      - YouTube梦歌|香港09
+      - 泰国
+      - YouTube梦歌|香港07
+      - YouTube梦歌|香港02
+      - YouTube梦歌|新加坡16
+      - YouTube梦歌|香港HTK|NETFLIX_138
+      - YouTube梦歌|美国06
+      - 德国
+      - YouTube梦歌|英国
+      - YouTube梦歌|香港16
+      - 巴基斯坦
+      - 法国
+      - YouTube梦歌|香港10
+      - YouTube梦歌|日本07
+      - YouTube梦歌|日本01
+      - YouTube梦歌|新加坡07
+      - YouTube梦歌|新加坡04
+      - YouTube梦歌|菲律宾03
+      - YouTube梦歌|新加坡06
+      - YouTube梦歌|新加坡05
+      - YouTube梦歌|日本04
+      - YouTube梦歌|香港23
+      - YouTube梦歌|日本10
+      - YouTube梦歌|香港05
+      - YouTube梦歌|新加坡12
+      - YouTube梦歌|新加坡13
+      - 韩国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 香港02|实验性
-      - 香港02|实验性2
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - YouTube梦歌_3
-      - v1丨韩国丨微软丨直连丨韩区已解锁流媒体
-      - 美国/资源分享师/18
-      - 资源分享师12
-      - +狮城01|中转
-      - YouTube梦歌_24
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 香港04|实验性3
-      - Relay_🇺🇸US-🇺🇸US_1224
-      - 狮城02|中转
-      - YouTube梦歌_49
-      - YouTube梦歌_54
-      - YouTube梦歌_11
-      - default_name52
-      - +香港01|实验性
-      - YouTube梦歌_13_1
-      - 香港01|实验性
-      - YouTube梦歌_40
-      - +狮城02|中转
-      - 香港02|实验性3
-      - YouTube梦歌_23
-      - YouTube梦歌_41
-      - 德国(yudou66.com+玉豆免费节点)
-      - GBR🇬🇧
-      - 狮城01|中转
-      - YouTube梦歌_42
-      - +狮城01|中转+2
-      - +狮城02|中转+2
-      - YouTube梦歌_13_2
-      - 美国02|中转
-      - 香港03|实验性
-      - 资源分享师/Pawdroid-美国PacificRack机房13
-      - YouTube梦歌_21
-      - YouTube梦歌_60
-      - YouTube梦歌_32
-      - YouTube梦歌_20
-      - +美国02|中转
-      - 香港04|实验性2
-      - US_2🇺🇸
-      - 美国(yudou66.com玉豆免费节点)_3
-      - +美国02|中转+2
-      - TG@hkaa0
-      - 新加坡(资源分享师)
-      - POL🇵🇱
-      - 资源分享师-美国CloudFlare节点32
-      - 未知国家-2.05MB/s资源分享师
+      - YouTube梦歌|香港08
+      - YouTube梦歌|香港14
+      - YouTube梦歌|香港19
+      - YouTube梦歌|新加坡03
+      - YouTube梦歌|香港24
+      - YouTube梦歌|新加坡01
+      - YouTube梦歌|日本02
+      - YouTube梦歌|香港HTK|NETFLIX_19
+      - YouTube梦歌|香港HTK|NETFLIX_42
+      - YouTube梦歌|新加坡14
+      - YouTube梦歌|新加坡18
+      - YouTube梦歌|香港HTK|NETFLIX_89
+      - YouTube梦歌|日本12
+      - YouTube梦歌|香港01
+      - YouTube梦歌|新加坡17
+      - YouTube梦歌|日本11
+      - YouTube梦歌|日本05
+      - YouTube梦歌|美国16
+      - YouTube梦歌|美国15
+      - YouTube梦歌|美国14
+      - YouTube梦歌|日本06
+      - YouTube梦歌|美国05
+      - YouTube梦歌|香港21
+      - YouTube梦歌|台湾省03
+      - YouTube梦歌|美国07
+      - YouTube梦歌|菲律宾01
+      - YouTube梦歌|美国13
+      - YouTube梦歌|美国09
+      - YouTube梦歌|美国17
+      - YouTube梦歌|美国19
+      - YouTube梦歌|美国21
+      - YouTube梦歌|美国18
+      - YouTube梦歌|美国08
+      - YouTube梦歌|新加坡11
+      - YouTube梦歌|美国11
+      - 加拿大
+      - YouTube梦歌|美国22
+      - YouTube梦歌|美国20
+      - YouTube梦歌|美国10
+      - YouTube梦歌|日本09
+      - YouTube梦歌|新加坡08
+      - 印度
+      - YouTube梦歌|日本13
+      - YouTube梦歌|日本08
+      - YouTube梦歌|香港03
+      - YouTube梦歌|美国02
+      - YouTube梦歌|美国01
+      - YouTube梦歌|香港22
+      - YouTube梦歌|香港26
+      - 俄罗斯
+      - YouTube梦歌|新加坡09
+      - YouTube梦歌|新加坡02
+      - YouTube梦歌|香港25
+      - YouTube梦歌|香港09
+      - 泰国
+      - YouTube梦歌|香港07
+      - YouTube梦歌|香港02
+      - YouTube梦歌|新加坡16
+      - YouTube梦歌|香港HTK|NETFLIX_138
+      - YouTube梦歌|美国06
+      - 德国
+      - YouTube梦歌|英国
+      - YouTube梦歌|香港16
+      - 巴基斯坦
+      - 法国
+      - YouTube梦歌|香港10
+      - YouTube梦歌|日本07
+      - YouTube梦歌|日本01
+      - YouTube梦歌|新加坡07
+      - YouTube梦歌|新加坡04
+      - YouTube梦歌|菲律宾03
+      - YouTube梦歌|新加坡06
+      - YouTube梦歌|新加坡05
+      - YouTube梦歌|日本04
+      - YouTube梦歌|香港23
+      - YouTube梦歌|日本10
+      - YouTube梦歌|香港05
+      - YouTube梦歌|新加坡12
+      - YouTube梦歌|新加坡13
+      - 韩国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 香港02|实验性
-      - 香港02|实验性2
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - YouTube梦歌_3
-      - v1丨韩国丨微软丨直连丨韩区已解锁流媒体
-      - 美国/资源分享师/18
-      - 资源分享师12
-      - +狮城01|中转
-      - YouTube梦歌_24
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 香港04|实验性3
-      - Relay_🇺🇸US-🇺🇸US_1224
-      - 狮城02|中转
-      - YouTube梦歌_49
-      - YouTube梦歌_54
-      - YouTube梦歌_11
-      - default_name52
-      - +香港01|实验性
-      - YouTube梦歌_13_1
-      - 香港01|实验性
-      - YouTube梦歌_40
-      - +狮城02|中转
-      - 香港02|实验性3
-      - YouTube梦歌_23
-      - YouTube梦歌_41
-      - 德国(yudou66.com+玉豆免费节点)
-      - GBR🇬🇧
-      - 狮城01|中转
-      - YouTube梦歌_42
-      - +狮城01|中转+2
-      - +狮城02|中转+2
-      - YouTube梦歌_13_2
-      - 美国02|中转
-      - 香港03|实验性
-      - 资源分享师/Pawdroid-美国PacificRack机房13
-      - YouTube梦歌_21
-      - YouTube梦歌_60
-      - YouTube梦歌_32
-      - YouTube梦歌_20
-      - +美国02|中转
-      - 香港04|实验性2
-      - US_2🇺🇸
-      - 美国(yudou66.com玉豆免费节点)_3
-      - +美国02|中转+2
-      - TG@hkaa0
-      - 新加坡(资源分享师)
-      - POL🇵🇱
-      - 资源分享师-美国CloudFlare节点32
-      - 未知国家-2.05MB/s资源分享师
+      - YouTube梦歌|香港08
+      - YouTube梦歌|香港14
+      - YouTube梦歌|香港19
+      - YouTube梦歌|新加坡03
+      - YouTube梦歌|香港24
+      - YouTube梦歌|新加坡01
+      - YouTube梦歌|日本02
+      - YouTube梦歌|香港HTK|NETFLIX_19
+      - YouTube梦歌|香港HTK|NETFLIX_42
+      - YouTube梦歌|新加坡14
+      - YouTube梦歌|新加坡18
+      - YouTube梦歌|香港HTK|NETFLIX_89
+      - YouTube梦歌|日本12
+      - YouTube梦歌|香港01
+      - YouTube梦歌|新加坡17
+      - YouTube梦歌|日本11
+      - YouTube梦歌|日本05
+      - YouTube梦歌|美国16
+      - YouTube梦歌|美国15
+      - YouTube梦歌|美国14
+      - YouTube梦歌|日本06
+      - YouTube梦歌|美国05
+      - YouTube梦歌|香港21
+      - YouTube梦歌|台湾省03
+      - YouTube梦歌|美国07
+      - YouTube梦歌|菲律宾01
+      - YouTube梦歌|美国13
+      - YouTube梦歌|美国09
+      - YouTube梦歌|美国17
+      - YouTube梦歌|美国19
+      - YouTube梦歌|美国21
+      - YouTube梦歌|美国18
+      - YouTube梦歌|美国08
+      - YouTube梦歌|新加坡11
+      - YouTube梦歌|美国11
+      - 加拿大
+      - YouTube梦歌|美国22
+      - YouTube梦歌|美国20
+      - YouTube梦歌|美国10
+      - YouTube梦歌|日本09
+      - YouTube梦歌|新加坡08
+      - 印度
+      - YouTube梦歌|日本13
+      - YouTube梦歌|日本08
+      - YouTube梦歌|香港03
+      - YouTube梦歌|美国02
+      - YouTube梦歌|美国01
+      - YouTube梦歌|香港22
+      - YouTube梦歌|香港26
+      - 俄罗斯
+      - YouTube梦歌|新加坡09
+      - YouTube梦歌|新加坡02
+      - YouTube梦歌|香港25
+      - YouTube梦歌|香港09
+      - 泰国
+      - YouTube梦歌|香港07
+      - YouTube梦歌|香港02
+      - YouTube梦歌|新加坡16
+      - YouTube梦歌|香港HTK|NETFLIX_138
+      - YouTube梦歌|美国06
+      - 德国
+      - YouTube梦歌|英国
+      - YouTube梦歌|香港16
+      - 巴基斯坦
+      - 法国
+      - YouTube梦歌|香港10
+      - YouTube梦歌|日本07
+      - YouTube梦歌|日本01
+      - YouTube梦歌|新加坡07
+      - YouTube梦歌|新加坡04
+      - YouTube梦歌|菲律宾03
+      - YouTube梦歌|新加坡06
+      - YouTube梦歌|新加坡05
+      - YouTube梦歌|日本04
+      - YouTube梦歌|香港23
+      - YouTube梦歌|日本10
+      - YouTube梦歌|香港05
+      - YouTube梦歌|新加坡12
+      - YouTube梦歌|新加坡13
+      - 韩国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,56 +620,86 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港02|实验性
-      - 香港02|实验性2
-      - 美国(yudou66.com玉豆免费节点)_1
-      - 美国(yudou66.com玉豆免费节点)_2
-      - YouTube梦歌_3
-      - v1丨韩国丨微软丨直连丨韩区已解锁流媒体
-      - 美国/资源分享师/18
-      - 资源分享师12
-      - +狮城01|中转
-      - YouTube梦歌_24
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 香港04|实验性3
-      - Relay_🇺🇸US-🇺🇸US_1224
-      - 狮城02|中转
-      - YouTube梦歌_49
-      - YouTube梦歌_54
-      - YouTube梦歌_11
-      - default_name52
-      - +香港01|实验性
-      - YouTube梦歌_13_1
-      - 香港01|实验性
-      - YouTube梦歌_40
-      - +狮城02|中转
-      - 香港02|实验性3
-      - YouTube梦歌_23
-      - YouTube梦歌_41
-      - 德国(yudou66.com+玉豆免费节点)
-      - GBR🇬🇧
-      - 狮城01|中转
-      - YouTube梦歌_42
-      - +狮城01|中转+2
-      - +狮城02|中转+2
-      - YouTube梦歌_13_2
-      - 美国02|中转
-      - 香港03|实验性
-      - 资源分享师/Pawdroid-美国PacificRack机房13
-      - YouTube梦歌_21
-      - YouTube梦歌_60
-      - YouTube梦歌_32
-      - YouTube梦歌_20
-      - +美国02|中转
-      - 香港04|实验性2
-      - US_2🇺🇸
-      - 美国(yudou66.com玉豆免费节点)_3
-      - +美国02|中转+2
-      - TG@hkaa0
-      - 新加坡(资源分享师)
-      - POL🇵🇱
-      - 资源分享师-美国CloudFlare节点32
-      - 未知国家-2.05MB/s资源分享师
+      - YouTube梦歌|香港08
+      - YouTube梦歌|香港14
+      - YouTube梦歌|香港19
+      - YouTube梦歌|新加坡03
+      - YouTube梦歌|香港24
+      - YouTube梦歌|新加坡01
+      - YouTube梦歌|日本02
+      - YouTube梦歌|香港HTK|NETFLIX_19
+      - YouTube梦歌|香港HTK|NETFLIX_42
+      - YouTube梦歌|新加坡14
+      - YouTube梦歌|新加坡18
+      - YouTube梦歌|香港HTK|NETFLIX_89
+      - YouTube梦歌|日本12
+      - YouTube梦歌|香港01
+      - YouTube梦歌|新加坡17
+      - YouTube梦歌|日本11
+      - YouTube梦歌|日本05
+      - YouTube梦歌|美国16
+      - YouTube梦歌|美国15
+      - YouTube梦歌|美国14
+      - YouTube梦歌|日本06
+      - YouTube梦歌|美国05
+      - YouTube梦歌|香港21
+      - YouTube梦歌|台湾省03
+      - YouTube梦歌|美国07
+      - YouTube梦歌|菲律宾01
+      - YouTube梦歌|美国13
+      - YouTube梦歌|美国09
+      - YouTube梦歌|美国17
+      - YouTube梦歌|美国19
+      - YouTube梦歌|美国21
+      - YouTube梦歌|美国18
+      - YouTube梦歌|美国08
+      - YouTube梦歌|新加坡11
+      - YouTube梦歌|美国11
+      - 加拿大
+      - YouTube梦歌|美国22
+      - YouTube梦歌|美国20
+      - YouTube梦歌|美国10
+      - YouTube梦歌|日本09
+      - YouTube梦歌|新加坡08
+      - 印度
+      - YouTube梦歌|日本13
+      - YouTube梦歌|日本08
+      - YouTube梦歌|香港03
+      - YouTube梦歌|美国02
+      - YouTube梦歌|美国01
+      - YouTube梦歌|香港22
+      - YouTube梦歌|香港26
+      - 俄罗斯
+      - YouTube梦歌|新加坡09
+      - YouTube梦歌|新加坡02
+      - YouTube梦歌|香港25
+      - YouTube梦歌|香港09
+      - 泰国
+      - YouTube梦歌|香港07
+      - YouTube梦歌|香港02
+      - YouTube梦歌|新加坡16
+      - YouTube梦歌|香港HTK|NETFLIX_138
+      - YouTube梦歌|美国06
+      - 德国
+      - YouTube梦歌|英国
+      - YouTube梦歌|香港16
+      - 巴基斯坦
+      - 法国
+      - YouTube梦歌|香港10
+      - YouTube梦歌|日本07
+      - YouTube梦歌|日本01
+      - YouTube梦歌|新加坡07
+      - YouTube梦歌|新加坡04
+      - YouTube梦歌|菲律宾03
+      - YouTube梦歌|新加坡06
+      - YouTube梦歌|新加坡05
+      - YouTube梦歌|日本04
+      - YouTube梦歌|香港23
+      - YouTube梦歌|日本10
+      - YouTube梦歌|香港05
+      - YouTube梦歌|新加坡12
+      - YouTube梦歌|新加坡13
+      - 韩国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
