@@ -5,249 +5,221 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"🇨🇳_CN_中国_1","server":"hnlt.817777.xyz","port":11011,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"zxOmdD","obfs-param":"V2tSWmVWbDZVWGxOYWxreVRYazFkR0ZYVG5saU0wNTJXbTVSZFZreU9YUQ","protocol-param":"22663:naiboob"}
-  - {"type":"trojan","name":"youtube@资源分享师_日本_11","server":"trs12.bolab.net","port":22,"password":"40c89b10235c40321e7a3cef82b53a03","udp":true,"skip-cert-verify":true,"sni":"trs12.bolab.net"}
-  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_100","http-opts":{"path":["/"]},"server":"192.161.55.76","port":"17125","uuid":"72ecc3a9-7e0a-4a62-fa1e-e1479c8bf645","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ss","name":"youtube@资源分享师_中国_37","server":"shzz.ikuncloud.com","port":45973,"cipher":"chacha20-ietf-poly1305","password":"024957a8-7965-4736-b3cf-b92ea963de8b"}
-  - {"type":"vmess","name":"YouTube梦歌|江港BGP|NETFLIX_76","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.188.188","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国_1","ws-opts":{"path":"/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm","headers":{"host":"001frg.pages.dev"}},"server":"172.64.150.170","port":"443","uuid":"65218fe8-d9c2-4e07-95bb-cb6e379a440b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"法国(yudou66.com+玉豆免费节点)","server":"150.136.57.125","port":41106,"password":"kSZddpnUKy","udp":true,"skip-cert-verify":true,"sni":"fxe.fengcj.xyz"}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_213","ws-opts":{"path":"/","headers":{"host":"14.72img.xyz"}},"server":"131.186.23.71","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_83","ws-opts":{"path":"/","headers":{"host":"38.72img.xyz"}},"server":"172.66.40.10","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|NETFLIX_57","ws-opts":{"path":"/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm","headers":{"host":"003kkou.pages.dev"}},"server":"167.172.243.247","port":"443","uuid":"65218fe8-d9c2-4e07-95bb-cb6e379a440b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"法国(油管破解资源君2.0)","server":"129.213.117.66","port":41106,"password":"Yaib2g1jy3","udp":true,"skip-cert-verify":true}
+  - {"type":"ssr","name":"0.11|油管阿伟科技10","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME"}
+  - {"type":"ssr","name":"油管阿伟科技_10","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME"}
+  - {"type":"ss","name":"YouTube梦歌|香港HTK|NETFLIX_4","server":"hnzz.ikuncloud.com","port":14029,"cipher":"chacha20-ietf-poly1305","password":"024957a8-7965-4736-b3cf-b92ea963de8b"}
+  - {"type":"ssr","name":"KR韩国(youtube阿伟科技)","server":"cmaisallin.debugspace.work","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"TWpObVptUTNNVEV1YldsamNtOXpiMlowTG1OdmJR","protocol-param":"34976:SVIPTIZ8"}
+  - {"type":"ssr","name":"youtube阿伟科技","server":"116.162.120.26","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"51760:LLL090ui8oll8"}
+  - {"type":"ss","name":"YouTube梦歌|香港HTK|NETFLIX_223","server":"shzz.ikuncloud.com","port":15682,"cipher":"chacha20-ietf-poly1305","password":"024957a8-7965-4736-b3cf-b92ea963de8b"}
   - {"type":"ss","name":"youtube@资源分享师_中国_23","server":"shzz.ikuncloud.com","port":41914,"cipher":"chacha20-ietf-poly1305","password":"024957a8-7965-4736-b3cf-b92ea963de8b"}
-  - {"type":"vmess","name":"YouTube梦歌|NETFLIX_38","ws-opts":{"path":"/","headers":{"host":"38.72img.xyz"}},"server":"172.67.225.31","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"youtube@资源分享师_中国_64","server":"hnt.cndns.shop","port":27766,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
-  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_152","http-opts":{"path":["/"]},"server":"138.2.83.217","port":"43863","uuid":"ca984457-b017-46e5-d973-42a3c3fdc292","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_2","ws-opts":{"path":"/meGiqgSp/"},"server":"us4.cachexy.ga","port":"80","uuid":"28d521e3-4253-47bd-97eb-321bc1328fe9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_19","ws-opts":{"path":"/","headers":{"host":"43.72img.xyz"}},"server":"43.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_87","ws-opts":{"path":"/","headers":{"host":"21.72img.xyz"}},"server":"21.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_159","http-opts":{"path":["/"]},"server":"194.87.248.27","port":"26743","uuid":"59952a8e-b712-4190-d85e-f9aadd65faa0","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)","ws-opts":{"path":"/meGiqgSp/","headers":{"host":"us4.cachexy.ga"}},"server":"us4.cachexy.ga","port":"80","uuid":"28d521e3-4253-47bd-97eb-321bc1328fe9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"youtube@资源分享师_61","ws-opts":{"path":"/eisasqa","headers":{"host":"foxusovz2.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳_CN_中国","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_1","ws-opts":{"path":"/DQsafRJn/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"main.millionaireaisle.com","port":"2053","uuid":"8947fbe5-c1c7-4716-8564-2092ce776f92","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TUR土耳其(youtube阿伟科技)_1","ws-opts":{"path":"/10Gb.bin"},"server":"pokerad.xyz","port":"80","uuid":"842a57d2-3a6a-4a04-b207-98e4ed16c72e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TUR土耳其(youtube阿伟科技)_2","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"techplanet.today","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_2","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"main.millionaireaisle.com","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_148","http-opts":{"path":["/"]},"server":"43.156.18.119","port":"32482","uuid":"fd3df956-8d30-4942-f8be-f4441f292cc6","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"youtube@资源分享师_53","ws-opts":{"path":"/","headers":{"host":"55.72img.xyz"}},"server":"55.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_91","ws-opts":{"path":"/","headers":{"host":"38.72img.xyz"}},"server":"172.67.183.35","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"youtube@资源分享师_英国_66","server":"t1.samsung.bforward2.uk","port":443,"password":"67e200f1-4ff5-42ca-8425-3f16f7986c29","udp":true,"skip-cert-verify":true,"sni":"t1.samsung.bforward2.uk"}
-  - {"type":"vmess","name":"🇨🇳_CN_中国_2","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ssr","name":"🇨🇳_CN_中国_3","server":"initest08.initcloud.pro","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"60431:123456"}
-  - {"type":"vmess","name":"加拿大(yudou66.com玉豆免费节点)","ws-opts":{"path":"/","headers":{"host":"46.72img.xyz"}},"server":"46.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_212","ws-opts":{"path":"/","headers":{"host":"14.72img.xyz"}},"server":"131.186.17.60","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_3","server":"148.113.141.99","port":443,"password":"HdsUZmsHQW","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_3","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"news.microsoft.com","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"YouTube梦歌|NETFLIX_22","ws-opts":{"path":"/reffs7y26g0ua"},"server":"surongwei.eu.org","port":"443","uuid":"6093eefb-7ab6-41df-aba0-d5fa58147e10","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"法国(油管破解资源君2.0)","server":"129.213.117.66","port":41106,"password":"Yaib2g1jy3","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"youtube@资源分享师_43","ws-opts":{"path":"/imkcpyyds","headers":{"host":"buyvm.imkcp.eu.org"}},"server":"buyvm.imkcp.eu.org","port":"443","uuid":"6fb9a750-55b8-4e6e-857b-242b795399dc","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_4","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"cacerts.digicert.com","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"youtube@资源分享师_美国_34","ws-opts":{"path":"/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm","headers":{"host":"003kkou.pages.dev"}},"server":"167.172.243.247","port":"443","uuid":"65218fe8-d9c2-4e07-95bb-cb6e379a440b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇳🇱_NL_荷兰","server":"185.212.200.75","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"YouTube梦歌|香港HTK|NETFLIX_1","server":"hnzz.ikuncloud.com","port":60099,"cipher":"chacha20-ietf-poly1305","password":"024957a8-7965-4736-b3cf-b92ea963de8b"}
+  - {"type":"ss","name":"YouTube梦歌|香港HTK|NETFLIX_7","server":"hnzz.ikuncloud.com","port":30711,"cipher":"chacha20-ietf-poly1305","password":"024957a8-7965-4736-b3cf-b92ea963de8b"}
+  - {"type":"ss","name":"YouTube梦歌|香港HTK|NETFLIX_9","server":"hnzz.ikuncloud.com","port":11074,"cipher":"chacha20-ietf-poly1305","password":"024957a8-7965-4736-b3cf-b92ea963de8b"}
+  - {"type":"ss","name":"YouTube梦歌|香港HTK|NETFLIX_11","server":"hnzz.ikuncloud.com","port":62405,"cipher":"chacha20-ietf-poly1305","password":"024957a8-7965-4736-b3cf-b92ea963de8b"}
+  - {"type":"ss","name":"YouTube梦歌|香港HTK|NETFLIX_207","server":"shzz.ikuncloud.com","port":23029,"cipher":"chacha20-ietf-poly1305","password":"024957a8-7965-4736-b3cf-b92ea963de8b"}
+  - {"type":"ssr","name":"HK香港(youtube阿伟科技)","server":"1cnrelay.initcloud.pro","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"TWpObVptUTNNVEV1YldsamNtOXpiMlowTG1OdmJR","protocol-param":"34976:SVIPTIZ8"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国_1
-      - youtube@资源分享师_日本_11
-      - YouTube梦歌|香港HTK|NETFLIX_100
-      - youtube@资源分享师_中国_37
-      - YouTube梦歌|江港BGP|NETFLIX_76
-      - 🇺🇸_US_美国_1
-      - 法国(yudou66.com+玉豆免费节点)
-      - youtube@资源分享师_美国_213
-      - youtube@资源分享师_美国_83
-      - YouTube梦歌|NETFLIX_57
-      - 法国(油管破解资源君2.0)
+      - 0.11|油管阿伟科技10
+      - 油管阿伟科技_10
+      - YouTube梦歌|香港HTK|NETFLIX_4
+      - KR韩国(youtube阿伟科技)
+      - youtube阿伟科技
+      - YouTube梦歌|香港HTK|NETFLIX_223
       - youtube@资源分享师_中国_23
-      - YouTube梦歌|NETFLIX_38
-      - youtube@资源分享师_中国_64
-      - YouTube梦歌|香港HTK|NETFLIX_152
-      - 🇺🇸_US_美国_2
-      - youtube@资源分享师_美国_19
-      - youtube@资源分享师_美国_87
-      - YouTube梦歌|香港HTK|NETFLIX_159
-      - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_61
+      - 🇨🇳_CN_中国
+      - US美国(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_2
       - YouTube梦歌|香港HTK|NETFLIX_148
-      - youtube@资源分享师_53
-      - youtube@资源分享师_美国_91
-      - youtube@资源分享师_英国_66
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 加拿大(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_212
-      - 🇺🇸_US_美国_3
+      - US美国(youtube阿伟科技)_3
+      - YouTube梦歌|NETFLIX_22
+      - 法国(油管破解资源君2.0)
+      - youtube@资源分享师_43
+      - US美国(youtube阿伟科技)_4
+      - youtube@资源分享师_美国_34
+      - 🇳🇱_NL_荷兰
+      - YouTube梦歌|香港HTK|NETFLIX_1
+      - YouTube梦歌|香港HTK|NETFLIX_7
+      - YouTube梦歌|香港HTK|NETFLIX_9
+      - YouTube梦歌|香港HTK|NETFLIX_11
+      - YouTube梦歌|香港HTK|NETFLIX_207
+      - HK香港(youtube阿伟科技)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国_1
-      - youtube@资源分享师_日本_11
-      - YouTube梦歌|香港HTK|NETFLIX_100
-      - youtube@资源分享师_中国_37
-      - YouTube梦歌|江港BGP|NETFLIX_76
-      - 🇺🇸_US_美国_1
-      - 法国(yudou66.com+玉豆免费节点)
-      - youtube@资源分享师_美国_213
-      - youtube@资源分享师_美国_83
-      - YouTube梦歌|NETFLIX_57
-      - 法国(油管破解资源君2.0)
+      - 0.11|油管阿伟科技10
+      - 油管阿伟科技_10
+      - YouTube梦歌|香港HTK|NETFLIX_4
+      - KR韩国(youtube阿伟科技)
+      - youtube阿伟科技
+      - YouTube梦歌|香港HTK|NETFLIX_223
       - youtube@资源分享师_中国_23
-      - YouTube梦歌|NETFLIX_38
-      - youtube@资源分享师_中国_64
-      - YouTube梦歌|香港HTK|NETFLIX_152
-      - 🇺🇸_US_美国_2
-      - youtube@资源分享师_美国_19
-      - youtube@资源分享师_美国_87
-      - YouTube梦歌|香港HTK|NETFLIX_159
-      - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_61
+      - 🇨🇳_CN_中国
+      - US美国(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_2
       - YouTube梦歌|香港HTK|NETFLIX_148
-      - youtube@资源分享师_53
-      - youtube@资源分享师_美国_91
-      - youtube@资源分享师_英国_66
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 加拿大(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_212
-      - 🇺🇸_US_美国_3
+      - US美国(youtube阿伟科技)_3
+      - YouTube梦歌|NETFLIX_22
+      - 法国(油管破解资源君2.0)
+      - youtube@资源分享师_43
+      - US美国(youtube阿伟科技)_4
+      - youtube@资源分享师_美国_34
+      - 🇳🇱_NL_荷兰
+      - YouTube梦歌|香港HTK|NETFLIX_1
+      - YouTube梦歌|香港HTK|NETFLIX_7
+      - YouTube梦歌|香港HTK|NETFLIX_9
+      - YouTube梦歌|香港HTK|NETFLIX_11
+      - YouTube梦歌|香港HTK|NETFLIX_207
+      - HK香港(youtube阿伟科技)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国_1
-      - youtube@资源分享师_日本_11
-      - YouTube梦歌|香港HTK|NETFLIX_100
-      - youtube@资源分享师_中国_37
-      - YouTube梦歌|江港BGP|NETFLIX_76
-      - 🇺🇸_US_美国_1
-      - 法国(yudou66.com+玉豆免费节点)
-      - youtube@资源分享师_美国_213
-      - youtube@资源分享师_美国_83
-      - YouTube梦歌|NETFLIX_57
-      - 法国(油管破解资源君2.0)
+      - 0.11|油管阿伟科技10
+      - 油管阿伟科技_10
+      - YouTube梦歌|香港HTK|NETFLIX_4
+      - KR韩国(youtube阿伟科技)
+      - youtube阿伟科技
+      - YouTube梦歌|香港HTK|NETFLIX_223
       - youtube@资源分享师_中国_23
-      - YouTube梦歌|NETFLIX_38
-      - youtube@资源分享师_中国_64
-      - YouTube梦歌|香港HTK|NETFLIX_152
-      - 🇺🇸_US_美国_2
-      - youtube@资源分享师_美国_19
-      - youtube@资源分享师_美国_87
-      - YouTube梦歌|香港HTK|NETFLIX_159
-      - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_61
+      - 🇨🇳_CN_中国
+      - US美国(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_2
       - YouTube梦歌|香港HTK|NETFLIX_148
-      - youtube@资源分享师_53
-      - youtube@资源分享师_美国_91
-      - youtube@资源分享师_英国_66
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 加拿大(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_212
-      - 🇺🇸_US_美国_3
+      - US美国(youtube阿伟科技)_3
+      - YouTube梦歌|NETFLIX_22
+      - 法国(油管破解资源君2.0)
+      - youtube@资源分享师_43
+      - US美国(youtube阿伟科技)_4
+      - youtube@资源分享师_美国_34
+      - 🇳🇱_NL_荷兰
+      - YouTube梦歌|香港HTK|NETFLIX_1
+      - YouTube梦歌|香港HTK|NETFLIX_7
+      - YouTube梦歌|香港HTK|NETFLIX_9
+      - YouTube梦歌|香港HTK|NETFLIX_11
+      - YouTube梦歌|香港HTK|NETFLIX_207
+      - HK香港(youtube阿伟科技)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国_1
-      - youtube@资源分享师_日本_11
-      - YouTube梦歌|香港HTK|NETFLIX_100
-      - youtube@资源分享师_中国_37
-      - YouTube梦歌|江港BGP|NETFLIX_76
-      - 🇺🇸_US_美国_1
-      - 法国(yudou66.com+玉豆免费节点)
-      - youtube@资源分享师_美国_213
-      - youtube@资源分享师_美国_83
-      - YouTube梦歌|NETFLIX_57
-      - 法国(油管破解资源君2.0)
+      - 0.11|油管阿伟科技10
+      - 油管阿伟科技_10
+      - YouTube梦歌|香港HTK|NETFLIX_4
+      - KR韩国(youtube阿伟科技)
+      - youtube阿伟科技
+      - YouTube梦歌|香港HTK|NETFLIX_223
       - youtube@资源分享师_中国_23
-      - YouTube梦歌|NETFLIX_38
-      - youtube@资源分享师_中国_64
-      - YouTube梦歌|香港HTK|NETFLIX_152
-      - 🇺🇸_US_美国_2
-      - youtube@资源分享师_美国_19
-      - youtube@资源分享师_美国_87
-      - YouTube梦歌|香港HTK|NETFLIX_159
-      - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_61
+      - 🇨🇳_CN_中国
+      - US美国(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_2
       - YouTube梦歌|香港HTK|NETFLIX_148
-      - youtube@资源分享师_53
-      - youtube@资源分享师_美国_91
-      - youtube@资源分享师_英国_66
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 加拿大(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_212
-      - 🇺🇸_US_美国_3
+      - US美国(youtube阿伟科技)_3
+      - YouTube梦歌|NETFLIX_22
+      - 法国(油管破解资源君2.0)
+      - youtube@资源分享师_43
+      - US美国(youtube阿伟科技)_4
+      - youtube@资源分享师_美国_34
+      - 🇳🇱_NL_荷兰
+      - YouTube梦歌|香港HTK|NETFLIX_1
+      - YouTube梦歌|香港HTK|NETFLIX_7
+      - YouTube梦歌|香港HTK|NETFLIX_9
+      - YouTube梦歌|香港HTK|NETFLIX_11
+      - YouTube梦歌|香港HTK|NETFLIX_207
+      - HK香港(youtube阿伟科技)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国_1
-      - youtube@资源分享师_日本_11
-      - YouTube梦歌|香港HTK|NETFLIX_100
-      - youtube@资源分享师_中国_37
-      - YouTube梦歌|江港BGP|NETFLIX_76
-      - 🇺🇸_US_美国_1
-      - 法国(yudou66.com+玉豆免费节点)
-      - youtube@资源分享师_美国_213
-      - youtube@资源分享师_美国_83
-      - YouTube梦歌|NETFLIX_57
-      - 法国(油管破解资源君2.0)
+      - 0.11|油管阿伟科技10
+      - 油管阿伟科技_10
+      - YouTube梦歌|香港HTK|NETFLIX_4
+      - KR韩国(youtube阿伟科技)
+      - youtube阿伟科技
+      - YouTube梦歌|香港HTK|NETFLIX_223
       - youtube@资源分享师_中国_23
-      - YouTube梦歌|NETFLIX_38
-      - youtube@资源分享师_中国_64
-      - YouTube梦歌|香港HTK|NETFLIX_152
-      - 🇺🇸_US_美国_2
-      - youtube@资源分享师_美国_19
-      - youtube@资源分享师_美国_87
-      - YouTube梦歌|香港HTK|NETFLIX_159
-      - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_61
+      - 🇨🇳_CN_中国
+      - US美国(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_2
       - YouTube梦歌|香港HTK|NETFLIX_148
-      - youtube@资源分享师_53
-      - youtube@资源分享师_美国_91
-      - youtube@资源分享师_英国_66
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 加拿大(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_212
-      - 🇺🇸_US_美国_3
+      - US美国(youtube阿伟科技)_3
+      - YouTube梦歌|NETFLIX_22
+      - 法国(油管破解资源君2.0)
+      - youtube@资源分享师_43
+      - US美国(youtube阿伟科技)_4
+      - youtube@资源分享师_美国_34
+      - 🇳🇱_NL_荷兰
+      - YouTube梦歌|香港HTK|NETFLIX_1
+      - YouTube梦歌|香港HTK|NETFLIX_7
+      - YouTube梦歌|香港HTK|NETFLIX_9
+      - YouTube梦歌|香港HTK|NETFLIX_11
+      - YouTube梦歌|香港HTK|NETFLIX_207
+      - HK香港(youtube阿伟科技)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国_1
-      - youtube@资源分享师_日本_11
-      - YouTube梦歌|香港HTK|NETFLIX_100
-      - youtube@资源分享师_中国_37
-      - YouTube梦歌|江港BGP|NETFLIX_76
-      - 🇺🇸_US_美国_1
-      - 法国(yudou66.com+玉豆免费节点)
-      - youtube@资源分享师_美国_213
-      - youtube@资源分享师_美国_83
-      - YouTube梦歌|NETFLIX_57
-      - 法国(油管破解资源君2.0)
+      - 0.11|油管阿伟科技10
+      - 油管阿伟科技_10
+      - YouTube梦歌|香港HTK|NETFLIX_4
+      - KR韩国(youtube阿伟科技)
+      - youtube阿伟科技
+      - YouTube梦歌|香港HTK|NETFLIX_223
       - youtube@资源分享师_中国_23
-      - YouTube梦歌|NETFLIX_38
-      - youtube@资源分享师_中国_64
-      - YouTube梦歌|香港HTK|NETFLIX_152
-      - 🇺🇸_US_美国_2
-      - youtube@资源分享师_美国_19
-      - youtube@资源分享师_美国_87
-      - YouTube梦歌|香港HTK|NETFLIX_159
-      - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_61
+      - 🇨🇳_CN_中国
+      - US美国(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_2
       - YouTube梦歌|香港HTK|NETFLIX_148
-      - youtube@资源分享师_53
-      - youtube@资源分享师_美国_91
-      - youtube@资源分享师_英国_66
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 加拿大(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_212
-      - 🇺🇸_US_美国_3
+      - US美国(youtube阿伟科技)_3
+      - YouTube梦歌|NETFLIX_22
+      - 法国(油管破解资源君2.0)
+      - youtube@资源分享师_43
+      - US美国(youtube阿伟科技)_4
+      - youtube@资源分享师_美国_34
+      - 🇳🇱_NL_荷兰
+      - YouTube梦歌|香港HTK|NETFLIX_1
+      - YouTube梦歌|香港HTK|NETFLIX_7
+      - YouTube梦歌|香港HTK|NETFLIX_9
+      - YouTube梦歌|香港HTK|NETFLIX_11
+      - YouTube梦歌|香港HTK|NETFLIX_207
+      - HK香港(youtube阿伟科技)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,36 +242,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国_1
-      - youtube@资源分享师_日本_11
-      - YouTube梦歌|香港HTK|NETFLIX_100
-      - youtube@资源分享师_中国_37
-      - YouTube梦歌|江港BGP|NETFLIX_76
-      - 🇺🇸_US_美国_1
-      - 法国(yudou66.com+玉豆免费节点)
-      - youtube@资源分享师_美国_213
-      - youtube@资源分享师_美国_83
-      - YouTube梦歌|NETFLIX_57
-      - 法国(油管破解资源君2.0)
+      - 0.11|油管阿伟科技10
+      - 油管阿伟科技_10
+      - YouTube梦歌|香港HTK|NETFLIX_4
+      - KR韩国(youtube阿伟科技)
+      - youtube阿伟科技
+      - YouTube梦歌|香港HTK|NETFLIX_223
       - youtube@资源分享师_中国_23
-      - YouTube梦歌|NETFLIX_38
-      - youtube@资源分享师_中国_64
-      - YouTube梦歌|香港HTK|NETFLIX_152
-      - 🇺🇸_US_美国_2
-      - youtube@资源分享师_美国_19
-      - youtube@资源分享师_美国_87
-      - YouTube梦歌|香港HTK|NETFLIX_159
-      - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_61
+      - 🇨🇳_CN_中国
+      - US美国(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_1
+      - TUR土耳其(youtube阿伟科技)_2
+      - US美国(youtube阿伟科技)_2
       - YouTube梦歌|香港HTK|NETFLIX_148
-      - youtube@资源分享师_53
-      - youtube@资源分享师_美国_91
-      - youtube@资源分享师_英国_66
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 加拿大(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_212
-      - 🇺🇸_US_美国_3
+      - US美国(youtube阿伟科技)_3
+      - YouTube梦歌|NETFLIX_22
+      - 法国(油管破解资源君2.0)
+      - youtube@资源分享师_43
+      - US美国(youtube阿伟科技)_4
+      - youtube@资源分享师_美国_34
+      - 🇳🇱_NL_荷兰
+      - YouTube梦歌|香港HTK|NETFLIX_1
+      - YouTube梦歌|香港HTK|NETFLIX_7
+      - YouTube梦歌|香港HTK|NETFLIX_9
+      - YouTube梦歌|香港HTK|NETFLIX_11
+      - YouTube梦歌|香港HTK|NETFLIX_207
+      - HK香港(youtube阿伟科技)
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
