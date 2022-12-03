@@ -5,144 +5,186 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"youtube阿伟科技","server":"gzyd.120.817777.xyz","port":11000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"zxOmdD","obfs-param":"WkRZeVl6UXlNalkyTXk1dGFXTnliM052Wm5RdVkyOXQ","protocol-param":"22663:naiboob"}
-  - {"type":"ssr","name":"3.74|油管阿伟科技6","server":"gzyd.120.817777.xyz","port":11000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"zxOmdD","obfs-param":"WkRZeVl6UXlNalkyTXk1dGFXTnliM052Wm5RdVkyOXQ","protocol-param":"22663:naiboob"}
   - {"type":"ssr","name":"HK香港(youtube阿伟科技)_1","server":"initest08.initcloud.pro","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"TWpObVptUTNNVEV1YldsamNtOXpiMlowTG1OdmJR","protocol-param":"15339:SVIPTIZ8"}
-  - {"type":"vmess","name":"🇨🇳_CN_中国_1","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ssr","name":"HK香港(youtube阿伟科技)_2","server":"1cnrelay.initcloud.pro","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"TWpObVptUTNNVEV1YldsamNtOXpiMlowTG1OdmJR","protocol-param":"15339:SVIPTIZ8"}
+  - {"type":"ss","name":"香港BGP|流量用完失效|梦歌_55","server":"mdss-moble.gatknqh.cn","port":12046,"cipher":"aes-128-gcm","password":"f5f283a7-2413-4ab5-b9c4-52f227a40045"}
+  - {"type":"ssr","name":"3.74|油管阿伟科技6","server":"gzyd.120.817777.xyz","port":11000,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"zxOmdD","obfs-param":"WkRZeVl6UXlNalkyTXk1dGFXTnliM052Wm5RdVkyOXQ","protocol-param":"22663:naiboob"}
   - {"type":"ssr","name":"KR韩国(youtube阿伟科技)","server":"cmaisallin.debugspace.work","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"TWpObVptUTNNVEV1YldsamNtOXpiMlowTG1OdmJR","protocol-param":"15339:SVIPTIZ8"}
-  - {"type":"ssr","name":"🇨🇳_CN_中国_2","server":"hnlt.817777.xyz","port":11011,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"zxOmdD","obfs-param":"V2tSWmVWbDZVWGxOYWxreVRYazFkR0ZYVG5saU0wNTJXbTVSZFZreU9YUQ","protocol-param":"22663:naiboob"}
   - {"type":"ssr","name":"2.89|油管阿伟科技7","server":"hnlt.817777.xyz","port":11011,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"zxOmdD","obfs-param":"WkRZeVl6UXlNalkyTXk1dGFXTnliM052Wm5RdVkyOXQ","protocol-param":"22663:naiboob"}
+  - {"type":"vmess","name":"🇨🇳_CN_中国_1","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ssr","name":"🇨🇳_CN_中国_2","server":"hnlt.817777.xyz","port":11011,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"zxOmdD","obfs-param":"V2tSWmVWbDZVWGxOYWxreVRYazFkR0ZYVG5saU0wNTJXbTVSZFZreU9YUQ","protocol-param":"22663:naiboob"}
+  - {"type":"vmess","name":"江港BGP|NETFLIX|梦歌_24","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.191.191","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"江港BGP|NETFLIX|梦歌_14","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"23.227.38.38","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"江港BGP|NETFLIX|梦歌_45","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.24.108.8","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"香港BGP|流量用完失效|梦歌_34","server":"mdss-moble.gatknqh.cn","port":12047,"cipher":"aes-128-gcm","password":"f5f283a7-2413-4ab5-b9c4-52f227a40045"}
+  - {"type":"vmess","name":"江港BGP|NETFLIX|梦歌_18","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.190.190","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.188.188","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_85","ws-opts":{"path":"/imkcpyyds","headers":{"host":"buyvm.imkcp.eu.org"}},"server":"buyvm.imkcp.eu.org","port":"443","uuid":"6fb9a750-55b8-4e6e-857b-242b795399dc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"KR+韩国(youtube阿伟科技)","server":"hnt.cndns.shop","port":27762,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
-  - {"type":"vmess","name":"YouTube梦歌|NETFLIX_33","ws-opts":{"path":"/aries","headers":{"host":"kz.cloudflare.quest"}},"server":"www.dynadot.com","port":"2086","uuid":"078b436e-de58-42d9-cfe9-ffdcf72e1ab8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"德国(yudou66.com+玉豆免费节点)","server":"hnt.cndns.shop","port":27763,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
-  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_210","ws-opts":{"path":"/sshkit/dfsdafdsa/63848baf653eb/","headers":{"host":"id-lb.vhax.net"}},"server":"uicdn.cf","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"YouTube梦歌|香港HTK|NETFLIX_160","ws-opts":{"path":"/sshkit/1736960111/63859b5b38f53/","headers":{"host":"sg1-v2ray.sshkit.org"}},"server":"uicdn.cf","port":"80","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"韩国(油管:破解资源君2.0)","server":"hnt.cndns.shop","port":27765,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
+  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_1","ws-opts":{"path":"/","headers":{"host":"ca.0112233.xyz"}},"server":"ca.0112233.xyz","port":"443","uuid":"c3000e9d-bee7-4fdb-b312-dd07030f325d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"江港BGP|NETFLIX|梦歌_28","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"203.30.188.120","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国(油管:破解资源君2.0)_2","ws-opts":{"path":"/reffs7y26g0ua","headers":{"host":"surongwei.eu.org"}},"server":"surongwei.eu.org","port":"443","uuid":"6093eefb-7ab6-41df-aba0-d5fa58147e10","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"江港BGP|NETFLIX|梦歌_32","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"185.162.228.229","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"HK香港(youtube阿伟科技)_2","server":"1cnrelay.initcloud.pro","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"TWpObVptUTNNVEV1YldsamNtOXpiMlowTG1OdmJR","protocol-param":"15339:SVIPTIZ8"}
+  - {"type":"vmess","name":"江港BGP|NETFLIX|梦歌_81","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"203.30.191.192","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"欧洲(油管:破解资源君2.0)","server":"hnt.cndns.shop","port":27761,"cipher":"chacha20-ietf-poly1305","password":"31347057-7af5-4562-b912-f1c217c4c160"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - youtube阿伟科技
-      - 3.74|油管阿伟科技6
       - HK香港(youtube阿伟科技)_1
-      - 🇨🇳_CN_中国_1
-      - HK香港(youtube阿伟科技)_2
+      - 香港BGP|流量用完失效|梦歌_55
+      - 3.74|油管阿伟科技6
       - KR韩国(youtube阿伟科技)
-      - 🇨🇳_CN_中国_2
       - 2.89|油管阿伟科技7
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 江港BGP|NETFLIX|梦歌_24
+      - 江港BGP|NETFLIX|梦歌_14
+      - 江港BGP|NETFLIX|梦歌_45
+      - 香港BGP|流量用完失效|梦歌_34
+      - 江港BGP|NETFLIX|梦歌_18
       - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_85
-      - KR+韩国(youtube阿伟科技)
-      - YouTube梦歌|NETFLIX_33
-      - 德国(yudou66.com+玉豆免费节点)
-      - YouTube梦歌|香港HTK|NETFLIX_210
-      - YouTube梦歌|香港HTK|NETFLIX_160
+      - 韩国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0)_1
+      - 江港BGP|NETFLIX|梦歌_28
+      - 美国(油管:破解资源君2.0)_2
+      - 江港BGP|NETFLIX|梦歌_32
+      - HK香港(youtube阿伟科技)_2
+      - 江港BGP|NETFLIX|梦歌_81
+      - 欧洲(油管:破解资源君2.0)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - youtube阿伟科技
-      - 3.74|油管阿伟科技6
       - HK香港(youtube阿伟科技)_1
-      - 🇨🇳_CN_中国_1
-      - HK香港(youtube阿伟科技)_2
+      - 香港BGP|流量用完失效|梦歌_55
+      - 3.74|油管阿伟科技6
       - KR韩国(youtube阿伟科技)
-      - 🇨🇳_CN_中国_2
       - 2.89|油管阿伟科技7
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 江港BGP|NETFLIX|梦歌_24
+      - 江港BGP|NETFLIX|梦歌_14
+      - 江港BGP|NETFLIX|梦歌_45
+      - 香港BGP|流量用完失效|梦歌_34
+      - 江港BGP|NETFLIX|梦歌_18
       - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_85
-      - KR+韩国(youtube阿伟科技)
-      - YouTube梦歌|NETFLIX_33
-      - 德国(yudou66.com+玉豆免费节点)
-      - YouTube梦歌|香港HTK|NETFLIX_210
-      - YouTube梦歌|香港HTK|NETFLIX_160
+      - 韩国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0)_1
+      - 江港BGP|NETFLIX|梦歌_28
+      - 美国(油管:破解资源君2.0)_2
+      - 江港BGP|NETFLIX|梦歌_32
+      - HK香港(youtube阿伟科技)_2
+      - 江港BGP|NETFLIX|梦歌_81
+      - 欧洲(油管:破解资源君2.0)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - youtube阿伟科技
-      - 3.74|油管阿伟科技6
       - HK香港(youtube阿伟科技)_1
-      - 🇨🇳_CN_中国_1
-      - HK香港(youtube阿伟科技)_2
+      - 香港BGP|流量用完失效|梦歌_55
+      - 3.74|油管阿伟科技6
       - KR韩国(youtube阿伟科技)
-      - 🇨🇳_CN_中国_2
       - 2.89|油管阿伟科技7
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 江港BGP|NETFLIX|梦歌_24
+      - 江港BGP|NETFLIX|梦歌_14
+      - 江港BGP|NETFLIX|梦歌_45
+      - 香港BGP|流量用完失效|梦歌_34
+      - 江港BGP|NETFLIX|梦歌_18
       - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_85
-      - KR+韩国(youtube阿伟科技)
-      - YouTube梦歌|NETFLIX_33
-      - 德国(yudou66.com+玉豆免费节点)
-      - YouTube梦歌|香港HTK|NETFLIX_210
-      - YouTube梦歌|香港HTK|NETFLIX_160
+      - 韩国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0)_1
+      - 江港BGP|NETFLIX|梦歌_28
+      - 美国(油管:破解资源君2.0)_2
+      - 江港BGP|NETFLIX|梦歌_32
+      - HK香港(youtube阿伟科技)_2
+      - 江港BGP|NETFLIX|梦歌_81
+      - 欧洲(油管:破解资源君2.0)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - youtube阿伟科技
-      - 3.74|油管阿伟科技6
       - HK香港(youtube阿伟科技)_1
-      - 🇨🇳_CN_中国_1
-      - HK香港(youtube阿伟科技)_2
+      - 香港BGP|流量用完失效|梦歌_55
+      - 3.74|油管阿伟科技6
       - KR韩国(youtube阿伟科技)
-      - 🇨🇳_CN_中国_2
       - 2.89|油管阿伟科技7
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 江港BGP|NETFLIX|梦歌_24
+      - 江港BGP|NETFLIX|梦歌_14
+      - 江港BGP|NETFLIX|梦歌_45
+      - 香港BGP|流量用完失效|梦歌_34
+      - 江港BGP|NETFLIX|梦歌_18
       - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_85
-      - KR+韩国(youtube阿伟科技)
-      - YouTube梦歌|NETFLIX_33
-      - 德国(yudou66.com+玉豆免费节点)
-      - YouTube梦歌|香港HTK|NETFLIX_210
-      - YouTube梦歌|香港HTK|NETFLIX_160
+      - 韩国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0)_1
+      - 江港BGP|NETFLIX|梦歌_28
+      - 美国(油管:破解资源君2.0)_2
+      - 江港BGP|NETFLIX|梦歌_32
+      - HK香港(youtube阿伟科技)_2
+      - 江港BGP|NETFLIX|梦歌_81
+      - 欧洲(油管:破解资源君2.0)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - youtube阿伟科技
-      - 3.74|油管阿伟科技6
       - HK香港(youtube阿伟科技)_1
-      - 🇨🇳_CN_中国_1
-      - HK香港(youtube阿伟科技)_2
+      - 香港BGP|流量用完失效|梦歌_55
+      - 3.74|油管阿伟科技6
       - KR韩国(youtube阿伟科技)
-      - 🇨🇳_CN_中国_2
       - 2.89|油管阿伟科技7
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 江港BGP|NETFLIX|梦歌_24
+      - 江港BGP|NETFLIX|梦歌_14
+      - 江港BGP|NETFLIX|梦歌_45
+      - 香港BGP|流量用完失效|梦歌_34
+      - 江港BGP|NETFLIX|梦歌_18
       - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_85
-      - KR+韩国(youtube阿伟科技)
-      - YouTube梦歌|NETFLIX_33
-      - 德国(yudou66.com+玉豆免费节点)
-      - YouTube梦歌|香港HTK|NETFLIX_210
-      - YouTube梦歌|香港HTK|NETFLIX_160
+      - 韩国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0)_1
+      - 江港BGP|NETFLIX|梦歌_28
+      - 美国(油管:破解资源君2.0)_2
+      - 江港BGP|NETFLIX|梦歌_32
+      - HK香港(youtube阿伟科技)_2
+      - 江港BGP|NETFLIX|梦歌_81
+      - 欧洲(油管:破解资源君2.0)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - youtube阿伟科技
-      - 3.74|油管阿伟科技6
       - HK香港(youtube阿伟科技)_1
-      - 🇨🇳_CN_中国_1
-      - HK香港(youtube阿伟科技)_2
+      - 香港BGP|流量用完失效|梦歌_55
+      - 3.74|油管阿伟科技6
       - KR韩国(youtube阿伟科技)
-      - 🇨🇳_CN_中国_2
       - 2.89|油管阿伟科技7
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 江港BGP|NETFLIX|梦歌_24
+      - 江港BGP|NETFLIX|梦歌_14
+      - 江港BGP|NETFLIX|梦歌_45
+      - 香港BGP|流量用完失效|梦歌_34
+      - 江港BGP|NETFLIX|梦歌_18
       - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_85
-      - KR+韩国(youtube阿伟科技)
-      - YouTube梦歌|NETFLIX_33
-      - 德国(yudou66.com+玉豆免费节点)
-      - YouTube梦歌|香港HTK|NETFLIX_210
-      - YouTube梦歌|香港HTK|NETFLIX_160
+      - 韩国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0)_1
+      - 江港BGP|NETFLIX|梦歌_28
+      - 美国(油管:破解资源君2.0)_2
+      - 江港BGP|NETFLIX|梦歌_32
+      - HK香港(youtube阿伟科技)_2
+      - 江港BGP|NETFLIX|梦歌_81
+      - 欧洲(油管:破解资源君2.0)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,21 +207,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - youtube阿伟科技
-      - 3.74|油管阿伟科技6
       - HK香港(youtube阿伟科技)_1
-      - 🇨🇳_CN_中国_1
-      - HK香港(youtube阿伟科技)_2
+      - 香港BGP|流量用完失效|梦歌_55
+      - 3.74|油管阿伟科技6
       - KR韩国(youtube阿伟科技)
-      - 🇨🇳_CN_中国_2
       - 2.89|油管阿伟科技7
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 江港BGP|NETFLIX|梦歌_24
+      - 江港BGP|NETFLIX|梦歌_14
+      - 江港BGP|NETFLIX|梦歌_45
+      - 香港BGP|流量用完失效|梦歌_34
+      - 江港BGP|NETFLIX|梦歌_18
       - 美国(yudou66.com玉豆免费节点)
-      - youtube@资源分享师_美国_85
-      - KR+韩国(youtube阿伟科技)
-      - YouTube梦歌|NETFLIX_33
-      - 德国(yudou66.com+玉豆免费节点)
-      - YouTube梦歌|香港HTK|NETFLIX_210
-      - YouTube梦歌|香港HTK|NETFLIX_160
+      - 韩国(油管:破解资源君2.0)
+      - 美国(油管:破解资源君2.0)_1
+      - 江港BGP|NETFLIX|梦歌_28
+      - 美国(油管:破解资源君2.0)_2
+      - 江港BGP|NETFLIX|梦歌_32
+      - HK香港(youtube阿伟科技)_2
+      - 江港BGP|NETFLIX|梦歌_81
+      - 欧洲(油管:破解资源君2.0)
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
