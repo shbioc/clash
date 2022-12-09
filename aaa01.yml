@@ -5,158 +5,186 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"youtube@资源分享师_12","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"141.101.114.31","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_32","ws-opts":{"path":"/zh-cn/download","headers":{"host":"a.189.cn"}},"server":"hk80.sanfen001.pics","port":"80","uuid":"e30fa02c-d604-4191-9b81-c550b32f82bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"youtube@资源分享师_32","ws-opts":{"path":"/pkhhvws"},"server":"amshare.jingledev.me","port":"443","uuid":"532a5f12-cadb-46e4-963f-ee7c075e40f0","alterId":"0","cipher":"none","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_43","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"190.93.245.3","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(youtube阿伟科技)","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.188.189","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"VN越南(youtube阿伟科技)","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.190.191","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"ID印尼(youtube阿伟科技)","ws-opts":{"path":"/pkhhvws","headers":{"host":"amshare.jingledev.me"}},"server":"172.67.199.34","port":"443","uuid":"532a5f12-cadb-46e4-963f-ee7c075e40f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"youtube@资源分享师_105","ws-opts":{"path":"/","headers":{"host":"v6nt.gongyiyun.cf"}},"server":"162.159.160.104","port":"8080","uuid":"e3dba91f-b31c-473a-8f17-92e1dedda38f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"youtube@资源分享师_美国_23","ws-opts":{"path":"/pkhhvws","headers":{"host":"amshare.jingledev.me"}},"server":"amshare.jingledev.me","port":"443","uuid":"532a5f12-cadb-46e4-963f-ee7c075e40f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"FR法国(youtube阿伟科技)_1","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"185.162.228.229","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"youtube@资源分享师_28","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"198.41.203.5","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_20","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"141.101.115.134","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_24","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"190.93.244.3","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"CA加拿大(youtube阿伟科技)","ws-opts":{"path":"/sshkit/1736960111/63859b95e5be4/","headers":{"host":"sg2-v2ray.sshkit.org"}},"server":"cacerts.digicert.com","port":"443","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"DE德国(youtube阿伟科技)_1","ws-opts":{"path":"/","headers":{"host":"scenario-dot-hu-optimum.trycloudflare.com"}},"server":"speed.cloudflare.com","port":"443","uuid":"6b00bdb7-0811-421f-9bba-3301b3025d57","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"FR法国(youtube阿伟科技)_2","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"172.67.199.34","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"youtube@资源分享师_德国_50","ws-opts":{"path":"/p3573l6m92h1ham3q23t","headers":{"host":"sun.prxpro.cc"}},"server":"sun.prxpro.cc","port":"80","uuid":"4ddd24d6-d901-5e5f-9a7c-080015c2e246","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"DE德国(youtube阿伟科技)_2","ws-opts":{"path":"/","headers":{"host":"scenario-dot-hu-optimum.trycloudflare.com"}},"server":"speed.cloudflare.com","port":"80","uuid":"6b00bdb7-0811-421f-9bba-3301b3025d57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"youtube@资源分享师_27","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"190.93.245.170","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"youtube@资源分享师_伯利兹_64","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"203.30.188.120","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_14","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"190.93.246.195","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_伯利兹_33","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.190.192","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_伯利兹_81","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.188.190","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"FR法国(youtube阿伟科技)","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"203.30.191.192","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_74","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"141.101.115.32","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_86","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"66.235.200.22","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_伯利兹_52","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.189.191","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"FR法国(youtube阿伟科技)_3","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"203.30.191.192","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"youtube@资源分享师_加拿大_11","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"23.227.38.39","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"FR法国(youtube阿伟科技)_4","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"main.millionaireaisle.com","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"youtube@资源分享师_中国_36","ws-opts":{"path":"/"},"server":"t.cccao.cyou","port":"16620","uuid":"6e1d669d-cf88-47d7-adf1-c7de3c16c90a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"VN越南(youtube阿伟科技)_1","ws-opts":{"path":"/sshkit/1736960111/63859bc177a33/","headers":{"host":"sg3-v2ray.sshkit.org"}},"server":"172.67.199.34","port":"443","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)","ws-opts":{"path":"/sshkit/fdfadsfa/63848bfe228fd/","headers":{"host":"us-lb.sshkit.org"}},"server":"172.67.199.34","port":"443","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"VN越南(youtube阿伟科技)_2","ws-opts":{"path":"/sshkit/1736960111/63859bc177a33/","headers":{"host":"sg3-v2ray.sshkit.org"}},"server":"news.microsoft.com","port":"443","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"NL荷兰(youtube阿伟科技)","ws-opts":{"path":"/DQsafRJn/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"172.67.199.34","port":"2053","uuid":"ce02a636-88ac-4c29-963d-e09961ec3b3d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"youtube@资源分享师_日本_1","ws-opts":{"path":"/"},"server":"3.112.18.130","port":"80","uuid":"b87a6998-a1bd-48d0-a28c-858f5eee41af","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - youtube@资源分享师_12
-      - youtube@资源分享师_美国_32
-      - youtube@资源分享师_32
-      - youtube@资源分享师_43
-      - 美国(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
+      - ID印尼(youtube阿伟科技)
+      - youtube@资源分享师_105
+      - youtube@资源分享师_美国_23
+      - FR法国(youtube阿伟科技)_1
       - youtube@资源分享师_28
-      - youtube@资源分享师_20
-      - youtube@资源分享师_24
+      - CA加拿大(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)_1
+      - FR法国(youtube阿伟科技)_2
+      - youtube@资源分享师_德国_50
+      - DE德国(youtube阿伟科技)_2
+      - youtube@资源分享师_27
       - youtube@资源分享师_伯利兹_64
-      - youtube@资源分享师_14
-      - youtube@资源分享师_伯利兹_33
-      - youtube@资源分享师_伯利兹_81
-      - FR法国(youtube阿伟科技)
-      - youtube@资源分享师_74
-      - youtube@资源分享师_美国_86
-      - youtube@资源分享师_伯利兹_52
+      - FR法国(youtube阿伟科技)_3
+      - youtube@资源分享师_加拿大_11
+      - FR法国(youtube阿伟科技)_4
+      - youtube@资源分享师_中国_36
+      - VN越南(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)
+      - VN越南(youtube阿伟科技)_2
+      - NL荷兰(youtube阿伟科技)
+      - youtube@资源分享师_日本_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - youtube@资源分享师_12
-      - youtube@资源分享师_美国_32
-      - youtube@资源分享师_32
-      - youtube@资源分享师_43
-      - 美国(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
+      - ID印尼(youtube阿伟科技)
+      - youtube@资源分享师_105
+      - youtube@资源分享师_美国_23
+      - FR法国(youtube阿伟科技)_1
       - youtube@资源分享师_28
-      - youtube@资源分享师_20
-      - youtube@资源分享师_24
+      - CA加拿大(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)_1
+      - FR法国(youtube阿伟科技)_2
+      - youtube@资源分享师_德国_50
+      - DE德国(youtube阿伟科技)_2
+      - youtube@资源分享师_27
       - youtube@资源分享师_伯利兹_64
-      - youtube@资源分享师_14
-      - youtube@资源分享师_伯利兹_33
-      - youtube@资源分享师_伯利兹_81
-      - FR法国(youtube阿伟科技)
-      - youtube@资源分享师_74
-      - youtube@资源分享师_美国_86
-      - youtube@资源分享师_伯利兹_52
+      - FR法国(youtube阿伟科技)_3
+      - youtube@资源分享师_加拿大_11
+      - FR法国(youtube阿伟科技)_4
+      - youtube@资源分享师_中国_36
+      - VN越南(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)
+      - VN越南(youtube阿伟科技)_2
+      - NL荷兰(youtube阿伟科技)
+      - youtube@资源分享师_日本_1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - youtube@资源分享师_12
-      - youtube@资源分享师_美国_32
-      - youtube@资源分享师_32
-      - youtube@资源分享师_43
-      - 美国(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
+      - ID印尼(youtube阿伟科技)
+      - youtube@资源分享师_105
+      - youtube@资源分享师_美国_23
+      - FR法国(youtube阿伟科技)_1
       - youtube@资源分享师_28
-      - youtube@资源分享师_20
-      - youtube@资源分享师_24
+      - CA加拿大(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)_1
+      - FR法国(youtube阿伟科技)_2
+      - youtube@资源分享师_德国_50
+      - DE德国(youtube阿伟科技)_2
+      - youtube@资源分享师_27
       - youtube@资源分享师_伯利兹_64
-      - youtube@资源分享师_14
-      - youtube@资源分享师_伯利兹_33
-      - youtube@资源分享师_伯利兹_81
-      - FR法国(youtube阿伟科技)
-      - youtube@资源分享师_74
-      - youtube@资源分享师_美国_86
-      - youtube@资源分享师_伯利兹_52
+      - FR法国(youtube阿伟科技)_3
+      - youtube@资源分享师_加拿大_11
+      - FR法国(youtube阿伟科技)_4
+      - youtube@资源分享师_中国_36
+      - VN越南(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)
+      - VN越南(youtube阿伟科技)_2
+      - NL荷兰(youtube阿伟科技)
+      - youtube@资源分享师_日本_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - youtube@资源分享师_12
-      - youtube@资源分享师_美国_32
-      - youtube@资源分享师_32
-      - youtube@资源分享师_43
-      - 美国(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
+      - ID印尼(youtube阿伟科技)
+      - youtube@资源分享师_105
+      - youtube@资源分享师_美国_23
+      - FR法国(youtube阿伟科技)_1
       - youtube@资源分享师_28
-      - youtube@资源分享师_20
-      - youtube@资源分享师_24
+      - CA加拿大(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)_1
+      - FR法国(youtube阿伟科技)_2
+      - youtube@资源分享师_德国_50
+      - DE德国(youtube阿伟科技)_2
+      - youtube@资源分享师_27
       - youtube@资源分享师_伯利兹_64
-      - youtube@资源分享师_14
-      - youtube@资源分享师_伯利兹_33
-      - youtube@资源分享师_伯利兹_81
-      - FR法国(youtube阿伟科技)
-      - youtube@资源分享师_74
-      - youtube@资源分享师_美国_86
-      - youtube@资源分享师_伯利兹_52
+      - FR法国(youtube阿伟科技)_3
+      - youtube@资源分享师_加拿大_11
+      - FR法国(youtube阿伟科技)_4
+      - youtube@资源分享师_中国_36
+      - VN越南(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)
+      - VN越南(youtube阿伟科技)_2
+      - NL荷兰(youtube阿伟科技)
+      - youtube@资源分享师_日本_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - youtube@资源分享师_12
-      - youtube@资源分享师_美国_32
-      - youtube@资源分享师_32
-      - youtube@资源分享师_43
-      - 美国(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
+      - ID印尼(youtube阿伟科技)
+      - youtube@资源分享师_105
+      - youtube@资源分享师_美国_23
+      - FR法国(youtube阿伟科技)_1
       - youtube@资源分享师_28
-      - youtube@资源分享师_20
-      - youtube@资源分享师_24
+      - CA加拿大(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)_1
+      - FR法国(youtube阿伟科技)_2
+      - youtube@资源分享师_德国_50
+      - DE德国(youtube阿伟科技)_2
+      - youtube@资源分享师_27
       - youtube@资源分享师_伯利兹_64
-      - youtube@资源分享师_14
-      - youtube@资源分享师_伯利兹_33
-      - youtube@资源分享师_伯利兹_81
-      - FR法国(youtube阿伟科技)
-      - youtube@资源分享师_74
-      - youtube@资源分享师_美国_86
-      - youtube@资源分享师_伯利兹_52
+      - FR法国(youtube阿伟科技)_3
+      - youtube@资源分享师_加拿大_11
+      - FR法国(youtube阿伟科技)_4
+      - youtube@资源分享师_中国_36
+      - VN越南(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)
+      - VN越南(youtube阿伟科技)_2
+      - NL荷兰(youtube阿伟科技)
+      - youtube@资源分享师_日本_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - youtube@资源分享师_12
-      - youtube@资源分享师_美国_32
-      - youtube@资源分享师_32
-      - youtube@资源分享师_43
-      - 美国(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
+      - ID印尼(youtube阿伟科技)
+      - youtube@资源分享师_105
+      - youtube@资源分享师_美国_23
+      - FR法国(youtube阿伟科技)_1
       - youtube@资源分享师_28
-      - youtube@资源分享师_20
-      - youtube@资源分享师_24
+      - CA加拿大(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)_1
+      - FR法国(youtube阿伟科技)_2
+      - youtube@资源分享师_德国_50
+      - DE德国(youtube阿伟科技)_2
+      - youtube@资源分享师_27
       - youtube@资源分享师_伯利兹_64
-      - youtube@资源分享师_14
-      - youtube@资源分享师_伯利兹_33
-      - youtube@资源分享师_伯利兹_81
-      - FR法国(youtube阿伟科技)
-      - youtube@资源分享师_74
-      - youtube@资源分享师_美国_86
-      - youtube@资源分享师_伯利兹_52
+      - FR法国(youtube阿伟科技)_3
+      - youtube@资源分享师_加拿大_11
+      - FR法国(youtube阿伟科技)_4
+      - youtube@资源分享师_中国_36
+      - VN越南(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)
+      - VN越南(youtube阿伟科技)_2
+      - NL荷兰(youtube阿伟科技)
+      - youtube@资源分享师_日本_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,23 +207,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - youtube@资源分享师_12
-      - youtube@资源分享师_美国_32
-      - youtube@资源分享师_32
-      - youtube@资源分享师_43
-      - 美国(youtube阿伟科技)
-      - VN越南(youtube阿伟科技)
+      - ID印尼(youtube阿伟科技)
+      - youtube@资源分享师_105
+      - youtube@资源分享师_美国_23
+      - FR法国(youtube阿伟科技)_1
       - youtube@资源分享师_28
-      - youtube@资源分享师_20
-      - youtube@资源分享师_24
+      - CA加拿大(youtube阿伟科技)
+      - DE德国(youtube阿伟科技)_1
+      - FR法国(youtube阿伟科技)_2
+      - youtube@资源分享师_德国_50
+      - DE德国(youtube阿伟科技)_2
+      - youtube@资源分享师_27
       - youtube@资源分享师_伯利兹_64
-      - youtube@资源分享师_14
-      - youtube@资源分享师_伯利兹_33
-      - youtube@资源分享师_伯利兹_81
-      - FR法国(youtube阿伟科技)
-      - youtube@资源分享师_74
-      - youtube@资源分享师_美国_86
-      - youtube@资源分享师_伯利兹_52
+      - FR法国(youtube阿伟科技)_3
+      - youtube@资源分享师_加拿大_11
+      - FR法国(youtube阿伟科技)_4
+      - youtube@资源分享师_中国_36
+      - VN越南(youtube阿伟科技)_1
+      - US美国(youtube阿伟科技)
+      - VN越南(youtube阿伟科技)_2
+      - NL荷兰(youtube阿伟科技)
+      - youtube@资源分享师_日本_1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
