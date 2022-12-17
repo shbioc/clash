@@ -5,179 +5,592 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"youtube@资源分享师_日本_79","server":"85.208.108.60","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"trojan","name":"youtube@资源分享师_中国_38","server":"hnm.xiaohouzi.club","port":23330,"password":"c32c56fb-64d9-33c4-b42a-af81b7a33fe7","udp":true,"skip-cert-verify":true,"sni":"freeus.xiaohouzi.club"}
-  - {"type":"vmess","name":"US美国(youtube阿伟科技)_1","ws-opts":{"path":"/aries","headers":{"host":"uk.cloudflare.quest"}},"server":"141.193.213.10","port":"2086","uuid":"ad1454a4-c9e2-4836-c98d-66e3646c2aa4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]新加坡04[1.0|移动|流媒体解锁]_4(youtube阿伟科技)24","ws-opts":{"path":"/fly"},"server":"ydgy.fosi.hk","port":"28572","uuid":"d5e3e260-9410-4ec9-9620-2810d027a801","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]新加坡05[1.0|联通|流媒体解锁](youtube阿伟科技)29","ws-opts":{"path":"/fly","headers":{"host":"hncu.donghui.tech"}},"server":"hncu.donghui.tech","port":"23050","uuid":"f729c3d7-b0dc-449d-99ab-06f9702033c6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"香港-HKBGP-Pro-08(youtube阿伟科技)546","server":"hkp08.network-cdn-gw.cc","port":48808,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
+  - {"type":"ss","name":"香港-HKBGP-Pro-05(youtube阿伟科技)544","server":"hkp05.network-cdn-gw.cc","port":49905,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
+  - {"type":"vmess","name":"NSGN3(youtube阿伟科技)275","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live06.hlzuifv.cn"}},"server":"live06.suijiceshi.xyz","port":"2052","uuid":"d19593ca-e3f3-4629-8c53-cabdd8382478","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"香港-HKBGP-Pro-02(youtube阿伟科技)543","server":"hkp02.network-cdn-gw.cc","port":49902,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
+  - {"type":"ss","name":"香港DMIT[负载均衡]+x1.0(youtube阿伟科技)534","server":"183.245.146.6","port":12192,"cipher":"aes-256-gcm","password":"0f429d09-0d3c-44db-b76e-323a5283b0e8"}
+  - {"type":"trojan","name":"香港AZ2+|+解锁流媒体-推荐(youtube阿伟科技)533","server":"20.187.78.206","port":443,"password":"4a74897a-2f07-4259-b05c-f572d91066a2","udp":true,"skip-cert-verify":true,"sni":"mzy.windowsupdate1.com"}
+  - {"type":"vmess","name":"新加坡|高速|80免流(youtube阿伟科技)565","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"54.254.213.176"}},"server":"54.254.213.176","port":"80","uuid":"bbe534fc-0176-4111-a977-6f0d1a88d3fe","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"新加坡-Trojan②(youtube阿伟科技)573","server":"sg02.trojanyyds.xyz","port":443,"password":"afee60fc-f88b-4a20-b85b-8f63296e7ac0","udp":true,"skip-cert-verify":true,"sni":"sg02.trojanyyds.xyz"}
+  - {"type":"ssr","name":"韩国高速A(youtube阿伟科技)47","server":"cmaisallin.debugspace.work","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"23ffd711.microsoft.com","protocol-param":"64348:SVIPTIZ8"}
+  - {"type":"ssr","name":"香港HKTA(youtube阿伟科技)22","server":"1cnrelay.initcloud.pro","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"23ffd711.microsoft.com","protocol-param":"64348:SVIPTIZ8"}
+  - {"type":"trojan","name":"日本(youtube阿伟科技)187","server":"jp1.lianpi.xyz","port":45127,"password":"484286bd-74f1-445d-9f98-225c3f8e3b2f","udp":true,"skip-cert-verify":true,"sni":"jp1.lianpi.xyz"}
+  - {"type":"ssr","name":"香港HKTC(youtube阿伟科技)20","server":"shgez3.eucdurl.me","port":568,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"23ffd711.microsoft.com","protocol-param":"64348:SVIPTIZ8"}
+  - {"type":"ss","name":"法国流媒体2x1(youtube阿伟科技)437","server":"120.240.236.28","port":58848,"cipher":"chacha20-ietf-poly1305","password":"26977314-2859-4f28-a3d1-4e435ee61cfe"}
+  - {"type":"trojan","name":"法国-江移+|+解锁流媒体(youtube阿伟科技)435","server":"223.111.202.209","port":30080,"password":"4a74897a-2f07-4259-b05c-f572d91066a2","udp":true,"skip-cert-verify":true,"sni":"mzy.hruqoaw.cn"}
+  - {"type":"vmess","name":"新加坡(youtube阿伟科技)568","ws-opts":{"path":"/usr","headers":{"host":"xin1.mooooobai.top"}},"server":"xin1.mooooobai.top","port":"15547","uuid":"8a256eff-41f4-3cde-961f-c3ecd90ff07a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"日本13|专线|流媒体|香港(youtube阿伟科技)33","server":"jp14.czs1000.com","port":"4100","uuid":"bbe534fc-0176-4111-a977-6f0d1a88d3fe","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"新加坡02|咖椰吐司_2(youtube阿伟科技)569","ws-opts":{"path":"/usr","headers":{"host":"xin1.mooooobai.top"}},"server":"xin1.mooooobai.top","port":"15547","uuid":"9931d1b0-64c9-39ee-9082-aa260a224bba","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"泰國+B/01+x1.0(youtube阿伟科技)513","server":"183.245.7.181","port":61003,"password":"0f429d09-0d3c-44db-b76e-323a5283b0e8","udp":true,"skip-cert-verify":true,"sni":"65-108-102-32.nhost.00cdn.com"}
+  - {"type":"ss","name":"香港-HKBGP-Basic-03(youtube阿伟科技)539","server":"hk3.network-cdn-gw.cc","port":47756,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
+  - {"type":"trojan","name":"香港-Trojan④(youtube阿伟科技)553","server":"hk05.trojanyyds.xyz","port":443,"password":"afee60fc-f88b-4a20-b85b-8f63296e7ac0","udp":true,"skip-cert-verify":true,"sni":"hk05.trojanyyds.xyz"}
+  - {"type":"vmess","name":"美国01{优化1|V2ray}(youtube阿伟科技)29","ws-opts":{"path":"/"},"server":"us1.awslcn.cc","port":"25239","uuid":"afee60fc-f88b-4a20-b85b-8f63296e7ac0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"美国圣何塞-江移+|+解锁流媒体(youtube阿伟科技)481","server":"223.111.202.209","port":30020,"password":"4a74897a-2f07-4259-b05c-f572d91066a2","udp":true,"skip-cert-verify":true,"sni":"mzy.hruqoaw.cn"}
+  - {"type":"trojan","name":"美国洛杉矶-江移+|+解锁流媒体(youtube阿伟科技)479","server":"223.111.202.209","port":30010,"password":"4a74897a-2f07-4259-b05c-f572d91066a2","udp":true,"skip-cert-verify":true,"sni":"mzy.hruqoaw.cn"}
+  - {"type":"trojan","name":"英国-Trojan(youtube阿伟科技)579","server":"uk01.trojanyyds.xyz","port":443,"password":"afee60fc-f88b-4a20-b85b-8f63296e7ac0","udp":true,"skip-cert-verify":true,"sni":"uk01.trojanyyds.xyz"}
+  - {"type":"trojan","name":"印度-Trojan(youtube阿伟科技)576","server":"in01.trojanyyds.xyz","port":443,"password":"afee60fc-f88b-4a20-b85b-8f63296e7ac0","udp":true,"skip-cert-verify":true,"sni":"in01.trojanyyds.xyz"}
+  - {"type":"vmess","name":"香港11|专线(youtube阿伟科技)36","server":"hk8.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com","port":"8008","uuid":"bbe534fc-0176-4111-a977-6f0d1a88d3fe","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"台湾(youtube阿伟科技)11","server":"yzdx.relay01.fast001.buzz","port":"19022","uuid":"cbe9fd73-5b98-3881-b2cd-5c6e53fdd2af","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"香港-HKBGP-Basic-06(youtube阿伟科技)540","server":"hk6.network-cdn-gw.cc","port":47706,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
+  - {"type":"vmess","name":"[Vip1]香港08[1.0|移动|流媒体解锁](youtube阿伟科技)4","ws-opts":{"path":"/fly"},"server":"gddx.fosi.hk","port":"41173","uuid":"f729c3d7-b0dc-449d-99ab-06f9702033c6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"韩国01|(youtube阿伟科技)441","ws-opts":{"path":"/index","headers":{"host":"hkg.mooooobai.top"}},"server":"hkg.mooooobai.top","port":"5122","uuid":"9931d1b0-64c9-39ee-9082-aa260a224bba","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"香港|HE+HKIX(youtube阿伟科技)525","server":"120.240.236.28","port":19765,"cipher":"chacha20-ietf-poly1305","password":"26977314-2859-4f28-a3d1-4e435ee61cfe"}
+  - {"type":"ss","name":"香港-HKBGP-Basic-10(youtube阿伟科技)542","server":"hk10.network-cdn-gw.cc","port":47710,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
+  - {"type":"ss","name":"香港HE+HKIXPlus(youtube阿伟科技)535","server":"120.240.236.28","port":40215,"cipher":"chacha20-ietf-poly1305","password":"26977314-2859-4f28-a3d1-4e435ee61cfe"}
+  - {"type":"vmess","name":"日本|02|直连2(youtube阿伟科技)493","ws-opts":{"path":"/","headers":{"host":"jp02.170203.xyz"}},"server":"jp02.170203.xyz","port":"23245","uuid":"a370f173-0cc6-4548-93df-8a01afa4d8df","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ssr","name":"香港HKBND(youtube阿伟科技)23","server":"initest08.initcloud.pro","port":562,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"23ffd711.microsoft.com","protocol-param":"64348:SVIPTIZ8"}
+  - {"type":"ss","name":"香港-HKBGP-Pro-09(youtube阿伟科技)547","server":"hkp09.network-cdn-gw.cc","port":48809,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
+  - {"type":"trojan","name":"美国-Trojan(youtube阿伟科技)477","server":"us01.trojanyyds.xyz","port":443,"password":"afee60fc-f88b-4a20-b85b-8f63296e7ac0","udp":true,"skip-cert-verify":true,"sni":"us01.trojanyyds.xyz"}
+  - {"type":"vmess","name":"韩国01|(youtube阿伟科技)440","ws-opts":{"path":"/index","headers":{"host":"hkg.mooooobai.top"}},"server":"hkg.mooooobai.top","port":"5122","uuid":"8a256eff-41f4-3cde-961f-c3ecd90ff07a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"新加坡沙嗲+x1.0(youtube阿伟科技)574","server":"183.245.146.6","port":12194,"cipher":"aes-256-gcm","password":"0f429d09-0d3c-44db-b76e-323a5283b0e8"}
+  - {"type":"vmess","name":"NHKN1_2(youtube阿伟科技)269","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live-001.hlzuifv.cn"}},"server":"ctfz.suijiceshi.xyz","port":"2052","uuid":"d19593ca-e3f3-4629-8c53-cabdd8382478","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"香港-HKBGP-Basic-01(youtube阿伟科技)538","server":"hk1.network-cdn-gw.cc","port":47795,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
+  - {"type":"vmess","name":"NJPN1(youtube阿伟科技)271","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live03.hlzuifv.cn"}},"server":"live03.suijiceshi.xyz","port":"2052","uuid":"d19593ca-e3f3-4629-8c53-cabdd8382478","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国((youtube阿伟科技)459","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}},"server":"172.67.199.34","port":"443","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"香港-HKBGP-Basic-08(youtube阿伟科技)541","server":"hk8.network-cdn-gw.cc","port":47708,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
+  - {"type":"ss","name":"NJPS1(AndroidX)_2(youtube阿伟科技)278","server":"iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz","port":21764,"cipher":"aes-128-gcm","password":"d19593ca-e3f3-4629-8c53-cabdd8382478"}
+  - {"type":"vmess","name":"NJPN5(youtube阿伟科技)272","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live05.hlzuifv.cn"}},"server":"live05.suijiceshi.xyz","port":"2052","uuid":"d19593ca-e3f3-4629-8c53-cabdd8382478","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"香港|04|奈飞HKT广港电信隧道4(大带宽)(youtube阿伟科技)524","server":"a002.baipiaoxd.com","port":45857,"password":"a370f173-0cc6-4548-93df-8a01afa4d8df","udp":true,"skip-cert-verify":true,"sni":"hkmax04.170203.xyz"}
+  - {"type":"trojan","name":"日本AZ+|+解锁流媒体-推荐(youtube阿伟科技)504","server":"20.210.237.81","port":443,"password":"4a74897a-2f07-4259-b05c-f572d91066a2","udp":true,"skip-cert-verify":true,"sni":"mzy.windowsupdate1.com"}
+  - {"type":"vmess","name":"SGV3_2(youtube阿伟科技)300","ws-opts":{"path":"/","headers":{"host":"24a51f02-f25c-87fa-7acf-eea632e63c7c.cnnic.rip"}},"server":"24a51f02-f25c-87fa-7acf-eea632e63c7c.cnnic.rip","port":"80","uuid":"03f78341-4075-4be9-b239-f342785e59a2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"NJPS2(AndroidX)_2(youtube阿伟科技)280","server":"shct.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz","port":21764,"cipher":"aes-128-gcm","password":"d19593ca-e3f3-4629-8c53-cabdd8382478"}
+  - {"type":"trojan","name":"日本-Trojan(youtube阿伟科技)506","server":"jp01.trojanyyds.xyz","port":443,"password":"afee60fc-f88b-4a20-b85b-8f63296e7ac0","udp":true,"skip-cert-verify":true,"sni":"jp01.trojanyyds.xyz"}
+  - {"type":"vmess","name":"荷兰10G-ws|解锁流媒体(youtube阿伟科技)445","ws-opts":{"path":"/meizhiyuan/nl1","headers":{"host":"www.189.cn"}},"server":"223.111.202.148","port":"38080","uuid":"4a74897a-2f07-4259-b05c-f572d91066a2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"韩国|01直连(youtube阿伟科技)439","ws-opts":{"path":"/","headers":{"host":"kr01.170203.xyz"}},"server":"kr01.170203.xyz","port":"45453","uuid":"a370f173-0cc6-4548-93df-8a01afa4d8df","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SGV3_1(youtube阿伟科技)296","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}},"server":"24a51f02-f25c-87fa-7acf-eea632e63c7c.cnnic.rip","port":"80","uuid":"03f78341-4075-4be9-b239-f342785e59a2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"[Vip1]新加坡04[1.0|移动|流媒体解锁]_3(youtube阿伟科技)23","ws-opts":{"path":"/fly","headers":{"host":"gddx.fosi.hk"}},"server":"gddx.fosi.hk","port":"43592","uuid":"3a881eb4-f52c-4247-887d-c73c3bebee3e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵日本|03|直连2(youtube阿伟科技)20","ws-opts":{"path":"/"},"server":"jp03.170203.xyz","port":"23245","uuid":"a370f173-0cc6-4548-93df-8a01afa4d8df","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"HKBGP-香港-Pro-06(youtube阿伟科技)545","server":"hkp06.network-cdn-gw.cc","port":48806,"cipher":"chacha20-ietf-poly1305","password":"a63b53df-ba17-4deb-90d7-19facd445ed7"}
   - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_1","ws-opts":{"path":"/aries","headers":{"host":"uk.cloudflare.quest"}},"server":"172.67.199.34","port":"2086","uuid":"ad1454a4-c9e2-4836-c98d-66e3646c2aa4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_2","ws-opts":{"path":"/p9Dq67Nx/","headers":{"host":"fr1.cachexy.ga"}},"server":"172.67.199.34","port":"443","uuid":"4e21574f-1796-4f0a-86c0-4430fe99d3a1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_3","ws-opts":{"path":"/sshkit/Variu88/634dab7abadf1/","headers":{"host":"us-lb.sshkit.org"}},"server":"172.67.199.34","port":"443","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ssr","name":"US美国(youtube阿伟科技)_2","server":"dajbxus.naikonode.top","port":15105,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"http_simple","password":"NaikoCloud","obfs-param":"6371f1596.microsoft.com","protocol-param":"1596:vsqvobohcqs"}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_4","ws-opts":{"path":"/pkhhvws"},"server":"amshare.jingledev.me","port":"443","uuid":"532a5f12-cadb-46e4-963f-ee7c075e40f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_5","ws-opts":{"path":"/ezN9pvil/","headers":{"host":"v2ray.wefuckgfw.tk"}},"server":"172.67.199.34","port":"2096","uuid":"2ae9835e-381b-4228-95df-bce39ee1a4eb","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_71","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}},"server":"xjp4h.mayaa.ml","port":"443","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_6","ws-opts":{"path":"/sshkit/fdfadsfa/63848bfe228fd/","headers":{"host":"us-lb.sshkit.org"}},"server":"172.67.199.34","port":"443","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"加拿大(yudou66.com玉豆免费节点)","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"23.227.38.40","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(youtube阿伟科技)_3","ws-opts":{"path":"/ezN9pvil/","headers":{"host":"v2ray.wefuckgfw.tk"}},"server":"172.67.199.34","port":"2096","uuid":"ec1af151-9562-4fb2-919f-5506647aa5dc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"youtube@资源分享师_美国_51","ws-opts":{"path":"/DQsafRJn/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"main.millionaireaisle.com","port":"2053","uuid":"8947fbe5-c1c7-4716-8564-2092ce776f92","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_7","ws-opts":{"path":"/aries","headers":{"host":"gcorehk.cloudflare.quest"}},"server":"172.67.199.34","port":"2086","uuid":"7a8a19ec-94f5-4262-edbe-a308e1d0c66d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_8","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.190.192","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_9","ws-opts":{"path":"/","headers":{"host":"uk2.v2rayserv.com"}},"server":"172.67.199.34","port":"443","uuid":"0764a598-82c4-4b41-ba10-551a625beed5","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"youtube@资源分享师_日本_90","server":"85.208.108.60","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_10","ws-opts":{"path":"/sshkit/1736960111/63859bc177a33/","headers":{"host":"sg3-v2ray.sshkit.org"}},"server":"172.67.199.34","port":"80","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_11","ws-opts":{"path":"/sshkit/1736960111/63859bc177a33/","headers":{"host":"sg3-v2ray.sshkit.org"}},"server":"172.67.199.34","port":"443","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"新加坡(youtube阿伟科技)282","server":"iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz","port":42839,"cipher":"aes-128-gcm","password":"d19593ca-e3f3-4629-8c53-cabdd8382478"}
+  - {"type":"ss","name":"NUSS1(AndroidX)_2(youtube阿伟科技)286","server":"iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz","port":18894,"cipher":"aes-128-gcm","password":"d19593ca-e3f3-4629-8c53-cabdd8382478"}
+  - {"type":"ssr","name":"俄罗斯A-[使用前先更新订阅!](youtube阿伟科技)48","server":"eduall.buzzline.org","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"23ffd711.microsoft.com","protocol-param":"64348:SVIPTIZ8"}
+  - {"type":"vmess","name":"🇯🇵日本|02|直连2(youtube阿伟科技)19","ws-opts":{"path":"/"},"server":"jp02.170203.xyz","port":"23245","uuid":"a370f173-0cc6-4548-93df-8a01afa4d8df","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"ESGS1_2(youtube阿伟科技)219","ws-opts":{"path":"/zh-cn","headers":{"host":"sg1.sanfen001.pics"}},"server":"sg1.sanfen001.pics","port":"2004","uuid":"cd55401f-2a8e-42c8-b712-728c01266fd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇰🇷韩国|01直连(youtube阿伟科技)22","ws-opts":{"path":"/"},"server":"kr01.170203.xyz","port":"45453","uuid":"a370f173-0cc6-4548-93df-8a01afa4d8df","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HKV2_2(youtube阿伟科技)246","ws-opts":{"path":"/","headers":{"host":"236ba16f-7989-71de-e510-1cad33923355.cnnic.rip"}},"server":"236ba16f-7989-71de-e510-1cad33923355.cnnic.rip","port":"80","uuid":"03f78341-4075-4be9-b239-f342785e59a2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HKV2_1(youtube阿伟科技)242","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}},"server":"236ba16f-7989-71de-e510-1cad33923355.cnnic.rip","port":"80","uuid":"03f78341-4075-4be9-b239-f342785e59a2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"EUSS1_2(youtube阿伟科技)229","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfen001.pics"}},"server":"us1.sanfen001.pics","port":"2002","uuid":"cd55401f-2a8e-42c8-b712-728c01266fd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"NKRN1(youtube阿伟科技)273","ws-opts":{"path":"/xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live08.hlzuifv.cn"}},"server":"live08.suijiceshi.xyz","port":"2052","uuid":"d19593ca-e3f3-4629-8c53-cabdd8382478","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)_2","ws-opts":{"path":"/aries","headers":{"host":"gcorehk.cloudflare.quest"}},"server":"172.67.199.34","port":"2086","uuid":"7a8a19ec-94f5-4262-edbe-a308e1d0c66d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"NSGS2(AndroidX)_2(youtube阿伟科技)284","server":"shct.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz","port":42839,"cipher":"aes-128-gcm","password":"d19593ca-e3f3-4629-8c53-cabdd8382478"}
+  - {"type":"vmess","name":"NSGN5(youtube阿伟科技)276","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live09.hlzuifv.cn"}},"server":"live09.suijiceshi.xyz","port":"2052","uuid":"d19593ca-e3f3-4629-8c53-cabdd8382478","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_1","ws-opts":{"path":"/aries","headers":{"host":"uk.cloudflare.quest"}},"server":"141.193.213.10","port":"2086","uuid":"ad1454a4-c9e2-4836-c98d-66e3646c2aa4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"德国01{移动|V2ray}_1(youtube阿伟科技)427","ws-opts":{"path":"/","headers":{"host":"cm1.awslcn.cc"}},"server":"cm1.awslcn.cc","port":"25241","uuid":"afee60fc-f88b-4a20-b85b-8f63296e7ac0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TWV1_1(youtube阿伟科技)315","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}},"server":"d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip","port":"80","uuid":"03f78341-4075-4be9-b239-f342785e59a2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)_2","ws-opts":{"path":"/ezN9pvil/","headers":{"host":"v2ray.wefuckgfw.tk"}},"server":"172.67.199.34","port":"2096","uuid":"ec1af151-9562-4fb2-919f-5506647aa5dc","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"德国-Trojan(youtube阿伟科技)429","server":"de01.trojanyyds.xyz","port":443,"password":"afee60fc-f88b-4a20-b85b-8f63296e7ac0","udp":true,"skip-cert-verify":true,"sni":"de01.trojanyyds.xyz"}
+  - {"type":"vmess","name":"HKV1_1(youtube阿伟科技)241","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}},"server":"9a5ccc45-215e-3472-502c-1b1a055a609c.cnnic.rip","port":"80","uuid":"03f78341-4075-4be9-b239-f342785e59a2","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - youtube@资源分享师_日本_79
-      - youtube@资源分享师_中国_38
-      - US美国(youtube阿伟科技)_1
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_4(youtube阿伟科技)24'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁](youtube阿伟科技)29'
+      - 香港-HKBGP-Pro-08(youtube阿伟科技)546
+      - 香港-HKBGP-Pro-05(youtube阿伟科技)544
+      - NSGN3(youtube阿伟科技)275
+      - 香港-HKBGP-Pro-02(youtube阿伟科技)543
+      - 香港DMIT[负载均衡]+x1.0(youtube阿伟科技)534
+      - 香港AZ2+|+解锁流媒体-推荐(youtube阿伟科技)533
+      - 新加坡|高速|80免流(youtube阿伟科技)565
+      - 新加坡-Trojan②(youtube阿伟科技)573
+      - 韩国高速A(youtube阿伟科技)47
+      - 香港HKTA(youtube阿伟科技)22
+      - 日本(youtube阿伟科技)187
+      - 香港HKTC(youtube阿伟科技)20
+      - 法国流媒体2x1(youtube阿伟科技)437
+      - 法国-江移+|+解锁流媒体(youtube阿伟科技)435
+      - 新加坡(youtube阿伟科技)568
+      - 日本13|专线|流媒体|香港(youtube阿伟科技)33
+      - 新加坡02|咖椰吐司_2(youtube阿伟科技)569
+      - 泰國+B/01+x1.0(youtube阿伟科技)513
+      - 香港-HKBGP-Basic-03(youtube阿伟科技)539
+      - 香港-Trojan④(youtube阿伟科技)553
+      - 美国01{优化1|V2ray}(youtube阿伟科技)29
+      - 美国圣何塞-江移+|+解锁流媒体(youtube阿伟科技)481
+      - 美国洛杉矶-江移+|+解锁流媒体(youtube阿伟科技)479
+      - 英国-Trojan(youtube阿伟科技)579
+      - 印度-Trojan(youtube阿伟科技)576
+      - 香港11|专线(youtube阿伟科技)36
+      - 台湾(youtube阿伟科技)11
+      - 香港-HKBGP-Basic-06(youtube阿伟科技)540
+      - '[Vip1]香港08[1.0|移动|流媒体解锁](youtube阿伟科技)4'
+      - 韩国01|(youtube阿伟科技)441
+      - 香港|HE+HKIX(youtube阿伟科技)525
+      - 香港-HKBGP-Basic-10(youtube阿伟科技)542
+      - 香港HE+HKIXPlus(youtube阿伟科技)535
+      - 日本|02|直连2(youtube阿伟科技)493
+      - 香港HKBND(youtube阿伟科技)23
+      - 香港-HKBGP-Pro-09(youtube阿伟科技)547
+      - 美国-Trojan(youtube阿伟科技)477
+      - 韩国01|(youtube阿伟科技)440
+      - 新加坡沙嗲+x1.0(youtube阿伟科技)574
+      - NHKN1_2(youtube阿伟科技)269
+      - 香港-HKBGP-Basic-01(youtube阿伟科技)538
+      - NJPN1(youtube阿伟科技)271
+      - 美国((youtube阿伟科技)459
+      - 香港-HKBGP-Basic-08(youtube阿伟科技)541
+      - NJPS1(AndroidX)_2(youtube阿伟科技)278
+      - NJPN5(youtube阿伟科技)272
+      - 香港|04|奈飞HKT广港电信隧道4(大带宽)(youtube阿伟科技)524
+      - 日本AZ+|+解锁流媒体-推荐(youtube阿伟科技)504
+      - SGV3_2(youtube阿伟科技)300
+      - NJPS2(AndroidX)_2(youtube阿伟科技)280
+      - 日本-Trojan(youtube阿伟科技)506
+      - 荷兰10G-ws|解锁流媒体(youtube阿伟科技)445
+      - 韩国|01直连(youtube阿伟科技)439
+      - SGV3_1(youtube阿伟科技)296
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_3(youtube阿伟科技)23'
+      - 🇯🇵日本|03|直连2(youtube阿伟科技)20
+      - HKBGP-香港-Pro-06(youtube阿伟科技)545
       - 美国(yudou66.com玉豆免费节点)_1
+      - 新加坡(youtube阿伟科技)282
+      - NUSS1(AndroidX)_2(youtube阿伟科技)286
+      - 俄罗斯A-[使用前先更新订阅!](youtube阿伟科技)48
+      - 🇯🇵日本|02|直连2(youtube阿伟科技)19
+      - ESGS1_2(youtube阿伟科技)219
+      - 🇰🇷韩国|01直连(youtube阿伟科技)22
+      - HKV2_2(youtube阿伟科技)246
+      - HKV2_1(youtube阿伟科技)242
+      - EUSS1_2(youtube阿伟科技)229
+      - NKRN1(youtube阿伟科技)273
       - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
+      - NSGS2(AndroidX)_2(youtube阿伟科技)284
+      - NSGN5(youtube阿伟科技)276
+      - US美国(youtube阿伟科技)_1
+      - 德国01{移动|V2ray}_1(youtube阿伟科技)427
+      - TWV1_1(youtube阿伟科技)315
       - US美国(youtube阿伟科技)_2
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - youtube@资源分享师_美国_71
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 加拿大(yudou66.com玉豆免费节点)
-      - US美国(youtube阿伟科技)_3
-      - youtube@资源分享师_美国_51
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 美国(yudou66.com玉豆免费节点)_8
-      - 美国(yudou66.com玉豆免费节点)_9
-      - youtube@资源分享师_日本_90
-      - 美国(yudou66.com玉豆免费节点)_10
-      - 美国(yudou66.com玉豆免费节点)_11
+      - 德国-Trojan(youtube阿伟科技)429
+      - HKV1_1(youtube阿伟科技)241
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - youtube@资源分享师_日本_79
-      - youtube@资源分享师_中国_38
-      - US美国(youtube阿伟科技)_1
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_4(youtube阿伟科技)24'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁](youtube阿伟科技)29'
+      - 香港-HKBGP-Pro-08(youtube阿伟科技)546
+      - 香港-HKBGP-Pro-05(youtube阿伟科技)544
+      - NSGN3(youtube阿伟科技)275
+      - 香港-HKBGP-Pro-02(youtube阿伟科技)543
+      - 香港DMIT[负载均衡]+x1.0(youtube阿伟科技)534
+      - 香港AZ2+|+解锁流媒体-推荐(youtube阿伟科技)533
+      - 新加坡|高速|80免流(youtube阿伟科技)565
+      - 新加坡-Trojan②(youtube阿伟科技)573
+      - 韩国高速A(youtube阿伟科技)47
+      - 香港HKTA(youtube阿伟科技)22
+      - 日本(youtube阿伟科技)187
+      - 香港HKTC(youtube阿伟科技)20
+      - 法国流媒体2x1(youtube阿伟科技)437
+      - 法国-江移+|+解锁流媒体(youtube阿伟科技)435
+      - 新加坡(youtube阿伟科技)568
+      - 日本13|专线|流媒体|香港(youtube阿伟科技)33
+      - 新加坡02|咖椰吐司_2(youtube阿伟科技)569
+      - 泰國+B/01+x1.0(youtube阿伟科技)513
+      - 香港-HKBGP-Basic-03(youtube阿伟科技)539
+      - 香港-Trojan④(youtube阿伟科技)553
+      - 美国01{优化1|V2ray}(youtube阿伟科技)29
+      - 美国圣何塞-江移+|+解锁流媒体(youtube阿伟科技)481
+      - 美国洛杉矶-江移+|+解锁流媒体(youtube阿伟科技)479
+      - 英国-Trojan(youtube阿伟科技)579
+      - 印度-Trojan(youtube阿伟科技)576
+      - 香港11|专线(youtube阿伟科技)36
+      - 台湾(youtube阿伟科技)11
+      - 香港-HKBGP-Basic-06(youtube阿伟科技)540
+      - '[Vip1]香港08[1.0|移动|流媒体解锁](youtube阿伟科技)4'
+      - 韩国01|(youtube阿伟科技)441
+      - 香港|HE+HKIX(youtube阿伟科技)525
+      - 香港-HKBGP-Basic-10(youtube阿伟科技)542
+      - 香港HE+HKIXPlus(youtube阿伟科技)535
+      - 日本|02|直连2(youtube阿伟科技)493
+      - 香港HKBND(youtube阿伟科技)23
+      - 香港-HKBGP-Pro-09(youtube阿伟科技)547
+      - 美国-Trojan(youtube阿伟科技)477
+      - 韩国01|(youtube阿伟科技)440
+      - 新加坡沙嗲+x1.0(youtube阿伟科技)574
+      - NHKN1_2(youtube阿伟科技)269
+      - 香港-HKBGP-Basic-01(youtube阿伟科技)538
+      - NJPN1(youtube阿伟科技)271
+      - 美国((youtube阿伟科技)459
+      - 香港-HKBGP-Basic-08(youtube阿伟科技)541
+      - NJPS1(AndroidX)_2(youtube阿伟科技)278
+      - NJPN5(youtube阿伟科技)272
+      - 香港|04|奈飞HKT广港电信隧道4(大带宽)(youtube阿伟科技)524
+      - 日本AZ+|+解锁流媒体-推荐(youtube阿伟科技)504
+      - SGV3_2(youtube阿伟科技)300
+      - NJPS2(AndroidX)_2(youtube阿伟科技)280
+      - 日本-Trojan(youtube阿伟科技)506
+      - 荷兰10G-ws|解锁流媒体(youtube阿伟科技)445
+      - 韩国|01直连(youtube阿伟科技)439
+      - SGV3_1(youtube阿伟科技)296
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_3(youtube阿伟科技)23'
+      - 🇯🇵日本|03|直连2(youtube阿伟科技)20
+      - HKBGP-香港-Pro-06(youtube阿伟科技)545
       - 美国(yudou66.com玉豆免费节点)_1
+      - 新加坡(youtube阿伟科技)282
+      - NUSS1(AndroidX)_2(youtube阿伟科技)286
+      - 俄罗斯A-[使用前先更新订阅!](youtube阿伟科技)48
+      - 🇯🇵日本|02|直连2(youtube阿伟科技)19
+      - ESGS1_2(youtube阿伟科技)219
+      - 🇰🇷韩国|01直连(youtube阿伟科技)22
+      - HKV2_2(youtube阿伟科技)246
+      - HKV2_1(youtube阿伟科技)242
+      - EUSS1_2(youtube阿伟科技)229
+      - NKRN1(youtube阿伟科技)273
       - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
+      - NSGS2(AndroidX)_2(youtube阿伟科技)284
+      - NSGN5(youtube阿伟科技)276
+      - US美国(youtube阿伟科技)_1
+      - 德国01{移动|V2ray}_1(youtube阿伟科技)427
+      - TWV1_1(youtube阿伟科技)315
       - US美国(youtube阿伟科技)_2
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - youtube@资源分享师_美国_71
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 加拿大(yudou66.com玉豆免费节点)
-      - US美国(youtube阿伟科技)_3
-      - youtube@资源分享师_美国_51
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 美国(yudou66.com玉豆免费节点)_8
-      - 美国(yudou66.com玉豆免费节点)_9
-      - youtube@资源分享师_日本_90
-      - 美国(yudou66.com玉豆免费节点)_10
-      - 美国(yudou66.com玉豆免费节点)_11
+      - 德国-Trojan(youtube阿伟科技)429
+      - HKV1_1(youtube阿伟科技)241
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - youtube@资源分享师_日本_79
-      - youtube@资源分享师_中国_38
-      - US美国(youtube阿伟科技)_1
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_4(youtube阿伟科技)24'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁](youtube阿伟科技)29'
+      - 香港-HKBGP-Pro-08(youtube阿伟科技)546
+      - 香港-HKBGP-Pro-05(youtube阿伟科技)544
+      - NSGN3(youtube阿伟科技)275
+      - 香港-HKBGP-Pro-02(youtube阿伟科技)543
+      - 香港DMIT[负载均衡]+x1.0(youtube阿伟科技)534
+      - 香港AZ2+|+解锁流媒体-推荐(youtube阿伟科技)533
+      - 新加坡|高速|80免流(youtube阿伟科技)565
+      - 新加坡-Trojan②(youtube阿伟科技)573
+      - 韩国高速A(youtube阿伟科技)47
+      - 香港HKTA(youtube阿伟科技)22
+      - 日本(youtube阿伟科技)187
+      - 香港HKTC(youtube阿伟科技)20
+      - 法国流媒体2x1(youtube阿伟科技)437
+      - 法国-江移+|+解锁流媒体(youtube阿伟科技)435
+      - 新加坡(youtube阿伟科技)568
+      - 日本13|专线|流媒体|香港(youtube阿伟科技)33
+      - 新加坡02|咖椰吐司_2(youtube阿伟科技)569
+      - 泰國+B/01+x1.0(youtube阿伟科技)513
+      - 香港-HKBGP-Basic-03(youtube阿伟科技)539
+      - 香港-Trojan④(youtube阿伟科技)553
+      - 美国01{优化1|V2ray}(youtube阿伟科技)29
+      - 美国圣何塞-江移+|+解锁流媒体(youtube阿伟科技)481
+      - 美国洛杉矶-江移+|+解锁流媒体(youtube阿伟科技)479
+      - 英国-Trojan(youtube阿伟科技)579
+      - 印度-Trojan(youtube阿伟科技)576
+      - 香港11|专线(youtube阿伟科技)36
+      - 台湾(youtube阿伟科技)11
+      - 香港-HKBGP-Basic-06(youtube阿伟科技)540
+      - '[Vip1]香港08[1.0|移动|流媒体解锁](youtube阿伟科技)4'
+      - 韩国01|(youtube阿伟科技)441
+      - 香港|HE+HKIX(youtube阿伟科技)525
+      - 香港-HKBGP-Basic-10(youtube阿伟科技)542
+      - 香港HE+HKIXPlus(youtube阿伟科技)535
+      - 日本|02|直连2(youtube阿伟科技)493
+      - 香港HKBND(youtube阿伟科技)23
+      - 香港-HKBGP-Pro-09(youtube阿伟科技)547
+      - 美国-Trojan(youtube阿伟科技)477
+      - 韩国01|(youtube阿伟科技)440
+      - 新加坡沙嗲+x1.0(youtube阿伟科技)574
+      - NHKN1_2(youtube阿伟科技)269
+      - 香港-HKBGP-Basic-01(youtube阿伟科技)538
+      - NJPN1(youtube阿伟科技)271
+      - 美国((youtube阿伟科技)459
+      - 香港-HKBGP-Basic-08(youtube阿伟科技)541
+      - NJPS1(AndroidX)_2(youtube阿伟科技)278
+      - NJPN5(youtube阿伟科技)272
+      - 香港|04|奈飞HKT广港电信隧道4(大带宽)(youtube阿伟科技)524
+      - 日本AZ+|+解锁流媒体-推荐(youtube阿伟科技)504
+      - SGV3_2(youtube阿伟科技)300
+      - NJPS2(AndroidX)_2(youtube阿伟科技)280
+      - 日本-Trojan(youtube阿伟科技)506
+      - 荷兰10G-ws|解锁流媒体(youtube阿伟科技)445
+      - 韩国|01直连(youtube阿伟科技)439
+      - SGV3_1(youtube阿伟科技)296
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_3(youtube阿伟科技)23'
+      - 🇯🇵日本|03|直连2(youtube阿伟科技)20
+      - HKBGP-香港-Pro-06(youtube阿伟科技)545
       - 美国(yudou66.com玉豆免费节点)_1
+      - 新加坡(youtube阿伟科技)282
+      - NUSS1(AndroidX)_2(youtube阿伟科技)286
+      - 俄罗斯A-[使用前先更新订阅!](youtube阿伟科技)48
+      - 🇯🇵日本|02|直连2(youtube阿伟科技)19
+      - ESGS1_2(youtube阿伟科技)219
+      - 🇰🇷韩国|01直连(youtube阿伟科技)22
+      - HKV2_2(youtube阿伟科技)246
+      - HKV2_1(youtube阿伟科技)242
+      - EUSS1_2(youtube阿伟科技)229
+      - NKRN1(youtube阿伟科技)273
       - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
+      - NSGS2(AndroidX)_2(youtube阿伟科技)284
+      - NSGN5(youtube阿伟科技)276
+      - US美国(youtube阿伟科技)_1
+      - 德国01{移动|V2ray}_1(youtube阿伟科技)427
+      - TWV1_1(youtube阿伟科技)315
       - US美国(youtube阿伟科技)_2
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - youtube@资源分享师_美国_71
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 加拿大(yudou66.com玉豆免费节点)
-      - US美国(youtube阿伟科技)_3
-      - youtube@资源分享师_美国_51
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 美国(yudou66.com玉豆免费节点)_8
-      - 美国(yudou66.com玉豆免费节点)_9
-      - youtube@资源分享师_日本_90
-      - 美国(yudou66.com玉豆免费节点)_10
-      - 美国(yudou66.com玉豆免费节点)_11
+      - 德国-Trojan(youtube阿伟科技)429
+      - HKV1_1(youtube阿伟科技)241
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - youtube@资源分享师_日本_79
-      - youtube@资源分享师_中国_38
-      - US美国(youtube阿伟科技)_1
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_4(youtube阿伟科技)24'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁](youtube阿伟科技)29'
+      - 香港-HKBGP-Pro-08(youtube阿伟科技)546
+      - 香港-HKBGP-Pro-05(youtube阿伟科技)544
+      - NSGN3(youtube阿伟科技)275
+      - 香港-HKBGP-Pro-02(youtube阿伟科技)543
+      - 香港DMIT[负载均衡]+x1.0(youtube阿伟科技)534
+      - 香港AZ2+|+解锁流媒体-推荐(youtube阿伟科技)533
+      - 新加坡|高速|80免流(youtube阿伟科技)565
+      - 新加坡-Trojan②(youtube阿伟科技)573
+      - 韩国高速A(youtube阿伟科技)47
+      - 香港HKTA(youtube阿伟科技)22
+      - 日本(youtube阿伟科技)187
+      - 香港HKTC(youtube阿伟科技)20
+      - 法国流媒体2x1(youtube阿伟科技)437
+      - 法国-江移+|+解锁流媒体(youtube阿伟科技)435
+      - 新加坡(youtube阿伟科技)568
+      - 日本13|专线|流媒体|香港(youtube阿伟科技)33
+      - 新加坡02|咖椰吐司_2(youtube阿伟科技)569
+      - 泰國+B/01+x1.0(youtube阿伟科技)513
+      - 香港-HKBGP-Basic-03(youtube阿伟科技)539
+      - 香港-Trojan④(youtube阿伟科技)553
+      - 美国01{优化1|V2ray}(youtube阿伟科技)29
+      - 美国圣何塞-江移+|+解锁流媒体(youtube阿伟科技)481
+      - 美国洛杉矶-江移+|+解锁流媒体(youtube阿伟科技)479
+      - 英国-Trojan(youtube阿伟科技)579
+      - 印度-Trojan(youtube阿伟科技)576
+      - 香港11|专线(youtube阿伟科技)36
+      - 台湾(youtube阿伟科技)11
+      - 香港-HKBGP-Basic-06(youtube阿伟科技)540
+      - '[Vip1]香港08[1.0|移动|流媒体解锁](youtube阿伟科技)4'
+      - 韩国01|(youtube阿伟科技)441
+      - 香港|HE+HKIX(youtube阿伟科技)525
+      - 香港-HKBGP-Basic-10(youtube阿伟科技)542
+      - 香港HE+HKIXPlus(youtube阿伟科技)535
+      - 日本|02|直连2(youtube阿伟科技)493
+      - 香港HKBND(youtube阿伟科技)23
+      - 香港-HKBGP-Pro-09(youtube阿伟科技)547
+      - 美国-Trojan(youtube阿伟科技)477
+      - 韩国01|(youtube阿伟科技)440
+      - 新加坡沙嗲+x1.0(youtube阿伟科技)574
+      - NHKN1_2(youtube阿伟科技)269
+      - 香港-HKBGP-Basic-01(youtube阿伟科技)538
+      - NJPN1(youtube阿伟科技)271
+      - 美国((youtube阿伟科技)459
+      - 香港-HKBGP-Basic-08(youtube阿伟科技)541
+      - NJPS1(AndroidX)_2(youtube阿伟科技)278
+      - NJPN5(youtube阿伟科技)272
+      - 香港|04|奈飞HKT广港电信隧道4(大带宽)(youtube阿伟科技)524
+      - 日本AZ+|+解锁流媒体-推荐(youtube阿伟科技)504
+      - SGV3_2(youtube阿伟科技)300
+      - NJPS2(AndroidX)_2(youtube阿伟科技)280
+      - 日本-Trojan(youtube阿伟科技)506
+      - 荷兰10G-ws|解锁流媒体(youtube阿伟科技)445
+      - 韩国|01直连(youtube阿伟科技)439
+      - SGV3_1(youtube阿伟科技)296
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_3(youtube阿伟科技)23'
+      - 🇯🇵日本|03|直连2(youtube阿伟科技)20
+      - HKBGP-香港-Pro-06(youtube阿伟科技)545
       - 美国(yudou66.com玉豆免费节点)_1
+      - 新加坡(youtube阿伟科技)282
+      - NUSS1(AndroidX)_2(youtube阿伟科技)286
+      - 俄罗斯A-[使用前先更新订阅!](youtube阿伟科技)48
+      - 🇯🇵日本|02|直连2(youtube阿伟科技)19
+      - ESGS1_2(youtube阿伟科技)219
+      - 🇰🇷韩国|01直连(youtube阿伟科技)22
+      - HKV2_2(youtube阿伟科技)246
+      - HKV2_1(youtube阿伟科技)242
+      - EUSS1_2(youtube阿伟科技)229
+      - NKRN1(youtube阿伟科技)273
       - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
+      - NSGS2(AndroidX)_2(youtube阿伟科技)284
+      - NSGN5(youtube阿伟科技)276
+      - US美国(youtube阿伟科技)_1
+      - 德国01{移动|V2ray}_1(youtube阿伟科技)427
+      - TWV1_1(youtube阿伟科技)315
       - US美国(youtube阿伟科技)_2
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - youtube@资源分享师_美国_71
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 加拿大(yudou66.com玉豆免费节点)
-      - US美国(youtube阿伟科技)_3
-      - youtube@资源分享师_美国_51
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 美国(yudou66.com玉豆免费节点)_8
-      - 美国(yudou66.com玉豆免费节点)_9
-      - youtube@资源分享师_日本_90
-      - 美国(yudou66.com玉豆免费节点)_10
-      - 美国(yudou66.com玉豆免费节点)_11
+      - 德国-Trojan(youtube阿伟科技)429
+      - HKV1_1(youtube阿伟科技)241
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - youtube@资源分享师_日本_79
-      - youtube@资源分享师_中国_38
-      - US美国(youtube阿伟科技)_1
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_4(youtube阿伟科技)24'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁](youtube阿伟科技)29'
+      - 香港-HKBGP-Pro-08(youtube阿伟科技)546
+      - 香港-HKBGP-Pro-05(youtube阿伟科技)544
+      - NSGN3(youtube阿伟科技)275
+      - 香港-HKBGP-Pro-02(youtube阿伟科技)543
+      - 香港DMIT[负载均衡]+x1.0(youtube阿伟科技)534
+      - 香港AZ2+|+解锁流媒体-推荐(youtube阿伟科技)533
+      - 新加坡|高速|80免流(youtube阿伟科技)565
+      - 新加坡-Trojan②(youtube阿伟科技)573
+      - 韩国高速A(youtube阿伟科技)47
+      - 香港HKTA(youtube阿伟科技)22
+      - 日本(youtube阿伟科技)187
+      - 香港HKTC(youtube阿伟科技)20
+      - 法国流媒体2x1(youtube阿伟科技)437
+      - 法国-江移+|+解锁流媒体(youtube阿伟科技)435
+      - 新加坡(youtube阿伟科技)568
+      - 日本13|专线|流媒体|香港(youtube阿伟科技)33
+      - 新加坡02|咖椰吐司_2(youtube阿伟科技)569
+      - 泰國+B/01+x1.0(youtube阿伟科技)513
+      - 香港-HKBGP-Basic-03(youtube阿伟科技)539
+      - 香港-Trojan④(youtube阿伟科技)553
+      - 美国01{优化1|V2ray}(youtube阿伟科技)29
+      - 美国圣何塞-江移+|+解锁流媒体(youtube阿伟科技)481
+      - 美国洛杉矶-江移+|+解锁流媒体(youtube阿伟科技)479
+      - 英国-Trojan(youtube阿伟科技)579
+      - 印度-Trojan(youtube阿伟科技)576
+      - 香港11|专线(youtube阿伟科技)36
+      - 台湾(youtube阿伟科技)11
+      - 香港-HKBGP-Basic-06(youtube阿伟科技)540
+      - '[Vip1]香港08[1.0|移动|流媒体解锁](youtube阿伟科技)4'
+      - 韩国01|(youtube阿伟科技)441
+      - 香港|HE+HKIX(youtube阿伟科技)525
+      - 香港-HKBGP-Basic-10(youtube阿伟科技)542
+      - 香港HE+HKIXPlus(youtube阿伟科技)535
+      - 日本|02|直连2(youtube阿伟科技)493
+      - 香港HKBND(youtube阿伟科技)23
+      - 香港-HKBGP-Pro-09(youtube阿伟科技)547
+      - 美国-Trojan(youtube阿伟科技)477
+      - 韩国01|(youtube阿伟科技)440
+      - 新加坡沙嗲+x1.0(youtube阿伟科技)574
+      - NHKN1_2(youtube阿伟科技)269
+      - 香港-HKBGP-Basic-01(youtube阿伟科技)538
+      - NJPN1(youtube阿伟科技)271
+      - 美国((youtube阿伟科技)459
+      - 香港-HKBGP-Basic-08(youtube阿伟科技)541
+      - NJPS1(AndroidX)_2(youtube阿伟科技)278
+      - NJPN5(youtube阿伟科技)272
+      - 香港|04|奈飞HKT广港电信隧道4(大带宽)(youtube阿伟科技)524
+      - 日本AZ+|+解锁流媒体-推荐(youtube阿伟科技)504
+      - SGV3_2(youtube阿伟科技)300
+      - NJPS2(AndroidX)_2(youtube阿伟科技)280
+      - 日本-Trojan(youtube阿伟科技)506
+      - 荷兰10G-ws|解锁流媒体(youtube阿伟科技)445
+      - 韩国|01直连(youtube阿伟科技)439
+      - SGV3_1(youtube阿伟科技)296
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_3(youtube阿伟科技)23'
+      - 🇯🇵日本|03|直连2(youtube阿伟科技)20
+      - HKBGP-香港-Pro-06(youtube阿伟科技)545
       - 美国(yudou66.com玉豆免费节点)_1
+      - 新加坡(youtube阿伟科技)282
+      - NUSS1(AndroidX)_2(youtube阿伟科技)286
+      - 俄罗斯A-[使用前先更新订阅!](youtube阿伟科技)48
+      - 🇯🇵日本|02|直连2(youtube阿伟科技)19
+      - ESGS1_2(youtube阿伟科技)219
+      - 🇰🇷韩国|01直连(youtube阿伟科技)22
+      - HKV2_2(youtube阿伟科技)246
+      - HKV2_1(youtube阿伟科技)242
+      - EUSS1_2(youtube阿伟科技)229
+      - NKRN1(youtube阿伟科技)273
       - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
+      - NSGS2(AndroidX)_2(youtube阿伟科技)284
+      - NSGN5(youtube阿伟科技)276
+      - US美国(youtube阿伟科技)_1
+      - 德国01{移动|V2ray}_1(youtube阿伟科技)427
+      - TWV1_1(youtube阿伟科技)315
       - US美国(youtube阿伟科技)_2
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - youtube@资源分享师_美国_71
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 加拿大(yudou66.com玉豆免费节点)
-      - US美国(youtube阿伟科技)_3
-      - youtube@资源分享师_美国_51
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 美国(yudou66.com玉豆免费节点)_8
-      - 美国(yudou66.com玉豆免费节点)_9
-      - youtube@资源分享师_日本_90
-      - 美国(yudou66.com玉豆免费节点)_10
-      - 美国(yudou66.com玉豆免费节点)_11
+      - 德国-Trojan(youtube阿伟科技)429
+      - HKV1_1(youtube阿伟科技)241
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - youtube@资源分享师_日本_79
-      - youtube@资源分享师_中国_38
-      - US美国(youtube阿伟科技)_1
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_4(youtube阿伟科技)24'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁](youtube阿伟科技)29'
+      - 香港-HKBGP-Pro-08(youtube阿伟科技)546
+      - 香港-HKBGP-Pro-05(youtube阿伟科技)544
+      - NSGN3(youtube阿伟科技)275
+      - 香港-HKBGP-Pro-02(youtube阿伟科技)543
+      - 香港DMIT[负载均衡]+x1.0(youtube阿伟科技)534
+      - 香港AZ2+|+解锁流媒体-推荐(youtube阿伟科技)533
+      - 新加坡|高速|80免流(youtube阿伟科技)565
+      - 新加坡-Trojan②(youtube阿伟科技)573
+      - 韩国高速A(youtube阿伟科技)47
+      - 香港HKTA(youtube阿伟科技)22
+      - 日本(youtube阿伟科技)187
+      - 香港HKTC(youtube阿伟科技)20
+      - 法国流媒体2x1(youtube阿伟科技)437
+      - 法国-江移+|+解锁流媒体(youtube阿伟科技)435
+      - 新加坡(youtube阿伟科技)568
+      - 日本13|专线|流媒体|香港(youtube阿伟科技)33
+      - 新加坡02|咖椰吐司_2(youtube阿伟科技)569
+      - 泰國+B/01+x1.0(youtube阿伟科技)513
+      - 香港-HKBGP-Basic-03(youtube阿伟科技)539
+      - 香港-Trojan④(youtube阿伟科技)553
+      - 美国01{优化1|V2ray}(youtube阿伟科技)29
+      - 美国圣何塞-江移+|+解锁流媒体(youtube阿伟科技)481
+      - 美国洛杉矶-江移+|+解锁流媒体(youtube阿伟科技)479
+      - 英国-Trojan(youtube阿伟科技)579
+      - 印度-Trojan(youtube阿伟科技)576
+      - 香港11|专线(youtube阿伟科技)36
+      - 台湾(youtube阿伟科技)11
+      - 香港-HKBGP-Basic-06(youtube阿伟科技)540
+      - '[Vip1]香港08[1.0|移动|流媒体解锁](youtube阿伟科技)4'
+      - 韩国01|(youtube阿伟科技)441
+      - 香港|HE+HKIX(youtube阿伟科技)525
+      - 香港-HKBGP-Basic-10(youtube阿伟科技)542
+      - 香港HE+HKIXPlus(youtube阿伟科技)535
+      - 日本|02|直连2(youtube阿伟科技)493
+      - 香港HKBND(youtube阿伟科技)23
+      - 香港-HKBGP-Pro-09(youtube阿伟科技)547
+      - 美国-Trojan(youtube阿伟科技)477
+      - 韩国01|(youtube阿伟科技)440
+      - 新加坡沙嗲+x1.0(youtube阿伟科技)574
+      - NHKN1_2(youtube阿伟科技)269
+      - 香港-HKBGP-Basic-01(youtube阿伟科技)538
+      - NJPN1(youtube阿伟科技)271
+      - 美国((youtube阿伟科技)459
+      - 香港-HKBGP-Basic-08(youtube阿伟科技)541
+      - NJPS1(AndroidX)_2(youtube阿伟科技)278
+      - NJPN5(youtube阿伟科技)272
+      - 香港|04|奈飞HKT广港电信隧道4(大带宽)(youtube阿伟科技)524
+      - 日本AZ+|+解锁流媒体-推荐(youtube阿伟科技)504
+      - SGV3_2(youtube阿伟科技)300
+      - NJPS2(AndroidX)_2(youtube阿伟科技)280
+      - 日本-Trojan(youtube阿伟科技)506
+      - 荷兰10G-ws|解锁流媒体(youtube阿伟科技)445
+      - 韩国|01直连(youtube阿伟科技)439
+      - SGV3_1(youtube阿伟科技)296
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_3(youtube阿伟科技)23'
+      - 🇯🇵日本|03|直连2(youtube阿伟科技)20
+      - HKBGP-香港-Pro-06(youtube阿伟科技)545
       - 美国(yudou66.com玉豆免费节点)_1
+      - 新加坡(youtube阿伟科技)282
+      - NUSS1(AndroidX)_2(youtube阿伟科技)286
+      - 俄罗斯A-[使用前先更新订阅!](youtube阿伟科技)48
+      - 🇯🇵日本|02|直连2(youtube阿伟科技)19
+      - ESGS1_2(youtube阿伟科技)219
+      - 🇰🇷韩国|01直连(youtube阿伟科技)22
+      - HKV2_2(youtube阿伟科技)246
+      - HKV2_1(youtube阿伟科技)242
+      - EUSS1_2(youtube阿伟科技)229
+      - NKRN1(youtube阿伟科技)273
       - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
+      - NSGS2(AndroidX)_2(youtube阿伟科技)284
+      - NSGN5(youtube阿伟科技)276
+      - US美国(youtube阿伟科技)_1
+      - 德国01{移动|V2ray}_1(youtube阿伟科技)427
+      - TWV1_1(youtube阿伟科技)315
       - US美国(youtube阿伟科技)_2
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - youtube@资源分享师_美国_71
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 加拿大(yudou66.com玉豆免费节点)
-      - US美国(youtube阿伟科技)_3
-      - youtube@资源分享师_美国_51
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 美国(yudou66.com玉豆免费节点)_8
-      - 美国(yudou66.com玉豆免费节点)_9
-      - youtube@资源分享师_日本_90
-      - 美国(yudou66.com玉豆免费节点)_10
-      - 美国(yudou66.com玉豆免费节点)_11
+      - 德国-Trojan(youtube阿伟科技)429
+      - HKV1_1(youtube阿伟科技)241
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -200,26 +613,85 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - youtube@资源分享师_日本_79
-      - youtube@资源分享师_中国_38
-      - US美国(youtube阿伟科技)_1
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_4(youtube阿伟科技)24'
+      - '[Vip1]新加坡05[1.0|联通|流媒体解锁](youtube阿伟科技)29'
+      - 香港-HKBGP-Pro-08(youtube阿伟科技)546
+      - 香港-HKBGP-Pro-05(youtube阿伟科技)544
+      - NSGN3(youtube阿伟科技)275
+      - 香港-HKBGP-Pro-02(youtube阿伟科技)543
+      - 香港DMIT[负载均衡]+x1.0(youtube阿伟科技)534
+      - 香港AZ2+|+解锁流媒体-推荐(youtube阿伟科技)533
+      - 新加坡|高速|80免流(youtube阿伟科技)565
+      - 新加坡-Trojan②(youtube阿伟科技)573
+      - 韩国高速A(youtube阿伟科技)47
+      - 香港HKTA(youtube阿伟科技)22
+      - 日本(youtube阿伟科技)187
+      - 香港HKTC(youtube阿伟科技)20
+      - 法国流媒体2x1(youtube阿伟科技)437
+      - 法国-江移+|+解锁流媒体(youtube阿伟科技)435
+      - 新加坡(youtube阿伟科技)568
+      - 日本13|专线|流媒体|香港(youtube阿伟科技)33
+      - 新加坡02|咖椰吐司_2(youtube阿伟科技)569
+      - 泰國+B/01+x1.0(youtube阿伟科技)513
+      - 香港-HKBGP-Basic-03(youtube阿伟科技)539
+      - 香港-Trojan④(youtube阿伟科技)553
+      - 美国01{优化1|V2ray}(youtube阿伟科技)29
+      - 美国圣何塞-江移+|+解锁流媒体(youtube阿伟科技)481
+      - 美国洛杉矶-江移+|+解锁流媒体(youtube阿伟科技)479
+      - 英国-Trojan(youtube阿伟科技)579
+      - 印度-Trojan(youtube阿伟科技)576
+      - 香港11|专线(youtube阿伟科技)36
+      - 台湾(youtube阿伟科技)11
+      - 香港-HKBGP-Basic-06(youtube阿伟科技)540
+      - '[Vip1]香港08[1.0|移动|流媒体解锁](youtube阿伟科技)4'
+      - 韩国01|(youtube阿伟科技)441
+      - 香港|HE+HKIX(youtube阿伟科技)525
+      - 香港-HKBGP-Basic-10(youtube阿伟科技)542
+      - 香港HE+HKIXPlus(youtube阿伟科技)535
+      - 日本|02|直连2(youtube阿伟科技)493
+      - 香港HKBND(youtube阿伟科技)23
+      - 香港-HKBGP-Pro-09(youtube阿伟科技)547
+      - 美国-Trojan(youtube阿伟科技)477
+      - 韩国01|(youtube阿伟科技)440
+      - 新加坡沙嗲+x1.0(youtube阿伟科技)574
+      - NHKN1_2(youtube阿伟科技)269
+      - 香港-HKBGP-Basic-01(youtube阿伟科技)538
+      - NJPN1(youtube阿伟科技)271
+      - 美国((youtube阿伟科技)459
+      - 香港-HKBGP-Basic-08(youtube阿伟科技)541
+      - NJPS1(AndroidX)_2(youtube阿伟科技)278
+      - NJPN5(youtube阿伟科技)272
+      - 香港|04|奈飞HKT广港电信隧道4(大带宽)(youtube阿伟科技)524
+      - 日本AZ+|+解锁流媒体-推荐(youtube阿伟科技)504
+      - SGV3_2(youtube阿伟科技)300
+      - NJPS2(AndroidX)_2(youtube阿伟科技)280
+      - 日本-Trojan(youtube阿伟科技)506
+      - 荷兰10G-ws|解锁流媒体(youtube阿伟科技)445
+      - 韩国|01直连(youtube阿伟科技)439
+      - SGV3_1(youtube阿伟科技)296
+      - '[Vip1]新加坡04[1.0|移动|流媒体解锁]_3(youtube阿伟科技)23'
+      - 🇯🇵日本|03|直连2(youtube阿伟科技)20
+      - HKBGP-香港-Pro-06(youtube阿伟科技)545
       - 美国(yudou66.com玉豆免费节点)_1
+      - 新加坡(youtube阿伟科技)282
+      - NUSS1(AndroidX)_2(youtube阿伟科技)286
+      - 俄罗斯A-[使用前先更新订阅!](youtube阿伟科技)48
+      - 🇯🇵日本|02|直连2(youtube阿伟科技)19
+      - ESGS1_2(youtube阿伟科技)219
+      - 🇰🇷韩国|01直连(youtube阿伟科技)22
+      - HKV2_2(youtube阿伟科技)246
+      - HKV2_1(youtube阿伟科技)242
+      - EUSS1_2(youtube阿伟科技)229
+      - NKRN1(youtube阿伟科技)273
       - 美国(yudou66.com玉豆免费节点)_2
-      - 美国(yudou66.com玉豆免费节点)_3
+      - NSGS2(AndroidX)_2(youtube阿伟科技)284
+      - NSGN5(youtube阿伟科技)276
+      - US美国(youtube阿伟科技)_1
+      - 德国01{移动|V2ray}_1(youtube阿伟科技)427
+      - TWV1_1(youtube阿伟科技)315
       - US美国(youtube阿伟科技)_2
-      - 美国(yudou66.com玉豆免费节点)_4
-      - 美国(yudou66.com玉豆免费节点)_5
-      - youtube@资源分享师_美国_71
-      - 美国(yudou66.com玉豆免费节点)_6
-      - 加拿大(yudou66.com玉豆免费节点)
-      - US美国(youtube阿伟科技)_3
-      - youtube@资源分享师_美国_51
-      - 美国(yudou66.com玉豆免费节点)_7
-      - 美国(yudou66.com玉豆免费节点)_8
-      - 美国(yudou66.com玉豆免费节点)_9
-      - youtube@资源分享师_日本_90
-      - 美国(yudou66.com玉豆免费节点)_10
-      - 美国(yudou66.com玉豆免费节点)_11
+      - 德国-Trojan(youtube阿伟科技)429
+      - HKV1_1(youtube阿伟科技)241
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
