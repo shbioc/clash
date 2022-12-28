@@ -5,228 +5,340 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_1","ws-opts":{"path":"/shirker","headers":{"host":"lvryzenkvm1gb.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.asuka.buzz"}},"server":"www.digitalocean.com","port":"80","uuid":"59502b4c-6a17-4f65-a1cc-682f0179cec1","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_3","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47a.toddns.tk"}},"server":"172.67.199.34","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_4","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.toddns.tk"}},"server":"172.67.199.34","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_5","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}},"server":"172.67.199.34","port":"80","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_6","server":"c50s801.jamjams3.net","port":"12516","uuid":"3ce13954-b49b-4a3a-8af2-e3fddce19af5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"德国(yudou66.com玉豆免费节点)","ws-opts":{"path":"/ws","headers":{"host":"gheychi.betterthanunix.ml"}},"server":"172.67.196.0","port":"80","uuid":"73d843a1-17b3-4a7e-a31f-eada9b175b36","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"日本-欢迎订阅【YouTube-由零開始】_1","server":"85.208.108.60","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_7","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47a.toddns.tk"}},"server":"v47a.toddns.tk","port":"80","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_8","ws-opts":{"path":"/sshkit/fdfadsfa/63848bfe228fd/","headers":{"host":"us-lb.sshkit.org"}},"server":"hohm.microsoft.com","port":"443","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"日本-欢迎订阅【YouTube-由零開始】_2","server":"85.208.108.60","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_9","ws-opts":{"path":"/Falling42gcssgnode","headers":{"host":"gcssg.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_10","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.toddns.tk"}},"server":"v47.toddns.tk","port":"80","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_11","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"172.67.199.34","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国(yudou66.com玉豆免费节点)","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}},"server":"162.159.135.42","port":"80","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"日本-欢迎订阅【YouTube-由零開始】_3","server":"85.208.108.60","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_12","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47a.toddns.tk"}},"server":"162.159.128.7","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_13","ws-opts":{"path":"/Falling42gcssgnode","headers":{"host":"gcssg.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_14","ws-opts":{"path":"/Falling42gcorehknode","headers":{"host":"gcorehk.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"德国-欢迎订阅【YouTube-由零開始】","ws-opts":{"path":"/","headers":{"host":"165.227.175.88"}},"server":"165.227.175.88","port":"28164","uuid":"eba8ccf5-5ab9-4b6b-de4b-83ab920c1005","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_15","ws-opts":{"path":"/shirker","headers":{"host":"jp-ntt.sharecentre.online"}},"server":"162.159.135.42","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"中国-欢迎订阅【YouTube-由零開始】","server":"hnn.xiaohouzi.club","port":47455,"password":"37db0893-129f-363d-bff2-4d6e276902bb","udp":true,"skip-cert-verify":true,"sni":"aiyun01.xiaohouzi.club"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_16","ws-opts":{"path":"/sshkit/fdfadsfa/63848bfe228fd/","headers":{"host":"us-lb.sshkit.org"}},"server":"uicdn.cf","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_17","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/","headers":{"host":"sg-lb.vhax.net"}},"server":"172.67.199.34","port":"443","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"俄罗斯联邦-欢迎订阅【YouTube-由零開始】","server":"eu-east-ruo.openssl3.com","port":443,"password":"9KogHwaY7hVD","udp":true,"skip-cert-verify":true,"sni":"eu-east-ruo.openssl3.com"}
-  - {"type":"vmess","name":"欧洲(yudou66.com玉豆免费节点)","ws-opts":{"path":"/PK9sTRVt/"},"server":"v2ray.ibgfw.top","port":"2083","uuid":"554f7aa8-632d-463d-b496-05433328edbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_18","ws-opts":{"path":"/Falling42gcssgnode","headers":{"host":"gcssg.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"HK香港(youtube阿伟科技)","server":"shgez3.eucdurl.me","port":568,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"46818:yui369ghj"}
+  - {"type":"vmess","name":"US美国(youtube阿伟科技)","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.asuka.buzz"}},"server":"www.digitalocean.com","port":"80","uuid":"59502b4c-6a17-4f65-a1cc-682f0179cec1","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ssr","name":"美国中继01(youtube阿伟科技)12","server":"api-c-005.mybbq.xyz","port":31031,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"yPKrexXaVMAXFfez","obfs-param":"afcd221866.download.windowsupdate.com","protocol-param":"21866:MvEBTu"}
+  - {"type":"ssr","name":"美国中继02(youtube阿伟科技)13","server":"api-c-005.mybbq.xyz","port":31032,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"yPKrexXaVMAXFfez","obfs-param":"afcd221866.download.windowsupdate.com","protocol-param":"21866:MvEBTu"}
+  - {"type":"vmess","name":"JP日本（YouTube-aweikeji）_1","ws-opts":{"path":"/Falling42gcssjpnode","headers":{"host":"gcssjp.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_1","server":"c50s801.jamjams3.net","port":"12516","uuid":"3ce13954-b49b-4a3a-8af2-e3fddce19af5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸-美国-162.159.128.7_2（YouTube-aweikeji）420","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47a.toddns.tk"}},"server":"162.159.128.7","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/ws","headers":{"host":"gheychi.betterthanunix.ml"}},"server":"172.67.196.0","port":"80","uuid":"73d843a1-17b3-4a7e-a31f-eada9b175b36","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国（YouTube-aweikeji）_1","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47a.toddns.tk"}},"server":"172.67.199.34","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"香港HKTC_1(youtube阿伟科技)4","server":"shgez3.eucdurl.me","port":568,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"23ffd711.microsoft.com","protocol-param":"15194:SVIPTIZ8"}
+  - {"type":"vmess","name":"SG新加坡（YouTube-aweikeji）_1","ws-opts":{"path":"/vmess","headers":{"host":"sg1-v.sshmax.xyz"}},"server":"162.159.128.7","port":"443","uuid":"a72bd7a7-732d-46c1-8274-bf16bca30e78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"韩国中继02(youtube阿伟科技)11","server":"api-ab-4.myqbnb.com","port":30052,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"yPKrexXaVMAXFfez","obfs-param":"afcd221866.download.windowsupdate.com","protocol-param":"21866:MvEBTu"}
+  - {"type":"ss","name":"_JP_日本_17_1@22（YouTube-aweikeji）34","server":"85.208.108.60","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"CA加拿大（YouTube-aweikeji）","ws-opts":{"path":"/Falling42awsypcanode","headers":{"host":"awsypca.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"日本-欢迎订阅【YouTube-由零開始】","server":"85.208.108.60","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"vmess","name":"HK香港（YouTube-aweikeji）_1","ws-opts":{"path":"/Falling42gcorehkknode","headers":{"host":"gcorehkk.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国（YouTube-aweikeji）_2","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.toddns.tk"}},"server":"162.159.128.7","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HK香港（YouTube-aweikeji）_2","ws-opts":{"path":"/Falling42gcsshkkknode","headers":{"host":"gcsshkkk.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"JP+日本（YouTube-aweikeji）","server":"85.208.108.60","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"vmess","name":"JP日本（YouTube-aweikeji）_2","ws-opts":{"path":"/Falling42gcssjpnode","headers":{"host":"gcssjp.sylu.cyou"}},"server":"investors.spotify.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"⌈三网⌋新加坡01_2（YouTube-aweikeji）81","ws-opts":{"path":"/m3","headers":{"host":"do-sg-1.heima-bot.tech"}},"server":"172.64.150.57","port":"8080","uuid":"bdab8aa9-708e-4d34-8de7-8c02368166d4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"⌈三网⌋新加坡01_1（YouTube-aweikeji）80","ws-opts":{"path":"/m3","headers":{"host":"do-sg-1.heima-bot.tech"}},"server":"172.64.150.57","port":"8080","uuid":"463a2d55-9705-4ef3-a8b6-44ac91ee519d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国（YouTube-aweikeji）_3","ws-opts":{"path":"/vmess","headers":{"host":"sg1-v.sshmax.xyz"}},"server":"162.159.135.42","port":"443","uuid":"a72bd7a7-732d-46c1-8274-bf16bca30e78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"SG新加坡（YouTube-aweikeji）_2","ws-opts":{"path":"/Falling42gcoresggnode","headers":{"host":"gcoresgg.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"DE德国（YouTube-aweikeji）_1","ws-opts":{"path":"/Falling42gcsdenode","headers":{"host":"gcsde.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"【CF】日本月抛2（YouTube-aweikeji）42","ws-opts":{"path":"/Falling42awsjpycnode","headers":{"host":"awsjpyc.sylu.cyou"}},"server":"dnss.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国（YouTube-aweikeji）_4","ws-opts":{"path":"/Falling42gcssgnode","headers":{"host":"gcssg.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"VN越南（YouTube-aweikeji）","ws-opts":{"path":"/","headers":{"host":"vn-01.legeth.tk"}},"server":"vn-01.legeth.tk","port":"80","uuid":"c78896ef-327a-43e4-acab-5b56f630f0fd","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HK香港（YouTube-aweikeji）_3","ws-opts":{"path":"/Falling42gcorehknode","headers":{"host":"gcorehk.sylu.cyou"}},"server":"investors.spotify.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"【移动CF】AWS加拿大（YouTube-aweikeji）47","ws-opts":{"path":"/Falling42awsypcanode","headers":{"host":"awsypca.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HK香港（YouTube-aweikeji）_4","ws-opts":{"path":"/Falling42gcsshkkknode","headers":{"host":"gcsshkkk.sylu.cyou"}},"server":"investors.spotify.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HK香港（YouTube-aweikeji）_5","ws-opts":{"path":"/Falling42gcsshkkknode","headers":{"host":"gcsshkkk.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"【移动CF】德国G（YouTube-aweikeji）48","ws-opts":{"path":"/Falling42gcsdenode","headers":{"host":"gcsde.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"DE德国（YouTube-aweikeji）_2","ws-opts":{"path":"/Falling42hosmaticnode","headers":{"host":"hosmatic.sylu.cyou"}},"server":"investors.spotify.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"DE德国（YouTube-aweikeji）_3","ws-opts":{"path":"/Falling42gcsdenode","headers":{"host":"gcsde.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"PL波兰（YouTube-aweikeji）","ws-opts":{"path":"/Falling42gcsplnode","headers":{"host":"gcspl.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HK香港（YouTube-aweikeji）_6","ws-opts":{"path":"/Falling42gcsshkknode","headers":{"host":"gcsshkk.sylu.cyou"}},"server":"104.16.66.85","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"DE德国（YouTube-aweikeji）_4","ws-opts":{"path":"/Falling42hosmaticnode","headers":{"host":"hosmatic.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HK香港（YouTube-aweikeji）_7","ws-opts":{"path":"/Falling42gcsshknode","headers":{"host":"gcsshk.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"「SCP」HK-CF-Gcore2（YouTube-aweikeji）38","ws-opts":{"path":"/shirker","headers":{"host":"hk-gcore.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"SG新加坡（YouTube-aweikeji）_3","ws-opts":{"path":"/Falling42gcsssgnode","headers":{"host":"gcsssg.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ssr","name":"日本中继02(youtube阿伟科技)9","server":"api-ab-4.myqbnb.com","port":30042,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"tls1.2_ticket_auth","password":"yPKrexXaVMAXFfez","obfs-param":"afcd221866.download.windowsupdate.com","protocol-param":"21866:MvEBTu"}
+  - {"type":"vmess","name":"SG新加坡（YouTube-aweikeji）_4","ws-opts":{"path":"/Falling42gcoresggnode","headers":{"host":"gcoresgg.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - 美国中继01(youtube阿伟科技)12
+      - 美国中继02(youtube阿伟科技)13
+      - JP日本（YouTube-aweikeji）_1
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 🇺🇸-美国-162.159.128.7_2（YouTube-aweikeji）420
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_4
-      - 美国-欢迎订阅【YouTube-由零開始】_5
-      - 美国-欢迎订阅【YouTube-由零開始】_6
-      - 德国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_1
-      - 美国-欢迎订阅【YouTube-由零開始】_7
-      - 美国-欢迎订阅【YouTube-由零開始】_8
-      - 日本-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 美国-欢迎订阅【YouTube-由零開始】_10
-      - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 美国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 美国-欢迎订阅【YouTube-由零開始】_13
-      - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 德国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 美国-欢迎订阅【YouTube-由零開始】_17
-      - 俄罗斯联邦-欢迎订阅【YouTube-由零開始】
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 美国-欢迎订阅【YouTube-由零開始】_18
+      - US美国（YouTube-aweikeji）_1
+      - 香港HKTC_1(youtube阿伟科技)4
+      - SG新加坡（YouTube-aweikeji）_1
+      - 韩国中继02(youtube阿伟科技)11
+      - _JP_日本_17_1@22（YouTube-aweikeji）34
+      - CA加拿大（YouTube-aweikeji）
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - HK香港（YouTube-aweikeji）_1
+      - US美国（YouTube-aweikeji）_2
+      - HK香港（YouTube-aweikeji）_2
+      - JP+日本（YouTube-aweikeji）
+      - JP日本（YouTube-aweikeji）_2
+      - ⌈三网⌋新加坡01_2（YouTube-aweikeji）81
+      - ⌈三网⌋新加坡01_1（YouTube-aweikeji）80
+      - US美国（YouTube-aweikeji）_3
+      - SG新加坡（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_1
+      - 【CF】日本月抛2（YouTube-aweikeji）42
+      - US美国（YouTube-aweikeji）_4
+      - VN越南（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_3
+      - 【移动CF】AWS加拿大（YouTube-aweikeji）47
+      - HK香港（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_5
+      - 【移动CF】德国G（YouTube-aweikeji）48
+      - DE德国（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_3
+      - PL波兰（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_6
+      - DE德国（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_7
+      - 「SCP」HK-CF-Gcore2（YouTube-aweikeji）38
+      - SG新加坡（YouTube-aweikeji）_3
+      - 日本中继02(youtube阿伟科技)9
+      - SG新加坡（YouTube-aweikeji）_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - 美国中继01(youtube阿伟科技)12
+      - 美国中继02(youtube阿伟科技)13
+      - JP日本（YouTube-aweikeji）_1
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 🇺🇸-美国-162.159.128.7_2（YouTube-aweikeji）420
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_4
-      - 美国-欢迎订阅【YouTube-由零開始】_5
-      - 美国-欢迎订阅【YouTube-由零開始】_6
-      - 德国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_1
-      - 美国-欢迎订阅【YouTube-由零開始】_7
-      - 美国-欢迎订阅【YouTube-由零開始】_8
-      - 日本-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 美国-欢迎订阅【YouTube-由零開始】_10
-      - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 美国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 美国-欢迎订阅【YouTube-由零開始】_13
-      - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 德国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 美国-欢迎订阅【YouTube-由零開始】_17
-      - 俄罗斯联邦-欢迎订阅【YouTube-由零開始】
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 美国-欢迎订阅【YouTube-由零開始】_18
+      - US美国（YouTube-aweikeji）_1
+      - 香港HKTC_1(youtube阿伟科技)4
+      - SG新加坡（YouTube-aweikeji）_1
+      - 韩国中继02(youtube阿伟科技)11
+      - _JP_日本_17_1@22（YouTube-aweikeji）34
+      - CA加拿大（YouTube-aweikeji）
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - HK香港（YouTube-aweikeji）_1
+      - US美国（YouTube-aweikeji）_2
+      - HK香港（YouTube-aweikeji）_2
+      - JP+日本（YouTube-aweikeji）
+      - JP日本（YouTube-aweikeji）_2
+      - ⌈三网⌋新加坡01_2（YouTube-aweikeji）81
+      - ⌈三网⌋新加坡01_1（YouTube-aweikeji）80
+      - US美国（YouTube-aweikeji）_3
+      - SG新加坡（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_1
+      - 【CF】日本月抛2（YouTube-aweikeji）42
+      - US美国（YouTube-aweikeji）_4
+      - VN越南（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_3
+      - 【移动CF】AWS加拿大（YouTube-aweikeji）47
+      - HK香港（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_5
+      - 【移动CF】德国G（YouTube-aweikeji）48
+      - DE德国（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_3
+      - PL波兰（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_6
+      - DE德国（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_7
+      - 「SCP」HK-CF-Gcore2（YouTube-aweikeji）38
+      - SG新加坡（YouTube-aweikeji）_3
+      - 日本中继02(youtube阿伟科技)9
+      - SG新加坡（YouTube-aweikeji）_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - 美国中继01(youtube阿伟科技)12
+      - 美国中继02(youtube阿伟科技)13
+      - JP日本（YouTube-aweikeji）_1
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 🇺🇸-美国-162.159.128.7_2（YouTube-aweikeji）420
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_4
-      - 美国-欢迎订阅【YouTube-由零開始】_5
-      - 美国-欢迎订阅【YouTube-由零開始】_6
-      - 德国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_1
-      - 美国-欢迎订阅【YouTube-由零開始】_7
-      - 美国-欢迎订阅【YouTube-由零開始】_8
-      - 日本-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 美国-欢迎订阅【YouTube-由零開始】_10
-      - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 美国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 美国-欢迎订阅【YouTube-由零開始】_13
-      - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 德国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 美国-欢迎订阅【YouTube-由零開始】_17
-      - 俄罗斯联邦-欢迎订阅【YouTube-由零開始】
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 美国-欢迎订阅【YouTube-由零開始】_18
+      - US美国（YouTube-aweikeji）_1
+      - 香港HKTC_1(youtube阿伟科技)4
+      - SG新加坡（YouTube-aweikeji）_1
+      - 韩国中继02(youtube阿伟科技)11
+      - _JP_日本_17_1@22（YouTube-aweikeji）34
+      - CA加拿大（YouTube-aweikeji）
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - HK香港（YouTube-aweikeji）_1
+      - US美国（YouTube-aweikeji）_2
+      - HK香港（YouTube-aweikeji）_2
+      - JP+日本（YouTube-aweikeji）
+      - JP日本（YouTube-aweikeji）_2
+      - ⌈三网⌋新加坡01_2（YouTube-aweikeji）81
+      - ⌈三网⌋新加坡01_1（YouTube-aweikeji）80
+      - US美国（YouTube-aweikeji）_3
+      - SG新加坡（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_1
+      - 【CF】日本月抛2（YouTube-aweikeji）42
+      - US美国（YouTube-aweikeji）_4
+      - VN越南（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_3
+      - 【移动CF】AWS加拿大（YouTube-aweikeji）47
+      - HK香港（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_5
+      - 【移动CF】德国G（YouTube-aweikeji）48
+      - DE德国（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_3
+      - PL波兰（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_6
+      - DE德国（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_7
+      - 「SCP」HK-CF-Gcore2（YouTube-aweikeji）38
+      - SG新加坡（YouTube-aweikeji）_3
+      - 日本中继02(youtube阿伟科技)9
+      - SG新加坡（YouTube-aweikeji）_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - 美国中继01(youtube阿伟科技)12
+      - 美国中继02(youtube阿伟科技)13
+      - JP日本（YouTube-aweikeji）_1
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 🇺🇸-美国-162.159.128.7_2（YouTube-aweikeji）420
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_4
-      - 美国-欢迎订阅【YouTube-由零開始】_5
-      - 美国-欢迎订阅【YouTube-由零開始】_6
-      - 德国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_1
-      - 美国-欢迎订阅【YouTube-由零開始】_7
-      - 美国-欢迎订阅【YouTube-由零開始】_8
-      - 日本-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 美国-欢迎订阅【YouTube-由零開始】_10
-      - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 美国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 美国-欢迎订阅【YouTube-由零開始】_13
-      - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 德国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 美国-欢迎订阅【YouTube-由零開始】_17
-      - 俄罗斯联邦-欢迎订阅【YouTube-由零開始】
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 美国-欢迎订阅【YouTube-由零開始】_18
+      - US美国（YouTube-aweikeji）_1
+      - 香港HKTC_1(youtube阿伟科技)4
+      - SG新加坡（YouTube-aweikeji）_1
+      - 韩国中继02(youtube阿伟科技)11
+      - _JP_日本_17_1@22（YouTube-aweikeji）34
+      - CA加拿大（YouTube-aweikeji）
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - HK香港（YouTube-aweikeji）_1
+      - US美国（YouTube-aweikeji）_2
+      - HK香港（YouTube-aweikeji）_2
+      - JP+日本（YouTube-aweikeji）
+      - JP日本（YouTube-aweikeji）_2
+      - ⌈三网⌋新加坡01_2（YouTube-aweikeji）81
+      - ⌈三网⌋新加坡01_1（YouTube-aweikeji）80
+      - US美国（YouTube-aweikeji）_3
+      - SG新加坡（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_1
+      - 【CF】日本月抛2（YouTube-aweikeji）42
+      - US美国（YouTube-aweikeji）_4
+      - VN越南（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_3
+      - 【移动CF】AWS加拿大（YouTube-aweikeji）47
+      - HK香港（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_5
+      - 【移动CF】德国G（YouTube-aweikeji）48
+      - DE德国（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_3
+      - PL波兰（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_6
+      - DE德国（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_7
+      - 「SCP」HK-CF-Gcore2（YouTube-aweikeji）38
+      - SG新加坡（YouTube-aweikeji）_3
+      - 日本中继02(youtube阿伟科技)9
+      - SG新加坡（YouTube-aweikeji）_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - 美国中继01(youtube阿伟科技)12
+      - 美国中继02(youtube阿伟科技)13
+      - JP日本（YouTube-aweikeji）_1
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 🇺🇸-美国-162.159.128.7_2（YouTube-aweikeji）420
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_4
-      - 美国-欢迎订阅【YouTube-由零開始】_5
-      - 美国-欢迎订阅【YouTube-由零開始】_6
-      - 德国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_1
-      - 美国-欢迎订阅【YouTube-由零開始】_7
-      - 美国-欢迎订阅【YouTube-由零開始】_8
-      - 日本-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 美国-欢迎订阅【YouTube-由零開始】_10
-      - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 美国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 美国-欢迎订阅【YouTube-由零開始】_13
-      - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 德国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 美国-欢迎订阅【YouTube-由零開始】_17
-      - 俄罗斯联邦-欢迎订阅【YouTube-由零開始】
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 美国-欢迎订阅【YouTube-由零開始】_18
+      - US美国（YouTube-aweikeji）_1
+      - 香港HKTC_1(youtube阿伟科技)4
+      - SG新加坡（YouTube-aweikeji）_1
+      - 韩国中继02(youtube阿伟科技)11
+      - _JP_日本_17_1@22（YouTube-aweikeji）34
+      - CA加拿大（YouTube-aweikeji）
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - HK香港（YouTube-aweikeji）_1
+      - US美国（YouTube-aweikeji）_2
+      - HK香港（YouTube-aweikeji）_2
+      - JP+日本（YouTube-aweikeji）
+      - JP日本（YouTube-aweikeji）_2
+      - ⌈三网⌋新加坡01_2（YouTube-aweikeji）81
+      - ⌈三网⌋新加坡01_1（YouTube-aweikeji）80
+      - US美国（YouTube-aweikeji）_3
+      - SG新加坡（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_1
+      - 【CF】日本月抛2（YouTube-aweikeji）42
+      - US美国（YouTube-aweikeji）_4
+      - VN越南（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_3
+      - 【移动CF】AWS加拿大（YouTube-aweikeji）47
+      - HK香港（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_5
+      - 【移动CF】德国G（YouTube-aweikeji）48
+      - DE德国（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_3
+      - PL波兰（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_6
+      - DE德国（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_7
+      - 「SCP」HK-CF-Gcore2（YouTube-aweikeji）38
+      - SG新加坡（YouTube-aweikeji）_3
+      - 日本中继02(youtube阿伟科技)9
+      - SG新加坡（YouTube-aweikeji）_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - 美国中继01(youtube阿伟科技)12
+      - 美国中继02(youtube阿伟科技)13
+      - JP日本（YouTube-aweikeji）_1
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 🇺🇸-美国-162.159.128.7_2（YouTube-aweikeji）420
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_4
-      - 美国-欢迎订阅【YouTube-由零開始】_5
-      - 美国-欢迎订阅【YouTube-由零開始】_6
-      - 德国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_1
-      - 美国-欢迎订阅【YouTube-由零開始】_7
-      - 美国-欢迎订阅【YouTube-由零開始】_8
-      - 日本-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 美国-欢迎订阅【YouTube-由零開始】_10
-      - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 美国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 美国-欢迎订阅【YouTube-由零開始】_13
-      - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 德国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 美国-欢迎订阅【YouTube-由零開始】_17
-      - 俄罗斯联邦-欢迎订阅【YouTube-由零開始】
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 美国-欢迎订阅【YouTube-由零開始】_18
+      - US美国（YouTube-aweikeji）_1
+      - 香港HKTC_1(youtube阿伟科技)4
+      - SG新加坡（YouTube-aweikeji）_1
+      - 韩国中继02(youtube阿伟科技)11
+      - _JP_日本_17_1@22（YouTube-aweikeji）34
+      - CA加拿大（YouTube-aweikeji）
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - HK香港（YouTube-aweikeji）_1
+      - US美国（YouTube-aweikeji）_2
+      - HK香港（YouTube-aweikeji）_2
+      - JP+日本（YouTube-aweikeji）
+      - JP日本（YouTube-aweikeji）_2
+      - ⌈三网⌋新加坡01_2（YouTube-aweikeji）81
+      - ⌈三网⌋新加坡01_1（YouTube-aweikeji）80
+      - US美国（YouTube-aweikeji）_3
+      - SG新加坡（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_1
+      - 【CF】日本月抛2（YouTube-aweikeji）42
+      - US美国（YouTube-aweikeji）_4
+      - VN越南（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_3
+      - 【移动CF】AWS加拿大（YouTube-aweikeji）47
+      - HK香港（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_5
+      - 【移动CF】德国G（YouTube-aweikeji）48
+      - DE德国（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_3
+      - PL波兰（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_6
+      - DE德国（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_7
+      - 「SCP」HK-CF-Gcore2（YouTube-aweikeji）38
+      - SG新加坡（YouTube-aweikeji）_3
+      - 日本中继02(youtube阿伟科技)9
+      - SG新加坡（YouTube-aweikeji）_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -249,33 +361,49 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - 美国中继01(youtube阿伟科技)12
+      - 美国中继02(youtube阿伟科技)13
+      - JP日本（YouTube-aweikeji）_1
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 🇺🇸-美国-162.159.128.7_2（YouTube-aweikeji）420
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_4
-      - 美国-欢迎订阅【YouTube-由零開始】_5
-      - 美国-欢迎订阅【YouTube-由零開始】_6
-      - 德国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_1
-      - 美国-欢迎订阅【YouTube-由零開始】_7
-      - 美国-欢迎订阅【YouTube-由零開始】_8
-      - 日本-欢迎订阅【YouTube-由零開始】_2
-      - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 美国-欢迎订阅【YouTube-由零開始】_10
-      - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 美国(yudou66.com玉豆免费节点)
-      - 日本-欢迎订阅【YouTube-由零開始】_3
-      - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 美国-欢迎订阅【YouTube-由零開始】_13
-      - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 德国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 美国-欢迎订阅【YouTube-由零開始】_17
-      - 俄罗斯联邦-欢迎订阅【YouTube-由零開始】
-      - 欧洲(yudou66.com玉豆免费节点)
-      - 美国-欢迎订阅【YouTube-由零開始】_18
+      - US美国（YouTube-aweikeji）_1
+      - 香港HKTC_1(youtube阿伟科技)4
+      - SG新加坡（YouTube-aweikeji）_1
+      - 韩国中继02(youtube阿伟科技)11
+      - _JP_日本_17_1@22（YouTube-aweikeji）34
+      - CA加拿大（YouTube-aweikeji）
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - HK香港（YouTube-aweikeji）_1
+      - US美国（YouTube-aweikeji）_2
+      - HK香港（YouTube-aweikeji）_2
+      - JP+日本（YouTube-aweikeji）
+      - JP日本（YouTube-aweikeji）_2
+      - ⌈三网⌋新加坡01_2（YouTube-aweikeji）81
+      - ⌈三网⌋新加坡01_1（YouTube-aweikeji）80
+      - US美国（YouTube-aweikeji）_3
+      - SG新加坡（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_1
+      - 【CF】日本月抛2（YouTube-aweikeji）42
+      - US美国（YouTube-aweikeji）_4
+      - VN越南（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_3
+      - 【移动CF】AWS加拿大（YouTube-aweikeji）47
+      - HK香港（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_5
+      - 【移动CF】德国G（YouTube-aweikeji）48
+      - DE德国（YouTube-aweikeji）_2
+      - DE德国（YouTube-aweikeji）_3
+      - PL波兰（YouTube-aweikeji）
+      - HK香港（YouTube-aweikeji）_6
+      - DE德国（YouTube-aweikeji）_4
+      - HK香港（YouTube-aweikeji）_7
+      - 「SCP」HK-CF-Gcore2（YouTube-aweikeji）38
+      - SG新加坡（YouTube-aweikeji）_3
+      - 日本中继02(youtube阿伟科技)9
+      - SG新加坡（YouTube-aweikeji）_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
