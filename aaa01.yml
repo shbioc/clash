@@ -6,40 +6,64 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_1","ws-opts":{"path":"/Falling42awsypcanode","headers":{"host":"awsypca.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/shirker","headers":{"host":"lu.sharecentre.online"}},"server":"hohm.microsoft.com","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"日本-欢迎订阅【YouTube-由零開始】","ws-opts":{"path":"/Falling42gcssjpnode","headers":{"host":"gcssjp.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_3","ws-opts":{"path":"/Falling42gcssjpnode","headers":{"host":"gcssjp.sylu.cyou"}},"server":"cacerts.digicert.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_4","ws-opts":{"path":"/shirker","headers":{"host":"lu.sharecentre.online"}},"server":"162.159.135.42","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_5","ws-opts":{"path":"/Falling42gcsplnode","headers":{"host":"gcspl.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_6","ws-opts":{"path":"/Falling42gcorehknode","headers":{"host":"gcorehk.sylu.cyou"}},"server":"hohm.microsoft.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_7","ws-opts":{"path":"/Falling42gcsshkknode","headers":{"host":"gcsshkk.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_8","ws-opts":{"path":"/Falling42gcsshkknode","headers":{"host":"gcsshkk.sylu.cyou"}},"server":"hohm.microsoft.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_9","ws-opts":{"path":"/Falling42gcoresggnode","headers":{"host":"gcoresgg.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"香港-欢迎订阅【YouTube-由零開始】_1","ws-opts":{"path":"/shirker","headers":{"host":"hk-gcore.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_10","ws-opts":{"path":"/Falling42gcssjpnode","headers":{"host":"gcssjp.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_11","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.toddns.tk"}},"server":"172.67.199.34","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"伯利兹-欢迎订阅【YouTube-由零開始】_1","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.190.192","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"日本-欢迎订阅【YouTube-由零開始】_1","ws-opts":{"path":"/Falling42gcssjpnode","headers":{"host":"gcssjp.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/mR17oBKzZ7","headers":{"host":"d.pgypgykmoljklj.xyz"}},"server":"172.66.44.197","port":"443","uuid":"fa4cb529-3ac9-4268-bb04-ed4253813508","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_3","ws-opts":{"path":"/Falling42awsypcanode","headers":{"host":"awsypca.sylu.cyou"}},"server":"cacerts.digicert.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_4","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47a.toddns.tk"}},"server":"172.67.199.34","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_5","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.toddns.tk"}},"server":"172.67.199.34","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_6","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47a.toddns.tk"}},"server":"162.159.128.7","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_7","ws-opts":{"path":"/shirker","headers":{"host":"lu.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_8","ws-opts":{"path":"/Falling42gcorehknode","headers":{"host":"gcorehk.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_9","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.asuka.buzz"}},"server":"www.digitalocean.com","port":"80","uuid":"695f885f-144b-4a6b-998a-885d9775d756","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_10","ws-opts":{"path":"/Falling42gcorehkknode","headers":{"host":"gcorehkk.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_11","ws-opts":{"path":"/Falling42awsypcanode","headers":{"host":"awsypca.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_12","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.toddns.tk"}},"server":"162.159.128.7","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_13","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore-2.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"伯利兹-欢迎订阅【YouTube-由零開始】","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.189.191","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_14","ws-opts":{"path":"/Falling42gcssjpnode","headers":{"host":"gcssjp.sylu.cyou"}},"server":"cacerts.digicert.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_15","ws-opts":{"path":"/Falling42gcsplnode","headers":{"host":"gcspl.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_16","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"172.67.199.34","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_17","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}},"server":"172.67.199.34","port":"443","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港-欢迎订阅【YouTube-由零開始】_1","ws-opts":{"path":"/Falling42gcorehknode","headers":{"host":"gcorehk.sylu.cyou"}},"server":"investors.spotify.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_18","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47a.toddns.tk"}},"server":"v47a.toddns.tk","port":"80","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_19","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}},"server":"172.67.199.34","port":"443","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_20","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"172.67.199.34","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_21","ws-opts":{"path":"/Falling42gcsshkknode","headers":{"host":"gcsshkk.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_22","ws-opts":{"path":"/Falling42gcsssgnode","headers":{"host":"gcsssg.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_23","ws-opts":{"path":"/8cda48b3","headers":{"host":"SG-244-255.shoptunnel.live"}},"server":"172.67.199.34","port":"8443","uuid":"a6a37e04-5e81-44c9-be53-baa3ff46eb8b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_24","ws-opts":{"path":"/Falling42gcssjpnode","headers":{"host":"gcssjp.sylu.cyou"}},"server":"hohm.microsoft.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新加坡-欢迎订阅【YouTube-由零開始】_1","ws-opts":{"path":"/Falling42gcoresggnode","headers":{"host":"gcoresgg.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新加坡-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}},"server":"162.159.135.42","port":"443","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港-欢迎订阅【YouTube-由零開始】-clone","ws-opts":{"path":"/Falling42gcorehkknode","headers":{"host":"gcorehkk.sylu.cyou"}},"server":"investors.spotify.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_25","ws-opts":{"path":"/Falling42gcorehknode","headers":{"host":"gcorehk.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/Falling42gcorehkknode","headers":{"host":"gcorehkk.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_26","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}},"server":"cacerts.digicert.com","port":"443","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_27","ws-opts":{"path":"/Falling42awsypcanode","headers":{"host":"awsypca.sylu.cyou"}},"server":"hohm.microsoft.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_28","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}},"server":"cfhk.oppo.quest","port":"80","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"塞浦路斯-欢迎订阅【YouTube-由零開始】","ws-opts":{"path":"/aries","headers":{"host":"ro.cloudflare.quest"}},"server":"CSGO.COM","port":"2086","uuid":"0805caaf-bd20-45fd-c5f7-ef59756b4b6b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_29","ws-opts":{"path":"/Falling42gcssgnode","headers":{"host":"gcssg.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_30","ws-opts":{"path":"/sshkit/1736960111/63b1af08c16fd/","headers":{"host":"sg1-v2ray.sshkit.org"}},"server":"198.41.208.200","port":"80","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"荷兰-欢迎订阅【YouTube-由零開始】","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"188.114.99.11","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_12","ws-opts":{"path":"/Falling42gcorehknode","headers":{"host":"gcorehk.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"波兰-欢迎订阅【YouTube-由零開始】","ws-opts":{"path":"/Falling42gcsplnode","headers":{"host":"gcspl.sylu.cyou"}},"server":"gcspl.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_13","ws-opts":{"path":"/shirker","headers":{"host":"lu.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_14","ws-opts":{"path":"/shirker","headers":{"host":"lu.sharecentre.online"}},"server":"172.67.199.34","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"伯利兹-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.188.190","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_15","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}},"server":"172.67.199.34","port":"443","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新加坡-欢迎订阅【YouTube-由零開始】_1","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}},"server":"162.159.128.7","port":"443","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_16","ws-opts":{"path":"/Falling42gcsplnode","headers":{"host":"gcspl.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"伯利兹-欢迎订阅【YouTube-由零開始】_3","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.189.191","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新加坡-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"162.159.128.7","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_17","ws-opts":{"path":"/sshkit/fdfadsfa/63848bfe228fd/","headers":{"host":"us-lb.sshkit.org"}},"server":"hohm.microsoft.com","port":"443","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_18","ws-opts":{"path":"/hfhqqweqwxxx","headers":{"host":"jp1.mayaa.cf"}},"server":"172.67.199.34","port":"443","uuid":"595b4629-116d-4fe1-dcab-d2a6b112b81a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"香港-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/Falling42gcorehknode","headers":{"host":"gcorehk.sylu.cyou"}},"server":"investors.spotify.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_19","ws-opts":{"path":"/Falling42gcsshkknode","headers":{"host":"gcsshkk.sylu.cyou"}},"server":"104.16.66.85","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_20","ws-opts":{"path":"/shirker","headers":{"host":"lvryzenkvm1gb.sharecentre.online"}},"server":"172.67.199.34","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_21","ws-opts":{"path":"/sshkit/1736960111/63b1af08c16fd/","headers":{"host":"sg1-v2ray.sshkit.org"}},"server":"198.41.208.200","port":"80","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_22","ws-opts":{"path":"/Falling42gcsshkknode","headers":{"host":"gcsshkk.sylu.cyou"}},"server":"141.193.213.20","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_23","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}},"server":"172.67.199.34","port":"443","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新加坡-欢迎订阅【YouTube-由零開始】_3","ws-opts":{"path":"/Falling42gcoresggnode","headers":{"host":"gcoresgg.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_24","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}},"server":"cacerts.digicert.com","port":"80","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"波兰-欢迎订阅【YouTube-由零開始】_1","ws-opts":{"path":"/Falling42gcoreplnode","headers":{"host":"gcorepl.sylu.cyou"}},"server":"gcorepl.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"波兰-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/Falling42gcsplnode","headers":{"host":"gcspl.sylu.cyou"}},"server":"gcspl.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港-欢迎订阅【YouTube-由零開始】_3","ws-opts":{"path":"/shirker","headers":{"host":"hk-gcore.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_31","ws-opts":{"path":"/Falling42gcsshknode","headers":{"host":"gcsshk.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_32","ws-opts":{"path":"/sshkit/fdfadsfa/63848bfe228fd/","headers":{"host":"us-lb.sshkit.org"}},"server":"172.67.199.34","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_33","ws-opts":{"path":"/nl-unlimitxxx","headers":{"host":"v12a.toddns.tk"}},"server":"172.67.199.34","port":"443","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"日本-欢迎订阅【YouTube-由零開始】_2","ws-opts":{"path":"/Falling42gcssjpnode","headers":{"host":"gcssjp.sylu.cyou"}},"server":"investors.spotify.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港-欢迎订阅【YouTube-由零開始】_4","ws-opts":{"path":"/Falling42gcsshknode","headers":{"host":"gcsshk.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_34","ws-opts":{"path":"/Falling42gcsshkknode","headers":{"host":"gcsshkk.sylu.cyou"}},"server":"141.193.213.20","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_35","ws-opts":{"path":"/Falling42gcsshkknode","headers":{"host":"gcsshkk.sylu.cyou"}},"server":"104.16.66.85","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新加坡-欢迎订阅【YouTube-由零開始】_3","ws-opts":{"path":"/Falling42gcssgnode","headers":{"host":"gcssg.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_36","ws-opts":{"path":"/shirker","headers":{"host":"opc-jp.sharecentre.online"}},"server":"cf-yd-dns.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"澳大利亚-欢迎订阅【YouTube-由零開始】","ws-opts":{"path":"/chat","headers":{"host":"vau1.0bad.com"}},"server":"vau1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_37","ws-opts":{"path":"/Falling42gcoresgnode","headers":{"host":"gcoresg.sylu.cyou"}},"server":"172.67.199.34","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_38","ws-opts":{"path":"/Falling42gcsshkknode","headers":{"host":"gcsshkk.sylu.cyou"}},"server":"hohm.microsoft.com","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_39","ws-opts":{"path":"/nl-unlimitxxx","headers":{"host":"v12a.toddns.tk"}},"server":"v12a.toddns.tk","port":"80","uuid":"a25881f3-967f-3265-bc7f-9e66857b016b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_40","ws-opts":{"path":"/Falling42gcsplnode","headers":{"host":"gcspl.sylu.cyou"}},"server":"162.159.135.42","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_41","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_42","ws-opts":{"path":"/shares","headers":{"host":"la.awsbest.com"}},"server":"cacerts.digicert.com","port":"80","uuid":"8b6dd709-4d4e-4b92-f542-54a676efbfe4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国-欢迎订阅【YouTube-由零開始】_43","ws-opts":{"path":"/Falling42gcoresgnode","headers":{"host":"gcoresg.sylu.cyou"}},"server":"162.159.128.7","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -47,8 +71,8 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 日本-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 日本-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_4
       - 美国-欢迎订阅【YouTube-由零開始】_5
@@ -56,31 +80,55 @@ proxy-groups:
       - 美国-欢迎订阅【YouTube-由零開始】_7
       - 美国-欢迎订阅【YouTube-由零開始】_8
       - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_10
       - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_1
-      - 荷兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 波兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_13
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 新加坡-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_3
-      - 新加坡-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_17
+      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_18
-      - 香港-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_19
       - 美国-欢迎订阅【YouTube-由零開始】_20
       - 美国-欢迎订阅【YouTube-由零開始】_21
       - 美国-欢迎订阅【YouTube-由零開始】_22
       - 美国-欢迎订阅【YouTube-由零開始】_23
-      - 新加坡-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_24
+      - 新加坡-欢迎订阅【YouTube-由零開始】_1
+      - 新加坡-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】-clone
+      - 美国-欢迎订阅【YouTube-由零開始】_25
+      - 香港-欢迎订阅【YouTube-由零開始】_2
+      - 美国-欢迎订阅【YouTube-由零開始】_26
+      - 美国-欢迎订阅【YouTube-由零開始】_27
+      - 美国-欢迎订阅【YouTube-由零開始】_28
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_29
+      - 美国-欢迎订阅【YouTube-由零開始】_30
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - 波兰-欢迎订阅【YouTube-由零開始】_1
+      - 波兰-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_31
+      - 美国-欢迎订阅【YouTube-由零開始】_32
+      - 美国-欢迎订阅【YouTube-由零開始】_33
+      - 日本-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_4
+      - 美国-欢迎订阅【YouTube-由零開始】_34
+      - 美国-欢迎订阅【YouTube-由零開始】_35
+      - 新加坡-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_36
+      - 澳大利亚-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_37
+      - 美国-欢迎订阅【YouTube-由零開始】_38
+      - 美国-欢迎订阅【YouTube-由零開始】_39
+      - 美国-欢迎订阅【YouTube-由零開始】_40
+      - 美国-欢迎订阅【YouTube-由零開始】_41
+      - 美国-欢迎订阅【YouTube-由零開始】_42
+      - 美国-欢迎订阅【YouTube-由零開始】_43
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -88,8 +136,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 日本-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 日本-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_4
       - 美国-欢迎订阅【YouTube-由零開始】_5
@@ -97,31 +145,55 @@ proxy-groups:
       - 美国-欢迎订阅【YouTube-由零開始】_7
       - 美国-欢迎订阅【YouTube-由零開始】_8
       - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_10
       - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_1
-      - 荷兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 波兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_13
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 新加坡-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_3
-      - 新加坡-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_17
+      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_18
-      - 香港-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_19
       - 美国-欢迎订阅【YouTube-由零開始】_20
       - 美国-欢迎订阅【YouTube-由零開始】_21
       - 美国-欢迎订阅【YouTube-由零開始】_22
       - 美国-欢迎订阅【YouTube-由零開始】_23
-      - 新加坡-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_24
+      - 新加坡-欢迎订阅【YouTube-由零開始】_1
+      - 新加坡-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】-clone
+      - 美国-欢迎订阅【YouTube-由零開始】_25
+      - 香港-欢迎订阅【YouTube-由零開始】_2
+      - 美国-欢迎订阅【YouTube-由零開始】_26
+      - 美国-欢迎订阅【YouTube-由零開始】_27
+      - 美国-欢迎订阅【YouTube-由零開始】_28
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_29
+      - 美国-欢迎订阅【YouTube-由零開始】_30
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - 波兰-欢迎订阅【YouTube-由零開始】_1
+      - 波兰-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_31
+      - 美国-欢迎订阅【YouTube-由零開始】_32
+      - 美国-欢迎订阅【YouTube-由零開始】_33
+      - 日本-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_4
+      - 美国-欢迎订阅【YouTube-由零開始】_34
+      - 美国-欢迎订阅【YouTube-由零開始】_35
+      - 新加坡-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_36
+      - 澳大利亚-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_37
+      - 美国-欢迎订阅【YouTube-由零開始】_38
+      - 美国-欢迎订阅【YouTube-由零開始】_39
+      - 美国-欢迎订阅【YouTube-由零開始】_40
+      - 美国-欢迎订阅【YouTube-由零開始】_41
+      - 美国-欢迎订阅【YouTube-由零開始】_42
+      - 美国-欢迎订阅【YouTube-由零開始】_43
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -129,8 +201,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 日本-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 日本-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_4
       - 美国-欢迎订阅【YouTube-由零開始】_5
@@ -138,39 +210,63 @@ proxy-groups:
       - 美国-欢迎订阅【YouTube-由零開始】_7
       - 美国-欢迎订阅【YouTube-由零開始】_8
       - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_10
       - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_1
-      - 荷兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 波兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_13
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 新加坡-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_3
-      - 新加坡-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_17
+      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_18
-      - 香港-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_19
       - 美国-欢迎订阅【YouTube-由零開始】_20
       - 美国-欢迎订阅【YouTube-由零開始】_21
       - 美国-欢迎订阅【YouTube-由零開始】_22
       - 美国-欢迎订阅【YouTube-由零開始】_23
-      - 新加坡-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_24
+      - 新加坡-欢迎订阅【YouTube-由零開始】_1
+      - 新加坡-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】-clone
+      - 美国-欢迎订阅【YouTube-由零開始】_25
+      - 香港-欢迎订阅【YouTube-由零開始】_2
+      - 美国-欢迎订阅【YouTube-由零開始】_26
+      - 美国-欢迎订阅【YouTube-由零開始】_27
+      - 美国-欢迎订阅【YouTube-由零開始】_28
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_29
+      - 美国-欢迎订阅【YouTube-由零開始】_30
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - 波兰-欢迎订阅【YouTube-由零開始】_1
+      - 波兰-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_31
+      - 美国-欢迎订阅【YouTube-由零開始】_32
+      - 美国-欢迎订阅【YouTube-由零開始】_33
+      - 日本-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_4
+      - 美国-欢迎订阅【YouTube-由零開始】_34
+      - 美国-欢迎订阅【YouTube-由零開始】_35
+      - 新加坡-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_36
+      - 澳大利亚-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_37
+      - 美国-欢迎订阅【YouTube-由零開始】_38
+      - 美国-欢迎订阅【YouTube-由零開始】_39
+      - 美国-欢迎订阅【YouTube-由零開始】_40
+      - 美国-欢迎订阅【YouTube-由零開始】_41
+      - 美国-欢迎订阅【YouTube-由零開始】_42
+      - 美国-欢迎订阅【YouTube-由零開始】_43
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 日本-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 日本-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_4
       - 美国-欢迎订阅【YouTube-由零開始】_5
@@ -178,39 +274,63 @@ proxy-groups:
       - 美国-欢迎订阅【YouTube-由零開始】_7
       - 美国-欢迎订阅【YouTube-由零開始】_8
       - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_10
       - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_1
-      - 荷兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 波兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_13
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 新加坡-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_3
-      - 新加坡-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_17
+      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_18
-      - 香港-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_19
       - 美国-欢迎订阅【YouTube-由零開始】_20
       - 美国-欢迎订阅【YouTube-由零開始】_21
       - 美国-欢迎订阅【YouTube-由零開始】_22
       - 美国-欢迎订阅【YouTube-由零開始】_23
-      - 新加坡-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_24
+      - 新加坡-欢迎订阅【YouTube-由零開始】_1
+      - 新加坡-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】-clone
+      - 美国-欢迎订阅【YouTube-由零開始】_25
+      - 香港-欢迎订阅【YouTube-由零開始】_2
+      - 美国-欢迎订阅【YouTube-由零開始】_26
+      - 美国-欢迎订阅【YouTube-由零開始】_27
+      - 美国-欢迎订阅【YouTube-由零開始】_28
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_29
+      - 美国-欢迎订阅【YouTube-由零開始】_30
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - 波兰-欢迎订阅【YouTube-由零開始】_1
+      - 波兰-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_31
+      - 美国-欢迎订阅【YouTube-由零開始】_32
+      - 美国-欢迎订阅【YouTube-由零開始】_33
+      - 日本-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_4
+      - 美国-欢迎订阅【YouTube-由零開始】_34
+      - 美国-欢迎订阅【YouTube-由零開始】_35
+      - 新加坡-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_36
+      - 澳大利亚-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_37
+      - 美国-欢迎订阅【YouTube-由零開始】_38
+      - 美国-欢迎订阅【YouTube-由零開始】_39
+      - 美国-欢迎订阅【YouTube-由零開始】_40
+      - 美国-欢迎订阅【YouTube-由零開始】_41
+      - 美国-欢迎订阅【YouTube-由零開始】_42
+      - 美国-欢迎订阅【YouTube-由零開始】_43
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 日本-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 日本-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_4
       - 美国-欢迎订阅【YouTube-由零開始】_5
@@ -218,39 +338,63 @@ proxy-groups:
       - 美国-欢迎订阅【YouTube-由零開始】_7
       - 美国-欢迎订阅【YouTube-由零開始】_8
       - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_10
       - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_1
-      - 荷兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 波兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_13
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 新加坡-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_3
-      - 新加坡-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_17
+      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_18
-      - 香港-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_19
       - 美国-欢迎订阅【YouTube-由零開始】_20
       - 美国-欢迎订阅【YouTube-由零開始】_21
       - 美国-欢迎订阅【YouTube-由零開始】_22
       - 美国-欢迎订阅【YouTube-由零開始】_23
-      - 新加坡-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_24
+      - 新加坡-欢迎订阅【YouTube-由零開始】_1
+      - 新加坡-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】-clone
+      - 美国-欢迎订阅【YouTube-由零開始】_25
+      - 香港-欢迎订阅【YouTube-由零開始】_2
+      - 美国-欢迎订阅【YouTube-由零開始】_26
+      - 美国-欢迎订阅【YouTube-由零開始】_27
+      - 美国-欢迎订阅【YouTube-由零開始】_28
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_29
+      - 美国-欢迎订阅【YouTube-由零開始】_30
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - 波兰-欢迎订阅【YouTube-由零開始】_1
+      - 波兰-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_31
+      - 美国-欢迎订阅【YouTube-由零開始】_32
+      - 美国-欢迎订阅【YouTube-由零開始】_33
+      - 日本-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_4
+      - 美国-欢迎订阅【YouTube-由零開始】_34
+      - 美国-欢迎订阅【YouTube-由零開始】_35
+      - 新加坡-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_36
+      - 澳大利亚-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_37
+      - 美国-欢迎订阅【YouTube-由零開始】_38
+      - 美国-欢迎订阅【YouTube-由零開始】_39
+      - 美国-欢迎订阅【YouTube-由零開始】_40
+      - 美国-欢迎订阅【YouTube-由零開始】_41
+      - 美国-欢迎订阅【YouTube-由零開始】_42
+      - 美国-欢迎订阅【YouTube-由零開始】_43
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 日本-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 日本-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_4
       - 美国-欢迎订阅【YouTube-由零開始】_5
@@ -258,31 +402,55 @@ proxy-groups:
       - 美国-欢迎订阅【YouTube-由零開始】_7
       - 美国-欢迎订阅【YouTube-由零開始】_8
       - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_10
       - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_1
-      - 荷兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 波兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_13
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 新加坡-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_3
-      - 新加坡-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_17
+      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_18
-      - 香港-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_19
       - 美国-欢迎订阅【YouTube-由零開始】_20
       - 美国-欢迎订阅【YouTube-由零開始】_21
       - 美国-欢迎订阅【YouTube-由零開始】_22
       - 美国-欢迎订阅【YouTube-由零開始】_23
-      - 新加坡-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_24
+      - 新加坡-欢迎订阅【YouTube-由零開始】_1
+      - 新加坡-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】-clone
+      - 美国-欢迎订阅【YouTube-由零開始】_25
+      - 香港-欢迎订阅【YouTube-由零開始】_2
+      - 美国-欢迎订阅【YouTube-由零開始】_26
+      - 美国-欢迎订阅【YouTube-由零開始】_27
+      - 美国-欢迎订阅【YouTube-由零開始】_28
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_29
+      - 美国-欢迎订阅【YouTube-由零開始】_30
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - 波兰-欢迎订阅【YouTube-由零開始】_1
+      - 波兰-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_31
+      - 美国-欢迎订阅【YouTube-由零開始】_32
+      - 美国-欢迎订阅【YouTube-由零開始】_33
+      - 日本-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_4
+      - 美国-欢迎订阅【YouTube-由零開始】_34
+      - 美国-欢迎订阅【YouTube-由零開始】_35
+      - 新加坡-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_36
+      - 澳大利亚-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_37
+      - 美国-欢迎订阅【YouTube-由零開始】_38
+      - 美国-欢迎订阅【YouTube-由零開始】_39
+      - 美国-欢迎订阅【YouTube-由零開始】_40
+      - 美国-欢迎订阅【YouTube-由零開始】_41
+      - 美国-欢迎订阅【YouTube-由零開始】_42
+      - 美国-欢迎订阅【YouTube-由零開始】_43
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -306,8 +474,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国-欢迎订阅【YouTube-由零開始】_1
+      - 日本-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_2
-      - 日本-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_4
       - 美国-欢迎订阅【YouTube-由零開始】_5
@@ -315,31 +483,55 @@ proxy-groups:
       - 美国-欢迎订阅【YouTube-由零開始】_7
       - 美国-欢迎订阅【YouTube-由零開始】_8
       - 美国-欢迎订阅【YouTube-由零開始】_9
-      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_10
       - 美国-欢迎订阅【YouTube-由零開始】_11
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_1
-      - 荷兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_12
-      - 波兰-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_13
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
       - 美国-欢迎订阅【YouTube-由零開始】_14
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_15
-      - 新加坡-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_16
-      - 伯利兹-欢迎订阅【YouTube-由零開始】_3
-      - 新加坡-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_17
+      - 香港-欢迎订阅【YouTube-由零開始】_1
       - 美国-欢迎订阅【YouTube-由零開始】_18
-      - 香港-欢迎订阅【YouTube-由零開始】_2
       - 美国-欢迎订阅【YouTube-由零開始】_19
       - 美国-欢迎订阅【YouTube-由零開始】_20
       - 美国-欢迎订阅【YouTube-由零開始】_21
       - 美国-欢迎订阅【YouTube-由零開始】_22
       - 美国-欢迎订阅【YouTube-由零開始】_23
-      - 新加坡-欢迎订阅【YouTube-由零開始】_3
       - 美国-欢迎订阅【YouTube-由零開始】_24
+      - 新加坡-欢迎订阅【YouTube-由零開始】_1
+      - 新加坡-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】-clone
+      - 美国-欢迎订阅【YouTube-由零開始】_25
+      - 香港-欢迎订阅【YouTube-由零開始】_2
+      - 美国-欢迎订阅【YouTube-由零開始】_26
+      - 美国-欢迎订阅【YouTube-由零開始】_27
+      - 美国-欢迎订阅【YouTube-由零開始】_28
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_29
+      - 美国-欢迎订阅【YouTube-由零開始】_30
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - 波兰-欢迎订阅【YouTube-由零開始】_1
+      - 波兰-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_31
+      - 美国-欢迎订阅【YouTube-由零開始】_32
+      - 美国-欢迎订阅【YouTube-由零開始】_33
+      - 日本-欢迎订阅【YouTube-由零開始】_2
+      - 香港-欢迎订阅【YouTube-由零開始】_4
+      - 美国-欢迎订阅【YouTube-由零開始】_34
+      - 美国-欢迎订阅【YouTube-由零開始】_35
+      - 新加坡-欢迎订阅【YouTube-由零開始】_3
+      - 美国-欢迎订阅【YouTube-由零開始】_36
+      - 澳大利亚-欢迎订阅【YouTube-由零開始】
+      - 美国-欢迎订阅【YouTube-由零開始】_37
+      - 美国-欢迎订阅【YouTube-由零開始】_38
+      - 美国-欢迎订阅【YouTube-由零開始】_39
+      - 美国-欢迎订阅【YouTube-由零開始】_40
+      - 美国-欢迎订阅【YouTube-由零開始】_41
+      - 美国-欢迎订阅【YouTube-由零開始】_42
+      - 美国-欢迎订阅【YouTube-由零開始】_43
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
