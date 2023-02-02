@@ -14,438 +14,298 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"V3-3343|香港|x2.0","type":"vmess","server":"cd69.cdn.node.a.tddns-ounk.com","port":13343,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"cd69.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"YouTube梦歌|香港HKT|Netflix_72","type":"vmess","server":"live13.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"4782d4a9-0aa2-4571-be82-a474f5d3b5c8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live13.hlzuifv.cn"}}}
-  - {"name":"V2-3585|新加坡|x2.0_1","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13585,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3471|香港|x1.5","type":"vmess","server":"x321.cdn.node.a.tddns-ounk.com","port":13471,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"x321.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V3-3546|香港|x1.5","type":"vmess","server":"tata12.cdn.node.a.tddns-ounk.com","port":13546,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"tata12.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3581|新加坡|x2.0_1","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13581,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"YouTube梦歌|香港HKT|Netflix_6","type":"vmess","server":"live11.suijiceshi.xyz","port":8080,"cipher":"auto","uuid":"4782d4a9-0aa2-4571-be82-a474f5d3b5c8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live11.hlzuifv.cn"}}}
-  - {"name":"V2-3585|新加坡|x2.0_2","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13585,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3048|新加坡|x1.0","type":"vmess","server":"ngs9.cdn.node.a.tddns-ounk.com","port":13048,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"ngs9.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3581|新加坡|x2.0_2","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13581,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V3-3504|香港|x1.0","type":"vmess","server":"cd69.cdn.node.a.tddns-ounk.com","port":13504,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"cd69.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3468|新加坡|x2.0_1","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13468,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3468|新加坡|x2.0_2","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13468,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3513|香港|x1.2","type":"vmess","server":"x321.cdn.node.a.tddns-ounk.com","port":13513,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"x321.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3527|台湾|x2.0_1","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13527,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3390|台湾|x2.0_1","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13390,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3527|台湾|x2.0_2","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13527,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3657|台湾|x1.5","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13657,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3658|台湾|x1.5","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13658,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V3-3320|台湾|x1.5","type":"vmess","server":"lld9k6.cdn.node.a.tddns-ounk.com","port":13320,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"lld9k6.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V3-3388|台湾|x1.5","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13388,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3391|台湾|x2.0_1","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13391,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"韩国-KR-02|全中轉📱流媒體\r","type":"trojan","server":"ctcc.kuaiyin.uk","port":15603,"udp":true,"password":"4aa6af37-7659-39c5-b645-4e568338013c","sni":"eplcgame.com","skip-cert-verify":false}
-  - {"name":"V2-3393|台湾|x2.0","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13393,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3390|台湾|x2.0_2","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13390,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"香港-HK-03|全中轉🎡流媒體\r","type":"trojan","server":"ctcc.kuaiyin.uk","port":15625,"udp":true,"password":"4aa6af37-7659-39c5-b645-4e568338013c","sni":"eplcgame.com","skip-cert-verify":false}
-  - {"name":"V4-3668|香港|x1.5","type":"vmess","server":"ssyj.cdn.node.a.tddns-ounk.com","port":13668,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"ssyj.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V3-3606|日本|x1.5","type":"vmess","server":"q8eq.cdn.node.a.tddns-ounk.com","port":13606,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"q8eq.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3391|台湾|x2.0_2","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13391,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"菲律宾-PH-01|全中轉☪流媒體\r","type":"trojan","server":"cmcc.kuaiyin.uk","port":15649,"udp":true,"password":"4aa6af37-7659-39c5-b645-4e568338013c","sni":"eplcgame.com","skip-cert-verify":false}
-  - {"name":"美国-欢迎订阅【YouTube-由零開始】","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"de-1.sharecentre.online"}}}
-  - {"name":"CA_youtube@资源分享师_94","type":"vmess","server":"SHOPIFY.COM","port":80,"cipher":"auto","uuid":"eeb4d7f3-1f96-4d87-98d8-6f699aac5d8e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/TxIq76mA/","headers":{"host":"yl.cachexy.ga"}}}
-  - {"name":"US_youtube@资源分享师_97","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"0469291f-33cf-4909-aac2-265c22fe9e1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/us1?ed=2048","headers":{"host":"us1.yfjc.sbs"}}}
-  - {"name":"V4-3096|日本|x2.0","type":"vmess","server":"q8eq.cdn.node.a.tddns-ounk.com","port":13096,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"q8eq.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V3-3074|日本|x1.5","type":"vmess","server":"q8eq.cdn.node.a.tddns-ounk.com","port":13074,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"q8eq.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"US_youtube@资源分享师_105","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"0469291f-33cf-4909-aac2-265c22fe9e1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/us3?ed=2048","headers":{"host":"us3.yfjc.sbs"}}}
-  - {"name":"V3-3605|日本|x1.5","type":"vmess","server":"q8eq.cdn.node.a.tddns-ounk.com","port":13605,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"q8eq.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V4-3093|日本|x1.5","type":"vmess","server":"q8eq.cdn.node.a.tddns-ounk.com","port":13093,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"q8eq.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"undefined-欢迎订阅【YouTube-由零開始】","type":"vmess","server":"cf.fovi.tk","port":2053,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}}}
-  - {"name":"V4-3094|日本|x1.5","type":"vmess","server":"q8eq.cdn.node.a.tddns-ounk.com","port":13094,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"q8eq.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"US_youtube@资源分享师_194","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"us-dp.sharecentre.online"}}}
-  - {"name":"V3-3601|日本|x1.5","type":"vmess","server":"q8eq.cdn.node.a.tddns-ounk.com","port":13601,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"q8eq.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"马来西亚-MY-01|全中轉🛶全網域\r","type":"trojan","server":"ctcc.kuaiyin.uk","port":15663,"udp":true,"password":"4aa6af37-7659-39c5-b645-4e568338013c","sni":"eplcgame.com","skip-cert-verify":false}
-  - {"name":"US_youtube@资源分享师_144","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk-1.sharecentre.online"}}}
-  - {"name":"V2-3469|新加坡|x2.0_1","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13469,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V4-3475|香港|x1.5","type":"vmess","server":"ssyj.cdn.node.a.tddns-ounk.com","port":13475,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"ssyj.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V4-3474|香港|x1.5","type":"vmess","server":"ssyj.cdn.node.a.tddns-ounk.com","port":13474,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"ssyj.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3046|新加坡|x1.0","type":"vmess","server":"ngs9.cdn.node.a.tddns-ounk.com","port":13046,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"ngs9.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3465|新加坡|x2.0","type":"vmess","server":"ngs9.cdn.node.a.tddns-ounk.com","port":13465,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"ngs9.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"YouTube梦歌|香港HKT|Netflix_2","type":"vmess","server":"live12.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"4782d4a9-0aa2-4571-be82-a474f5d3b5c8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live12.hlzuifv.cn"}}}
   - {"name":"V2-3047|新加坡|x1.0","type":"vmess","server":"ngs9.cdn.node.a.tddns-ounk.com","port":13047,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"ngs9.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3581|新加坡|x2.0","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13581,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V3-3546|香港|x1.5","type":"vmess","server":"tata12.cdn.node.a.tddns-ounk.com","port":13546,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"tata12.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V3-3343|香港|x2.0","type":"vmess","server":"cd69.cdn.node.a.tddns-ounk.com","port":13343,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"cd69.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3469|新加坡|x2.0_1","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13469,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3585|新加坡|x2.0_1","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13585,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3465|新加坡|x2.0","type":"vmess","server":"ngs9.cdn.node.a.tddns-ounk.com","port":13465,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"ngs9.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3390|台湾|x2.0_1","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13390,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3046|新加坡|x1.0","type":"vmess","server":"ngs9.cdn.node.a.tddns-ounk.com","port":13046,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"ngs9.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3468|新加坡|x2.0_1","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13468,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3391|台湾|x2.0_1","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13391,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V4-3474|香港|x1.5","type":"vmess","server":"ssyj.cdn.node.a.tddns-ounk.com","port":13474,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"ssyj.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3527|台湾|x2.0_1","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13527,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3048|新加坡|x1.0","type":"vmess","server":"ngs9.cdn.node.a.tddns-ounk.com","port":13048,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"ngs9.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3391|台湾|x2.0_2","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13391,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3471|香港|x1.5","type":"vmess","server":"x321.cdn.node.a.tddns-ounk.com","port":13471,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"x321.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3585|新加坡|x2.0_2","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13585,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3393|台湾|x2.0","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13393,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3658|台湾|x1.5","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13658,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3390|台湾|x2.0_2","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13390,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3527|台湾|x2.0_2","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13527,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V3-3320|台湾|x1.5","type":"vmess","server":"lld9k6.cdn.node.a.tddns-ounk.com","port":13320,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"lld9k6.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3657|台湾|x1.5","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13657,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"YouTube梦歌|香港HKT|Netflix_2","type":"vmess","server":"live12.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"4782d4a9-0aa2-4571-be82-a474f5d3b5c8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live12.hlzuifv.cn"}}}
+  - {"name":"V2-3513|香港|x1.2","type":"vmess","server":"x321.cdn.node.a.tddns-ounk.com","port":13513,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"x321.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V3-3388|台湾|x1.5","type":"vmess","server":"dr64.cdn.node.a.tddns-ounk.com","port":13388,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"dr64.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"香港-HK-03|全中轉🎡流媒體\r","type":"trojan","server":"ctcc.kuaiyin.uk","port":15625,"udp":true,"password":"4aa6af37-7659-39c5-b645-4e568338013c","sni":"eplcgame.com","skip-cert-verify":false}
+  - {"name":"US_youtube@资源分享师_97","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"0469291f-33cf-4909-aac2-265c22fe9e1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/us1?ed=2048","headers":{"host":"us1.yfjc.sbs"}}}
+  - {"name":"美国-欢迎订阅【YouTube-由零開始】","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"de-1.sharecentre.online"}}}
+  - {"name":"US_youtube@资源分享师_68","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"0469291f-33cf-4909-aac2-265c22fe9e1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/yfjc/nl?ed=2048","headers":{"host":"nl.yfjc.sbs"}}}
+  - {"name":"US_youtube@资源分享师_144","type":"vmess","server":"cf-lt-dns.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk-1.sharecentre.online"}}}
+  - {"name":"YouTube梦歌|香港HKT|Netflix_72","type":"vmess","server":"live13.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"4782d4a9-0aa2-4571-be82-a474f5d3b5c8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live13.hlzuifv.cn"}}}
+  - {"name":"V4-3668|香港|x1.5","type":"vmess","server":"ssyj.cdn.node.a.tddns-ounk.com","port":13668,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"ssyj.cdn.node.a.tddns-ounk.com"}}}
   - {"name":"YouTube梦歌|香港HKT|Netflix_5","type":"vmess","server":"live14.suijiceshi.xyz","port":2052,"cipher":"auto","uuid":"4782d4a9-0aa2-4571-be82-a474f5d3b5c8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live14.hlzuifv.cn"}}}
-  - {"name":"V2-3467|新加坡|x2.0","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13467,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
   - {"name":"V2-3469|新加坡|x2.0_2","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13469,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
+  - {"name":"V2-3468|新加坡|x2.0_2","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13468,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
   - {"name":"V2-3529|新加坡|x2.0","type":"vmess","server":"wegm63.cdn.node.a.tddns-ounk.com","port":13529,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"wegm63.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3466|新加坡|x2.0_1","type":"vmess","server":"ngs9.cdn.node.a.tddns-ounk.com","port":13466,"cipher":"auto","uuid":"afed3291-ea71-3462-bff9-79786a794699","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"ngs9.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"V2-3466|新加坡|x2.0_2","type":"vmess","server":"ngs9.cdn.node.a.tddns-ounk.com","port":13466,"cipher":"auto","uuid":"ec7ef8a3-125c-3661-afa2-a54f0f3af0a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4900-495a-aa20-da0626e0e87d.v2..live03.m3u8","headers":{"host":"ngs9.cdn.node.a.tddns-ounk.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - V3-3343|香港|x2.0
-      - YouTube梦歌|香港HKT|Netflix_72
-      - V2-3585|新加坡|x2.0_1
-      - V2-3471|香港|x1.5
-      - V3-3546|香港|x1.5
-      - V2-3581|新加坡|x2.0_1
-      - YouTube梦歌|香港HKT|Netflix_6
-      - V2-3585|新加坡|x2.0_2
-      - V2-3048|新加坡|x1.0
-      - V2-3581|新加坡|x2.0_2
-      - V3-3504|香港|x1.0
-      - V2-3468|新加坡|x2.0_1
-      - V2-3468|新加坡|x2.0_2
-      - V2-3513|香港|x1.2
-      - V2-3527|台湾|x2.0_1
-      - V2-3390|台湾|x2.0_1
-      - V2-3527|台湾|x2.0_2
-      - V2-3657|台湾|x1.5
-      - V2-3658|台湾|x1.5
-      - V3-3320|台湾|x1.5
-      - V3-3388|台湾|x1.5
-      - V2-3391|台湾|x2.0_1
-      - "韩国-KR-02|全中轉📱流媒體\r"
-      - V2-3393|台湾|x2.0
-      - V2-3390|台湾|x2.0_2
-      - "香港-HK-03|全中轉🎡流媒體\r"
-      - V4-3668|香港|x1.5
-      - V3-3606|日本|x1.5
-      - V2-3391|台湾|x2.0_2
-      - "菲律宾-PH-01|全中轉☪流媒體\r"
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - CA_youtube@资源分享师_94
-      - US_youtube@资源分享师_97
-      - V4-3096|日本|x2.0
-      - V3-3074|日本|x1.5
-      - US_youtube@资源分享师_105
-      - V3-3605|日本|x1.5
-      - V4-3093|日本|x1.5
-      - undefined-欢迎订阅【YouTube-由零開始】
-      - V4-3094|日本|x1.5
-      - US_youtube@资源分享师_194
-      - V3-3601|日本|x1.5
-      - "马来西亚-MY-01|全中轉🛶全網域\r"
-      - US_youtube@资源分享师_144
-      - V2-3469|新加坡|x2.0_1
-      - V4-3475|香港|x1.5
-      - V4-3474|香港|x1.5
-      - V2-3046|新加坡|x1.0
-      - V2-3465|新加坡|x2.0
-      - YouTube梦歌|香港HKT|Netflix_2
       - V2-3047|新加坡|x1.0
+      - V2-3581|新加坡|x2.0
+      - V3-3546|香港|x1.5
+      - V3-3343|香港|x2.0
+      - V2-3469|新加坡|x2.0_1
+      - V2-3585|新加坡|x2.0_1
+      - V2-3465|新加坡|x2.0
+      - V2-3390|台湾|x2.0_1
+      - V2-3046|新加坡|x1.0
+      - V2-3468|新加坡|x2.0_1
+      - V2-3391|台湾|x2.0_1
+      - V4-3474|香港|x1.5
+      - V2-3527|台湾|x2.0_1
+      - V2-3048|新加坡|x1.0
+      - V2-3391|台湾|x2.0_2
+      - V2-3471|香港|x1.5
+      - V2-3585|新加坡|x2.0_2
+      - V2-3393|台湾|x2.0
+      - V2-3658|台湾|x1.5
+      - V2-3390|台湾|x2.0_2
+      - V2-3527|台湾|x2.0_2
+      - V3-3320|台湾|x1.5
+      - V2-3657|台湾|x1.5
+      - YouTube梦歌|香港HKT|Netflix_2
+      - V2-3513|香港|x1.2
+      - V3-3388|台湾|x1.5
+      - "香港-HK-03|全中轉🎡流媒體\r"
+      - US_youtube@资源分享师_97
+      - 美国-欢迎订阅【YouTube-由零開始】
+      - US_youtube@资源分享师_68
+      - US_youtube@资源分享师_144
+      - YouTube梦歌|香港HKT|Netflix_72
+      - V4-3668|香港|x1.5
       - YouTube梦歌|香港HKT|Netflix_5
-      - V2-3467|新加坡|x2.0
       - V2-3469|新加坡|x2.0_2
+      - V2-3468|新加坡|x2.0_2
       - V2-3529|新加坡|x2.0
-      - V2-3466|新加坡|x2.0_1
-      - V2-3466|新加坡|x2.0_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - V3-3343|香港|x2.0
-      - YouTube梦歌|香港HKT|Netflix_72
-      - V2-3585|新加坡|x2.0_1
-      - V2-3471|香港|x1.5
-      - V3-3546|香港|x1.5
-      - V2-3581|新加坡|x2.0_1
-      - YouTube梦歌|香港HKT|Netflix_6
-      - V2-3585|新加坡|x2.0_2
-      - V2-3048|新加坡|x1.0
-      - V2-3581|新加坡|x2.0_2
-      - V3-3504|香港|x1.0
-      - V2-3468|新加坡|x2.0_1
-      - V2-3468|新加坡|x2.0_2
-      - V2-3513|香港|x1.2
-      - V2-3527|台湾|x2.0_1
-      - V2-3390|台湾|x2.0_1
-      - V2-3527|台湾|x2.0_2
-      - V2-3657|台湾|x1.5
-      - V2-3658|台湾|x1.5
-      - V3-3320|台湾|x1.5
-      - V3-3388|台湾|x1.5
-      - V2-3391|台湾|x2.0_1
-      - "韩国-KR-02|全中轉📱流媒體\r"
-      - V2-3393|台湾|x2.0
-      - V2-3390|台湾|x2.0_2
-      - "香港-HK-03|全中轉🎡流媒體\r"
-      - V4-3668|香港|x1.5
-      - V3-3606|日本|x1.5
-      - V2-3391|台湾|x2.0_2
-      - "菲律宾-PH-01|全中轉☪流媒體\r"
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - CA_youtube@资源分享师_94
-      - US_youtube@资源分享师_97
-      - V4-3096|日本|x2.0
-      - V3-3074|日本|x1.5
-      - US_youtube@资源分享师_105
-      - V3-3605|日本|x1.5
-      - V4-3093|日本|x1.5
-      - undefined-欢迎订阅【YouTube-由零開始】
-      - V4-3094|日本|x1.5
-      - US_youtube@资源分享师_194
-      - V3-3601|日本|x1.5
-      - "马来西亚-MY-01|全中轉🛶全網域\r"
-      - US_youtube@资源分享师_144
-      - V2-3469|新加坡|x2.0_1
-      - V4-3475|香港|x1.5
-      - V4-3474|香港|x1.5
-      - V2-3046|新加坡|x1.0
-      - V2-3465|新加坡|x2.0
-      - YouTube梦歌|香港HKT|Netflix_2
       - V2-3047|新加坡|x1.0
+      - V2-3581|新加坡|x2.0
+      - V3-3546|香港|x1.5
+      - V3-3343|香港|x2.0
+      - V2-3469|新加坡|x2.0_1
+      - V2-3585|新加坡|x2.0_1
+      - V2-3465|新加坡|x2.0
+      - V2-3390|台湾|x2.0_1
+      - V2-3046|新加坡|x1.0
+      - V2-3468|新加坡|x2.0_1
+      - V2-3391|台湾|x2.0_1
+      - V4-3474|香港|x1.5
+      - V2-3527|台湾|x2.0_1
+      - V2-3048|新加坡|x1.0
+      - V2-3391|台湾|x2.0_2
+      - V2-3471|香港|x1.5
+      - V2-3585|新加坡|x2.0_2
+      - V2-3393|台湾|x2.0
+      - V2-3658|台湾|x1.5
+      - V2-3390|台湾|x2.0_2
+      - V2-3527|台湾|x2.0_2
+      - V3-3320|台湾|x1.5
+      - V2-3657|台湾|x1.5
+      - YouTube梦歌|香港HKT|Netflix_2
+      - V2-3513|香港|x1.2
+      - V3-3388|台湾|x1.5
+      - "香港-HK-03|全中轉🎡流媒體\r"
+      - US_youtube@资源分享师_97
+      - 美国-欢迎订阅【YouTube-由零開始】
+      - US_youtube@资源分享师_68
+      - US_youtube@资源分享师_144
+      - YouTube梦歌|香港HKT|Netflix_72
+      - V4-3668|香港|x1.5
       - YouTube梦歌|香港HKT|Netflix_5
-      - V2-3467|新加坡|x2.0
       - V2-3469|新加坡|x2.0_2
+      - V2-3468|新加坡|x2.0_2
       - V2-3529|新加坡|x2.0
-      - V2-3466|新加坡|x2.0_1
-      - V2-3466|新加坡|x2.0_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V3-3343|香港|x2.0
-      - YouTube梦歌|香港HKT|Netflix_72
-      - V2-3585|新加坡|x2.0_1
-      - V2-3471|香港|x1.5
-      - V3-3546|香港|x1.5
-      - V2-3581|新加坡|x2.0_1
-      - YouTube梦歌|香港HKT|Netflix_6
-      - V2-3585|新加坡|x2.0_2
-      - V2-3048|新加坡|x1.0
-      - V2-3581|新加坡|x2.0_2
-      - V3-3504|香港|x1.0
-      - V2-3468|新加坡|x2.0_1
-      - V2-3468|新加坡|x2.0_2
-      - V2-3513|香港|x1.2
-      - V2-3527|台湾|x2.0_1
-      - V2-3390|台湾|x2.0_1
-      - V2-3527|台湾|x2.0_2
-      - V2-3657|台湾|x1.5
-      - V2-3658|台湾|x1.5
-      - V3-3320|台湾|x1.5
-      - V3-3388|台湾|x1.5
-      - V2-3391|台湾|x2.0_1
-      - "韩国-KR-02|全中轉📱流媒體\r"
-      - V2-3393|台湾|x2.0
-      - V2-3390|台湾|x2.0_2
-      - "香港-HK-03|全中轉🎡流媒體\r"
-      - V4-3668|香港|x1.5
-      - V3-3606|日本|x1.5
-      - V2-3391|台湾|x2.0_2
-      - "菲律宾-PH-01|全中轉☪流媒體\r"
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - CA_youtube@资源分享师_94
-      - US_youtube@资源分享师_97
-      - V4-3096|日本|x2.0
-      - V3-3074|日本|x1.5
-      - US_youtube@资源分享师_105
-      - V3-3605|日本|x1.5
-      - V4-3093|日本|x1.5
-      - undefined-欢迎订阅【YouTube-由零開始】
-      - V4-3094|日本|x1.5
-      - US_youtube@资源分享师_194
-      - V3-3601|日本|x1.5
-      - "马来西亚-MY-01|全中轉🛶全網域\r"
-      - US_youtube@资源分享师_144
-      - V2-3469|新加坡|x2.0_1
-      - V4-3475|香港|x1.5
-      - V4-3474|香港|x1.5
-      - V2-3046|新加坡|x1.0
-      - V2-3465|新加坡|x2.0
-      - YouTube梦歌|香港HKT|Netflix_2
       - V2-3047|新加坡|x1.0
+      - V2-3581|新加坡|x2.0
+      - V3-3546|香港|x1.5
+      - V3-3343|香港|x2.0
+      - V2-3469|新加坡|x2.0_1
+      - V2-3585|新加坡|x2.0_1
+      - V2-3465|新加坡|x2.0
+      - V2-3390|台湾|x2.0_1
+      - V2-3046|新加坡|x1.0
+      - V2-3468|新加坡|x2.0_1
+      - V2-3391|台湾|x2.0_1
+      - V4-3474|香港|x1.5
+      - V2-3527|台湾|x2.0_1
+      - V2-3048|新加坡|x1.0
+      - V2-3391|台湾|x2.0_2
+      - V2-3471|香港|x1.5
+      - V2-3585|新加坡|x2.0_2
+      - V2-3393|台湾|x2.0
+      - V2-3658|台湾|x1.5
+      - V2-3390|台湾|x2.0_2
+      - V2-3527|台湾|x2.0_2
+      - V3-3320|台湾|x1.5
+      - V2-3657|台湾|x1.5
+      - YouTube梦歌|香港HKT|Netflix_2
+      - V2-3513|香港|x1.2
+      - V3-3388|台湾|x1.5
+      - "香港-HK-03|全中轉🎡流媒體\r"
+      - US_youtube@资源分享师_97
+      - 美国-欢迎订阅【YouTube-由零開始】
+      - US_youtube@资源分享师_68
+      - US_youtube@资源分享师_144
+      - YouTube梦歌|香港HKT|Netflix_72
+      - V4-3668|香港|x1.5
       - YouTube梦歌|香港HKT|Netflix_5
-      - V2-3467|新加坡|x2.0
       - V2-3469|新加坡|x2.0_2
+      - V2-3468|新加坡|x2.0_2
       - V2-3529|新加坡|x2.0
-      - V2-3466|新加坡|x2.0_1
-      - V2-3466|新加坡|x2.0_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - V3-3343|香港|x2.0
-      - YouTube梦歌|香港HKT|Netflix_72
-      - V2-3585|新加坡|x2.0_1
-      - V2-3471|香港|x1.5
-      - V3-3546|香港|x1.5
-      - V2-3581|新加坡|x2.0_1
-      - YouTube梦歌|香港HKT|Netflix_6
-      - V2-3585|新加坡|x2.0_2
-      - V2-3048|新加坡|x1.0
-      - V2-3581|新加坡|x2.0_2
-      - V3-3504|香港|x1.0
-      - V2-3468|新加坡|x2.0_1
-      - V2-3468|新加坡|x2.0_2
-      - V2-3513|香港|x1.2
-      - V2-3527|台湾|x2.0_1
-      - V2-3390|台湾|x2.0_1
-      - V2-3527|台湾|x2.0_2
-      - V2-3657|台湾|x1.5
-      - V2-3658|台湾|x1.5
-      - V3-3320|台湾|x1.5
-      - V3-3388|台湾|x1.5
-      - V2-3391|台湾|x2.0_1
-      - "韩国-KR-02|全中轉📱流媒體\r"
-      - V2-3393|台湾|x2.0
-      - V2-3390|台湾|x2.0_2
-      - "香港-HK-03|全中轉🎡流媒體\r"
-      - V4-3668|香港|x1.5
-      - V3-3606|日本|x1.5
-      - V2-3391|台湾|x2.0_2
-      - "菲律宾-PH-01|全中轉☪流媒體\r"
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - CA_youtube@资源分享师_94
-      - US_youtube@资源分享师_97
-      - V4-3096|日本|x2.0
-      - V3-3074|日本|x1.5
-      - US_youtube@资源分享师_105
-      - V3-3605|日本|x1.5
-      - V4-3093|日本|x1.5
-      - undefined-欢迎订阅【YouTube-由零開始】
-      - V4-3094|日本|x1.5
-      - US_youtube@资源分享师_194
-      - V3-3601|日本|x1.5
-      - "马来西亚-MY-01|全中轉🛶全網域\r"
-      - US_youtube@资源分享师_144
-      - V2-3469|新加坡|x2.0_1
-      - V4-3475|香港|x1.5
-      - V4-3474|香港|x1.5
-      - V2-3046|新加坡|x1.0
-      - V2-3465|新加坡|x2.0
-      - YouTube梦歌|香港HKT|Netflix_2
       - V2-3047|新加坡|x1.0
+      - V2-3581|新加坡|x2.0
+      - V3-3546|香港|x1.5
+      - V3-3343|香港|x2.0
+      - V2-3469|新加坡|x2.0_1
+      - V2-3585|新加坡|x2.0_1
+      - V2-3465|新加坡|x2.0
+      - V2-3390|台湾|x2.0_1
+      - V2-3046|新加坡|x1.0
+      - V2-3468|新加坡|x2.0_1
+      - V2-3391|台湾|x2.0_1
+      - V4-3474|香港|x1.5
+      - V2-3527|台湾|x2.0_1
+      - V2-3048|新加坡|x1.0
+      - V2-3391|台湾|x2.0_2
+      - V2-3471|香港|x1.5
+      - V2-3585|新加坡|x2.0_2
+      - V2-3393|台湾|x2.0
+      - V2-3658|台湾|x1.5
+      - V2-3390|台湾|x2.0_2
+      - V2-3527|台湾|x2.0_2
+      - V3-3320|台湾|x1.5
+      - V2-3657|台湾|x1.5
+      - YouTube梦歌|香港HKT|Netflix_2
+      - V2-3513|香港|x1.2
+      - V3-3388|台湾|x1.5
+      - "香港-HK-03|全中轉🎡流媒體\r"
+      - US_youtube@资源分享师_97
+      - 美国-欢迎订阅【YouTube-由零開始】
+      - US_youtube@资源分享师_68
+      - US_youtube@资源分享师_144
+      - YouTube梦歌|香港HKT|Netflix_72
+      - V4-3668|香港|x1.5
       - YouTube梦歌|香港HKT|Netflix_5
-      - V2-3467|新加坡|x2.0
       - V2-3469|新加坡|x2.0_2
+      - V2-3468|新加坡|x2.0_2
       - V2-3529|新加坡|x2.0
-      - V2-3466|新加坡|x2.0_1
-      - V2-3466|新加坡|x2.0_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - V3-3343|香港|x2.0
-      - YouTube梦歌|香港HKT|Netflix_72
-      - V2-3585|新加坡|x2.0_1
-      - V2-3471|香港|x1.5
-      - V3-3546|香港|x1.5
-      - V2-3581|新加坡|x2.0_1
-      - YouTube梦歌|香港HKT|Netflix_6
-      - V2-3585|新加坡|x2.0_2
-      - V2-3048|新加坡|x1.0
-      - V2-3581|新加坡|x2.0_2
-      - V3-3504|香港|x1.0
-      - V2-3468|新加坡|x2.0_1
-      - V2-3468|新加坡|x2.0_2
-      - V2-3513|香港|x1.2
-      - V2-3527|台湾|x2.0_1
-      - V2-3390|台湾|x2.0_1
-      - V2-3527|台湾|x2.0_2
-      - V2-3657|台湾|x1.5
-      - V2-3658|台湾|x1.5
-      - V3-3320|台湾|x1.5
-      - V3-3388|台湾|x1.5
-      - V2-3391|台湾|x2.0_1
-      - "韩国-KR-02|全中轉📱流媒體\r"
-      - V2-3393|台湾|x2.0
-      - V2-3390|台湾|x2.0_2
-      - "香港-HK-03|全中轉🎡流媒體\r"
-      - V4-3668|香港|x1.5
-      - V3-3606|日本|x1.5
-      - V2-3391|台湾|x2.0_2
-      - "菲律宾-PH-01|全中轉☪流媒體\r"
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - CA_youtube@资源分享师_94
-      - US_youtube@资源分享师_97
-      - V4-3096|日本|x2.0
-      - V3-3074|日本|x1.5
-      - US_youtube@资源分享师_105
-      - V3-3605|日本|x1.5
-      - V4-3093|日本|x1.5
-      - undefined-欢迎订阅【YouTube-由零開始】
-      - V4-3094|日本|x1.5
-      - US_youtube@资源分享师_194
-      - V3-3601|日本|x1.5
-      - "马来西亚-MY-01|全中轉🛶全網域\r"
-      - US_youtube@资源分享师_144
-      - V2-3469|新加坡|x2.0_1
-      - V4-3475|香港|x1.5
-      - V4-3474|香港|x1.5
-      - V2-3046|新加坡|x1.0
-      - V2-3465|新加坡|x2.0
-      - YouTube梦歌|香港HKT|Netflix_2
       - V2-3047|新加坡|x1.0
+      - V2-3581|新加坡|x2.0
+      - V3-3546|香港|x1.5
+      - V3-3343|香港|x2.0
+      - V2-3469|新加坡|x2.0_1
+      - V2-3585|新加坡|x2.0_1
+      - V2-3465|新加坡|x2.0
+      - V2-3390|台湾|x2.0_1
+      - V2-3046|新加坡|x1.0
+      - V2-3468|新加坡|x2.0_1
+      - V2-3391|台湾|x2.0_1
+      - V4-3474|香港|x1.5
+      - V2-3527|台湾|x2.0_1
+      - V2-3048|新加坡|x1.0
+      - V2-3391|台湾|x2.0_2
+      - V2-3471|香港|x1.5
+      - V2-3585|新加坡|x2.0_2
+      - V2-3393|台湾|x2.0
+      - V2-3658|台湾|x1.5
+      - V2-3390|台湾|x2.0_2
+      - V2-3527|台湾|x2.0_2
+      - V3-3320|台湾|x1.5
+      - V2-3657|台湾|x1.5
+      - YouTube梦歌|香港HKT|Netflix_2
+      - V2-3513|香港|x1.2
+      - V3-3388|台湾|x1.5
+      - "香港-HK-03|全中轉🎡流媒體\r"
+      - US_youtube@资源分享师_97
+      - 美国-欢迎订阅【YouTube-由零開始】
+      - US_youtube@资源分享师_68
+      - US_youtube@资源分享师_144
+      - YouTube梦歌|香港HKT|Netflix_72
+      - V4-3668|香港|x1.5
       - YouTube梦歌|香港HKT|Netflix_5
-      - V2-3467|新加坡|x2.0
       - V2-3469|新加坡|x2.0_2
+      - V2-3468|新加坡|x2.0_2
       - V2-3529|新加坡|x2.0
-      - V2-3466|新加坡|x2.0_1
-      - V2-3466|新加坡|x2.0_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - V3-3343|香港|x2.0
-      - YouTube梦歌|香港HKT|Netflix_72
-      - V2-3585|新加坡|x2.0_1
-      - V2-3471|香港|x1.5
-      - V3-3546|香港|x1.5
-      - V2-3581|新加坡|x2.0_1
-      - YouTube梦歌|香港HKT|Netflix_6
-      - V2-3585|新加坡|x2.0_2
-      - V2-3048|新加坡|x1.0
-      - V2-3581|新加坡|x2.0_2
-      - V3-3504|香港|x1.0
-      - V2-3468|新加坡|x2.0_1
-      - V2-3468|新加坡|x2.0_2
-      - V2-3513|香港|x1.2
-      - V2-3527|台湾|x2.0_1
-      - V2-3390|台湾|x2.0_1
-      - V2-3527|台湾|x2.0_2
-      - V2-3657|台湾|x1.5
-      - V2-3658|台湾|x1.5
-      - V3-3320|台湾|x1.5
-      - V3-3388|台湾|x1.5
-      - V2-3391|台湾|x2.0_1
-      - "韩国-KR-02|全中轉📱流媒體\r"
-      - V2-3393|台湾|x2.0
-      - V2-3390|台湾|x2.0_2
-      - "香港-HK-03|全中轉🎡流媒體\r"
-      - V4-3668|香港|x1.5
-      - V3-3606|日本|x1.5
-      - V2-3391|台湾|x2.0_2
-      - "菲律宾-PH-01|全中轉☪流媒體\r"
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - CA_youtube@资源分享师_94
-      - US_youtube@资源分享师_97
-      - V4-3096|日本|x2.0
-      - V3-3074|日本|x1.5
-      - US_youtube@资源分享师_105
-      - V3-3605|日本|x1.5
-      - V4-3093|日本|x1.5
-      - undefined-欢迎订阅【YouTube-由零開始】
-      - V4-3094|日本|x1.5
-      - US_youtube@资源分享师_194
-      - V3-3601|日本|x1.5
-      - "马来西亚-MY-01|全中轉🛶全網域\r"
-      - US_youtube@资源分享师_144
-      - V2-3469|新加坡|x2.0_1
-      - V4-3475|香港|x1.5
-      - V4-3474|香港|x1.5
-      - V2-3046|新加坡|x1.0
-      - V2-3465|新加坡|x2.0
-      - YouTube梦歌|香港HKT|Netflix_2
       - V2-3047|新加坡|x1.0
+      - V2-3581|新加坡|x2.0
+      - V3-3546|香港|x1.5
+      - V3-3343|香港|x2.0
+      - V2-3469|新加坡|x2.0_1
+      - V2-3585|新加坡|x2.0_1
+      - V2-3465|新加坡|x2.0
+      - V2-3390|台湾|x2.0_1
+      - V2-3046|新加坡|x1.0
+      - V2-3468|新加坡|x2.0_1
+      - V2-3391|台湾|x2.0_1
+      - V4-3474|香港|x1.5
+      - V2-3527|台湾|x2.0_1
+      - V2-3048|新加坡|x1.0
+      - V2-3391|台湾|x2.0_2
+      - V2-3471|香港|x1.5
+      - V2-3585|新加坡|x2.0_2
+      - V2-3393|台湾|x2.0
+      - V2-3658|台湾|x1.5
+      - V2-3390|台湾|x2.0_2
+      - V2-3527|台湾|x2.0_2
+      - V3-3320|台湾|x1.5
+      - V2-3657|台湾|x1.5
+      - YouTube梦歌|香港HKT|Netflix_2
+      - V2-3513|香港|x1.2
+      - V3-3388|台湾|x1.5
+      - "香港-HK-03|全中轉🎡流媒體\r"
+      - US_youtube@资源分享师_97
+      - 美国-欢迎订阅【YouTube-由零開始】
+      - US_youtube@资源分享师_68
+      - US_youtube@资源分享师_144
+      - YouTube梦歌|香港HKT|Netflix_72
+      - V4-3668|香港|x1.5
       - YouTube梦歌|香港HKT|Netflix_5
-      - V2-3467|新加坡|x2.0
       - V2-3469|新加坡|x2.0_2
+      - V2-3468|新加坡|x2.0_2
       - V2-3529|新加坡|x2.0
-      - V2-3466|新加坡|x2.0_1
-      - V2-3466|新加坡|x2.0_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -468,63 +328,43 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V3-3343|香港|x2.0
-      - YouTube梦歌|香港HKT|Netflix_72
-      - V2-3585|新加坡|x2.0_1
-      - V2-3471|香港|x1.5
-      - V3-3546|香港|x1.5
-      - V2-3581|新加坡|x2.0_1
-      - YouTube梦歌|香港HKT|Netflix_6
-      - V2-3585|新加坡|x2.0_2
-      - V2-3048|新加坡|x1.0
-      - V2-3581|新加坡|x2.0_2
-      - V3-3504|香港|x1.0
-      - V2-3468|新加坡|x2.0_1
-      - V2-3468|新加坡|x2.0_2
-      - V2-3513|香港|x1.2
-      - V2-3527|台湾|x2.0_1
-      - V2-3390|台湾|x2.0_1
-      - V2-3527|台湾|x2.0_2
-      - V2-3657|台湾|x1.5
-      - V2-3658|台湾|x1.5
-      - V3-3320|台湾|x1.5
-      - V3-3388|台湾|x1.5
-      - V2-3391|台湾|x2.0_1
-      - "韩国-KR-02|全中轉📱流媒體\r"
-      - V2-3393|台湾|x2.0
-      - V2-3390|台湾|x2.0_2
-      - "香港-HK-03|全中轉🎡流媒體\r"
-      - V4-3668|香港|x1.5
-      - V3-3606|日本|x1.5
-      - V2-3391|台湾|x2.0_2
-      - "菲律宾-PH-01|全中轉☪流媒體\r"
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - CA_youtube@资源分享师_94
-      - US_youtube@资源分享师_97
-      - V4-3096|日本|x2.0
-      - V3-3074|日本|x1.5
-      - US_youtube@资源分享师_105
-      - V3-3605|日本|x1.5
-      - V4-3093|日本|x1.5
-      - undefined-欢迎订阅【YouTube-由零開始】
-      - V4-3094|日本|x1.5
-      - US_youtube@资源分享师_194
-      - V3-3601|日本|x1.5
-      - "马来西亚-MY-01|全中轉🛶全網域\r"
-      - US_youtube@资源分享师_144
-      - V2-3469|新加坡|x2.0_1
-      - V4-3475|香港|x1.5
-      - V4-3474|香港|x1.5
-      - V2-3046|新加坡|x1.0
-      - V2-3465|新加坡|x2.0
-      - YouTube梦歌|香港HKT|Netflix_2
       - V2-3047|新加坡|x1.0
+      - V2-3581|新加坡|x2.0
+      - V3-3546|香港|x1.5
+      - V3-3343|香港|x2.0
+      - V2-3469|新加坡|x2.0_1
+      - V2-3585|新加坡|x2.0_1
+      - V2-3465|新加坡|x2.0
+      - V2-3390|台湾|x2.0_1
+      - V2-3046|新加坡|x1.0
+      - V2-3468|新加坡|x2.0_1
+      - V2-3391|台湾|x2.0_1
+      - V4-3474|香港|x1.5
+      - V2-3527|台湾|x2.0_1
+      - V2-3048|新加坡|x1.0
+      - V2-3391|台湾|x2.0_2
+      - V2-3471|香港|x1.5
+      - V2-3585|新加坡|x2.0_2
+      - V2-3393|台湾|x2.0
+      - V2-3658|台湾|x1.5
+      - V2-3390|台湾|x2.0_2
+      - V2-3527|台湾|x2.0_2
+      - V3-3320|台湾|x1.5
+      - V2-3657|台湾|x1.5
+      - YouTube梦歌|香港HKT|Netflix_2
+      - V2-3513|香港|x1.2
+      - V3-3388|台湾|x1.5
+      - "香港-HK-03|全中轉🎡流媒體\r"
+      - US_youtube@资源分享师_97
+      - 美国-欢迎订阅【YouTube-由零開始】
+      - US_youtube@资源分享师_68
+      - US_youtube@资源分享师_144
+      - YouTube梦歌|香港HKT|Netflix_72
+      - V4-3668|香港|x1.5
       - YouTube梦歌|香港HKT|Netflix_5
-      - V2-3467|新加坡|x2.0
       - V2-3469|新加坡|x2.0_2
+      - V2-3468|新加坡|x2.0_2
       - V2-3529|新加坡|x2.0
-      - V2-3466|新加坡|x2.0_1
-      - V2-3466|新加坡|x2.0_2
 
 rules:
 # 本地/局域网地址
