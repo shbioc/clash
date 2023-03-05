@@ -14,32 +14,26 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"中国-欢迎订阅【YouTube-由零開始】_1","type":"vmess","server":"223.111.202.139","port":63087,"cipher":"auto","uuid":"cef94bbf-8bd7-3565-a1c8-0e311643e657","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mugua","headers":{"host":"sg-balancer.tencent.best"}}}
-  - {"name":"🇨🇳_CN_1","type":"vmess","server":"223.111.202.139","port":63086,"cipher":"auto","uuid":"cef94bbf-8bd7-3565-a1c8-0e311643e657","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mugua"}}
-  - {"name":"🇸🇬_SG\r","type":"trojan","server":"dl-sg2.steamdownload.top","port":50000,"udp":true,"password":"c30b14da-adac-4bb3-ac27-c5759d4890ac","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN\r","type":"ss","server":"out.jijifun.com","port":30033,"password":"114514","cipher":"aes-256-gcm","plugin":"simple-obfs","plugin-opt":{"mode":"websocket","mux":false}}
-  - {"name":"🇺🇸_US_1","type":"vmess","server":"173.245.59.168","port":8080,"cipher":"auto","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/KTR","headers":{"host":"4.arvanktbr.store"}}}
-  - {"name":"中国-欢迎订阅【YouTube-由零開始】_2","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_2","type":"vmess","server":"02.duduson01.repl.co","port":443,"cipher":"auto","uuid":"ececb2e8-fdf8-4e6c-92b7-a5d363bc4e9b","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ececb2e8-fdf8-4e6c-92b7-a5d363bc4e9b-vm","headers":{"host":"02.duduson01.repl.co"}}}
-  - {"name":"🇺🇸_US_3","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"kh1.scproxy.top"}}}
-  - {"name":"🇺🇸_US_4","type":"vmess","server":"us.he.04.nekocloud.cn","port":19042,"cipher":"auto","uuid":"767ebf8c-3020-3e52-9109-4bdb49510842","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/catnet","headers":{"host":"us.he.04.nekocloud.cn"}}}
-  - {"name":"美国-欢迎订阅【YouTube-由零開始】_1","type":"vmess","server":"no.aries.ovh","port":2052,"cipher":"auto","uuid":"88aa4851-2b1e-404c-a453-685f12489f9d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"buyvm.cloudflare.quest"}}}
-  - {"name":"中国-欢迎订阅【YouTube-由零開始】_3","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_5","type":"vmess","server":"ger2.onemaster.sbs","port":2053,"cipher":"auto","uuid":"a6067377-e76f-4450-b04e-3b470ec92cb0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ger2.onemaster.sbs"}}}
-  - {"name":"🇺🇸_US_6","type":"vmess","server":"129.146.133.49","port":443,"cipher":"auto","uuid":"35c83a8f-c627-48a4-c280-ff0e46600dfe","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess"}}
+  - {"name":"中国-欢迎订阅【YouTube-由零開始】_1","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳中国【YouTube-由零開始】_1","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US\r","type":"trojan","server":"sanjose-d2.4422331.xyz","port":10086,"udp":true,"password":"4134219f-2384-449c-92e9-50fe8474c30a","sni":"https://mofa.4422331.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_1","type":"vmess","server":"ipchicken.com","port":2095,"cipher":"auto","uuid":"d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"lin.d.sg.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸_US_1","type":"vmess","server":"129.146.133.49","port":443,"cipher":"auto","uuid":"35c83a8f-c627-48a4-c280-ff0e46600dfe","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess"}}
   - {"name":"US_youtube@资源分享师_62","type":"vmess","server":"172.67.72.219","port":443,"cipher":"auto","uuid":"90ea24f6-4b7f-4b4e-a9c1-de7d77b67e45","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/m1","headers":{"host":"de-2.heima-bot.tech"}}}
-  - {"name":"🇺🇸_US_7","type":"vmess","server":"us.he.07.nekocloud.cn","port":10002,"cipher":"auto","uuid":"767ebf8c-3020-3e52-9109-4bdb49510842","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/catnet","headers":{"host":"us.he.07.nekocloud.cn"}}}
-  - {"name":"🇺🇸_US\r_1","type":"trojan","server":"sanjose-d2.4422331.xyz","port":10086,"udp":true,"password":"4134219f-2384-449c-92e9-50fe8474c30a","sni":"https://mofa.4422331.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_8","type":"vmess","server":"lv1.sharecentrepro.org","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
-  - {"name":"🇺🇸_US_9","type":"vmess","server":"141.101.114.111","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
-  - {"name":"🇨🇳_CN_2","type":"vmess","server":"g7z35c66m.ns28bdh90.y2hd6jq1t.soabgo.com","port":26000,"cipher":"auto","uuid":"FF5D3BF5-1296-FB0A-4596-B3CD0C884200","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_10","type":"vmess","server":"cf.bakapie.cf","port":2096,"cipher":"auto","uuid":"cae6201f-50fe-4895-8930-841f1d8c4eb7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"c7d5ea85.8200860.xyz"}}}
-  - {"name":"🇺🇸_US_11","type":"vmess","server":"v2kr1.cosdayan.top","port":443,"cipher":"auto","uuid":"6440f9c6-9514-4fb5-f281-3aad1d1418be","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"v2kr1.cosdayan.top"}}}
-  - {"name":"🇺🇸_US_12","type":"vmess","server":"germany1.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/XQ2WCa29jfDMGBcbnQ","headers":{"host":"germany1.yj2022.ga"}}}
-  - {"name":"🇺🇸_US\r_2","type":"ss","server":"45.56.118.40","port":29405,"password":"3751301064","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"undefined","type":"vmess","server":"cf.fovi.tk","port":2053,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}}}
-  - {"name":"🇨🇳_CN_3","type":"vmess","server":"cdn-cn.nekocloud.cn","port":18999,"cipher":"auto","uuid":"767ebf8c-3020-3e52-9109-4bdb49510842","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/catnet","headers":{"host":"cdn-cn.nekocloud.cn"}}}
-  - {"name":"美国-欢迎订阅【YouTube-由零開始】_2","type":"vmess","server":"v2ray.online","port":443,"cipher":"auto","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.v2ray.online"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_2","type":"vmess","server":"ip.sb","port":2095,"cipher":"auto","uuid":"d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"lin.d.sg.wyhkaa0.gq"}}}
+  - {"name":"中国-欢迎订阅【YouTube-由零開始】_2","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_SG\r","type":"trojan","server":"dl-sg2.steamdownload.top","port":50000,"udp":true,"password":"c30b14da-adac-4bb3-ac27-c5759d4890ac","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_3","type":"vmess","server":"drive.sg","port":2095,"cipher":"auto","uuid":"d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"lin.d.sg.wyhkaa0.gq"}}}
+  - {"name":"🇨🇳中国【YouTube-由零開始】_2","type":"vmess","server":"cdn-cn.nekocloud.cn","port":19029,"cipher":"auto","uuid":"767ebf8c-3020-3e52-9109-4bdb49510842","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/catnet","headers":{"host":"cdn-cn.nekocloud.cn"}}}
+  - {"name":"日本-欢迎订阅【YouTube-由零開始】","type":"vmess","server":"223.111.202.139","port":63086,"cipher":"auto","uuid":"cef94bbf-8bd7-3565-a1c8-0e311643e657","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mugua","headers":{"host":"jp-balancer.myn1des.com"}}}
+  - {"name":"🇨🇳中国【YouTube-由零開始】_3","type":"vmess","server":"103.45.78.147","port":10001,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_4","type":"vmess","server":"Tokyo.v2ray.online","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Tokyo.v2ray.online"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_5","type":"vmess","server":"no.aries.ovh","port":2052,"cipher":"auto","uuid":"88aa4851-2b1e-404c-a453-685f12489f9d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"ovh.cloudflare.quest"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_6","type":"vmess","server":"ping.pe","port":2095,"cipher":"auto","uuid":"d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"lin.d.sg.wyhkaa0.gq"}}}
+  - {"name":"美国-欢迎订阅【YouTube-由零開始】","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
+  - {"name":"🇺🇸_US_2","type":"vmess","server":"173.245.59.168","port":8080,"cipher":"auto","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/KTR","headers":{"host":"4.arvanktbr.store"}}}
+  - {"name":"🇺🇸_US_3","type":"vmess","server":"germany1.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/XQ2WCa29jfDMGBcbnQ","headers":{"host":"germany1.yj2022.ga"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_7","type":"vmess","server":"www.iproperty.com.sg","port":2095,"cipher":"auto","uuid":"d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"lin.d.sg.wyhkaa0.gq"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -47,31 +41,25 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 中国-欢迎订阅【YouTube-由零開始】_1
-      - 🇨🇳_CN_1
-      - "🇸🇬_SG\r"
-      - "🇨🇳_CN\r"
+      - 🇨🇳中国【YouTube-由零開始】_1
+      - "🇺🇸_US\r"
+      - 🇺🇸美国【YouTube-由零開始】_1
       - 🇺🇸_US_1
+      - US_youtube@资源分享师_62
+      - 🇺🇸美国【YouTube-由零開始】_2
       - 中国-欢迎订阅【YouTube-由零開始】_2
+      - "🇸🇬_SG\r"
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇨🇳中国【YouTube-由零開始】_2
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - 🇨🇳中国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - 美国-欢迎订阅【YouTube-由零開始】
       - 🇺🇸_US_2
       - 🇺🇸_US_3
-      - 🇺🇸_US_4
-      - 美国-欢迎订阅【YouTube-由零開始】_1
-      - 中国-欢迎订阅【YouTube-由零開始】_3
-      - 🇺🇸_US_5
-      - 🇺🇸_US_6
-      - US_youtube@资源分享师_62
-      - 🇺🇸_US_7
-      - "🇺🇸_US\r_1"
-      - 🇺🇸_US_8
-      - 🇺🇸_US_9
-      - 🇨🇳_CN_2
-      - 🇺🇸_US_10
-      - 🇺🇸_US_11
-      - 🇺🇸_US_12
-      - "🇺🇸_US\r_2"
-      - undefined
-      - 🇨🇳_CN_3
-      - 美国-欢迎订阅【YouTube-由零開始】_2
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -79,31 +67,25 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 中国-欢迎订阅【YouTube-由零開始】_1
-      - 🇨🇳_CN_1
-      - "🇸🇬_SG\r"
-      - "🇨🇳_CN\r"
+      - 🇨🇳中国【YouTube-由零開始】_1
+      - "🇺🇸_US\r"
+      - 🇺🇸美国【YouTube-由零開始】_1
       - 🇺🇸_US_1
+      - US_youtube@资源分享师_62
+      - 🇺🇸美国【YouTube-由零開始】_2
       - 中国-欢迎订阅【YouTube-由零開始】_2
+      - "🇸🇬_SG\r"
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇨🇳中国【YouTube-由零開始】_2
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - 🇨🇳中国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - 美国-欢迎订阅【YouTube-由零開始】
       - 🇺🇸_US_2
       - 🇺🇸_US_3
-      - 🇺🇸_US_4
-      - 美国-欢迎订阅【YouTube-由零開始】_1
-      - 中国-欢迎订阅【YouTube-由零開始】_3
-      - 🇺🇸_US_5
-      - 🇺🇸_US_6
-      - US_youtube@资源分享师_62
-      - 🇺🇸_US_7
-      - "🇺🇸_US\r_1"
-      - 🇺🇸_US_8
-      - 🇺🇸_US_9
-      - 🇨🇳_CN_2
-      - 🇺🇸_US_10
-      - 🇺🇸_US_11
-      - 🇺🇸_US_12
-      - "🇺🇸_US\r_2"
-      - undefined
-      - 🇨🇳_CN_3
-      - 美国-欢迎订阅【YouTube-由零開始】_2
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -111,124 +93,100 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 中国-欢迎订阅【YouTube-由零開始】_1
-      - 🇨🇳_CN_1
-      - "🇸🇬_SG\r"
-      - "🇨🇳_CN\r"
+      - 🇨🇳中国【YouTube-由零開始】_1
+      - "🇺🇸_US\r"
+      - 🇺🇸美国【YouTube-由零開始】_1
       - 🇺🇸_US_1
+      - US_youtube@资源分享师_62
+      - 🇺🇸美国【YouTube-由零開始】_2
       - 中国-欢迎订阅【YouTube-由零開始】_2
+      - "🇸🇬_SG\r"
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇨🇳中国【YouTube-由零開始】_2
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - 🇨🇳中国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - 美国-欢迎订阅【YouTube-由零開始】
       - 🇺🇸_US_2
       - 🇺🇸_US_3
-      - 🇺🇸_US_4
-      - 美国-欢迎订阅【YouTube-由零開始】_1
-      - 中国-欢迎订阅【YouTube-由零開始】_3
-      - 🇺🇸_US_5
-      - 🇺🇸_US_6
-      - US_youtube@资源分享师_62
-      - 🇺🇸_US_7
-      - "🇺🇸_US\r_1"
-      - 🇺🇸_US_8
-      - 🇺🇸_US_9
-      - 🇨🇳_CN_2
-      - 🇺🇸_US_10
-      - 🇺🇸_US_11
-      - 🇺🇸_US_12
-      - "🇺🇸_US\r_2"
-      - undefined
-      - 🇨🇳_CN_3
-      - 美国-欢迎订阅【YouTube-由零開始】_2
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 中国-欢迎订阅【YouTube-由零開始】_1
-      - 🇨🇳_CN_1
-      - "🇸🇬_SG\r"
-      - "🇨🇳_CN\r"
+      - 🇨🇳中国【YouTube-由零開始】_1
+      - "🇺🇸_US\r"
+      - 🇺🇸美国【YouTube-由零開始】_1
       - 🇺🇸_US_1
+      - US_youtube@资源分享师_62
+      - 🇺🇸美国【YouTube-由零開始】_2
       - 中国-欢迎订阅【YouTube-由零開始】_2
+      - "🇸🇬_SG\r"
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇨🇳中国【YouTube-由零開始】_2
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - 🇨🇳中国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - 美国-欢迎订阅【YouTube-由零開始】
       - 🇺🇸_US_2
       - 🇺🇸_US_3
-      - 🇺🇸_US_4
-      - 美国-欢迎订阅【YouTube-由零開始】_1
-      - 中国-欢迎订阅【YouTube-由零開始】_3
-      - 🇺🇸_US_5
-      - 🇺🇸_US_6
-      - US_youtube@资源分享师_62
-      - 🇺🇸_US_7
-      - "🇺🇸_US\r_1"
-      - 🇺🇸_US_8
-      - 🇺🇸_US_9
-      - 🇨🇳_CN_2
-      - 🇺🇸_US_10
-      - 🇺🇸_US_11
-      - 🇺🇸_US_12
-      - "🇺🇸_US\r_2"
-      - undefined
-      - 🇨🇳_CN_3
-      - 美国-欢迎订阅【YouTube-由零開始】_2
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 中国-欢迎订阅【YouTube-由零開始】_1
-      - 🇨🇳_CN_1
-      - "🇸🇬_SG\r"
-      - "🇨🇳_CN\r"
+      - 🇨🇳中国【YouTube-由零開始】_1
+      - "🇺🇸_US\r"
+      - 🇺🇸美国【YouTube-由零開始】_1
       - 🇺🇸_US_1
+      - US_youtube@资源分享师_62
+      - 🇺🇸美国【YouTube-由零開始】_2
       - 中国-欢迎订阅【YouTube-由零開始】_2
+      - "🇸🇬_SG\r"
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇨🇳中国【YouTube-由零開始】_2
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - 🇨🇳中国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - 美国-欢迎订阅【YouTube-由零開始】
       - 🇺🇸_US_2
       - 🇺🇸_US_3
-      - 🇺🇸_US_4
-      - 美国-欢迎订阅【YouTube-由零開始】_1
-      - 中国-欢迎订阅【YouTube-由零開始】_3
-      - 🇺🇸_US_5
-      - 🇺🇸_US_6
-      - US_youtube@资源分享师_62
-      - 🇺🇸_US_7
-      - "🇺🇸_US\r_1"
-      - 🇺🇸_US_8
-      - 🇺🇸_US_9
-      - 🇨🇳_CN_2
-      - 🇺🇸_US_10
-      - 🇺🇸_US_11
-      - 🇺🇸_US_12
-      - "🇺🇸_US\r_2"
-      - undefined
-      - 🇨🇳_CN_3
-      - 美国-欢迎订阅【YouTube-由零開始】_2
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 中国-欢迎订阅【YouTube-由零開始】_1
-      - 🇨🇳_CN_1
-      - "🇸🇬_SG\r"
-      - "🇨🇳_CN\r"
+      - 🇨🇳中国【YouTube-由零開始】_1
+      - "🇺🇸_US\r"
+      - 🇺🇸美国【YouTube-由零開始】_1
       - 🇺🇸_US_1
+      - US_youtube@资源分享师_62
+      - 🇺🇸美国【YouTube-由零開始】_2
       - 中国-欢迎订阅【YouTube-由零開始】_2
+      - "🇸🇬_SG\r"
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇨🇳中国【YouTube-由零開始】_2
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - 🇨🇳中国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - 美国-欢迎订阅【YouTube-由零開始】
       - 🇺🇸_US_2
       - 🇺🇸_US_3
-      - 🇺🇸_US_4
-      - 美国-欢迎订阅【YouTube-由零開始】_1
-      - 中国-欢迎订阅【YouTube-由零開始】_3
-      - 🇺🇸_US_5
-      - 🇺🇸_US_6
-      - US_youtube@资源分享师_62
-      - 🇺🇸_US_7
-      - "🇺🇸_US\r_1"
-      - 🇺🇸_US_8
-      - 🇺🇸_US_9
-      - 🇨🇳_CN_2
-      - 🇺🇸_US_10
-      - 🇺🇸_US_11
-      - 🇺🇸_US_12
-      - "🇺🇸_US\r_2"
-      - undefined
-      - 🇨🇳_CN_3
-      - 美国-欢迎订阅【YouTube-由零開始】_2
+      - 🇺🇸美国【YouTube-由零開始】_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,31 +210,25 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 中国-欢迎订阅【YouTube-由零開始】_1
-      - 🇨🇳_CN_1
-      - "🇸🇬_SG\r"
-      - "🇨🇳_CN\r"
+      - 🇨🇳中国【YouTube-由零開始】_1
+      - "🇺🇸_US\r"
+      - 🇺🇸美国【YouTube-由零開始】_1
       - 🇺🇸_US_1
+      - US_youtube@资源分享师_62
+      - 🇺🇸美国【YouTube-由零開始】_2
       - 中国-欢迎订阅【YouTube-由零開始】_2
+      - "🇸🇬_SG\r"
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇨🇳中国【YouTube-由零開始】_2
+      - 日本-欢迎订阅【YouTube-由零開始】
+      - 🇨🇳中国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - 美国-欢迎订阅【YouTube-由零開始】
       - 🇺🇸_US_2
       - 🇺🇸_US_3
-      - 🇺🇸_US_4
-      - 美国-欢迎订阅【YouTube-由零開始】_1
-      - 中国-欢迎订阅【YouTube-由零開始】_3
-      - 🇺🇸_US_5
-      - 🇺🇸_US_6
-      - US_youtube@资源分享师_62
-      - 🇺🇸_US_7
-      - "🇺🇸_US\r_1"
-      - 🇺🇸_US_8
-      - 🇺🇸_US_9
-      - 🇨🇳_CN_2
-      - 🇺🇸_US_10
-      - 🇺🇸_US_11
-      - 🇺🇸_US_12
-      - "🇺🇸_US\r_2"
-      - undefined
-      - 🇨🇳_CN_3
-      - 美国-欢迎订阅【YouTube-由零開始】_2
+      - 🇺🇸美国【YouTube-由零開始】_7
 
 rules:
 # 本地/局域网地址
