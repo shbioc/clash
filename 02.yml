@@ -14,165 +14,179 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇰🇷韩国【YouTube-由零開始】_1","type":"vmess","server":"130.162.134.218","port":47971,"cipher":"auto","uuid":"c66fe225-648d-4d6b-8d31-94dca65268a4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/www"}}
-  - {"name":"🇰🇷韩国【YouTube-由零開始】_2","type":"vmess","server":"130.162.134.218","port":443,"cipher":"auto","uuid":"417c5108-ef6b-49f0-a13d-8746fe6e204c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hgg"}}
-  - {"name":"🇨🇳_CN_欢迎订阅yui科技\r","type":"trojan","server":"us-cn-hk-relay-2-3cc426.ferryhwp8ebm.com","port":7302,"udp":true,"password":"f2fc982f-3462-11e9-96d3-020b85e0a428","sni":"us-2-571.duuk.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_欢迎订阅yui科技_1","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_欢迎订阅yui科技_1","type":"vmess","server":"us2.sanfen001.pics","port":443,"cipher":"auto","uuid":"e7d09c21-31af-4c4b-b9db-ad60d7497a65","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfen001.pics"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"b3259ac5-2662-4f8c-8c26-63fedb766aa9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yfjc/nl?ed=2048","headers":{"host":"nl.yfjc.sbs"}}}
-  - {"name":"🇨🇳_CN_欢迎订阅yui科技_2","type":"vmess","server":"39.103.165.178","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"youtube新知_74","type":"vmess","server":"uk01.wxfz.ga","port":443,"cipher":"auto","uuid":"11113310-1e54-445c-c608-7850f47edd1e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cctv13.m3u8","headers":{"host":"uk01.wxfz.ga"}}}
   - {"name":"🇨🇳中国【YouTube-由零開始】","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_欢迎订阅yui科技","type":"vmess","server":"39.103.165.178","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"youtube新知_45","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_1","type":"vmess","server":"154.v2ray3.xyz","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_2","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"aes-128-gcm","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp2.scproxy.top"}}}
+  - {"name":"youtube新知_44","type":"vmess","server":"lv2.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_3","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"b3259ac5-2662-4f8c-8c26-63fedb766aa9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yfjc/us3?ed=2048","headers":{"host":"us3.yfjc.sbs"}}}
+  - {"name":"🇺🇸_US_欢迎订阅yui科技_1","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_4","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca-nnc.ilovescp.com"}}}
   - {"name":"US_youtube@资源分享师_20\r","type":"vless","server":"cloudconebbb.sweetsweetsugar.ml","port":2083,"uuid":"0ea00f96-4d60-432d-b874-ab11943d0776","tls":true,"servername":"cloudconebbb.sweetsweetsugar.ml","network":"ws","ws-opts":{"path":"/cloudconebbb"}}
-  - {"name":"🇺🇸_US_欢迎订阅yui科技_2","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
-  - {"name":"🇰🇷韩国【YouTube-由零開始】\r_1","type":"vless","server":"130.162.134.218","port":43886,"uuid":"ac0a2880-df16-4b8a-a2f9-0d088bd21659","tls":false,"network":"ws","ws-opts":{"path":"/fh"}}
-  - {"name":"🇰🇷韩国【YouTube-由零開始】\r_2","type":"vless","server":"130.162.134.218","port":21372,"uuid":"967aa214-a1d4-46a4-9cbf-cecf88e9131b","tls":false,"network":"ws","ws-opts":{"path":"/jj"}}
-  - {"name":"🇭🇰_HK_欢迎订阅yui科技","type":"vmess","server":"43.155.102.33","port":55543,"cipher":"auto","uuid":"4592247e-1528-4943-8bf3-cd9bb58b31c0","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hk6/getData","headers":{"host":"hk6.verichains.co"}}}
-  - {"name":"🇺🇸_US_欢迎订阅yui科技_3","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
-  - {"name":"🇺🇸_US_欢迎订阅yui科技_4","type":"vmess","server":"news.microsoft.com","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
-  - {"name":"🇺🇸_US_欢迎订阅yui科技_5","type":"vmess","server":"cdn.imnibaba.tk","port":80,"cipher":"auto","uuid":"7e0e2fdf-a22b-40b2-b549-6259092126d3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"vc-de-1.imnibaba.tk"}}}
-  - {"name":"🇰🇷韩国【YouTube-由零開始】_3","type":"vmess","server":"130.162.134.218","port":80,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ww"}}
+  - {"name":"🇨🇳_CN_欢迎订阅yui科技\r","type":"trojan","server":"us-cn-hk-relay-2-3cc426.ferryhwp8ebm.com","port":7302,"udp":true,"password":"f2fc982f-3462-11e9-96d3-020b85e0a428","sni":"us-2-571.duuk.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷韩国【YouTube-由零開始】","type":"vmess","server":"130.162.134.218","port":80,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ww"}}
+  - {"name":"youtube新知_81","type":"vmess","server":"fr1.pqjc.buzz","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/pq/fr1?ed=2048","headers":{"host":"fr1.pqjc.buzz"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_5","type":"vmess","server":"154.v2ray3.xyz","port":443,"cipher":"none","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"🇺🇸_US_欢迎订阅yui科技_2","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_6","type":"vmess","server":"www.udemy.com","port":8080,"cipher":"auto","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}}}
+  - {"name":"youtube新知_60","type":"vmess","server":"els200.jslist.tk","port":8443,"cipher":"auto","uuid":"e30cfa80-bc2c-43df-e808-97876aee77e2","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wo.php","headers":{"host":"els200.jslist.tk"}}}
+  - {"name":"youtube新知_42","type":"vmess","server":"uk1.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"youtube新知_28\r","type":"trojan","server":"lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou","port":12346,"udp":true,"password":"001a5927-bcf7-368a-8a4d-cb8c2fd6aab5","sni":"oiugbalxawdfas.vzwzasc.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"youtube新知_153","type":"vmess","server":"cf.fovi.tk","port":2053,"cipher":"auto","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷韩国【YouTube-由零開始】_1
-      - 🇰🇷韩国【YouTube-由零開始】_2
-      - "🇨🇳_CN_欢迎订阅yui科技\r"
-      - 🇨🇳_CN_欢迎订阅yui科技_1
-      - 🇺🇸_US_欢迎订阅yui科技_1
-      - 🇺🇸美国【YouTube-由零開始】
-      - 🇨🇳_CN_欢迎订阅yui科技_2
-      - youtube新知_74
       - 🇨🇳中国【YouTube-由零開始】
+      - 🇨🇳_CN_欢迎订阅yui科技
+      - youtube新知_45
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_2
+      - youtube新知_44
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸_US_欢迎订阅yui科技_1
+      - 🇺🇸美国【YouTube-由零開始】_4
       - "US_youtube@资源分享师_20\r"
+      - "🇨🇳_CN_欢迎订阅yui科技\r"
+      - 🇰🇷韩国【YouTube-由零開始】
+      - youtube新知_81
+      - 🇺🇸美国【YouTube-由零開始】_5
       - 🇺🇸_US_欢迎订阅yui科技_2
-      - "🇰🇷韩国【YouTube-由零開始】\r_1"
-      - "🇰🇷韩国【YouTube-由零開始】\r_2"
-      - 🇭🇰_HK_欢迎订阅yui科技
-      - 🇺🇸_US_欢迎订阅yui科技_3
-      - 🇺🇸_US_欢迎订阅yui科技_4
-      - 🇺🇸_US_欢迎订阅yui科技_5
-      - 🇰🇷韩国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - youtube新知_60
+      - youtube新知_42
+      - "youtube新知_28\r"
+      - youtube新知_153
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷韩国【YouTube-由零開始】_1
-      - 🇰🇷韩国【YouTube-由零開始】_2
-      - "🇨🇳_CN_欢迎订阅yui科技\r"
-      - 🇨🇳_CN_欢迎订阅yui科技_1
-      - 🇺🇸_US_欢迎订阅yui科技_1
-      - 🇺🇸美国【YouTube-由零開始】
-      - 🇨🇳_CN_欢迎订阅yui科技_2
-      - youtube新知_74
       - 🇨🇳中国【YouTube-由零開始】
+      - 🇨🇳_CN_欢迎订阅yui科技
+      - youtube新知_45
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_2
+      - youtube新知_44
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸_US_欢迎订阅yui科技_1
+      - 🇺🇸美国【YouTube-由零開始】_4
       - "US_youtube@资源分享师_20\r"
+      - "🇨🇳_CN_欢迎订阅yui科技\r"
+      - 🇰🇷韩国【YouTube-由零開始】
+      - youtube新知_81
+      - 🇺🇸美国【YouTube-由零開始】_5
       - 🇺🇸_US_欢迎订阅yui科技_2
-      - "🇰🇷韩国【YouTube-由零開始】\r_1"
-      - "🇰🇷韩国【YouTube-由零開始】\r_2"
-      - 🇭🇰_HK_欢迎订阅yui科技
-      - 🇺🇸_US_欢迎订阅yui科技_3
-      - 🇺🇸_US_欢迎订阅yui科技_4
-      - 🇺🇸_US_欢迎订阅yui科技_5
-      - 🇰🇷韩国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - youtube新知_60
+      - youtube新知_42
+      - "youtube新知_28\r"
+      - youtube新知_153
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷韩国【YouTube-由零開始】_1
-      - 🇰🇷韩国【YouTube-由零開始】_2
-      - "🇨🇳_CN_欢迎订阅yui科技\r"
-      - 🇨🇳_CN_欢迎订阅yui科技_1
-      - 🇺🇸_US_欢迎订阅yui科技_1
-      - 🇺🇸美国【YouTube-由零開始】
-      - 🇨🇳_CN_欢迎订阅yui科技_2
-      - youtube新知_74
       - 🇨🇳中国【YouTube-由零開始】
+      - 🇨🇳_CN_欢迎订阅yui科技
+      - youtube新知_45
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_2
+      - youtube新知_44
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸_US_欢迎订阅yui科技_1
+      - 🇺🇸美国【YouTube-由零開始】_4
       - "US_youtube@资源分享师_20\r"
+      - "🇨🇳_CN_欢迎订阅yui科技\r"
+      - 🇰🇷韩国【YouTube-由零開始】
+      - youtube新知_81
+      - 🇺🇸美国【YouTube-由零開始】_5
       - 🇺🇸_US_欢迎订阅yui科技_2
-      - "🇰🇷韩国【YouTube-由零開始】\r_1"
-      - "🇰🇷韩国【YouTube-由零開始】\r_2"
-      - 🇭🇰_HK_欢迎订阅yui科技
-      - 🇺🇸_US_欢迎订阅yui科技_3
-      - 🇺🇸_US_欢迎订阅yui科技_4
-      - 🇺🇸_US_欢迎订阅yui科技_5
-      - 🇰🇷韩国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - youtube新知_60
+      - youtube新知_42
+      - "youtube新知_28\r"
+      - youtube新知_153
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷韩国【YouTube-由零開始】_1
-      - 🇰🇷韩国【YouTube-由零開始】_2
-      - "🇨🇳_CN_欢迎订阅yui科技\r"
-      - 🇨🇳_CN_欢迎订阅yui科技_1
-      - 🇺🇸_US_欢迎订阅yui科技_1
-      - 🇺🇸美国【YouTube-由零開始】
-      - 🇨🇳_CN_欢迎订阅yui科技_2
-      - youtube新知_74
       - 🇨🇳中国【YouTube-由零開始】
+      - 🇨🇳_CN_欢迎订阅yui科技
+      - youtube新知_45
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_2
+      - youtube新知_44
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸_US_欢迎订阅yui科技_1
+      - 🇺🇸美国【YouTube-由零開始】_4
       - "US_youtube@资源分享师_20\r"
+      - "🇨🇳_CN_欢迎订阅yui科技\r"
+      - 🇰🇷韩国【YouTube-由零開始】
+      - youtube新知_81
+      - 🇺🇸美国【YouTube-由零開始】_5
       - 🇺🇸_US_欢迎订阅yui科技_2
-      - "🇰🇷韩国【YouTube-由零開始】\r_1"
-      - "🇰🇷韩国【YouTube-由零開始】\r_2"
-      - 🇭🇰_HK_欢迎订阅yui科技
-      - 🇺🇸_US_欢迎订阅yui科技_3
-      - 🇺🇸_US_欢迎订阅yui科技_4
-      - 🇺🇸_US_欢迎订阅yui科技_5
-      - 🇰🇷韩国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - youtube新知_60
+      - youtube新知_42
+      - "youtube新知_28\r"
+      - youtube新知_153
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷韩国【YouTube-由零開始】_1
-      - 🇰🇷韩国【YouTube-由零開始】_2
-      - "🇨🇳_CN_欢迎订阅yui科技\r"
-      - 🇨🇳_CN_欢迎订阅yui科技_1
-      - 🇺🇸_US_欢迎订阅yui科技_1
-      - 🇺🇸美国【YouTube-由零開始】
-      - 🇨🇳_CN_欢迎订阅yui科技_2
-      - youtube新知_74
       - 🇨🇳中国【YouTube-由零開始】
+      - 🇨🇳_CN_欢迎订阅yui科技
+      - youtube新知_45
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_2
+      - youtube新知_44
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸_US_欢迎订阅yui科技_1
+      - 🇺🇸美国【YouTube-由零開始】_4
       - "US_youtube@资源分享师_20\r"
+      - "🇨🇳_CN_欢迎订阅yui科技\r"
+      - 🇰🇷韩国【YouTube-由零開始】
+      - youtube新知_81
+      - 🇺🇸美国【YouTube-由零開始】_5
       - 🇺🇸_US_欢迎订阅yui科技_2
-      - "🇰🇷韩国【YouTube-由零開始】\r_1"
-      - "🇰🇷韩国【YouTube-由零開始】\r_2"
-      - 🇭🇰_HK_欢迎订阅yui科技
-      - 🇺🇸_US_欢迎订阅yui科技_3
-      - 🇺🇸_US_欢迎订阅yui科技_4
-      - 🇺🇸_US_欢迎订阅yui科技_5
-      - 🇰🇷韩国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - youtube新知_60
+      - youtube新知_42
+      - "youtube新知_28\r"
+      - youtube新知_153
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷韩国【YouTube-由零開始】_1
-      - 🇰🇷韩国【YouTube-由零開始】_2
-      - "🇨🇳_CN_欢迎订阅yui科技\r"
-      - 🇨🇳_CN_欢迎订阅yui科技_1
-      - 🇺🇸_US_欢迎订阅yui科技_1
-      - 🇺🇸美国【YouTube-由零開始】
-      - 🇨🇳_CN_欢迎订阅yui科技_2
-      - youtube新知_74
       - 🇨🇳中国【YouTube-由零開始】
+      - 🇨🇳_CN_欢迎订阅yui科技
+      - youtube新知_45
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_2
+      - youtube新知_44
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸_US_欢迎订阅yui科技_1
+      - 🇺🇸美国【YouTube-由零開始】_4
       - "US_youtube@资源分享师_20\r"
+      - "🇨🇳_CN_欢迎订阅yui科技\r"
+      - 🇰🇷韩国【YouTube-由零開始】
+      - youtube新知_81
+      - 🇺🇸美国【YouTube-由零開始】_5
       - 🇺🇸_US_欢迎订阅yui科技_2
-      - "🇰🇷韩国【YouTube-由零開始】\r_1"
-      - "🇰🇷韩国【YouTube-由零開始】\r_2"
-      - 🇭🇰_HK_欢迎订阅yui科技
-      - 🇺🇸_US_欢迎订阅yui科技_3
-      - 🇺🇸_US_欢迎订阅yui科技_4
-      - 🇺🇸_US_欢迎订阅yui科技_5
-      - 🇰🇷韩国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - youtube新知_60
+      - youtube新知_42
+      - "youtube新知_28\r"
+      - youtube新知_153
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -195,24 +209,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷韩国【YouTube-由零開始】_1
-      - 🇰🇷韩国【YouTube-由零開始】_2
-      - "🇨🇳_CN_欢迎订阅yui科技\r"
-      - 🇨🇳_CN_欢迎订阅yui科技_1
-      - 🇺🇸_US_欢迎订阅yui科技_1
-      - 🇺🇸美国【YouTube-由零開始】
-      - 🇨🇳_CN_欢迎订阅yui科技_2
-      - youtube新知_74
       - 🇨🇳中国【YouTube-由零開始】
+      - 🇨🇳_CN_欢迎订阅yui科技
+      - youtube新知_45
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇺🇸美国【YouTube-由零開始】_2
+      - youtube新知_44
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸_US_欢迎订阅yui科技_1
+      - 🇺🇸美国【YouTube-由零開始】_4
       - "US_youtube@资源分享师_20\r"
+      - "🇨🇳_CN_欢迎订阅yui科技\r"
+      - 🇰🇷韩国【YouTube-由零開始】
+      - youtube新知_81
+      - 🇺🇸美国【YouTube-由零開始】_5
       - 🇺🇸_US_欢迎订阅yui科技_2
-      - "🇰🇷韩国【YouTube-由零開始】\r_1"
-      - "🇰🇷韩国【YouTube-由零開始】\r_2"
-      - 🇭🇰_HK_欢迎订阅yui科技
-      - 🇺🇸_US_欢迎订阅yui科技_3
-      - 🇺🇸_US_欢迎订阅yui科技_4
-      - 🇺🇸_US_欢迎订阅yui科技_5
-      - 🇰🇷韩国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_6
+      - youtube新知_60
+      - youtube新知_42
+      - "youtube新知_28\r"
+      - youtube新知_153
 
 rules:
 # 本地/局域网地址
