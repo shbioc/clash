@@ -14,235 +14,221 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"youtube新知_130","type":"vmess","server":"162.159.128.1","port":8880,"cipher":"auto","uuid":"b09be280-8693-47f0-dac9-e5833f12605d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cs.llaqqccjj.top"}}}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_100","type":"vmess","server":"no.aries.ovh","port":2052,"cipher":"auto","uuid":"ba1b14e5-33ad-46df-8116-a2935e712a2f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"fr.cloudflare.quest"}}}
-  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_39","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"jp1.scproxy.top"}}}
-  - {"name":"🇨🇳_CN_欢迎订阅yui科技","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_67","type":"vmess","server":"lsb-gy.heinu.cf","port":2095,"cipher":"auto","uuid":"1eda6b95-f248-4f3b-ae10-d7503415a788","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@heinuhome","headers":{"host":"lsb-gy.heinu.cf"}}}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_35","type":"vmess","server":"v2ray.webgfw.top","port":2096,"cipher":"auto","uuid":"afc92f6d-b33d-4bc1-9a34-97c9cced07c2","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/xWP5bQtI/"}}
-  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_76","type":"vmess","server":"quiz.vidio.com","port":8080,"cipher":"auto","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}}}
-  - {"name":"youtube新知_128","type":"vmess","server":"52.206.180.173","port":443,"cipher":"auto","uuid":"f6dd096d-a22b-45b9-b39b-0552d956d920","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"52.206.180.173"}}}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7","type":"vmess","server":"jp1.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r","type":"vless","server":"cloudconebbb.sweetsweetsugar.ml","port":2083,"uuid":"0ea00f96-4d60-432d-b874-ab11943d0776","tls":true,"servername":"cloudconebbb.sweetsweetsugar.ml","network":"ws","ws-opts":{"path":"/cloudconebbb"}}
-  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_157","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e1340e0b-3a70-4f10-9318-69b2107d748a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/kbjc/us4","headers":{"host":"us4.hnokkdf.top"}}}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_55","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"aes-128-gcm","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"🇧🇿_BZ_伯利兹_欢迎订阅yui科技_58","type":"vmess","server":"203.30.188.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_1","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_75","type":"vmess","server":"cf.bakapie.cf","port":2096,"cipher":"auto","uuid":"cae6201f-50fe-4895-8930-841f1d8c4eb7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/index","headers":{"host":"1076a8af.ikunxiao.top"}}}
-  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_78","type":"vmess","server":"162.159.133.98","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/pq/nl1?ed=2048","headers":{"host":"nl1.pqjc.buzz"}}}
-  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_64","type":"vmess","server":"114c.p9966.shop","port":443,"cipher":"auto","uuid":"14bc30c2-763f-4b06-9378-15d6d32d4500","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":"114c.p9966.shop"}}}
   - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_20","type":"vmess","server":"lv3.sharecentrepro.org","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
-  - {"name":"youtube新知_117","type":"vmess","server":"8.219.172.35","port":8443,"cipher":"auto","uuid":"bc74505c-4fb7-46a8-fc23-4c4961ec1e17","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.twitter.now.cc"}}}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_58","type":"vmess","server":"172.67.5.14","port":8080,"cipher":"auto","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}}}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_28","type":"vmess","server":"de1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"de1.sharecentrepro.org"}}}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_50","type":"vmess","server":"lsb-gy.heinu.cf","port":2096,"cipher":"auto","uuid":"d793c013-f596-4af9-de0a-2062bb864dd7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@heinuhome","headers":{"host":"lsb-gy.heinu.cf"}}}
-  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_221","type":"vmess","server":"PVR7.v9966.shop","port":443,"cipher":"auto","uuid":"06bf7630-c1b9-11ed-b136-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"PVR7.v9966.shop","headers":{"host":"PVR7.v9966.shop"}}}
-  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_154","type":"vmess","server":"lv1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
-  - {"name":"youtube新知_126","type":"vmess","server":"172.66.41.99","port":443,"cipher":"auto","uuid":"44bab30b-d1da-40b4-b65d-e0a3a98c0de6","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"ss.239000.xyz"}}}
-  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_62","type":"vmess","server":"www.udemy.com","port":8080,"cipher":"auto","uuid":"397489e0-a0b4-11ed-b443-1577c1651679","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sg-ovh2.1server.co"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_2","type":"vmess","server":"141.193.213.21","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
-  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_83","type":"vmess","server":"172.67.219.5","port":443,"cipher":"auto","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.v2ray.online"}}}
+  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r","type":"vless","server":"cloudconebbb.sweetsweetsugar.ml","port":2083,"uuid":"0ea00f96-4d60-432d-b874-ab11943d0776","tls":true,"servername":"cloudconebbb.sweetsweetsugar.ml","network":"ws","ws-opts":{"path":"/cloudconebbb"}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_1","type":"vmess","server":"172.67.147.152","port":443,"cipher":"auto","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cutin","headers":{"host":"chat.samrg.buzz"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_2","type":"vmess","server":"us1.sharecentrepro.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"us1.sharecentrepro.com"}}}
+  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7","type":"vmess","server":"jp1.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_3","type":"vmess","server":"172.67.201.204","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_4","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_5","type":"vmess","server":"chat.samrg.buzz","port":443,"cipher":"auto","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":1,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cutin","headers":{"host":"chat.samrg.buzz"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_6","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_7","type":"vmess","server":"172.67.147.153","port":443,"cipher":"auto","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cutin","headers":{"host":"chat.samrg.buzz"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_8","type":"vmess","server":"lv1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
+  - {"name":"【YouTube-由零開始】🇷🇴罗马尼亚_1","type":"vmess","server":"45.85.118.22","port":443,"cipher":"auto","uuid":"06160bab-c401-4460-b987-ae38520eca69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"akbar.nanoravro.ml"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_9","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"aes-128-gcm","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"us1.sharecentrepro.com"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_1","type":"vmess","server":"cf.515188.xyz","port":8080,"cipher":"auto","uuid":"f18ae581-c597-4644-a1d9-b248a899b3bd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v10.asuka.buzz"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_10","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"us1.sharecentrepro.com"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_11","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"none","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker"}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_12","type":"vmess","server":"bomb2.arsalantau.com","port":8880,"cipher":"auto","uuid":"3e158c75-216b-4c62-dbf7-7766ea9fc285","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"bomb2.arsalantau.com"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国_13","type":"vmess","server":"Tokyo.v2ray.online","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Tokyo.v2ray.online"}}}
+  - {"name":"【YouTube-由零開始】🇷🇴罗马尼亚_2","type":"vmess","server":"mtn.ircf.space","port":443,"cipher":"auto","uuid":"06160bab-c401-4460-b987-ae38520eca69","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"naaser.nanoravro.ml"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_2","type":"vmess","server":"no.aries.ovh","port":2052,"cipher":"auto","uuid":"ba1b14e5-33ad-46df-8116-a2935e712a2f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"buyvm.cloudflare.quest"}}}
+  - {"name":"【YouTube-由零開始】🇰🇷韩国","type":"vmess","server":"130.162.134.218","port":47971,"cipher":"auto","uuid":"c66fe225-648d-4d6b-8d31-94dca65268a4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/www"}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_3","type":"vmess","server":"v2ray.webgfw.top","port":2096,"cipher":"auto","uuid":"98e6d475-d9be-456c-a0ac-30864e07fd41","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/xWP5bQtI/","headers":{"host":"v2ray.webgfw.top"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_4","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
+  - {"name":"🇺🇸_US_美国_欢迎订阅yui科技_157","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e1340e0b-3a70-4f10-9318-69b2107d748a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/kbjc/us4","headers":{"host":"us4.hnokkdf.top"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_5","type":"vmess","server":"v2ray3.ibgfw.top","port":2083,"cipher":"auto","uuid":"839fda8c-620a-443d-bbdb-454807bd940f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/LbRDKd7G/"}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_6","type":"vmess","server":"162.159.133.98","port":443,"cipher":"auto","uuid":"27509613-bbd5-403a-868c-8022d36aa565","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/pq/nl1?ed=2048","headers":{"host":"nl1.pqjc.buzz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - youtube新知_130
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_100
-      - 🇺🇸_US_美国_欢迎订阅yui科技_39
-      - 🇨🇳_CN_欢迎订阅yui科技
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_67
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_35
-      - 🇺🇸_US_美国_欢迎订阅yui科技_76
-      - youtube新知_128
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
-      - 🇺🇸_US_美国_欢迎订阅yui科技_157
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_55
-      - 🇧🇿_BZ_伯利兹_欢迎订阅yui科技_58
-      - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸_US_美国_欢迎订阅yui科技_75
-      - 🇺🇸_US_美国_欢迎订阅yui科技_78
-      - 🇺🇸_US_美国_欢迎订阅yui科技_64
       - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_20
-      - youtube新知_117
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_58
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_28
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_50
-      - 🇺🇸_US_美国_欢迎订阅yui科技_221
-      - 🇺🇸_US_美国_欢迎订阅yui科技_154
-      - youtube新知_126
-      - 🇺🇸_US_美国_欢迎订阅yui科技_62
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
+      - 【YouTube-由零開始】🇺🇸美国_1
+      - 【YouTube-由零開始】🇺🇸美国_2
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
+      - 【YouTube-由零開始】🇺🇸美国_3
+      - 【YouTube-由零開始】🇺🇸美国_4
+      - 【YouTube-由零開始】🇺🇸美国_5
+      - 【YouTube-由零開始】🇺🇸美国_6
+      - 【YouTube-由零開始】🇺🇸美国_7
+      - 【YouTube-由零開始】🇺🇸美国_8
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_1
+      - 【YouTube-由零開始】🇺🇸美国_9
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 【YouTube-由零開始】🇺🇸美国_10
+      - 【YouTube-由零開始】🇺🇸美国_11
+      - 【YouTube-由零開始】🇺🇸美国_12
+      - 【YouTube-由零開始】🇺🇸美国_13
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_2
       - 🇺🇸美国【YouTube-由零開始】_2
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_83
+      - 【YouTube-由零開始】🇰🇷韩国
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸_US_美国_欢迎订阅yui科技_157
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - youtube新知_130
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_100
-      - 🇺🇸_US_美国_欢迎订阅yui科技_39
-      - 🇨🇳_CN_欢迎订阅yui科技
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_67
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_35
-      - 🇺🇸_US_美国_欢迎订阅yui科技_76
-      - youtube新知_128
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
-      - 🇺🇸_US_美国_欢迎订阅yui科技_157
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_55
-      - 🇧🇿_BZ_伯利兹_欢迎订阅yui科技_58
-      - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸_US_美国_欢迎订阅yui科技_75
-      - 🇺🇸_US_美国_欢迎订阅yui科技_78
-      - 🇺🇸_US_美国_欢迎订阅yui科技_64
       - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_20
-      - youtube新知_117
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_58
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_28
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_50
-      - 🇺🇸_US_美国_欢迎订阅yui科技_221
-      - 🇺🇸_US_美国_欢迎订阅yui科技_154
-      - youtube新知_126
-      - 🇺🇸_US_美国_欢迎订阅yui科技_62
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
+      - 【YouTube-由零開始】🇺🇸美国_1
+      - 【YouTube-由零開始】🇺🇸美国_2
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
+      - 【YouTube-由零開始】🇺🇸美国_3
+      - 【YouTube-由零開始】🇺🇸美国_4
+      - 【YouTube-由零開始】🇺🇸美国_5
+      - 【YouTube-由零開始】🇺🇸美国_6
+      - 【YouTube-由零開始】🇺🇸美国_7
+      - 【YouTube-由零開始】🇺🇸美国_8
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_1
+      - 【YouTube-由零開始】🇺🇸美国_9
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 【YouTube-由零開始】🇺🇸美国_10
+      - 【YouTube-由零開始】🇺🇸美国_11
+      - 【YouTube-由零開始】🇺🇸美国_12
+      - 【YouTube-由零開始】🇺🇸美国_13
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_2
       - 🇺🇸美国【YouTube-由零開始】_2
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_83
+      - 【YouTube-由零開始】🇰🇷韩国
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸_US_美国_欢迎订阅yui科技_157
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - youtube新知_130
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_100
-      - 🇺🇸_US_美国_欢迎订阅yui科技_39
-      - 🇨🇳_CN_欢迎订阅yui科技
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_67
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_35
-      - 🇺🇸_US_美国_欢迎订阅yui科技_76
-      - youtube新知_128
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
-      - 🇺🇸_US_美国_欢迎订阅yui科技_157
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_55
-      - 🇧🇿_BZ_伯利兹_欢迎订阅yui科技_58
-      - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸_US_美国_欢迎订阅yui科技_75
-      - 🇺🇸_US_美国_欢迎订阅yui科技_78
-      - 🇺🇸_US_美国_欢迎订阅yui科技_64
       - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_20
-      - youtube新知_117
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_58
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_28
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_50
-      - 🇺🇸_US_美国_欢迎订阅yui科技_221
-      - 🇺🇸_US_美国_欢迎订阅yui科技_154
-      - youtube新知_126
-      - 🇺🇸_US_美国_欢迎订阅yui科技_62
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
+      - 【YouTube-由零開始】🇺🇸美国_1
+      - 【YouTube-由零開始】🇺🇸美国_2
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
+      - 【YouTube-由零開始】🇺🇸美国_3
+      - 【YouTube-由零開始】🇺🇸美国_4
+      - 【YouTube-由零開始】🇺🇸美国_5
+      - 【YouTube-由零開始】🇺🇸美国_6
+      - 【YouTube-由零開始】🇺🇸美国_7
+      - 【YouTube-由零開始】🇺🇸美国_8
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_1
+      - 【YouTube-由零開始】🇺🇸美国_9
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 【YouTube-由零開始】🇺🇸美国_10
+      - 【YouTube-由零開始】🇺🇸美国_11
+      - 【YouTube-由零開始】🇺🇸美国_12
+      - 【YouTube-由零開始】🇺🇸美国_13
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_2
       - 🇺🇸美国【YouTube-由零開始】_2
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_83
+      - 【YouTube-由零開始】🇰🇷韩国
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸_US_美国_欢迎订阅yui科技_157
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - youtube新知_130
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_100
-      - 🇺🇸_US_美国_欢迎订阅yui科技_39
-      - 🇨🇳_CN_欢迎订阅yui科技
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_67
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_35
-      - 🇺🇸_US_美国_欢迎订阅yui科技_76
-      - youtube新知_128
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
-      - 🇺🇸_US_美国_欢迎订阅yui科技_157
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_55
-      - 🇧🇿_BZ_伯利兹_欢迎订阅yui科技_58
-      - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸_US_美国_欢迎订阅yui科技_75
-      - 🇺🇸_US_美国_欢迎订阅yui科技_78
-      - 🇺🇸_US_美国_欢迎订阅yui科技_64
       - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_20
-      - youtube新知_117
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_58
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_28
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_50
-      - 🇺🇸_US_美国_欢迎订阅yui科技_221
-      - 🇺🇸_US_美国_欢迎订阅yui科技_154
-      - youtube新知_126
-      - 🇺🇸_US_美国_欢迎订阅yui科技_62
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
+      - 【YouTube-由零開始】🇺🇸美国_1
+      - 【YouTube-由零開始】🇺🇸美国_2
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
+      - 【YouTube-由零開始】🇺🇸美国_3
+      - 【YouTube-由零開始】🇺🇸美国_4
+      - 【YouTube-由零開始】🇺🇸美国_5
+      - 【YouTube-由零開始】🇺🇸美国_6
+      - 【YouTube-由零開始】🇺🇸美国_7
+      - 【YouTube-由零開始】🇺🇸美国_8
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_1
+      - 【YouTube-由零開始】🇺🇸美国_9
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 【YouTube-由零開始】🇺🇸美国_10
+      - 【YouTube-由零開始】🇺🇸美国_11
+      - 【YouTube-由零開始】🇺🇸美国_12
+      - 【YouTube-由零開始】🇺🇸美国_13
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_2
       - 🇺🇸美国【YouTube-由零開始】_2
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_83
+      - 【YouTube-由零開始】🇰🇷韩国
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸_US_美国_欢迎订阅yui科技_157
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - youtube新知_130
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_100
-      - 🇺🇸_US_美国_欢迎订阅yui科技_39
-      - 🇨🇳_CN_欢迎订阅yui科技
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_67
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_35
-      - 🇺🇸_US_美国_欢迎订阅yui科技_76
-      - youtube新知_128
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
-      - 🇺🇸_US_美国_欢迎订阅yui科技_157
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_55
-      - 🇧🇿_BZ_伯利兹_欢迎订阅yui科技_58
-      - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸_US_美国_欢迎订阅yui科技_75
-      - 🇺🇸_US_美国_欢迎订阅yui科技_78
-      - 🇺🇸_US_美国_欢迎订阅yui科技_64
       - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_20
-      - youtube新知_117
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_58
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_28
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_50
-      - 🇺🇸_US_美国_欢迎订阅yui科技_221
-      - 🇺🇸_US_美国_欢迎订阅yui科技_154
-      - youtube新知_126
-      - 🇺🇸_US_美国_欢迎订阅yui科技_62
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
+      - 【YouTube-由零開始】🇺🇸美国_1
+      - 【YouTube-由零開始】🇺🇸美国_2
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
+      - 【YouTube-由零開始】🇺🇸美国_3
+      - 【YouTube-由零開始】🇺🇸美国_4
+      - 【YouTube-由零開始】🇺🇸美国_5
+      - 【YouTube-由零開始】🇺🇸美国_6
+      - 【YouTube-由零開始】🇺🇸美国_7
+      - 【YouTube-由零開始】🇺🇸美国_8
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_1
+      - 【YouTube-由零開始】🇺🇸美国_9
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 【YouTube-由零開始】🇺🇸美国_10
+      - 【YouTube-由零開始】🇺🇸美国_11
+      - 【YouTube-由零開始】🇺🇸美国_12
+      - 【YouTube-由零開始】🇺🇸美国_13
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_2
       - 🇺🇸美国【YouTube-由零開始】_2
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_83
+      - 【YouTube-由零開始】🇰🇷韩国
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸_US_美国_欢迎订阅yui科技_157
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - youtube新知_130
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_100
-      - 🇺🇸_US_美国_欢迎订阅yui科技_39
-      - 🇨🇳_CN_欢迎订阅yui科技
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_67
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_35
-      - 🇺🇸_US_美国_欢迎订阅yui科技_76
-      - youtube新知_128
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
-      - 🇺🇸_US_美国_欢迎订阅yui科技_157
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_55
-      - 🇧🇿_BZ_伯利兹_欢迎订阅yui科技_58
-      - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸_US_美国_欢迎订阅yui科技_75
-      - 🇺🇸_US_美国_欢迎订阅yui科技_78
-      - 🇺🇸_US_美国_欢迎订阅yui科技_64
       - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_20
-      - youtube新知_117
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_58
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_28
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_50
-      - 🇺🇸_US_美国_欢迎订阅yui科技_221
-      - 🇺🇸_US_美国_欢迎订阅yui科技_154
-      - youtube新知_126
-      - 🇺🇸_US_美国_欢迎订阅yui科技_62
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
+      - 【YouTube-由零開始】🇺🇸美国_1
+      - 【YouTube-由零開始】🇺🇸美国_2
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
+      - 【YouTube-由零開始】🇺🇸美国_3
+      - 【YouTube-由零開始】🇺🇸美国_4
+      - 【YouTube-由零開始】🇺🇸美国_5
+      - 【YouTube-由零開始】🇺🇸美国_6
+      - 【YouTube-由零開始】🇺🇸美国_7
+      - 【YouTube-由零開始】🇺🇸美国_8
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_1
+      - 【YouTube-由零開始】🇺🇸美国_9
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 【YouTube-由零開始】🇺🇸美国_10
+      - 【YouTube-由零開始】🇺🇸美国_11
+      - 【YouTube-由零開始】🇺🇸美国_12
+      - 【YouTube-由零開始】🇺🇸美国_13
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_2
       - 🇺🇸美国【YouTube-由零開始】_2
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_83
+      - 【YouTube-由零開始】🇰🇷韩国
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸_US_美国_欢迎订阅yui科技_157
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -265,34 +251,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - youtube新知_130
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_100
-      - 🇺🇸_US_美国_欢迎订阅yui科技_39
-      - 🇨🇳_CN_欢迎订阅yui科技
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_67
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_35
-      - 🇺🇸_US_美国_欢迎订阅yui科技_76
-      - youtube新知_128
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
-      - 🇺🇸_US_美国_欢迎订阅yui科技_157
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_55
-      - 🇧🇿_BZ_伯利兹_欢迎订阅yui科技_58
-      - 🇺🇸美国【YouTube-由零開始】_1
-      - 🇺🇸_US_美国_欢迎订阅yui科技_75
-      - 🇺🇸_US_美国_欢迎订阅yui科技_78
-      - 🇺🇸_US_美国_欢迎订阅yui科技_64
       - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_20
-      - youtube新知_117
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_58
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_28
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_50
-      - 🇺🇸_US_美国_欢迎订阅yui科技_221
-      - 🇺🇸_US_美国_欢迎订阅yui科技_154
-      - youtube新知_126
-      - 🇺🇸_US_美国_欢迎订阅yui科技_62
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_20\r"
+      - 【YouTube-由零開始】🇺🇸美国_1
+      - 【YouTube-由零開始】🇺🇸美国_2
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
+      - 【YouTube-由零開始】🇺🇸美国_3
+      - 【YouTube-由零開始】🇺🇸美国_4
+      - 【YouTube-由零開始】🇺🇸美国_5
+      - 【YouTube-由零開始】🇺🇸美国_6
+      - 【YouTube-由零開始】🇺🇸美国_7
+      - 【YouTube-由零開始】🇺🇸美国_8
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_1
+      - 【YouTube-由零開始】🇺🇸美国_9
+      - 🇺🇸美国【YouTube-由零開始】_1
+      - 【YouTube-由零開始】🇺🇸美国_10
+      - 【YouTube-由零開始】🇺🇸美国_11
+      - 【YouTube-由零開始】🇺🇸美国_12
+      - 【YouTube-由零開始】🇺🇸美国_13
+      - 【YouTube-由零開始】🇷🇴罗马尼亚_2
       - 🇺🇸美国【YouTube-由零開始】_2
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_83
+      - 【YouTube-由零開始】🇰🇷韩国
+      - 🇺🇸美国【YouTube-由零開始】_3
+      - 🇺🇸美国【YouTube-由零開始】_4
+      - 🇺🇸_US_美国_欢迎订阅yui科技_157
+      - 🇺🇸美国【YouTube-由零開始】_5
+      - 🇺🇸美国【YouTube-由零開始】_6
 
 rules:
 # 本地/局域网地址
