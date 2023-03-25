@@ -14,130 +14,207 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"韩国自建【YouTube-由零開始】","type":"vmess","server":"kr.liill2022.gq","port":42411,"cipher":"auto","uuid":"417c5108-ef6b-49f0-a13d-8746fe6e204c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 2","type":"vmess","server":"130.162.143.109","port":1453,"cipher":"auto","uuid":"6aeba368-896c-425d-fa32-3b7bfed3b9df","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 3","type":"vmess","server":"130.162.143.109","port":42422,"cipher":"auto","uuid":"a9f0ac04-83bd-43d8-d916-b73366a4f783","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"_CN_电报频道 @pjrjzy","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"韩国自建【YouTube-由零開始】 4","type":"vmess","server":"kr.liill2022.gq","port":45575,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 5","type":"vmess","server":"kr.liill2022.gq","port":1453,"cipher":"auto","uuid":"6aeba368-896c-425d-fa32-3b7bfed3b9df","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"_HK_电报频道 @pjrjzy","type":"vmess","server":"hk3.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"8216e1fd-7f67-440d-9a63-51d0f6c38b10","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 6","type":"vmess","server":"kr.liill2022.gq","port":45600,"cipher":"auto","uuid":"c66fe225-648d-4d6b-8d31-94dca65268a4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_41","type":"vmess","server":"quranweb12.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 7","type":"vmess","server":"kr.liill2022.gq","port":42422,"cipher":"auto","uuid":"a9f0ac04-83bd-43d8-d916-b73366a4f783","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 8","type":"vmess","server":"130.162.143.109","port":45600,"cipher":"auto","uuid":"c66fe225-648d-4d6b-8d31-94dca65268a4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 9","type":"vmess","server":"130.162.143.109","port":42411,"cipher":"auto","uuid":"417c5108-ef6b-49f0-a13d-8746fe6e204c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 10","type":"vmess","server":"130.162.143.109","port":45575,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy","type":"vmess","server":"ca-nnc.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 2","type":"vmess","server":"v2ray.wefuckgfw.tk","port":2053,"cipher":"auto","uuid":"c229e6b9-0f0f-4045-af99-a190fbb872e9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_RO_电报频道@pjrjzy","type":"vmess","server":"ping1.yebrahimi.ir","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 3","type":"vmess","server":"cf-topspeedonline.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】","type":"vmess","server":"cf-topspeedone.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_🇺🇸_美国_41","type":"vmess","server":"quranweb1.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 4","type":"vmess","server":"quranweb6.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US_youtube@资源分享师_64","type":"vmess","server":"holyquran19.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_🇺🇸_美国_127","type":"vmess","server":"quranweb4.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 5","type":"vmess","server":"quranweb20.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 6","type":"vmess","server":"quranweb40.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_🇺🇸_美国_223","type":"vmess","server":"cf-topspeed.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 7","type":"vmess","server":"holyquran18.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 8","type":"vmess","server":"quranweb12.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 9","type":"vmess","server":"quranweb15.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 10","type":"vmess","server":"holyquran4.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_🇺🇸_美国_156","type":"vmess","server":"quranweb7.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_🇺🇸_美国_114","type":"vmess","server":"freequranbook.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 11","type":"vmess","server":"cf-topspeedvv3.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 12","type":"vmess","server":"185.148.104.215","port":2053,"cipher":"auto","uuid":"0268eba3-522d-43f2-ba0e-93674fa8017a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US_youtube@资源分享师_36","type":"vmess","server":"quranweb19.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US_youtube@资源分享师_49","type":"vmess","server":"cf-topspeedv9.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_电报频道@pjrjzy 13","type":"vmess","server":"cf-topspeedoneplus.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US_youtube@资源分享师_28","type":"vmess","server":"quranweb26.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 韩国自建【YouTube-由零開始】
-      - 韩国自建【YouTube-由零開始】 2
-      - 韩国自建【YouTube-由零開始】 3
-      - _CN_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 4
-      - 韩国自建【YouTube-由零開始】 5
-      - _HK_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 6
-      - US_youtube@资源分享师_41
-      - 韩国自建【YouTube-由零開始】 7
-      - 韩国自建【YouTube-由零開始】 8
-      - 韩国自建【YouTube-由零開始】 9
-      - 韩国自建【YouTube-由零開始】 10
+      - _US_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 2
+      - _RO_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 3
+      - 美国【YouTube-由零開始】
+      - youtube 新知_🇺🇸_美国_41
+      - _US_电报频道@pjrjzy 4
+      - US_youtube@资源分享师_64
+      - youtube 新知_🇺🇸_美国_127
+      - _US_电报频道@pjrjzy 5
+      - _US_电报频道@pjrjzy 6
+      - youtube 新知_🇺🇸_美国_223
+      - _US_电报频道@pjrjzy 7
+      - _US_电报频道@pjrjzy 8
+      - _US_电报频道@pjrjzy 9
+      - _US_电报频道@pjrjzy 10
+      - youtube 新知_🇺🇸_美国_156
+      - youtube 新知_🇺🇸_美国_114
+      - _US_电报频道@pjrjzy 11
+      - _US_电报频道@pjrjzy 12
+      - US_youtube@资源分享师_36
+      - US_youtube@资源分享师_49
+      - _US_电报频道@pjrjzy 13
+      - US_youtube@资源分享师_28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 韩国自建【YouTube-由零開始】
-      - 韩国自建【YouTube-由零開始】 2
-      - 韩国自建【YouTube-由零開始】 3
-      - _CN_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 4
-      - 韩国自建【YouTube-由零開始】 5
-      - _HK_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 6
-      - US_youtube@资源分享师_41
-      - 韩国自建【YouTube-由零開始】 7
-      - 韩国自建【YouTube-由零開始】 8
-      - 韩国自建【YouTube-由零開始】 9
-      - 韩国自建【YouTube-由零開始】 10
+      - _US_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 2
+      - _RO_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 3
+      - 美国【YouTube-由零開始】
+      - youtube 新知_🇺🇸_美国_41
+      - _US_电报频道@pjrjzy 4
+      - US_youtube@资源分享师_64
+      - youtube 新知_🇺🇸_美国_127
+      - _US_电报频道@pjrjzy 5
+      - _US_电报频道@pjrjzy 6
+      - youtube 新知_🇺🇸_美国_223
+      - _US_电报频道@pjrjzy 7
+      - _US_电报频道@pjrjzy 8
+      - _US_电报频道@pjrjzy 9
+      - _US_电报频道@pjrjzy 10
+      - youtube 新知_🇺🇸_美国_156
+      - youtube 新知_🇺🇸_美国_114
+      - _US_电报频道@pjrjzy 11
+      - _US_电报频道@pjrjzy 12
+      - US_youtube@资源分享师_36
+      - US_youtube@资源分享师_49
+      - _US_电报频道@pjrjzy 13
+      - US_youtube@资源分享师_28
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国自建【YouTube-由零開始】
-      - 韩国自建【YouTube-由零開始】 2
-      - 韩国自建【YouTube-由零開始】 3
-      - _CN_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 4
-      - 韩国自建【YouTube-由零開始】 5
-      - _HK_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 6
-      - US_youtube@资源分享师_41
-      - 韩国自建【YouTube-由零開始】 7
-      - 韩国自建【YouTube-由零開始】 8
-      - 韩国自建【YouTube-由零開始】 9
-      - 韩国自建【YouTube-由零開始】 10
+      - _US_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 2
+      - _RO_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 3
+      - 美国【YouTube-由零開始】
+      - youtube 新知_🇺🇸_美国_41
+      - _US_电报频道@pjrjzy 4
+      - US_youtube@资源分享师_64
+      - youtube 新知_🇺🇸_美国_127
+      - _US_电报频道@pjrjzy 5
+      - _US_电报频道@pjrjzy 6
+      - youtube 新知_🇺🇸_美国_223
+      - _US_电报频道@pjrjzy 7
+      - _US_电报频道@pjrjzy 8
+      - _US_电报频道@pjrjzy 9
+      - _US_电报频道@pjrjzy 10
+      - youtube 新知_🇺🇸_美国_156
+      - youtube 新知_🇺🇸_美国_114
+      - _US_电报频道@pjrjzy 11
+      - _US_电报频道@pjrjzy 12
+      - US_youtube@资源分享师_36
+      - US_youtube@资源分享师_49
+      - _US_电报频道@pjrjzy 13
+      - US_youtube@资源分享师_28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 韩国自建【YouTube-由零開始】
-      - 韩国自建【YouTube-由零開始】 2
-      - 韩国自建【YouTube-由零開始】 3
-      - _CN_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 4
-      - 韩国自建【YouTube-由零開始】 5
-      - _HK_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 6
-      - US_youtube@资源分享师_41
-      - 韩国自建【YouTube-由零開始】 7
-      - 韩国自建【YouTube-由零開始】 8
-      - 韩国自建【YouTube-由零開始】 9
-      - 韩国自建【YouTube-由零開始】 10
+      - _US_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 2
+      - _RO_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 3
+      - 美国【YouTube-由零開始】
+      - youtube 新知_🇺🇸_美国_41
+      - _US_电报频道@pjrjzy 4
+      - US_youtube@资源分享师_64
+      - youtube 新知_🇺🇸_美国_127
+      - _US_电报频道@pjrjzy 5
+      - _US_电报频道@pjrjzy 6
+      - youtube 新知_🇺🇸_美国_223
+      - _US_电报频道@pjrjzy 7
+      - _US_电报频道@pjrjzy 8
+      - _US_电报频道@pjrjzy 9
+      - _US_电报频道@pjrjzy 10
+      - youtube 新知_🇺🇸_美国_156
+      - youtube 新知_🇺🇸_美国_114
+      - _US_电报频道@pjrjzy 11
+      - _US_电报频道@pjrjzy 12
+      - US_youtube@资源分享师_36
+      - US_youtube@资源分享师_49
+      - _US_电报频道@pjrjzy 13
+      - US_youtube@资源分享师_28
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 韩国自建【YouTube-由零開始】
-      - 韩国自建【YouTube-由零開始】 2
-      - 韩国自建【YouTube-由零開始】 3
-      - _CN_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 4
-      - 韩国自建【YouTube-由零開始】 5
-      - _HK_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 6
-      - US_youtube@资源分享师_41
-      - 韩国自建【YouTube-由零開始】 7
-      - 韩国自建【YouTube-由零開始】 8
-      - 韩国自建【YouTube-由零開始】 9
-      - 韩国自建【YouTube-由零開始】 10
+      - _US_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 2
+      - _RO_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 3
+      - 美国【YouTube-由零開始】
+      - youtube 新知_🇺🇸_美国_41
+      - _US_电报频道@pjrjzy 4
+      - US_youtube@资源分享师_64
+      - youtube 新知_🇺🇸_美国_127
+      - _US_电报频道@pjrjzy 5
+      - _US_电报频道@pjrjzy 6
+      - youtube 新知_🇺🇸_美国_223
+      - _US_电报频道@pjrjzy 7
+      - _US_电报频道@pjrjzy 8
+      - _US_电报频道@pjrjzy 9
+      - _US_电报频道@pjrjzy 10
+      - youtube 新知_🇺🇸_美国_156
+      - youtube 新知_🇺🇸_美国_114
+      - _US_电报频道@pjrjzy 11
+      - _US_电报频道@pjrjzy 12
+      - US_youtube@资源分享师_36
+      - US_youtube@资源分享师_49
+      - _US_电报频道@pjrjzy 13
+      - US_youtube@资源分享师_28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 韩国自建【YouTube-由零開始】
-      - 韩国自建【YouTube-由零開始】 2
-      - 韩国自建【YouTube-由零開始】 3
-      - _CN_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 4
-      - 韩国自建【YouTube-由零開始】 5
-      - _HK_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 6
-      - US_youtube@资源分享师_41
-      - 韩国自建【YouTube-由零開始】 7
-      - 韩国自建【YouTube-由零開始】 8
-      - 韩国自建【YouTube-由零開始】 9
-      - 韩国自建【YouTube-由零開始】 10
+      - _US_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 2
+      - _RO_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 3
+      - 美国【YouTube-由零開始】
+      - youtube 新知_🇺🇸_美国_41
+      - _US_电报频道@pjrjzy 4
+      - US_youtube@资源分享师_64
+      - youtube 新知_🇺🇸_美国_127
+      - _US_电报频道@pjrjzy 5
+      - _US_电报频道@pjrjzy 6
+      - youtube 新知_🇺🇸_美国_223
+      - _US_电报频道@pjrjzy 7
+      - _US_电报频道@pjrjzy 8
+      - _US_电报频道@pjrjzy 9
+      - _US_电报频道@pjrjzy 10
+      - youtube 新知_🇺🇸_美国_156
+      - youtube 新知_🇺🇸_美国_114
+      - _US_电报频道@pjrjzy 11
+      - _US_电报频道@pjrjzy 12
+      - US_youtube@资源分享师_36
+      - US_youtube@资源分享师_49
+      - _US_电报频道@pjrjzy 13
+      - US_youtube@资源分享师_28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -160,19 +237,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国自建【YouTube-由零開始】
-      - 韩国自建【YouTube-由零開始】 2
-      - 韩国自建【YouTube-由零開始】 3
-      - _CN_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 4
-      - 韩国自建【YouTube-由零開始】 5
-      - _HK_电报频道 @pjrjzy
-      - 韩国自建【YouTube-由零開始】 6
-      - US_youtube@资源分享师_41
-      - 韩国自建【YouTube-由零開始】 7
-      - 韩国自建【YouTube-由零開始】 8
-      - 韩国自建【YouTube-由零開始】 9
-      - 韩国自建【YouTube-由零開始】 10
+      - _US_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 2
+      - _RO_电报频道@pjrjzy
+      - _US_电报频道@pjrjzy 3
+      - 美国【YouTube-由零開始】
+      - youtube 新知_🇺🇸_美国_41
+      - _US_电报频道@pjrjzy 4
+      - US_youtube@资源分享师_64
+      - youtube 新知_🇺🇸_美国_127
+      - _US_电报频道@pjrjzy 5
+      - _US_电报频道@pjrjzy 6
+      - youtube 新知_🇺🇸_美国_223
+      - _US_电报频道@pjrjzy 7
+      - _US_电报频道@pjrjzy 8
+      - _US_电报频道@pjrjzy 9
+      - _US_电报频道@pjrjzy 10
+      - youtube 新知_🇺🇸_美国_156
+      - youtube 新知_🇺🇸_美国_114
+      - _US_电报频道@pjrjzy 11
+      - _US_电报频道@pjrjzy 12
+      - US_youtube@资源分享师_36
+      - US_youtube@资源分享师_49
+      - _US_电报频道@pjrjzy 13
+      - US_youtube@资源分享师_28
 
 rules:
 # 本地/局域网地址
