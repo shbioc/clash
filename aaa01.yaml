@@ -14,26 +14,24 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"韩国自建【YouTube-由零開始】","type":"vmess","server":"kr.liill2022.gq","port":35542,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 2","type":"vmess","server":"kr.liill2022.gq","port":65401,"cipher":"auto","uuid":"417c5108-ef6b-49f0-a13d-8746fe6e204c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 3","type":"vmess","server":"kr.liill2022.gq","port":35002,"cipher":"auto","uuid":"c66fe225-648d-4d6b-8d31-94dca65268a4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US美国(youtube阿伟科技)","type":"vmess","server":"107.182.28.230","port":80,"cipher":"auto","uuid":"dd776000-ed52-4ce9-f88c-c07d9047e687","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"youtube 新知_US_美国_35","type":"vmess","server":"quranweb1.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"_US_电报频道@pjrjzy","type":"vmess","server":"cf-topspeed.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"youtube 新知_US_美国_14","type":"vmess","server":"quranweb40.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"youtube 新知_US_美国_32","type":"vmess","server":"cf-topspeed.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"youtube 新知_US_美国_77","type":"vmess","server":"dp2.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"_US_电报频道@pjrjzy 2","type":"vmess","server":"st.acrouri.tk","port":443,"cipher":"auto","uuid":"295df99f-ad0e-4973-93fe-edb90270f7a6","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"韩国自建【YouTube-由零開始】","type":"vmess","server":"130.162.143.109","port":65401,"cipher":"auto","uuid":"417c5108-ef6b-49f0-a13d-8746fe6e204c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"韩国自建【YouTube-由零開始】 2","type":"vmess","server":"130.162.143.109","port":35002,"cipher":"auto","uuid":"c66fe225-648d-4d6b-8d31-94dca65268a4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"韩国自建【YouTube-由零開始】 3","type":"vmess","server":"kr.liill2022.gq","port":30622,"cipher":"auto","uuid":"a9f0ac04-83bd-43d8-d916-b73366a4f783","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
   - {"name":"youtube 新知_US_美国_9","type":"vmess","server":"v2ray.wefuckgfw.tk","port":2053,"cipher":"auto","uuid":"c229e6b9-0f0f-4045-af99-a190fbb872e9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国【YouTube-由零開始】","type":"vmess","server":"freequranbook.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"youtube 新知_US_美国_116","type":"vmess","server":"cf-topspeedvv3.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"youtube 新知_US_美国_102","type":"vmess","server":"quranweb11.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"youtube 新知_US_美国_156","type":"vmess","server":"quranweb40.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"_US_电报频道@pjrjzy 3","type":"vmess","server":"holyquran1.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 4","type":"vmess","server":"130.162.143.109","port":30622,"cipher":"auto","uuid":"a9f0ac04-83bd-43d8-d916-b73366a4f783","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 5","type":"vmess","server":"130.162.143.109","port":65401,"cipher":"auto","uuid":"417c5108-ef6b-49f0-a13d-8746fe6e204c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 6","type":"vmess","server":"130.162.143.109","port":35542,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"韩国自建【YouTube-由零開始】 7","type":"vmess","server":"130.162.143.109","port":30453,"cipher":"auto","uuid":"6aeba368-896c-425d-fa32-3b7bfed3b9df","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US美国(youtube阿伟科技)","type":"vmess","server":"107.182.28.230","port":80,"cipher":"auto","uuid":"dd776000-ed52-4ce9-f88c-c07d9047e687","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_美国_欢迎订阅yui科技_88","type":"vmess","server":"quranweb15.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"韩国自建【YouTube-由零開始】 4","type":"vmess","server":"kr.liill2022.gq","port":65401,"cipher":"auto","uuid":"417c5108-ef6b-49f0-a13d-8746fe6e204c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"韩国自建【YouTube-由零開始】 5","type":"vmess","server":"kr.liill2022.gq","port":30453,"cipher":"auto","uuid":"6aeba368-896c-425d-fa32-3b7bfed3b9df","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】","type":"vmess","server":"quranweb9.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_US_美国_14","type":"vmess","server":"quranweb40.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_US_美国_29","type":"vmess","server":"quranweb6.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 2","type":"vmess","server":"holyquran19.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"韩国自建【YouTube-由零開始】 6","type":"vmess","server":"kr.liill2022.gq","port":35002,"cipher":"auto","uuid":"c66fe225-648d-4d6b-8d31-94dca65268a4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 3","type":"vmess","server":"quranweb4.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_US_美国_83","type":"vmess","server":"quranweb10.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_US_美国_77","type":"vmess","server":"dp2.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"韩国自建【YouTube-由零開始】 7","type":"vmess","server":"130.162.143.109","port":35542,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"韩国自建【YouTube-由零開始】 8","type":"vmess","server":"130.162.143.109","port":30453,"cipher":"auto","uuid":"6aeba368-896c-425d-fa32-3b7bfed3b9df","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -43,23 +41,21 @@ proxy-groups:
       - 韩国自建【YouTube-由零開始】
       - 韩国自建【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 3
-      - US美国(youtube阿伟科技)
-      - youtube 新知_US_美国_35
-      - _US_电报频道@pjrjzy
-      - youtube 新知_US_美国_14
-      - youtube 新知_US_美国_32
-      - youtube 新知_US_美国_77
-      - _US_电报频道@pjrjzy 2
       - youtube 新知_US_美国_9
-      - 美国【YouTube-由零開始】
-      - youtube 新知_US_美国_116
-      - youtube 新知_US_美国_102
-      - youtube 新知_US_美国_156
-      - _US_电报频道@pjrjzy 3
+      - US美国(youtube阿伟科技)
+      - _US_美国_欢迎订阅yui科技_88
       - 韩国自建【YouTube-由零開始】 4
       - 韩国自建【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】
+      - youtube 新知_US_美国_14
+      - youtube 新知_US_美国_29
+      - 美国【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_83
+      - youtube 新知_US_美国_77
       - 韩国自建【YouTube-由零開始】 7
+      - 韩国自建【YouTube-由零開始】 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -69,23 +65,21 @@ proxy-groups:
       - 韩国自建【YouTube-由零開始】
       - 韩国自建【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 3
-      - US美国(youtube阿伟科技)
-      - youtube 新知_US_美国_35
-      - _US_电报频道@pjrjzy
-      - youtube 新知_US_美国_14
-      - youtube 新知_US_美国_32
-      - youtube 新知_US_美国_77
-      - _US_电报频道@pjrjzy 2
       - youtube 新知_US_美国_9
-      - 美国【YouTube-由零開始】
-      - youtube 新知_US_美国_116
-      - youtube 新知_US_美国_102
-      - youtube 新知_US_美国_156
-      - _US_电报频道@pjrjzy 3
+      - US美国(youtube阿伟科技)
+      - _US_美国_欢迎订阅yui科技_88
       - 韩国自建【YouTube-由零開始】 4
       - 韩国自建【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】
+      - youtube 新知_US_美国_14
+      - youtube 新知_US_美国_29
+      - 美国【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_83
+      - youtube 新知_US_美国_77
       - 韩国自建【YouTube-由零開始】 7
+      - 韩国自建【YouTube-由零開始】 8
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -95,23 +89,21 @@ proxy-groups:
       - 韩国自建【YouTube-由零開始】
       - 韩国自建【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 3
-      - US美国(youtube阿伟科技)
-      - youtube 新知_US_美国_35
-      - _US_电报频道@pjrjzy
-      - youtube 新知_US_美国_14
-      - youtube 新知_US_美国_32
-      - youtube 新知_US_美国_77
-      - _US_电报频道@pjrjzy 2
       - youtube 新知_US_美国_9
-      - 美国【YouTube-由零開始】
-      - youtube 新知_US_美国_116
-      - youtube 新知_US_美国_102
-      - youtube 新知_US_美国_156
-      - _US_电报频道@pjrjzy 3
+      - US美国(youtube阿伟科技)
+      - _US_美国_欢迎订阅yui科技_88
       - 韩国自建【YouTube-由零開始】 4
       - 韩国自建【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】
+      - youtube 新知_US_美国_14
+      - youtube 新知_US_美国_29
+      - 美国【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_83
+      - youtube 新知_US_美国_77
       - 韩国自建【YouTube-由零開始】 7
+      - 韩国自建【YouTube-由零開始】 8
   - name: 📲 电报信息
     type: select
     proxies:
@@ -120,23 +112,21 @@ proxy-groups:
       - 韩国自建【YouTube-由零開始】
       - 韩国自建【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 3
-      - US美国(youtube阿伟科技)
-      - youtube 新知_US_美国_35
-      - _US_电报频道@pjrjzy
-      - youtube 新知_US_美国_14
-      - youtube 新知_US_美国_32
-      - youtube 新知_US_美国_77
-      - _US_电报频道@pjrjzy 2
       - youtube 新知_US_美国_9
-      - 美国【YouTube-由零開始】
-      - youtube 新知_US_美国_116
-      - youtube 新知_US_美国_102
-      - youtube 新知_US_美国_156
-      - _US_电报频道@pjrjzy 3
+      - US美国(youtube阿伟科技)
+      - _US_美国_欢迎订阅yui科技_88
       - 韩国自建【YouTube-由零開始】 4
       - 韩国自建【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】
+      - youtube 新知_US_美国_14
+      - youtube 新知_US_美国_29
+      - 美国【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_83
+      - youtube 新知_US_美国_77
       - 韩国自建【YouTube-由零開始】 7
+      - 韩国自建【YouTube-由零開始】 8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -145,23 +135,21 @@ proxy-groups:
       - 韩国自建【YouTube-由零開始】
       - 韩国自建【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 3
-      - US美国(youtube阿伟科技)
-      - youtube 新知_US_美国_35
-      - _US_电报频道@pjrjzy
-      - youtube 新知_US_美国_14
-      - youtube 新知_US_美国_32
-      - youtube 新知_US_美国_77
-      - _US_电报频道@pjrjzy 2
       - youtube 新知_US_美国_9
-      - 美国【YouTube-由零開始】
-      - youtube 新知_US_美国_116
-      - youtube 新知_US_美国_102
-      - youtube 新知_US_美国_156
-      - _US_电报频道@pjrjzy 3
+      - US美国(youtube阿伟科技)
+      - _US_美国_欢迎订阅yui科技_88
       - 韩国自建【YouTube-由零開始】 4
       - 韩国自建【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】
+      - youtube 新知_US_美国_14
+      - youtube 新知_US_美国_29
+      - 美国【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_83
+      - youtube 新知_US_美国_77
       - 韩国自建【YouTube-由零開始】 7
+      - 韩国自建【YouTube-由零開始】 8
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -170,23 +158,21 @@ proxy-groups:
       - 韩国自建【YouTube-由零開始】
       - 韩国自建【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 3
-      - US美国(youtube阿伟科技)
-      - youtube 新知_US_美国_35
-      - _US_电报频道@pjrjzy
-      - youtube 新知_US_美国_14
-      - youtube 新知_US_美国_32
-      - youtube 新知_US_美国_77
-      - _US_电报频道@pjrjzy 2
       - youtube 新知_US_美国_9
-      - 美国【YouTube-由零開始】
-      - youtube 新知_US_美国_116
-      - youtube 新知_US_美国_102
-      - youtube 新知_US_美国_156
-      - _US_电报频道@pjrjzy 3
+      - US美国(youtube阿伟科技)
+      - _US_美国_欢迎订阅yui科技_88
       - 韩国自建【YouTube-由零開始】 4
       - 韩国自建【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】
+      - youtube 新知_US_美国_14
+      - youtube 新知_US_美国_29
+      - 美国【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_83
+      - youtube 新知_US_美国_77
       - 韩国自建【YouTube-由零開始】 7
+      - 韩国自建【YouTube-由零開始】 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -212,23 +198,21 @@ proxy-groups:
       - 韩国自建【YouTube-由零開始】
       - 韩国自建【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 3
-      - US美国(youtube阿伟科技)
-      - youtube 新知_US_美国_35
-      - _US_电报频道@pjrjzy
-      - youtube 新知_US_美国_14
-      - youtube 新知_US_美国_32
-      - youtube 新知_US_美国_77
-      - _US_电报频道@pjrjzy 2
       - youtube 新知_US_美国_9
-      - 美国【YouTube-由零開始】
-      - youtube 新知_US_美国_116
-      - youtube 新知_US_美国_102
-      - youtube 新知_US_美国_156
-      - _US_电报频道@pjrjzy 3
+      - US美国(youtube阿伟科技)
+      - _US_美国_欢迎订阅yui科技_88
       - 韩国自建【YouTube-由零開始】 4
       - 韩国自建【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】
+      - youtube 新知_US_美国_14
+      - youtube 新知_US_美国_29
+      - 美国【YouTube-由零開始】 2
       - 韩国自建【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_83
+      - youtube 新知_US_美国_77
       - 韩国自建【YouTube-由零開始】 7
+      - 韩国自建【YouTube-由零開始】 8
 
 rules:
 # 本地/局域网地址
