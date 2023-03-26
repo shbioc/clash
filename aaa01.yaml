@@ -14,179 +14,179 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"美国(yudou66.com 玉豆免费节点)","type":"trojan","server":"lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou","port":12341,"udp":true,"password":"001a5927-bcf7-368a-8a4d-cb8c2fd6aab5","sni":"lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 2","type":"vmess","server":"quranweb29.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 3","type":"vmess","server":"holyquran15.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 4","type":"vmess","server":"quranweb7.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 5","type":"vmess","server":"holyquran1.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 6","type":"vmess","server":"quranweb4.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 7","type":"vmess","server":"holyquran4.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 8","type":"vmess","server":"cf-topspeedonline.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 9","type":"vmess","server":"quranweb6.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 10","type":"vmess","server":"holyquran18.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 11","type":"vmess","server":"www.codepen.io","port":443,"cipher":"auto","uuid":"2cd39102-0799-4c61-abb6-2e7a258f0397","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"德国(yudou66.com 玉豆免费节点)","type":"vmess","server":"quranweb41.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 12","type":"vmess","server":"cf-topspeed.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 13","type":"vmess","server":"holyquran19.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 14","type":"vmess","server":"quranweb34.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 15","type":"vmess","server":"quranweb29.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 16","type":"vmess","server":"quranweb9.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 17","type":"vmess","server":"quran-audio1.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 18","type":"vmess","server":"cf.bakapie.cf","port":2096,"cipher":"auto","uuid":"72fd33d5-5c1a-4193-96c6-665fc20b71c1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 19","type":"vmess","server":"ping1.yebrahimi.ir","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】","type":"ss","server":"167.88.63.79","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"US_youtube@资源分享师_50","type":"vmess","server":"quranweb11.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US_youtube@资源分享师_52","type":"vmess","server":"holyquran19.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 2","type":"vmess","server":"156.225.67.82","port":56926,"cipher":"auto","uuid":"3fd637ad-46fe-4f85-a6e8-86b00bca1122","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"US_youtube@资源分享师_11","type":"vmess","server":"xtomjpfree.uitsrt233.eu.org","port":443,"cipher":"auto","uuid":"e3477423-411b-4127-9497-3f9c3c909f66","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_US_美国_122","type":"vmess","server":"107.167.16.118","port":49891,"cipher":"auto","uuid":"6566b38d-0127-42ea-aee3-4bf86a697f7c","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"US_youtube@资源分享师_30","type":"vmess","server":"quranweb29.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_JP_日本_107","type":"ss","server":"85.208.108.60","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"youtube 新知_US_美国_71","type":"vmess","server":"quranweb12.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US_youtube@资源分享师_17","type":"vmess","server":"quranweb15.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_JP_日本_114","type":"ss","server":"85.208.108.60","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"美国【YouTube-由零開始】 3","type":"ss","server":"167.88.63.79","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"youtube 新知_US_美国_52","type":"vmess","server":"v2ray.wefuckgfw.tk","port":2053,"cipher":"auto","uuid":"c229e6b9-0f0f-4045-af99-a190fbb872e9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_DE_德国_43","type":"trojan","server":"b.dg.cat77.cloud","port":5678,"udp":true,"password":"cd27884b-c5af-34ec-b75f-8248077818fe","sni":"b.dg.cat77.cloud","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国【YouTube-由零開始】 4","type":"vmess","server":"quran-audio4.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US_youtube@资源分享师_4","type":"vmess","server":"cf-topspeed.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US_youtube@资源分享师_27","type":"vmess","server":"172.67.218.254","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"US_youtube@资源分享师_39","type":"vmess","server":"freequranbook.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"youtube 新知_JP_日本_141","type":"ss","server":"85.208.108.60","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"美国【YouTube-由零開始】 5","type":"vmess","server":"quranweb3.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 德国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国【YouTube-由零開始】
+      - US_youtube@资源分享师_50
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】 2
+      - US_youtube@资源分享师_11
+      - youtube 新知_US_美国_122
+      - US_youtube@资源分享师_30
+      - youtube 新知_JP_日本_107
+      - youtube 新知_US_美国_71
+      - US_youtube@资源分享师_17
+      - youtube 新知_JP_日本_114
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_52
+      - youtube 新知_DE_德国_43
+      - 美国【YouTube-由零開始】 4
+      - US_youtube@资源分享师_4
+      - US_youtube@资源分享师_27
+      - US_youtube@资源分享师_39
+      - youtube 新知_JP_日本_141
+      - 美国【YouTube-由零開始】 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 德国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国【YouTube-由零開始】
+      - US_youtube@资源分享师_50
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】 2
+      - US_youtube@资源分享师_11
+      - youtube 新知_US_美国_122
+      - US_youtube@资源分享师_30
+      - youtube 新知_JP_日本_107
+      - youtube 新知_US_美国_71
+      - US_youtube@资源分享师_17
+      - youtube 新知_JP_日本_114
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_52
+      - youtube 新知_DE_德国_43
+      - 美国【YouTube-由零開始】 4
+      - US_youtube@资源分享师_4
+      - US_youtube@资源分享师_27
+      - US_youtube@资源分享师_39
+      - youtube 新知_JP_日本_141
+      - 美国【YouTube-由零開始】 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 德国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国【YouTube-由零開始】
+      - US_youtube@资源分享师_50
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】 2
+      - US_youtube@资源分享师_11
+      - youtube 新知_US_美国_122
+      - US_youtube@资源分享师_30
+      - youtube 新知_JP_日本_107
+      - youtube 新知_US_美国_71
+      - US_youtube@资源分享师_17
+      - youtube 新知_JP_日本_114
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_52
+      - youtube 新知_DE_德国_43
+      - 美国【YouTube-由零開始】 4
+      - US_youtube@资源分享师_4
+      - US_youtube@资源分享师_27
+      - US_youtube@资源分享师_39
+      - youtube 新知_JP_日本_141
+      - 美国【YouTube-由零開始】 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 德国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国【YouTube-由零開始】
+      - US_youtube@资源分享师_50
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】 2
+      - US_youtube@资源分享师_11
+      - youtube 新知_US_美国_122
+      - US_youtube@资源分享师_30
+      - youtube 新知_JP_日本_107
+      - youtube 新知_US_美国_71
+      - US_youtube@资源分享师_17
+      - youtube 新知_JP_日本_114
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_52
+      - youtube 新知_DE_德国_43
+      - 美国【YouTube-由零開始】 4
+      - US_youtube@资源分享师_4
+      - US_youtube@资源分享师_27
+      - US_youtube@资源分享师_39
+      - youtube 新知_JP_日本_141
+      - 美国【YouTube-由零開始】 5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 德国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国【YouTube-由零開始】
+      - US_youtube@资源分享师_50
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】 2
+      - US_youtube@资源分享师_11
+      - youtube 新知_US_美国_122
+      - US_youtube@资源分享师_30
+      - youtube 新知_JP_日本_107
+      - youtube 新知_US_美国_71
+      - US_youtube@资源分享师_17
+      - youtube 新知_JP_日本_114
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_52
+      - youtube 新知_DE_德国_43
+      - 美国【YouTube-由零開始】 4
+      - US_youtube@资源分享师_4
+      - US_youtube@资源分享师_27
+      - US_youtube@资源分享师_39
+      - youtube 新知_JP_日本_141
+      - 美国【YouTube-由零開始】 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 德国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国【YouTube-由零開始】
+      - US_youtube@资源分享师_50
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】 2
+      - US_youtube@资源分享师_11
+      - youtube 新知_US_美国_122
+      - US_youtube@资源分享师_30
+      - youtube 新知_JP_日本_107
+      - youtube 新知_US_美国_71
+      - US_youtube@资源分享师_17
+      - youtube 新知_JP_日本_114
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_52
+      - youtube 新知_DE_德国_43
+      - 美国【YouTube-由零開始】 4
+      - US_youtube@资源分享师_4
+      - US_youtube@资源分享师_27
+      - US_youtube@资源分享师_39
+      - youtube 新知_JP_日本_141
+      - 美国【YouTube-由零開始】 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -209,26 +209,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 美国(yudou66.com 玉豆免费节点) 6
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
-      - 美国(yudou66.com 玉豆免费节点) 9
-      - 美国(yudou66.com 玉豆免费节点) 10
-      - 美国(yudou66.com 玉豆免费节点) 11
-      - 德国(yudou66.com 玉豆免费节点)
-      - 美国(yudou66.com 玉豆免费节点) 12
-      - 美国(yudou66.com 玉豆免费节点) 13
-      - 美国(yudou66.com 玉豆免费节点) 14
-      - 美国(yudou66.com 玉豆免费节点) 15
-      - 美国(yudou66.com 玉豆免费节点) 16
-      - 美国(yudou66.com 玉豆免费节点) 17
-      - 美国(yudou66.com 玉豆免费节点) 18
-      - 美国(yudou66.com 玉豆免费节点) 19
+      - 美国【YouTube-由零開始】
+      - US_youtube@资源分享师_50
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】 2
+      - US_youtube@资源分享师_11
+      - youtube 新知_US_美国_122
+      - US_youtube@资源分享师_30
+      - youtube 新知_JP_日本_107
+      - youtube 新知_US_美国_71
+      - US_youtube@资源分享师_17
+      - youtube 新知_JP_日本_114
+      - 美国【YouTube-由零開始】 3
+      - youtube 新知_US_美国_52
+      - youtube 新知_DE_德国_43
+      - 美国【YouTube-由零開始】 4
+      - US_youtube@资源分享师_4
+      - US_youtube@资源分享师_27
+      - US_youtube@资源分享师_39
+      - youtube 新知_JP_日本_141
+      - 美国【YouTube-由零開始】 5
 
 rules:
 # 本地/局域网地址
