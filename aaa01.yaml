@@ -14,263 +14,144 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"US_youtube@资源分享师_174","type":"vmess","server":"quranweb6.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_12","type":"vmess","server":"cfcdn.sanfencdn.net","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_150","type":"trojan","server":"yx54321.tk","port":443,"udp":true,"password":"de3817f2-1a57-49e4-ba91-749a876e8858","sni":"yx54321.tk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_youtube@资源分享师_98","type":"vmess","server":"cf-topspeedvv2.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_70","type":"vmess","server":"cf-topspeedone.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_244","type":"vmess","server":"45.89.106.111","port":443,"cipher":"auto","uuid":"a20b160a-554e-434b-b4e0-c2c204b18713","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_97","type":"vmess","server":"quranweb4.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_64","type":"vmess","server":"freequranbook.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_118","type":"vmess","server":"quran-audio1.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_62","type":"vmess","server":"quranweb17.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_47","type":"vmess","server":"cf-topspeedvv2.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_148","type":"vmess","server":"quranweb29.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_156","type":"vmess","server":"holyquran19.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"RO_youtube@资源分享师_96","type":"vmess","server":"45.85.119.1","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_112","type":"vmess","server":"quranweb19.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_102","type":"vmess","server":"104.21.86.52","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_120","type":"vmess","server":"172.67.132.167","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_61","type":"vmess","server":"cf-topspeedoneplus.uk","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_72","type":"vmess","server":"holyquran15.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_100","type":"vmess","server":"quranweb26.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_17","type":"vmess","server":"quranweb15.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_105","type":"vmess","server":"quranweb15.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_76","type":"vmess","server":"quranweb20.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_146","type":"vmess","server":"holyquran11.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_86","type":"vmess","server":"quranweb41.xyz","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_81","type":"vmess","server":"holyquran10.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"RU_youtube@资源分享师_65","type":"vmess","server":"45.142.120.156","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_54","type":"vmess","server":"holyquran15.store","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"RO_youtube@资源分享师_14","type":"vmess","server":"leg.fastv2ray.eu.org","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_68","type":"vmess","server":"172.67.73.39","port":80,"cipher":"auto","uuid":"b8458948-a630-4e6d-809a-230b2223ff3d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_71","type":"vmess","server":"172.67.222.57","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_113","type":"vmess","server":"104.18.3.2","port":80,"cipher":"auto","uuid":"1d1c1d94-6987-4658-a4dc-8821a30fe7e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 2","type":"vmess","server":"140.99.157.82","port":47815,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"美国【YouTube-由零開始】 3","type":"vmess","server":"142.0.132.37","port":50015,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"美国【YouTube-由零開始】 4","type":"vmess","server":"142.4.126.56","port":33302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"_CN_电报频道： @pjrjzy","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"美国【YouTube-由零開始】 5","type":"vmess","server":"192.203.230.65","port":443,"cipher":"auto","uuid":"e784464d-7dd8-48ea-b65c-20a68793a5a6","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 6","type":"vmess","server":"www.nivod4.tv","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 7","type":"vmess","server":"137.175.15.195","port":43087,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"美国【YouTube-由零開始】 8","type":"vmess","server":"198.41.203.7","port":80,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_CN_电报频道： @pjrjzy 2","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"美国【YouTube-由零開始】 9","type":"vmess","server":"speed.cloudflare.com","port":443,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 10","type":"vmess","server":"1024.day","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"塞浦路斯【YouTube-由零開始】","type":"vmess","server":"203.24.108.100","port":80,"cipher":"auto","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 11","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"荷兰【YouTube-由零開始】","type":"ss","server":"172.99.188.99","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_youtube@资源分享师_174
-      - US_youtube@资源分享师_12
-      - US_youtube@资源分享师_150
-      - US_youtube@资源分享师_98
-      - US_youtube@资源分享师_70
-      - US_youtube@资源分享师_244
-      - US_youtube@资源分享师_97
-      - US_youtube@资源分享师_64
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_62
-      - US_youtube@资源分享师_47
-      - US_youtube@资源分享师_148
-      - US_youtube@资源分享师_156
-      - RO_youtube@资源分享师_96
-      - US_youtube@资源分享师_112
-      - US_youtube@资源分享师_102
-      - US_youtube@资源分享师_120
-      - US_youtube@资源分享师_61
-      - US_youtube@资源分享师_72
-      - US_youtube@资源分享师_100
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_105
-      - US_youtube@资源分享师_76
-      - US_youtube@资源分享师_146
-      - US_youtube@资源分享师_86
-      - US_youtube@资源分享师_81
-      - RU_youtube@资源分享师_65
-      - US_youtube@资源分享师_54
-      - RO_youtube@资源分享师_14
-      - US_youtube@资源分享师_68
-      - US_youtube@资源分享师_71
-      - US_youtube@资源分享师_113
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 美国【YouTube-由零開始】 3
+      - 美国【YouTube-由零開始】 4
+      - _CN_电报频道： @pjrjzy
+      - 美国【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 7
+      - 美国【YouTube-由零開始】 8
+      - _CN_电报频道： @pjrjzy 2
+      - 美国【YouTube-由零開始】 9
+      - 美国【YouTube-由零開始】 10
+      - 塞浦路斯【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 11
+      - 荷兰【YouTube-由零開始】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_youtube@资源分享师_174
-      - US_youtube@资源分享师_12
-      - US_youtube@资源分享师_150
-      - US_youtube@资源分享师_98
-      - US_youtube@资源分享师_70
-      - US_youtube@资源分享师_244
-      - US_youtube@资源分享师_97
-      - US_youtube@资源分享师_64
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_62
-      - US_youtube@资源分享师_47
-      - US_youtube@资源分享师_148
-      - US_youtube@资源分享师_156
-      - RO_youtube@资源分享师_96
-      - US_youtube@资源分享师_112
-      - US_youtube@资源分享师_102
-      - US_youtube@资源分享师_120
-      - US_youtube@资源分享师_61
-      - US_youtube@资源分享师_72
-      - US_youtube@资源分享师_100
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_105
-      - US_youtube@资源分享师_76
-      - US_youtube@资源分享师_146
-      - US_youtube@资源分享师_86
-      - US_youtube@资源分享师_81
-      - RU_youtube@资源分享师_65
-      - US_youtube@资源分享师_54
-      - RO_youtube@资源分享师_14
-      - US_youtube@资源分享师_68
-      - US_youtube@资源分享师_71
-      - US_youtube@资源分享师_113
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 美国【YouTube-由零開始】 3
+      - 美国【YouTube-由零開始】 4
+      - _CN_电报频道： @pjrjzy
+      - 美国【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 7
+      - 美国【YouTube-由零開始】 8
+      - _CN_电报频道： @pjrjzy 2
+      - 美国【YouTube-由零開始】 9
+      - 美国【YouTube-由零開始】 10
+      - 塞浦路斯【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 11
+      - 荷兰【YouTube-由零開始】
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_174
-      - US_youtube@资源分享师_12
-      - US_youtube@资源分享师_150
-      - US_youtube@资源分享师_98
-      - US_youtube@资源分享师_70
-      - US_youtube@资源分享师_244
-      - US_youtube@资源分享师_97
-      - US_youtube@资源分享师_64
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_62
-      - US_youtube@资源分享师_47
-      - US_youtube@资源分享师_148
-      - US_youtube@资源分享师_156
-      - RO_youtube@资源分享师_96
-      - US_youtube@资源分享师_112
-      - US_youtube@资源分享师_102
-      - US_youtube@资源分享师_120
-      - US_youtube@资源分享师_61
-      - US_youtube@资源分享师_72
-      - US_youtube@资源分享师_100
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_105
-      - US_youtube@资源分享师_76
-      - US_youtube@资源分享师_146
-      - US_youtube@资源分享师_86
-      - US_youtube@资源分享师_81
-      - RU_youtube@资源分享师_65
-      - US_youtube@资源分享师_54
-      - RO_youtube@资源分享师_14
-      - US_youtube@资源分享师_68
-      - US_youtube@资源分享师_71
-      - US_youtube@资源分享师_113
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 美国【YouTube-由零開始】 3
+      - 美国【YouTube-由零開始】 4
+      - _CN_电报频道： @pjrjzy
+      - 美国【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 7
+      - 美国【YouTube-由零開始】 8
+      - _CN_电报频道： @pjrjzy 2
+      - 美国【YouTube-由零開始】 9
+      - 美国【YouTube-由零開始】 10
+      - 塞浦路斯【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 11
+      - 荷兰【YouTube-由零開始】
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_174
-      - US_youtube@资源分享师_12
-      - US_youtube@资源分享师_150
-      - US_youtube@资源分享师_98
-      - US_youtube@资源分享师_70
-      - US_youtube@资源分享师_244
-      - US_youtube@资源分享师_97
-      - US_youtube@资源分享师_64
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_62
-      - US_youtube@资源分享师_47
-      - US_youtube@资源分享师_148
-      - US_youtube@资源分享师_156
-      - RO_youtube@资源分享师_96
-      - US_youtube@资源分享师_112
-      - US_youtube@资源分享师_102
-      - US_youtube@资源分享师_120
-      - US_youtube@资源分享师_61
-      - US_youtube@资源分享师_72
-      - US_youtube@资源分享师_100
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_105
-      - US_youtube@资源分享师_76
-      - US_youtube@资源分享师_146
-      - US_youtube@资源分享师_86
-      - US_youtube@资源分享师_81
-      - RU_youtube@资源分享师_65
-      - US_youtube@资源分享师_54
-      - RO_youtube@资源分享师_14
-      - US_youtube@资源分享师_68
-      - US_youtube@资源分享师_71
-      - US_youtube@资源分享师_113
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 美国【YouTube-由零開始】 3
+      - 美国【YouTube-由零開始】 4
+      - _CN_电报频道： @pjrjzy
+      - 美国【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 7
+      - 美国【YouTube-由零開始】 8
+      - _CN_电报频道： @pjrjzy 2
+      - 美国【YouTube-由零開始】 9
+      - 美国【YouTube-由零開始】 10
+      - 塞浦路斯【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 11
+      - 荷兰【YouTube-由零開始】
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_youtube@资源分享师_174
-      - US_youtube@资源分享师_12
-      - US_youtube@资源分享师_150
-      - US_youtube@资源分享师_98
-      - US_youtube@资源分享师_70
-      - US_youtube@资源分享师_244
-      - US_youtube@资源分享师_97
-      - US_youtube@资源分享师_64
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_62
-      - US_youtube@资源分享师_47
-      - US_youtube@资源分享师_148
-      - US_youtube@资源分享师_156
-      - RO_youtube@资源分享师_96
-      - US_youtube@资源分享师_112
-      - US_youtube@资源分享师_102
-      - US_youtube@资源分享师_120
-      - US_youtube@资源分享师_61
-      - US_youtube@资源分享师_72
-      - US_youtube@资源分享师_100
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_105
-      - US_youtube@资源分享师_76
-      - US_youtube@资源分享师_146
-      - US_youtube@资源分享师_86
-      - US_youtube@资源分享师_81
-      - RU_youtube@资源分享师_65
-      - US_youtube@资源分享师_54
-      - RO_youtube@资源分享师_14
-      - US_youtube@资源分享师_68
-      - US_youtube@资源分享师_71
-      - US_youtube@资源分享师_113
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 美国【YouTube-由零開始】 3
+      - 美国【YouTube-由零開始】 4
+      - _CN_电报频道： @pjrjzy
+      - 美国【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 7
+      - 美国【YouTube-由零開始】 8
+      - _CN_电报频道： @pjrjzy 2
+      - 美国【YouTube-由零開始】 9
+      - 美国【YouTube-由零開始】 10
+      - 塞浦路斯【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 11
+      - 荷兰【YouTube-由零開始】
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_174
-      - US_youtube@资源分享师_12
-      - US_youtube@资源分享师_150
-      - US_youtube@资源分享师_98
-      - US_youtube@资源分享师_70
-      - US_youtube@资源分享师_244
-      - US_youtube@资源分享师_97
-      - US_youtube@资源分享师_64
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_62
-      - US_youtube@资源分享师_47
-      - US_youtube@资源分享师_148
-      - US_youtube@资源分享师_156
-      - RO_youtube@资源分享师_96
-      - US_youtube@资源分享师_112
-      - US_youtube@资源分享师_102
-      - US_youtube@资源分享师_120
-      - US_youtube@资源分享师_61
-      - US_youtube@资源分享师_72
-      - US_youtube@资源分享师_100
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_105
-      - US_youtube@资源分享师_76
-      - US_youtube@资源分享师_146
-      - US_youtube@资源分享师_86
-      - US_youtube@资源分享师_81
-      - RU_youtube@资源分享师_65
-      - US_youtube@资源分享师_54
-      - RO_youtube@资源分享师_14
-      - US_youtube@资源分享师_68
-      - US_youtube@资源分享师_71
-      - US_youtube@资源分享师_113
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 美国【YouTube-由零開始】 3
+      - 美国【YouTube-由零開始】 4
+      - _CN_电报频道： @pjrjzy
+      - 美国【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 7
+      - 美国【YouTube-由零開始】 8
+      - _CN_电报频道： @pjrjzy 2
+      - 美国【YouTube-由零開始】 9
+      - 美国【YouTube-由零開始】 10
+      - 塞浦路斯【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 11
+      - 荷兰【YouTube-由零開始】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -293,38 +174,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_youtube@资源分享师_174
-      - US_youtube@资源分享师_12
-      - US_youtube@资源分享师_150
-      - US_youtube@资源分享师_98
-      - US_youtube@资源分享师_70
-      - US_youtube@资源分享师_244
-      - US_youtube@资源分享师_97
-      - US_youtube@资源分享师_64
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_62
-      - US_youtube@资源分享师_47
-      - US_youtube@资源分享师_148
-      - US_youtube@资源分享师_156
-      - RO_youtube@资源分享师_96
-      - US_youtube@资源分享师_112
-      - US_youtube@资源分享师_102
-      - US_youtube@资源分享师_120
-      - US_youtube@资源分享师_61
-      - US_youtube@资源分享师_72
-      - US_youtube@资源分享师_100
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_105
-      - US_youtube@资源分享师_76
-      - US_youtube@资源分享师_146
-      - US_youtube@资源分享师_86
-      - US_youtube@资源分享师_81
-      - RU_youtube@资源分享师_65
-      - US_youtube@资源分享师_54
-      - RO_youtube@资源分享师_14
-      - US_youtube@资源分享师_68
-      - US_youtube@资源分享师_71
-      - US_youtube@资源分享师_113
+      - 美国【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 2
+      - 美国【YouTube-由零開始】 3
+      - 美国【YouTube-由零開始】 4
+      - _CN_电报频道： @pjrjzy
+      - 美国【YouTube-由零開始】 5
+      - 美国【YouTube-由零開始】 6
+      - 美国【YouTube-由零開始】 7
+      - 美国【YouTube-由零開始】 8
+      - _CN_电报频道： @pjrjzy 2
+      - 美国【YouTube-由零開始】 9
+      - 美国【YouTube-由零開始】 10
+      - 塞浦路斯【YouTube-由零開始】
+      - 美国【YouTube-由零開始】 11
+      - 荷兰【YouTube-由零開始】
 
 rules:
 # 本地/局域网地址
