@@ -30,8 +30,6 @@ proxies:
   - {"name":"YouTube 新知_NL_荷兰","type":"vmess","server":"188.114.97.2","port":8880,"cipher":"auto","uuid":"51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ArsalanTauBot","headers":{"host":"4.mamadcucu.com"}}}
   - {"name":"YouTube 新知_US_美国_2","type":"vmess","server":"ganjun.xyz","port":443,"cipher":"auto","uuid":"17bc2008-0ff7-44b0-bfb1-0c300180c71e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ganjun.xyz"}}}
   - {"name":"US_youtube@资源分享师_40","type":"vmess","server":"mci.bamarambash.monster","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db698b16-d216-11ed-8e14-5ad705867cff","headers":{"host":"db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com"}}}
-  - {"name":"MX_youtube@资源分享师_39","type":"vmess","server":"213.156.144.6","port":443,"cipher":"auto","uuid":"859b9dd2-23e5-4663-abe9-aca56154a1f4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bb","headers":{"host":"cc66.111711.xyz"}}}
-  - {"name":"US_youtube@资源分享师_132","type":"vmess","server":"104.22.59.195","port":443,"cipher":"auto","uuid":"a1560b52-b580-4aad-b8cd-9cd2ec5264b4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"1.239000.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -54,8 +52,6 @@ proxy-groups:
       - YouTube 新知_NL_荷兰
       - YouTube 新知_US_美国_2
       - US_youtube@资源分享师_40
-      - MX_youtube@资源分享师_39
-      - US_youtube@资源分享师_132
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -78,8 +74,6 @@ proxy-groups:
       - YouTube 新知_NL_荷兰
       - YouTube 新知_US_美国_2
       - US_youtube@资源分享师_40
-      - MX_youtube@资源分享师_39
-      - US_youtube@资源分享师_132
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -102,8 +96,6 @@ proxy-groups:
       - YouTube 新知_NL_荷兰
       - YouTube 新知_US_美国_2
       - US_youtube@资源分享师_40
-      - MX_youtube@资源分享师_39
-      - US_youtube@资源分享师_132
   - name: 📲 电报信息
     type: select
     proxies:
@@ -125,8 +117,6 @@ proxy-groups:
       - YouTube 新知_NL_荷兰
       - YouTube 新知_US_美国_2
       - US_youtube@资源分享师_40
-      - MX_youtube@资源分享师_39
-      - US_youtube@资源分享师_132
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -148,8 +138,6 @@ proxy-groups:
       - YouTube 新知_NL_荷兰
       - YouTube 新知_US_美国_2
       - US_youtube@资源分享师_40
-      - MX_youtube@资源分享师_39
-      - US_youtube@资源分享师_132
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -171,8 +159,6 @@ proxy-groups:
       - YouTube 新知_NL_荷兰
       - YouTube 新知_US_美国_2
       - US_youtube@资源分享师_40
-      - MX_youtube@资源分享师_39
-      - US_youtube@资源分享师_132
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -211,8 +197,6 @@ proxy-groups:
       - YouTube 新知_NL_荷兰
       - YouTube 新知_US_美国_2
       - US_youtube@资源分享师_40
-      - MX_youtube@资源分享师_39
-      - US_youtube@资源分享师_132
 
 rules:
 # 本地/局域网地址
