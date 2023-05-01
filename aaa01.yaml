@@ -14,116 +14,158 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"US_youtube@资源分享师_17","type":"vmess","server":"142.4.126.59","port":33392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_youtube@资源分享师_99","type":"vmess","server":"142.4.100.33","port":45409,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_youtube@资源分享师_111","type":"vmess","server":"38.54.250.56","port":51431,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)","type":"vmess","server":"www.udemy.com","port":443,"cipher":"auto","uuid":"92869d41-a98a-40ba-b79d-2eeb7ffe2433","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"dynamic-sg1b.obfs.xyz"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】29","type":"vmess","server":"192.74.234.82","port":51302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳中国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_youtube@资源分享师_46","type":"vmess","server":"hd.mamadcucu.com","port":2082,"cipher":"auto","uuid":"8e98f959-6eac-40b7-8fa8-e745942c9a8c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"h5.mamadcucu.com"}}}
-  - {"name":"🇬🇧英国【YouTube-由零開始】29","type":"vmess","server":"uk01.wxfz.ga","port":443,"cipher":"auto","uuid":"11111110-1e54-445c-c608-7850f47edd1e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cctv13.m3u8?ed=2048"}}
-  - {"name":"US_youtube@资源分享师_41","type":"vmess","server":"vde2.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vde2.0bad.com"}}}
-  - {"name":"🇺🇸美国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止","type":"vmess","server":"quiz.vidio.com","port":443,"cipher":"auto","uuid":"92869d41-a98a-40ba-b79d-2eeb7ffe2433","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dynamic-sg1b.obfs.xyz"}}}
-  - {"name":"US_youtube@资源分享师_36\r","type":"ss","server":"169.197.141.187","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"HK_youtube@资源分享师_33\r","type":"trojan","server":"16.162.44.241","port":443,"udp":true,"password":"4a7cab09-d65d-4d3e-8951-697310c2f48f","sni":"16-163-218-240.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"BZ_youtube@资源分享师_9","type":"vmess","server":"usshsbab.114514782.xyz","port":2052,"cipher":"auto","uuid":"14a8ba38-8918-3de1-bc93-9fc87777da30","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/javavuecn","headers":{"host":"usshsbab.114514782.xyz"}}}
+  - {"name":"CA_youtube@资源分享师_4","type":"vmess","server":"usblog.114514782.xyz","port":2052,"cipher":"auto","uuid":"14a8ba38-8918-3de1-bc93-9fc87777da30","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mtryjhiaogrs","headers":{"host":"usblog.114514782.xyz"}}}
+  - {"name":"US_youtube@资源分享师_11","type":"vmess","server":"usshsaba.114514782.xyz","port":2095,"cipher":"auto","uuid":"19d76e75-a56b-3048-bbde-cdd2a8c66fa0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/usshsa","headers":{"host":"usshsaba.114514782.xyz"}}}
+  - {"name":"US_youtube@资源分享师_60","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"4a7cab09-d65d-4d3e-8951-697310c2f48f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yfjc/us4?ed=2048","headers":{"host":"us4.yfjc.sbs"}}}
+  - {"name":"US_youtube@资源分享师_92","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
+  - {"name":"BZ_youtube@资源分享师_21","type":"vmess","server":"apkwvctghw.114514782.xyz","port":2052,"cipher":"auto","uuid":"ca2175a5-f759-3e28-a4e3-136ab1900e40","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/miaosafh","headers":{"host":"apkwvctghw.114514782.xyz"}}}
+  - {"name":"US_youtube@资源分享师_28","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"aes-128-gcm","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
+  - {"name":"🇺🇸美国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止","type":"vmess","server":"www.udemy.com","port":443,"cipher":"auto","uuid":"92869d41-a98a-40ba-b79d-2eeb7ffe2433","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"dynamic-sg1b.obfs.xyz"}}}
+  - {"name":"CY_youtube@资源分享师_10","type":"vmess","server":"jpcbauwfv.114514782.xyz","port":2082,"cipher":"auto","uuid":"4fd5b235-f59c-3f9d-b91f-f2cd50ff2d3b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fgnfcb","headers":{"host":"jpcbauwfv.114514782.xyz"}}}
+  - {"name":"US_youtube@资源分享师_159","type":"vmess","server":"74.217.179.165","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1682763163813","headers":{"host":"www.52033619.xyz"}}}
+  - {"name":"CN_youtube@资源分享师_47\r","type":"ss","server":"a.gfw.services","port":64739,"password":"abc9a8de-024e-42ea-b1f3-b9ea7a85f9ed","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_youtube@资源分享师_58","type":"vmess","server":"104.21.63.117","port":8080,"cipher":"auto","uuid":"7d69996f-cb8a-4c67-cbe5-d72a672a0902","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/uitsrt","headers":{"host":"eu3-fsn-kvm.uitsrt.me"}}}
+  - {"name":"US_youtube@资源分享师_48","type":"vmess","server":"hd.mamadcucu.com","port":2082,"cipher":"auto","uuid":"8e98f959-6eac-40b7-8fa8-e745942c9a8c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"h5.mamadcucu.com"}}}
+  - {"name":"US_youtube@资源分享师_30","type":"vmess","server":"172.67.147.152","port":443,"cipher":"auto","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cutino","headers":{"host":"chat.samrg.buzz"}}}
+  - {"name":"BZ_youtube@资源分享师_16","type":"vmess","server":"asbiasncs.114514782.xyz","port":2052,"cipher":"auto","uuid":"19d76e75-a56b-3048-bbde-cdd2a8c66fa0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/auvbwbs","headers":{"host":"asbiasncs.114514782.xyz"}}}
+  - {"name":"CN_youtube@资源分享师_71\r","type":"ss","server":"p1.bxy-fun2.com","port":24101,"password":"d7bee830-09aa-43b2-8945-3b341b8787db","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_99
-      - US_youtube@资源分享师_111
-      - 美国(yudou66.com 玉豆免费节点)
-      - 🇺🇸美国【YouTube-由零開始】29
-      - 🇨🇳中国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - US_youtube@资源分享师_46
-      - 🇬🇧英国【YouTube-由零開始】29
-      - US_youtube@资源分享师_41
+      - "HK_youtube@资源分享师_33\r"
+      - BZ_youtube@资源分享师_9
+      - CA_youtube@资源分享师_4
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_60
+      - US_youtube@资源分享师_92
+      - BZ_youtube@资源分享师_21
+      - US_youtube@资源分享师_28
       - 🇺🇸美国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - "US_youtube@资源分享师_36\r"
+      - CY_youtube@资源分享师_10
+      - US_youtube@资源分享师_159
+      - "CN_youtube@资源分享师_47\r"
+      - US_youtube@资源分享师_58
+      - US_youtube@资源分享师_48
+      - US_youtube@资源分享师_30
+      - BZ_youtube@资源分享师_16
+      - "CN_youtube@资源分享师_71\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_99
-      - US_youtube@资源分享师_111
-      - 美国(yudou66.com 玉豆免费节点)
-      - 🇺🇸美国【YouTube-由零開始】29
-      - 🇨🇳中国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - US_youtube@资源分享师_46
-      - 🇬🇧英国【YouTube-由零開始】29
-      - US_youtube@资源分享师_41
+      - "HK_youtube@资源分享师_33\r"
+      - BZ_youtube@资源分享师_9
+      - CA_youtube@资源分享师_4
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_60
+      - US_youtube@资源分享师_92
+      - BZ_youtube@资源分享师_21
+      - US_youtube@资源分享师_28
       - 🇺🇸美国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - "US_youtube@资源分享师_36\r"
+      - CY_youtube@资源分享师_10
+      - US_youtube@资源分享师_159
+      - "CN_youtube@资源分享师_47\r"
+      - US_youtube@资源分享师_58
+      - US_youtube@资源分享师_48
+      - US_youtube@资源分享师_30
+      - BZ_youtube@资源分享师_16
+      - "CN_youtube@资源分享师_71\r"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_99
-      - US_youtube@资源分享师_111
-      - 美国(yudou66.com 玉豆免费节点)
-      - 🇺🇸美国【YouTube-由零開始】29
-      - 🇨🇳中国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - US_youtube@资源分享师_46
-      - 🇬🇧英国【YouTube-由零開始】29
-      - US_youtube@资源分享师_41
+      - "HK_youtube@资源分享师_33\r"
+      - BZ_youtube@资源分享师_9
+      - CA_youtube@资源分享师_4
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_60
+      - US_youtube@资源分享师_92
+      - BZ_youtube@资源分享师_21
+      - US_youtube@资源分享师_28
       - 🇺🇸美国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - "US_youtube@资源分享师_36\r"
+      - CY_youtube@资源分享师_10
+      - US_youtube@资源分享师_159
+      - "CN_youtube@资源分享师_47\r"
+      - US_youtube@资源分享师_58
+      - US_youtube@资源分享师_48
+      - US_youtube@资源分享师_30
+      - BZ_youtube@资源分享师_16
+      - "CN_youtube@资源分享师_71\r"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_99
-      - US_youtube@资源分享师_111
-      - 美国(yudou66.com 玉豆免费节点)
-      - 🇺🇸美国【YouTube-由零開始】29
-      - 🇨🇳中国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - US_youtube@资源分享师_46
-      - 🇬🇧英国【YouTube-由零開始】29
-      - US_youtube@资源分享师_41
+      - "HK_youtube@资源分享师_33\r"
+      - BZ_youtube@资源分享师_9
+      - CA_youtube@资源分享师_4
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_60
+      - US_youtube@资源分享师_92
+      - BZ_youtube@资源分享师_21
+      - US_youtube@资源分享师_28
       - 🇺🇸美国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - "US_youtube@资源分享师_36\r"
+      - CY_youtube@资源分享师_10
+      - US_youtube@资源分享师_159
+      - "CN_youtube@资源分享师_47\r"
+      - US_youtube@资源分享师_58
+      - US_youtube@资源分享师_48
+      - US_youtube@资源分享师_30
+      - BZ_youtube@资源分享师_16
+      - "CN_youtube@资源分享师_71\r"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_99
-      - US_youtube@资源分享师_111
-      - 美国(yudou66.com 玉豆免费节点)
-      - 🇺🇸美国【YouTube-由零開始】29
-      - 🇨🇳中国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - US_youtube@资源分享师_46
-      - 🇬🇧英国【YouTube-由零開始】29
-      - US_youtube@资源分享师_41
+      - "HK_youtube@资源分享师_33\r"
+      - BZ_youtube@资源分享师_9
+      - CA_youtube@资源分享师_4
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_60
+      - US_youtube@资源分享师_92
+      - BZ_youtube@资源分享师_21
+      - US_youtube@资源分享师_28
       - 🇺🇸美国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - "US_youtube@资源分享师_36\r"
+      - CY_youtube@资源分享师_10
+      - US_youtube@资源分享师_159
+      - "CN_youtube@资源分享师_47\r"
+      - US_youtube@资源分享师_58
+      - US_youtube@资源分享师_48
+      - US_youtube@资源分享师_30
+      - BZ_youtube@资源分享师_16
+      - "CN_youtube@资源分享师_71\r"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_99
-      - US_youtube@资源分享师_111
-      - 美国(yudou66.com 玉豆免费节点)
-      - 🇺🇸美国【YouTube-由零開始】29
-      - 🇨🇳中国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - US_youtube@资源分享师_46
-      - 🇬🇧英国【YouTube-由零開始】29
-      - US_youtube@资源分享师_41
+      - "HK_youtube@资源分享师_33\r"
+      - BZ_youtube@资源分享师_9
+      - CA_youtube@资源分享师_4
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_60
+      - US_youtube@资源分享师_92
+      - BZ_youtube@资源分享师_21
+      - US_youtube@资源分享师_28
       - 🇺🇸美国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - "US_youtube@资源分享师_36\r"
+      - CY_youtube@资源分享师_10
+      - US_youtube@资源分享师_159
+      - "CN_youtube@资源分享师_47\r"
+      - US_youtube@资源分享师_58
+      - US_youtube@资源分享师_48
+      - US_youtube@资源分享师_30
+      - BZ_youtube@资源分享师_16
+      - "CN_youtube@资源分享师_71\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,17 +188,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_youtube@资源分享师_17
-      - US_youtube@资源分享师_99
-      - US_youtube@资源分享师_111
-      - 美国(yudou66.com 玉豆免费节点)
-      - 🇺🇸美国【YouTube-由零開始】29
-      - 🇨🇳中国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - US_youtube@资源分享师_46
-      - 🇬🇧英国【YouTube-由零開始】29
-      - US_youtube@资源分享师_41
+      - "HK_youtube@资源分享师_33\r"
+      - BZ_youtube@资源分享师_9
+      - CA_youtube@资源分享师_4
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_60
+      - US_youtube@资源分享师_92
+      - BZ_youtube@资源分享师_21
+      - US_youtube@资源分享师_28
       - 🇺🇸美国🇺🇸解锁GPT美国解锁GPT【YouTube-由零開始】29流量用光止
-      - "US_youtube@资源分享师_36\r"
+      - CY_youtube@资源分享师_10
+      - US_youtube@资源分享师_159
+      - "CN_youtube@资源分享师_47\r"
+      - US_youtube@资源分享师_58
+      - US_youtube@资源分享师_48
+      - US_youtube@资源分享师_30
+      - BZ_youtube@资源分享师_16
+      - "CN_youtube@资源分享师_71\r"
 
 rules:
 # 本地/局域网地址
