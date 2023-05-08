@@ -20,17 +20,13 @@ proxies:
   - {"name":"US_youtube@资源分享师_60","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
   - {"name":"SG_youtube@资源分享师_30","type":"vmess","server":"8.219.216.27","port":2052,"cipher":"auto","uuid":"8ed9aec2-e02e-4a27-fe02-c3e20452e4c7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"h4.mamadcucu.com"}}}
   - {"name":"🇩🇪DE德国(youtube阿伟科技)_1","type":"vmess","server":"sht.ircf.space","port":443,"cipher":"auto","uuid":"70e0032d-3b62-4f42-a41d-ac7b4e16ce6f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"naaser.nanoravro.ml"}}}
-  - {"name":"🇩🇪DE德国(youtube阿伟科技)_2","type":"vmess","server":"mbt.ircf.space","port":443,"cipher":"auto","uuid":"70e0032d-3b62-4f42-a41d-ac7b4e16ce6f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"soghra.nanoravro.ml"}}}
-  - {"name":"🇺🇸US美国(youtube阿伟科技)_1","type":"vmess","server":"shiresho.foriran.nl","port":443,"cipher":"auto","uuid":"a6e6b3e0-b8a7-4123-8ab4-573a9241a259","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/UcM6L7nnEW8E0h3Y","headers":{"host":"shiresho.foriran.nl"}}}
+  - {"name":"🇺🇸US美国(youtube阿伟科技)","type":"vmess","server":"shiresho.foriran.nl","port":443,"cipher":"auto","uuid":"a6e6b3e0-b8a7-4123-8ab4-573a9241a259","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/UcM6L7nnEW8E0h3Y","headers":{"host":"shiresho.foriran.nl"}}}
   - {"name":"🇺🇸US美国(youtube阿伟科技)\r_1","type":"vless","server":"shiresho.foriran.nl","port":443,"uuid":"a6e6b3e0-b8a7-4123-8ab4-573a9241a259","tls":true,"servername":"shiresho.foriran.nl","network":"ws","ws-opts":{"path":"/TzNCCvDX1mkvgnEW8E0h3Y"}}
+  - {"name":"🇩🇪DE德国(youtube阿伟科技)_2","type":"vmess","server":"mbt.ircf.space","port":443,"cipher":"auto","uuid":"70e0032d-3b62-4f42-a41d-ac7b4e16ce6f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"soghra.nanoravro.ml"}}}
   - {"name":"🇫🇷FR法国(youtube阿伟科技)","type":"vmess","server":"ztl.ircf.space","port":443,"cipher":"auto","uuid":"70e0032d-3b62-4f42-a41d-ac7b4e16ce6f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"testi.nanoravro.ml"}}}
   - {"name":"US_youtube@资源分享师_62","type":"vmess","server":"192.203.230.86","port":80,"cipher":"auto","uuid":"a442dacf-cbb3-488a-9744-61494ea38630","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.cf"}}}
   - {"name":"🇩🇪DE德国(youtube阿伟科技)_3","type":"vmess","server":"d.mamadcucu.com","port":2082,"cipher":"auto","uuid":"38c8e734-f87f-4c74-b5ed-63e10ce54b93","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"i5.mamadcucu.com"}}}
-  - {"name":"🇺🇸US美国(youtube阿伟科技)\r_2","type":"vless","server":"atal.foriran.nl","port":443,"uuid":"a6e6b3e0-b8a7-4123-8ab4-573a9241a259","tls":true,"servername":"atal.foriran.nl","network":"ws","ws-opts":{"path":"/TzNCCvDX1mkvgnEW8E0h3Y"}}
-  - {"name":"🇺🇸US美国(youtube阿伟科技)_2","type":"vmess","server":"shiresho.foriran.nl","port":443,"cipher":"chacha20-poly1305","uuid":"a6e6b3e0-b8a7-4123-8ab4-573a9241a259","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/UcM6L7nnEW8E0h3Y","headers":{"host":"shiresho.foriran.nl"}}}
-  - {"name":"🇺🇸US美国(youtube阿伟科技)_3","type":"vmess","server":"atal.foriran.nl","port":443,"cipher":"chacha20-poly1305","uuid":"a6e6b3e0-b8a7-4123-8ab4-573a9241a259","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/UcM6L7nnEW8E0h3Y","headers":{"host":"atal.foriran.nl"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】6\r","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
-  - {"name":"CH瑞士(youtube阿伟科技)\r","type":"vless","server":"mci.onlineirangame.online","port":2083,"uuid":"d17929b9-4582-4e09-9aed-7f368d37aa0c","tls":true,"servername":"namavatv.myhomexxx.shop","network":"grpc"}
+  - {"name":"🇺🇸US美国(youtube阿伟科技)\r_2","type":"vless","server":"shiresho.foriran.nl","port":443,"uuid":"a6e6b3e0-b8a7-4123-8ab4-573a9241a259","tls":true,"servername":"shiresho.foriran.nl","network":"ws","ws-opts":{"path":"/TzNCCvDX1mkvgnEW8E0h3Y"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -43,17 +39,13 @@ proxy-groups:
       - US_youtube@资源分享师_60
       - SG_youtube@资源分享师_30
       - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_1
+      - 🇺🇸US美国(youtube阿伟科技)
       - "🇺🇸US美国(youtube阿伟科技)\r_1"
+      - 🇩🇪DE德国(youtube阿伟科技)_2
       - 🇫🇷FR法国(youtube阿伟科技)
       - US_youtube@资源分享师_62
       - 🇩🇪DE德国(youtube阿伟科技)_3
       - "🇺🇸US美国(youtube阿伟科技)\r_2"
-      - 🇺🇸US美国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_3
-      - "🇺🇸美国【YouTube-由零開始】6\r"
-      - "CH瑞士(youtube阿伟科技)\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -66,17 +58,13 @@ proxy-groups:
       - US_youtube@资源分享师_60
       - SG_youtube@资源分享师_30
       - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_1
+      - 🇺🇸US美国(youtube阿伟科技)
       - "🇺🇸US美国(youtube阿伟科技)\r_1"
+      - 🇩🇪DE德国(youtube阿伟科技)_2
       - 🇫🇷FR法国(youtube阿伟科技)
       - US_youtube@资源分享师_62
       - 🇩🇪DE德国(youtube阿伟科技)_3
       - "🇺🇸US美国(youtube阿伟科技)\r_2"
-      - 🇺🇸US美国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_3
-      - "🇺🇸美国【YouTube-由零開始】6\r"
-      - "CH瑞士(youtube阿伟科技)\r"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -89,17 +77,13 @@ proxy-groups:
       - US_youtube@资源分享师_60
       - SG_youtube@资源分享师_30
       - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_1
+      - 🇺🇸US美国(youtube阿伟科技)
       - "🇺🇸US美国(youtube阿伟科技)\r_1"
+      - 🇩🇪DE德国(youtube阿伟科技)_2
       - 🇫🇷FR法国(youtube阿伟科技)
       - US_youtube@资源分享师_62
       - 🇩🇪DE德国(youtube阿伟科技)_3
       - "🇺🇸US美国(youtube阿伟科技)\r_2"
-      - 🇺🇸US美国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_3
-      - "🇺🇸美国【YouTube-由零開始】6\r"
-      - "CH瑞士(youtube阿伟科技)\r"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -111,17 +95,13 @@ proxy-groups:
       - US_youtube@资源分享师_60
       - SG_youtube@资源分享师_30
       - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_1
+      - 🇺🇸US美国(youtube阿伟科技)
       - "🇺🇸US美国(youtube阿伟科技)\r_1"
+      - 🇩🇪DE德国(youtube阿伟科技)_2
       - 🇫🇷FR法国(youtube阿伟科技)
       - US_youtube@资源分享师_62
       - 🇩🇪DE德国(youtube阿伟科技)_3
       - "🇺🇸US美国(youtube阿伟科技)\r_2"
-      - 🇺🇸US美国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_3
-      - "🇺🇸美国【YouTube-由零開始】6\r"
-      - "CH瑞士(youtube阿伟科技)\r"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -133,17 +113,13 @@ proxy-groups:
       - US_youtube@资源分享师_60
       - SG_youtube@资源分享师_30
       - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_1
+      - 🇺🇸US美国(youtube阿伟科技)
       - "🇺🇸US美国(youtube阿伟科技)\r_1"
+      - 🇩🇪DE德国(youtube阿伟科技)_2
       - 🇫🇷FR法国(youtube阿伟科技)
       - US_youtube@资源分享师_62
       - 🇩🇪DE德国(youtube阿伟科技)_3
       - "🇺🇸US美国(youtube阿伟科技)\r_2"
-      - 🇺🇸US美国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_3
-      - "🇺🇸美国【YouTube-由零開始】6\r"
-      - "CH瑞士(youtube阿伟科技)\r"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -155,17 +131,13 @@ proxy-groups:
       - US_youtube@资源分享师_60
       - SG_youtube@资源分享师_30
       - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_1
+      - 🇺🇸US美国(youtube阿伟科技)
       - "🇺🇸US美国(youtube阿伟科技)\r_1"
+      - 🇩🇪DE德国(youtube阿伟科技)_2
       - 🇫🇷FR法国(youtube阿伟科技)
       - US_youtube@资源分享师_62
       - 🇩🇪DE德国(youtube阿伟科技)_3
       - "🇺🇸US美国(youtube阿伟科技)\r_2"
-      - 🇺🇸US美国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_3
-      - "🇺🇸美国【YouTube-由零開始】6\r"
-      - "CH瑞士(youtube阿伟科技)\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -194,17 +166,13 @@ proxy-groups:
       - US_youtube@资源分享师_60
       - SG_youtube@资源分享师_30
       - 🇩🇪DE德国(youtube阿伟科技)_1
-      - 🇩🇪DE德国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_1
+      - 🇺🇸US美国(youtube阿伟科技)
       - "🇺🇸US美国(youtube阿伟科技)\r_1"
+      - 🇩🇪DE德国(youtube阿伟科技)_2
       - 🇫🇷FR法国(youtube阿伟科技)
       - US_youtube@资源分享师_62
       - 🇩🇪DE德国(youtube阿伟科技)_3
       - "🇺🇸US美国(youtube阿伟科技)\r_2"
-      - 🇺🇸US美国(youtube阿伟科技)_2
-      - 🇺🇸US美国(youtube阿伟科技)_3
-      - "🇺🇸美国【YouTube-由零開始】6\r"
-      - "CH瑞士(youtube阿伟科技)\r"
 
 rules:
 # 本地/局域网地址
