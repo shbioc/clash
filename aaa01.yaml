@@ -14,249 +14,186 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"CN_youtube@资源分享师_9\r","type":"trojan","server":"as.steamdownload.top","port":36614,"udp":true,"password":"b4932602-92fb-463f-9cb3-c3ca1ad31ec1","sni":"datahk.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇷哥斯达黎加【YouTube-由零開始】_1","type":"vmess","server":"190.93.247.146","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"US_youtube@资源分享师_68\r","type":"trojan","server":"163.123.192.64","port":443,"udp":true,"password":"b3359b2b-cb0f-44cd-a152-a796d8b46b01","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸美国【YouTube-由零開始】_1","type":"vmess","server":"173.245.58.31","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇨🇷哥斯达黎加【YouTube-由零開始】_2","type":"vmess","server":"190.93.244.154","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_2","type":"vmess","server":"103.21.244.211","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_3","type":"vmess","server":"104.21.196.127","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_4","type":"vmess","server":"104.27.48.35","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"US_youtube@资源分享师_90","type":"vmess","server":"172.67.182.198","port":443,"cipher":"auto","uuid":"2b566e5d-f610-4f32-b8cc-ae20f76d69eb","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/de1","headers":{"host":"de1.djjc.sbs"}}}
-  - {"name":"德国(yudou66.com+玉豆免费节点)\r","type":"trojan","server":"217.79.184.18","port":443,"udp":true,"password":"2b566e5d-f610-4f32-b8cc-ae20f76d69eb","sni":"de1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CN_youtube@资源分享师_1\r","type":"trojan","server":"as.steamdownload.top","port":36644,"udp":true,"password":"b4932602-92fb-463f-9cb3-c3ca1ad31ec1","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_youtube@资源分享师_69","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"a37237b0-ea95-4463-9222-8508e9b80284","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/djjc/de1","headers":{"host":"de1.djjc.sbs"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_5","type":"vmess","server":"104.18.22.156","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"CN_youtube@资源分享师_100\r","type":"trojan","server":"as.steamdownload.top","port":36623,"udp":true,"password":"b4932602-92fb-463f-9cb3-c3ca1ad31ec1","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_6","type":"vmess","server":"103.21.244.197","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_7","type":"vmess","server":"104.20.245.174","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_1","type":"vmess","server":"2606:4700:3037::6815:3523","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp4.yxjnode.com"}}}
-  - {"name":"美国(yudou66.com+玉豆免费节点)\r","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_2","type":"vmess","server":"104.21.29.207","port":2096,"cipher":"auto","uuid":"408e2686-9e0d-4014-841e-7ca5da55a215","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"ho3ino","headers":{"host":"h.h3io.co"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_8","type":"vmess","server":"162.159.62.3","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_9","type":"vmess","server":"tou.vtcss.top","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_10","type":"vmess","server":"172.67.94.59","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"US_youtube@资源分享师_91","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"sw.sharecentrepro.com"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_3","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"aes-128-gcm","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"nl.sharecentrepro.com"}}}
-  - {"name":"US_youtube@资源分享师_151","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm1.yxjnode.com"}}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_11","type":"vmess","server":"104.24.238.103","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"youtube+新知_US_美国\r","type":"vless","server":"runner-gitlab-ya.ml","port":443,"uuid":"3407c263-0187-49ce-af76-611d5a2a6712","tls":true,"servername":"runner-gitlab-ya.ml","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】_12","type":"vmess","server":"104.24.141.250","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_4","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp4.yxjnode.com"}}}
-  - {"name":"CN_youtube@资源分享师_40\r","type":"trojan","server":"as.steamdownload.top","port":36716,"udp":true,"password":"b4932602-92fb-463f-9cb3-c3ca1ad31ec1","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本(yudou66.com 玉豆免费节点)","type":"vmess","server":"aa-jp.x898989.xyz","port":41002,"cipher":"auto","uuid":"3caf2931-c39e-4f07-c392-dea78fa3ebb0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"h2","h2-opts":{"host":["aa-jp.x898989.xyz"],"path":"/website"}}
+  - {"name":"🇨🇷哥斯达黎加【YouTube-由零開始】_1","type":"vmess","server":"190.93.244.154","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"🇨🇷哥斯达黎加【YouTube-由零開始】_2","type":"vmess","server":"190.93.247.146","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_2","type":"vmess","server":"103.21.244.197","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_3","type":"vmess","server":"104.18.22.156","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_2\r","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
+  - {"name":"youtube 新知_US_美国","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm1.yxjnode.com"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_4","type":"vmess","server":"162.159.62.3","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_5","type":"vmess","server":"103.21.244.211","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_6","type":"vmess","server":"172.67.94.59","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_7","type":"vmess","server":"104.21.196.127","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_8","type":"vmess","server":"104.27.48.35","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_1","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"aes-128-gcm","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
+  - {"name":"youtube+新知_US_美国\r_1","type":"vless","server":"runner-gitlab-ya.ml","port":443,"uuid":"3407c263-0187-49ce-af76-611d5a2a6712","tls":true,"servername":"runner-gitlab-ya.ml","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_2","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"nl.sharecentrepro.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_3","type":"vmess","server":"2606:4700:3037::6815:3523","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp4.yxjnode.com"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_9","type":"vmess","server":"104.20.245.174","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"youtube+新知_US_美国\r_2","type":"vless","server":"first.baoshi750105.top","port":443,"uuid":"d65eb109-efe6-4941-b726-674fe55f22ae","tls":true,"servername":"first.baoshi750105.top","network":"ws","ws-opts":{"path":"/caoyu1932"}}
+  - {"name":"DE_youtube@资源分享师_57\r","type":"trojan","server":"217.79.181.82","port":443,"udp":true,"password":"b3359b2b-cb0f-44cd-a152-a796d8b46b01","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸美国【YouTube-由零開始】_10","type":"vmess","server":"104.24.141.250","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "CN_youtube@资源分享师_9\r"
-      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
+      - "US_youtube@资源分享师_68\r"
       - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
       - 🇨🇷哥斯达黎加【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_3
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_2\r"
+      - youtube 新知_US_美国
       - 🇺🇸美国【YouTube-由零開始】_4
-      - US_youtube@资源分享师_90
-      - "德国(yudou66.com+玉豆免费节点)\r"
-      - "CN_youtube@资源分享师_1\r"
-      - US_youtube@资源分享师_69
       - 🇺🇸美国【YouTube-由零開始】_5
-      - "CN_youtube@资源分享师_100\r"
       - 🇺🇸美国【YouTube-由零開始】_6
       - 🇺🇸美国【YouTube-由零開始】_7
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - "美国(yudou66.com+玉豆免费节点)\r"
-      - 美国(yudou66.com 玉豆免费节点)_2
       - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇺🇸美国【YouTube-由零開始】_9
-      - 🇺🇸美国【YouTube-由零開始】_10
-      - US_youtube@资源分享师_91
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "youtube+新知_US_美国\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_2
       - 美国(yudou66.com 玉豆免费节点)_3
-      - US_youtube@资源分享师_151
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - "youtube+新知_US_美国\r"
-      - 🇺🇸美国【YouTube-由零開始】_12
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - "CN_youtube@资源分享师_40\r"
-      - 日本(yudou66.com 玉豆免费节点)
+      - 🇺🇸美国【YouTube-由零開始】_9
+      - "youtube+新知_US_美国\r_2"
+      - "DE_youtube@资源分享师_57\r"
+      - 🇺🇸美国【YouTube-由零開始】_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "CN_youtube@资源分享师_9\r"
-      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
+      - "US_youtube@资源分享师_68\r"
       - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
       - 🇨🇷哥斯达黎加【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_3
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_2\r"
+      - youtube 新知_US_美国
       - 🇺🇸美国【YouTube-由零開始】_4
-      - US_youtube@资源分享师_90
-      - "德国(yudou66.com+玉豆免费节点)\r"
-      - "CN_youtube@资源分享师_1\r"
-      - US_youtube@资源分享师_69
       - 🇺🇸美国【YouTube-由零開始】_5
-      - "CN_youtube@资源分享师_100\r"
       - 🇺🇸美国【YouTube-由零開始】_6
       - 🇺🇸美国【YouTube-由零開始】_7
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - "美国(yudou66.com+玉豆免费节点)\r"
-      - 美国(yudou66.com 玉豆免费节点)_2
       - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇺🇸美国【YouTube-由零開始】_9
-      - 🇺🇸美国【YouTube-由零開始】_10
-      - US_youtube@资源分享师_91
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "youtube+新知_US_美国\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_2
       - 美国(yudou66.com 玉豆免费节点)_3
-      - US_youtube@资源分享师_151
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - "youtube+新知_US_美国\r"
-      - 🇺🇸美国【YouTube-由零開始】_12
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - "CN_youtube@资源分享师_40\r"
-      - 日本(yudou66.com 玉豆免费节点)
+      - 🇺🇸美国【YouTube-由零開始】_9
+      - "youtube+新知_US_美国\r_2"
+      - "DE_youtube@资源分享师_57\r"
+      - 🇺🇸美国【YouTube-由零開始】_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "CN_youtube@资源分享师_9\r"
-      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
+      - "US_youtube@资源分享师_68\r"
       - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
       - 🇨🇷哥斯达黎加【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_3
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_2\r"
+      - youtube 新知_US_美国
       - 🇺🇸美国【YouTube-由零開始】_4
-      - US_youtube@资源分享师_90
-      - "德国(yudou66.com+玉豆免费节点)\r"
-      - "CN_youtube@资源分享师_1\r"
-      - US_youtube@资源分享师_69
       - 🇺🇸美国【YouTube-由零開始】_5
-      - "CN_youtube@资源分享师_100\r"
       - 🇺🇸美国【YouTube-由零開始】_6
       - 🇺🇸美国【YouTube-由零開始】_7
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - "美国(yudou66.com+玉豆免费节点)\r"
-      - 美国(yudou66.com 玉豆免费节点)_2
       - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇺🇸美国【YouTube-由零開始】_9
-      - 🇺🇸美国【YouTube-由零開始】_10
-      - US_youtube@资源分享师_91
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "youtube+新知_US_美国\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_2
       - 美国(yudou66.com 玉豆免费节点)_3
-      - US_youtube@资源分享师_151
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - "youtube+新知_US_美国\r"
-      - 🇺🇸美国【YouTube-由零開始】_12
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - "CN_youtube@资源分享师_40\r"
-      - 日本(yudou66.com 玉豆免费节点)
+      - 🇺🇸美国【YouTube-由零開始】_9
+      - "youtube+新知_US_美国\r_2"
+      - "DE_youtube@资源分享师_57\r"
+      - 🇺🇸美国【YouTube-由零開始】_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "CN_youtube@资源分享师_9\r"
-      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
+      - "US_youtube@资源分享师_68\r"
       - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
       - 🇨🇷哥斯达黎加【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_3
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_2\r"
+      - youtube 新知_US_美国
       - 🇺🇸美国【YouTube-由零開始】_4
-      - US_youtube@资源分享师_90
-      - "德国(yudou66.com+玉豆免费节点)\r"
-      - "CN_youtube@资源分享师_1\r"
-      - US_youtube@资源分享师_69
       - 🇺🇸美国【YouTube-由零開始】_5
-      - "CN_youtube@资源分享师_100\r"
       - 🇺🇸美国【YouTube-由零開始】_6
       - 🇺🇸美国【YouTube-由零開始】_7
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - "美国(yudou66.com+玉豆免费节点)\r"
-      - 美国(yudou66.com 玉豆免费节点)_2
       - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇺🇸美国【YouTube-由零開始】_9
-      - 🇺🇸美国【YouTube-由零開始】_10
-      - US_youtube@资源分享师_91
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "youtube+新知_US_美国\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_2
       - 美国(yudou66.com 玉豆免费节点)_3
-      - US_youtube@资源分享师_151
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - "youtube+新知_US_美国\r"
-      - 🇺🇸美国【YouTube-由零開始】_12
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - "CN_youtube@资源分享师_40\r"
-      - 日本(yudou66.com 玉豆免费节点)
+      - 🇺🇸美国【YouTube-由零開始】_9
+      - "youtube+新知_US_美国\r_2"
+      - "DE_youtube@资源分享师_57\r"
+      - 🇺🇸美国【YouTube-由零開始】_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "CN_youtube@资源分享师_9\r"
-      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
+      - "US_youtube@资源分享师_68\r"
       - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
       - 🇨🇷哥斯达黎加【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_3
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_2\r"
+      - youtube 新知_US_美国
       - 🇺🇸美国【YouTube-由零開始】_4
-      - US_youtube@资源分享师_90
-      - "德国(yudou66.com+玉豆免费节点)\r"
-      - "CN_youtube@资源分享师_1\r"
-      - US_youtube@资源分享师_69
       - 🇺🇸美国【YouTube-由零開始】_5
-      - "CN_youtube@资源分享师_100\r"
       - 🇺🇸美国【YouTube-由零開始】_6
       - 🇺🇸美国【YouTube-由零開始】_7
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - "美国(yudou66.com+玉豆免费节点)\r"
-      - 美国(yudou66.com 玉豆免费节点)_2
       - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇺🇸美国【YouTube-由零開始】_9
-      - 🇺🇸美国【YouTube-由零開始】_10
-      - US_youtube@资源分享师_91
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "youtube+新知_US_美国\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_2
       - 美国(yudou66.com 玉豆免费节点)_3
-      - US_youtube@资源分享师_151
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - "youtube+新知_US_美国\r"
-      - 🇺🇸美国【YouTube-由零開始】_12
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - "CN_youtube@资源分享师_40\r"
-      - 日本(yudou66.com 玉豆免费节点)
+      - 🇺🇸美国【YouTube-由零開始】_9
+      - "youtube+新知_US_美国\r_2"
+      - "DE_youtube@资源分享师_57\r"
+      - 🇺🇸美国【YouTube-由零開始】_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "CN_youtube@资源分享师_9\r"
-      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
+      - "US_youtube@资源分享师_68\r"
       - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
       - 🇨🇷哥斯达黎加【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_3
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_2\r"
+      - youtube 新知_US_美国
       - 🇺🇸美国【YouTube-由零開始】_4
-      - US_youtube@资源分享师_90
-      - "德国(yudou66.com+玉豆免费节点)\r"
-      - "CN_youtube@资源分享师_1\r"
-      - US_youtube@资源分享师_69
       - 🇺🇸美国【YouTube-由零開始】_5
-      - "CN_youtube@资源分享师_100\r"
       - 🇺🇸美国【YouTube-由零開始】_6
       - 🇺🇸美国【YouTube-由零開始】_7
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - "美国(yudou66.com+玉豆免费节点)\r"
-      - 美国(yudou66.com 玉豆免费节点)_2
       - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇺🇸美国【YouTube-由零開始】_9
-      - 🇺🇸美国【YouTube-由零開始】_10
-      - US_youtube@资源分享师_91
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "youtube+新知_US_美国\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_2
       - 美国(yudou66.com 玉豆免费节点)_3
-      - US_youtube@资源分享师_151
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - "youtube+新知_US_美国\r"
-      - 🇺🇸美国【YouTube-由零開始】_12
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - "CN_youtube@资源分享师_40\r"
-      - 日本(yudou66.com 玉豆免费节点)
+      - 🇺🇸美国【YouTube-由零開始】_9
+      - "youtube+新知_US_美国\r_2"
+      - "DE_youtube@资源分享师_57\r"
+      - 🇺🇸美国【YouTube-由零開始】_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -279,36 +216,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "CN_youtube@资源分享师_9\r"
-      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
+      - "US_youtube@资源分享师_68\r"
       - 🇺🇸美国【YouTube-由零開始】_1
+      - 🇨🇷哥斯达黎加【YouTube-由零開始】_1
       - 🇨🇷哥斯达黎加【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_2
       - 🇺🇸美国【YouTube-由零開始】_3
+      - "US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88\r_2\r"
+      - youtube 新知_US_美国
       - 🇺🇸美国【YouTube-由零開始】_4
-      - US_youtube@资源分享师_90
-      - "德国(yudou66.com+玉豆免费节点)\r"
-      - "CN_youtube@资源分享师_1\r"
-      - US_youtube@资源分享师_69
       - 🇺🇸美国【YouTube-由零開始】_5
-      - "CN_youtube@资源分享师_100\r"
       - 🇺🇸美国【YouTube-由零開始】_6
       - 🇺🇸美国【YouTube-由零開始】_7
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - "美国(yudou66.com+玉豆免费节点)\r"
-      - 美国(yudou66.com 玉豆免费节点)_2
       - 🇺🇸美国【YouTube-由零開始】_8
-      - 🇺🇸美国【YouTube-由零開始】_9
-      - 🇺🇸美国【YouTube-由零開始】_10
-      - US_youtube@资源分享师_91
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "youtube+新知_US_美国\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_2
       - 美国(yudou66.com 玉豆免费节点)_3
-      - US_youtube@资源分享师_151
-      - 🇺🇸美国【YouTube-由零開始】_11
-      - "youtube+新知_US_美国\r"
-      - 🇺🇸美国【YouTube-由零開始】_12
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - "CN_youtube@资源分享师_40\r"
-      - 日本(yudou66.com 玉豆免费节点)
+      - 🇺🇸美国【YouTube-由零開始】_9
+      - "youtube+新知_US_美国\r_2"
+      - "DE_youtube@资源分享师_57\r"
+      - 🇺🇸美国【YouTube-由零開始】_10
 
 rules:
 # 本地/局域网地址
