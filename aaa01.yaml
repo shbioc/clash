@@ -14,186 +14,165 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"IL_youtube@资源分享师_19","type":"trojan","server":"us2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"us2.chuqiangtou.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国【YouTube-由零開始】","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 2","type":"trojan","server":"148.59.74.52","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","skip-cert-verify":true,"network":"tcp"}
   - {"name":"美国(yudou66.com 玉豆免费节点)","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"d16c31a2-93a3-4f1a-954c-e383b14a4d26","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国【YouTube-由零開始】","type":"trojan","server":"148.59.74.52","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 2","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"auto","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国【YouTube-由零開始】 2","type":"trojan","server":"163.123.192.60","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国【YouTube-由零開始】 3","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 3","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_41","type":"trojan","server":"163.123.192.57","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国(yudou66.com 玉豆免费节点) 4","type":"vmess","server":"speed.cloudflare.com","port":443,"cipher":"auto","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 2","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 3","type":"trojan","server":"163.123.192.60","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"_US_美国_欢迎订阅yui科技_37","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"auto","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
   - {"name":"美国【YouTube-由零開始】 4","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国【YouTube-由零開始】 5","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_84","type":"vmess","server":"tech.noaries.de","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"US_youtube@资源分享师_9","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"HK_youtube@资源分享师_28","type":"vmess","server":"8.218.127.249","port":80,"cipher":"auto","uuid":"ff2b46a0-3805-4e6d-df3f-3aaa70f8cbd0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国【YouTube-由零開始】 6","type":"vmess","server":"www.noice.id","port":443,"cipher":"auto","uuid":"5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国【YouTube-由零開始】 7","type":"vmess","server":"quiz.vidio.com","port":443,"cipher":"auto","uuid":"3f1efe58-f94e-4c8d-8428-8928ad5f075c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"美国【YouTube-由零開始】 8","type":"vmess","server":"dl.v001sssv.pw","port":80,"cipher":"auto","uuid":"a4bb7f93-cee6-43d7-b2dd-fa9c70b88233","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"日本(yudou66.com 玉豆免费节点)","type":"trojan","server":"trs17.bolab.net","port":22,"udp":true,"password":"7a73f1dc97a70905870c0c0484b12145","sni":"trs17.bolab.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"SG_youtube@资源分享师_65","type":"vmess","server":"sg10.zingfast.vn","port":80,"cipher":"auto","uuid":"533724ad-58ef-4147-88dc-9da523c15fc4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"JP_youtube@资源分享师_131","type":"trojan","server":"trs19.bolab.net","port":443,"udp":true,"password":"7a73f1dc97a70905870c0c0484b12145","sni":"trs19.bolab.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国【YouTube-由零開始】 9","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国(yudou66.com 玉豆免费节点) 3","type":"trojan","server":"163.123.192.57","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"_US_美国_欢迎订阅yui科技_38","type":"vmess","server":"speed.cloudflare.com","port":443,"cipher":"auto","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"_US_美国_欢迎订阅yui科技_105","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"伯利兹【YouTube-由零開始】","type":"vmess","server":"sdttkza.76898102.xyz","port":2082,"cipher":"auto","uuid":"4896559c-c94e-342a-b208-6107ec292652","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"英国【YouTube-由零開始】","type":"ss","server":"51.132.13.41","port":52484,"password":"G4h2X1AThBilGI1eUrXny6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"以色列【YouTube-由零開始】","type":"trojan","server":"nl3.barbecuepie.com","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"nl3.barbecuepie.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"US_youtube@资源分享师_9","type":"vmess","server":"eddf.keeeeeeir.me","port":443,"cipher":"auto","uuid":"FF8A5176-6E92-4DC5-A98D-A56238B83687","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 5","type":"vmess","server":"quiz.vidio.com","port":443,"cipher":"auto","uuid":"3f1efe58-f94e-4c8d-8428-8928ad5f075c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"美国【YouTube-由零開始】 6","type":"vmess","server":"ovhsdza.76898102.xyz","port":2052,"cipher":"auto","uuid":"78fd41e5-346a-3bf4-b942-be0fad711979","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"以色列【YouTube-由零開始】 2","type":"trojan","server":"uk1.barbecuepie.com","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"uk1.barbecuepie.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本【YouTube-由零開始】","type":"vmess","server":"oci.donpau.com","port":443,"cipher":"auto","uuid":"3C02DC15-56AE-7889-8936-9A2EA8FF8666","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - IL_youtube@资源分享师_19
-      - 美国(yudou66.com 玉豆免费节点)
       - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 3
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - US_youtube@资源分享师_41
-      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国_欢迎订阅yui科技_37
       - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - US_youtube@资源分享师_84
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - _US_美国_欢迎订阅yui科技_38
+      - _US_美国_欢迎订阅yui科技_105
+      - 伯利兹【YouTube-由零開始】
+      - 英国【YouTube-由零開始】
+      - 以色列【YouTube-由零開始】
       - US_youtube@资源分享师_9
-      - HK_youtube@资源分享师_28
+      - 美国【YouTube-由零開始】 5
       - 美国【YouTube-由零開始】 6
-      - 美国【YouTube-由零開始】 7
-      - 美国【YouTube-由零開始】 8
-      - 日本(yudou66.com 玉豆免费节点)
-      - SG_youtube@资源分享师_65
-      - JP_youtube@资源分享师_131
-      - 美国【YouTube-由零開始】 9
+      - 以色列【YouTube-由零開始】 2
+      - 日本【YouTube-由零開始】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IL_youtube@资源分享师_19
-      - 美国(yudou66.com 玉豆免费节点)
       - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 3
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - US_youtube@资源分享师_41
-      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国_欢迎订阅yui科技_37
       - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - US_youtube@资源分享师_84
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - _US_美国_欢迎订阅yui科技_38
+      - _US_美国_欢迎订阅yui科技_105
+      - 伯利兹【YouTube-由零開始】
+      - 英国【YouTube-由零開始】
+      - 以色列【YouTube-由零開始】
       - US_youtube@资源分享师_9
-      - HK_youtube@资源分享师_28
+      - 美国【YouTube-由零開始】 5
       - 美国【YouTube-由零開始】 6
-      - 美国【YouTube-由零開始】 7
-      - 美国【YouTube-由零開始】 8
-      - 日本(yudou66.com 玉豆免费节点)
-      - SG_youtube@资源分享师_65
-      - JP_youtube@资源分享师_131
-      - 美国【YouTube-由零開始】 9
+      - 以色列【YouTube-由零開始】 2
+      - 日本【YouTube-由零開始】
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - IL_youtube@资源分享师_19
-      - 美国(yudou66.com 玉豆免费节点)
       - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 3
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - US_youtube@资源分享师_41
-      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国_欢迎订阅yui科技_37
       - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - US_youtube@资源分享师_84
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - _US_美国_欢迎订阅yui科技_38
+      - _US_美国_欢迎订阅yui科技_105
+      - 伯利兹【YouTube-由零開始】
+      - 英国【YouTube-由零開始】
+      - 以色列【YouTube-由零開始】
       - US_youtube@资源分享师_9
-      - HK_youtube@资源分享师_28
+      - 美国【YouTube-由零開始】 5
       - 美国【YouTube-由零開始】 6
-      - 美国【YouTube-由零開始】 7
-      - 美国【YouTube-由零開始】 8
-      - 日本(yudou66.com 玉豆免费节点)
-      - SG_youtube@资源分享师_65
-      - JP_youtube@资源分享师_131
-      - 美国【YouTube-由零開始】 9
+      - 以色列【YouTube-由零開始】 2
+      - 日本【YouTube-由零開始】
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - IL_youtube@资源分享师_19
-      - 美国(yudou66.com 玉豆免费节点)
       - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 3
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - US_youtube@资源分享师_41
-      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国_欢迎订阅yui科技_37
       - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - US_youtube@资源分享师_84
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - _US_美国_欢迎订阅yui科技_38
+      - _US_美国_欢迎订阅yui科技_105
+      - 伯利兹【YouTube-由零開始】
+      - 英国【YouTube-由零開始】
+      - 以色列【YouTube-由零開始】
       - US_youtube@资源分享师_9
-      - HK_youtube@资源分享师_28
+      - 美国【YouTube-由零開始】 5
       - 美国【YouTube-由零開始】 6
-      - 美国【YouTube-由零開始】 7
-      - 美国【YouTube-由零開始】 8
-      - 日本(yudou66.com 玉豆免费节点)
-      - SG_youtube@资源分享师_65
-      - JP_youtube@资源分享师_131
-      - 美国【YouTube-由零開始】 9
+      - 以色列【YouTube-由零開始】 2
+      - 日本【YouTube-由零開始】
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - IL_youtube@资源分享师_19
-      - 美国(yudou66.com 玉豆免费节点)
       - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 3
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - US_youtube@资源分享师_41
-      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国_欢迎订阅yui科技_37
       - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - US_youtube@资源分享师_84
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - _US_美国_欢迎订阅yui科技_38
+      - _US_美国_欢迎订阅yui科技_105
+      - 伯利兹【YouTube-由零開始】
+      - 英国【YouTube-由零開始】
+      - 以色列【YouTube-由零開始】
       - US_youtube@资源分享师_9
-      - HK_youtube@资源分享师_28
+      - 美国【YouTube-由零開始】 5
       - 美国【YouTube-由零開始】 6
-      - 美国【YouTube-由零開始】 7
-      - 美国【YouTube-由零開始】 8
-      - 日本(yudou66.com 玉豆免费节点)
-      - SG_youtube@资源分享师_65
-      - JP_youtube@资源分享师_131
-      - 美国【YouTube-由零開始】 9
+      - 以色列【YouTube-由零開始】 2
+      - 日本【YouTube-由零開始】
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - IL_youtube@资源分享师_19
-      - 美国(yudou66.com 玉豆免费节点)
       - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 3
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - US_youtube@资源分享师_41
-      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国_欢迎订阅yui科技_37
       - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - US_youtube@资源分享师_84
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - _US_美国_欢迎订阅yui科技_38
+      - _US_美国_欢迎订阅yui科技_105
+      - 伯利兹【YouTube-由零開始】
+      - 英国【YouTube-由零開始】
+      - 以色列【YouTube-由零開始】
       - US_youtube@资源分享师_9
-      - HK_youtube@资源分享师_28
+      - 美国【YouTube-由零開始】 5
       - 美国【YouTube-由零開始】 6
-      - 美国【YouTube-由零開始】 7
-      - 美国【YouTube-由零開始】 8
-      - 日本(yudou66.com 玉豆免费节点)
-      - SG_youtube@资源分享师_65
-      - JP_youtube@资源分享师_131
-      - 美国【YouTube-由零開始】 9
+      - 以色列【YouTube-由零開始】 2
+      - 日本【YouTube-由零開始】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -216,27 +195,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - IL_youtube@资源分享师_19
-      - 美国(yudou66.com 玉豆免费节点)
       - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 2
+      - 美国(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点) 2
       - 美国【YouTube-由零開始】 3
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - US_youtube@资源分享师_41
-      - 美国(yudou66.com 玉豆免费节点) 4
+      - _US_美国_欢迎订阅yui科技_37
       - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - US_youtube@资源分享师_84
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - _US_美国_欢迎订阅yui科技_38
+      - _US_美国_欢迎订阅yui科技_105
+      - 伯利兹【YouTube-由零開始】
+      - 英国【YouTube-由零開始】
+      - 以色列【YouTube-由零開始】
       - US_youtube@资源分享师_9
-      - HK_youtube@资源分享师_28
+      - 美国【YouTube-由零開始】 5
       - 美国【YouTube-由零開始】 6
-      - 美国【YouTube-由零開始】 7
-      - 美国【YouTube-由零開始】 8
-      - 日本(yudou66.com 玉豆免费节点)
-      - SG_youtube@资源分享师_65
-      - JP_youtube@资源分享师_131
-      - 美国【YouTube-由零開始】 9
+      - 以色列【YouTube-由零開始】 2
+      - 日本【YouTube-由零開始】
 
 rules:
 # 本地/局域网地址
@@ -2175,7 +2151,7 @@ rules:
 # YouTubeMusic
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
-#,USER-AGENT,AbemaTV*,🌍 国外媒体
+#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
   - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
@@ -2184,7 +2160,7 @@ rules:
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
-#,USER-AGENT,All4*,🌍 国外媒体
+#   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -2206,14 +2182,14 @@ rules:
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-#,URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
-#,USER-AGENT,AppleNews*,🌍 国外媒体
-#,USER-AGENT,com.apple.news*,🌍 国外媒体
+#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
+#   - USER-AGENT,AppleNews*,🌍 国外媒体
+#   - USER-AGENT,com.apple.news*,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
-#,USER-AGENT,BBCiPlayer*,🌍 国外媒体
+#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
@@ -2228,13 +2204,13 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
-#,USER-AGENT,Anime*,🌍 国外媒体
+#   - USER-AGENT,Anime*,🌍 国外媒体
   - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
-#,USER-AGENT,DAZN*,🌍 国外媒体
+#   - USER-AGENT,DAZN*,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2246,14 +2222,14 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-#,USER-AGENT,Deezer*,🌍 国外媒体
+#   - USER-AGENT,Deezer*,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,Disney*,🌍 国外媒体
-#,USER-AGENT,Disney+*,🌍 国外媒体
+#   - USER-AGENT,Disney*,🌍 国外媒体
+#   - USER-AGENT,Disney+*,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
   - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
   - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -2274,24 +2250,24 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
-#,USER-AGENT,encoreTVB*,🌍 国外媒体
+#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,content.jwplatform.com,🌍 国外媒体
   - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
   - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
-#,USER-AGENT,FOX%20NOW*,🌍 国外媒体
+#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,HBO%20NOW*,🌍 国外媒体
-#,USER-AGENT,HBOMAX*,🌍 国外媒体
+#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
+#   - USER-AGENT,HBOMAX*,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-#,USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
+#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
   - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
@@ -2312,7 +2288,7 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
-#,USER-AGENT,HWTVMobile*,🌍 国外媒体
+#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
@@ -2328,12 +2304,12 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
-#,USER-AGENT,ITV_Player*,🌍 国外媒体
+#   - USER-AGENT,ITV_Player*,🌍 国外媒体
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
-#,USER-AGENT,JOOX*,🌍 国外媒体
-#,USER-AGENT,WeMusic*,🌍 国外媒体
+#   - USER-AGENT,JOOX*,🌍 国外媒体
+#   - USER-AGENT,WeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -2349,32 +2325,32 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
-#,USER-AGENT,KKTV*,🌍 国外媒体
-#,USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
+#   - USER-AGENT,KKTV*,🌍 国外媒体
+#   - USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
   - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
   - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
-#,USER-AGENT,LINE%20TV*,🌍 国外媒体
-#,USER-AGENT,LINE*,🌍 国外媒体
+#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
+#   - USER-AGENT,LINE*,🌍 国外媒体
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
-#,USER-AGENT,My5*,🌍 国外媒体
+#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
-#,USER-AGENT,mytv*,🌍 国外媒体
+#   - USER-AGENT,mytv*,🌍 国外媒体
   - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
   - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-#,USER-AGENT,Argo*,🌍 国外媒体
+#   - USER-AGENT,Argo*,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
   - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
@@ -2414,24 +2390,24 @@ rules:
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
-#,USER-AGENT,Niconico*,🌍 国外媒体
+#   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-#,USER-AGENT,PBS*,🌍 国外媒体
+#   - USER-AGENT,PBS*,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
-#,USER-AGENT,Pandora*,🌍 国外媒体
+#   - USER-AGENT,Pandora*,🌍 国外媒体
   - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
   - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
-#,USER-AGENT,SoundCloud*,🌍 国外媒体
+#   - USER-AGENT,SoundCloud*,🌍 国外媒体
   - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-#,USER-AGENT,Spotify*,🌍 国外媒体
+#   - USER-AGENT,Spotify*,🌍 国外媒体
   - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
@@ -2440,14 +2416,14 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
-#,USER-AGENT,TIDAL*,🌍 国外媒体
+#   - USER-AGENT,TIDAL*,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
-#,USER-AGENT,TaiwanGood*,🌍 国外媒体
+#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-#,USER-AGENT,TikTok*,🌍 国外媒体
+#   - USER-AGENT,TikTok*,🌍 国外媒体
   - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
@@ -2465,7 +2441,7 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-#,USER-AGENT,Viu*,🌍 国外媒体
+#   - USER-AGENT,Viu*,🌍 国外媒体
   - PROCESS-NAME,com.viu.pad,🌍 国外媒体
   - PROCESS-NAME,com.viu.phone,🌍 国外媒体
   - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
@@ -2481,9 +2457,9 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
-#,USER-AGENT,*youtube*,🌍 国外媒体
-#,USER-AGENT,YouTube*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
+#   - USER-AGENT,*youtube*,🌍 国外媒体
+#   - USER-AGENT,YouTube*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
   - DOMAIN-KEYWORD,youtube,🌍 国外媒体
   - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
@@ -2498,10 +2474,10 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
-#,USER-AGENT,*YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
-#,USER-AGENT,YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
 # Telegram
 #PROCESS-NAME,Telegram.exe
