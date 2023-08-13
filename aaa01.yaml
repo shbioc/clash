@@ -14,193 +14,165 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"US_youtube@资源分享师_103\r","type":"vless","server":"104.26.5.124","port":443,"uuid":"4237e058-a727-4503-b40d-db758a617c21","tls":true,"servername":"c01.c1.wang66.homes","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"HK_youtube@资源分享师_44\r","type":"vless","server":"154.92.9.149","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"🇯🇵日本【YouTube-由零開始】\r","type":"vless","server":"162.159.58.70","port":443,"uuid":"4237e058-a727-4503-b40d-db758a617c21","tls":true,"servername":"c01.c1.wang66.homes","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"US_youtube@资源分享师_70\r","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
-  - {"name":"🇨🇳中国【YouTube-由零開始】51\r","type":"vless","server":"103.184.44.201","port":443,"uuid":"120393d8-a64a-4586-af6a-6439e2a8b6ed","tls":true,"servername":"cfpg-1es.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"aes-128-gcm","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}}}
-  - {"name":"CN_youtube@资源分享师_25","type":"vmess","server":"24.kccic2pa.xyz","port":50024,"cipher":"auto","uuid":"52621316-aa03-4a4c-9fee-85c41e7867d7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸美国【YouTube-由零開始】\r_1","type":"vless","server":"154.92.9.123","port":443,"uuid":"120393d8-a64a-4586-af6a-6439e2a8b6ed","tls":true,"servername":"cfpg-1es.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"🇨🇳中国【YouTube-由零開始】\r_1","type":"vless","server":"103.184.44.149","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"US_youtube@资源分享师_32","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"aes-128-gcm","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp3.scproxy.top"}}}
-  - {"name":"CN_youtube@资源分享师_19","type":"vmess","server":"09.kccic2pa.xyz","port":50009,"cipher":"auto","uuid":"52621316-aa03-4a4c-9fee-85c41e7867d7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"HK_youtube@资源分享师_88\r","type":"vless","server":"154.92.9.254","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"CN_youtube@资源分享师_27\r","type":"vless","server":"103.184.45.38","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"🇨🇳中国【YouTube-由零開始】\r_2","type":"vless","server":"103.184.45.83","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"CN_youtube@资源分享师_35","type":"vmess","server":"21.kccic2pa.xyz","port":50021,"cipher":"auto","uuid":"52621316-aa03-4a4c-9fee-85c41e7867d7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳中国【YouTube-由零開始】83\r","type":"vless","server":"103.184.45.244","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"🇺🇸美国【YouTube-由零開始】\r_2","type":"vless","server":"154.92.9.216","port":443,"uuid":"120393d8-a64a-4586-af6a-6439e2a8b6ed","tls":true,"servername":"cfpg-1es.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"CN_youtube@资源分享师_33","type":"vmess","server":"09.kccic2pa.xyz","port":50009,"cipher":"auto","uuid":"5e419001-aaf0-4975-a931-fc7fc9459718","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_youtube@资源分享师_53\r","type":"vless","server":"c01.c1.wang66.homes","port":443,"uuid":"4237e058-a727-4503-b40d-db758a617c21","tls":true,"servername":"c01.c1.wang66.homes","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰香港【YouTube-由零開始】72\r","type":"vless","server":"154.92.9.188","port":443,"uuid":"2b5b5f5d-d2ea-49a7-ac6f-9252f73becf0","tls":true,"servername":"cfpg-cnp.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"🇭🇰香港【YouTube-由零開始】\r","type":"vless","server":"154.92.9.147","port":443,"uuid":"120393d8-a64a-4586-af6a-6439e2a8b6ed","tls":true,"servername":"cfpg-1es.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"HK_youtube@资源分享师_40\r","type":"vless","server":"154.92.9.20","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇭🇰香港【YouTube-由零開始】\r_1","type":"vless","server":"172.67.150.199","port":443,"uuid":"4237e058-a727-4503-b40d-db758a617c21","tls":true,"servername":"c01.c1.wang66.homes","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】\r_1","type":"vless","server":"154.92.9.26","port":443,"uuid":"2b5b5f5d-d2ea-49a7-ac6f-9252f73becf0","tls":true,"servername":"cfpg-cnp.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"US_youtube@资源分享师_72\r","type":"vless","server":"c01.c1.wang66.homes","port":443,"uuid":"4237e058-a727-4503-b40d-db758a617c21","tls":true,"servername":"c01.c1.wang66.homes","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇳中国【YouTube-由零開始】61\r","type":"vless","server":"103.184.45.242","port":443,"uuid":"2b5b5f5d-d2ea-49a7-ac6f-9252f73becf0","tls":true,"servername":"cfpg-cnp.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇭🇰香港【YouTube-由零開始】79\r","type":"vless","server":"154.92.9.85","port":443,"uuid":"120393d8-a64a-4586-af6a-6439e2a8b6ed","tls":true,"servername":"cfpg-1es.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇭🇰香港【YouTube-由零開始】\r_2","type":"vless","server":"154.92.9.165","port":443,"uuid":"2b5b5f5d-d2ea-49a7-ac6f-9252f73becf0","tls":true,"servername":"cfpg-cnp.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国(玉豆免费节点 yudou66.com)\r","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
+  - {"name":"US_youtube@资源分享师_181","type":"vmess","server":"162.159.243.133","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.scproxy.top"}}}
+  - {"name":"🇨🇳中国【YouTube-由零開始】75\r","type":"vless","server":"103.184.44.69","port":443,"uuid":"2b5b5f5d-d2ea-49a7-ac6f-9252f73becf0","tls":true,"servername":"cfpg-cnp.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇨🇳中国【YouTube-由零開始】62\r","type":"vless","server":"103.184.45.113","port":443,"uuid":"2b5b5f5d-d2ea-49a7-ac6f-9252f73becf0","tls":true,"servername":"cfpg-cnp.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】\r_2","type":"vless","server":"c01.c1.wang66.homes","port":443,"uuid":"4237e058-a727-4503-b40d-db758a617c21","tls":true,"servername":"c01.c1.wang66.homes","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CN_youtube@资源分享师_53\r","type":"vless","server":"103.184.44.196","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"CN_youtube@资源分享师_80\r","type":"vless","server":"103.184.44.119","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇨🇳中国【YouTube-由零開始】73\r","type":"vless","server":"103.184.45.122","port":443,"uuid":"2b5b5f5d-d2ea-49a7-ac6f-9252f73becf0","tls":true,"servername":"cfpg-cnp.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"US_youtube@资源分享师_48","type":"vmess","server":"mci.bamarambash.monster","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/b8767a6a-1c30-11ee-ba76-9ee097a90b8b","headers":{"host":"b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】\r_3","type":"vless","server":"154.92.9.122","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇨🇳中国【YouTube-由零開始】64\r","type":"vless","server":"103.184.45.207","port":443,"uuid":"120393d8-a64a-4586-af6a-6439e2a8b6ed","tls":true,"servername":"cfpg-1es.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇨🇳中国【YouTube-由零開始】85\r","type":"vless","server":"103.184.45.142","port":443,"uuid":"edf12778-fbeb-48d9-85e4-6530370b47cc","tls":true,"servername":"bv01.wang66.homes","network":"ws","ws-opts":{"path":"/?ed=2048"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "US_youtube@资源分享师_103\r"
-      - "HK_youtube@资源分享师_44\r"
-      - "🇯🇵日本【YouTube-由零開始】\r"
-      - "US_youtube@资源分享师_70\r"
-      - "🇨🇳中国【YouTube-由零開始】51\r"
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_youtube@资源分享师_25
+      - "🇭🇰香港【YouTube-由零開始】\r_1"
       - "🇺🇸美国【YouTube-由零開始】\r_1"
-      - "🇨🇳中国【YouTube-由零開始】\r_1"
-      - US_youtube@资源分享师_32
-      - CN_youtube@资源分享师_19
-      - "HK_youtube@资源分享师_88\r"
-      - "CN_youtube@资源分享师_27\r"
-      - "🇨🇳中国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_35
-      - "🇨🇳中国【YouTube-由零開始】83\r"
+      - "US_youtube@资源分享师_72\r"
+      - "🇨🇳中国【YouTube-由零開始】61\r"
+      - "🇭🇰香港【YouTube-由零開始】79\r"
+      - "🇭🇰香港【YouTube-由零開始】\r_2"
+      - "美国(玉豆免费节点 yudou66.com)\r"
+      - US_youtube@资源分享师_181
+      - "🇨🇳中国【YouTube-由零開始】75\r"
+      - "🇨🇳中国【YouTube-由零開始】62\r"
       - "🇺🇸美国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_33
-      - "US_youtube@资源分享师_53\r"
-      - "🇭🇰香港【YouTube-由零開始】72\r"
-      - "🇭🇰香港【YouTube-由零開始】\r"
-      - "HK_youtube@资源分享师_40\r"
+      - "CN_youtube@资源分享师_53\r"
+      - "CN_youtube@资源分享师_80\r"
+      - "🇨🇳中国【YouTube-由零開始】73\r"
+      - US_youtube@资源分享师_48
+      - "🇺🇸美国【YouTube-由零開始】\r_3"
+      - "🇨🇳中国【YouTube-由零開始】64\r"
+      - "🇨🇳中国【YouTube-由零開始】85\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "US_youtube@资源分享师_103\r"
-      - "HK_youtube@资源分享师_44\r"
-      - "🇯🇵日本【YouTube-由零開始】\r"
-      - "US_youtube@资源分享师_70\r"
-      - "🇨🇳中国【YouTube-由零開始】51\r"
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_youtube@资源分享师_25
+      - "🇭🇰香港【YouTube-由零開始】\r_1"
       - "🇺🇸美国【YouTube-由零開始】\r_1"
-      - "🇨🇳中国【YouTube-由零開始】\r_1"
-      - US_youtube@资源分享师_32
-      - CN_youtube@资源分享师_19
-      - "HK_youtube@资源分享师_88\r"
-      - "CN_youtube@资源分享师_27\r"
-      - "🇨🇳中国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_35
-      - "🇨🇳中国【YouTube-由零開始】83\r"
+      - "US_youtube@资源分享师_72\r"
+      - "🇨🇳中国【YouTube-由零開始】61\r"
+      - "🇭🇰香港【YouTube-由零開始】79\r"
+      - "🇭🇰香港【YouTube-由零開始】\r_2"
+      - "美国(玉豆免费节点 yudou66.com)\r"
+      - US_youtube@资源分享师_181
+      - "🇨🇳中国【YouTube-由零開始】75\r"
+      - "🇨🇳中国【YouTube-由零開始】62\r"
       - "🇺🇸美国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_33
-      - "US_youtube@资源分享师_53\r"
-      - "🇭🇰香港【YouTube-由零開始】72\r"
-      - "🇭🇰香港【YouTube-由零開始】\r"
-      - "HK_youtube@资源分享师_40\r"
+      - "CN_youtube@资源分享师_53\r"
+      - "CN_youtube@资源分享师_80\r"
+      - "🇨🇳中国【YouTube-由零開始】73\r"
+      - US_youtube@资源分享师_48
+      - "🇺🇸美国【YouTube-由零開始】\r_3"
+      - "🇨🇳中国【YouTube-由零開始】64\r"
+      - "🇨🇳中国【YouTube-由零開始】85\r"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "US_youtube@资源分享师_103\r"
-      - "HK_youtube@资源分享师_44\r"
-      - "🇯🇵日本【YouTube-由零開始】\r"
-      - "US_youtube@资源分享师_70\r"
-      - "🇨🇳中国【YouTube-由零開始】51\r"
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_youtube@资源分享师_25
+      - "🇭🇰香港【YouTube-由零開始】\r_1"
       - "🇺🇸美国【YouTube-由零開始】\r_1"
-      - "🇨🇳中国【YouTube-由零開始】\r_1"
-      - US_youtube@资源分享师_32
-      - CN_youtube@资源分享师_19
-      - "HK_youtube@资源分享师_88\r"
-      - "CN_youtube@资源分享师_27\r"
-      - "🇨🇳中国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_35
-      - "🇨🇳中国【YouTube-由零開始】83\r"
+      - "US_youtube@资源分享师_72\r"
+      - "🇨🇳中国【YouTube-由零開始】61\r"
+      - "🇭🇰香港【YouTube-由零開始】79\r"
+      - "🇭🇰香港【YouTube-由零開始】\r_2"
+      - "美国(玉豆免费节点 yudou66.com)\r"
+      - US_youtube@资源分享师_181
+      - "🇨🇳中国【YouTube-由零開始】75\r"
+      - "🇨🇳中国【YouTube-由零開始】62\r"
       - "🇺🇸美国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_33
-      - "US_youtube@资源分享师_53\r"
-      - "🇭🇰香港【YouTube-由零開始】72\r"
-      - "🇭🇰香港【YouTube-由零開始】\r"
-      - "HK_youtube@资源分享师_40\r"
+      - "CN_youtube@资源分享师_53\r"
+      - "CN_youtube@资源分享师_80\r"
+      - "🇨🇳中国【YouTube-由零開始】73\r"
+      - US_youtube@资源分享师_48
+      - "🇺🇸美国【YouTube-由零開始】\r_3"
+      - "🇨🇳中国【YouTube-由零開始】64\r"
+      - "🇨🇳中国【YouTube-由零開始】85\r"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "US_youtube@资源分享师_103\r"
-      - "HK_youtube@资源分享师_44\r"
-      - "🇯🇵日本【YouTube-由零開始】\r"
-      - "US_youtube@资源分享师_70\r"
-      - "🇨🇳中国【YouTube-由零開始】51\r"
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_youtube@资源分享师_25
+      - "🇭🇰香港【YouTube-由零開始】\r_1"
       - "🇺🇸美国【YouTube-由零開始】\r_1"
-      - "🇨🇳中国【YouTube-由零開始】\r_1"
-      - US_youtube@资源分享师_32
-      - CN_youtube@资源分享师_19
-      - "HK_youtube@资源分享师_88\r"
-      - "CN_youtube@资源分享师_27\r"
-      - "🇨🇳中国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_35
-      - "🇨🇳中国【YouTube-由零開始】83\r"
+      - "US_youtube@资源分享师_72\r"
+      - "🇨🇳中国【YouTube-由零開始】61\r"
+      - "🇭🇰香港【YouTube-由零開始】79\r"
+      - "🇭🇰香港【YouTube-由零開始】\r_2"
+      - "美国(玉豆免费节点 yudou66.com)\r"
+      - US_youtube@资源分享师_181
+      - "🇨🇳中国【YouTube-由零開始】75\r"
+      - "🇨🇳中国【YouTube-由零開始】62\r"
       - "🇺🇸美国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_33
-      - "US_youtube@资源分享师_53\r"
-      - "🇭🇰香港【YouTube-由零開始】72\r"
-      - "🇭🇰香港【YouTube-由零開始】\r"
-      - "HK_youtube@资源分享师_40\r"
+      - "CN_youtube@资源分享师_53\r"
+      - "CN_youtube@资源分享师_80\r"
+      - "🇨🇳中国【YouTube-由零開始】73\r"
+      - US_youtube@资源分享师_48
+      - "🇺🇸美国【YouTube-由零開始】\r_3"
+      - "🇨🇳中国【YouTube-由零開始】64\r"
+      - "🇨🇳中国【YouTube-由零開始】85\r"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "US_youtube@资源分享师_103\r"
-      - "HK_youtube@资源分享师_44\r"
-      - "🇯🇵日本【YouTube-由零開始】\r"
-      - "US_youtube@资源分享师_70\r"
-      - "🇨🇳中国【YouTube-由零開始】51\r"
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_youtube@资源分享师_25
+      - "🇭🇰香港【YouTube-由零開始】\r_1"
       - "🇺🇸美国【YouTube-由零開始】\r_1"
-      - "🇨🇳中国【YouTube-由零開始】\r_1"
-      - US_youtube@资源分享师_32
-      - CN_youtube@资源分享师_19
-      - "HK_youtube@资源分享师_88\r"
-      - "CN_youtube@资源分享师_27\r"
-      - "🇨🇳中国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_35
-      - "🇨🇳中国【YouTube-由零開始】83\r"
+      - "US_youtube@资源分享师_72\r"
+      - "🇨🇳中国【YouTube-由零開始】61\r"
+      - "🇭🇰香港【YouTube-由零開始】79\r"
+      - "🇭🇰香港【YouTube-由零開始】\r_2"
+      - "美国(玉豆免费节点 yudou66.com)\r"
+      - US_youtube@资源分享师_181
+      - "🇨🇳中国【YouTube-由零開始】75\r"
+      - "🇨🇳中国【YouTube-由零開始】62\r"
       - "🇺🇸美国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_33
-      - "US_youtube@资源分享师_53\r"
-      - "🇭🇰香港【YouTube-由零開始】72\r"
-      - "🇭🇰香港【YouTube-由零開始】\r"
-      - "HK_youtube@资源分享师_40\r"
+      - "CN_youtube@资源分享师_53\r"
+      - "CN_youtube@资源分享师_80\r"
+      - "🇨🇳中国【YouTube-由零開始】73\r"
+      - US_youtube@资源分享师_48
+      - "🇺🇸美国【YouTube-由零開始】\r_3"
+      - "🇨🇳中国【YouTube-由零開始】64\r"
+      - "🇨🇳中国【YouTube-由零開始】85\r"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "US_youtube@资源分享师_103\r"
-      - "HK_youtube@资源分享师_44\r"
-      - "🇯🇵日本【YouTube-由零開始】\r"
-      - "US_youtube@资源分享师_70\r"
-      - "🇨🇳中国【YouTube-由零開始】51\r"
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_youtube@资源分享师_25
+      - "🇭🇰香港【YouTube-由零開始】\r_1"
       - "🇺🇸美国【YouTube-由零開始】\r_1"
-      - "🇨🇳中国【YouTube-由零開始】\r_1"
-      - US_youtube@资源分享师_32
-      - CN_youtube@资源分享师_19
-      - "HK_youtube@资源分享师_88\r"
-      - "CN_youtube@资源分享师_27\r"
-      - "🇨🇳中国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_35
-      - "🇨🇳中国【YouTube-由零開始】83\r"
+      - "US_youtube@资源分享师_72\r"
+      - "🇨🇳中国【YouTube-由零開始】61\r"
+      - "🇭🇰香港【YouTube-由零開始】79\r"
+      - "🇭🇰香港【YouTube-由零開始】\r_2"
+      - "美国(玉豆免费节点 yudou66.com)\r"
+      - US_youtube@资源分享师_181
+      - "🇨🇳中国【YouTube-由零開始】75\r"
+      - "🇨🇳中国【YouTube-由零開始】62\r"
       - "🇺🇸美国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_33
-      - "US_youtube@资源分享师_53\r"
-      - "🇭🇰香港【YouTube-由零開始】72\r"
-      - "🇭🇰香港【YouTube-由零開始】\r"
-      - "HK_youtube@资源分享师_40\r"
+      - "CN_youtube@资源分享师_53\r"
+      - "CN_youtube@资源分享师_80\r"
+      - "🇨🇳中国【YouTube-由零開始】73\r"
+      - US_youtube@资源分享师_48
+      - "🇺🇸美国【YouTube-由零開始】\r_3"
+      - "🇨🇳中国【YouTube-由零開始】64\r"
+      - "🇨🇳中国【YouTube-由零開始】85\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,28 +195,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "US_youtube@资源分享师_103\r"
-      - "HK_youtube@资源分享师_44\r"
-      - "🇯🇵日本【YouTube-由零開始】\r"
-      - "US_youtube@资源分享师_70\r"
-      - "🇨🇳中国【YouTube-由零開始】51\r"
-      - 美国(yudou66.com 玉豆免费节点)
-      - CN_youtube@资源分享师_25
+      - "🇭🇰香港【YouTube-由零開始】\r_1"
       - "🇺🇸美国【YouTube-由零開始】\r_1"
-      - "🇨🇳中国【YouTube-由零開始】\r_1"
-      - US_youtube@资源分享师_32
-      - CN_youtube@资源分享师_19
-      - "HK_youtube@资源分享师_88\r"
-      - "CN_youtube@资源分享师_27\r"
-      - "🇨🇳中国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_35
-      - "🇨🇳中国【YouTube-由零開始】83\r"
+      - "US_youtube@资源分享师_72\r"
+      - "🇨🇳中国【YouTube-由零開始】61\r"
+      - "🇭🇰香港【YouTube-由零開始】79\r"
+      - "🇭🇰香港【YouTube-由零開始】\r_2"
+      - "美国(玉豆免费节点 yudou66.com)\r"
+      - US_youtube@资源分享师_181
+      - "🇨🇳中国【YouTube-由零開始】75\r"
+      - "🇨🇳中国【YouTube-由零開始】62\r"
       - "🇺🇸美国【YouTube-由零開始】\r_2"
-      - CN_youtube@资源分享师_33
-      - "US_youtube@资源分享师_53\r"
-      - "🇭🇰香港【YouTube-由零開始】72\r"
-      - "🇭🇰香港【YouTube-由零開始】\r"
-      - "HK_youtube@资源分享师_40\r"
+      - "CN_youtube@资源分享师_53\r"
+      - "CN_youtube@资源分享师_80\r"
+      - "🇨🇳中国【YouTube-由零開始】73\r"
+      - US_youtube@资源分享师_48
+      - "🇺🇸美国【YouTube-由零開始】\r_3"
+      - "🇨🇳中国【YouTube-由零開始】64\r"
+      - "🇨🇳中国【YouTube-由零開始】85\r"
 
 rules:
 # 本地/局域网地址
