@@ -14,172 +14,151 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_1","type":"vless","server":"edgetunnel.anycast.eu.org","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1","type":"vless","server":"cdn.anycast.eu.org","port":8880,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2","type":"vless","server":"cdn.anycast.eu.org","port":2052,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3","type":"vless","server":"cdn.anycast.eu.org","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4","type":"vless","server":"cdn.anycast.eu.org","port":2086,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5","type":"vless","server":"cdn.anycast.eu.org","port":2095,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_1","type":"vless","server":"cdn.xn--b6gac.eu.org","port":2095,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1","type":"vless","server":"cdn-all.xn--b6gac.eu.org","port":8880,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_2","type":"vless","server":"cdn.xn--b6gac.eu.org","port":8080,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_3","type":"vless","server":"cdn.xn--b6gac.eu.org","port":8880,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_4","type":"vless","server":"cdn.xn--b6gac.eu.org","port":2086,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_5","type":"vless","server":"cdn.xn--b6gac.eu.org","port":2052,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP\r_1","type":"vless","server":"hao258.6hkj1oup.workers.dev","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2","type":"vless","server":"cdn-all.xn--b6gac.eu.org","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_6","type":"vless","server":"cdn.xn--b6gac.eu.org","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP\r_2","type":"vless","server":"hao258.6hkj1oup.workers.dev","port":8080,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_3","type":"vless","server":"cdn-all.xn--b6gac.eu.org","port":8080,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn-b100.xn--b6gac.eu.org-EDtunnel\r","type":"vless","server":"cdn-b100.xn--b6gac.eu.org","port":8080,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_2","type":"vless","server":"edgetunnel.anycast.eu.org","port":8080,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
+  - {"name":"🇨🇦加拿大【YouTube-由零開始】\r","type":"vless","server":"edgetunnel.anycast.eu.org","port":443,"uuid":"0b3b8269-232d-4c87-8a97-75d110c83850","tls":true,"servername":"cg0824.ylks.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"法国(yudou66.com 玉豆免费节点)\r","type":"vless","server":"overnights.aurorainiceland.com","port":443,"uuid":"9d27a2ad-cb24-4dd6-bbe8-c1a535d1544a","tls":true,"servername":"overnights.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国\r_1","type":"vless","server":"cg0824.ylks.link","port":2087,"uuid":"0b3b8269-232d-4c87-8a97-75d110c83850","tls":true,"servername":"cg0824.ylks.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国\r_2","type":"vless","server":"cg0824.ylks.link","port":8443,"uuid":"0b3b8269-232d-4c87-8a97-75d110c83850","tls":true,"servername":"cg0824.ylks.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国\r_3","type":"vless","server":"cg.lshan.eu.org","port":2053,"uuid":"2048f094-babd-49fc-ae40-12546dd2e946","tls":true,"servername":"cg.lshan.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"US_youtube@资源分享师_38","type":"vmess","server":"172.64.201.138","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}}}
+  - {"name":"US_youtube@资源分享师_41","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}}}
+  - {"name":"【YouTube-由零開始】🇨🇦加拿大\r_1","type":"vless","server":"japan.com","port":2096,"uuid":"2048f094-babd-49fc-ae40-12546dd2e946","tls":true,"servername":"cg.lshan.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"【YouTube-由零開始】🇨🇦加拿大\r_2","type":"vless","server":"japan.com","port":2087,"uuid":"2048f094-babd-49fc-ae40-12546dd2e946","tls":true,"servername":"cg.lshan.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"US_youtube@资源分享师_116","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"aes-128-gcm","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}}}
+  - {"name":"【YouTube-由零開始】🇨🇦加拿大\r_3","type":"vless","server":"japan.com","port":8443,"uuid":"2048f094-babd-49fc-ae40-12546dd2e946","tls":true,"servername":"cg.lshan.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇷🇴罗马尼亚【YouTube-由零開始】\r","type":"vless","server":"103.160.204.87","port":2087,"uuid":"0b3b8269-232d-4c87-8a97-75d110c83850","tls":true,"servername":"cg0824.ylks.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】","type":"vmess","server":"172.64.101.91","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}}}
+  - {"name":"🇩🇪德国【YouTube-由零開始】\r","type":"vless","server":"103.160.204.98","port":2096,"uuid":"0b3b8269-232d-4c87-8a97-75d110c83850","tls":true,"servername":"cg0824.ylks.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"US_youtube@资源分享师_86","type":"vmess","server":"sblarm.kaolll.tech","port":80,"cipher":"auto","uuid":"f31c0b34-977b-4c2b-acfa-becfdfc1f267","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sblarm.kaolll.tech"}}}
+  - {"name":"【YouTube-由零開始】🇺🇸美国\r_4","type":"vless","server":"cg0824.ylks.link","port":443,"uuid":"0b3b8269-232d-4c87-8a97-75d110c83850","tls":true,"servername":"cg0824.ylks.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_6"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-b100.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_2"
+      - "🇨🇦加拿大【YouTube-由零開始】\r"
+      - "法国(yudou66.com 玉豆免费节点)\r"
+      - "【YouTube-由零開始】🇺🇸美国\r_1"
+      - "【YouTube-由零開始】🇺🇸美国\r_2"
+      - "【YouTube-由零開始】🇺🇸美国\r_3"
+      - US_youtube@资源分享师_38
+      - US_youtube@资源分享师_41
+      - "【YouTube-由零開始】🇨🇦加拿大\r_1"
+      - "【YouTube-由零開始】🇨🇦加拿大\r_2"
+      - US_youtube@资源分享师_116
+      - "【YouTube-由零開始】🇨🇦加拿大\r_3"
+      - "🇷🇴罗马尼亚【YouTube-由零開始】\r"
+      - 🇺🇸美国【YouTube-由零開始】
+      - "🇩🇪德国【YouTube-由零開始】\r"
+      - US_youtube@资源分享师_86
+      - "【YouTube-由零開始】🇺🇸美国\r_4"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_6"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-b100.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_2"
+      - "🇨🇦加拿大【YouTube-由零開始】\r"
+      - "法国(yudou66.com 玉豆免费节点)\r"
+      - "【YouTube-由零開始】🇺🇸美国\r_1"
+      - "【YouTube-由零開始】🇺🇸美国\r_2"
+      - "【YouTube-由零開始】🇺🇸美国\r_3"
+      - US_youtube@资源分享师_38
+      - US_youtube@资源分享师_41
+      - "【YouTube-由零開始】🇨🇦加拿大\r_1"
+      - "【YouTube-由零開始】🇨🇦加拿大\r_2"
+      - US_youtube@资源分享师_116
+      - "【YouTube-由零開始】🇨🇦加拿大\r_3"
+      - "🇷🇴罗马尼亚【YouTube-由零開始】\r"
+      - 🇺🇸美国【YouTube-由零開始】
+      - "🇩🇪德国【YouTube-由零開始】\r"
+      - US_youtube@资源分享师_86
+      - "【YouTube-由零開始】🇺🇸美国\r_4"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_6"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-b100.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_2"
+      - "🇨🇦加拿大【YouTube-由零開始】\r"
+      - "法国(yudou66.com 玉豆免费节点)\r"
+      - "【YouTube-由零開始】🇺🇸美国\r_1"
+      - "【YouTube-由零開始】🇺🇸美国\r_2"
+      - "【YouTube-由零開始】🇺🇸美国\r_3"
+      - US_youtube@资源分享师_38
+      - US_youtube@资源分享师_41
+      - "【YouTube-由零開始】🇨🇦加拿大\r_1"
+      - "【YouTube-由零開始】🇨🇦加拿大\r_2"
+      - US_youtube@资源分享师_116
+      - "【YouTube-由零開始】🇨🇦加拿大\r_3"
+      - "🇷🇴罗马尼亚【YouTube-由零開始】\r"
+      - 🇺🇸美国【YouTube-由零開始】
+      - "🇩🇪德国【YouTube-由零開始】\r"
+      - US_youtube@资源分享师_86
+      - "【YouTube-由零開始】🇺🇸美国\r_4"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_6"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-b100.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_2"
+      - "🇨🇦加拿大【YouTube-由零開始】\r"
+      - "法国(yudou66.com 玉豆免费节点)\r"
+      - "【YouTube-由零開始】🇺🇸美国\r_1"
+      - "【YouTube-由零開始】🇺🇸美国\r_2"
+      - "【YouTube-由零開始】🇺🇸美国\r_3"
+      - US_youtube@资源分享师_38
+      - US_youtube@资源分享师_41
+      - "【YouTube-由零開始】🇨🇦加拿大\r_1"
+      - "【YouTube-由零開始】🇨🇦加拿大\r_2"
+      - US_youtube@资源分享师_116
+      - "【YouTube-由零開始】🇨🇦加拿大\r_3"
+      - "🇷🇴罗马尼亚【YouTube-由零開始】\r"
+      - 🇺🇸美国【YouTube-由零開始】
+      - "🇩🇪德国【YouTube-由零開始】\r"
+      - US_youtube@资源分享师_86
+      - "【YouTube-由零開始】🇺🇸美国\r_4"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_6"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-b100.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_2"
+      - "🇨🇦加拿大【YouTube-由零開始】\r"
+      - "法国(yudou66.com 玉豆免费节点)\r"
+      - "【YouTube-由零開始】🇺🇸美国\r_1"
+      - "【YouTube-由零開始】🇺🇸美国\r_2"
+      - "【YouTube-由零開始】🇺🇸美国\r_3"
+      - US_youtube@资源分享师_38
+      - US_youtube@资源分享师_41
+      - "【YouTube-由零開始】🇨🇦加拿大\r_1"
+      - "【YouTube-由零開始】🇨🇦加拿大\r_2"
+      - US_youtube@资源分享师_116
+      - "【YouTube-由零開始】🇨🇦加拿大\r_3"
+      - "🇷🇴罗马尼亚【YouTube-由零開始】\r"
+      - 🇺🇸美国【YouTube-由零開始】
+      - "🇩🇪德国【YouTube-由零開始】\r"
+      - US_youtube@资源分享师_86
+      - "【YouTube-由零開始】🇺🇸美国\r_4"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_6"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-b100.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_2"
+      - "🇨🇦加拿大【YouTube-由零開始】\r"
+      - "法国(yudou66.com 玉豆免费节点)\r"
+      - "【YouTube-由零開始】🇺🇸美国\r_1"
+      - "【YouTube-由零開始】🇺🇸美国\r_2"
+      - "【YouTube-由零開始】🇺🇸美国\r_3"
+      - US_youtube@资源分享师_38
+      - US_youtube@资源分享师_41
+      - "【YouTube-由零開始】🇨🇦加拿大\r_1"
+      - "【YouTube-由零開始】🇨🇦加拿大\r_2"
+      - US_youtube@资源分享师_116
+      - "【YouTube-由零開始】🇨🇦加拿大\r_3"
+      - "🇷🇴罗马尼亚【YouTube-由零開始】\r"
+      - 🇺🇸美国【YouTube-由零開始】
+      - "🇩🇪德国【YouTube-由零開始】\r"
+      - US_youtube@资源分享师_86
+      - "【YouTube-由零開始】🇺🇸美国\r_4"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -202,25 +181,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r_6"
-      - "hao258.6hkj1oup.workers.dev-HTTP\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-b100.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r_2"
+      - "🇨🇦加拿大【YouTube-由零開始】\r"
+      - "法国(yudou66.com 玉豆免费节点)\r"
+      - "【YouTube-由零開始】🇺🇸美国\r_1"
+      - "【YouTube-由零開始】🇺🇸美国\r_2"
+      - "【YouTube-由零開始】🇺🇸美国\r_3"
+      - US_youtube@资源分享师_38
+      - US_youtube@资源分享师_41
+      - "【YouTube-由零開始】🇨🇦加拿大\r_1"
+      - "【YouTube-由零開始】🇨🇦加拿大\r_2"
+      - US_youtube@资源分享师_116
+      - "【YouTube-由零開始】🇨🇦加拿大\r_3"
+      - "🇷🇴罗马尼亚【YouTube-由零開始】\r"
+      - 🇺🇸美国【YouTube-由零開始】
+      - "🇩🇪德国【YouTube-由零開始】\r"
+      - US_youtube@资源分享师_86
+      - "【YouTube-由零開始】🇺🇸美国\r_4"
 
 rules:
 # 本地/局域网地址
