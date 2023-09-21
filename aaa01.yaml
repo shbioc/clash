@@ -78,67 +78,88 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1","type":"vless","server":"162.159.137.109","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r","type":"vless","server":"172.67.186.41","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2","type":"vless","server":"141.101.121.208","port":8080,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel","type":"vless","server":"172.64.81.123","port":2052,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
+  - {"name":"US_youtube@资源分享师_104","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
+  - {"name":"US_youtube@资源分享师_136","type":"vmess","server":"172.67.92.119","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
+  - {"name":"🇺🇸美国【YouTube-由零開始】","type":"vmess","server":"172.67.134.209","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
+  - {"name":"US_youtube@资源分享师_48\r","type":"vless","server":"172.66.47.84","port":443,"uuid":"884f9b2c-f0c5-44dd-a68e-3e39ce93bb39","tls":true,"servername":"cf-wkrs-pages-vless-aoy.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"US_youtube@资源分享师_118","type":"vmess","server":"172.64.161.58","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
+  - {"name":"US_youtube@资源分享师_68\r","type":"vless","server":"542.outline-vpn.cloud","port":443,"uuid":"884f9b2c-f0c5-44dd-a68e-3e39ce93bb39","tls":true,"servername":"cf-wkrs-pages-vless-aoy.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"US_youtube@资源分享师_38","type":"vmess","server":"172.67.57.119","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
+      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_136
+      - 🇺🇸美国【YouTube-由零開始】
+      - "US_youtube@资源分享师_48\r"
+      - US_youtube@资源分享师_118
+      - "US_youtube@资源分享师_68\r"
+      - US_youtube@资源分享师_38
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
+      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_136
+      - 🇺🇸美国【YouTube-由零開始】
+      - "US_youtube@资源分享师_48\r"
+      - US_youtube@资源分享师_118
+      - "US_youtube@资源分享师_68\r"
+      - US_youtube@资源分享师_38
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
+      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_136
+      - 🇺🇸美国【YouTube-由零開始】
+      - "US_youtube@资源分享师_48\r"
+      - US_youtube@资源分享师_118
+      - "US_youtube@资源分享师_68\r"
+      - US_youtube@资源分享师_38
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
+      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_136
+      - 🇺🇸美国【YouTube-由零開始】
+      - "US_youtube@资源分享师_48\r"
+      - US_youtube@资源分享师_118
+      - "US_youtube@资源分享师_68\r"
+      - US_youtube@资源分享师_38
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
+      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_136
+      - 🇺🇸美国【YouTube-由零開始】
+      - "US_youtube@资源分享师_48\r"
+      - US_youtube@资源分享师_118
+      - "US_youtube@资源分享师_68\r"
+      - US_youtube@资源分享师_38
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
+      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_136
+      - 🇺🇸美国【YouTube-由零開始】
+      - "US_youtube@资源分享师_48\r"
+      - US_youtube@资源分享师_118
+      - "US_youtube@资源分享师_68\r"
+      - US_youtube@资源分享师_38
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -161,10 +182,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
-      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
+      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_136
+      - 🇺🇸美国【YouTube-由零開始】
+      - "US_youtube@资源分享师_48\r"
+      - US_youtube@资源分享师_118
+      - "US_youtube@资源分享师_68\r"
+      - US_youtube@资源分享师_38
 
 rules:
 # 本地/局域网地址
