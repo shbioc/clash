@@ -78,88 +78,67 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1","type":"vless","server":"cdn.anycast.eu.org","port":8080,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2","type":"vless","server":"162.159.243.162","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3","type":"vless","server":"cdn.anycast.eu.org","port":2086,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4","type":"vless","server":"cdn.anycast.eu.org","port":8880,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r","type":"vless","server":"cdn.xn--b6gac.eu.org","port":8880,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5","type":"vless","server":"cdn.anycast.eu.org","port":2095,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
-  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_6","type":"vless","server":"cdn.anycast.eu.org","port":2052,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
+  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1","type":"vless","server":"162.159.137.109","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
+  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r","type":"vless","server":"172.67.186.41","port":80,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
+  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2","type":"vless","server":"141.101.121.208","port":8080,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
+  - {"name":"hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel","type":"vless","server":"172.64.81.123","port":2052,"uuid":"58904c57-a2de-4186-a7c0-c4768d2882a3","tls":false,"servername":"hao258.6hkj1oup.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"random"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_6"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
+      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
+      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_6"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
+      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
+      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_6"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
+      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
+      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_6"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
+      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
+      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_6"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
+      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
+      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_6"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
+      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
+      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -182,13 +161,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_1"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_2"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_3"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_4"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.xn--b6gac.eu.org-EDtunnel\r"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_5"
-      - "hao258.6hkj1oup.workers.dev-HTTP-cdn.anycast.eu.org-EDtunnel\r_6"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_1"
+      - "hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel\r"
+      - "hao258.6hkj1oup.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel\r_2"
+      - hao258.6hkj1oup.workers.dev-HTTP-edgetunnel.anycast.eu.org-EDtunnel
 
 rules:
 # 本地/局域网地址
