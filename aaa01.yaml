@@ -91,9 +91,6 @@ proxies:
   - {"name":"加拿大\r_2","type":"trojan","server":"108.181.22.161","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-us2.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"德国\r_1","type":"trojan","server":"89.163.220.99","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-de1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"德国\r_2","type":"vless","server":"43.157.17.4","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"bed22.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
-  - {"name":"法国\r_1","type":"vless","server":"51.38.44.17","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk22.ylks.link","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"法国\r_2","type":"vless","server":"146.59.14.96","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk22.ylks.link","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r","type":"vless","server":"43.135.159.102","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"bed22.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,9 +110,6 @@ proxy-groups:
       - "加拿大\r_2"
       - "德国\r_1"
       - "德国\r_2"
-      - "法国\r_1"
-      - "法国\r_2"
-      - "美国\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -135,9 +129,6 @@ proxy-groups:
       - "加拿大\r_2"
       - "德国\r_1"
       - "德国\r_2"
-      - "法国\r_1"
-      - "法国\r_2"
-      - "美国\r"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -157,9 +148,6 @@ proxy-groups:
       - "加拿大\r_2"
       - "德国\r_1"
       - "德国\r_2"
-      - "法国\r_1"
-      - "法国\r_2"
-      - "美国\r"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -178,9 +166,6 @@ proxy-groups:
       - "加拿大\r_2"
       - "德国\r_1"
       - "德国\r_2"
-      - "法国\r_1"
-      - "法国\r_2"
-      - "美国\r"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -199,9 +184,6 @@ proxy-groups:
       - "加拿大\r_2"
       - "德国\r_1"
       - "德国\r_2"
-      - "法国\r_1"
-      - "法国\r_2"
-      - "美国\r"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -220,9 +202,6 @@ proxy-groups:
       - "加拿大\r_2"
       - "德国\r_1"
       - "德国\r_2"
-      - "法国\r_1"
-      - "法国\r_2"
-      - "美国\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -258,9 +237,6 @@ proxy-groups:
       - "加拿大\r_2"
       - "德国\r_1"
       - "德国\r_2"
-      - "法国\r_1"
-      - "法国\r_2"
-      - "美国\r"
 
 rules:
 # 本地/局域网地址
