@@ -78,109 +78,179 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"美国\r_1","type":"vless","server":"198.41.195.11","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr6.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r_2","type":"vless","server":"198.41.192.98","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp6.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r_3","type":"vless","server":"198.41.199.129","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk6.ylks.link","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r_4","type":"vless","server":"104.16.168.254","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk6.ylks.link","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r_5","type":"vless","server":"198.41.192.98","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp6.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r_6","type":"vless","server":"198.41.198.90","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"hk6.ylks.link","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r_7","type":"vless","server":"198.41.192.98","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp6.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r_8","type":"vless","server":"162.159.248.48","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg6.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r_9","type":"vless","server":"162.159.38.103","port":2083,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr6.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"美国\r_10","type":"vless","server":"162.159.38.103","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"kr6.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"新加坡\r_1","type":"vless","server":"8.222.152.3","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg22.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡\r_2","type":"vless","server":"8.222.193.65","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp22.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"新加坡\r_3","type":"vless","server":"8.222.193.65","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg22.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_1","type":"vless","server":"krsg22.wang66.homes","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"krsg22.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_2","type":"vless","server":"www.boba88slot.com","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"22tub.wang66.homes","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国\r_3","type":"vless","server":"22tub.wang66.homes","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"22tub.wang66.homes","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国\r_4","type":"vless","server":"www.boba88slot.com","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"22tub.wang66.homes","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国\r_5","type":"vless","server":"104.26.3.140","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg22.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_6","type":"vless","server":"138.2.232.253","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"krt22.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"新加坡\r_4","type":"vless","server":"43.156.235.68","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg22.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_7","type":"vless","server":"104.26.2.107","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg22.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_8","type":"vless","server":"104.20.21.237","port":2096,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg22.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"瑞士\r","type":"vless","server":"140.238.213.209","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"krt22.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_9","type":"vless","server":"172.67.69.158","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"krsg22.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"新加坡\r_5","type":"vless","server":"43.156.235.68","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg22.ylkszy.eu.org","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_10","type":"vless","server":"jp22.wang66.homes","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp22.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_11","type":"vless","server":"172.67.70.179","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"krsg22.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_12","type":"vless","server":"104.26.10.122","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"22tub.wang66.homes","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国\r_13","type":"vless","server":"104.20.22.95","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"sg22.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国\r_14","type":"vless","server":"www.boba88slot.com","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"22tub.wang66.homes","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - "新加坡\r_1"
+      - "新加坡\r_2"
+      - "新加坡\r_3"
       - "美国\r_1"
       - "美国\r_2"
       - "美国\r_3"
       - "美国\r_4"
       - "美国\r_5"
       - "美国\r_6"
+      - "新加坡\r_4"
       - "美国\r_7"
       - "美国\r_8"
+      - "瑞士\r"
       - "美国\r_9"
+      - "新加坡\r_5"
       - "美国\r_10"
+      - "美国\r_11"
+      - "美国\r_12"
+      - "美国\r_13"
+      - "美国\r_14"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - "新加坡\r_1"
+      - "新加坡\r_2"
+      - "新加坡\r_3"
       - "美国\r_1"
       - "美国\r_2"
       - "美国\r_3"
       - "美国\r_4"
       - "美国\r_5"
       - "美国\r_6"
+      - "新加坡\r_4"
       - "美国\r_7"
       - "美国\r_8"
+      - "瑞士\r"
       - "美国\r_9"
+      - "新加坡\r_5"
       - "美国\r_10"
+      - "美国\r_11"
+      - "美国\r_12"
+      - "美国\r_13"
+      - "美国\r_14"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "新加坡\r_1"
+      - "新加坡\r_2"
+      - "新加坡\r_3"
       - "美国\r_1"
       - "美国\r_2"
       - "美国\r_3"
       - "美国\r_4"
       - "美国\r_5"
       - "美国\r_6"
+      - "新加坡\r_4"
       - "美国\r_7"
       - "美国\r_8"
+      - "瑞士\r"
       - "美国\r_9"
+      - "新加坡\r_5"
       - "美国\r_10"
+      - "美国\r_11"
+      - "美国\r_12"
+      - "美国\r_13"
+      - "美国\r_14"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "新加坡\r_1"
+      - "新加坡\r_2"
+      - "新加坡\r_3"
       - "美国\r_1"
       - "美国\r_2"
       - "美国\r_3"
       - "美国\r_4"
       - "美国\r_5"
       - "美国\r_6"
+      - "新加坡\r_4"
       - "美国\r_7"
       - "美国\r_8"
+      - "瑞士\r"
       - "美国\r_9"
+      - "新加坡\r_5"
       - "美国\r_10"
+      - "美国\r_11"
+      - "美国\r_12"
+      - "美国\r_13"
+      - "美国\r_14"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - "新加坡\r_1"
+      - "新加坡\r_2"
+      - "新加坡\r_3"
       - "美国\r_1"
       - "美国\r_2"
       - "美国\r_3"
       - "美国\r_4"
       - "美国\r_5"
       - "美国\r_6"
+      - "新加坡\r_4"
       - "美国\r_7"
       - "美国\r_8"
+      - "瑞士\r"
       - "美国\r_9"
+      - "新加坡\r_5"
       - "美国\r_10"
+      - "美国\r_11"
+      - "美国\r_12"
+      - "美国\r_13"
+      - "美国\r_14"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "新加坡\r_1"
+      - "新加坡\r_2"
+      - "新加坡\r_3"
       - "美国\r_1"
       - "美国\r_2"
       - "美国\r_3"
       - "美国\r_4"
       - "美国\r_5"
       - "美国\r_6"
+      - "新加坡\r_4"
       - "美国\r_7"
       - "美国\r_8"
+      - "瑞士\r"
       - "美国\r_9"
+      - "新加坡\r_5"
       - "美国\r_10"
+      - "美国\r_11"
+      - "美国\r_12"
+      - "美国\r_13"
+      - "美国\r_14"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -203,16 +273,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "新加坡\r_1"
+      - "新加坡\r_2"
+      - "新加坡\r_3"
       - "美国\r_1"
       - "美国\r_2"
       - "美国\r_3"
       - "美国\r_4"
       - "美国\r_5"
       - "美国\r_6"
+      - "新加坡\r_4"
       - "美国\r_7"
       - "美国\r_8"
+      - "瑞士\r"
       - "美国\r_9"
+      - "新加坡\r_5"
       - "美国\r_10"
+      - "美国\r_11"
+      - "美国\r_12"
+      - "美国\r_13"
+      - "美国\r_14"
 
 rules:
 # 本地/局域网地址
