@@ -78,109 +78,1369 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"美国_1","type":"vmess","server":"zfc.windowsupdate1.com","port":80,"cipher":"auto","uuid":"cef51002-47b0-4e48-9d91-850e15ff95e8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"yxtw.651568.xyz"}}}
-  - {"name":"美国_2","type":"vmess","server":"scadn.yydsii.com","port":80,"cipher":"auto","uuid":"cef51002-47b0-4e48-9d91-850e15ff95e8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"yxtw.651568.xyz"}}}
-  - {"name":"美国_3","type":"vmess","server":"38.180.98.215","port":8080,"cipher":"auto","uuid":"773ac60d-36d7-45b5-c99e-a0e3903e2e3a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"韩国\r_1","type":"vless","server":"144.24.79.237","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"0-kr.ylks01.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
-  - {"name":"韩国\r_2","type":"vless","server":"152.69.234.15","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"0-kr.ylks01.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
-  - {"name":"日本\r_1","type":"vless","server":"168.138.215.188","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"0-jp.ylks01.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
-  - {"name":"韩国\r_3","type":"vless","server":"138.2.117.162","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"0-kr.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue"}}
-  - {"name":"日本\r_2","type":"vless","server":"138.3.210.114","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"0-kr.ylks01.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
-  - {"name":"日本\r_3","type":"vless","server":"131.186.42.102","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"0-kr.ylks01.eu.org","network":"ws","ws-opts":{"path":"free_vpn"}}
-  - {"name":"英国\r","type":"vless","server":"158.180.67.192","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"0-kr.ylks01.eu.org","network":"ws","ws-opts":{"path":"free_vpn"}}
+  - {"name":"澳洲(yudou66.com 玉豆免费节点)\r","type":"vless","server":"140.238.195.98","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_1","type":"vless","server":"172.66.45.118","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao55.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"twitter苏小柠"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_1","type":"vmess","server":"104.20.231.30","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_2","type":"vless","server":"173.245.58.216","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_3","type":"vless","server":"172.66.174.182","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)\r_1","type":"vless","server":"43.128.68.89","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"法国(yudou66.com 玉豆免费节点)\r_1","type":"vless","server":"141.145.199.188","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"servername":"tahaquran8.xyz","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_4","type":"vless","server":"104.16.181.226","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_5","type":"vless","server":"w1.sylar8.eu.org","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"servername":"w1.sylar8.eu.org","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"荷兰(yudou66.com 玉豆免费节点)\r_1","type":"vless","server":"188.114.99.116","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_6","type":"vless","server":"104.25.202.62","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_7","type":"vless","server":"172.64.153.214","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"日本(yudou66.com 玉豆免费节点)\r_1","type":"vless","server":"45.251.240.229","port":34237,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao55.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_8","type":"vless","server":"104.22.39.210","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_9","type":"vless","server":"zsf-5fa.pages.dev","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"zsf-5fa.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_10","type":"vless","server":"104.25.213.177","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_11","type":"vless","server":"zsf-5fa.pages.dev","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"zsf-5fa.pages.dev","network":"ws","ws-opts":{"path":"/?ed"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_12","type":"vless","server":"zsf-5fa.pages.dev","port":2053,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"zsf-5fa.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_13","type":"vless","server":"zsf-5fa.pages.dev","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"zsf-5fa.pages.dev","network":"ws","ws-opts":{"path":"/?ed"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_14","type":"vless","server":"49.51.46.56","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_15","type":"vless","server":"190.93.247.199","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_16","type":"vless","server":"43.153.103.203","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"servername":"tahaquran8.xyz","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_17","type":"vless","server":"zsf-5fa.pages.dev","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"zsf-5fa.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_18","type":"vless","server":"parspack.com","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)_1","type":"vmess","server":"8.222.167.147","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_2","type":"vmess","server":"www.brightocean.lol","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.brightocean.lol"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_19","type":"vless","server":"parspack.com","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_20","type":"vless","server":"43.153.80.208","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"荷兰(yudou66.com 玉豆免费节点)\r_2","type":"vless","server":"188.114.97.69","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_21","type":"vless","server":"w3.sylarsun.eu.org","port":443,"uuid":"89420825-e589-4735-bee1-6dc636fca343","tls":true,"servername":"w3.sylarsun.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)_2","type":"vmess","server":"8.222.174.108","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_22","type":"vless","server":"162.159.143.218","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_23","type":"vless","server":"w1.sylar8.eu.org","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"servername":"w1.sylar8.eu.org","network":"ws","ws-opts":{"path":"free0vpn"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_24","type":"vless","server":"49.51.46.56","port":443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"法国(yudou66.com 玉豆免费节点)\r_2","type":"vless","server":"173.245.49.146","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_25","type":"vless","server":"49.51.46.56","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"23s.wang66.homes","network":"ws","ws-opts":{"path":"/blue"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_3","type":"vmess","server":"yes.cnmjcn.net","port":16645,"cipher":"auto","uuid":"bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_26","type":"vless","server":"49.51.46.56","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_4","type":"vmess","server":"198.41.220.170","port":8080,"cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"name":"荷兰(yudou66.com 玉豆免费节点)\r_3","type":"vless","server":"188.114.97.129","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"servername":"w1.sylar8.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_27","type":"vless","server":"43.153.80.208","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_5","type":"vmess","server":"www.ywnouvbale.biz","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.ywnouvbale.biz"}}}
+  - {"name":"法国(yudou66.com 玉豆免费节点)_1","type":"vmess","server":"m.cnmjcn.com","port":16645,"cipher":"auto","uuid":"bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_6","type":"vmess","server":"m.cnmjcn.com","port":16645,"cipher":"auto","uuid":"c99074bd-bacd-48b5-9561-da069c481602","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_28","type":"vless","server":"49.51.46.56","port":443,"uuid":"89420825-e589-4735-bee1-6dc636fca343","tls":true,"servername":"w3.sylarsun.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_29","type":"vless","server":"129.146.7.98","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)\r_2","type":"vless","server":"47.241.209.61","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_30","type":"vless","server":"129.146.46.164","port":443,"uuid":"89420825-e589-4735-bee1-6dc636fca343","tls":true,"servername":"w3.sylarsun.eu.org","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)_3","type":"vmess","server":"8.222.215.228","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_31","type":"vless","server":"158.101.24.17","port":443,"uuid":"89420825-e589-4735-bee1-6dc636fca343","tls":true,"servername":"w3.sylarsun.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_32","type":"vless","server":"129.146.60.210","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_33","type":"vless","server":"129.146.46.164","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_7","type":"vmess","server":"198.41.205.138","port":8080,"cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_34","type":"vless","server":"129.159.84.71","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_35","type":"vless","server":"129.146.46.164","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_36","type":"vless","server":"129.146.46.164","port":443,"uuid":"89420825-e589-4735-bee1-6dc636fca343","tls":true,"servername":"w3.sylarsun.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)_4","type":"vmess","server":"8.222.159.252","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_8","type":"vmess","server":"www.brightocean.lol","port":8080,"cipher":"chacha20-poly1305","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)\r_3","type":"vless","server":"47.241.209.61","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"加拿大(yudou66.com 玉豆免费节点)","type":"vmess","server":"23.227.39.45","port":8080,"cipher":"auto","uuid":"0e5da13a-b148-4889-9d72-ad1d9d5aa9ad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"0e5da13a-b148-4889-9d72-ad1d9d5aa9ad-vm","headers":{"host":"widescreen-instruction-breakdown-postage.trycloudflare.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_37","type":"vless","server":"zsf-5fa.pages.dev","port":2083,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"zsf-5fa.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_38","type":"vless","server":"zsf-5fa.pages.dev","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"zsf-5fa.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"香港(yudou66.com 玉豆免费节点)\r_1","type":"vless","server":"103.220.72.40","port":443,"uuid":"90cd4a77-141a-43c9-991b-08263cfe9c10","tls":true,"servername":"cmliu-edgetunnel.pages.dev","network":"ws","ws-opts":{"path":"/freecodes?ed=2048"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_39","type":"vless","server":"49.51.46.56","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"servername":"w1.sylar8.eu.org","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"加拿大(yudou66.com 玉豆免费节点)\r","type":"vless","server":"129.153.61.213","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_9","type":"vmess","server":"yhnsb3.shabijichang.com","port":80,"cipher":"auto","uuid":"c458695d-6908-45c3-9512-e0c46418454c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"yhnsb3.shabijichang.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_40","type":"vless","server":"43.135.159.102","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_41","type":"vless","server":"jp05.nttkk.com","port":443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"日本(yudou66.com 玉豆免费节点)","type":"vmess","server":"141.147.178.135","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_42","type":"vless","server":"129.146.60.210","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"servername":"w1.sylar8.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_43","type":"vless","server":"tahaquran8.xyz","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"俄罗斯(yudou66.com 玉豆免费节点)","type":"vmess","server":"45.144.2.113","port":80,"cipher":"auto","uuid":"1cb996c8-e5bf-40d2-9a3c-149b3b721c5f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"45.144.2.113"}}}
+  - {"name":"香港(yudou66.com 玉豆免费节点)\r_2","type":"vless","server":"103.220.72.40","port":443,"uuid":"90cd4a77-141a-43c9-991b-08263cfe9c10","tls":true,"servername":"cmliu-edgetunnel.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_44","type":"vless","server":"47.76.49.246","port":443,"uuid":"4bada4e0-0f18-4b3e-bdd9-94891134b9b1","tls":true,"servername":"cf.xujiang.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_45","type":"vless","server":"193.122.197.111","port":443,"uuid":"89420825-e589-4735-bee1-6dc636fca343","tls":true,"servername":"w3.sylarsun.eu.org","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"香港(yudou66.com 玉豆免费节点)\r_3","type":"vless","server":"103.220.72.40","port":443,"uuid":"90cd4a77-141a-43c9-991b-08263cfe9c10","tls":true,"servername":"cmliu-edgetunnel.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始?ed=2048"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_46","type":"vless","server":"193.122.197.111","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"韩国(yudou66.com 玉豆免费节点)\r_1","type":"vless","server":"146.56.142.38","port":51001,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2偷节点死吗"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_47","type":"vless","server":"150.136.241.40","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_48","type":"vless","server":"193.122.197.111","port":443,"uuid":"89420825-e589-4735-bee1-6dc636fca343","tls":true,"servername":"w3.sylarsun.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)_5","type":"vmess","server":"8.222.237.131","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_49","type":"vless","server":"193.122.197.111","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_50","type":"vless","server":"103.235.18.251","port":10005,"uuid":"90cd4a77-141a-43c9-991b-08263cfe9c10","tls":true,"servername":"cmliu-edgetunnel.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"日本(yudou66.com 玉豆免费节点)\r_2","type":"vless","server":"45.251.240.229","port":34237,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao55.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_10","type":"vmess","server":"162.159.22.123","port":8080,"cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"name":"法国(yudou66.com 玉豆免费节点)\r_3","type":"vless","server":"141.145.199.188","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"韩国(yudou66.com 玉豆免费节点)\r_2","type":"vless","server":"132.145.91.171","port":8443,"uuid":"4bada4e0-0f18-4b3e-bdd9-94891134b9b1","tls":true,"servername":"cf.xujiang.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_51","type":"vless","server":"43.135.159.102","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_52","type":"vless","server":"173.245.58.155","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)\r_4","type":"vless","server":"43.128.68.89","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"servername":"tahaquran8.xyz","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_53","type":"vless","server":"193.122.197.111","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"servername":"tahaquran8.xyz","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"法国(yudou66.com 玉豆免费节点)_2","type":"vmess","server":"s1c.v2.v001sss.xyz","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
+  - {"name":"日本(yudou66.com 玉豆免费节点)\r_3","type":"vless","server":"132.226.0.181","port":8443,"uuid":"60813b9d-aa0e-4a5c-88b8-ed231058e82a","tls":true,"servername":"pages.20230619.love","network":"ws","ws-opts":{"path":"fuck0yes!"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_54","type":"vless","server":"129.146.60.210","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_11","type":"vmess","server":"104.21.225.171","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai_8","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_55","type":"vless","server":"43.153.80.208","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)\r_5","type":"vless","server":"47.241.209.61","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_12","type":"vmess","server":"104.21.229.26","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"香港(yudou66.com 玉豆免费节点)","type":"vmess","server":"199.15.76.35","port":443,"cipher":"auto","uuid":"0987ff95-91ef-40ef-b6cb-a44ac6b1990a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0987ff95","headers":{"host":"doxinjiapo.5201314.cfd"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_13","type":"vmess","server":"yes.cnmjcn.net","port":16626,"cipher":"auto","uuid":"c99074bd-bacd-48b5-9561-da069c481602","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_14","type":"vmess","server":"104.21.225.164","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai_8","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_56","type":"vless","server":"104.27.63.63","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"英国(yudou66.com 玉豆免费节点)\r_1","type":"vless","server":"158.180.231.216","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_15","type":"vmess","server":"104.21.225.45","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai_8","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_16","type":"vmess","server":"104.21.225.113","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai08","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)\r_6","type":"vless","server":"43.128.68.89","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_17","type":"vmess","server":"104.21.231.36","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"日本(yudou66.com 玉豆免费节点)\r_4","type":"vless","server":"43.153.181.217","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_18","type":"vmess","server":"104.21.226.10","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_19","type":"vmess","server":"yes.cnmjcn.net","port":16632,"cipher":"auto","uuid":"bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_20","type":"vmess","server":"104.21.225.4","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_57","type":"vless","server":"ars2.pingreducer.top","port":443,"uuid":"58d04d0d-e4b1-40d2-81df-d175f030424c","tls":true,"servername":"ars2.pingreducer.top","network":"ws","ws-opts":{"path":"/pingreducer"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_21","type":"vmess","server":"104.21.225.18","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_22","type":"vmess","server":"104.21.225.129","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai_8","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_23","type":"vmess","server":"104.21.234.51","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_24","type":"vmess","server":"104.21.225.82","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai_8","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_25","type":"vmess","server":"104.21.225.137","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai_8","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_26","type":"vmess","server":"104.21.236.80","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_27","type":"vmess","server":"104.21.225.26","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai_8","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_28","type":"vmess","server":"yes.cnmjcn.net","port":16626,"cipher":"auto","uuid":"e418915e-6459-414d-bc76-bbcbda621f0f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"1e85f722cb07adf2cffdbcd31ee19a14.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_29","type":"vmess","server":"104.21.235.75","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_30","type":"vmess","server":"yes.cnmjcn.net","port":16626,"cipher":"auto","uuid":"bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_31","type":"vmess","server":"104.21.224.4","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_32","type":"vmess","server":"104.21.231.57","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_33","type":"vmess","server":"104.21.225.143","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai_8","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_34","type":"vmess","server":"m.cnmjcn.com","port":16632,"cipher":"auto","uuid":"e418915e-6459-414d-bc76-bbcbda621f0f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"1e85f722cb07adf2cffdbcd31ee19a14.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_58","type":"vless","server":"w1.sylar8.eu.org","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"servername":"w1.sylar8.eu.org","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_35","type":"vmess","server":"t.cnmjcn.cyou","port":16616,"cipher":"auto","uuid":"c99074bd-bacd-48b5-9561-da069c481602","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_36","type":"vmess","server":"us65.netfilx.live","port":80,"cipher":"auto","uuid":"60f12435-bb55-4da2-cb7d-4fea34ecfa37","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_37","type":"vmess","server":"yes.cnmjcn.net","port":16616,"cipher":"auto","uuid":"bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_59","type":"vless","server":"129.159.84.71","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_38","type":"vmess","server":"us65.netfilx.live","port":80,"cipher":"auto","uuid":"60f12435-bb55-4da2-cb7d-4fea34ecfa37","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us65.netfilx.live"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_39","type":"vmess","server":"www.velvetmountain.shop","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.velvetmountain.shop"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_40","type":"vmess","server":"t.cnmjcn.cyou","port":16616,"cipher":"auto","uuid":"bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_41","type":"vmess","server":"t.cnmjcn.cyou","port":16616,"cipher":"auto","uuid":"e418915e-6459-414d-bc76-bbcbda621f0f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"1e85f722cb07adf2cffdbcd31ee19a14.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_42","type":"vmess","server":"104.21.225.236","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳@WangCai08","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"法国(yudou66.com 玉豆免费节点)\r_4","type":"vless","server":"141.145.199.188","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_60","type":"vless","server":"zsf-5fa.pages.dev","port":2083,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"zsf-5fa.pages.dev","network":"ws","ws-opts":{"path":"/?ed"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_61","type":"vless","server":"104.24.38.134","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_62","type":"ss","server":"service.ouluyun9803.com","port":21001,"password":"cfa17a0d-5e7d-4871-976e-f116e0818123","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"法国(yudou66.com 玉豆免费节点)_3","type":"vmess","server":"173.245.49.132","port":8080,"cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_63","type":"vless","server":"129.80.16.248","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_43","type":"vmess","server":"yes.cnmjcn.net","port":16632,"cipher":"auto","uuid":"e418915e-6459-414d-bc76-bbcbda621f0f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"1e85f722cb07adf2cffdbcd31ee19a14.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_64","type":"vless","server":"129.159.84.71","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"servername":"tahaquran8.xyz","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_65","type":"vless","server":"129.146.7.98","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"servername":"tahaquran8.xyz","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_44","type":"vmess","server":"104.21.225.37","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_45","type":"vmess","server":"104.21.235.76","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"日本(yudou66.com 玉豆免费节点)\r_5","type":"vless","server":"168.138.212.87","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_66","type":"vless","server":"172.67.68.191","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao343.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_46","type":"vmess","server":"104.21.225.118","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_47","type":"vmess","server":"104.21.225.80","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_48","type":"vmess","server":"data-us-v1.shwjfkw.cn","port":20401,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-us-v1.shwjfkw.cn"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_49","type":"vmess","server":"104.21.227.37","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_50","type":"vmess","server":"104.21.225.128","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_51","type":"vmess","server":"www.velvetmountain.xyz","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"www.velvetmountain.xyz"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_67","type":"vless","server":"c.xf.free.hr","port":8443,"uuid":"4bada4e0-0f18-4b3e-bdd9-94891134b9b1","tls":true,"servername":"cf.xujiang.link","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_52","type":"vmess","server":"t.cnmjcn.cyou","port":16645,"cipher":"auto","uuid":"bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_53","type":"vmess","server":"104.21.239.98","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"法国(yudou66.com 玉豆免费节点)_4","type":"vmess","server":"t.cnmjcn.cyou","port":16645,"cipher":"auto","uuid":"c99074bd-bacd-48b5-9561-da069c481602","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com"}}}
+  - {"name":"英国(yudou66.com 玉豆免费节点)\r_2","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_54","type":"vmess","server":"104.21.225.188","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_68","type":"vless","server":"162.159.135.79","port":2053,"uuid":"90cd4a77-141a-43c9-991b-08263cfe9c10","tls":true,"servername":"cmliu-edgetunnel.pages.dev","network":"ws","ws-opts":{"path":"path/telegram@v2ray0alpha/?ed=2048"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_69","type":"vless","server":"zsf-5fa.pages.dev","port":2083,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"zsf-5fa.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_55","type":"vmess","server":"104.21.230.54","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_56","type":"vmess","server":"104.21.225.1","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_57","type":"vmess","server":"cloudflare.cfgo.cc","port":80,"cipher":"auto","uuid":"22a13aa2-4854-44cb-e090-ec71ab84b1ff","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"wap.hostmjj.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_70","type":"vless","server":"zula.ir","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/?ed=2048"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_58","type":"vmess","server":"for-irancell.outline-vpn.cloud","port":80,"cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_59","type":"vmess","server":"m.cnmjcn.com","port":16616,"cipher":"auto","uuid":"bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_60","type":"vmess","server":"172.64.128.180","port":8080,"cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)\r_7","type":"vless","server":"168.138.174.26","port":61735,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2偷节点死吗"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_61","type":"vmess","server":"yes.cnmjcn.net","port":16616,"cipher":"auto","uuid":"c99074bd-bacd-48b5-9561-da069c481602","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_71","type":"vless","server":"t47.gobo.life","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_72","type":"vless","server":"129.80.16.248","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/freecodes"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_62","type":"vmess","server":"m.cnmjcn.com","port":16620,"cipher":"auto","uuid":"c99074bd-bacd-48b5-9561-da069c481602","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_73","type":"ss","server":"service.ouluyun9803.com","port":26602,"password":"cfa17a0d-5e7d-4871-976e-f116e0818123","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_74","type":"vless","server":"129.80.16.248","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_63","type":"vmess","server":"162.159.153.11","port":8080,"cipher":"auto","uuid":"5f7934bf-a228-49a7-9572-5ce4377c34d5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"5f7934bf-a228-49a7-9572-5ce4377c34d5-vm","headers":{"host":"uh-lawyers-instruments-kernel.trycloudflare.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_64","type":"vmess","server":"173.245.58.1","port":8080,"cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_75","type":"vless","server":"129.80.16.248","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"servername":"tahaquran8.xyz","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_76","type":"vless","server":"zula.ir","port":2053,"uuid":"4045c6b7-1d53-4574-98cd-df21db40b0dc","tls":true,"servername":"itcenteriran.blog","network":"ws","ws-opts":{"path":"/p=19"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_77","type":"vless","server":"w1.sylar8.eu.org","port":443,"uuid":"29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2","tls":true,"servername":"w1.sylar8.eu.org","network":"ws","ws-opts":{"path":"fuck0yes!"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_78","type":"vless","server":"129.159.84.71","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_65","type":"vmess","server":"m.cnmjcn.com","port":16645,"cipher":"auto","uuid":"e418915e-6459-414d-bc76-bbcbda621f0f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"1e85f722cb07adf2cffdbcd31ee19a14.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_79","type":"vless","server":"49.51.46.56","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"servername":"tahaquran8.xyz","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)\r_80","type":"vless","server":"43.153.103.203","port":443,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"servername":"Bia.alLhub.Ltd","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)\r_8","type":"vless","server":"43.128.68.89","port":443,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"servername":"test57.pages.dev","network":"ws","ws-opts":{"path":"/youtube-由零開始"}}
+  - {"name":"新加坡(yudou66.com 玉豆免费节点)\r_9","type":"vless","server":"47.241.209.61","port":443,"uuid":"962a733d-2614-0b9b-7ffe-9ac92ffea8eb","tls":true,"servername":"tahaquran8.xyz","network":"ws","ws-opts":{"path":"/current_time"}}
+  - {"name":"法国(yudou66.com 玉豆免费节点)_5","type":"vmess","server":"yes.cnmjcn.net","port":16645,"cipher":"auto","uuid":"c99074bd-bacd-48b5-9561-da069c481602","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_66","type":"vmess","server":"190.93.244.1","port":8080,"cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - "韩国\r_1"
-      - "韩国\r_2"
-      - "日本\r_1"
-      - "韩国\r_3"
-      - "日本\r_2"
-      - "日本\r_3"
-      - "英国\r"
+      - "澳洲(yudou66.com 玉豆免费节点)\r"
+      - "美国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "美国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_3"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_1"
+      - "法国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_5"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_6"
+      - "美国(yudou66.com 玉豆免费节点)\r_7"
+      - "日本(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_8"
+      - "美国(yudou66.com 玉豆免费节点)\r_9"
+      - "美国(yudou66.com 玉豆免费节点)\r_10"
+      - "美国(yudou66.com 玉豆免费节点)\r_11"
+      - "美国(yudou66.com 玉豆免费节点)\r_12"
+      - "美国(yudou66.com 玉豆免费节点)\r_13"
+      - "美国(yudou66.com 玉豆免费节点)\r_14"
+      - "美国(yudou66.com 玉豆免费节点)\r_15"
+      - "美国(yudou66.com 玉豆免费节点)\r_16"
+      - "美国(yudou66.com 玉豆免费节点)\r_17"
+      - "美国(yudou66.com 玉豆免费节点)\r_18"
+      - 新加坡(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_19"
+      - "美国(yudou66.com 玉豆免费节点)\r_20"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_21"
+      - 新加坡(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_22"
+      - "美国(yudou66.com 玉豆免费节点)\r_23"
+      - "美国(yudou66.com 玉豆免费节点)\r_24"
+      - "法国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_25"
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_26"
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - "荷兰(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_27"
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - 法国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - "美国(yudou66.com 玉豆免费节点)\r_28"
+      - "美国(yudou66.com 玉豆免费节点)\r_29"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_30"
+      - 新加坡(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_31"
+      - "美国(yudou66.com 玉豆免费节点)\r_32"
+      - "美国(yudou66.com 玉豆免费节点)\r_33"
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - "美国(yudou66.com 玉豆免费节点)\r_34"
+      - "美国(yudou66.com 玉豆免费节点)\r_35"
+      - "美国(yudou66.com 玉豆免费节点)\r_36"
+      - 新加坡(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_8
+      - "新加坡(yudou66.com 玉豆免费节点)\r_3"
+      - 加拿大(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_37"
+      - "美国(yudou66.com 玉豆免费节点)\r_38"
+      - "香港(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_39"
+      - "加拿大(yudou66.com 玉豆免费节点)\r"
+      - 美国(yudou66.com 玉豆免费节点)_9
+      - "美国(yudou66.com 玉豆免费节点)\r_40"
+      - "美国(yudou66.com 玉豆免费节点)\r_41"
+      - 日本(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_42"
+      - "美国(yudou66.com 玉豆免费节点)\r_43"
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - "香港(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_44"
+      - "美国(yudou66.com 玉豆免费节点)\r_45"
+      - "香港(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_46"
+      - "韩国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_47"
+      - "美国(yudou66.com 玉豆免费节点)\r_48"
+      - 新加坡(yudou66.com 玉豆免费节点)_5
+      - "美国(yudou66.com 玉豆免费节点)\r_49"
+      - "美国(yudou66.com 玉豆免费节点)\r_50"
+      - "日本(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_10
+      - "法国(yudou66.com 玉豆免费节点)\r_3"
+      - "韩国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_51"
+      - "美国(yudou66.com 玉豆免费节点)\r_52"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_53"
+      - 法国(yudou66.com 玉豆免费节点)_2
+      - "日本(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_54"
+      - 美国(yudou66.com 玉豆免费节点)_11
+      - "美国(yudou66.com 玉豆免费节点)\r_55"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_5"
+      - 美国(yudou66.com 玉豆免费节点)_12
+      - 香港(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)_13
+      - 美国(yudou66.com 玉豆免费节点)_14
+      - "美国(yudou66.com 玉豆免费节点)\r_56"
+      - "英国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_15
+      - 美国(yudou66.com 玉豆免费节点)_16
+      - "新加坡(yudou66.com 玉豆免费节点)\r_6"
+      - 美国(yudou66.com 玉豆免费节点)_17
+      - "日本(yudou66.com 玉豆免费节点)\r_4"
+      - 美国(yudou66.com 玉豆免费节点)_18
+      - 美国(yudou66.com 玉豆免费节点)_19
+      - 美国(yudou66.com 玉豆免费节点)_20
+      - "美国(yudou66.com 玉豆免费节点)\r_57"
+      - 美国(yudou66.com 玉豆免费节点)_21
+      - 美国(yudou66.com 玉豆免费节点)_22
+      - 美国(yudou66.com 玉豆免费节点)_23
+      - 美国(yudou66.com 玉豆免费节点)_24
+      - 美国(yudou66.com 玉豆免费节点)_25
+      - 美国(yudou66.com 玉豆免费节点)_26
+      - 美国(yudou66.com 玉豆免费节点)_27
+      - 美国(yudou66.com 玉豆免费节点)_28
+      - 美国(yudou66.com 玉豆免费节点)_29
+      - 美国(yudou66.com 玉豆免费节点)_30
+      - 美国(yudou66.com 玉豆免费节点)_31
+      - 美国(yudou66.com 玉豆免费节点)_32
+      - 美国(yudou66.com 玉豆免费节点)_33
+      - 美国(yudou66.com 玉豆免费节点)_34
+      - "美国(yudou66.com 玉豆免费节点)\r_58"
+      - 美国(yudou66.com 玉豆免费节点)_35
+      - 美国(yudou66.com 玉豆免费节点)_36
+      - 美国(yudou66.com 玉豆免费节点)_37
+      - "美国(yudou66.com 玉豆免费节点)\r_59"
+      - 美国(yudou66.com 玉豆免费节点)_38
+      - 美国(yudou66.com 玉豆免费节点)_39
+      - 美国(yudou66.com 玉豆免费节点)_40
+      - 美国(yudou66.com 玉豆免费节点)_41
+      - 美国(yudou66.com 玉豆免费节点)_42
+      - "法国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_60"
+      - "美国(yudou66.com 玉豆免费节点)\r_61"
+      - "美国(yudou66.com 玉豆免费节点)\r_62"
+      - 法国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_63"
+      - 美国(yudou66.com 玉豆免费节点)_43
+      - "美国(yudou66.com 玉豆免费节点)\r_64"
+      - "美国(yudou66.com 玉豆免费节点)\r_65"
+      - 美国(yudou66.com 玉豆免费节点)_44
+      - 美国(yudou66.com 玉豆免费节点)_45
+      - "日本(yudou66.com 玉豆免费节点)\r_5"
+      - "美国(yudou66.com 玉豆免费节点)\r_66"
+      - 美国(yudou66.com 玉豆免费节点)_46
+      - 美国(yudou66.com 玉豆免费节点)_47
+      - 美国(yudou66.com 玉豆免费节点)_48
+      - 美国(yudou66.com 玉豆免费节点)_49
+      - 美国(yudou66.com 玉豆免费节点)_50
+      - 美国(yudou66.com 玉豆免费节点)_51
+      - "美国(yudou66.com 玉豆免费节点)\r_67"
+      - 美国(yudou66.com 玉豆免费节点)_52
+      - 美国(yudou66.com 玉豆免费节点)_53
+      - 法国(yudou66.com 玉豆免费节点)_4
+      - "英国(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_54
+      - "美国(yudou66.com 玉豆免费节点)\r_68"
+      - "美国(yudou66.com 玉豆免费节点)\r_69"
+      - 美国(yudou66.com 玉豆免费节点)_55
+      - 美国(yudou66.com 玉豆免费节点)_56
+      - 美国(yudou66.com 玉豆免费节点)_57
+      - "美国(yudou66.com 玉豆免费节点)\r_70"
+      - 美国(yudou66.com 玉豆免费节点)_58
+      - 美国(yudou66.com 玉豆免费节点)_59
+      - 美国(yudou66.com 玉豆免费节点)_60
+      - "新加坡(yudou66.com 玉豆免费节点)\r_7"
+      - 美国(yudou66.com 玉豆免费节点)_61
+      - "美国(yudou66.com 玉豆免费节点)\r_71"
+      - "美国(yudou66.com 玉豆免费节点)\r_72"
+      - 美国(yudou66.com 玉豆免费节点)_62
+      - "美国(yudou66.com 玉豆免费节点)\r_73"
+      - "美国(yudou66.com 玉豆免费节点)\r_74"
+      - 美国(yudou66.com 玉豆免费节点)_63
+      - 美国(yudou66.com 玉豆免费节点)_64
+      - "美国(yudou66.com 玉豆免费节点)\r_75"
+      - "美国(yudou66.com 玉豆免费节点)\r_76"
+      - "美国(yudou66.com 玉豆免费节点)\r_77"
+      - "美国(yudou66.com 玉豆免费节点)\r_78"
+      - 美国(yudou66.com 玉豆免费节点)_65
+      - "美国(yudou66.com 玉豆免费节点)\r_79"
+      - "美国(yudou66.com 玉豆免费节点)\r_80"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_8"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_9"
+      - 法国(yudou66.com 玉豆免费节点)_5
+      - 美国(yudou66.com 玉豆免费节点)_66
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - "韩国\r_1"
-      - "韩国\r_2"
-      - "日本\r_1"
-      - "韩国\r_3"
-      - "日本\r_2"
-      - "日本\r_3"
-      - "英国\r"
+      - "澳洲(yudou66.com 玉豆免费节点)\r"
+      - "美国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "美国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_3"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_1"
+      - "法国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_5"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_6"
+      - "美国(yudou66.com 玉豆免费节点)\r_7"
+      - "日本(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_8"
+      - "美国(yudou66.com 玉豆免费节点)\r_9"
+      - "美国(yudou66.com 玉豆免费节点)\r_10"
+      - "美国(yudou66.com 玉豆免费节点)\r_11"
+      - "美国(yudou66.com 玉豆免费节点)\r_12"
+      - "美国(yudou66.com 玉豆免费节点)\r_13"
+      - "美国(yudou66.com 玉豆免费节点)\r_14"
+      - "美国(yudou66.com 玉豆免费节点)\r_15"
+      - "美国(yudou66.com 玉豆免费节点)\r_16"
+      - "美国(yudou66.com 玉豆免费节点)\r_17"
+      - "美国(yudou66.com 玉豆免费节点)\r_18"
+      - 新加坡(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_19"
+      - "美国(yudou66.com 玉豆免费节点)\r_20"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_21"
+      - 新加坡(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_22"
+      - "美国(yudou66.com 玉豆免费节点)\r_23"
+      - "美国(yudou66.com 玉豆免费节点)\r_24"
+      - "法国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_25"
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_26"
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - "荷兰(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_27"
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - 法国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - "美国(yudou66.com 玉豆免费节点)\r_28"
+      - "美国(yudou66.com 玉豆免费节点)\r_29"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_30"
+      - 新加坡(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_31"
+      - "美国(yudou66.com 玉豆免费节点)\r_32"
+      - "美国(yudou66.com 玉豆免费节点)\r_33"
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - "美国(yudou66.com 玉豆免费节点)\r_34"
+      - "美国(yudou66.com 玉豆免费节点)\r_35"
+      - "美国(yudou66.com 玉豆免费节点)\r_36"
+      - 新加坡(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_8
+      - "新加坡(yudou66.com 玉豆免费节点)\r_3"
+      - 加拿大(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_37"
+      - "美国(yudou66.com 玉豆免费节点)\r_38"
+      - "香港(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_39"
+      - "加拿大(yudou66.com 玉豆免费节点)\r"
+      - 美国(yudou66.com 玉豆免费节点)_9
+      - "美国(yudou66.com 玉豆免费节点)\r_40"
+      - "美国(yudou66.com 玉豆免费节点)\r_41"
+      - 日本(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_42"
+      - "美国(yudou66.com 玉豆免费节点)\r_43"
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - "香港(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_44"
+      - "美国(yudou66.com 玉豆免费节点)\r_45"
+      - "香港(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_46"
+      - "韩国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_47"
+      - "美国(yudou66.com 玉豆免费节点)\r_48"
+      - 新加坡(yudou66.com 玉豆免费节点)_5
+      - "美国(yudou66.com 玉豆免费节点)\r_49"
+      - "美国(yudou66.com 玉豆免费节点)\r_50"
+      - "日本(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_10
+      - "法国(yudou66.com 玉豆免费节点)\r_3"
+      - "韩国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_51"
+      - "美国(yudou66.com 玉豆免费节点)\r_52"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_53"
+      - 法国(yudou66.com 玉豆免费节点)_2
+      - "日本(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_54"
+      - 美国(yudou66.com 玉豆免费节点)_11
+      - "美国(yudou66.com 玉豆免费节点)\r_55"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_5"
+      - 美国(yudou66.com 玉豆免费节点)_12
+      - 香港(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)_13
+      - 美国(yudou66.com 玉豆免费节点)_14
+      - "美国(yudou66.com 玉豆免费节点)\r_56"
+      - "英国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_15
+      - 美国(yudou66.com 玉豆免费节点)_16
+      - "新加坡(yudou66.com 玉豆免费节点)\r_6"
+      - 美国(yudou66.com 玉豆免费节点)_17
+      - "日本(yudou66.com 玉豆免费节点)\r_4"
+      - 美国(yudou66.com 玉豆免费节点)_18
+      - 美国(yudou66.com 玉豆免费节点)_19
+      - 美国(yudou66.com 玉豆免费节点)_20
+      - "美国(yudou66.com 玉豆免费节点)\r_57"
+      - 美国(yudou66.com 玉豆免费节点)_21
+      - 美国(yudou66.com 玉豆免费节点)_22
+      - 美国(yudou66.com 玉豆免费节点)_23
+      - 美国(yudou66.com 玉豆免费节点)_24
+      - 美国(yudou66.com 玉豆免费节点)_25
+      - 美国(yudou66.com 玉豆免费节点)_26
+      - 美国(yudou66.com 玉豆免费节点)_27
+      - 美国(yudou66.com 玉豆免费节点)_28
+      - 美国(yudou66.com 玉豆免费节点)_29
+      - 美国(yudou66.com 玉豆免费节点)_30
+      - 美国(yudou66.com 玉豆免费节点)_31
+      - 美国(yudou66.com 玉豆免费节点)_32
+      - 美国(yudou66.com 玉豆免费节点)_33
+      - 美国(yudou66.com 玉豆免费节点)_34
+      - "美国(yudou66.com 玉豆免费节点)\r_58"
+      - 美国(yudou66.com 玉豆免费节点)_35
+      - 美国(yudou66.com 玉豆免费节点)_36
+      - 美国(yudou66.com 玉豆免费节点)_37
+      - "美国(yudou66.com 玉豆免费节点)\r_59"
+      - 美国(yudou66.com 玉豆免费节点)_38
+      - 美国(yudou66.com 玉豆免费节点)_39
+      - 美国(yudou66.com 玉豆免费节点)_40
+      - 美国(yudou66.com 玉豆免费节点)_41
+      - 美国(yudou66.com 玉豆免费节点)_42
+      - "法国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_60"
+      - "美国(yudou66.com 玉豆免费节点)\r_61"
+      - "美国(yudou66.com 玉豆免费节点)\r_62"
+      - 法国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_63"
+      - 美国(yudou66.com 玉豆免费节点)_43
+      - "美国(yudou66.com 玉豆免费节点)\r_64"
+      - "美国(yudou66.com 玉豆免费节点)\r_65"
+      - 美国(yudou66.com 玉豆免费节点)_44
+      - 美国(yudou66.com 玉豆免费节点)_45
+      - "日本(yudou66.com 玉豆免费节点)\r_5"
+      - "美国(yudou66.com 玉豆免费节点)\r_66"
+      - 美国(yudou66.com 玉豆免费节点)_46
+      - 美国(yudou66.com 玉豆免费节点)_47
+      - 美国(yudou66.com 玉豆免费节点)_48
+      - 美国(yudou66.com 玉豆免费节点)_49
+      - 美国(yudou66.com 玉豆免费节点)_50
+      - 美国(yudou66.com 玉豆免费节点)_51
+      - "美国(yudou66.com 玉豆免费节点)\r_67"
+      - 美国(yudou66.com 玉豆免费节点)_52
+      - 美国(yudou66.com 玉豆免费节点)_53
+      - 法国(yudou66.com 玉豆免费节点)_4
+      - "英国(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_54
+      - "美国(yudou66.com 玉豆免费节点)\r_68"
+      - "美国(yudou66.com 玉豆免费节点)\r_69"
+      - 美国(yudou66.com 玉豆免费节点)_55
+      - 美国(yudou66.com 玉豆免费节点)_56
+      - 美国(yudou66.com 玉豆免费节点)_57
+      - "美国(yudou66.com 玉豆免费节点)\r_70"
+      - 美国(yudou66.com 玉豆免费节点)_58
+      - 美国(yudou66.com 玉豆免费节点)_59
+      - 美国(yudou66.com 玉豆免费节点)_60
+      - "新加坡(yudou66.com 玉豆免费节点)\r_7"
+      - 美国(yudou66.com 玉豆免费节点)_61
+      - "美国(yudou66.com 玉豆免费节点)\r_71"
+      - "美国(yudou66.com 玉豆免费节点)\r_72"
+      - 美国(yudou66.com 玉豆免费节点)_62
+      - "美国(yudou66.com 玉豆免费节点)\r_73"
+      - "美国(yudou66.com 玉豆免费节点)\r_74"
+      - 美国(yudou66.com 玉豆免费节点)_63
+      - 美国(yudou66.com 玉豆免费节点)_64
+      - "美国(yudou66.com 玉豆免费节点)\r_75"
+      - "美国(yudou66.com 玉豆免费节点)\r_76"
+      - "美国(yudou66.com 玉豆免费节点)\r_77"
+      - "美国(yudou66.com 玉豆免费节点)\r_78"
+      - 美国(yudou66.com 玉豆免费节点)_65
+      - "美国(yudou66.com 玉豆免费节点)\r_79"
+      - "美国(yudou66.com 玉豆免费节点)\r_80"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_8"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_9"
+      - 法国(yudou66.com 玉豆免费节点)_5
+      - 美国(yudou66.com 玉豆免费节点)_66
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - "韩国\r_1"
-      - "韩国\r_2"
-      - "日本\r_1"
-      - "韩国\r_3"
-      - "日本\r_2"
-      - "日本\r_3"
-      - "英国\r"
+      - "澳洲(yudou66.com 玉豆免费节点)\r"
+      - "美国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "美国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_3"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_1"
+      - "法国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_5"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_6"
+      - "美国(yudou66.com 玉豆免费节点)\r_7"
+      - "日本(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_8"
+      - "美国(yudou66.com 玉豆免费节点)\r_9"
+      - "美国(yudou66.com 玉豆免费节点)\r_10"
+      - "美国(yudou66.com 玉豆免费节点)\r_11"
+      - "美国(yudou66.com 玉豆免费节点)\r_12"
+      - "美国(yudou66.com 玉豆免费节点)\r_13"
+      - "美国(yudou66.com 玉豆免费节点)\r_14"
+      - "美国(yudou66.com 玉豆免费节点)\r_15"
+      - "美国(yudou66.com 玉豆免费节点)\r_16"
+      - "美国(yudou66.com 玉豆免费节点)\r_17"
+      - "美国(yudou66.com 玉豆免费节点)\r_18"
+      - 新加坡(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_19"
+      - "美国(yudou66.com 玉豆免费节点)\r_20"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_21"
+      - 新加坡(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_22"
+      - "美国(yudou66.com 玉豆免费节点)\r_23"
+      - "美国(yudou66.com 玉豆免费节点)\r_24"
+      - "法国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_25"
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_26"
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - "荷兰(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_27"
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - 法国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - "美国(yudou66.com 玉豆免费节点)\r_28"
+      - "美国(yudou66.com 玉豆免费节点)\r_29"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_30"
+      - 新加坡(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_31"
+      - "美国(yudou66.com 玉豆免费节点)\r_32"
+      - "美国(yudou66.com 玉豆免费节点)\r_33"
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - "美国(yudou66.com 玉豆免费节点)\r_34"
+      - "美国(yudou66.com 玉豆免费节点)\r_35"
+      - "美国(yudou66.com 玉豆免费节点)\r_36"
+      - 新加坡(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_8
+      - "新加坡(yudou66.com 玉豆免费节点)\r_3"
+      - 加拿大(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_37"
+      - "美国(yudou66.com 玉豆免费节点)\r_38"
+      - "香港(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_39"
+      - "加拿大(yudou66.com 玉豆免费节点)\r"
+      - 美国(yudou66.com 玉豆免费节点)_9
+      - "美国(yudou66.com 玉豆免费节点)\r_40"
+      - "美国(yudou66.com 玉豆免费节点)\r_41"
+      - 日本(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_42"
+      - "美国(yudou66.com 玉豆免费节点)\r_43"
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - "香港(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_44"
+      - "美国(yudou66.com 玉豆免费节点)\r_45"
+      - "香港(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_46"
+      - "韩国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_47"
+      - "美国(yudou66.com 玉豆免费节点)\r_48"
+      - 新加坡(yudou66.com 玉豆免费节点)_5
+      - "美国(yudou66.com 玉豆免费节点)\r_49"
+      - "美国(yudou66.com 玉豆免费节点)\r_50"
+      - "日本(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_10
+      - "法国(yudou66.com 玉豆免费节点)\r_3"
+      - "韩国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_51"
+      - "美国(yudou66.com 玉豆免费节点)\r_52"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_53"
+      - 法国(yudou66.com 玉豆免费节点)_2
+      - "日本(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_54"
+      - 美国(yudou66.com 玉豆免费节点)_11
+      - "美国(yudou66.com 玉豆免费节点)\r_55"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_5"
+      - 美国(yudou66.com 玉豆免费节点)_12
+      - 香港(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)_13
+      - 美国(yudou66.com 玉豆免费节点)_14
+      - "美国(yudou66.com 玉豆免费节点)\r_56"
+      - "英国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_15
+      - 美国(yudou66.com 玉豆免费节点)_16
+      - "新加坡(yudou66.com 玉豆免费节点)\r_6"
+      - 美国(yudou66.com 玉豆免费节点)_17
+      - "日本(yudou66.com 玉豆免费节点)\r_4"
+      - 美国(yudou66.com 玉豆免费节点)_18
+      - 美国(yudou66.com 玉豆免费节点)_19
+      - 美国(yudou66.com 玉豆免费节点)_20
+      - "美国(yudou66.com 玉豆免费节点)\r_57"
+      - 美国(yudou66.com 玉豆免费节点)_21
+      - 美国(yudou66.com 玉豆免费节点)_22
+      - 美国(yudou66.com 玉豆免费节点)_23
+      - 美国(yudou66.com 玉豆免费节点)_24
+      - 美国(yudou66.com 玉豆免费节点)_25
+      - 美国(yudou66.com 玉豆免费节点)_26
+      - 美国(yudou66.com 玉豆免费节点)_27
+      - 美国(yudou66.com 玉豆免费节点)_28
+      - 美国(yudou66.com 玉豆免费节点)_29
+      - 美国(yudou66.com 玉豆免费节点)_30
+      - 美国(yudou66.com 玉豆免费节点)_31
+      - 美国(yudou66.com 玉豆免费节点)_32
+      - 美国(yudou66.com 玉豆免费节点)_33
+      - 美国(yudou66.com 玉豆免费节点)_34
+      - "美国(yudou66.com 玉豆免费节点)\r_58"
+      - 美国(yudou66.com 玉豆免费节点)_35
+      - 美国(yudou66.com 玉豆免费节点)_36
+      - 美国(yudou66.com 玉豆免费节点)_37
+      - "美国(yudou66.com 玉豆免费节点)\r_59"
+      - 美国(yudou66.com 玉豆免费节点)_38
+      - 美国(yudou66.com 玉豆免费节点)_39
+      - 美国(yudou66.com 玉豆免费节点)_40
+      - 美国(yudou66.com 玉豆免费节点)_41
+      - 美国(yudou66.com 玉豆免费节点)_42
+      - "法国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_60"
+      - "美国(yudou66.com 玉豆免费节点)\r_61"
+      - "美国(yudou66.com 玉豆免费节点)\r_62"
+      - 法国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_63"
+      - 美国(yudou66.com 玉豆免费节点)_43
+      - "美国(yudou66.com 玉豆免费节点)\r_64"
+      - "美国(yudou66.com 玉豆免费节点)\r_65"
+      - 美国(yudou66.com 玉豆免费节点)_44
+      - 美国(yudou66.com 玉豆免费节点)_45
+      - "日本(yudou66.com 玉豆免费节点)\r_5"
+      - "美国(yudou66.com 玉豆免费节点)\r_66"
+      - 美国(yudou66.com 玉豆免费节点)_46
+      - 美国(yudou66.com 玉豆免费节点)_47
+      - 美国(yudou66.com 玉豆免费节点)_48
+      - 美国(yudou66.com 玉豆免费节点)_49
+      - 美国(yudou66.com 玉豆免费节点)_50
+      - 美国(yudou66.com 玉豆免费节点)_51
+      - "美国(yudou66.com 玉豆免费节点)\r_67"
+      - 美国(yudou66.com 玉豆免费节点)_52
+      - 美国(yudou66.com 玉豆免费节点)_53
+      - 法国(yudou66.com 玉豆免费节点)_4
+      - "英国(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_54
+      - "美国(yudou66.com 玉豆免费节点)\r_68"
+      - "美国(yudou66.com 玉豆免费节点)\r_69"
+      - 美国(yudou66.com 玉豆免费节点)_55
+      - 美国(yudou66.com 玉豆免费节点)_56
+      - 美国(yudou66.com 玉豆免费节点)_57
+      - "美国(yudou66.com 玉豆免费节点)\r_70"
+      - 美国(yudou66.com 玉豆免费节点)_58
+      - 美国(yudou66.com 玉豆免费节点)_59
+      - 美国(yudou66.com 玉豆免费节点)_60
+      - "新加坡(yudou66.com 玉豆免费节点)\r_7"
+      - 美国(yudou66.com 玉豆免费节点)_61
+      - "美国(yudou66.com 玉豆免费节点)\r_71"
+      - "美国(yudou66.com 玉豆免费节点)\r_72"
+      - 美国(yudou66.com 玉豆免费节点)_62
+      - "美国(yudou66.com 玉豆免费节点)\r_73"
+      - "美国(yudou66.com 玉豆免费节点)\r_74"
+      - 美国(yudou66.com 玉豆免费节点)_63
+      - 美国(yudou66.com 玉豆免费节点)_64
+      - "美国(yudou66.com 玉豆免费节点)\r_75"
+      - "美国(yudou66.com 玉豆免费节点)\r_76"
+      - "美国(yudou66.com 玉豆免费节点)\r_77"
+      - "美国(yudou66.com 玉豆免费节点)\r_78"
+      - 美国(yudou66.com 玉豆免费节点)_65
+      - "美国(yudou66.com 玉豆免费节点)\r_79"
+      - "美国(yudou66.com 玉豆免费节点)\r_80"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_8"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_9"
+      - 法国(yudou66.com 玉豆免费节点)_5
+      - 美国(yudou66.com 玉豆免费节点)_66
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - "韩国\r_1"
-      - "韩国\r_2"
-      - "日本\r_1"
-      - "韩国\r_3"
-      - "日本\r_2"
-      - "日本\r_3"
-      - "英国\r"
+      - "澳洲(yudou66.com 玉豆免费节点)\r"
+      - "美国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "美国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_3"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_1"
+      - "法国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_5"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_6"
+      - "美国(yudou66.com 玉豆免费节点)\r_7"
+      - "日本(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_8"
+      - "美国(yudou66.com 玉豆免费节点)\r_9"
+      - "美国(yudou66.com 玉豆免费节点)\r_10"
+      - "美国(yudou66.com 玉豆免费节点)\r_11"
+      - "美国(yudou66.com 玉豆免费节点)\r_12"
+      - "美国(yudou66.com 玉豆免费节点)\r_13"
+      - "美国(yudou66.com 玉豆免费节点)\r_14"
+      - "美国(yudou66.com 玉豆免费节点)\r_15"
+      - "美国(yudou66.com 玉豆免费节点)\r_16"
+      - "美国(yudou66.com 玉豆免费节点)\r_17"
+      - "美国(yudou66.com 玉豆免费节点)\r_18"
+      - 新加坡(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_19"
+      - "美国(yudou66.com 玉豆免费节点)\r_20"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_21"
+      - 新加坡(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_22"
+      - "美国(yudou66.com 玉豆免费节点)\r_23"
+      - "美国(yudou66.com 玉豆免费节点)\r_24"
+      - "法国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_25"
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_26"
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - "荷兰(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_27"
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - 法国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - "美国(yudou66.com 玉豆免费节点)\r_28"
+      - "美国(yudou66.com 玉豆免费节点)\r_29"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_30"
+      - 新加坡(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_31"
+      - "美国(yudou66.com 玉豆免费节点)\r_32"
+      - "美国(yudou66.com 玉豆免费节点)\r_33"
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - "美国(yudou66.com 玉豆免费节点)\r_34"
+      - "美国(yudou66.com 玉豆免费节点)\r_35"
+      - "美国(yudou66.com 玉豆免费节点)\r_36"
+      - 新加坡(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_8
+      - "新加坡(yudou66.com 玉豆免费节点)\r_3"
+      - 加拿大(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_37"
+      - "美国(yudou66.com 玉豆免费节点)\r_38"
+      - "香港(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_39"
+      - "加拿大(yudou66.com 玉豆免费节点)\r"
+      - 美国(yudou66.com 玉豆免费节点)_9
+      - "美国(yudou66.com 玉豆免费节点)\r_40"
+      - "美国(yudou66.com 玉豆免费节点)\r_41"
+      - 日本(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_42"
+      - "美国(yudou66.com 玉豆免费节点)\r_43"
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - "香港(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_44"
+      - "美国(yudou66.com 玉豆免费节点)\r_45"
+      - "香港(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_46"
+      - "韩国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_47"
+      - "美国(yudou66.com 玉豆免费节点)\r_48"
+      - 新加坡(yudou66.com 玉豆免费节点)_5
+      - "美国(yudou66.com 玉豆免费节点)\r_49"
+      - "美国(yudou66.com 玉豆免费节点)\r_50"
+      - "日本(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_10
+      - "法国(yudou66.com 玉豆免费节点)\r_3"
+      - "韩国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_51"
+      - "美国(yudou66.com 玉豆免费节点)\r_52"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_53"
+      - 法国(yudou66.com 玉豆免费节点)_2
+      - "日本(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_54"
+      - 美国(yudou66.com 玉豆免费节点)_11
+      - "美国(yudou66.com 玉豆免费节点)\r_55"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_5"
+      - 美国(yudou66.com 玉豆免费节点)_12
+      - 香港(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)_13
+      - 美国(yudou66.com 玉豆免费节点)_14
+      - "美国(yudou66.com 玉豆免费节点)\r_56"
+      - "英国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_15
+      - 美国(yudou66.com 玉豆免费节点)_16
+      - "新加坡(yudou66.com 玉豆免费节点)\r_6"
+      - 美国(yudou66.com 玉豆免费节点)_17
+      - "日本(yudou66.com 玉豆免费节点)\r_4"
+      - 美国(yudou66.com 玉豆免费节点)_18
+      - 美国(yudou66.com 玉豆免费节点)_19
+      - 美国(yudou66.com 玉豆免费节点)_20
+      - "美国(yudou66.com 玉豆免费节点)\r_57"
+      - 美国(yudou66.com 玉豆免费节点)_21
+      - 美国(yudou66.com 玉豆免费节点)_22
+      - 美国(yudou66.com 玉豆免费节点)_23
+      - 美国(yudou66.com 玉豆免费节点)_24
+      - 美国(yudou66.com 玉豆免费节点)_25
+      - 美国(yudou66.com 玉豆免费节点)_26
+      - 美国(yudou66.com 玉豆免费节点)_27
+      - 美国(yudou66.com 玉豆免费节点)_28
+      - 美国(yudou66.com 玉豆免费节点)_29
+      - 美国(yudou66.com 玉豆免费节点)_30
+      - 美国(yudou66.com 玉豆免费节点)_31
+      - 美国(yudou66.com 玉豆免费节点)_32
+      - 美国(yudou66.com 玉豆免费节点)_33
+      - 美国(yudou66.com 玉豆免费节点)_34
+      - "美国(yudou66.com 玉豆免费节点)\r_58"
+      - 美国(yudou66.com 玉豆免费节点)_35
+      - 美国(yudou66.com 玉豆免费节点)_36
+      - 美国(yudou66.com 玉豆免费节点)_37
+      - "美国(yudou66.com 玉豆免费节点)\r_59"
+      - 美国(yudou66.com 玉豆免费节点)_38
+      - 美国(yudou66.com 玉豆免费节点)_39
+      - 美国(yudou66.com 玉豆免费节点)_40
+      - 美国(yudou66.com 玉豆免费节点)_41
+      - 美国(yudou66.com 玉豆免费节点)_42
+      - "法国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_60"
+      - "美国(yudou66.com 玉豆免费节点)\r_61"
+      - "美国(yudou66.com 玉豆免费节点)\r_62"
+      - 法国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_63"
+      - 美国(yudou66.com 玉豆免费节点)_43
+      - "美国(yudou66.com 玉豆免费节点)\r_64"
+      - "美国(yudou66.com 玉豆免费节点)\r_65"
+      - 美国(yudou66.com 玉豆免费节点)_44
+      - 美国(yudou66.com 玉豆免费节点)_45
+      - "日本(yudou66.com 玉豆免费节点)\r_5"
+      - "美国(yudou66.com 玉豆免费节点)\r_66"
+      - 美国(yudou66.com 玉豆免费节点)_46
+      - 美国(yudou66.com 玉豆免费节点)_47
+      - 美国(yudou66.com 玉豆免费节点)_48
+      - 美国(yudou66.com 玉豆免费节点)_49
+      - 美国(yudou66.com 玉豆免费节点)_50
+      - 美国(yudou66.com 玉豆免费节点)_51
+      - "美国(yudou66.com 玉豆免费节点)\r_67"
+      - 美国(yudou66.com 玉豆免费节点)_52
+      - 美国(yudou66.com 玉豆免费节点)_53
+      - 法国(yudou66.com 玉豆免费节点)_4
+      - "英国(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_54
+      - "美国(yudou66.com 玉豆免费节点)\r_68"
+      - "美国(yudou66.com 玉豆免费节点)\r_69"
+      - 美国(yudou66.com 玉豆免费节点)_55
+      - 美国(yudou66.com 玉豆免费节点)_56
+      - 美国(yudou66.com 玉豆免费节点)_57
+      - "美国(yudou66.com 玉豆免费节点)\r_70"
+      - 美国(yudou66.com 玉豆免费节点)_58
+      - 美国(yudou66.com 玉豆免费节点)_59
+      - 美国(yudou66.com 玉豆免费节点)_60
+      - "新加坡(yudou66.com 玉豆免费节点)\r_7"
+      - 美国(yudou66.com 玉豆免费节点)_61
+      - "美国(yudou66.com 玉豆免费节点)\r_71"
+      - "美国(yudou66.com 玉豆免费节点)\r_72"
+      - 美国(yudou66.com 玉豆免费节点)_62
+      - "美国(yudou66.com 玉豆免费节点)\r_73"
+      - "美国(yudou66.com 玉豆免费节点)\r_74"
+      - 美国(yudou66.com 玉豆免费节点)_63
+      - 美国(yudou66.com 玉豆免费节点)_64
+      - "美国(yudou66.com 玉豆免费节点)\r_75"
+      - "美国(yudou66.com 玉豆免费节点)\r_76"
+      - "美国(yudou66.com 玉豆免费节点)\r_77"
+      - "美国(yudou66.com 玉豆免费节点)\r_78"
+      - 美国(yudou66.com 玉豆免费节点)_65
+      - "美国(yudou66.com 玉豆免费节点)\r_79"
+      - "美国(yudou66.com 玉豆免费节点)\r_80"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_8"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_9"
+      - 法国(yudou66.com 玉豆免费节点)_5
+      - 美国(yudou66.com 玉豆免费节点)_66
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - "韩国\r_1"
-      - "韩国\r_2"
-      - "日本\r_1"
-      - "韩国\r_3"
-      - "日本\r_2"
-      - "日本\r_3"
-      - "英国\r"
+      - "澳洲(yudou66.com 玉豆免费节点)\r"
+      - "美国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "美国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_3"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_1"
+      - "法国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_5"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_6"
+      - "美国(yudou66.com 玉豆免费节点)\r_7"
+      - "日本(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_8"
+      - "美国(yudou66.com 玉豆免费节点)\r_9"
+      - "美国(yudou66.com 玉豆免费节点)\r_10"
+      - "美国(yudou66.com 玉豆免费节点)\r_11"
+      - "美国(yudou66.com 玉豆免费节点)\r_12"
+      - "美国(yudou66.com 玉豆免费节点)\r_13"
+      - "美国(yudou66.com 玉豆免费节点)\r_14"
+      - "美国(yudou66.com 玉豆免费节点)\r_15"
+      - "美国(yudou66.com 玉豆免费节点)\r_16"
+      - "美国(yudou66.com 玉豆免费节点)\r_17"
+      - "美国(yudou66.com 玉豆免费节点)\r_18"
+      - 新加坡(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_19"
+      - "美国(yudou66.com 玉豆免费节点)\r_20"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_21"
+      - 新加坡(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_22"
+      - "美国(yudou66.com 玉豆免费节点)\r_23"
+      - "美国(yudou66.com 玉豆免费节点)\r_24"
+      - "法国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_25"
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_26"
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - "荷兰(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_27"
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - 法国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - "美国(yudou66.com 玉豆免费节点)\r_28"
+      - "美国(yudou66.com 玉豆免费节点)\r_29"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_30"
+      - 新加坡(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_31"
+      - "美国(yudou66.com 玉豆免费节点)\r_32"
+      - "美国(yudou66.com 玉豆免费节点)\r_33"
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - "美国(yudou66.com 玉豆免费节点)\r_34"
+      - "美国(yudou66.com 玉豆免费节点)\r_35"
+      - "美国(yudou66.com 玉豆免费节点)\r_36"
+      - 新加坡(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_8
+      - "新加坡(yudou66.com 玉豆免费节点)\r_3"
+      - 加拿大(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_37"
+      - "美国(yudou66.com 玉豆免费节点)\r_38"
+      - "香港(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_39"
+      - "加拿大(yudou66.com 玉豆免费节点)\r"
+      - 美国(yudou66.com 玉豆免费节点)_9
+      - "美国(yudou66.com 玉豆免费节点)\r_40"
+      - "美国(yudou66.com 玉豆免费节点)\r_41"
+      - 日本(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_42"
+      - "美国(yudou66.com 玉豆免费节点)\r_43"
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - "香港(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_44"
+      - "美国(yudou66.com 玉豆免费节点)\r_45"
+      - "香港(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_46"
+      - "韩国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_47"
+      - "美国(yudou66.com 玉豆免费节点)\r_48"
+      - 新加坡(yudou66.com 玉豆免费节点)_5
+      - "美国(yudou66.com 玉豆免费节点)\r_49"
+      - "美国(yudou66.com 玉豆免费节点)\r_50"
+      - "日本(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_10
+      - "法国(yudou66.com 玉豆免费节点)\r_3"
+      - "韩国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_51"
+      - "美国(yudou66.com 玉豆免费节点)\r_52"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_53"
+      - 法国(yudou66.com 玉豆免费节点)_2
+      - "日本(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_54"
+      - 美国(yudou66.com 玉豆免费节点)_11
+      - "美国(yudou66.com 玉豆免费节点)\r_55"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_5"
+      - 美国(yudou66.com 玉豆免费节点)_12
+      - 香港(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)_13
+      - 美国(yudou66.com 玉豆免费节点)_14
+      - "美国(yudou66.com 玉豆免费节点)\r_56"
+      - "英国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_15
+      - 美国(yudou66.com 玉豆免费节点)_16
+      - "新加坡(yudou66.com 玉豆免费节点)\r_6"
+      - 美国(yudou66.com 玉豆免费节点)_17
+      - "日本(yudou66.com 玉豆免费节点)\r_4"
+      - 美国(yudou66.com 玉豆免费节点)_18
+      - 美国(yudou66.com 玉豆免费节点)_19
+      - 美国(yudou66.com 玉豆免费节点)_20
+      - "美国(yudou66.com 玉豆免费节点)\r_57"
+      - 美国(yudou66.com 玉豆免费节点)_21
+      - 美国(yudou66.com 玉豆免费节点)_22
+      - 美国(yudou66.com 玉豆免费节点)_23
+      - 美国(yudou66.com 玉豆免费节点)_24
+      - 美国(yudou66.com 玉豆免费节点)_25
+      - 美国(yudou66.com 玉豆免费节点)_26
+      - 美国(yudou66.com 玉豆免费节点)_27
+      - 美国(yudou66.com 玉豆免费节点)_28
+      - 美国(yudou66.com 玉豆免费节点)_29
+      - 美国(yudou66.com 玉豆免费节点)_30
+      - 美国(yudou66.com 玉豆免费节点)_31
+      - 美国(yudou66.com 玉豆免费节点)_32
+      - 美国(yudou66.com 玉豆免费节点)_33
+      - 美国(yudou66.com 玉豆免费节点)_34
+      - "美国(yudou66.com 玉豆免费节点)\r_58"
+      - 美国(yudou66.com 玉豆免费节点)_35
+      - 美国(yudou66.com 玉豆免费节点)_36
+      - 美国(yudou66.com 玉豆免费节点)_37
+      - "美国(yudou66.com 玉豆免费节点)\r_59"
+      - 美国(yudou66.com 玉豆免费节点)_38
+      - 美国(yudou66.com 玉豆免费节点)_39
+      - 美国(yudou66.com 玉豆免费节点)_40
+      - 美国(yudou66.com 玉豆免费节点)_41
+      - 美国(yudou66.com 玉豆免费节点)_42
+      - "法国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_60"
+      - "美国(yudou66.com 玉豆免费节点)\r_61"
+      - "美国(yudou66.com 玉豆免费节点)\r_62"
+      - 法国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_63"
+      - 美国(yudou66.com 玉豆免费节点)_43
+      - "美国(yudou66.com 玉豆免费节点)\r_64"
+      - "美国(yudou66.com 玉豆免费节点)\r_65"
+      - 美国(yudou66.com 玉豆免费节点)_44
+      - 美国(yudou66.com 玉豆免费节点)_45
+      - "日本(yudou66.com 玉豆免费节点)\r_5"
+      - "美国(yudou66.com 玉豆免费节点)\r_66"
+      - 美国(yudou66.com 玉豆免费节点)_46
+      - 美国(yudou66.com 玉豆免费节点)_47
+      - 美国(yudou66.com 玉豆免费节点)_48
+      - 美国(yudou66.com 玉豆免费节点)_49
+      - 美国(yudou66.com 玉豆免费节点)_50
+      - 美国(yudou66.com 玉豆免费节点)_51
+      - "美国(yudou66.com 玉豆免费节点)\r_67"
+      - 美国(yudou66.com 玉豆免费节点)_52
+      - 美国(yudou66.com 玉豆免费节点)_53
+      - 法国(yudou66.com 玉豆免费节点)_4
+      - "英国(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_54
+      - "美国(yudou66.com 玉豆免费节点)\r_68"
+      - "美国(yudou66.com 玉豆免费节点)\r_69"
+      - 美国(yudou66.com 玉豆免费节点)_55
+      - 美国(yudou66.com 玉豆免费节点)_56
+      - 美国(yudou66.com 玉豆免费节点)_57
+      - "美国(yudou66.com 玉豆免费节点)\r_70"
+      - 美国(yudou66.com 玉豆免费节点)_58
+      - 美国(yudou66.com 玉豆免费节点)_59
+      - 美国(yudou66.com 玉豆免费节点)_60
+      - "新加坡(yudou66.com 玉豆免费节点)\r_7"
+      - 美国(yudou66.com 玉豆免费节点)_61
+      - "美国(yudou66.com 玉豆免费节点)\r_71"
+      - "美国(yudou66.com 玉豆免费节点)\r_72"
+      - 美国(yudou66.com 玉豆免费节点)_62
+      - "美国(yudou66.com 玉豆免费节点)\r_73"
+      - "美国(yudou66.com 玉豆免费节点)\r_74"
+      - 美国(yudou66.com 玉豆免费节点)_63
+      - 美国(yudou66.com 玉豆免费节点)_64
+      - "美国(yudou66.com 玉豆免费节点)\r_75"
+      - "美国(yudou66.com 玉豆免费节点)\r_76"
+      - "美国(yudou66.com 玉豆免费节点)\r_77"
+      - "美国(yudou66.com 玉豆免费节点)\r_78"
+      - 美国(yudou66.com 玉豆免费节点)_65
+      - "美国(yudou66.com 玉豆免费节点)\r_79"
+      - "美国(yudou66.com 玉豆免费节点)\r_80"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_8"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_9"
+      - 法国(yudou66.com 玉豆免费节点)_5
+      - 美国(yudou66.com 玉豆免费节点)_66
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - "韩国\r_1"
-      - "韩国\r_2"
-      - "日本\r_1"
-      - "韩国\r_3"
-      - "日本\r_2"
-      - "日本\r_3"
-      - "英国\r"
+      - "澳洲(yudou66.com 玉豆免费节点)\r"
+      - "美国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "美国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_3"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_1"
+      - "法国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_5"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_6"
+      - "美国(yudou66.com 玉豆免费节点)\r_7"
+      - "日本(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_8"
+      - "美国(yudou66.com 玉豆免费节点)\r_9"
+      - "美国(yudou66.com 玉豆免费节点)\r_10"
+      - "美国(yudou66.com 玉豆免费节点)\r_11"
+      - "美国(yudou66.com 玉豆免费节点)\r_12"
+      - "美国(yudou66.com 玉豆免费节点)\r_13"
+      - "美国(yudou66.com 玉豆免费节点)\r_14"
+      - "美国(yudou66.com 玉豆免费节点)\r_15"
+      - "美国(yudou66.com 玉豆免费节点)\r_16"
+      - "美国(yudou66.com 玉豆免费节点)\r_17"
+      - "美国(yudou66.com 玉豆免费节点)\r_18"
+      - 新加坡(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_19"
+      - "美国(yudou66.com 玉豆免费节点)\r_20"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_21"
+      - 新加坡(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_22"
+      - "美国(yudou66.com 玉豆免费节点)\r_23"
+      - "美国(yudou66.com 玉豆免费节点)\r_24"
+      - "法国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_25"
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_26"
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - "荷兰(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_27"
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - 法国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - "美国(yudou66.com 玉豆免费节点)\r_28"
+      - "美国(yudou66.com 玉豆免费节点)\r_29"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_30"
+      - 新加坡(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_31"
+      - "美国(yudou66.com 玉豆免费节点)\r_32"
+      - "美国(yudou66.com 玉豆免费节点)\r_33"
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - "美国(yudou66.com 玉豆免费节点)\r_34"
+      - "美国(yudou66.com 玉豆免费节点)\r_35"
+      - "美国(yudou66.com 玉豆免费节点)\r_36"
+      - 新加坡(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_8
+      - "新加坡(yudou66.com 玉豆免费节点)\r_3"
+      - 加拿大(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_37"
+      - "美国(yudou66.com 玉豆免费节点)\r_38"
+      - "香港(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_39"
+      - "加拿大(yudou66.com 玉豆免费节点)\r"
+      - 美国(yudou66.com 玉豆免费节点)_9
+      - "美国(yudou66.com 玉豆免费节点)\r_40"
+      - "美国(yudou66.com 玉豆免费节点)\r_41"
+      - 日本(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_42"
+      - "美国(yudou66.com 玉豆免费节点)\r_43"
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - "香港(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_44"
+      - "美国(yudou66.com 玉豆免费节点)\r_45"
+      - "香港(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_46"
+      - "韩国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_47"
+      - "美国(yudou66.com 玉豆免费节点)\r_48"
+      - 新加坡(yudou66.com 玉豆免费节点)_5
+      - "美国(yudou66.com 玉豆免费节点)\r_49"
+      - "美国(yudou66.com 玉豆免费节点)\r_50"
+      - "日本(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_10
+      - "法国(yudou66.com 玉豆免费节点)\r_3"
+      - "韩国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_51"
+      - "美国(yudou66.com 玉豆免费节点)\r_52"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_53"
+      - 法国(yudou66.com 玉豆免费节点)_2
+      - "日本(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_54"
+      - 美国(yudou66.com 玉豆免费节点)_11
+      - "美国(yudou66.com 玉豆免费节点)\r_55"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_5"
+      - 美国(yudou66.com 玉豆免费节点)_12
+      - 香港(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)_13
+      - 美国(yudou66.com 玉豆免费节点)_14
+      - "美国(yudou66.com 玉豆免费节点)\r_56"
+      - "英国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_15
+      - 美国(yudou66.com 玉豆免费节点)_16
+      - "新加坡(yudou66.com 玉豆免费节点)\r_6"
+      - 美国(yudou66.com 玉豆免费节点)_17
+      - "日本(yudou66.com 玉豆免费节点)\r_4"
+      - 美国(yudou66.com 玉豆免费节点)_18
+      - 美国(yudou66.com 玉豆免费节点)_19
+      - 美国(yudou66.com 玉豆免费节点)_20
+      - "美国(yudou66.com 玉豆免费节点)\r_57"
+      - 美国(yudou66.com 玉豆免费节点)_21
+      - 美国(yudou66.com 玉豆免费节点)_22
+      - 美国(yudou66.com 玉豆免费节点)_23
+      - 美国(yudou66.com 玉豆免费节点)_24
+      - 美国(yudou66.com 玉豆免费节点)_25
+      - 美国(yudou66.com 玉豆免费节点)_26
+      - 美国(yudou66.com 玉豆免费节点)_27
+      - 美国(yudou66.com 玉豆免费节点)_28
+      - 美国(yudou66.com 玉豆免费节点)_29
+      - 美国(yudou66.com 玉豆免费节点)_30
+      - 美国(yudou66.com 玉豆免费节点)_31
+      - 美国(yudou66.com 玉豆免费节点)_32
+      - 美国(yudou66.com 玉豆免费节点)_33
+      - 美国(yudou66.com 玉豆免费节点)_34
+      - "美国(yudou66.com 玉豆免费节点)\r_58"
+      - 美国(yudou66.com 玉豆免费节点)_35
+      - 美国(yudou66.com 玉豆免费节点)_36
+      - 美国(yudou66.com 玉豆免费节点)_37
+      - "美国(yudou66.com 玉豆免费节点)\r_59"
+      - 美国(yudou66.com 玉豆免费节点)_38
+      - 美国(yudou66.com 玉豆免费节点)_39
+      - 美国(yudou66.com 玉豆免费节点)_40
+      - 美国(yudou66.com 玉豆免费节点)_41
+      - 美国(yudou66.com 玉豆免费节点)_42
+      - "法国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_60"
+      - "美国(yudou66.com 玉豆免费节点)\r_61"
+      - "美国(yudou66.com 玉豆免费节点)\r_62"
+      - 法国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_63"
+      - 美国(yudou66.com 玉豆免费节点)_43
+      - "美国(yudou66.com 玉豆免费节点)\r_64"
+      - "美国(yudou66.com 玉豆免费节点)\r_65"
+      - 美国(yudou66.com 玉豆免费节点)_44
+      - 美国(yudou66.com 玉豆免费节点)_45
+      - "日本(yudou66.com 玉豆免费节点)\r_5"
+      - "美国(yudou66.com 玉豆免费节点)\r_66"
+      - 美国(yudou66.com 玉豆免费节点)_46
+      - 美国(yudou66.com 玉豆免费节点)_47
+      - 美国(yudou66.com 玉豆免费节点)_48
+      - 美国(yudou66.com 玉豆免费节点)_49
+      - 美国(yudou66.com 玉豆免费节点)_50
+      - 美国(yudou66.com 玉豆免费节点)_51
+      - "美国(yudou66.com 玉豆免费节点)\r_67"
+      - 美国(yudou66.com 玉豆免费节点)_52
+      - 美国(yudou66.com 玉豆免费节点)_53
+      - 法国(yudou66.com 玉豆免费节点)_4
+      - "英国(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_54
+      - "美国(yudou66.com 玉豆免费节点)\r_68"
+      - "美国(yudou66.com 玉豆免费节点)\r_69"
+      - 美国(yudou66.com 玉豆免费节点)_55
+      - 美国(yudou66.com 玉豆免费节点)_56
+      - 美国(yudou66.com 玉豆免费节点)_57
+      - "美国(yudou66.com 玉豆免费节点)\r_70"
+      - 美国(yudou66.com 玉豆免费节点)_58
+      - 美国(yudou66.com 玉豆免费节点)_59
+      - 美国(yudou66.com 玉豆免费节点)_60
+      - "新加坡(yudou66.com 玉豆免费节点)\r_7"
+      - 美国(yudou66.com 玉豆免费节点)_61
+      - "美国(yudou66.com 玉豆免费节点)\r_71"
+      - "美国(yudou66.com 玉豆免费节点)\r_72"
+      - 美国(yudou66.com 玉豆免费节点)_62
+      - "美国(yudou66.com 玉豆免费节点)\r_73"
+      - "美国(yudou66.com 玉豆免费节点)\r_74"
+      - 美国(yudou66.com 玉豆免费节点)_63
+      - 美国(yudou66.com 玉豆免费节点)_64
+      - "美国(yudou66.com 玉豆免费节点)\r_75"
+      - "美国(yudou66.com 玉豆免费节点)\r_76"
+      - "美国(yudou66.com 玉豆免费节点)\r_77"
+      - "美国(yudou66.com 玉豆免费节点)\r_78"
+      - 美国(yudou66.com 玉豆免费节点)_65
+      - "美国(yudou66.com 玉豆免费节点)\r_79"
+      - "美国(yudou66.com 玉豆免费节点)\r_80"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_8"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_9"
+      - 法国(yudou66.com 玉豆免费节点)_5
+      - 美国(yudou66.com 玉豆免费节点)_66
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -203,16 +1463,196 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国_1
-      - 美国_2
-      - 美国_3
-      - "韩国\r_1"
-      - "韩国\r_2"
-      - "日本\r_1"
-      - "韩国\r_3"
-      - "日本\r_2"
-      - "日本\r_3"
-      - "英国\r"
+      - "澳洲(yudou66.com 玉豆免费节点)\r"
+      - "美国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - "美国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_3"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_1"
+      - "法国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_5"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_6"
+      - "美国(yudou66.com 玉豆免费节点)\r_7"
+      - "日本(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_8"
+      - "美国(yudou66.com 玉豆免费节点)\r_9"
+      - "美国(yudou66.com 玉豆免费节点)\r_10"
+      - "美国(yudou66.com 玉豆免费节点)\r_11"
+      - "美国(yudou66.com 玉豆免费节点)\r_12"
+      - "美国(yudou66.com 玉豆免费节点)\r_13"
+      - "美国(yudou66.com 玉豆免费节点)\r_14"
+      - "美国(yudou66.com 玉豆免费节点)\r_15"
+      - "美国(yudou66.com 玉豆免费节点)\r_16"
+      - "美国(yudou66.com 玉豆免费节点)\r_17"
+      - "美国(yudou66.com 玉豆免费节点)\r_18"
+      - 新加坡(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_19"
+      - "美国(yudou66.com 玉豆免费节点)\r_20"
+      - "荷兰(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_21"
+      - 新加坡(yudou66.com 玉豆免费节点)_2
+      - "美国(yudou66.com 玉豆免费节点)\r_22"
+      - "美国(yudou66.com 玉豆免费节点)\r_23"
+      - "美国(yudou66.com 玉豆免费节点)\r_24"
+      - "法国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_25"
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_26"
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - "荷兰(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_27"
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - 法国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - "美国(yudou66.com 玉豆免费节点)\r_28"
+      - "美国(yudou66.com 玉豆免费节点)\r_29"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_30"
+      - 新加坡(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_31"
+      - "美国(yudou66.com 玉豆免费节点)\r_32"
+      - "美国(yudou66.com 玉豆免费节点)\r_33"
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - "美国(yudou66.com 玉豆免费节点)\r_34"
+      - "美国(yudou66.com 玉豆免费节点)\r_35"
+      - "美国(yudou66.com 玉豆免费节点)\r_36"
+      - 新加坡(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_8
+      - "新加坡(yudou66.com 玉豆免费节点)\r_3"
+      - 加拿大(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_37"
+      - "美国(yudou66.com 玉豆免费节点)\r_38"
+      - "香港(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_39"
+      - "加拿大(yudou66.com 玉豆免费节点)\r"
+      - 美国(yudou66.com 玉豆免费节点)_9
+      - "美国(yudou66.com 玉豆免费节点)\r_40"
+      - "美国(yudou66.com 玉豆免费节点)\r_41"
+      - 日本(yudou66.com 玉豆免费节点)
+      - "美国(yudou66.com 玉豆免费节点)\r_42"
+      - "美国(yudou66.com 玉豆免费节点)\r_43"
+      - 俄罗斯(yudou66.com 玉豆免费节点)
+      - "香港(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_44"
+      - "美国(yudou66.com 玉豆免费节点)\r_45"
+      - "香港(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_46"
+      - "韩国(yudou66.com 玉豆免费节点)\r_1"
+      - "美国(yudou66.com 玉豆免费节点)\r_47"
+      - "美国(yudou66.com 玉豆免费节点)\r_48"
+      - 新加坡(yudou66.com 玉豆免费节点)_5
+      - "美国(yudou66.com 玉豆免费节点)\r_49"
+      - "美国(yudou66.com 玉豆免费节点)\r_50"
+      - "日本(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_10
+      - "法国(yudou66.com 玉豆免费节点)\r_3"
+      - "韩国(yudou66.com 玉豆免费节点)\r_2"
+      - "美国(yudou66.com 玉豆免费节点)\r_51"
+      - "美国(yudou66.com 玉豆免费节点)\r_52"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_53"
+      - 法国(yudou66.com 玉豆免费节点)_2
+      - "日本(yudou66.com 玉豆免费节点)\r_3"
+      - "美国(yudou66.com 玉豆免费节点)\r_54"
+      - 美国(yudou66.com 玉豆免费节点)_11
+      - "美国(yudou66.com 玉豆免费节点)\r_55"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_5"
+      - 美国(yudou66.com 玉豆免费节点)_12
+      - 香港(yudou66.com 玉豆免费节点)
+      - 美国(yudou66.com 玉豆免费节点)_13
+      - 美国(yudou66.com 玉豆免费节点)_14
+      - "美国(yudou66.com 玉豆免费节点)\r_56"
+      - "英国(yudou66.com 玉豆免费节点)\r_1"
+      - 美国(yudou66.com 玉豆免费节点)_15
+      - 美国(yudou66.com 玉豆免费节点)_16
+      - "新加坡(yudou66.com 玉豆免费节点)\r_6"
+      - 美国(yudou66.com 玉豆免费节点)_17
+      - "日本(yudou66.com 玉豆免费节点)\r_4"
+      - 美国(yudou66.com 玉豆免费节点)_18
+      - 美国(yudou66.com 玉豆免费节点)_19
+      - 美国(yudou66.com 玉豆免费节点)_20
+      - "美国(yudou66.com 玉豆免费节点)\r_57"
+      - 美国(yudou66.com 玉豆免费节点)_21
+      - 美国(yudou66.com 玉豆免费节点)_22
+      - 美国(yudou66.com 玉豆免费节点)_23
+      - 美国(yudou66.com 玉豆免费节点)_24
+      - 美国(yudou66.com 玉豆免费节点)_25
+      - 美国(yudou66.com 玉豆免费节点)_26
+      - 美国(yudou66.com 玉豆免费节点)_27
+      - 美国(yudou66.com 玉豆免费节点)_28
+      - 美国(yudou66.com 玉豆免费节点)_29
+      - 美国(yudou66.com 玉豆免费节点)_30
+      - 美国(yudou66.com 玉豆免费节点)_31
+      - 美国(yudou66.com 玉豆免费节点)_32
+      - 美国(yudou66.com 玉豆免费节点)_33
+      - 美国(yudou66.com 玉豆免费节点)_34
+      - "美国(yudou66.com 玉豆免费节点)\r_58"
+      - 美国(yudou66.com 玉豆免费节点)_35
+      - 美国(yudou66.com 玉豆免费节点)_36
+      - 美国(yudou66.com 玉豆免费节点)_37
+      - "美国(yudou66.com 玉豆免费节点)\r_59"
+      - 美国(yudou66.com 玉豆免费节点)_38
+      - 美国(yudou66.com 玉豆免费节点)_39
+      - 美国(yudou66.com 玉豆免费节点)_40
+      - 美国(yudou66.com 玉豆免费节点)_41
+      - 美国(yudou66.com 玉豆免费节点)_42
+      - "法国(yudou66.com 玉豆免费节点)\r_4"
+      - "美国(yudou66.com 玉豆免费节点)\r_60"
+      - "美国(yudou66.com 玉豆免费节点)\r_61"
+      - "美国(yudou66.com 玉豆免费节点)\r_62"
+      - 法国(yudou66.com 玉豆免费节点)_3
+      - "美国(yudou66.com 玉豆免费节点)\r_63"
+      - 美国(yudou66.com 玉豆免费节点)_43
+      - "美国(yudou66.com 玉豆免费节点)\r_64"
+      - "美国(yudou66.com 玉豆免费节点)\r_65"
+      - 美国(yudou66.com 玉豆免费节点)_44
+      - 美国(yudou66.com 玉豆免费节点)_45
+      - "日本(yudou66.com 玉豆免费节点)\r_5"
+      - "美国(yudou66.com 玉豆免费节点)\r_66"
+      - 美国(yudou66.com 玉豆免费节点)_46
+      - 美国(yudou66.com 玉豆免费节点)_47
+      - 美国(yudou66.com 玉豆免费节点)_48
+      - 美国(yudou66.com 玉豆免费节点)_49
+      - 美国(yudou66.com 玉豆免费节点)_50
+      - 美国(yudou66.com 玉豆免费节点)_51
+      - "美国(yudou66.com 玉豆免费节点)\r_67"
+      - 美国(yudou66.com 玉豆免费节点)_52
+      - 美国(yudou66.com 玉豆免费节点)_53
+      - 法国(yudou66.com 玉豆免费节点)_4
+      - "英国(yudou66.com 玉豆免费节点)\r_2"
+      - 美国(yudou66.com 玉豆免费节点)_54
+      - "美国(yudou66.com 玉豆免费节点)\r_68"
+      - "美国(yudou66.com 玉豆免费节点)\r_69"
+      - 美国(yudou66.com 玉豆免费节点)_55
+      - 美国(yudou66.com 玉豆免费节点)_56
+      - 美国(yudou66.com 玉豆免费节点)_57
+      - "美国(yudou66.com 玉豆免费节点)\r_70"
+      - 美国(yudou66.com 玉豆免费节点)_58
+      - 美国(yudou66.com 玉豆免费节点)_59
+      - 美国(yudou66.com 玉豆免费节点)_60
+      - "新加坡(yudou66.com 玉豆免费节点)\r_7"
+      - 美国(yudou66.com 玉豆免费节点)_61
+      - "美国(yudou66.com 玉豆免费节点)\r_71"
+      - "美国(yudou66.com 玉豆免费节点)\r_72"
+      - 美国(yudou66.com 玉豆免费节点)_62
+      - "美国(yudou66.com 玉豆免费节点)\r_73"
+      - "美国(yudou66.com 玉豆免费节点)\r_74"
+      - 美国(yudou66.com 玉豆免费节点)_63
+      - 美国(yudou66.com 玉豆免费节点)_64
+      - "美国(yudou66.com 玉豆免费节点)\r_75"
+      - "美国(yudou66.com 玉豆免费节点)\r_76"
+      - "美国(yudou66.com 玉豆免费节点)\r_77"
+      - "美国(yudou66.com 玉豆免费节点)\r_78"
+      - 美国(yudou66.com 玉豆免费节点)_65
+      - "美国(yudou66.com 玉豆免费节点)\r_79"
+      - "美国(yudou66.com 玉豆免费节点)\r_80"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_8"
+      - "新加坡(yudou66.com 玉豆免费节点)\r_9"
+      - 法国(yudou66.com 玉豆免费节点)_5
+      - 美国(yudou66.com 玉豆免费节点)_66
 
 rules:
 # 本地/局域网地址
