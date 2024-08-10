@@ -78,165 +78,676 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"US_(Youtube频道：工具大师！)_239","type":"vmess","server":"104.19.47.79","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_219","type":"vmess","server":"104.19.47.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_211","type":"vmess","server":"104.19.47.80","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_210","type":"vmess","server":"104.19.32.216","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_206","type":"vmess","server":"104.19.47.27","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_150","type":"vmess","server":"104.19.45.13","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_192","type":"vmess","server":"104.19.46.33","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_204","type":"vmess","server":"104.19.45.35","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_203","type":"vmess","server":"104.19.51.232","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip006.freegradely.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_140","type":"vmess","server":"104.16.148.244","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip006.freegradely.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_195","type":"vmess","server":"104.19.32.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip5-4.freegradely.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_143","type":"vmess","server":"104.19.38.62","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip005.dtku47.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_220","type":"vmess","server":"104.17.106.151","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_149","type":"vmess","server":"104.19.47.65","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_199","type":"vmess","server":"104.19.59.89","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_197","type":"vmess","server":"104.19.57.4","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
-  - {"name":"US_(Youtube频道：工具大师！)_146","type":"vmess","server":"104.19.46.27","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"GB_(Youtube频道：工具大师！)\r","type":"vless","server":"194.36.55.28","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇯🇵 8月7日(Youtube频道：工具大师！)_54","type":"vmess","server":"104.19.45.47","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"(自用机场ikuajing.cc)","type":"vmess","server":"104.26.0.56","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"(自用机场ikuajing.cc) 2","type":"vmess","server":"104.19.59.99","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)","type":"vmess","server":"172.64.166.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！) 2","type":"vmess","server":"172.64.233.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_188","type":"vmess","server":"104.18.57.111","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_162","type":"vmess","server":"104.19.47.122","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_37","type":"vmess","server":"104.19.59.89","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！) 3","type":"vmess","server":"172.64.233.7","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_123","type":"vmess","server":"104.19.42.79","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_21","type":"vmess","server":"104.19.46.33","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_46","type":"vmess","server":"104.19.58.175","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_121","type":"vmess","server":"104.19.38.62","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_91","type":"vmess","server":"sg1.1vpn.sbs","port":443,"cipher":"auto","uuid":"46dde0d2-efb1-464b-acfc-8ae4e06adb5b","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/oihuih6788"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_124","type":"vmess","server":"104.26.7.152","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_16","type":"vmess","server":"172.67.71.187","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_29","type":"vmess","server":"104.26.7.132","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_40","type":"vmess","server":"172.64.233.27","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_45","type":"vmess","server":"104.19.45.90","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_61","type":"vmess","server":"104.19.45.35","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_9","type":"vmess","server":"104.26.0.56","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_1","type":"vmess","server":"104.26.8.156","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_6","type":"vmess","server":"104.26.5.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_22","type":"vmess","server":"172.64.233.35","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_52","type":"vmess","server":"104.19.47.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_69","type":"vmess","server":"172.64.233.9","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_154","type":"vmess","server":"172.64.233.27","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_183","type":"vmess","server":"172.64.233.43","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_49","type":"vmess","server":"104.19.46.33","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_34","type":"vmess","server":"172.64.233.7","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_133","type":"vmess","server":"104.26.0.56","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！) 4","type":"vmess","server":"172.64.233.32","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_136","type":"vmess","server":"172.67.74.122","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_144","type":"vmess","server":"104.19.32.46","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！) 5","type":"vmess","server":"104.19.21.230","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_145","type":"vmess","server":"104.20.25.176","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_87","type":"vmess","server":"104.26.7.132","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_158","type":"vmess","server":"104.19.51.232","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！) 6","type":"vmess","server":"172.64.233.24","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_108","type":"vmess","server":"104.26.5.90","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_25","type":"vmess","server":"104.26.5.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_114","type":"vmess","server":"104.26.7.152","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_100","type":"vmess","server":"104.19.51.232","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_17","type":"vmess","server":"104.26.0.56","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_55","type":"vmess","server":"104.19.47.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_14","type":"vmess","server":"104.26.7.132","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_161","type":"vmess","server":"104.19.51.232","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_44","type":"vmess","server":"172.64.233.9","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_85","type":"vmess","server":"104.19.38.62","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_68","type":"vmess","server":"104.19.47.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_60","type":"vmess","server":"104.19.46.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_5","type":"vmess","server":"104.26.5.112","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_139","type":"vmess","server":"104.26.7.152","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_156","type":"vmess","server":"104.19.45.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_78","type":"vmess","server":"104.26.5.113","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_120","type":"vmess","server":"104.19.32.216","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_97","type":"vmess","server":"172.67.74.122","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_143","type":"vmess","server":"104.19.123.31","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_117","type":"vmess","server":"104.19.38.18","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_96","type":"vmess","server":"104.19.32.46","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_125","type":"vmess","server":"104.19.38.18","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_138","type":"vmess","server":"104.26.0.56","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_24","type":"vmess","server":"104.19.47.27","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_152","type":"vmess","server":"172.64.233.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_50","type":"vmess","server":"172.64.233.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！) 7","type":"vmess","server":"104.26.0.50","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_8","type":"vmess","server":"104.26.5.103","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_36","type":"vmess","server":"104.19.47.65","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_18","type":"vmess","server":"104.18.57.111","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_13","type":"vmess","server":"104.26.5.123","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_48","type":"vmess","server":"104.19.47.77","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_23","type":"vmess","server":"104.26.5.145","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_35","type":"vmess","server":"russia.com","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_150","type":"vmess","server":"104.26.0.66","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_99","type":"vmess","server":"104.19.51.232","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_38","type":"vmess","server":"104.19.58.175","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_59","type":"vmess","server":"104.19.46.27","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_105","type":"vmess","server":"104.19.51.232","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_109","type":"vmess","server":"104.19.38.62","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_157","type":"vmess","server":"104.19.38.62","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_51","type":"vmess","server":"104.19.45.42","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_93","type":"vmess","server":"104.26.5.112","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_16 2","type":"vmess","server":"malaysia.com","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_10","type":"vmess","server":"104.26.0.50","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_12","type":"vmess","server":"23.227.38.3","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_126","type":"vmess","server":"104.26.7.132","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_113","type":"vmess","server":"104.19.51.232","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_10 2","type":"vmess","server":"104.26.7.132","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_93 2","type":"vmess","server":"104.19.46.123","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_53","type":"vmess","server":"104.19.47.36","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
+  - {"name":"🇺🇲 US_(Youtube频道：工具大师！)_151","type":"vmess","server":"104.26.7.132","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_(Youtube频道：工具大师！)_239
-      - US_(Youtube频道：工具大师！)_219
-      - US_(Youtube频道：工具大师！)_211
-      - US_(Youtube频道：工具大师！)_210
-      - US_(Youtube频道：工具大师！)_206
-      - US_(Youtube频道：工具大师！)_150
-      - US_(Youtube频道：工具大师！)_192
-      - US_(Youtube频道：工具大师！)_204
-      - US_(Youtube频道：工具大师！)_203
-      - US_(Youtube频道：工具大师！)_140
-      - US_(Youtube频道：工具大师！)_195
-      - US_(Youtube频道：工具大师！)_143
-      - US_(Youtube频道：工具大师！)_220
-      - US_(Youtube频道：工具大师！)_149
-      - US_(Youtube频道：工具大师！)_199
-      - US_(Youtube频道：工具大师！)_197
-      - US_(Youtube频道：工具大师！)_146
-      - "GB_(Youtube频道：工具大师！)\r"
+      - 🇯🇵 8月7日(Youtube频道：工具大师！)_54
+      - (自用机场ikuajing.cc)
+      - (自用机场ikuajing.cc) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)
+      - 🇺🇲 US_(Youtube频道：工具大师！) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_188
+      - 🇺🇲 US_(Youtube频道：工具大师！)_162
+      - 🇺🇲 US_(Youtube频道：工具大师！)_37
+      - 🇺🇲 US_(Youtube频道：工具大师！) 3
+      - 🇺🇲 US_(Youtube频道：工具大师！)_123
+      - 🇺🇲 US_(Youtube频道：工具大师！)_21
+      - 🇺🇲 US_(Youtube频道：工具大师！)_46
+      - 🇺🇲 US_(Youtube频道：工具大师！)_121
+      - 🇺🇲 US_(Youtube频道：工具大师！)_91
+      - 🇺🇲 US_(Youtube频道：工具大师！)_124
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16
+      - 🇺🇲 US_(Youtube频道：工具大师！)_29
+      - 🇺🇲 US_(Youtube频道：工具大师！)_40
+      - 🇺🇲 US_(Youtube频道：工具大师！)_45
+      - 🇺🇲 US_(Youtube频道：工具大师！)_61
+      - 🇺🇲 US_(Youtube频道：工具大师！)_9
+      - 🇺🇲 US_(Youtube频道：工具大师！)_1
+      - 🇺🇲 US_(Youtube频道：工具大师！)_6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_22
+      - 🇺🇲 US_(Youtube频道：工具大师！)_52
+      - 🇺🇲 US_(Youtube频道：工具大师！)_69
+      - 🇺🇲 US_(Youtube频道：工具大师！)_154
+      - 🇺🇲 US_(Youtube频道：工具大师！)_183
+      - 🇺🇲 US_(Youtube频道：工具大师！)_49
+      - 🇺🇲 US_(Youtube频道：工具大师！)_34
+      - 🇺🇲 US_(Youtube频道：工具大师！)_133
+      - 🇺🇲 US_(Youtube频道：工具大师！) 4
+      - 🇺🇲 US_(Youtube频道：工具大师！)_136
+      - 🇺🇲 US_(Youtube频道：工具大师！)_144
+      - 🇺🇲 US_(Youtube频道：工具大师！) 5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_145
+      - 🇺🇲 US_(Youtube频道：工具大师！)_87
+      - 🇺🇲 US_(Youtube频道：工具大师！)_158
+      - 🇺🇲 US_(Youtube频道：工具大师！) 6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_108
+      - 🇺🇲 US_(Youtube频道：工具大师！)_25
+      - 🇺🇲 US_(Youtube频道：工具大师！)_114
+      - 🇺🇲 US_(Youtube频道：工具大师！)_100
+      - 🇺🇲 US_(Youtube频道：工具大师！)_17
+      - 🇺🇲 US_(Youtube频道：工具大师！)_55
+      - 🇺🇲 US_(Youtube频道：工具大师！)_14
+      - 🇺🇲 US_(Youtube频道：工具大师！)_161
+      - 🇺🇲 US_(Youtube频道：工具大师！)_44
+      - 🇺🇲 US_(Youtube频道：工具大师！)_85
+      - 🇺🇲 US_(Youtube频道：工具大师！)_68
+      - 🇺🇲 US_(Youtube频道：工具大师！)_60
+      - 🇺🇲 US_(Youtube频道：工具大师！)_5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_139
+      - 🇺🇲 US_(Youtube频道：工具大师！)_156
+      - 🇺🇲 US_(Youtube频道：工具大师！)_78
+      - 🇺🇲 US_(Youtube频道：工具大师！)_120
+      - 🇺🇲 US_(Youtube频道：工具大师！)_97
+      - 🇺🇲 US_(Youtube频道：工具大师！)_143
+      - 🇺🇲 US_(Youtube频道：工具大师！)_117
+      - 🇺🇲 US_(Youtube频道：工具大师！)_96
+      - 🇺🇲 US_(Youtube频道：工具大师！)_125
+      - 🇺🇲 US_(Youtube频道：工具大师！)_138
+      - 🇺🇲 US_(Youtube频道：工具大师！)_24
+      - 🇺🇲 US_(Youtube频道：工具大师！)_152
+      - 🇺🇲 US_(Youtube频道：工具大师！)_50
+      - 🇺🇲 US_(Youtube频道：工具大师！) 7
+      - 🇺🇲 US_(Youtube频道：工具大师！)_8
+      - 🇺🇲 US_(Youtube频道：工具大师！)_36
+      - 🇺🇲 US_(Youtube频道：工具大师！)_18
+      - 🇺🇲 US_(Youtube频道：工具大师！)_13
+      - 🇺🇲 US_(Youtube频道：工具大师！)_48
+      - 🇺🇲 US_(Youtube频道：工具大师！)_23
+      - 🇺🇲 US_(Youtube频道：工具大师！)_35
+      - 🇺🇲 US_(Youtube频道：工具大师！)_150
+      - 🇺🇲 US_(Youtube频道：工具大师！)_99
+      - 🇺🇲 US_(Youtube频道：工具大师！)_38
+      - 🇺🇲 US_(Youtube频道：工具大师！)_59
+      - 🇺🇲 US_(Youtube频道：工具大师！)_105
+      - 🇺🇲 US_(Youtube频道：工具大师！)_109
+      - 🇺🇲 US_(Youtube频道：工具大师！)_157
+      - 🇺🇲 US_(Youtube频道：工具大师！)_51
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10
+      - 🇺🇲 US_(Youtube频道：工具大师！)_12
+      - 🇺🇲 US_(Youtube频道：工具大师！)_126
+      - 🇺🇲 US_(Youtube频道：工具大师！)_113
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_53
+      - 🇺🇲 US_(Youtube频道：工具大师！)_151
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_(Youtube频道：工具大师！)_239
-      - US_(Youtube频道：工具大师！)_219
-      - US_(Youtube频道：工具大师！)_211
-      - US_(Youtube频道：工具大师！)_210
-      - US_(Youtube频道：工具大师！)_206
-      - US_(Youtube频道：工具大师！)_150
-      - US_(Youtube频道：工具大师！)_192
-      - US_(Youtube频道：工具大师！)_204
-      - US_(Youtube频道：工具大师！)_203
-      - US_(Youtube频道：工具大师！)_140
-      - US_(Youtube频道：工具大师！)_195
-      - US_(Youtube频道：工具大师！)_143
-      - US_(Youtube频道：工具大师！)_220
-      - US_(Youtube频道：工具大师！)_149
-      - US_(Youtube频道：工具大师！)_199
-      - US_(Youtube频道：工具大师！)_197
-      - US_(Youtube频道：工具大师！)_146
-      - "GB_(Youtube频道：工具大师！)\r"
+      - 🇯🇵 8月7日(Youtube频道：工具大师！)_54
+      - (自用机场ikuajing.cc)
+      - (自用机场ikuajing.cc) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)
+      - 🇺🇲 US_(Youtube频道：工具大师！) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_188
+      - 🇺🇲 US_(Youtube频道：工具大师！)_162
+      - 🇺🇲 US_(Youtube频道：工具大师！)_37
+      - 🇺🇲 US_(Youtube频道：工具大师！) 3
+      - 🇺🇲 US_(Youtube频道：工具大师！)_123
+      - 🇺🇲 US_(Youtube频道：工具大师！)_21
+      - 🇺🇲 US_(Youtube频道：工具大师！)_46
+      - 🇺🇲 US_(Youtube频道：工具大师！)_121
+      - 🇺🇲 US_(Youtube频道：工具大师！)_91
+      - 🇺🇲 US_(Youtube频道：工具大师！)_124
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16
+      - 🇺🇲 US_(Youtube频道：工具大师！)_29
+      - 🇺🇲 US_(Youtube频道：工具大师！)_40
+      - 🇺🇲 US_(Youtube频道：工具大师！)_45
+      - 🇺🇲 US_(Youtube频道：工具大师！)_61
+      - 🇺🇲 US_(Youtube频道：工具大师！)_9
+      - 🇺🇲 US_(Youtube频道：工具大师！)_1
+      - 🇺🇲 US_(Youtube频道：工具大师！)_6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_22
+      - 🇺🇲 US_(Youtube频道：工具大师！)_52
+      - 🇺🇲 US_(Youtube频道：工具大师！)_69
+      - 🇺🇲 US_(Youtube频道：工具大师！)_154
+      - 🇺🇲 US_(Youtube频道：工具大师！)_183
+      - 🇺🇲 US_(Youtube频道：工具大师！)_49
+      - 🇺🇲 US_(Youtube频道：工具大师！)_34
+      - 🇺🇲 US_(Youtube频道：工具大师！)_133
+      - 🇺🇲 US_(Youtube频道：工具大师！) 4
+      - 🇺🇲 US_(Youtube频道：工具大师！)_136
+      - 🇺🇲 US_(Youtube频道：工具大师！)_144
+      - 🇺🇲 US_(Youtube频道：工具大师！) 5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_145
+      - 🇺🇲 US_(Youtube频道：工具大师！)_87
+      - 🇺🇲 US_(Youtube频道：工具大师！)_158
+      - 🇺🇲 US_(Youtube频道：工具大师！) 6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_108
+      - 🇺🇲 US_(Youtube频道：工具大师！)_25
+      - 🇺🇲 US_(Youtube频道：工具大师！)_114
+      - 🇺🇲 US_(Youtube频道：工具大师！)_100
+      - 🇺🇲 US_(Youtube频道：工具大师！)_17
+      - 🇺🇲 US_(Youtube频道：工具大师！)_55
+      - 🇺🇲 US_(Youtube频道：工具大师！)_14
+      - 🇺🇲 US_(Youtube频道：工具大师！)_161
+      - 🇺🇲 US_(Youtube频道：工具大师！)_44
+      - 🇺🇲 US_(Youtube频道：工具大师！)_85
+      - 🇺🇲 US_(Youtube频道：工具大师！)_68
+      - 🇺🇲 US_(Youtube频道：工具大师！)_60
+      - 🇺🇲 US_(Youtube频道：工具大师！)_5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_139
+      - 🇺🇲 US_(Youtube频道：工具大师！)_156
+      - 🇺🇲 US_(Youtube频道：工具大师！)_78
+      - 🇺🇲 US_(Youtube频道：工具大师！)_120
+      - 🇺🇲 US_(Youtube频道：工具大师！)_97
+      - 🇺🇲 US_(Youtube频道：工具大师！)_143
+      - 🇺🇲 US_(Youtube频道：工具大师！)_117
+      - 🇺🇲 US_(Youtube频道：工具大师！)_96
+      - 🇺🇲 US_(Youtube频道：工具大师！)_125
+      - 🇺🇲 US_(Youtube频道：工具大师！)_138
+      - 🇺🇲 US_(Youtube频道：工具大师！)_24
+      - 🇺🇲 US_(Youtube频道：工具大师！)_152
+      - 🇺🇲 US_(Youtube频道：工具大师！)_50
+      - 🇺🇲 US_(Youtube频道：工具大师！) 7
+      - 🇺🇲 US_(Youtube频道：工具大师！)_8
+      - 🇺🇲 US_(Youtube频道：工具大师！)_36
+      - 🇺🇲 US_(Youtube频道：工具大师！)_18
+      - 🇺🇲 US_(Youtube频道：工具大师！)_13
+      - 🇺🇲 US_(Youtube频道：工具大师！)_48
+      - 🇺🇲 US_(Youtube频道：工具大师！)_23
+      - 🇺🇲 US_(Youtube频道：工具大师！)_35
+      - 🇺🇲 US_(Youtube频道：工具大师！)_150
+      - 🇺🇲 US_(Youtube频道：工具大师！)_99
+      - 🇺🇲 US_(Youtube频道：工具大师！)_38
+      - 🇺🇲 US_(Youtube频道：工具大师！)_59
+      - 🇺🇲 US_(Youtube频道：工具大师！)_105
+      - 🇺🇲 US_(Youtube频道：工具大师！)_109
+      - 🇺🇲 US_(Youtube频道：工具大师！)_157
+      - 🇺🇲 US_(Youtube频道：工具大师！)_51
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10
+      - 🇺🇲 US_(Youtube频道：工具大师！)_12
+      - 🇺🇲 US_(Youtube频道：工具大师！)_126
+      - 🇺🇲 US_(Youtube频道：工具大师！)_113
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_53
+      - 🇺🇲 US_(Youtube频道：工具大师！)_151
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_(Youtube频道：工具大师！)_239
-      - US_(Youtube频道：工具大师！)_219
-      - US_(Youtube频道：工具大师！)_211
-      - US_(Youtube频道：工具大师！)_210
-      - US_(Youtube频道：工具大师！)_206
-      - US_(Youtube频道：工具大师！)_150
-      - US_(Youtube频道：工具大师！)_192
-      - US_(Youtube频道：工具大师！)_204
-      - US_(Youtube频道：工具大师！)_203
-      - US_(Youtube频道：工具大师！)_140
-      - US_(Youtube频道：工具大师！)_195
-      - US_(Youtube频道：工具大师！)_143
-      - US_(Youtube频道：工具大师！)_220
-      - US_(Youtube频道：工具大师！)_149
-      - US_(Youtube频道：工具大师！)_199
-      - US_(Youtube频道：工具大师！)_197
-      - US_(Youtube频道：工具大师！)_146
-      - "GB_(Youtube频道：工具大师！)\r"
+      - 🇯🇵 8月7日(Youtube频道：工具大师！)_54
+      - (自用机场ikuajing.cc)
+      - (自用机场ikuajing.cc) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)
+      - 🇺🇲 US_(Youtube频道：工具大师！) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_188
+      - 🇺🇲 US_(Youtube频道：工具大师！)_162
+      - 🇺🇲 US_(Youtube频道：工具大师！)_37
+      - 🇺🇲 US_(Youtube频道：工具大师！) 3
+      - 🇺🇲 US_(Youtube频道：工具大师！)_123
+      - 🇺🇲 US_(Youtube频道：工具大师！)_21
+      - 🇺🇲 US_(Youtube频道：工具大师！)_46
+      - 🇺🇲 US_(Youtube频道：工具大师！)_121
+      - 🇺🇲 US_(Youtube频道：工具大师！)_91
+      - 🇺🇲 US_(Youtube频道：工具大师！)_124
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16
+      - 🇺🇲 US_(Youtube频道：工具大师！)_29
+      - 🇺🇲 US_(Youtube频道：工具大师！)_40
+      - 🇺🇲 US_(Youtube频道：工具大师！)_45
+      - 🇺🇲 US_(Youtube频道：工具大师！)_61
+      - 🇺🇲 US_(Youtube频道：工具大师！)_9
+      - 🇺🇲 US_(Youtube频道：工具大师！)_1
+      - 🇺🇲 US_(Youtube频道：工具大师！)_6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_22
+      - 🇺🇲 US_(Youtube频道：工具大师！)_52
+      - 🇺🇲 US_(Youtube频道：工具大师！)_69
+      - 🇺🇲 US_(Youtube频道：工具大师！)_154
+      - 🇺🇲 US_(Youtube频道：工具大师！)_183
+      - 🇺🇲 US_(Youtube频道：工具大师！)_49
+      - 🇺🇲 US_(Youtube频道：工具大师！)_34
+      - 🇺🇲 US_(Youtube频道：工具大师！)_133
+      - 🇺🇲 US_(Youtube频道：工具大师！) 4
+      - 🇺🇲 US_(Youtube频道：工具大师！)_136
+      - 🇺🇲 US_(Youtube频道：工具大师！)_144
+      - 🇺🇲 US_(Youtube频道：工具大师！) 5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_145
+      - 🇺🇲 US_(Youtube频道：工具大师！)_87
+      - 🇺🇲 US_(Youtube频道：工具大师！)_158
+      - 🇺🇲 US_(Youtube频道：工具大师！) 6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_108
+      - 🇺🇲 US_(Youtube频道：工具大师！)_25
+      - 🇺🇲 US_(Youtube频道：工具大师！)_114
+      - 🇺🇲 US_(Youtube频道：工具大师！)_100
+      - 🇺🇲 US_(Youtube频道：工具大师！)_17
+      - 🇺🇲 US_(Youtube频道：工具大师！)_55
+      - 🇺🇲 US_(Youtube频道：工具大师！)_14
+      - 🇺🇲 US_(Youtube频道：工具大师！)_161
+      - 🇺🇲 US_(Youtube频道：工具大师！)_44
+      - 🇺🇲 US_(Youtube频道：工具大师！)_85
+      - 🇺🇲 US_(Youtube频道：工具大师！)_68
+      - 🇺🇲 US_(Youtube频道：工具大师！)_60
+      - 🇺🇲 US_(Youtube频道：工具大师！)_5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_139
+      - 🇺🇲 US_(Youtube频道：工具大师！)_156
+      - 🇺🇲 US_(Youtube频道：工具大师！)_78
+      - 🇺🇲 US_(Youtube频道：工具大师！)_120
+      - 🇺🇲 US_(Youtube频道：工具大师！)_97
+      - 🇺🇲 US_(Youtube频道：工具大师！)_143
+      - 🇺🇲 US_(Youtube频道：工具大师！)_117
+      - 🇺🇲 US_(Youtube频道：工具大师！)_96
+      - 🇺🇲 US_(Youtube频道：工具大师！)_125
+      - 🇺🇲 US_(Youtube频道：工具大师！)_138
+      - 🇺🇲 US_(Youtube频道：工具大师！)_24
+      - 🇺🇲 US_(Youtube频道：工具大师！)_152
+      - 🇺🇲 US_(Youtube频道：工具大师！)_50
+      - 🇺🇲 US_(Youtube频道：工具大师！) 7
+      - 🇺🇲 US_(Youtube频道：工具大师！)_8
+      - 🇺🇲 US_(Youtube频道：工具大师！)_36
+      - 🇺🇲 US_(Youtube频道：工具大师！)_18
+      - 🇺🇲 US_(Youtube频道：工具大师！)_13
+      - 🇺🇲 US_(Youtube频道：工具大师！)_48
+      - 🇺🇲 US_(Youtube频道：工具大师！)_23
+      - 🇺🇲 US_(Youtube频道：工具大师！)_35
+      - 🇺🇲 US_(Youtube频道：工具大师！)_150
+      - 🇺🇲 US_(Youtube频道：工具大师！)_99
+      - 🇺🇲 US_(Youtube频道：工具大师！)_38
+      - 🇺🇲 US_(Youtube频道：工具大师！)_59
+      - 🇺🇲 US_(Youtube频道：工具大师！)_105
+      - 🇺🇲 US_(Youtube频道：工具大师！)_109
+      - 🇺🇲 US_(Youtube频道：工具大师！)_157
+      - 🇺🇲 US_(Youtube频道：工具大师！)_51
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10
+      - 🇺🇲 US_(Youtube频道：工具大师！)_12
+      - 🇺🇲 US_(Youtube频道：工具大师！)_126
+      - 🇺🇲 US_(Youtube频道：工具大师！)_113
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_53
+      - 🇺🇲 US_(Youtube频道：工具大师！)_151
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_(Youtube频道：工具大师！)_239
-      - US_(Youtube频道：工具大师！)_219
-      - US_(Youtube频道：工具大师！)_211
-      - US_(Youtube频道：工具大师！)_210
-      - US_(Youtube频道：工具大师！)_206
-      - US_(Youtube频道：工具大师！)_150
-      - US_(Youtube频道：工具大师！)_192
-      - US_(Youtube频道：工具大师！)_204
-      - US_(Youtube频道：工具大师！)_203
-      - US_(Youtube频道：工具大师！)_140
-      - US_(Youtube频道：工具大师！)_195
-      - US_(Youtube频道：工具大师！)_143
-      - US_(Youtube频道：工具大师！)_220
-      - US_(Youtube频道：工具大师！)_149
-      - US_(Youtube频道：工具大师！)_199
-      - US_(Youtube频道：工具大师！)_197
-      - US_(Youtube频道：工具大师！)_146
-      - "GB_(Youtube频道：工具大师！)\r"
+      - 🇯🇵 8月7日(Youtube频道：工具大师！)_54
+      - (自用机场ikuajing.cc)
+      - (自用机场ikuajing.cc) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)
+      - 🇺🇲 US_(Youtube频道：工具大师！) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_188
+      - 🇺🇲 US_(Youtube频道：工具大师！)_162
+      - 🇺🇲 US_(Youtube频道：工具大师！)_37
+      - 🇺🇲 US_(Youtube频道：工具大师！) 3
+      - 🇺🇲 US_(Youtube频道：工具大师！)_123
+      - 🇺🇲 US_(Youtube频道：工具大师！)_21
+      - 🇺🇲 US_(Youtube频道：工具大师！)_46
+      - 🇺🇲 US_(Youtube频道：工具大师！)_121
+      - 🇺🇲 US_(Youtube频道：工具大师！)_91
+      - 🇺🇲 US_(Youtube频道：工具大师！)_124
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16
+      - 🇺🇲 US_(Youtube频道：工具大师！)_29
+      - 🇺🇲 US_(Youtube频道：工具大师！)_40
+      - 🇺🇲 US_(Youtube频道：工具大师！)_45
+      - 🇺🇲 US_(Youtube频道：工具大师！)_61
+      - 🇺🇲 US_(Youtube频道：工具大师！)_9
+      - 🇺🇲 US_(Youtube频道：工具大师！)_1
+      - 🇺🇲 US_(Youtube频道：工具大师！)_6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_22
+      - 🇺🇲 US_(Youtube频道：工具大师！)_52
+      - 🇺🇲 US_(Youtube频道：工具大师！)_69
+      - 🇺🇲 US_(Youtube频道：工具大师！)_154
+      - 🇺🇲 US_(Youtube频道：工具大师！)_183
+      - 🇺🇲 US_(Youtube频道：工具大师！)_49
+      - 🇺🇲 US_(Youtube频道：工具大师！)_34
+      - 🇺🇲 US_(Youtube频道：工具大师！)_133
+      - 🇺🇲 US_(Youtube频道：工具大师！) 4
+      - 🇺🇲 US_(Youtube频道：工具大师！)_136
+      - 🇺🇲 US_(Youtube频道：工具大师！)_144
+      - 🇺🇲 US_(Youtube频道：工具大师！) 5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_145
+      - 🇺🇲 US_(Youtube频道：工具大师！)_87
+      - 🇺🇲 US_(Youtube频道：工具大师！)_158
+      - 🇺🇲 US_(Youtube频道：工具大师！) 6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_108
+      - 🇺🇲 US_(Youtube频道：工具大师！)_25
+      - 🇺🇲 US_(Youtube频道：工具大师！)_114
+      - 🇺🇲 US_(Youtube频道：工具大师！)_100
+      - 🇺🇲 US_(Youtube频道：工具大师！)_17
+      - 🇺🇲 US_(Youtube频道：工具大师！)_55
+      - 🇺🇲 US_(Youtube频道：工具大师！)_14
+      - 🇺🇲 US_(Youtube频道：工具大师！)_161
+      - 🇺🇲 US_(Youtube频道：工具大师！)_44
+      - 🇺🇲 US_(Youtube频道：工具大师！)_85
+      - 🇺🇲 US_(Youtube频道：工具大师！)_68
+      - 🇺🇲 US_(Youtube频道：工具大师！)_60
+      - 🇺🇲 US_(Youtube频道：工具大师！)_5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_139
+      - 🇺🇲 US_(Youtube频道：工具大师！)_156
+      - 🇺🇲 US_(Youtube频道：工具大师！)_78
+      - 🇺🇲 US_(Youtube频道：工具大师！)_120
+      - 🇺🇲 US_(Youtube频道：工具大师！)_97
+      - 🇺🇲 US_(Youtube频道：工具大师！)_143
+      - 🇺🇲 US_(Youtube频道：工具大师！)_117
+      - 🇺🇲 US_(Youtube频道：工具大师！)_96
+      - 🇺🇲 US_(Youtube频道：工具大师！)_125
+      - 🇺🇲 US_(Youtube频道：工具大师！)_138
+      - 🇺🇲 US_(Youtube频道：工具大师！)_24
+      - 🇺🇲 US_(Youtube频道：工具大师！)_152
+      - 🇺🇲 US_(Youtube频道：工具大师！)_50
+      - 🇺🇲 US_(Youtube频道：工具大师！) 7
+      - 🇺🇲 US_(Youtube频道：工具大师！)_8
+      - 🇺🇲 US_(Youtube频道：工具大师！)_36
+      - 🇺🇲 US_(Youtube频道：工具大师！)_18
+      - 🇺🇲 US_(Youtube频道：工具大师！)_13
+      - 🇺🇲 US_(Youtube频道：工具大师！)_48
+      - 🇺🇲 US_(Youtube频道：工具大师！)_23
+      - 🇺🇲 US_(Youtube频道：工具大师！)_35
+      - 🇺🇲 US_(Youtube频道：工具大师！)_150
+      - 🇺🇲 US_(Youtube频道：工具大师！)_99
+      - 🇺🇲 US_(Youtube频道：工具大师！)_38
+      - 🇺🇲 US_(Youtube频道：工具大师！)_59
+      - 🇺🇲 US_(Youtube频道：工具大师！)_105
+      - 🇺🇲 US_(Youtube频道：工具大师！)_109
+      - 🇺🇲 US_(Youtube频道：工具大师！)_157
+      - 🇺🇲 US_(Youtube频道：工具大师！)_51
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10
+      - 🇺🇲 US_(Youtube频道：工具大师！)_12
+      - 🇺🇲 US_(Youtube频道：工具大师！)_126
+      - 🇺🇲 US_(Youtube频道：工具大师！)_113
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_53
+      - 🇺🇲 US_(Youtube频道：工具大师！)_151
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_(Youtube频道：工具大师！)_239
-      - US_(Youtube频道：工具大师！)_219
-      - US_(Youtube频道：工具大师！)_211
-      - US_(Youtube频道：工具大师！)_210
-      - US_(Youtube频道：工具大师！)_206
-      - US_(Youtube频道：工具大师！)_150
-      - US_(Youtube频道：工具大师！)_192
-      - US_(Youtube频道：工具大师！)_204
-      - US_(Youtube频道：工具大师！)_203
-      - US_(Youtube频道：工具大师！)_140
-      - US_(Youtube频道：工具大师！)_195
-      - US_(Youtube频道：工具大师！)_143
-      - US_(Youtube频道：工具大师！)_220
-      - US_(Youtube频道：工具大师！)_149
-      - US_(Youtube频道：工具大师！)_199
-      - US_(Youtube频道：工具大师！)_197
-      - US_(Youtube频道：工具大师！)_146
-      - "GB_(Youtube频道：工具大师！)\r"
+      - 🇯🇵 8月7日(Youtube频道：工具大师！)_54
+      - (自用机场ikuajing.cc)
+      - (自用机场ikuajing.cc) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)
+      - 🇺🇲 US_(Youtube频道：工具大师！) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_188
+      - 🇺🇲 US_(Youtube频道：工具大师！)_162
+      - 🇺🇲 US_(Youtube频道：工具大师！)_37
+      - 🇺🇲 US_(Youtube频道：工具大师！) 3
+      - 🇺🇲 US_(Youtube频道：工具大师！)_123
+      - 🇺🇲 US_(Youtube频道：工具大师！)_21
+      - 🇺🇲 US_(Youtube频道：工具大师！)_46
+      - 🇺🇲 US_(Youtube频道：工具大师！)_121
+      - 🇺🇲 US_(Youtube频道：工具大师！)_91
+      - 🇺🇲 US_(Youtube频道：工具大师！)_124
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16
+      - 🇺🇲 US_(Youtube频道：工具大师！)_29
+      - 🇺🇲 US_(Youtube频道：工具大师！)_40
+      - 🇺🇲 US_(Youtube频道：工具大师！)_45
+      - 🇺🇲 US_(Youtube频道：工具大师！)_61
+      - 🇺🇲 US_(Youtube频道：工具大师！)_9
+      - 🇺🇲 US_(Youtube频道：工具大师！)_1
+      - 🇺🇲 US_(Youtube频道：工具大师！)_6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_22
+      - 🇺🇲 US_(Youtube频道：工具大师！)_52
+      - 🇺🇲 US_(Youtube频道：工具大师！)_69
+      - 🇺🇲 US_(Youtube频道：工具大师！)_154
+      - 🇺🇲 US_(Youtube频道：工具大师！)_183
+      - 🇺🇲 US_(Youtube频道：工具大师！)_49
+      - 🇺🇲 US_(Youtube频道：工具大师！)_34
+      - 🇺🇲 US_(Youtube频道：工具大师！)_133
+      - 🇺🇲 US_(Youtube频道：工具大师！) 4
+      - 🇺🇲 US_(Youtube频道：工具大师！)_136
+      - 🇺🇲 US_(Youtube频道：工具大师！)_144
+      - 🇺🇲 US_(Youtube频道：工具大师！) 5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_145
+      - 🇺🇲 US_(Youtube频道：工具大师！)_87
+      - 🇺🇲 US_(Youtube频道：工具大师！)_158
+      - 🇺🇲 US_(Youtube频道：工具大师！) 6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_108
+      - 🇺🇲 US_(Youtube频道：工具大师！)_25
+      - 🇺🇲 US_(Youtube频道：工具大师！)_114
+      - 🇺🇲 US_(Youtube频道：工具大师！)_100
+      - 🇺🇲 US_(Youtube频道：工具大师！)_17
+      - 🇺🇲 US_(Youtube频道：工具大师！)_55
+      - 🇺🇲 US_(Youtube频道：工具大师！)_14
+      - 🇺🇲 US_(Youtube频道：工具大师！)_161
+      - 🇺🇲 US_(Youtube频道：工具大师！)_44
+      - 🇺🇲 US_(Youtube频道：工具大师！)_85
+      - 🇺🇲 US_(Youtube频道：工具大师！)_68
+      - 🇺🇲 US_(Youtube频道：工具大师！)_60
+      - 🇺🇲 US_(Youtube频道：工具大师！)_5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_139
+      - 🇺🇲 US_(Youtube频道：工具大师！)_156
+      - 🇺🇲 US_(Youtube频道：工具大师！)_78
+      - 🇺🇲 US_(Youtube频道：工具大师！)_120
+      - 🇺🇲 US_(Youtube频道：工具大师！)_97
+      - 🇺🇲 US_(Youtube频道：工具大师！)_143
+      - 🇺🇲 US_(Youtube频道：工具大师！)_117
+      - 🇺🇲 US_(Youtube频道：工具大师！)_96
+      - 🇺🇲 US_(Youtube频道：工具大师！)_125
+      - 🇺🇲 US_(Youtube频道：工具大师！)_138
+      - 🇺🇲 US_(Youtube频道：工具大师！)_24
+      - 🇺🇲 US_(Youtube频道：工具大师！)_152
+      - 🇺🇲 US_(Youtube频道：工具大师！)_50
+      - 🇺🇲 US_(Youtube频道：工具大师！) 7
+      - 🇺🇲 US_(Youtube频道：工具大师！)_8
+      - 🇺🇲 US_(Youtube频道：工具大师！)_36
+      - 🇺🇲 US_(Youtube频道：工具大师！)_18
+      - 🇺🇲 US_(Youtube频道：工具大师！)_13
+      - 🇺🇲 US_(Youtube频道：工具大师！)_48
+      - 🇺🇲 US_(Youtube频道：工具大师！)_23
+      - 🇺🇲 US_(Youtube频道：工具大师！)_35
+      - 🇺🇲 US_(Youtube频道：工具大师！)_150
+      - 🇺🇲 US_(Youtube频道：工具大师！)_99
+      - 🇺🇲 US_(Youtube频道：工具大师！)_38
+      - 🇺🇲 US_(Youtube频道：工具大师！)_59
+      - 🇺🇲 US_(Youtube频道：工具大师！)_105
+      - 🇺🇲 US_(Youtube频道：工具大师！)_109
+      - 🇺🇲 US_(Youtube频道：工具大师！)_157
+      - 🇺🇲 US_(Youtube频道：工具大师！)_51
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10
+      - 🇺🇲 US_(Youtube频道：工具大师！)_12
+      - 🇺🇲 US_(Youtube频道：工具大师！)_126
+      - 🇺🇲 US_(Youtube频道：工具大师！)_113
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_53
+      - 🇺🇲 US_(Youtube频道：工具大师！)_151
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_(Youtube频道：工具大师！)_239
-      - US_(Youtube频道：工具大师！)_219
-      - US_(Youtube频道：工具大师！)_211
-      - US_(Youtube频道：工具大师！)_210
-      - US_(Youtube频道：工具大师！)_206
-      - US_(Youtube频道：工具大师！)_150
-      - US_(Youtube频道：工具大师！)_192
-      - US_(Youtube频道：工具大师！)_204
-      - US_(Youtube频道：工具大师！)_203
-      - US_(Youtube频道：工具大师！)_140
-      - US_(Youtube频道：工具大师！)_195
-      - US_(Youtube频道：工具大师！)_143
-      - US_(Youtube频道：工具大师！)_220
-      - US_(Youtube频道：工具大师！)_149
-      - US_(Youtube频道：工具大师！)_199
-      - US_(Youtube频道：工具大师！)_197
-      - US_(Youtube频道：工具大师！)_146
-      - "GB_(Youtube频道：工具大师！)\r"
+      - 🇯🇵 8月7日(Youtube频道：工具大师！)_54
+      - (自用机场ikuajing.cc)
+      - (自用机场ikuajing.cc) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)
+      - 🇺🇲 US_(Youtube频道：工具大师！) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_188
+      - 🇺🇲 US_(Youtube频道：工具大师！)_162
+      - 🇺🇲 US_(Youtube频道：工具大师！)_37
+      - 🇺🇲 US_(Youtube频道：工具大师！) 3
+      - 🇺🇲 US_(Youtube频道：工具大师！)_123
+      - 🇺🇲 US_(Youtube频道：工具大师！)_21
+      - 🇺🇲 US_(Youtube频道：工具大师！)_46
+      - 🇺🇲 US_(Youtube频道：工具大师！)_121
+      - 🇺🇲 US_(Youtube频道：工具大师！)_91
+      - 🇺🇲 US_(Youtube频道：工具大师！)_124
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16
+      - 🇺🇲 US_(Youtube频道：工具大师！)_29
+      - 🇺🇲 US_(Youtube频道：工具大师！)_40
+      - 🇺🇲 US_(Youtube频道：工具大师！)_45
+      - 🇺🇲 US_(Youtube频道：工具大师！)_61
+      - 🇺🇲 US_(Youtube频道：工具大师！)_9
+      - 🇺🇲 US_(Youtube频道：工具大师！)_1
+      - 🇺🇲 US_(Youtube频道：工具大师！)_6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_22
+      - 🇺🇲 US_(Youtube频道：工具大师！)_52
+      - 🇺🇲 US_(Youtube频道：工具大师！)_69
+      - 🇺🇲 US_(Youtube频道：工具大师！)_154
+      - 🇺🇲 US_(Youtube频道：工具大师！)_183
+      - 🇺🇲 US_(Youtube频道：工具大师！)_49
+      - 🇺🇲 US_(Youtube频道：工具大师！)_34
+      - 🇺🇲 US_(Youtube频道：工具大师！)_133
+      - 🇺🇲 US_(Youtube频道：工具大师！) 4
+      - 🇺🇲 US_(Youtube频道：工具大师！)_136
+      - 🇺🇲 US_(Youtube频道：工具大师！)_144
+      - 🇺🇲 US_(Youtube频道：工具大师！) 5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_145
+      - 🇺🇲 US_(Youtube频道：工具大师！)_87
+      - 🇺🇲 US_(Youtube频道：工具大师！)_158
+      - 🇺🇲 US_(Youtube频道：工具大师！) 6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_108
+      - 🇺🇲 US_(Youtube频道：工具大师！)_25
+      - 🇺🇲 US_(Youtube频道：工具大师！)_114
+      - 🇺🇲 US_(Youtube频道：工具大师！)_100
+      - 🇺🇲 US_(Youtube频道：工具大师！)_17
+      - 🇺🇲 US_(Youtube频道：工具大师！)_55
+      - 🇺🇲 US_(Youtube频道：工具大师！)_14
+      - 🇺🇲 US_(Youtube频道：工具大师！)_161
+      - 🇺🇲 US_(Youtube频道：工具大师！)_44
+      - 🇺🇲 US_(Youtube频道：工具大师！)_85
+      - 🇺🇲 US_(Youtube频道：工具大师！)_68
+      - 🇺🇲 US_(Youtube频道：工具大师！)_60
+      - 🇺🇲 US_(Youtube频道：工具大师！)_5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_139
+      - 🇺🇲 US_(Youtube频道：工具大师！)_156
+      - 🇺🇲 US_(Youtube频道：工具大师！)_78
+      - 🇺🇲 US_(Youtube频道：工具大师！)_120
+      - 🇺🇲 US_(Youtube频道：工具大师！)_97
+      - 🇺🇲 US_(Youtube频道：工具大师！)_143
+      - 🇺🇲 US_(Youtube频道：工具大师！)_117
+      - 🇺🇲 US_(Youtube频道：工具大师！)_96
+      - 🇺🇲 US_(Youtube频道：工具大师！)_125
+      - 🇺🇲 US_(Youtube频道：工具大师！)_138
+      - 🇺🇲 US_(Youtube频道：工具大师！)_24
+      - 🇺🇲 US_(Youtube频道：工具大师！)_152
+      - 🇺🇲 US_(Youtube频道：工具大师！)_50
+      - 🇺🇲 US_(Youtube频道：工具大师！) 7
+      - 🇺🇲 US_(Youtube频道：工具大师！)_8
+      - 🇺🇲 US_(Youtube频道：工具大师！)_36
+      - 🇺🇲 US_(Youtube频道：工具大师！)_18
+      - 🇺🇲 US_(Youtube频道：工具大师！)_13
+      - 🇺🇲 US_(Youtube频道：工具大师！)_48
+      - 🇺🇲 US_(Youtube频道：工具大师！)_23
+      - 🇺🇲 US_(Youtube频道：工具大师！)_35
+      - 🇺🇲 US_(Youtube频道：工具大师！)_150
+      - 🇺🇲 US_(Youtube频道：工具大师！)_99
+      - 🇺🇲 US_(Youtube频道：工具大师！)_38
+      - 🇺🇲 US_(Youtube频道：工具大师！)_59
+      - 🇺🇲 US_(Youtube频道：工具大师！)_105
+      - 🇺🇲 US_(Youtube频道：工具大师！)_109
+      - 🇺🇲 US_(Youtube频道：工具大师！)_157
+      - 🇺🇲 US_(Youtube频道：工具大师！)_51
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10
+      - 🇺🇲 US_(Youtube频道：工具大师！)_12
+      - 🇺🇲 US_(Youtube频道：工具大师！)_126
+      - 🇺🇲 US_(Youtube频道：工具大师！)_113
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_53
+      - 🇺🇲 US_(Youtube频道：工具大师！)_151
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -259,24 +770,97 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_(Youtube频道：工具大师！)_239
-      - US_(Youtube频道：工具大师！)_219
-      - US_(Youtube频道：工具大师！)_211
-      - US_(Youtube频道：工具大师！)_210
-      - US_(Youtube频道：工具大师！)_206
-      - US_(Youtube频道：工具大师！)_150
-      - US_(Youtube频道：工具大师！)_192
-      - US_(Youtube频道：工具大师！)_204
-      - US_(Youtube频道：工具大师！)_203
-      - US_(Youtube频道：工具大师！)_140
-      - US_(Youtube频道：工具大师！)_195
-      - US_(Youtube频道：工具大师！)_143
-      - US_(Youtube频道：工具大师！)_220
-      - US_(Youtube频道：工具大师！)_149
-      - US_(Youtube频道：工具大师！)_199
-      - US_(Youtube频道：工具大师！)_197
-      - US_(Youtube频道：工具大师！)_146
-      - "GB_(Youtube频道：工具大师！)\r"
+      - 🇯🇵 8月7日(Youtube频道：工具大师！)_54
+      - (自用机场ikuajing.cc)
+      - (自用机场ikuajing.cc) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)
+      - 🇺🇲 US_(Youtube频道：工具大师！) 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_188
+      - 🇺🇲 US_(Youtube频道：工具大师！)_162
+      - 🇺🇲 US_(Youtube频道：工具大师！)_37
+      - 🇺🇲 US_(Youtube频道：工具大师！) 3
+      - 🇺🇲 US_(Youtube频道：工具大师！)_123
+      - 🇺🇲 US_(Youtube频道：工具大师！)_21
+      - 🇺🇲 US_(Youtube频道：工具大师！)_46
+      - 🇺🇲 US_(Youtube频道：工具大师！)_121
+      - 🇺🇲 US_(Youtube频道：工具大师！)_91
+      - 🇺🇲 US_(Youtube频道：工具大师！)_124
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16
+      - 🇺🇲 US_(Youtube频道：工具大师！)_29
+      - 🇺🇲 US_(Youtube频道：工具大师！)_40
+      - 🇺🇲 US_(Youtube频道：工具大师！)_45
+      - 🇺🇲 US_(Youtube频道：工具大师！)_61
+      - 🇺🇲 US_(Youtube频道：工具大师！)_9
+      - 🇺🇲 US_(Youtube频道：工具大师！)_1
+      - 🇺🇲 US_(Youtube频道：工具大师！)_6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_22
+      - 🇺🇲 US_(Youtube频道：工具大师！)_52
+      - 🇺🇲 US_(Youtube频道：工具大师！)_69
+      - 🇺🇲 US_(Youtube频道：工具大师！)_154
+      - 🇺🇲 US_(Youtube频道：工具大师！)_183
+      - 🇺🇲 US_(Youtube频道：工具大师！)_49
+      - 🇺🇲 US_(Youtube频道：工具大师！)_34
+      - 🇺🇲 US_(Youtube频道：工具大师！)_133
+      - 🇺🇲 US_(Youtube频道：工具大师！) 4
+      - 🇺🇲 US_(Youtube频道：工具大师！)_136
+      - 🇺🇲 US_(Youtube频道：工具大师！)_144
+      - 🇺🇲 US_(Youtube频道：工具大师！) 5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_145
+      - 🇺🇲 US_(Youtube频道：工具大师！)_87
+      - 🇺🇲 US_(Youtube频道：工具大师！)_158
+      - 🇺🇲 US_(Youtube频道：工具大师！) 6
+      - 🇺🇲 US_(Youtube频道：工具大师！)_108
+      - 🇺🇲 US_(Youtube频道：工具大师！)_25
+      - 🇺🇲 US_(Youtube频道：工具大师！)_114
+      - 🇺🇲 US_(Youtube频道：工具大师！)_100
+      - 🇺🇲 US_(Youtube频道：工具大师！)_17
+      - 🇺🇲 US_(Youtube频道：工具大师！)_55
+      - 🇺🇲 US_(Youtube频道：工具大师！)_14
+      - 🇺🇲 US_(Youtube频道：工具大师！)_161
+      - 🇺🇲 US_(Youtube频道：工具大师！)_44
+      - 🇺🇲 US_(Youtube频道：工具大师！)_85
+      - 🇺🇲 US_(Youtube频道：工具大师！)_68
+      - 🇺🇲 US_(Youtube频道：工具大师！)_60
+      - 🇺🇲 US_(Youtube频道：工具大师！)_5
+      - 🇺🇲 US_(Youtube频道：工具大师！)_139
+      - 🇺🇲 US_(Youtube频道：工具大师！)_156
+      - 🇺🇲 US_(Youtube频道：工具大师！)_78
+      - 🇺🇲 US_(Youtube频道：工具大师！)_120
+      - 🇺🇲 US_(Youtube频道：工具大师！)_97
+      - 🇺🇲 US_(Youtube频道：工具大师！)_143
+      - 🇺🇲 US_(Youtube频道：工具大师！)_117
+      - 🇺🇲 US_(Youtube频道：工具大师！)_96
+      - 🇺🇲 US_(Youtube频道：工具大师！)_125
+      - 🇺🇲 US_(Youtube频道：工具大师！)_138
+      - 🇺🇲 US_(Youtube频道：工具大师！)_24
+      - 🇺🇲 US_(Youtube频道：工具大师！)_152
+      - 🇺🇲 US_(Youtube频道：工具大师！)_50
+      - 🇺🇲 US_(Youtube频道：工具大师！) 7
+      - 🇺🇲 US_(Youtube频道：工具大师！)_8
+      - 🇺🇲 US_(Youtube频道：工具大师！)_36
+      - 🇺🇲 US_(Youtube频道：工具大师！)_18
+      - 🇺🇲 US_(Youtube频道：工具大师！)_13
+      - 🇺🇲 US_(Youtube频道：工具大师！)_48
+      - 🇺🇲 US_(Youtube频道：工具大师！)_23
+      - 🇺🇲 US_(Youtube频道：工具大师！)_35
+      - 🇺🇲 US_(Youtube频道：工具大师！)_150
+      - 🇺🇲 US_(Youtube频道：工具大师！)_99
+      - 🇺🇲 US_(Youtube频道：工具大师！)_38
+      - 🇺🇲 US_(Youtube频道：工具大师！)_59
+      - 🇺🇲 US_(Youtube频道：工具大师！)_105
+      - 🇺🇲 US_(Youtube频道：工具大师！)_109
+      - 🇺🇲 US_(Youtube频道：工具大师！)_157
+      - 🇺🇲 US_(Youtube频道：工具大师！)_51
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93
+      - 🇺🇲 US_(Youtube频道：工具大师！)_16 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10
+      - 🇺🇲 US_(Youtube频道：工具大师！)_12
+      - 🇺🇲 US_(Youtube频道：工具大师！)_126
+      - 🇺🇲 US_(Youtube频道：工具大师！)_113
+      - 🇺🇲 US_(Youtube频道：工具大师！)_10 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_93 2
+      - 🇺🇲 US_(Youtube频道：工具大师！)_53
+      - 🇺🇲 US_(Youtube频道：工具大师！)_151
 
 rules:
 # 本地/局域网地址
